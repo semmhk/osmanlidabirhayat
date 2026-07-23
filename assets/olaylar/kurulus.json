@@ -2064,5 +2064,283 @@
         "sonuc": "Hüdavendigar'ın adı halk arasında saygıyla anılmaya devam edecekti."
       }
     ]
+  },
+  {
+    "id": "kurulus_094",
+    "donem": "kurulus",
+    "alt_donem": "yildirim_bayezid",
+    "tarih_yil_min": 1390,
+    "tarih_yil_max": 1392,
+    "yas_min": 10,
+    "yas_max": 70,
+    "tek_seferlik": true,
+    "metin": "Yıldırım Bayezid'in hızlı seferleri birbiri ardına haber getiriyor: Germiyan, Aydın, Saruhan, Menteşe, Hamitoğulları ve Candaroğulları beylikleri tek tek Osmanlı topraklarına katıldı. Anadolu'da Türk siyasi birliği ilk kez bu denli sağlanmış oldu.",
+    "secenekler": [
+      {
+        "metin": "Bu hızlı genişlemeden gurur duy",
+        "etki": { "mutluluk": 4, "itibar": 1 },
+        "sonuc": "'Yıldırım' lakabının nedenini şimdi daha iyi anlıyordun — bu denli hızlı sefer yapan bir hükümdar görülmemişti."
+      },
+      {
+        "metin": "Bu denli hızlı genişlemenin risklerini düşün",
+        "etki": { "zeka": 2, "mutluluk": -1 },
+        "sonuc": "Bazı yaşlılar 'çok hızlı büyüyen bir ağacın kökleri zayıf olur' diye endişelerini dile getiriyordu."
+      }
+    ]
+  },
+  {
+    "id": "kurulus_095",
+    "donem": "kurulus",
+    "alt_donem": "yildirim_bayezid",
+    "tarih_yil_min": 1392,
+    "tarih_yil_max": 1395,
+    "yas_min": 10,
+    "yas_max": 70,
+    "tek_seferlik": true,
+    "metin": "Genişleyen Anadolu topraklarının yönetimi için Kütahya merkezli yeni bir Beylerbeyilik kuruldu, başına Kara Timurtaş Paşa getirildi.",
+    "secenekler": [
+      {
+        "metin": "Yeni idari düzeni takdir et",
+        "etki": { "zeka": 2 },
+        "sonuc": "Artık Rumeli gibi Anadolu da kendi beylerbeyiyle yönetiliyordu. Devlet olgunlaşmaya devam ediyordu."
+      },
+      {
+        "metin": "Günlük işine devam et",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "İdari düzenlemeler üst kademede kalıyordu."
+      }
+    ]
+  },
+  {
+    "id": "kurulus_096",
+    "donem": "kurulus",
+    "alt_donem": "yildirim_bayezid",
+    "tarih_yil_min": 1392,
+    "tarih_yil_max": 1392,
+    "yas_min": 16,
+    "yas_max": 50,
+    "tek_seferlik": true,
+    "gerekli_bayrak": "meslek_seyfiye",
+    "metin": "Kadı Burhaneddin Beyliği ile Kırkdilim'de yapılan savaşta Osmanlı kuvvetleri bu kez yenildi — Şehzade Ertuğrul da bu savaşta şehit düştü. Her sefer zaferle bitmiyormuş.",
+    "secenekler": [
+      {
+        "metin": "Bu sefere katılmıştın, yaralı da olsa döndün",
+        "etki": { "saglik": -4, "mutluluk": -3, "sans_gerekli": true },
+        "sonuc": "Yenilgi acı vericiydi ama devlet bundan ders çıkarıp toparlandı. Her zafer kadar her yenilgi de bir şeyler öğretiyordu."
+      },
+      {
+        "metin": "Bu sefere katılmamıştın, haberi uzaktan aldın",
+        "etki": { "mutluluk": -2 },
+        "sonuc": "Şehzadenin şehadeti tüm orduyu ve halkı derinden üzdü."
+      }
+    ]
+  },
+  {
+    "id": "kurulus_097",
+    "donem": "kurulus",
+    "alt_donem": "yildirim_bayezid",
+    "tarih_yil_min": 1397,
+    "tarih_yil_max": 1397,
+    "yas_min": 16,
+    "yas_max": 50,
+    "tek_seferlik": true,
+    "gerekli_bayrak": "meslek_seyfiye",
+    "metin": "Karamanoğulları Beyliği ile uzun süredir devam eden gerginlik, Akçay'da yapılan savaşla sonuçlandı. Osmanlı bu kez galip geldi.",
+    "secenekler": [
+      {
+        "metin": "Sefere katıl",
+        "etki": { "para": 4, "itibar": 3, "saglik": -2, "sans_gerekli": true },
+        "sonuc": "Karamanoğulları toprakları da Osmanlı'ya katıldı. Kırkdilim'in acısı bir nebze çıkarılmıştı."
+      },
+      {
+        "metin": "Sefere katılmadın, evde haberi bekledin",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Zafer haberi geldiğinde köyde sevinç yaşandı."
+      }
+    ]
+  },
+  {
+    "id": "kurulus_098",
+    "donem": "kurulus",
+    "alt_donem": "yildirim_bayezid",
+    "tarih_yil_min": 1396,
+    "tarih_yil_max": 1396,
+    "yas_min": 8,
+    "yas_max": 70,
+    "tek_seferlik": true,
+    "metin": "Niğbolu zaferinin ardından Mısır'daki Memlük Halifesi, Yıldırım Bayezid'e 'Sultan-ı İklim-i Rum' (Rum Diyarının Sultanı) unvanını verdi — bu, halifenin de Osmanlı gücünü tanıdığının bir işaretiydi.",
+    "secenekler": [
+      {
+        "metin": "Bu unvanı devletin büyüklüğünün bir kanıtı say",
+        "etki": { "mutluluk": 3, "itibar": 1 },
+        "sonuc": "Uzak Mısır'dan gelen bu tanıma, Osmanlı'nın artık küçük bir uç beyliği olmadığının kanıtıydı."
+      },
+      {
+        "metin": "Unvanlar seni pek ilgilendirmiyor",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Saray unvanları senin gündelik hayatını değiştirmiyordu."
+      }
+    ]
+  },
+  {
+    "id": "kurulus_099",
+    "donem": "kurulus",
+    "alt_donem": "yildirim_bayezid",
+    "tarih_yil_min": 1390,
+    "tarih_yil_max": 1400,
+    "yas_min": 15,
+    "yas_max": 50,
+    "tek_seferlik": false,
+    "metin": "Gelibolu'da yeni ve büyük bir tersane kuruldu, Saruca Paşa ilk Kaptan-ı Derya (donanma komutanı) olarak atandı. Denizcilik bilenler için iş fırsatı doğdu.",
+    "secenekler": [
+      {
+        "metin": "Tersanede gemi yapımında çalışmaya başla",
+        "etki": { "para": 4, "zeka": 2 },
+        "sonuc": "Deniz gücümüz artık daha organize bir şekilde büyüyordu. Karesili denizcilerin bilgisi burada işe yarıyordu."
+      },
+      {
+        "metin": "Kendi işinde kalmayı tercih et",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Herkes kendi bildiği zanaatta kalmak isterdi."
+      }
+    ]
+  },
+  {
+    "id": "kurulus_100",
+    "donem": "kurulus",
+    "alt_donem": "yildirim_bayezid",
+    "tarih_yil_min": 1390,
+    "tarih_yil_max": 1390,
+    "yas_min": 8,
+    "yas_max": 70,
+    "tek_seferlik": true,
+    "metin": "Sırp despotu Lazar'ın kızı Prenses Maria (Despina Hatun), barış antlaşması gereği Yıldırım Bayezid ile evlendirildi. Bu evlilik, Osmanlı-Sırp ilişkilerinde bir yumuşama sağlıyor.",
+    "secenekler": [
+      {
+        "metin": "Bu barışçıl ittifakı takdir et",
+        "etki": { "zeka": 2, "mutluluk": 2 },
+        "sonuc": "Kosova'nın acı hatırasından sonra bu evlilik, iki taraf arasında bir köprü kurdu."
+      },
+      {
+        "metin": "Sıradan bir saray haberi gibi geç",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Saray evlilikleri sıkça konuşulurdu."
+      }
+    ]
+  },
+  {
+    "id": "kurulus_101",
+    "donem": "kurulus",
+    "alt_donem": "yildirim_bayezid",
+    "tarih_yil_min": 1396,
+    "tarih_yil_max": 1398,
+    "yas_min": 8,
+    "yas_max": 70,
+    "tek_seferlik": true,
+    "metin": "Niğbolu zaferinin ardından Bosna Hersek Beyliği de Osmanlı koruyuculuğunu (tabiiyetini) kabul etti.",
+    "secenekler": [
+      {
+        "metin": "Balkanlar'daki genişlemeyi memnuniyetle karşıla",
+        "etki": { "mutluluk": 2 },
+        "sonuc": "Sınırlarımız her geçen yıl biraz daha genişliyordu."
+      },
+      {
+        "metin": "Günlük hayatına devam et",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Uzak diyarlardaki gelişmeler halkın gündelik hayatını hemen etkilemiyordu."
+      }
+    ]
+  },
+  {
+    "id": "kurulus_102",
+    "donem": "kurulus",
+    "alt_donem": "yildirim_bayezid",
+    "tarih_yil_min": 1399,
+    "tarih_yil_max": 1400,
+    "yas_min": 15,
+    "yas_max": 60,
+    "tek_seferlik": true,
+    "metin": "Doğudan gelen büyük fatih Timur ile aramızdaki gerginlik artıyor. Yıldırım Bayezid'e sığınan Karakoyunlu hükümdarı Kara Yusuf'u Timur'a teslim etmemesi, iki büyük gücü karşı karşıya getiriyor.",
+    "secenekler": [
+      {
+        "metin": "Gerginliği endişeyle takip et",
+        "etki": { "mutluluk": -2, "zeka": 2 },
+        "sonuc": "İki dev güç arasında sıkışan Anadolu, zor bir döneme giriyordu."
+      },
+      {
+        "metin": "Bu meseleyi büyütmeden günlük hayatına devam et",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Siyaset büyüktü ama gündelik ekmek kavgası da devam ediyordu."
+      }
+    ]
+  },
+  {
+    "id": "kurulus_103",
+    "donem": "kurulus",
+    "alt_donem": "yildirim_bayezid",
+    "tarih_yil_min": 1400,
+    "tarih_yil_max": 1400,
+    "yas_min": 10,
+    "yas_max": 70,
+    "tek_seferlik": true,
+    "metin": "Korkunç bir haber Anadolu'yu dolaştı: Timur'un orduları Sivas'ı ele geçirmiş ve şehirde ağır bir katliam yapmış. Şehzade Ertuğrul'un (Yıldırım'ın oğlu) da bu şehrin valisi olduğu söyleniyordu.",
+    "secenekler": [
+      {
+        "metin": "Bu haberi dehşetle karşıla, ailenle güvenlik önlemi al",
+        "etki": { "mutluluk": -6, "saglik": -1 },
+        "sonuc": "Timur'un acımasızlığı herkesi dehşete düşürdü. Doğudan gelen tehlike artık gerçekti."
+      },
+      {
+        "metin": "Haberin abartılı olduğunu umarak sakin kalmaya çalış",
+        "etki": { "mutluluk": -3 },
+        "sonuc": "Ne yazık ki haberler doğruydu. Endişe tüm Anadolu'yu sarmıştı."
+      }
+    ]
+  },
+  {
+    "id": "kurulus_104",
+    "donem": "kurulus",
+    "alt_donem": "yildirim_bayezid",
+    "tarih_yil_min": 1391,
+    "tarih_yil_max": 1391,
+    "yas_min": 10,
+    "yas_max": 60,
+    "tek_seferlik": true,
+    "metin": "Yıldırım Bayezid, Bizans İmparatoru'ndan İstanbul'da bir Türk mahallesi, bir cami ve artan vergi istedi. İmparator kabul etmeyince şehir ilk kez kuşatıldı — 1391-1400 arasında bu kuşatma tam dört kez tekrarlanacakmış.",
+    "secenekler": [
+      {
+        "metin": "Kuşatma seferine katkıda bulun",
+        "etki": { "para": -2, "itibar": 1 },
+        "sonuc": "İmparator sonunda istekleri kabul etti, kuşatma bu sefer kaldırıldı. Ama mesele bitmiş değildi."
+      },
+      {
+        "metin": "Uzak bir meseleymiş gibi izle",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "İstanbul'un fethi bir gün gerçekleşecekti ama bu, henüz o gün değildi."
+      }
+    ]
+  },
+  {
+    "id": "kurulus_105",
+    "donem": "kurulus",
+    "alt_donem": "yildirim_bayezid",
+    "tarih_yil_min": 1400,
+    "tarih_yil_max": 1402,
+    "yas_min": 15,
+    "yas_max": 60,
+    "tek_seferlik": false,
+    "metin": "Erzincan Beyliği de Timur tarafından işgal edildi. Anadolu'nun doğusu artık tamamen Timur tehdidi altında, seferberlik ilan edildiği söyleniyor.",
+    "secenekler": [
+      {
+        "metin": "Sefere hazırlığa katkıda bulun",
+        "etki": { "para": -3, "mutluluk": -1 },
+        "sonuc": "Herkes elinden geleni verdi. Büyük bir çatışmanın yaklaştığı hissediliyordu."
+      },
+      {
+        "metin": "Ailenle birlikte güvenli bir yere çekilmeyi düşün",
+        "etki": { "para": -2, "saglik": 1 },
+        "sonuc": "Tedirginlik büyüyordu. Bazı aileler şimdiden daha güvenli bölgelere göç etmeye başlamıştı."
+      }
+    ]
   }
 ]
