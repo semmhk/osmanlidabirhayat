@@ -1675,5 +1675,28 @@
         "sonuc": "Herkesin kendi zamanı vardı. Sen henüz hazır hissetmiyordun."
       }
     ]
+  },
+  {
+    "id": "kurulus_077",
+    "donem": "kurulus",
+    "alt_donem": "orhan_gazi",
+    "tarih_yil_min": 1362,
+    "tarih_yil_max": 1362,
+    "yas_min": 5,
+    "yas_max": 80,
+    "tek_seferlik": true,
+    "metin": "Bursa'da uzun süredir hüküm süren Orhan Bey, Mart ayında vefat etti. Babasından devraldığı küçük beyliği kat kat büyütmüş, devleti bir teşkilata kavuşturmuştu. Rumeli'de orduların başında bulunan oğlu Murad Bey, artık yeni bey olarak anılıyor.",
+    "secenekler": [
+      {
+        "metin": "Orhan Bey'in ardından hayırla yad et",
+        "etki": { "mutluluk": -3, "itibar": 2 },
+        "sonuc": "Halkın çok sevdiği, aralarına karışıp dertlerini dinleyen bir beydi. Onun kurduğu düzen, ardından da yaşamaya devam edecekti."
+      },
+      {
+        "metin": "Yeni beyin (Murad Bey) döneminde neler olacağını merak et",
+        "etki": { "zeka": 2, "mutluluk": -1 },
+        "sonuc": "Murad Bey, Rumeli fetihleriyle zaten adından söz ettirmişti. Onun döneminde neler olacağı merak konusuydu."
+      }
+    ]
   }
 ]

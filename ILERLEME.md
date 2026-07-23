@@ -4,8 +4,8 @@
 
 ## MEVCUT DURUM
 
-**Aktif Faz:** Adım 1 & Adım 4 (Proje İskeleti + 76 Olaylık Kuruluş Dönemi & Orhan Gazi Alt-Dönemi + 14 Başarım Sistemi + Kalemiye & Boşanma Zincirleri + Birim Testleri + GitHub Entegrasyonu) ✅
-**Son güncelleme:** 23 Temmuz 2026
+**Aktif Faz:** Adım 1 & Adım 4 (Proje İskeleti + 77 Olaylık Kuruluş Dönemi & Orhan Gazi Alt-Dönemi TAM TAMAMLANDI + 14 Başarım Sistemi + Kalemiye & Boşanma Zincirleri + Birim Testleri + GitHub Entegrasyonu) ✅
+**Son güncelleme:** 24 Temmuz 2026
 
 ---
 
@@ -28,19 +28,22 @@
 - [x] Osmanlı meslek depoları yazıldı (`lib/modeller/meslek.dart`).
 - [x] `OlayYukleyici` tarih yılı min/max ve `alt_donem` şema doğrulayıcısı ile yazıldı (`lib/motor/olay_yukleyici.dart`).
 - [x] `OyunMotoru` takvim yılı ilerletme, tarihsel ölüm riski, `agirlikliOlaySec` (10x-25x), statik `secenekUygula` ve 2 yıl toleranslı garantili terfi kuralı ile yazıldı (`lib/motor/oyun_motoru.dart`).
+- [x] **Orhan Gazi alt-dönemi TAM TAMAMLANDI: 20 olay** (`kurulus_058` - `kurulus_073`, `kurulus_077` — İlk Divan, Yaya & Müsellem, gümüş akçe, İznik Medresesi, Maltepe Savaşı, Karesi katılımı, Karamürsel tersanesi, Kalemiye kâtipliği ve Orhan Bey'in Vefatı / I. Murad'a geçiş köprüsü olayı).
+- [x] **Osman Gazi alt-dönemi TAM TAMAMLANDI: 17 olay** (`kurulus_041` - `kurulus_057`, `alt_donem: "osman_gazi"` — Karacahisar İlk Hutbe ve Dursun Fakih Kadılığı dahil).
 - [x] **Sistem boşlukları kapatıldı: kalemiye, 14 başarım, boşanma/nesil içeriği**:
-  - **14 Osmanlı-uyumlu Başarım sistemi** eklendi (`assets/basarimlar.json`, `lib/modeller/basarim.dart`, `lib/motor/basarim_kontrolcusu.dart`). İndeks bazlı en üst kademe meslek kontrolleri (`lonca_ustabasi`, `divan_efendisi`, `kadiasker`, `serdar_aga`), `sifirdan_zirveye`, `ikinci_bahar`, `ahalinin_gururu`, `ulu_kisi`, `aile_ocagi`, `yalniz_kurt`, `zengin_olum`, `emektar`, `uzun_omur`, `ilk_nesil` doğrulandı.
-  - **Kalemiye Meslek Zinciri**: Divan kâtipliği olayı eklendi (`kurulus_073`, `meslekAtama: "kalemiye"`).
-  - **Boşanma / Eşin Vefatı / İkinci Nikah Zinciri**: 3 olay eklendi (`kurulus_074`, `kurulus_075`, `kurulus_076` — `dul_bosanmis` -> `ikinci_evlilik` uçtan uca).
-  - **UI Ekranları**: `BasarimlarEkrani` ve `OlumEkrani` ("Yeni Başarım" bildirimi ve Ferman-ı Vefat özeti) oluşturuldu (`lib/ekranlar/`).
-- [x] **Kuruluş dönemi: 76 olay TAMAMLANDI** (`assets/olaylar/kurulus.json` - 76 benzersiz ID'li, tarih ve yaş filtreli olay).
-- [x] Birim testleri yazıldı (`test/sistem_bosluklari_test.dart` & `test/olay_tarih_filtre_test.dart` — 76 olay, Kalemiye ataması, 14 başarım koşulu ve boşanma/ikinci nikah zinciri). Toplam **11/11 test YEŞİL ✅**. `flutter analyze` **0 hata / 0 uyarı ✅**.
+  - 14 Osmanlı-uyumlu Başarım sistemi eklendi (`assets/basarimlar.json`, `lib/modeller/basarim.dart`, `lib/motor/basarim_kontrolcusu.dart`).
+  - Kalemiye Meslek Zinciri eklendi (`kurulus_073`).
+  - Boşanma / Eşin Vefatı / İkinci Nikah Zinciri eklendi (`kurulus_074`, `kurulus_075`, `kurulus_076`).
+  - UI Ekranları: `BasarimlarEkrani` ve `OlumEkrani` eklendi (`lib/ekranlar/`).
+- [x] **Kuruluş dönemi: 77 olay TAMAMLANDI** (`assets/olaylar/kurulus.json` - 77 benzersiz ID'li, tarih ve yaş filtreli olay).
+- [x] Birim testleri yazıldı (`test/sistem_bosluklari_test.dart` & `test/olay_tarih_filtre_test.dart` — 77 olay, Kalemiye ataması, 14 başarım koşulu ve boşanma/ikinci nikah zinciri). Toplam **11/11 test YEŞİL ✅**. `flutter analyze` **0 hata / 0 uyarı ✅**.
 - [x] GitHub Reposu: `https://github.com/semmhk/osmanlidabirhayat.git` (main branch).
 
 ---
 
 ## KALAN İŞLER / SONRAKİ ADIMLAR
 
+- [ ] I. Murad (Hüdavendigâr) ve I. Bayezid (Yıldırım) alt-dönem olaylarının eklenmesi.
 - [ ] Yükselme, Duraklama, Gerileme ve Dağılma dönemi padişah listelerinin doğrulanarak eklenmesi.
 - [ ] UI Ekranlarının (Ana Menü, Oyun Ekranı) ferman estetiğiyle entegrasyonunun tamamlanması.
 - [ ] Hive entegrasyonu ve geçmiş hayatlar kaydı.
