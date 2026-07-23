@@ -159,6 +159,13 @@ class OlayYukleyici {
       }
     }
 
+    // Alt Dönem Doğrulaması (Opsiyonel String)
+    if (json.containsKey('alt_donem') && json['alt_donem'] != null) {
+      if (json['alt_donem'] is! String) {
+        return '"alt_donem" metin (String) olmak zorundadır';
+      }
+    }
+
     if (!json.containsKey('metin') || json['metin'] is! String || (json['metin'] as String).trim().isEmpty) {
       return '"metin" alanı eksik veya boş';
     }

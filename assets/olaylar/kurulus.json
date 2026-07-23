@@ -831,5 +831,351 @@
         "sonuc": "Artık mahallede sana 'gazi' diye hitap ediliyor. Bu, kolay kazanılmayan bir şerefti."
       }
     ]
+  },
+  {
+    "id": "kurulus_041",
+    "donem": "kurulus",
+    "alt_donem": "osman_gazi",
+    "tarih_yil_min": 1277,
+    "tarih_yil_max": 1290,
+    "yas_min": 8,
+    "yas_max": 60,
+    "tek_seferlik": true,
+    "metin": "Bilecik'teki Şeyh Edebali'nin tekkesinde konaklayan bir yiğidin (Osman Bey) tuhaf bir rüya gördüğü, şeyhin bu rüyayı 'sana ve soyuna hükümranlık verildi' diye yorumladığı söyleniyor.",
+    "secenekler": [
+      {
+        "metin": "Bu haberi bir işaret sayıp Osman Bey'in yanına yaklaşmaya çalış",
+        "etki": { "itibar": 3, "mutluluk": 2 },
+        "sonuc": "Tekkedeki dervişler arasında bu rüyanın konuşulması seni de heyecanlandırdı."
+      },
+      {
+        "metin": "Söylentiye kulak asma, günlük işine bak",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Rüya hikayeleri sık anlatılırdı. Kaçı gerçek kaçı efsane, kimse tam bilemezdi."
+      }
+    ]
+  },
+  {
+    "id": "kurulus_042",
+    "donem": "kurulus",
+    "alt_donem": "osman_gazi",
+    "tarih_yil_min": 1288,
+    "tarih_yil_max": 1288,
+    "yas_min": 10,
+    "yas_max": 60,
+    "tek_seferlik": true,
+    "metin": "Osman Bey'in kuvvetleri Karacahisar'ı fethetti ve burayı beyliğin yeni merkezi yaptı. Duyduğuna göre buraya ilk kez bir kadı da atanmış.",
+    "secenekler": [
+      {
+        "metin": "Yeni merkeze taşınmayı düşün",
+        "etki": { "para": -2, "mutluluk": 3 },
+        "sonuc": "Karacahisar canlı bir pazar yeri olmaya başlamıştı. Fırsat kokusu vardı."
+      },
+      {
+        "metin": "Bulunduğun yerde kal",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Değişim herkese göre değildi. Sen bildiğin topraklarda kalmayı seçtin."
+      }
+    ]
+  },
+  {
+    "id": "kurulus_043",
+    "donem": "kurulus",
+    "alt_donem": "osman_gazi",
+    "tarih_yil_min": 1290,
+    "tarih_yil_max": 1326,
+    "yas_min": 12,
+    "yas_max": 40,
+    "tek_seferlik": false,
+    "metin": "Bölgedeki bir ahi zaviyesi yeni üye arıyor. Şeyh Edebali'nin de bu çevreden olduğu, Osman Bey'in kendisinin de ahilere yakın durduğu söyleniyor.",
+    "secenekler": [
+      {
+        "metin": "Zaviyeye katıl, ahilik yoluna gir",
+        "etki": { "zeka": 4, "itibar": 3 },
+        "meslek_atama": "ahilik",
+        "bayrak_ekle": "meslek_ahilik",
+        "sonuc": "Ahilik yalnızca bir meslek değil, bir yaşam biçimiydi. Fütüvvet erdemlerini öğrenmeye başladın."
+      },
+      {
+        "metin": "Kendi işinle/tarlanla ilgilenmeye devam et",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Herkesin bir yolu vardı. Sen kendi bildiğin yoldan devam ettin."
+      }
+    ]
+  },
+  {
+    "id": "kurulus_044",
+    "donem": "kurulus",
+    "alt_donem": "osman_gazi",
+    "tarih_yil_min": 1299,
+    "tarih_yil_max": 1299,
+    "yas_min": 15,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": "meslek_seyfiye",
+    "metin": "Bilecik ve Yarhisar tekfurlarının düğün tuzağına karşı Osman Bey'in askerlerini kadın kılığında kaleye sokarak Bilecik'i ele geçirdiği anlatılıyor. Baskına katılman isteniyor.",
+    "secenekler": [
+      {
+        "metin": "Baskına katıl",
+        "etki": { "para": 4, "itibar": 5, "saglik": -2, "sans_gerekli": true },
+        "sonuc": "Kale nöbetçiler dışında boştu, hile işe yaradı. Bilecik artık Osmanlı toprağıydı."
+      },
+      {
+        "metin": "Bu riskli işe karışma",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Baskının başarıyla sonuçlandığını sonradan duydun."
+      }
+    ]
+  },
+  {
+    "id": "kurulus_045",
+    "donem": "kurulus",
+    "alt_donem": "osman_gazi",
+    "tarih_yil_min": 1299,
+    "tarih_yil_max": 1299,
+    "yas_min": 15,
+    "yas_max": 50,
+    "tek_seferlik": true,
+    "gerekli_bayrak": "meslek_seyfiye",
+    "metin": "Komutan Turgut Alp'in İnegöl üzerine yürüdüğü, senin de bu sefere katılman istendiği haberi geldi.",
+    "secenekler": [
+      {
+        "metin": "Sefere katıl",
+        "etki": { "para": 3, "saglik": -2, "sans_gerekli": true },
+        "sonuc": "İnegöl alındı. Yorucu ama gururlu bir seferdi."
+      },
+      {
+        "metin": "Bu sefer köyünde kal",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Zafer haberi köye ulaştığında herkes sevindi."
+      }
+    ]
+  },
+  {
+    "id": "kurulus_046",
+    "donem": "kurulus",
+    "alt_donem": "osman_gazi",
+    "tarih_yil_min": 1302,
+    "tarih_yil_max": 1302,
+    "yas_min": 15,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "metin": "Bizans tekfurları birleşip Osman Bey'in üzerine geldi. Koyunhisar'da büyük bir meydan savaşı oldu.",
+    "secenekler": [
+      {
+        "metin": "Sefere katılıp savaşa gir",
+        "etki": { "para": 4, "itibar": 4, "saglik": -3, "sans_gerekli": true },
+        "sonuc": "Zafer Osmanlı'nındı. Bu, ilk kez Bizans'la açık meydanda kazanılan büyük bir zaferdi."
+      },
+      {
+        "metin": "Köyde kal, tarlanı koru",
+        "etki": { "mutluluk": -1 },
+        "sonuc": "Zafer haberi geldiğinde sevindin ama savaşa katılan komşularını uzaktan dinledin."
+      }
+    ]
+  },
+  {
+    "id": "kurulus_047",
+    "donem": "kurulus",
+    "alt_donem": "osman_gazi",
+    "tarih_yil_min": 1301,
+    "tarih_yil_max": 1305,
+    "yas_min": 10,
+    "yas_max": 70,
+    "tek_seferlik": false,
+    "metin": "Yenişehir'e yeni bir yerleşim kuruluyor, çevre köylerden aileler buraya yerleşmeye teşvik ediliyor.",
+    "secenekler": [
+      {
+        "metin": "Yeni yerleşime katıl",
+        "etki": { "para": 2, "mutluluk": 2 },
+        "sonuc": "Yeni kurulan yerleşimde bir ev/dükkan sahibi oldun."
+      },
+      {
+        "metin": "Köklerini bırakma, eski yerinde kal",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Bilinen topraklar güven veriyordu."
+      }
+    ]
+  },
+  {
+    "id": "kurulus_048",
+    "donem": "kurulus",
+    "alt_donem": "osman_gazi",
+    "tarih_yil_min": 1304,
+    "tarih_yil_max": 1304,
+    "yas_min": 16,
+    "yas_max": 50,
+    "tek_seferlik": true,
+    "gerekli_bayrak": "meslek_seyfiye",
+    "metin": "Sakarya vadisindeki kaleler (Lefke, Mekece, Akhisar, Geyve) üzerine düzenlenen sefere katılman isteniyor.",
+    "secenekler": [
+      {
+        "metin": "Sefere katıl",
+        "etki": { "para": 4, "saglik": -2, "sans_gerekli": true },
+        "sonuc": "Bir bir kaleler düştü. Bölge Osmanlı topraklarına katılıyordu."
+      },
+      {
+        "metin": "Bu sefer katılma",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Fetih haberleri arka arkaya geldi, sen köyde kaldın."
+      }
+    ]
+  },
+  {
+    "id": "kurulus_049",
+    "donem": "kurulus",
+    "alt_donem": "osman_gazi",
+    "tarih_yil_min": 1299,
+    "tarih_yil_max": 1326,
+    "yas_min": 15,
+    "yas_max": 40,
+    "tek_seferlik": true,
+    "metin": "Ailen kışları Söğüt'te, yazları Domaniç yaylasında geçirme geleneğini sürdürüyor. Ama fethedilen yeni topraklarda yerleşik hayata geçme fırsatı var.",
+    "secenekler": [
+      {
+        "metin": "Yerleşik hayata geç, toprağa bağlan",
+        "etki": { "para": 3, "itibar": 1 },
+        "sonuc": "Artık sabit bir toprağın vardı. Güvenlik kazandın."
+      },
+      {
+        "metin": "Göçebe geleneği sürdür",
+        "etki": { "mutluluk": 4, "saglik": 1 },
+        "sonuc": "Yaylanın temiz havası ve özgürlüğü hâlâ cazipti."
+      }
+    ]
+  },
+  {
+    "id": "kurulus_050",
+    "donem": "kurulus",
+    "alt_donem": "osman_gazi",
+    "tarih_yil_min": 1315,
+    "tarih_yil_max": 1316,
+    "yas_min": 15,
+    "yas_max": 60,
+    "tek_seferlik": true,
+    "metin": "Osman Bey'in kuvvetleri Bursa'yı kuşatmaya başladı. Kuşatmanın uzun süreceği konuşuluyor.",
+    "secenekler": [
+      {
+        "metin": "Kuşatmaya erzak/destek gönder",
+        "etki": { "para": -2, "itibar": 2 },
+        "sonuc": "Uzun bir kuşatma için erzak nakliyesi kesintisiz sürdü."
+      },
+      {
+        "metin": "Günlük hayatına devam et",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Kuşatma yıllarca sürecekti, herkes kendi hayatına bakmalıydı."
+      }
+    ]
+  },
+  {
+    "id": "kurulus_051",
+    "donem": "kurulus",
+    "alt_donem": "osman_gazi",
+    "tarih_yil_min": 1320,
+    "tarih_yil_max": 1324,
+    "yas_min": 10,
+    "yas_max": 70,
+    "tek_seferlik": true,
+    "metin": "Osman Bey'in sağlığı bozulmaya başladı. Askeri harekatın başına oğlu Orhan Bey geçiyor.",
+    "secenekler": [
+      {
+        "metin": "Yeni komutana bağlılığını göster",
+        "etki": { "itibar": 2 },
+        "sonuc": "Orhan Bey kararlı görünüyordu. Halk ona güven duydu."
+      },
+      {
+        "metin": "Değişimi endişeyle izle",
+        "etki": { "mutluluk": -1 },
+        "sonuc": "Liderlik değişimi tedirginlik getirdi."
+      }
+    ]
+  },
+  {
+    "id": "kurulus_052",
+    "donem": "kurulus",
+    "alt_donem": "osman_gazi",
+    "tarih_yil_min": 1290,
+    "tarih_yil_max": 1326,
+    "yas_min": 20,
+    "yas_max": 45,
+    "tek_seferlik": true,
+    "gerekli_bayrak": "meslek_ahilik",
+    "metin": "Ahi ustası, yeterli emek ve olgunluğa ulaştığını söyleyip seni kalfalığa terfi ettirmek istiyor.",
+    "secenekler": [
+      {
+        "metin": "Terfiyi kabul et, yemin et",
+        "etki": { "itibar": 5, "zeka": 3 },
+        "sonuc": "Artık bir ahi kalfasısın. Fütüvvet erdemlerine bağlı kalacağına söz verdin."
+      }
+    ]
+  },
+  {
+    "id": "kurulus_053",
+    "donem": "kurulus",
+    "alt_donem": "osman_gazi",
+    "tarih_yil_min": 1326,
+    "tarih_yil_max": 1326,
+    "yas_min": 5,
+    "yas_max": 80,
+    "tek_seferlik": true,
+    "metin": "On yıla yakın süren kuşatmanın ardından Bursa teslim oldu. Ama kurucu bey Osman Gazi vefat etti.",
+    "secenekler": [
+      {
+        "metin": "Hem zaferi kutla hem yasını tut",
+        "etki": { "mutluluk": 2, "itibar": 2 },
+        "sonuc": "Büyük bir zafer ile büyük bir kayıp aynı anda yaşandı."
+      },
+      {
+        "metin": "Sessizce yasını tut",
+        "etki": { "mutluluk": -2 },
+        "sonuc": "Kurucu beyin ölümü herkesi derinden etkiledi."
+      }
+    ]
+  },
+  {
+    "id": "kurulus_054",
+    "donem": "kurulus",
+    "alt_donem": "osman_gazi",
+    "tarih_yil_min": 1290,
+    "tarih_yil_max": 1326,
+    "yas_min": 18,
+    "yas_max": 60,
+    "tek_seferlik": false,
+    "metin": "Yeni fethedilen topraklarda vergi tahsildarı geldi. Düzenli vergi toplama çabası var.",
+    "secenekler": [
+      {
+        "metin": "Vergini zamanında öde",
+        "etki": { "para": -2, "itibar": 1 },
+        "sonuc": "Düzenli ödeme yapman beyliğin gözünde güvenilir olmanı sağladı."
+      },
+      {
+        "metin": "Ödemeyi geciktirmeye çalış",
+        "etki": { "para": 1, "itibar": -2 },
+        "sonuc": "Kısa vadede para kaldı cebinde ama risk arttı."
+      }
+    ]
+  },
+  {
+    "id": "kurulus_055",
+    "donem": "kurulus",
+    "alt_donem": "osman_gazi",
+    "tarih_yil_min": 1300,
+    "tarih_yil_max": 1320,
+    "yas_min": 15,
+    "yas_max": 50,
+    "tek_seferlik": true,
+    "metin": "Harmankaya tekfuru Köse Mihal, Osman Bey'e sadakatle bağlı bir dost ve müttefikti.",
+    "secenekler": [
+      {
+        "metin": "Farklı kökenden gelen bu komutanlara saygıyla yaklaş",
+        "etki": { "zeka": 2, "itibar": 2 },
+        "sonuc": "Beyliğin gücü, farklı kökenlerden gelenleri bir arada tutabilmesindeydi."
+      },
+      {
+        "metin": "Mesafeli dur, alışkın olduğun çevrende kal",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Herkesin kendi çevresinde rahat ettiği bir dönemdi."
+      }
+    ]
   }
 ]

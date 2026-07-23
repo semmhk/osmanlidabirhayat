@@ -129,6 +129,8 @@ class Secenek {
 
 class Olay {
   final String id;
+  final String donem;
+  final String? altDonem;
   final int yasMin;
   final int yasMax;
   final int? tarihYilMin; // Tarihi Zaman Çizelgesi Min Yılı (Örn: 1299)
@@ -144,6 +146,8 @@ class Olay {
 
   const Olay({
     required this.id,
+    this.donem = 'kurulus',
+    this.altDonem,
     required this.yasMin,
     required this.yasMax,
     this.tarihYilMin,
@@ -161,6 +165,8 @@ class Olay {
   factory Olay.fromJson(Map<String, dynamic> json) {
     return Olay(
       id: json['id'] as String,
+      donem: json['donem'] as String? ?? 'kurulus',
+      altDonem: json['alt_donem'] as String?,
       yasMin: (json['yas_min'] as num).toInt(),
       yasMax: (json['yas_max'] as num).toInt(),
       tarihYilMin: (json['tarih_yil_min'] as num?)?.toInt(),
@@ -183,6 +189,8 @@ class Olay {
   Map<String, dynamic> toJson() {
     return {
       'id': id,
+      'donem': donem,
+      if (altDonem != null) 'alt_donem': altDonem,
       'yas_min': yasMin,
       'yas_max': yasMax,
       if (tarihYilMin != null) 'tarih_yil_min': tarihYilMin,

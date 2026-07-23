@@ -4,7 +4,7 @@
 
 ## MEVCUT DURUM
 
-**Aktif Faz:** Adım 1 & Adım 4 (Proje İskeleti + 40 Olaylık Kuruluş Dönemi + Birim Testleri + GitHub Entegrasyonu) ✅
+**Aktif Faz:** Adım 1 & Adım 4 (Proje İskeleti + 55 Olaylık Kuruluş Dönemi & Osman Gazi Alt-Dönemi + Birim Testleri + GitHub Entegrasyonu) ✅
 **Son güncelleme:** 23 Temmuz 2026
 
 ---
@@ -23,18 +23,19 @@
 - [x] Flutter projesi oluşturuldu (`osmanli_da_bir_hayat`).
 - [x] `pubspec.yaml` bağımlılıkları ve asset tanımları yapılandırıldı.
 - [x] `Karakter` modeli `dogumYili`, `takvimYili` ve `Akçe` para sistemi eklenerek yazıldı (`lib/modeller/karakter.dart`).
-- [x] `Olay` ve `Secenek` modellerine `tarih_yil_min` ve `tarih_yil_max` alanları eklendi (`lib/modeller/olay.dart`).
+- [x] `Olay` ve `Secenek` modellerine `tarih_yil_min` ve `tarih_yil_max` alanları ile birlikte **`alt_donem`** (opsiyonel padişah alt-donem etiketi) eklendi (`lib/modeller/olay.dart`).
 - [x] `PadisahDeposu` ve `Donem` depoları Kuruluş dönemi (1299-1453) doğrulanmış padişah listesiyle yazıldı (`lib/modeller/padisah_deposu.dart`).
 - [x] Osmanlı meslek depoları yazıldı (`lib/modeller/meslek.dart`).
-- [x] `OlayYukleyici` tarih yılı min/max şema doğrulayıcısı ile yazıldı (`lib/motor/olay_yukleyici.dart`).
+- [x] `OlayYukleyici` tarih yılı min/max ve `alt_donem` şema doğrulayıcısı ile yazıldı (`lib/motor/olay_yukleyici.dart`).
 - [x] `OyunMotoru` takvim yılı ilerletme, tarihsel ölüm riski, `agirlikliOlaySec` (10x-25x) ve 2 yıl toleranslı garantili terfi kuralı ile yazıldı (`lib/motor/oyun_motoru.dart`).
-- [x] **Kuruluş dönemi: 40 olay TAMAMLANDI** (`assets/olaylar/kurulus.json` - 40 benzersiz ID'li, tarih ve yaş filtreli olay).
+- [x] **Kuruluş dönemi: 55 olay TAMAMLANDI** (`assets/olaylar/kurulus.json` - 55 benzersiz ID'li, tarih ve yaş filtreli olay).
+  - **Osman Gazi alt-dönemi: 15 olay eklendi, Kuruluş dönemi toplam 55 olay** (`kurulus_041` - `kurulus_055`, `alt_donem: "osman_gazi"`).
   - 15 orijinal olay (Çimpe Kalesi tarihi 1352-1357 ve Bursa fethi güncellendi).
   - 15 ek olay (`osmanli_kurulus_001-015.json` kaynaklı).
   - 10 boşluk kapatan olay (Niğbolu 1396, Şeyh Bedreddin, II. Kosova 1448, 29 Mayıs 1453 Fetih günü, İskan siyaseti, Ayasofya, Gazi unvanı).
 - [x] `secenekSec()` mekanizmasında `meslek_seyfiye` ve diğer meslek bayraklarının otomatik eklenmesi doğrulandı.
 - [x] `VesikalikAvatar` görsel mühürlü Osmanlı çizimiyle güncellendi (`lib/bilesenler/vesikalik_avatar.dart`).
-- [x] Birim testleri güncellendi (`test/olay_tarih_filtre_test.dart` — 40 olayın tam yüklendiği ve benzersiz ID'lere sahip olduğu doğrulandı). Toplam **7/7 test YEŞİL ✅**. `flutter analyze` **0 hata / 0 uyarı ✅**.
+- [x] Birim testleri güncellendi (`test/olay_tarih_filtre_test.dart` — 55 olayın tam yüklendiği, benzersiz ID'lere ve `alt_donem` alanına sahip olduğu doğrulandı). Toplam **7/7 test YEŞİL ✅**. `flutter analyze` **0 hata / 0 uyarı ✅**.
 - [x] GitHub Reposu: `https://github.com/semmhk/osmanlidabirhayat.git` (main branch).
 
 ---
