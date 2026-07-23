@@ -1,0 +1,387 @@
+[
+  {
+    "id": "fatih_001_ikinci_tahta_cikis",
+    "donem": "yukselme",
+    "alt_donem": "fatih_sultan_mehmed",
+    "tarih_yil_min": 1451,
+    "tarih_yil_max": 1451,
+    "yas_min": 5,
+    "yas_max": 70,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "II. Murad vefat etti. Oğlu II. Mehmed (Fatih), bu kez kesin olarak ve ikinci kez Osmanlı tahtına çıktı — artık 19 yaşında, tecrübeli ve kararlı bir hükümdar.",
+    "secenekler": [
+      {
+        "metin": "Yeni sultanın büyük işler yapacağını hisset",
+        "etki": { "mutluluk": 3, "zeka": 1 },
+        "sonuc": "Hacı Bayram-ı Veli'nin yıllar önceki sözleri hâlâ hatırlanıyordu. Bu sultanın peşinde büyük bir kader olduğu hissediliyordu."
+      },
+      {
+        "metin": "Temkinli bir bekleyiş içinde ol",
+        "etki": { "zeka": 1 },
+        "sonuc": "Genç sultanların ilk icraatları merakla bekleniyordu."
+      }
+    ]
+  },
+  {
+    "id": "fatih_002_rumelihisari",
+    "donem": "yukselme",
+    "alt_donem": "fatih_sultan_mehmed",
+    "tarih_yil_min": 1452,
+    "tarih_yil_max": 1452,
+    "yas_min": 15,
+    "yas_max": 50,
+    "tek_seferlik": false,
+    "gerekli_bayrak": null,
+    "metin": "Boğaz'ın en dar yerinde, İstanbul kuşatmasına hazırlık olarak dev bir hisar (Rumelihisarı — 'Boğazkesen') inşa ediliyor. İnşaat için işçi ve usta aranıyor.",
+    "secenekler": [
+      {
+        "metin": "İnşaatta çalışmaya git",
+        "etki": { "para": 4, "saglik": -2 },
+        "sonuc": "Hisar rekor bir sürede tamamlandı. Tarihi bir eserin taşını taşımak gurur vericiydi."
+      },
+      {
+        "metin": "Kendi işinde kal",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Herkes farklı şekillerde bu büyük hazırlığa katkıda bulunuyordu."
+      }
+    ]
+  },
+  {
+    "id": "fatih_003_sirbistan_seferleri",
+    "donem": "yukselme",
+    "alt_donem": "fatih_sultan_mehmed",
+    "tarih_yil_min": 1454,
+    "tarih_yil_max": 1457,
+    "yas_min": 16,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": "meslek_seyfiye",
+    "metin": "Fetihten sonra sıra Sırbistan'a geldi. Üç ayrı seferle Belgrad hariç tüm Sırbistan toprakları alındı.",
+    "secenekler": [
+      {
+        "metin": "Bu seferlerden birine katıl",
+        "etki": { "para": 5, "itibar": 2, "saglik": -2, "sans_gerekli": true },
+        "sonuc": "Balkanlar'daki hakimiyetimiz her geçen yıl pekişiyordu. Belgrad hâlâ direniyor, ileride bir gün alınacaktı."
+      },
+      {
+        "metin": "Bu seferlere katılmadın",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Zafer haberleri arka arkaya geliyordu."
+      }
+    ]
+  },
+  {
+    "id": "fatih_004_amasra_candar",
+    "donem": "yukselme",
+    "alt_donem": "fatih_sultan_mehmed",
+    "tarih_yil_min": 1459,
+    "tarih_yil_max": 1460,
+    "yas_min": 10,
+    "yas_max": 60,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "Karadeniz'in önemli bir ticaret limanı olan Amasra Cenevizlilerden alındı, ardından Candaroğulları Beyliği de Osmanlı'ya katıldı.",
+    "secenekler": [
+      {
+        "metin": "Karadeniz ticaretindeki gelişmeleri takip et",
+        "etki": { "para": 2, "zeka": 1 },
+        "sonuc": "Karadeniz'de nüfuzumuz artıyordu, bu ticaret için de yeni fırsatlar demekti."
+      },
+      {
+        "metin": "Günlük hayatına devam et",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Uzak fetihler halkın gündelik hayatını hemen değiştirmiyordu."
+      }
+    ]
+  },
+  {
+    "id": "fatih_005_mora_fethi",
+    "donem": "yukselme",
+    "alt_donem": "fatih_sultan_mehmed",
+    "tarih_yil_min": 1460,
+    "tarih_yil_max": 1460,
+    "yas_min": 15,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": "meslek_seyfiye",
+    "metin": "Bizans'ın son kalıntılarından Mora (Peloponnesos) Despotluğu üzerine sefer düzenlendi ve fethedildi.",
+    "secenekler": [
+      {
+        "metin": "Sefere katıl",
+        "etki": { "para": 4, "itibar": 2, "saglik": -2, "sans_gerekli": true },
+        "sonuc": "Bizans'ın son toprak parçalarından biri daha Osmanlı'ya katıldı."
+      },
+      {
+        "metin": "Sefere katılmadın",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Fetih haberi geldiğinde köyde sevinç yaşandı."
+      }
+    ]
+  },
+  {
+    "id": "fatih_006_trabzon_fethi",
+    "donem": "yukselme",
+    "alt_donem": "fatih_sultan_mehmed",
+    "tarih_yil_min": 1461,
+    "tarih_yil_max": 1461,
+    "yas_min": 15,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": "meslek_seyfiye",
+    "metin": "15 Ağustos 1461'de Trabzon Rum İmparatorluğu fethedildi — Bizans'ın son kalıntısı da tarihe karışmıştı. İstanbul'un fethi artık gerçek anlamda tamamlanmış sayılıyordu.",
+    "secenekler": [
+      {
+        "metin": "Bu tarihi ana katıl",
+        "etki": { "para": 5, "itibar": 4, "saglik": -2, "sans_gerekli": true },
+        "sonuc": "1204'te parçalanan Bizans'ın son izi de silinmişti. Bu, bin yıllık bir sürecin gerçek sonuydu."
+      },
+      {
+        "metin": "Haberi uzaktan sevinçle karşıla",
+        "etki": { "mutluluk": 3 },
+        "sonuc": "Tarihi bir dönemin kapandığı hissediliyordu."
+      }
+    ]
+  },
+  {
+    "id": "fatih_007_eflak_boydan",
+    "donem": "yukselme",
+    "alt_donem": "fatih_sultan_mehmed",
+    "tarih_yil_min": 1462,
+    "tarih_yil_max": 1462,
+    "yas_min": 15,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": "meslek_seyfiye",
+    "metin": "Eflak Voyvodası III. Vlad'ın (halk arasında acımasızlığıyla tanınan) isyanı üzerine sefer düzenlendi. Vlad püskürtüldü, Eflak yeniden tabiiyet altına alındı.",
+    "secenekler": [
+      {
+        "metin": "Bu zorlu sefere katıl",
+        "etki": { "para": 4, "saglik": -3, "itibar": 2, "sans_gerekli": true },
+        "sonuc": "Vlad'ın acımasızlığı efsaneleşmişti ama sefer başarıyla tamamlandı, Eflak yeniden tabiiyete girdi."
+      },
+      {
+        "metin": "Sefere katılmadın",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Bu zorlu seferin hikayeleri uzun süre anlatıldı."
+      }
+    ]
+  },
+  {
+    "id": "fatih_008_bosna_venedik_savasi",
+    "donem": "yukselme",
+    "alt_donem": "fatih_sultan_mehmed",
+    "tarih_yil_min": 1463,
+    "tarih_yil_max": 1463,
+    "yas_min": 10,
+    "yas_max": 60,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "Bosna Krallığı fethedildi, Hersek dukalığı tabiiyet altına alındı. Aynı yıl Venedik'le başlayan gerginlik, tam 16 yıl sürecek uzun bir savaşa dönüştü.",
+    "secenekler": [
+      {
+        "metin": "Bu uzun mücadeleyi endişeyle takip et",
+        "etki": { "zeka": 2, "mutluluk": -1 },
+        "sonuc": "16 yıl sürecek bir savaşın başlangıcıydı bu. Denizlerdeki güç dengesi uzun süre tartışılacaktı."
+      },
+      {
+        "metin": "Karadaki fetihlerle ilgilenmeye devam et",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Deniz savaşları daha çok kıyı halkını ilgilendiriyordu."
+      }
+    ]
+  },
+  {
+    "id": "fatih_009_ikinci_karaman_konya",
+    "donem": "yukselme",
+    "alt_donem": "fatih_sultan_mehmed",
+    "tarih_yil_min": 1466,
+    "tarih_yil_max": 1466,
+    "yas_min": 16,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": "meslek_seyfiye",
+    "metin": "Karamanoğulları Beyliği'ne kesin olarak son verildi, Konya Osmanlı toprağına katıldı. Anadolu Türk birliği artık neredeyse tamamlanmıştı.",
+    "secenekler": [
+      {
+        "metin": "Sefere katıl",
+        "etki": { "para": 4, "itibar": 3, "saglik": -2, "sans_gerekli": true },
+        "sonuc": "Yüzyıllık bir rekabet nihayet sona ermişti. Anadolu artık tek bir çatı altındaydı."
+      },
+      {
+        "metin": "Sefere katılmadın",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Uzun süredir beklenen bu haber büyük bir memnuniyetle karşılandı."
+      }
+    ]
+  },
+  {
+    "id": "fatih_010_arnavutluk_iskender_bey",
+    "donem": "yukselme",
+    "alt_donem": "fatih_sultan_mehmed",
+    "tarih_yil_min": 1466,
+    "tarih_yil_max": 1479,
+    "yas_min": 15,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": "meslek_seyfiye",
+    "metin": "Arnavutluk'ta İskender Bey (Kastrioti) önderliğindeki inatçı direniş yıllarca devam etti. Onun 1468'deki ölümünden sonra bile mücadele sürdü, sonunda İşkodra kuşatıldı ve bölge tamamen alındı.",
+    "secenekler": [
+      {
+        "metin": "Bu uzun süren seferlerden birine katıl",
+        "etki": { "para": 4, "saglik": -3, "itibar": 2, "sans_gerekli": true },
+        "sonuc": "Yıllarca süren zorlu bir direnişti ama sonunda Arnavutluk toprakları da hakimiyetimize girdi."
+      },
+      {
+        "metin": "Bu seferlere katılmadın",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "İskender Bey'in direnişi, düşman saflarında bile saygıyla anılan bir destan olmuştu."
+      }
+    ]
+  },
+  {
+    "id": "fatih_011_otlukbeli_savasi",
+    "donem": "yukselme",
+    "alt_donem": "fatih_sultan_mehmed",
+    "tarih_yil_min": 1473,
+    "tarih_yil_max": 1473,
+    "yas_min": 16,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": "meslek_seyfiye",
+    "metin": "Doğuda güçlenen Akkoyunlu hükümdarı Uzun Hasan ile Otlukbeli'de büyük bir meydan savaşı yapıldı.",
+    "secenekler": [
+      {
+        "metin": "Bu doğu seferine katıl",
+        "etki": { "para": 5, "itibar": 3, "saglik": -3, "sans_gerekli": true },
+        "sonuc": "Zafer Osmanlı'nındı. Doğudaki en büyük rakibimiz Akkoyunlular artık ciddi bir tehdit oluşturamayacaktı."
+      },
+      {
+        "metin": "Bu sefere katılmadın",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Doğu seferleri uzun ve yorucu olurdu. Zafer haberi yine de sevindirdi."
+      }
+    ]
+  },
+  {
+    "id": "fatih_012_kirim_fethi",
+    "donem": "yukselme",
+    "alt_donem": "fatih_sultan_mehmed",
+    "tarih_yil_min": 1475,
+    "tarih_yil_max": 1475,
+    "yas_min": 15,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": "meslek_seyfiye",
+    "metin": "Gedik Ahmed Paşa komutasındaki donanma Kırım'a sefer düzenledi. Kefe ve Azak alındı, Kırım Hanlığı Osmanlı himayesine girdi — artık Karadeniz tam anlamıyla bir 'Türk gölü' oldu.",
+    "secenekler": [
+      {
+        "metin": "Deniz seferine katıl",
+        "etki": { "para": 5, "itibar": 3, "saglik": -2, "sans_gerekli": true },
+        "sonuc": "Karadeniz ticareti artık tamamen bizim kontrolümüzdeydi. Büyük bir stratejik kazanımdı."
+      },
+      {
+        "metin": "Sefere katılmadın",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Karadeniz'deki hakimiyetimiz ticaret için de büyük fırsatlar getirecekti."
+      }
+    ]
+  },
+  {
+    "id": "fatih_013_kanunname_kardeş_katli",
+    "donem": "yukselme",
+    "alt_donem": "fatih_sultan_mehmed",
+    "tarih_yil_min": 1477,
+    "tarih_yil_max": 1478,
+    "yas_min": 15,
+    "yas_max": 60,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "Fatih Kanunnamesi (Kanunname-i Âl-i Osman) yayınlandı — devlet teşkilatını düzenleyen kapsamlı bir kanun. İçinde en çok konuşulan madde şu: 'Nizam-ı âlem için karındaşını katletmek münasiptir' — yani tahta çıkan padişahın kardeşlerini öldürmesi artık yasal.",
+    "secenekler": [
+      {
+        "metin": "Bu kanunun devletin bekası için gerekli olduğunu düşün",
+        "etki": { "zeka": 2, "mutluluk": -2 },
+        "sonuc": "Fetret Devri'nin acı hatırası hâlâ tazeydi. Belki bu, benzer bir kargaşayı önleyecekti — ama bedeli ağırdı."
+      },
+      {
+        "metin": "Bu kanunu ahlaki açıdan sorgula",
+        "etki": { "zeka": 1, "mutluluk": -3 },
+        "sonuc": "Devlet mantığı ile vicdan arasındaki bu gerilim, yıllarca konuşulmaya devam edecekti."
+      }
+    ]
+  },
+  {
+    "id": "fatih_014_topkapi_kapalicarsi",
+    "donem": "yukselme",
+    "alt_donem": "fatih_sultan_mehmed",
+    "tarih_yil_min": 1459,
+    "tarih_yil_max": 1465,
+    "yas_min": 15,
+    "yas_max": 50,
+    "tek_seferlik": false,
+    "gerekli_bayrak": null,
+    "metin": "İstanbul'da yeni bir saray (Topkapı) ve büyük bir kapalı çarşı (Kapalıçarşı) inşa ediliyor. Şehir hızla yeniden şenleniyor, esnaf ve zanaatkarlara ihtiyaç var.",
+    "secenekler": [
+      {
+        "metin": "İstanbul'a göç edip Kapalıçarşı'da bir dükkan aç",
+        "etki": { "para": 5, "mutluluk": 3 },
+        "meslek_atama": "ahilik",
+        "sonuc": "Yeni başkentin kalbinde bir yer edindin. Şehir her geçen yıl daha da canlanıyordu."
+      },
+      {
+        "metin": "Bulunduğun yerde kalmayı tercih et",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Herkes taşınmak istemezdi. Sen köklerinde kalmayı seçtin."
+      }
+    ]
+  },
+  {
+    "id": "fatih_015_otranto_seferi",
+    "donem": "yukselme",
+    "alt_donem": "fatih_sultan_mehmed",
+    "tarih_yil_min": 1480,
+    "tarih_yil_max": 1481,
+    "yas_min": 16,
+    "yas_max": 50,
+    "tek_seferlik": true,
+    "gerekli_bayrak": "meslek_seyfiye",
+    "metin": "Gedik Ahmed Paşa komutasındaki donanma İtalya'ya sefer düzenledi ve Otranto şehrini fethetti — Osmanlı ilk kez İtalyan topraklarına ayak basıyordu. Roma'ya doğru ilerleme ihtimali konuşuluyor.",
+    "secenekler": [
+      {
+        "metin": "Bu tarihi seferin parçası ol",
+        "etki": { "para": 5, "itibar": 4, "saglik": -3, "sans_gerekli": true },
+        "sonuc": "İtalyan toprağına ayak basmak akıl almaz bir şeydi. Herkes bunun ne anlama geldiğini konuşuyordu."
+      },
+      {
+        "metin": "Bu uzak sefere katılmadın",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Otranto'nun fethi haberi büyük bir şaşkınlık ve gururla karşılandı."
+      }
+    ]
+  },
+  {
+    "id": "fatih_016_fatih_vefati",
+    "donem": "yukselme",
+    "alt_donem": "fatih_sultan_mehmed",
+    "tarih_yil_min": 1481,
+    "tarih_yil_max": 1481,
+    "yas_min": 5,
+    "yas_max": 80,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "Yeni bir sefere (bazılarına göre Mısır'a, bazılarına göre yeniden Rodos'a) çıkmak üzereyken, Gebze yakınlarında Sultan Fatih Mehmed vefat etti. 30 yıllık saltanatında devleti bir imparatorluğa dönüştürmüştü. Otranto'daki birliklerimiz de geri çekildi.",
+    "secenekler": [
+      {
+        "metin": "Büyük bir hükümdarın ardından yasını tut",
+        "etki": { "mutluluk": -4, "itibar": 2 },
+        "sonuc": "İstanbul'u fetheden, Trabzon'u alan, Kırım'ı Türk gölü yapan bir hükümdar tarihe karışmıştı. Yerine oğlu II. Bayezid geçecekti."
+      },
+      {
+        "metin": "Onun mirasının kalıcı olacağını düşün",
+        "etki": { "zeka": 2, "mutluluk": -2 },
+        "sonuc": "'Ebu'l-Feth' (Fetihlerin Babası) lakabı boşuna verilmemişti. Bıraktığı imparatorluk yüzyıllarca ayakta kalacaktı."
+      }
+    ]
+  }
+]

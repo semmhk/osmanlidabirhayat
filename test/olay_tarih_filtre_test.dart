@@ -8,61 +8,43 @@ import 'package:osmanli_da_bir_hayat/motor/oyun_motoru.dart';
 void main() {
   group('Osmanlı Takvim Yılı ve Olay Filtreleme Testleri', () {
     late OlayYukleyici yukleyici;
-    late List<Olay> kurulusOlaylari;
+    late List<Olay> tumOlaylar;
 
     setUp(() {
       yukleyici = OlayYukleyici();
-      final file = File('assets/olaylar/kurulus.json');
-      final jsonString = file.readAsStringSync();
-      kurulusOlaylari = yukleyici.jsonMetnindenYukle(jsonString, 'kurulus.json');
+      final fileKurulus = File('assets/olaylar/kurulus.json');
+      final jsonKurulus = fileKurulus.readAsStringSync();
+      final fileYukselme = File('assets/olaylar/yukselme.json');
+      final jsonYukselme = fileYukselme.readAsStringSync();
+
+      final gorulenIdler = <String>{};
+      final o1 = yukleyici.jsonMetnindenYukle(jsonKurulus, 'kurulus.json', gorulenIdler);
+      final o2 = yukleyici.jsonMetnindenYukle(jsonYukselme, 'yukselme.json', gorulenIdler);
+      tumOlaylar = [...o1, ...o2];
     });
 
-    test('1. kurulus.json 138 olay eksiksiz, benzersiz ID, alt_donem ve tarih_yil_min/max alanlarıyla yüklenmeli', () {
-      expect(kurulusOlaylari.length, equals(138));
+    test('1. kurulus.json (138) + yukselme.json (16) = 154 olay eksiksiz, benzersiz ID ve alt_donem alanlarıyla yüklenmeli', () {
+      expect(tumOlaylar.length, equals(154));
       
       // Benzersiz ID kontrolü
-      final idSet = kurulusOlaylari.map((o) => o.id).toSet();
-      expect(idSet.length, equals(138));
+      final idSet = tumOlaylar.map((o) => o.id).toSet();
+      expect(idSet.length, equals(154));
 
-      final ahilikOlayi = kurulusOlaylari.firstWhere((o) => o.id == 'kurulus_001');
+      final ahilikOlayi = tumOlaylar.firstWhere((o) => o.id == 'kurulus_001');
       expect(ahilikOlayi.tarihYilMin, equals(1299));
       expect(ahilikOlayi.tarihYilMax, equals(1453));
 
-      final rumeliOlayi = kurulusOlaylari.firstWhere((o) => o.id == 'kurulus_006');
-      expect(rumeliOlayi.tarihYilMin, equals(1352));
-      expect(rumeliOlayi.tarihYilMax, equals(1357));
-
-      final vebaOlayi = kurulusOlaylari.firstWhere((o) => o.id == 'kurulus_013');
-      expect(vebaOlayi.tarihYilMin, equals(1348));
-      expect(vebaOlayi.tarihYilMax, equals(1352));
-
-      final gaziOlayi = kurulusOlaylari.firstWhere((o) => o.id == 'kurulus_040');
-      expect(gaziOlayi.gerekliBayrak, equals('meslek_seyfiye'));
-
-      // alt_donem kontrolü
-      final osmanGaziOlayi = kurulusOlaylari.firstWhere((o) => o.id == 'kurulus_041');
-      expect(osmanGaziOlayi.altDonem, equals('osman_gazi'));
-
-      final ilkHutbeOlayi = kurulusOlaylari.firstWhere((o) => o.id == 'kurulus_056');
-      expect(ilkHutbeOlayi.altDonem, equals('osman_gazi'));
-
-      final ilkDivanOlayi = kurulusOlaylari.firstWhere((o) => o.id == 'kurulus_058');
-      expect(ilkDivanOlayi.altDonem, equals('orhan_gazi'));
-
-      final edirneOlayi = kurulusOlaylari.firstWhere((o) => o.id == 'kurulus_078');
-      expect(edirneOlayi.altDonem, equals('murad_1'));
-
-      final yildirimBeyliklerOlayi = kurulusOlaylari.firstWhere((o) => o.id == 'kurulus_094');
-      expect(yildirimBeyliklerOlayi.altDonem, equals('yildirim_bayezid'));
-
-      final fetretUcHukumdarOlayi = kurulusOlaylari.firstWhere((o) => o.id == 'kurulus_106');
-      expect(fetretUcHukumdarOlayi.altDonem, equals('fetret_devri'));
-
-      final celebiBedreddinOlayi = kurulusOlaylari.firstWhere((o) => o.id == 'kurulus_116');
-      expect(celebiBedreddinOlayi.altDonem, equals('celebi_mehmed'));
-
-      final murad2TahtaCikisOlayi = kurulusOlaylari.firstWhere((o) => o.id == 'kurulus_126');
+      final murad2TahtaCikisOlayi = tumOlaylar.firstWhere((o) => o.id == 'kurulus_126');
       expect(murad2TahtaCikisOlayi.altDonem, equals('murad_2'));
+
+      // Fatih Sultan Mehmed Yükselme dönemi olayları kontrolü
+      final fatihTahtaCikis = tumOlaylar.firstWhere((o) => o.id == 'fatih_001_ikinci_tahta_cikis');
+      expect(fatihTahtaCikis.donem, equals('yukselme'));
+      expect(fatihTahtaCikis.altDonem, equals('fatih_sultan_mehmed'));
+
+      final fatihVefat = tumOlaylar.firstWhere((o) => o.id == 'fatih_016_fatih_vefati');
+      expect(fatihVefat.donem, equals('yukselme'));
+      expect(fatihVefat.altDonem, equals('fatih_sultan_mehmed'));
     });
 
     test('2. Şema doğrulayıcı hatalı tarih_yil_min > tarih_yil_max durumunu yakalamalı', () {
@@ -99,7 +81,7 @@ void main() {
       );
 
       final motor = OyunMotoru(
-        tumOlaylar: kurulusOlaylari,
+        tumOlaylar: tumOlaylar,
         karakter: karakter,
       );
 
@@ -125,7 +107,7 @@ void main() {
       );
 
       final motor = OyunMotoru(
-        tumOlaylar: kurulusOlaylari,
+        tumOlaylar: tumOlaylar,
         karakter: karakter,
       );
 

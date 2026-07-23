@@ -6,6 +6,7 @@ import '../modeller/olay.dart';
 class OlayYukleyici {
   static const List<String> olayDosyalari = [
     'assets/olaylar/kurulus.json',
+    'assets/olaylar/yukselme.json',
   ];
 
   static const Set<String> gecerliStatlar = {

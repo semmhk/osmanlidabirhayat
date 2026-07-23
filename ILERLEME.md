@@ -4,7 +4,7 @@
 
 ## MEVCUT DURUM
 
-**Aktif Faz:** Adım 1 & Adım 4 (Proje İskeleti + 138 Olaylık Kuruluş Dönemi & 7/7 Padişah/Alt-Dönem TAM TAMAMLANDI — KURULUŞ DÖNEMİ KAPANDI + 14 Başarım Sistemi + Kalemiye & Boşanma Zincirleri + Birim Testleri + GitHub Entegrasyonu) ✅
+**Aktif Faz:** Adım 1 & Adım 4 (Proje İskeleti + 138 Olaylık Kuruluş Dönemi & 7/7 Padişah/Alt-Dönem TAMAMLANDI + **YÜKSELME DÖNEMİ BAŞLADI (1/5 Alt-Dönem: Fatih Sultan Mehmed 16 Olay TAMAMLANDI)** + 154 Toplam Olay + 14 Başarım Sistemi + Kalemiye & Boşanma Zincirleri + Birim Testleri + GitHub Entegrasyonu) ✅
 **Son güncelleme:** 24 Temmuz 2026
 
 ---
@@ -19,36 +19,32 @@
 - [x] Soyut "Akçe" ekonomi birimi modeli uygulandı.
 - [x] Koyu sepya, ferman/parşömen ve Tuğra mührü görsel tema iskeleti oluşturuldu.
 
-### Adım 1 & Adım 4 — Proje Kurulumu, Motor Entegrasyonu ve Kuruluş Dönemi Olayları (TAMAMLANDI ✅)
+### Adım 1 & Adım 4 — Proje Kurulumu, Motor Entegrasyonu ve Kuruluş / Yükselme Dönemi Olayları (TAMAMLANDI ✅)
 - [x] Flutter projesi oluşturuldu (`osmanli_da_bir_hayat`).
-- [x] `pubspec.yaml` bağımlılıkları ve asset tanımları yapılandırıldı (`assets/basarimlar.json` dahil).
+- [x] `pubspec.yaml` bağımlılıkları ve asset tanımları yapılandırıldı (`assets/olaylar/` klasörü ve `assets/basarimlar.json` dahil).
 - [x] `Karakter` modeli `dogumYili`, `takvimYili`, `Akçe` para sistemi, `zirveZeka`, `zirveItibar`, `hicVasifsizIsciOldu` ve `cocukSayisi` alanları eklenerek yazıldı (`lib/modeller/karakter.dart`).
 - [x] `Olay` ve `Secenek` modellerine `tarih_yil_min` ve `tarih_yil_max` alanları ile birlikte **`alt_donem`** (opsiyonel padişah alt-donem etiketi) eklendi (`lib/modeller/olay.dart`).
-- [x] `PadisahDeposu` ve `Donem` depoları Kuruluş dönemi (1299-1453) doğrulanmış padişah listesiyle yazıldı (`lib/modeller/padisah_deposu.dart`).
+- [x] `PadisahDeposu` ve `Donem` depoları Kuruluş ve Yükselme dönemi doğrulanmış padişah listesiyle yazıldı (`lib/modeller/padisah_deposu.dart`).
 - [x] Osmanlı meslek depoları yazıldı (`lib/modeller/meslek.dart`).
-- [x] `OlayYukleyici` tarih yılı min/max ve `alt_donem` şema doğrulayıcısı ile yazıldı (`lib/motor/olay_yukleyici.dart`).
+- [x] `OlayYukleyici` çoklu dosya desteği (`assets/olaylar/kurulus.json` & `assets/olaylar/yukselme.json`), tarih yılı min/max ve `alt_donem` şema doğrulayıcısı ile yazıldı (`lib/motor/olay_yukleyici.dart`).
 - [x] `OyunMotoru` takvim yılı ilerletme, tarihsel ölüm riski, `agirlikliOlaySec` (10x-25x), statik `secenekUygula` ve 2 yıl toleranslı garantili terfi kuralı ile yazıldı (`lib/motor/oyun_motoru.dart`).
-- [x] **Padişah / Alt-Dönemler (7/7 Padişah/Alt-Dönem TAMAMLANDI — KURULUŞ DÖNEMİ KAPANDI 🎉)**:
-  - **Osman Gazi (1299-1326)**: 17 Olay TAMAMLANDI (`alt_donem: "osman_gazi"` — İlk Hutbe & Dursun Fakih Kadılığı dahil).
-  - **Orhan Gazi (1326-1362)**: 20 Olay TAMAMLANDI (`alt_donem: "orhan_gazi"` — İlk Divan, Yaya-Müsellem, Gümüş Akçe, İznik Medresesi, Maltepe Savaşı, Karesi katılımı, Karamürsel tersanesi ve Vefat köprüsü).
-  - **I. Murad Hüdavendigâr (1362-1389)**: 18 Olay TAMAMLANDI (`alt_donem: "murad_1"` — Edirne fethi, Pençik sistemi, Acemi Oğlanlar Ocağı & Yeniçerilik, Rumeli Beylerbeyliği, Tımar sistemi, Enderun Mektebi, Germiyan çeyizi, Çirmen savaşı, Veraset değişimi, Savcı Bey isyanı, ilk Sadrazamlık, Selanik seferi, Bulgar tabiiyeti, Gelibolu iadesi, Sancak eğitimi ve Kosova şehadeti).
-  - **Yıldırım Bayezid (1389-1402)**: 19 Olay TAMAMLANDI (`alt_donem: "yildirim_bayezid"` — Anadolu beylikleri ilhakı, Anadolu Beylerbeyliği, Kırkdilim yenilgisi & Şehzade Ertuğrul şehadeti, Akçay zaferi, Sultan-ı İklim-i Rum unvanı, Gelibolu tersanesi & Kaptan-ı Derya, Sırp prenses Despina evliliği, Bosna tabiiyeti, Timur gerginliği & Kara Yusuf kabulü, Sivas katliamı, İlk İstanbul kuşatması, Doğu-Batı kıskacı).
-  - **Fetret Devri (1402-1413)**: 12 Olay TAMAMLANDI (`alt_donem: "fetret_devri"` — Üç hükümdarlı parçalanma, Timur'un beylikleri iadesi, Emir Süleyman'ın sefahati & memnuniyetsizlik, Musa Çelebi'nin Edirne baskını, Şeyh Bedreddin'in kazaskerliği, Musa Çelebi'nin sert gaza siyaseti, İsa Çelebi'nin Bursa girişimi, Bursalı Süleyman Çelebi'nin Mevlid'i yazması, Mehmed Çelebi-Dulkadir ittifakı, 11 yılın yorgunluğu).
-  - **Çelebi Mehmed (1413-1421)**: 13 Olay TAMAMLANDI (`alt_donem: "celebi_mehmed"` — Şeyh Bedreddin'in azli & İznik sürgünü, 2. Karaman seferi & Konya kuşatması, Cüneyd Bey isyanı & affı, Ceneviz adaları himayesi, Venedik deniz savaşı & Çalı Bey şehadeti, Eflak'ın bağlanması, Saruhan ilhakı, Düzmece Mustafa Çelebi serbest kalması, 'İkinci Kurucu' unvanı, Yeniden toparlanma & ticari istikrar).
-  - **II. Murad (1421-1451)**: 13 yeni + mevcut 4 = 17 Olay TAMAMLANDI (`kurulus_126` - `kurulus_138`, `alt_donem: "murad_2"` — Tahta çıkış, Düzmece Mustafa idamı, Başarısız İstanbul kuşatması, Küçük Mustafa isyanı, Anadolu beylikleri son ilhakları & Germiyan vasiyeti, İzladi/Yalvaç Haçlı yenilgileri, Edirne-Segedin Antlaşması, Şehzade Alaeddin'in ölümü, Kendi isteğiyle tahttan 12 yaşındaki Şehzade Mehmed lehine çekilme, Buçuktepe İsyanı, II. Murad'ın tahta 2. kez dönüşü, Karaman affı, 2. Kosova zaferi sonrası Balkan istikrarı).
+- [x] **Kuruluş Dönemi (7/7 Padişah/Alt-Dönem TAM TAMAMLANDI - 138 Olay)**:
+  - Osman Gazi (17 Olay), Orhan Gazi (20 Olay), I. Murad (18 Olay), Yıldırım Bayezid (19 Olay), Fetret Devri (12 Olay), Çelebi Mehmed (13 Olay), II. Murad (17 Olay).
+- [x] **YÜKSELME DÖNEMİ BAŞLADI (1/5 Alt-Dönem TAMAMLANDI - 16 Olay)**:
+  - **Fatih Sultan Mehmed (1451-1481)**: 16 Olay TAMAMLANDI (`assets/olaylar/yukselme.json`, `alt_donem: "fatih_sultan_mehmed"` — İkinci tahta çıkış, Rumelihisarı inşası, Sırbistan seferleri, Amasra & Candar ilhakı, Mora fethi, Trabzon Rum İmparatorluğu'nun fethi, Eflak Voyvodası Vlad isyanı, Bosna fethi & 16 yıllık Venedik savaşı, Karamanoğulları'nın sonu & Konya, Arnavutluk İskender Bey direnişi, Otlukbeli savaşı & Akkoyunlu zaferi, Kırım fethi & Karadeniz Türk gölü, Fatih Kanunnamesi & Kardeş katli maddesi, Topkapı & Kapalıçarşı inşası, Otranto seferi, Fatih Sultan Mehmed'in vefatı).
 - [x] **Sistem boşlukları kapatıldı: kalemiye, 14 başarım, boşanma/nesil içeriği**:
   - 14 Osmanlı-uyumlu Başarım sistemi eklendi (`assets/basarimlar.json`, `lib/modeller/basarim.dart`, `lib/motor/basarim_kontrolcusu.dart`).
   - Kalemiye Meslek Zinciri eklendi (`kurulus_073`).
   - Boşanma / Eşin Vefatı / İkinci Nikah Zinciri eklendi (`kurulus_074`, `kurulus_075`, `kurulus_076`).
   - UI Ekranları: `BasarimlarEkrani` ve `OlumEkrani` eklendi (`lib/ekranlar/`).
-- [x] **Kuruluş dönemi: 138 olay TAMAMLANDI** (`assets/olaylar/kurulus.json` - 138 benzersiz ID'li, tarih ve yaş filtreli olay).
-- [x] Birim testleri yazıldı (`test/sistem_bosluklari_test.dart` & `test/olay_tarih_filtre_test.dart` — 138 olay, Kalemiye ataması, 14 başarım koşulu ve boşanma/ikinci nikah zinciri). Toplam **11/11 test YEŞİL ✅**. `flutter analyze` **0 hata / 0 uyarı ✅**.
+- [x] **TOPLAM OLAY SAYISI: 154 OLAY** (Kuruluş 138 + Yükselme 16).
+- [x] Birim testleri yazıldı (`test/sistem_bosluklari_test.dart` & `test/olay_tarih_filtre_test.dart` — 154 olay, iki dosyanın paralel yüklenmesi, Kalemiye ataması, 14 başarım koşulu ve boşanma/ikinci nikah zinciri). Toplam **11/11 test YEŞİL ✅**. `flutter analyze` **0 hata / 0 uyarı ✅**.
 - [x] GitHub Reposu: `https://github.com/semmhk/osmanlidabirhayat.git` (main branch).
 
 ---
 
 ## KALAN İŞLER / SONRAKİ ADIMLAR
 
-- [ ] Yükselme Dönemi padişah depoları ve olay dosyalarının (`assets/olaylar/yukselme.json`) hazırlanıp eklenmesi.
+- [ ] Yükselme Dönemi Kalan Alt-Dönemler: II. Bayezid, Yavuz Sultan Selim, Kanuni Sultan Süleyman, II. Selim (Sarı Selim) olaylarının hazırlanıp eklenmesi.
 - [ ] UI Ekranlarının (Ana Menü, Oyun Ekranı) ferman estetiğiyle entegrasyonunun tamamlanması.
 - [ ] Hive entegrasyonu ve geçmiş hayatlar kaydı.
