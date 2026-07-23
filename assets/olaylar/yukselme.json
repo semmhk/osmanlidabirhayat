@@ -383,5 +383,341 @@
         "sonuc": "'Ebu'l-Feth' (Fetihlerin Babası) lakabı boşuna verilmemişti. Bıraktığı imparatorluk yüzyıllarca ayakta kalacaktı."
       }
     ]
+  },
+  {
+    "id": "bayezid2_001_tahta_cikis_yarisi",
+    "donem": "yukselme",
+    "alt_donem": "ikinci_bayezid",
+    "tarih_yil_min": 1481,
+    "tarih_yil_max": 1481,
+    "yas_min": 10,
+    "yas_max": 60,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "Fatih Sultan Mehmed'in ölüm haberi gizlenmeye çalışıldı — otorite boşluğu tehlikeli olabilirdi. Ama yeniçeriler haberi öğrenince, Amasya'daki Şehzade Bayezid ile Konya'daki Şehzade Cem arasında İstanbul'a kim önce ulaşacak diye bir yarış başladı.",
+    "secenekler": [
+      {
+        "metin": "Yeniçerilerin desteklediği Bayezid'i destekle",
+        "etki": { "itibar": 2, "mutluluk": -1 },
+        "sonuc": "Bayezid, İshak Paşa ve yeniçerilerin yardımıyla önce İstanbul'a ulaşıp tahta çıktı."
+      },
+      {
+        "metin": "Bu belirsizlik döneminde tarafsız kal",
+        "etki": { "zeka": 1 },
+        "sonuc": "Kimin kazanacağı belli olana kadar temkinli davranmak akıllıcaydı."
+      }
+    ]
+  },
+  {
+    "id": "bayezid2_002_cem_bursa_isyani",
+    "donem": "yukselme",
+    "alt_donem": "ikinci_bayezid",
+    "tarih_yil_min": 1481,
+    "tarih_yil_max": 1481,
+    "yas_min": 15,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": "meslek_seyfiye",
+    "metin": "Şehzade Cem, ağabeyinin padişahlığını kabul etmedi. Bursa'ya gelip kendi hükümdarlığını ilan etti. Devleti paylaşma teklifi reddedilince iki kardeş savaş meydanında karşılaştı.",
+    "secenekler": [
+      {
+        "metin": "Bu iç savaşta II. Bayezid'in ordusunda yer al",
+        "etki": { "para": 4, "saglik": -3, "mutluluk": -2, "sans_gerekli": true },
+        "sonuc": "Cem yenilgiye uğradı ve Memluklere sığınmak zorunda kaldı. Ama bir kardeşin diğerine kılıç çekmesi kimseyi rahatsız etmeden geçmedi."
+      },
+      {
+        "metin": "Bu kardeş kavgasından uzak dur",
+        "etki": { "mutluluk": -1 },
+        "sonuc": "Taht kavgaları halkın yüreğini hep burkardı."
+      }
+    ]
+  },
+  {
+    "id": "bayezid2_003_cem_avrupada_rehine",
+    "donem": "yukselme",
+    "alt_donem": "ikinci_bayezid",
+    "tarih_yil_min": 1482,
+    "tarih_yil_max": 1495,
+    "yas_min": 10,
+    "yas_max": 60,
+    "tek_seferlik": false,
+    "gerekli_bayrak": null,
+    "metin": "Cem Sultan, Rodos şövalyelerine sığındı ama onlar tarafından Avrupa'ya götürülüp fiilen rehin tutuldu. Papa ve Fransa kralları, onu Osmanlı'ya karşı bir koz olarak kullanıyor, hatta II. Bayezid'den 'sessiz kalması' karşılığında yıllık para bile alıyorlarmış.",
+    "secenekler": [
+      {
+        "metin": "Bu garip durumu diplomasi harikası say",
+        "etki": { "zeka": 2 },
+        "sonuc": "Bir Osmanlı şehzadesinin Avrupa'da bu şekilde 'koz' olarak tutulması, dönemin en tuhaf hikayelerinden biriydi."
+      },
+      {
+        "metin": "Cem Sultan'ın kaderine üzül",
+        "etki": { "mutluluk": -1 },
+        "sonuc": "Bir şehzadenin kendi vatanından uzakta, yabancı ellerde geçirdiği yıllar hüzünlüydü."
+      }
+    ]
+  },
+  {
+    "id": "bayezid2_004_karaman_kesin_son",
+    "donem": "yukselme",
+    "alt_donem": "ikinci_bayezid",
+    "tarih_yil_min": 1483,
+    "tarih_yil_max": 1487,
+    "yas_min": 15,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": "meslek_seyfiye",
+    "metin": "Karamanoğulları Beyliği'nin son kalıntılarına da kesin olarak son verildi. Anadolu Türk birliği artık tam anlamıyla tamamlanmıştı.",
+    "secenekler": [
+      {
+        "metin": "Sefere katıl",
+        "etki": { "para": 3, "itibar": 2, "saglik": -1 },
+        "sonuc": "Yüzyıllardır süren Karaman meselesi nihayet kapanmıştı."
+      },
+      {
+        "metin": "Sefere katılmadın",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Bu haber uzun süredir beklenen bir gelişmeydi."
+      }
+    ]
+  },
+  {
+    "id": "bayezid2_005_kili_akkerman",
+    "donem": "yukselme",
+    "alt_donem": "ikinci_bayezid",
+    "tarih_yil_min": 1484,
+    "tarih_yil_max": 1484,
+    "yas_min": 15,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": "meslek_seyfiye",
+    "metin": "Kili ve Akkerman kaleleri alındı, Boğdan'ın fethi tamamlandı. Böylece Kırım ile Balkan topraklarımız kara yoluyla birleşti.",
+    "secenekler": [
+      {
+        "metin": "Sefere katıl",
+        "etki": { "para": 4, "itibar": 2, "saglik": -2, "sans_gerekli": true },
+        "sonuc": "Karadeniz'in kuzey kıyıları artık bir bütün olarak elimizdeydi."
+      },
+      {
+        "metin": "Sefere katılmadın",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Toprak bütünlüğümüz genişlemeye devam ediyordu."
+      }
+    ]
+  },
+  {
+    "id": "bayezid2_006_sefarad_goc",
+    "donem": "yukselme",
+    "alt_donem": "ikinci_bayezid",
+    "tarih_yil_min": 1492,
+    "tarih_yil_max": 1493,
+    "yas_min": 10,
+    "yas_max": 60,
+    "tek_seferlik": false,
+    "gerekli_bayrak": null,
+    "metin": "İspanya'da Katolik krallar, Müslümanları ve Yahudileri ülkeden sürüyor. Denizci Kemal Reis'in donanmasıyla bu insanları alıp İstanbul'a getirdiği söyleniyor. Sultan, onlara kapılarımızı açmamızı istiyor.",
+    "secenekler": [
+      {
+        "metin": "Gelen göçmenlere yardım et, komşu ol",
+        "etki": { "mutluluk": 4, "itibar": 2 },
+        "sonuc": "Yeni gelenler zanaatlarıyla, bilgileriyle şehre katkı sağladı. Farklı dillerin, farklı yüzlerin şehre eklenmesi ilginçti."
+      },
+      {
+        "metin": "Bu değişime mesafeli yaklaş",
+        "etki": { "mutluluk": -1 },
+        "sonuc": "Yeni komşulukların alışılması zaman aldı, ama şehir zaten hep farklı halkları barındırmıştı."
+      }
+    ]
+  },
+  {
+    "id": "bayezid2_007_venedik_savasi_inebahti",
+    "donem": "yukselme",
+    "alt_donem": "ikinci_bayezid",
+    "tarih_yil_min": 1499,
+    "tarih_yil_max": 1503,
+    "yas_min": 15,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": "meslek_seyfiye",
+    "metin": "Venedik ile yeniden savaş çıktı. Kemal Reis ve Burak Reis'in başarılı deniz seferleri sayesinde İnebahtı, Modon ve Koron gibi Yunan kıyı kaleleri Venediklilerden geri alındı.",
+    "secenekler": [
+      {
+        "metin": "Donanmaya katıl",
+        "etki": { "para": 5, "itibar": 3, "saglik": -3, "sans_gerekli": true },
+        "sonuc": "Denizlerdeki başarılarımız Venedik'in gururunu kırdı. Deniz gücümüz artık ciddiye alınıyordu."
+      },
+      {
+        "metin": "Karada kal",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Deniz zaferlerinin haberleri kıyı şehirlerinde büyük coşkuyla karşılandı."
+      }
+    ]
+  },
+  {
+    "id": "bayezid2_008_sah_ismail_safevi",
+    "donem": "yukselme",
+    "alt_donem": "ikinci_bayezid",
+    "tarih_yil_min": 1501,
+    "tarih_yil_max": 1501,
+    "yas_min": 10,
+    "yas_max": 60,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "Doğuda yeni bir güç doğdu: Şah İsmail, Akkoyunlu topraklarını da alarak Safevi Devleti'ni kurdu. Onun dini-siyasi hareketinin (Kızılbaşlık) Anadolu'da da taraftar bulduğu, bunun sultanı endişelendirdiği söyleniyor.",
+    "secenekler": [
+      {
+        "metin": "Bu yeni gücü ve fikirlerini merak et",
+        "etki": { "zeka": 2, "mutluluk": -1 },
+        "sonuc": "Doğudan gelen bu yeni dalganın, Anadolu'nun huzurunu bozacağı hissediliyordu."
+      },
+      {
+        "metin": "Kendi inancına ve düzenine sadık kal",
+        "etki": { "itibar": 1 },
+        "sonuc": "Herkes kendi yolunda kalmayı tercih ediyordu, ama gerginlik büyüyordu."
+      }
+    ]
+  },
+  {
+    "id": "bayezid2_009_sahkulu_isyani",
+    "donem": "yukselme",
+    "alt_donem": "ikinci_bayezid",
+    "tarih_yil_min": 1511,
+    "tarih_yil_max": 1511,
+    "yas_min": 15,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "Teke bölgesinde Şah Kulu adında bir müridi, Safevi etkisiyle büyük bir ayaklanma başlattı. İsyan hızla yayılıp devleti ciddi şekilde tehdit etti.",
+    "secenekler": [
+      {
+        "metin": "Devlet kuvvetlerine destek ver",
+        "etki": { "para": -2, "itibar": 2 },
+        "sonuc": "İsyan zorlukla bastırıldı, Şah Kulu öldürüldü. Ama bu, devletin ciddi bir sınav verdiğinin göstergesiydi."
+      },
+      {
+        "metin": "Bu kargaşadan uzak durmaya çalış",
+        "etki": { "mutluluk": -2 },
+        "sonuc": "İsyan bölgeleri büyük acılar yaşadı. Herkes bir an önce huzurun geri gelmesini istiyordu."
+      }
+    ]
+  },
+  {
+    "id": "bayezid2_010_kucuk_kiyamet_deprem",
+    "donem": "yukselme",
+    "alt_donem": "ikinci_bayezid",
+    "tarih_yil_min": 1509,
+    "tarih_yil_max": 1509,
+    "yas_min": 5,
+    "yas_max": 80,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "İstanbul'da müthiş bir deprem oldu — halk arasında 'Küçük Kıyamet' (Kıyamet-i Suğra) diye anılıyor. Birçok bina, cami minaresi yıkıldı, çok sayıda can kaybı yaşandı.",
+    "secenekler": [
+      {
+        "metin": "Depremzedelere yardım için elinden geleni yap",
+        "etki": { "mutluluk": -4, "itibar": 3, "saglik": -1 },
+        "sonuc": "Şehir haftalarca yaralarını sardı. Felaket zamanında dayanışma, en karanlık günlerde bile bir umut ışığıydı."
+      },
+      {
+        "metin": "Kendi ailenin güvenliğini sağlamaya odaklan",
+        "etki": { "saglik": 1, "mutluluk": -3 },
+        "sonuc": "Doğanın bu acımasız hatırlatması, herkesi derinden sarstı."
+      }
+    ]
+  },
+  {
+    "id": "bayezid2_011_tufek_yenicerilere",
+    "donem": "yukselme",
+    "alt_donem": "ikinci_bayezid",
+    "tarih_yil_min": 1511,
+    "tarih_yil_max": 1511,
+    "yas_min": 15,
+    "yas_max": 45,
+    "tek_seferlik": true,
+    "gerekli_bayrak": "meslek_seyfiye",
+    "metin": "Sadrazam Davut Paşa'nın öncülüğünde, Yeniçeri Ocağı'na ilk kez ateşli silahlar (tüfek) dağıtıldı. Savaş meydanları artık farklı bir çağa giriyor.",
+    "secenekler": [
+      {
+        "metin": "Bu yeni silahı öğrenmeye çalış",
+        "etki": { "zeka": 3, "itibar": 1 },
+        "sonuc": "Tüfek kullanmak, kılıç ve ok kullanmaktan çok farklı bir beceri gerektiriyordu. Savaşın geleceği değişiyordu."
+      },
+      {
+        "metin": "Eski usul silahlarını tercih et",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Değişim herkes için kolay kabul edilmiyordu, ama bu yeniliğin geleceği belirleyeceği aşikardı."
+      }
+    ]
+  },
+  {
+    "id": "bayezid2_012_selim_iran_toprak",
+    "donem": "yukselme",
+    "alt_donem": "ikinci_bayezid",
+    "tarih_yil_min": 1511,
+    "tarih_yil_max": 1511,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "Trabzon Sancakbeyi Şehzade Selim, babasından habersiz İran'a girip bazı toprakları ele geçirdi. Ama II. Bayezid buna öfkelenip alınan toprakları geri verdi — bu, baba oğul arasını iyice açtı.",
+    "secenekler": [
+      {
+        "metin": "Şehzade Selim'in cesaretini takdir et",
+        "etki": { "itibar": 1, "mutluluk": 1 },
+        "sonuc": "Yeniçeriler arasında Selim'e olan sempati büyüyordu. Onun kararlılığı dikkat çekiyordu."
+      },
+      {
+        "metin": "Sultan'ın kararına saygı göster",
+        "etki": { "itibar": 1 },
+        "sonuc": "Devlet disiplini önemliydi, ama gerilim gözle görülür hale gelmişti."
+      }
+    ]
+  },
+  {
+    "id": "bayezid2_013_corlu_savasi",
+    "donem": "yukselme",
+    "alt_donem": "ikinci_bayezid",
+    "tarih_yil_min": 1511,
+    "tarih_yil_max": 1512,
+    "yas_min": 15,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": "meslek_seyfiye",
+    "metin": "Şehzade Selim, Çorlu yakınlarında babasının kuvvetlerine karşı savaştı. Savaşı kaybetti ama gösterdiği cesaret ve askeri yetenek, yeniçerilerin gönlünü fethetti.",
+    "secenekler": [
+      {
+        "metin": "Bu iç çatışmada bulundun",
+        "etki": { "saglik": -3, "mutluluk": -2, "sans_gerekli": true },
+        "sonuc": "Baba oğul arasındaki bu savaş kimseyi rahatsız etmeden geçmedi. Ama Selim'in kararlılığı artık tartışılmazdı."
+      },
+      {
+        "metin": "Bu çatışmadan uzak durdun",
+        "etki": { "mutluluk": -1 },
+        "sonuc": "Devletin geleceği belirsizleşiyordu. Herkes bir çözüm bekliyordu."
+      }
+    ]
+  },
+  {
+    "id": "bayezid2_014_tahttan_feragat_vefat",
+    "donem": "yukselme",
+    "alt_donem": "ikinci_bayezid",
+    "tarih_yil_min": 1512,
+    "tarih_yil_max": 1512,
+    "yas_min": 5,
+    "yas_max": 80,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "Yeniçerilerin açık desteğini alan Şehzade Selim İstanbul'a yürüdü. II. Bayezid, artık tahtı koruyamayacağını anlayıp resmen tahttan feragat etti. Dimetoka'ya doğru yola çıkarken yolda hastalanıp vefat etti.",
+    "secenekler": [
+      {
+        "metin": "31 yıllık bu ihtiyatlı saltanatı hayırla yad et",
+        "etki": { "mutluluk": -2, "itibar": 1 },
+        "sonuc": "II. Bayezid'in dönemi büyük fetihlerle değil, ama içeride düzeni koruyarak geçmişti. Yerine oğlu Yavuz Sultan Selim geçiyordu — çok farklı bir dönem başlayacaktı."
+      },
+      {
+        "metin": "Yeni sultanın ne getireceğini merak et",
+        "etki": { "zeka": 2 },
+        "sonuc": "Selim'in kararlılığı ve sertliği herkesçe biliniyordu. Önümüzdeki yıllar hareketli geçecek gibiydi."
+      }
+    ]
   }
 ]

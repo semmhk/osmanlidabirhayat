@@ -23,12 +23,12 @@ void main() {
       tumOlaylar = [...o1, ...o2];
     });
 
-    test('1. kurulus.json (138) + yukselme.json (16) = 154 olay eksiksiz, benzersiz ID ve alt_donem alanlarıyla yüklenmeli', () {
-      expect(tumOlaylar.length, equals(154));
+    test('1. kurulus.json (138) + yukselme.json (30) = 168 olay eksiksiz, benzersiz ID ve alt_donem alanlarıyla yüklenmeli', () {
+      expect(tumOlaylar.length, equals(168));
       
       // Benzersiz ID kontrolü
       final idSet = tumOlaylar.map((o) => o.id).toSet();
-      expect(idSet.length, equals(154));
+      expect(idSet.length, equals(168));
 
       final ahilikOlayi = tumOlaylar.firstWhere((o) => o.id == 'kurulus_001');
       expect(ahilikOlayi.tarihYilMin, equals(1299));
@@ -42,9 +42,10 @@ void main() {
       expect(fatihTahtaCikis.donem, equals('yukselme'));
       expect(fatihTahtaCikis.altDonem, equals('fatih_sultan_mehmed'));
 
-      final fatihVefat = tumOlaylar.firstWhere((o) => o.id == 'fatih_016_fatih_vefati');
-      expect(fatihVefat.donem, equals('yukselme'));
-      expect(fatihVefat.altDonem, equals('fatih_sultan_mehmed'));
+      // II. Bayezid Yükselme dönemi olayları kontrolü
+      final bayezid2TahtaCikis = tumOlaylar.firstWhere((o) => o.id == 'bayezid2_001_tahta_cikis_yarisi');
+      expect(bayezid2TahtaCikis.donem, equals('yukselme'));
+      expect(bayezid2TahtaCikis.altDonem, equals('ikinci_bayezid'));
     });
 
     test('2. Şema doğrulayıcı hatalı tarih_yil_min > tarih_yil_max durumunu yakalamalı', () {
