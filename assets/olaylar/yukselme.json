@@ -1694,5 +1694,312 @@
         "sonuc": "Şu an için barış vardı, ama herkes bu barışın ne kadar süreceğini merak ediyordu."
       }
     ]
+  },
+  {
+    "id": "kanuni3_001_amasya_antlasmasi",
+    "donem": "yukselme",
+    "alt_donem": "kanuni_3_son_yillar",
+    "tarih_yil_min": 1555,
+    "tarih_yil_max": 1555,
+    "yas_min": 10,
+    "yas_max": 60,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "Safeviler ile Amasya'da bir barış antlaşması imzalandı — İran ile yapılan ilk resmi antlaşmamız. Nahcivan, Revan ve Karadağ bölgeleri Osmanlı'ya bırakılırken doğu sınırında uzun süreli bir huzur sağlandı.",
+    "secenekler": [
+      {
+        "metin": "Bu doğu barışının getirdiği huzuru hisset",
+        "etki": { "mutluluk": 3, "zeka": 1 },
+        "sonuc": "Yıllardır süren doğu seferlerinin ardından bu antlaşma, sınır bölgelerine uzun bir soluklanma getirdi."
+      },
+      {
+        "metin": "Bu antlaşmanın kalıcılığını merak et",
+        "etki": { "zeka": 1 },
+        "sonuc": "Diplomatik dengeler kırılgan olsa da, bu antlaşma onlarca yıl bozulmayacaktı."
+      }
+    ]
+  },
+  {
+    "id": "kanuni3_002_suleymaniye_acilisi",
+    "donem": "yukselme",
+    "alt_donem": "kanuni_3_son_yillar",
+    "tarih_yil_min": 1557,
+    "tarih_yil_max": 1557,
+    "yas_min": 5,
+    "yas_max": 80,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "Yaklaşık yedi yıl süren inşaatın ardından Süleymaniye Camii tamamlandı. Sultan, ilk Cuma namazını bizzat burada kılıp caminin açılışını yaptı. Mimar Sinan'ın bu başyapıtı, İstanbul'un silüetine yeni bir taç ekledi.",
+    "secenekler": [
+      {
+        "metin": "Açılış namazına katıl",
+        "etki": { "mutluluk": 8, "itibar": 2 },
+        "sonuc": "Devasa kubbe, ince minareler, ışığın içeri süzülüşü — herkes bu eserin karşısında hayranlıkla durakaldı. Bu, nesillerce ayakta kalacak bir mirastı."
+      },
+      {
+        "metin": "Haberini uzaktan sevinçle karşıla",
+        "etki": { "mutluluk": 3 },
+        "sonuc": "Süleymaniye'nin haberi tüm imparatorlukta gururla konuşuldu."
+      }
+    ]
+  },
+  {
+    "id": "kanuni3_003_hurrem_olumu",
+    "donem": "yukselme",
+    "alt_donem": "kanuni_3_son_yillar",
+    "tarih_yil_min": 1558,
+    "tarih_yil_max": 1558,
+    "yas_min": 10,
+    "yas_max": 70,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "Hürrem Sultan vefat etti. Yıllarca sarayın en etkili ismi olan, sultan'ın gönlünü kazanan Haseki Sultan artık yoktu. Sultan'ın bu kaybı derinden yaşadığı söyleniyor.",
+    "secenekler": [
+      {
+        "metin": "Bu kaybı mahalle ile birlikte konuş",
+        "etki": { "mutluluk": -3 },
+        "sonuc": "Hayır kurumları ve aşevleriyle tanınan Hürrem Sultan'ın adı uzun süre hayırla anıldı."
+      },
+      {
+        "metin": "Sessizce anımsa",
+        "etki": { "mutluluk": -2 },
+        "sonuc": "Onun döneminde sarayda yaşanan büyük değişimler, bir çağın kapandığının işaretiydi."
+      }
+    ]
+  },
+  {
+    "id": "kanuni3_004_konya_savasi",
+    "donem": "yukselme",
+    "alt_donem": "kanuni_3_son_yillar",
+    "tarih_yil_min": 1559,
+    "tarih_yil_max": 1559,
+    "yas_min": 16,
+    "yas_max": 50,
+    "tek_seferlik": true,
+    "gerekli_bayrak": "meslek_seyfiye",
+    "metin": "Hürrem Sultan'ın ölümünün ardından bastırılamayan kardeş rekabeti patladı: Şehzade Selim ile Şehzade Bayezid, Konya Ovası'nda birbirlerine karşı ordu topladılar. Bu, çok ağır bir kardeş kavgasıydı.",
+    "secenekler": [
+      {
+        "metin": "Bu iç savaşta Selim'in ordusunda yer al",
+        "etki": { "para": 4, "saglik": -3, "mutluluk": -3, "sans_gerekli": true },
+        "sonuc": "Savaşı Selim kazandı. Bayezid yenilgiyle Amasya'ya çekildi — ama bu, meselenin sonu değildi."
+      },
+      {
+        "metin": "Bu kardeş kavgasından derin bir üzüntü duy",
+        "etki": { "mutluluk": -4 },
+        "sonuc": "İki kardeşin birbirine kılıç çekmesi, halkın yüreğini bir kez daha burktu."
+      }
+    ]
+  },
+  {
+    "id": "kanuni3_005_bayezid_iran_kacisi",
+    "donem": "yukselme",
+    "alt_donem": "kanuni_3_son_yillar",
+    "tarih_yil_min": 1559,
+    "tarih_yil_max": 1561,
+    "yas_min": 10,
+    "yas_max": 60,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "Babasının kendisine karşı yeni bir sefer hazırlığı yaptığını öğrenen Şehzade Bayezid, oğullarıyla birlikte Safevilere sığındı. Şah Tahmasb'ın sarayında bir tür rehin gibi tutuluyor.",
+    "secenekler": [
+      {
+        "metin": "Bu şehzadenin kaderini merakla takip et",
+        "etki": { "zeka": 1, "mutluluk": -1 },
+        "sonuc": "Bir Osmanlı şehzadesinin düşman topraklarına sığınması, herkesi derinden düşündürdü."
+      },
+      {
+        "metin": "Devlet meselelerine karışma",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Saray içi meseleler tehlikeli sulardı, uzak durmak akıllıcaydı."
+      }
+    ]
+  },
+  {
+    "id": "kanuni3_006_bayezid_idami",
+    "donem": "yukselme",
+    "alt_donem": "kanuni_3_son_yillar",
+    "tarih_yil_min": 1562,
+    "tarih_yil_max": 1562,
+    "yas_min": 5,
+    "yas_max": 80,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "Sultan, oğlu Bayezid'i ve torunlarını geri almak için Şah Tahmasb'a büyük bir bedel ödedi — hatta Kars Kalesi bile karşılığında verildi. Ama Şah, Bayezid'i teslim ettikten sonra, şehzade ve oğulları hemen idam edildi.",
+    "secenekler": [
+      {
+        "metin": "Bir baba için bu ikinci acı kaybı düşün",
+        "etki": { "mutluluk": -6 },
+        "sonuc": "Mustafa'dan sonra Bayezid'in de böyle bitmesi, Kanuni'nin hayatının en ağır yükü olmuştu. Artık geriye tek varis kalmıştı: Selim."
+      },
+      {
+        "metin": "Bu acı sonucu devlet mantığı çerçevesinde anlamlandır",
+        "etki": { "zeka": 2, "mutluluk": -4 },
+        "sonuc": "Taht rekabeti, en güçlü ailelerin bile içini oyabiliyordu."
+      }
+    ]
+  },
+  {
+    "id": "kanuni3_007_cerbe_zaferi",
+    "donem": "yukselme",
+    "alt_donem": "kanuni_3_son_yillar",
+    "tarih_yil_min": 1560,
+    "tarih_yil_max": 1560,
+    "yas_min": 16,
+    "yas_max": 50,
+    "tek_seferlik": true,
+    "gerekli_bayrak": "meslek_seyfiye",
+    "metin": "İspanyol donanmasına karşı Cerbe açıklarında büyük bir deniz zaferi kazanıldı — Preveze'den sonraki en önemli deniz başarımız. Kuzey Afrika'daki hakimiyetimiz pekişti.",
+    "secenekler": [
+      {
+        "metin": "Bu deniz seferine katıl",
+        "etki": { "para": 6, "itibar": 3, "saglik": -3, "sans_gerekli": true },
+        "sonuc": "Denizlerdeki üstünlüğümüz bir kez daha kanıtlandı."
+      },
+      {
+        "metin": "Sefere katılmadın",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Zafer haberi kıyı şehirlerinde büyük bir coşkuyla karşılandı."
+      }
+    ]
+  },
+  {
+    "id": "kanuni3_008_sokullu_yukselisi",
+    "donem": "yukselme",
+    "alt_donem": "kanuni_3_son_yillar",
+    "tarih_yil_min": 1555,
+    "tarih_yil_max": 1565,
+    "yas_min": 15,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": "meslek_kalemiye",
+    "metin": "Devşirme kökenli, son derece yetenekli bir devlet adamı olan Sokullu Mehmed Paşa, kademe kademe yükselerek imparatorluğun en güçlü isimlerinden biri haline geldi. Onun idari yeteneği herkesçe takdir ediliyor.",
+    "secenekler": [
+      {
+        "metin": "Bu yükselen yıldızın idaresindeki işlerde çalışmaya çalış",
+        "etki": { "zeka": 3, "itibar": 2 },
+        "sonuc": "Sokullu'nun yönetim tarzı, ileride imparatorluğun en uzun süre görev yapacak sadrazamlarından biri olacağının işaretlerini veriyordu."
+      }
+    ]
+  },
+  {
+    "id": "kanuni3_009_malta_kusatmasi",
+    "donem": "yukselme",
+    "alt_donem": "kanuni_3_son_yillar",
+    "tarih_yil_min": 1565,
+    "tarih_yil_max": 1565,
+    "yas_min": 16,
+    "yas_max": 50,
+    "tek_seferlik": true,
+    "gerekli_bayrak": "meslek_seyfiye",
+    "metin": "Malta Adası'ndaki şövalyeler üzerine büyük bir kuşatma başlatıldı. Ama ada iyi tahkim edilmişti, kuşatma uzadıkça kayıplarımız arttı. En acısı: efsanevi denizci Turgut Reis, kuşatma sırasında şehit düştü.",
+    "secenekler": [
+      {
+        "metin": "Bu zorlu ve nihayetinde başarısız kuşatmada bulun",
+        "etki": { "para": 2, "saglik": -5, "mutluluk": -4, "sans_gerekli": true },
+        "sonuc": "Kuşatma sonunda kaldırıldı — nadir bir yenilgiydi. Turgut Reis'in kaybı, tüm denizci camiasını yasa boğdu."
+      },
+      {
+        "metin": "Bu sefere katılmadın",
+        "etki": { "mutluluk": -1 },
+        "sonuc": "Malta bozgunu ve Turgut Reis'in şehadeti haberi, İstanbul'da derin bir üzüntüyle karşılandı."
+      }
+    ]
+  },
+  {
+    "id": "kanuni3_010_eyup_veda",
+    "donem": "yukselme",
+    "alt_donem": "kanuni_3_son_yillar",
+    "tarih_yil_min": 1566,
+    "tarih_yil_max": 1566,
+    "yas_min": 10,
+    "yas_max": 70,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "Malta'daki yenilgi izlenimini silmek isteyen 72 yaşındaki Sultan, gut (nikris) hastalığına rağmen yeni bir sefere karar verdi. Yola çıkmadan önce Eyüp Sultan Türbesi'nde uzun bir dua etti — bu, İstanbul'u son görüşü olacaktı.",
+    "secenekler": [
+      {
+        "metin": "Sultan'ın Eyüp'teki bu son duasına tanıklık et",
+        "etki": { "mutluluk": -2, "itibar": 1 },
+        "sonuc": "72 yaşında, hasta bir halde bile savaş meydanına gitmeye kararlı bir hükümdarı görmek, halkı derinden etkiledi."
+      },
+      {
+        "metin": "Sultan'ın sağlığı için endişelen",
+        "etki": { "mutluluk": -2 },
+        "sonuc": "Bu yaşta ve bu sağlıkta bir sefere çıkmak, herkesi tedirgin ediyordu."
+      }
+    ]
+  },
+  {
+    "id": "kanuni3_011_zigetvar_seferi",
+    "donem": "yukselme",
+    "alt_donem": "kanuni_3_son_yillar",
+    "tarih_yil_min": 1566,
+    "tarih_yil_max": 1566,
+    "yas_min": 16,
+    "yas_max": 50,
+    "tek_seferlik": true,
+    "gerekli_bayrak": "meslek_seyfiye",
+    "metin": "Ordu Zigetvar Kalesi önlerine ulaştı. Sultan'ın otağı, kuşatmayı gözetleyen hakim bir tepeye kuruldu. Ama Sultan'ın sağlığı gün geçtikçe kötüleşiyor.",
+    "secenekler": [
+      {
+        "metin": "Bu 13. ve son sefere katıl",
+        "etki": { "para": 5, "itibar": 3, "saglik": -5, "sans_gerekli": true },
+        "sonuc": "Kuşatma zorlu geçiyordu. Sultan'ın otağından çıkmadığı, ama savaşı yönetmeye devam ettiği söyleniyordu."
+      },
+      {
+        "metin": "Bu sefere katılmadın",
+        "etki": { "mutluluk": -1 },
+        "sonuc": "Zigetvar'dan gelen haberler herkesi endişelendiriyordu."
+      }
+    ]
+  },
+  {
+    "id": "kanuni3_012_kanuni_vefati",
+    "donem": "yukselme",
+    "alt_donem": "kanuni_3_son_yillar",
+    "tarih_yil_min": 1566,
+    "tarih_yil_max": 1566,
+    "yas_min": 5,
+    "yas_max": 90,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "7 Eylül 1566 — Zigetvar Kalesi'nin düşüşünden sadece bir gün önce, Kanuni Sultan Süleyman otağında vefat etti. Ordunun morali bozulmasın diye ölümü günlerce gizli tutuldu, Sadrazam Sokullu Mehmed Paşa durumu ustaca yönetti. 46 yıllık, tarihin en uzun ve en görkemli saltanatlarından biri sona ermişti.",
+    "secenekler": [
+      {
+        "metin": "Bu büyük hükümdarın ardından derin bir yas tut",
+        "etki": { "mutluluk": -6, "itibar": 2 },
+        "sonuc": "Belgrad'dan Bağdat'a, Preveze'den Zigetvar'a — koca bir çağ kapanmıştı. İmparatorluk hiçbir zaman bu kadar geniş, bu kadar güçlü olmamıştı. Yerine oğlu II. Selim geçiyordu."
+      },
+      {
+        "metin": "Onun bıraktığı mirası düşün",
+        "etki": { "zeka": 3, "mutluluk": -3 },
+        "sonuc": "'Kanuni' ve 'Muhteşem' lakapları boşuna verilmemişti. Kanunları, camileri, fetihleri asırlarca hatırlanacaktı."
+      }
+    ]
+  },
+  {
+    "id": "kanuni3_013_altin_cag_yansimalari",
+    "donem": "yukselme",
+    "alt_donem": "kanuni_3_son_yillar",
+    "tarih_yil_min": 1553,
+    "tarih_yil_max": 1566,
+    "yas_min": 10,
+    "yas_max": 60,
+    "tek_seferlik": false,
+    "gerekli_bayrak": null,
+    "metin": "Kanuni'nin son yıllarında bile imparatorluk üç kıtaya yayılmış durumda — şairler, mimarlar, alimler İstanbul'a akın ediyor. 'Muhibbi' mahlasıyla şiirler yazan sultan'ın kendisi bile bu kültürel zenginliğin bir parçası.",
+    "secenekler": [
+      {
+        "metin": "Bu kültürel zenginlikten faydalanmaya çalış",
+        "etki": { "zeka": 3, "mutluluk": 2 },
+        "sonuc": "Şiir meclisleri, mimari eserler, ilim çevreleri — İstanbul, dünyanın kültür başkentlerinden biri olmuştu."
+      },
+      {
+        "metin": "Sade bir hayat sürmeye devam et",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Herkes bu altın çağın farklı bir köşesinde kendi hayatını yaşıyordu."
+      }
+    ]
   }
 ]
