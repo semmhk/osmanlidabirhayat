@@ -1223,5 +1223,355 @@
         "sonuc": "Kendi kadımızın olması güven vericiydi. Artık adalet uzakta değildi."
       }
     ]
+  },
+  {
+    "id": "kurulus_058",
+    "donem": "kurulus",
+    "alt_donem": "orhan_gazi",
+    "tarih_yil_min": 1327,
+    "tarih_yil_max": 1330,
+    "yas_min": 15,
+    "yas_max": 60,
+    "tek_seferlik": true,
+    "metin": "Orhan Bey, devlet işlerinin görüşülüp karara bağlanacağı ilk Divan'ı kurdu ve kardeşi Alaeddin Paşa'yı ilk vezir olarak atadı. Artık askeri ve sivil işler ayrı yürütülecekmiş.",
+    "secenekler": [
+      {
+        "metin": "Bu haberi devletin olgunlaştığının işareti say",
+        "etki": { "zeka": 3, "mutluluk": 2 },
+        "sonuc": "Küçük bir beylikten düzenli bir devlete geçişin işaretleriydi bunlar. Herkes bu yeniliği konuşuyordu."
+      },
+      {
+        "metin": "Günlük hayatına devam et, pek önemseme",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Sarayda olanlar sıradan halkın gündelik hayatını hemen değiştirmezdi. Yine de bir şeylerin değiştiği hissediliyordu."
+      }
+    ]
+  },
+  {
+    "id": "kurulus_059",
+    "donem": "kurulus",
+    "alt_donem": "orhan_gazi",
+    "tarih_yil_min": 1326,
+    "tarih_yil_max": 1330,
+    "yas_min": 16,
+    "yas_max": 45,
+    "tek_seferlik": true,
+    "metin": "Orhan Bey, gönüllü akıncılardan oluşan düzensiz kuvvetler yerine 'Yaya' ve 'Müsellem' adında maaşlı, düzenli bir ordu kurdurdu. Bu orduya katılmak isteyenler için kayıt açıldı.",
+    "secenekler": [
+      {
+        "metin": "Yaya ordusuna kaydol",
+        "etki": { "para": 3, "saglik": -1 },
+        "meslek_atama": "seyfiye",
+        "bayrak_ekle": "meslek_seyfiye",
+        "sonuc": "Artık düzenli maaş alan bir askersin — gönüllü akıncılık günlerinden farklı, daha istikrarlı bir hayat."
+      },
+      {
+        "metin": "Sivil hayatında kalmayı tercih et",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Askerlik herkese göre değildi. Sen kendi işinle ilgilenmeye devam ettin."
+      }
+    ]
+  },
+  {
+    "id": "kurulus_060",
+    "donem": "kurulus",
+    "alt_donem": "orhan_gazi",
+    "tarih_yil_min": 1327,
+    "tarih_yil_max": 1327,
+    "yas_min": 8,
+    "yas_max": 70,
+    "tek_seferlik": true,
+    "metin": "Bursa'da yeni bir darphane kuruldu ve ilk kez kendi gümüş paramız (akçe) basıldı. Pazarda artık bu yeni sikkelerle alışveriş yapılabiliyor.",
+    "secenekler": [
+      {
+        "metin": "Yeni akçelerle bir alışveriş yap, merakını gider",
+        "etki": { "mutluluk": 3, "zeka": 1 },
+        "sonuc": "Elinde kendi devletinin bastığı ilk parayı tutmak tuhaf bir gurur vericiydi."
+      },
+      {
+        "metin": "Eski alışkanlığınla eski paraları kullanmaya devam et",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Yeni sikkeler yaygınlaşana kadar eski paralar da bir süre daha geçerliydi."
+      }
+    ]
+  },
+  {
+    "id": "kurulus_061",
+    "donem": "kurulus",
+    "alt_donem": "orhan_gazi",
+    "tarih_yil_min": 1331,
+    "tarih_yil_max": 1335,
+    "yas_min": 10,
+    "yas_max": 30,
+    "tek_seferlik": true,
+    "metin": "İznik'te ilk Osmanlı medresesi açıldı, başhoca olarak ünlü alim Davud-u Kayseri getirildi. Zeki gençler buraya talebe olarak kabul ediliyor.",
+    "secenekler": [
+      {
+        "metin": "Medreseye başvur, talebe ol",
+        "etki": { "zeka": 6, "para": -1 },
+        "meslek_atama": "ilmiye",
+        "bayrak_ekle": "meslek_ilmiye",
+        "sonuc": "Davud-u Kayseri'nin derslerine katılmak büyük bir şerefti. Felsefe ve mantık dersleri zihnini genişletti."
+      },
+      {
+        "metin": "Kendi işinde/tarlanda kalmayı tercih et",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Medrese herkese göre değildi. Sen kendi yolunda ilerlemeye devam ettin."
+      }
+    ]
+  },
+  {
+    "id": "kurulus_062",
+    "donem": "kurulus",
+    "alt_donem": "orhan_gazi",
+    "tarih_yil_min": 1333,
+    "tarih_yil_max": 1333,
+    "yas_min": 5,
+    "yas_max": 80,
+    "tek_seferlik": true,
+    "metin": "İznik'te ilk Osmanlı camisi (Hacı Özbek Camii) tamamlandı. Açılış için büyük bir topluluk bekleniyor.",
+    "secenekler": [
+      {
+        "metin": "Açılışa katıl, ilk namazı orada kıl",
+        "etki": { "mutluluk": 5, "itibar": 2 },
+        "sonuc": "Yeni caminin taze taş kokusu, kalabalığın uğultusu unutulmazdı. Küçük ama gurur verici bir eser."
+      },
+      {
+        "metin": "Kendi mahalle camine gitmeye devam et",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Yeni caminin haberini duydun ama uzak olduğu için gitmedin."
+      }
+    ]
+  },
+  {
+    "id": "kurulus_063",
+    "donem": "kurulus",
+    "alt_donem": "orhan_gazi",
+    "tarih_yil_min": 1329,
+    "tarih_yil_max": 1329,
+    "yas_min": 16,
+    "yas_max": 50,
+    "tek_seferlik": true,
+    "gerekli_bayrak": "meslek_seyfiye",
+    "metin": "İznik'i kuşattığımız sırada Bizans İmparatoru III. Andronikos'un bizzat yönettiği bir yardım ordusu geldi. Maltepe (Palekanon) mevkiinde karşı karşıya gelindi.",
+    "secenekler": [
+      {
+        "metin": "Savaşa katıl",
+        "etki": { "para": 4, "itibar": 3, "saglik": -2, "sans_gerekli": true },
+        "sonuc": "Bizans ordusu bozguna uğratıldı, imparator bile yaralandı. Bu, Bizans'ın Anadolu'daki son ciddi direnişiydi."
+      },
+      {
+        "metin": "Kuşatma hattında destek/erzak görevinde kal",
+        "etki": { "para": 2 },
+        "sonuc": "Ön saflarda değildin ama kuşatmanın sürmesine katkın oldu."
+      }
+    ]
+  },
+  {
+    "id": "kurulus_064",
+    "donem": "kurulus",
+    "alt_donem": "orhan_gazi",
+    "tarih_yil_min": 1331,
+    "tarih_yil_max": 1331,
+    "yas_min": 5,
+    "yas_max": 80,
+    "tek_seferlik": true,
+    "metin": "Uzun süren kuşatmanın ardından İznik teslim oldu. Bizans'ın önemli bir merkezi artık Osmanlı toprağı.",
+    "secenekler": [
+      {
+        "metin": "Zaferi kutla",
+        "etki": { "mutluluk": 5, "itibar": 1 },
+        "sonuc": "İznik'in alınması büyük bir moral kaynağı oldu. Şehir kısa sürede yeniden şenlendi."
+      },
+      {
+        "metin": "Sakin bir şekilde günlük işine devam et",
+        "etki": { "mutluluk": 2 },
+        "sonuc": "Zafer haberi elbette memnuniyet vericiydi, ama hayat her zamanki akışında sürdü."
+      }
+    ]
+  },
+  {
+    "id": "kurulus_065",
+    "donem": "kurulus",
+    "alt_donem": "orhan_gazi",
+    "tarih_yil_min": 1337,
+    "tarih_yil_max": 1337,
+    "yas_min": 5,
+    "yas_max": 80,
+    "tek_seferlik": true,
+    "metin": "İzmit (Nikomedia) de alındı. Böylece Kocaeli Yarımadası'nın tamamı Osmanlı topraklarına katıldı.",
+    "secenekler": [
+      {
+        "metin": "Yeni fethedilen bölgeye yerleşmeyi düşün",
+        "etki": { "para": 2, "mutluluk": 3 },
+        "sonuc": "Kıyı bölgesi ticaret için elverişliydi. Yeni bir hayat kurma fırsatı doğdu."
+      },
+      {
+        "metin": "Bulunduğun yerde kal",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Herkes taşınmak istemezdi. Sen bildiğin topraklarda kalmayı tercih ettin."
+      }
+    ]
+  },
+  {
+    "id": "kurulus_066",
+    "donem": "kurulus",
+    "alt_donem": "orhan_gazi",
+    "tarih_yil_min": 1345,
+    "tarih_yil_max": 1345,
+    "yas_min": 10,
+    "yas_max": 70,
+    "tek_seferlik": true,
+    "metin": "Karesioğulları Beyliği, iç karışıklıklar nedeniyle Osmanlı topraklarına katıldı — bu, Osmanlı'ya katılan ilk Türk beyliği. Onların güçlü donanmasından ve denizci komutanlarından (Evrenos Bey, Hacı İlbey gibi) artık biz de faydalanacağız.",
+    "secenekler": [
+      {
+        "metin": "Yeni katılan denizci/askerlerle tanışmaya çalış",
+        "etki": { "zeka": 2, "itibar": 1 },
+        "sonuc": "Karesili denizciler deniz bilgisiyle övünüyordu. Bu bilgi birikimi ileride Rumeli'ye geçişte işe yarayacaktı."
+      },
+      {
+        "metin": "Kendi işine devam et",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Siyasi gelişmeler kendi mecrasında akarken, gündelik hayat sürdü."
+      }
+    ]
+  },
+  {
+    "id": "kurulus_067",
+    "donem": "kurulus",
+    "alt_donem": "orhan_gazi",
+    "tarih_yil_min": 1299,
+    "tarih_yil_max": 1326,
+    "yas_min": 10,
+    "yas_max": 60,
+    "tek_seferlik": true,
+    "metin": "Orhan Bey'in, Bizanslı bir tekfurun kızı olan Holofira ile evlendiği, kadının Müslüman olup 'Nilüfer Hatun' adını aldığı konuşuluyor. Bu, Osmanlı hanedanına giren ilk yabancı kökenli gelin.",
+    "secenekler": [
+      {
+        "metin": "Bu evliliği hoşgörüyle karşıla",
+        "etki": { "zeka": 2, "mutluluk": 2 },
+        "sonuc": "Farklı kökenlerin bir araya gelmesi, beyliğin gücünün bir parçasıydı. Bu evlilikten doğacak çocuk bir gün padişah olacaktı."
+      },
+      {
+        "metin": "Alışılmadık bulup mesafeli yaklaş",
+        "etki": { "mutluluk": -1 },
+        "sonuc": "Herkes bu türden birleşmelere aynı sıcaklıkla bakmıyordu. Zamanla bu da kabullenildi."
+      }
+    ]
+  },
+  {
+    "id": "kurulus_068",
+    "donem": "kurulus",
+    "alt_donem": "orhan_gazi",
+    "tarih_yil_min": 1337,
+    "tarih_yil_max": 1350,
+    "yas_min": 15,
+    "yas_max": 50,
+    "tek_seferlik": false,
+    "metin": "Karamürsel'de ilk Osmanlı tersanesi kuruldu. Gemi yapımı için usta gemiciler ve marangozlar aranıyor.",
+    "secenekler": [
+      {
+        "metin": "Tersanede çalışmaya başla",
+        "etki": { "para": 4, "zeka": 2 },
+        "sonuc": "Tahta işleme ve gemi yapımı yeni bir zanaat öğrenme fırsatıydı. Deniz gücümüz büyüyordu."
+      },
+      {
+        "metin": "Kendi mesleğinde kalmayı tercih et",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Herkes kendi bildiği işte kalmak isterdi. Tersanenin gelişimini uzaktan izledin."
+      }
+    ]
+  },
+  {
+    "id": "kurulus_069",
+    "donem": "kurulus",
+    "alt_donem": "orhan_gazi",
+    "tarih_yil_min": 1347,
+    "tarih_yil_max": 1349,
+    "yas_min": 1,
+    "yas_max": 80,
+    "tek_seferlik": true,
+    "metin": "Limanlardan yayılan büyük veba salgını bölgene de yaklaşıyor. Bazı komşu köylerde hastalık görülmeye başlandı.",
+    "secenekler": [
+      {
+        "metin": "Kalabalık yerlerden uzak dur, evde kal",
+        "etki": { "saglik": 3, "mutluluk": -2 },
+        "sonuc": "Temkinli davranman seni korudu, ama uzun süre kapalı kalmak yıprattı."
+      },
+      {
+        "metin": "Normal hayatına devam et",
+        "etki": { "saglik": -3, "sans_gerekli": true },
+        "sonuc": "Ya hastalıktan uzak kaldın ya da hafif belirtiler yaşadın. Salgın herkesi eşit tehdit etmiyordu."
+      }
+    ]
+  },
+  {
+    "id": "kurulus_070",
+    "donem": "kurulus",
+    "alt_donem": "orhan_gazi",
+    "tarih_yil_min": 1354,
+    "tarih_yil_max": 1362,
+    "yas_min": 15,
+    "yas_max": 60,
+    "tek_seferlik": true,
+    "metin": "Ankara, o zamana kadar ahi teşkilatının fiilen yönettiği bir şehirdi. Şimdi Osmanlı idaresine geçtiği haberi geldi.",
+    "secenekler": [
+      {
+        "metin": "Yeni idareye uyum sağla",
+        "etki": { "itibar": 1, "zeka": 1 },
+        "sonuc": "Yönetim değişse de ahilerin şehir üzerindeki manevi etkisi uzun süre devam etti."
+      },
+      {
+        "metin": "Eski ahi yönetimini özleyerek anlat",
+        "etki": { "mutluluk": -1 },
+        "sonuc": "Değişim herkes için kolay değildi. Ahilik geleneği yine de yaşamaya devam etti, sadece siyasi güç el değiştirmişti."
+      }
+    ]
+  },
+  {
+    "id": "kurulus_071",
+    "donem": "kurulus",
+    "alt_donem": "orhan_gazi",
+    "tarih_yil_min": 1357,
+    "tarih_yil_max": 1357,
+    "yas_min": 10,
+    "yas_max": 70,
+    "tek_seferlik": true,
+    "metin": "Rumeli'ye geçişi başlatan, Gelibolu Fatihi olarak anılan Şehzade Süleyman Paşa'nın bir av kazası sırasında öldüğü haberi geldi. Orhan Bey bu kaybı derinden yaşıyormuş.",
+    "secenekler": [
+      {
+        "metin": "Şehzadenin başarıları için dua et",
+        "etki": { "mutluluk": -2, "itibar": 1 },
+        "sonuc": "Rumeli fetihlerinin öncüsü genç yaşta gitmişti. Onun açtığı yoldan yürümeye devam edildi."
+      },
+      {
+        "metin": "Haberi sessizce karşıla",
+        "etki": { "mutluluk": -1 },
+        "sonuc": "Büyük kayıplar bazen sessizce yaşanır. Hayat, acıyla birlikte devam etti."
+      }
+    ]
+  },
+  {
+    "id": "kurulus_072",
+    "donem": "kurulus",
+    "alt_donem": "orhan_gazi",
+    "tarih_yil_min": 1330,
+    "tarih_yil_max": 1359,
+    "yas_min": 18,
+    "yas_max": 50,
+    "tek_seferlik": false,
+    "metin": "Yeni fethedilen Rumeli topraklarına Anadolu'dan Türkmen ailelerin yerleştirilmesi (iskan siyaseti) devam ediyor. Sana da bir teklif geldi.",
+    "secenekler": [
+      {
+        "metin": "Rumeli'ye göç et, yeni toprak sahibi ol",
+        "etki": { "para": 3, "mutluluk": 2 },
+        "sonuc": "Yeni topraklar bereketliydi. Zorlu bir yolculuktu ama yeni bir hayatın başlangıcıydı."
+      },
+      {
+        "metin": "Anadolu'da kalmayı tercih et",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Köklerini bırakmak istemedin. Rumeli'ye gidenlerin hikayelerini uzaktan dinledin."
+      }
+    ]
   }
 ]
