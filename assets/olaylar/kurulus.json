@@ -1,0 +1,313 @@
+[
+  {
+    "id": "kurulus_01_ahilik_giris",
+    "yas_min": 10,
+    "yas_max": 14,
+    "tarih_yil_min": 1299,
+    "tarih_yil_max": 1453,
+    "tek_seferlik": true,
+    "oncelikli": true,
+    "metin": "Osmanlı diyarlarında Ahi kollarından biri mahalledeki genç çocukları zanaat ve ahlak eğitimi için çağırıyor. Ustanın yanında çıraklığa adım atmak ister misin?",
+    "secenekler": [
+      {
+        "metin": "Ahi ocağına katılarak çıraklığa başla",
+        "etki": { "zeka": 10, "itibar": 10, "para": 5 },
+        "meslek_atama": "ahilik",
+        "bayrak_ekle": "meslek_ahilik",
+        "sonuc": "Ahi ocağına kabul edildin! Ustanın tezgahında edep ve zanaat öğreniyorsun."
+      },
+      {
+        "metin": "Fırsatı geri çevir, sokakta oynamaya devam et",
+        "etki": { "mutluluk": 5 },
+        "sonuc": "Ahi ocağına katılmadın. Çocukluğun tadını çıkarmaya devam ediyorsun."
+      }
+    ]
+  },
+  {
+    "id": "kurulus_02_medrese_talebeliği",
+    "yas_min": 10,
+    "yas_max": 15,
+    "tarih_yil_min": 1299,
+    "tarih_yil_max": 1453,
+    "tek_seferlik": true,
+    "oncelikli": true,
+    "metin": "İznik ve Bursa medreselerinden gelen fakihler, zeki çocukların medreseye talebe olarak kaydolabileceğini duyurdu.",
+    "secenekler": [
+      {
+        "metin": "Medreseye kaydol ve ilim yolunu seç",
+        "etki": { "zeka": 15, "itibar": 5 },
+        "meslek_atama": "ilmiye",
+        "bayrak_ekle": "meslek_ilmiye",
+        "sonuc": "Medresede Talebe olarak derslere başladın. Rahle başında kitap okuyorsun."
+      },
+      {
+        "metin": "Tarlada ve ev işlerinde aileye yardım et",
+        "etki": { "saglik": 5 },
+        "sonuc": "İlim yolunu seçmeyip ailenin yanında çalışmaya devam ettin."
+      }
+    ]
+  },
+  {
+    "id": "kurulus_03_osman_gazi_gaza",
+    "yas_min": 15,
+    "yas_max": 25,
+    "tarih_yil_min": 1299,
+    "tarih_yil_max": 1326,
+    "tek_seferlik": true,
+    "metin": "Osman Gazi'nin uç bölgesindeki gazalarına katılmak üzere genç alp ve yiğitler çağrılıyor. Sancağın altına girecek misin?",
+    "secenekler": [
+      {
+        "metin": "Atına atla ve gaza ordusuna yazıl",
+        "etki": { "itibar": 15, "para": 10, "saglik": -5 },
+        "meslek_atama": "seyfiye",
+        "bayrak_ekle": "meslek_seyfiye",
+        "sonuc": "Gaza sancağı altında yiğitçe savaştın ve gaziler arasında adın anıldı."
+      },
+      {
+        "metin": "Köyde kalıp tarım ve hayvancılık yap",
+        "etki": { "saglik": 5, "mutluluk": 5 },
+        "sonuc": "Savaşa katılmadın, emniyet içinde köyünde kaldın."
+      }
+    ]
+  },
+  {
+    "id": "kurulus_04_bursa_fethi_sevinci",
+    "yas_min": 8,
+    "yas_max": 60,
+    "tarih_yil_min": 1326,
+    "tarih_yil_max": 1330,
+    "tek_seferlik": true,
+    "metin": "Orhan Gazi'nin Bursa'yı fethedip poyraz kapısından şehre girdiği haberi dalga dalga yayıldı. Şehirde bayram havası var.",
+    "secenekler": [
+      {
+        "metin": "Fetih şenliklerine katıl ve hayır duası et",
+        "etki": { "mutluluk": 15, "itibar": 5 },
+        "sonuc": "Bursa'nın fethi münasebetiyle yapılan pilav ve şerbet ikramına katıldın."
+      }
+    ]
+  },
+  {
+    "id": "kurulus_05_orhan_gazi_imareti",
+    "yas_min": 12,
+    "yas_max": 70,
+    "tarih_yil_min": 1335,
+    "tarih_yil_max": 1360,
+    "tek_seferlik": false,
+    "metin": "İznik ve Bursa'da kurulan yeni imathanede garip gurebaya sıcak çorba ve ekmek dağıtılıyor.",
+    "secenekler": [
+      {
+        "metin": "İmarethanede gönüllü olarak çorba dağıt",
+        "etki": { "itibar": 10, "mutluluk": 10 },
+        "sonuc": "Yoksullara yardım ederek halkın ve ulamanın takdirini kazandın."
+      },
+      {
+        "metin": "İmarethaneden nasiplen ve yoluna devam et",
+        "etki": { "saglik": 5 },
+        "sonuc": "Sıcak çorbanı içip kuvvet topladın."
+      }
+    ]
+  },
+  {
+    "id": "kurulus_06_rumeliye_gecis",
+    "yas_min": 18,
+    "yas_max": 35,
+    "tarih_yil_min": 1354,
+    "tarih_yil_max": 1380,
+    "tek_seferlik": true,
+    "gerekli_bayrak": "meslek_seyfiye",
+    "metin": "Süleyman Paşa komutasında Çimpe Kalesi alınarak Rumeli'ye ilk adım atıldı. Akıncı birlikleri evlad-ı fatihan olarak karşıya geçiyor.",
+    "secenekler": [
+      {
+        "metin": "Rumeli akıncılarına katılarak sınır boyuna yerleş",
+        "etki": { "itibar": 20, "para": 15 },
+        "sonuc": "Rumeli topraklarında yeni birliklere katıldın ve gaza ganimetinden pay aldın."
+      },
+      {
+        "metin": "Anadolu garnizonunda görevine devam et",
+        "etki": { "saglik": 5 },
+        "sonuc": "Anadolu'da kalıp daha güvenli bir devriye görevi sürdürdün."
+      }
+    ]
+  },
+  {
+    "id": "kurulus_07_kosova_meydan_muharebesi",
+    "yas_min": 18,
+    "yas_max": 45,
+    "tarih_yil_min": 1389,
+    "tarih_yil_max": 1390,
+    "tek_seferlik": true,
+    "gerekli_bayrak": "meslek_seyfiye",
+    "metin": "I. Murad Hüdavendigar komutasında Kosova Ovası'nda büyük bir meydan savaşı vuku buluyor. Savaş meydanı toz duman içinde.",
+    "secenekler": [
+      {
+        "metin": "Ön saflarda cesurca çarpış",
+        "etki": { "itibar": 25, "para": 20, "saglik": -15 },
+        "olumcul_sans": 10,
+        "olum_nedeni": "Kosova Meydan Muharebesi'nde şehit düştü",
+        "sonuc": "Kosova Zaferi galibiyetle sonuçlandı. Savaş meydanında büyük yararlılık gösterdin."
+      },
+      {
+        "metin": "Lojistik ve ihtiyat birliklerinde kal",
+        "etki": { "itibar": 5 },
+        "sonuc": "Muharebe zaferle bitti, ordu lahit ve ganimetleri emniyete aldı."
+      }
+    ]
+  },
+  {
+    "id": "kurulus_08_nigar_hatun_evlilik",
+    "yas_min": 18,
+    "yas_max": 30,
+    "tarih_yil_min": 1299,
+    "tarih_yil_max": 1453,
+    "tek_seferlik": true,
+    "oncelikli": true,
+    "engel_bayrak": "evli",
+    "metin": "Ailen ve mahalle büyükleri senin için münasip bir eş adayı buldu. Düğün tedarikleri konuşuluyor.",
+    "secenekler": [
+      {
+        "metin": "Nasibini kabul et ve hayırlı bir izdivaç yap",
+        "etki": { "mutluluk": 20, "itibar": 10, "para": -10 },
+        "bayrak_ekle": "evli",
+        "sonuc": "Mahallede dualarla düğünün yapıldı. Yeni bir yuva kurdun."
+      },
+      {
+        "metin": "Henüz evliliğe hazır olmadığını söyle",
+        "etki": { "mutluluk": -5 },
+        "sonuc": "Evlilik teklifini erteledin."
+      }
+    ]
+  },
+  {
+    "id": "kurulus_09_fetret_devri_karasizligi",
+    "yas_min": 16,
+    "yas_max": 65,
+    "tarih_yil_min": 1402,
+    "tarih_yil_max": 1413,
+    "tek_seferlik": true,
+    "metin": "Ankara Savaşı sonrası taht boşluğu (Fetret Devri) başladı. Şehzadeler arası mücadele yüzünden halk ve esnaf tedirgin.",
+    "secenekler": [
+      {
+        "metin": "Dükkanın kapılarını kapatıp tarafsız kal, sükuneti bekle",
+        "etki": { "mutluluk": -10, "para": -5 },
+        "sonuc": "Fetret kargaşasından zarar görmeden sıyrılmayı başardın."
+      },
+      {
+        "metin": "Çelebi Mehmed'in birliği sağlama gayretine destek ol",
+        "etki": { "itibar": 15, "zeka": 5 },
+        "sonuc": "Birlik sağlama çabalarına katılarak itibar kazandın."
+      }
+    ]
+  },
+  {
+    "id": "kurulus_10_celebi_mehmed_huzur",
+    "yas_min": 10,
+    "yas_max": 75,
+    "tarih_yil_min": 1413,
+    "tarih_yil_max": 1421,
+    "tek_seferlik": true,
+    "metin": "I. Mehmed (Çelebi Mehmed) devleti yeniden derleyip toparladı. Edirne ve Bursa çarşılarında dirlik ve düzen geri geldi.",
+    "secenekler": [
+      {
+        "metin": "Çarşıda ticarete sarıl ve işini büyüt",
+        "etki": { "para": 15, "mutluluk": 10 },
+        "sonuc": "Huzur ortamında kazancın bereketi arttı."
+      }
+    ]
+  },
+  {
+    "id": "kurulus_11_ii_murad_varna_savası",
+    "yas_min": 18,
+    "yas_max": 50,
+    "tarih_yil_min": 1444,
+    "tarih_yil_max": 1445,
+    "tek_seferlik": true,
+    "gerekli_bayrak": "meslek_seyfiye",
+    "metin": "II. Murad yeniden ordunun başına geçti ve Varna'da Haçlı ordusuna karşı büyük bir imha savaşı veriliyor.",
+    "secenekler": [
+      {
+        "metin": "Sağ kanat sipahileriyle hücuma kalk",
+        "etki": { "itibar": 20, "para": 15, "saglik": -10 },
+        "olumcul_sans": 5,
+        "olum_nedeni": "Varna Meydan Savaşı'nda vefat etti",
+        "sonuc": "Varna Zaferi ile balkanlardaki Türk hakimiyeti pekişti."
+      }
+    ]
+  },
+  {
+    "id": "kurulus_12_ahilik_ustalik_terfi",
+    "yas_min": 18,
+    "yas_max": 50,
+    "tarih_yil_min": 1299,
+    "tarih_yil_max": 1453,
+    "tek_seferlik": false,
+    "gerekli_bayrak": "meslek_ahilik",
+    "metin": "Lonca heyeti tezgahındaki el emeğini ve ahlakını değerlendirerek şed kuşatma töreni düzenlemek istiyor.",
+    "secenekler": [
+      {
+        "metin": "Şed kuşatılıp icazet al ve ustalık kademesine ilerle",
+        "etki": { "itibar": 15, "para": 10 },
+        "sonuc": "Dualarla şed kuşandın, kalfalıktan ustalığa terfi ettin."
+      }
+    ]
+  },
+  {
+    "id": "kurulus_13_salgin_veba",
+    "yas_min": 1,
+    "yas_max": 80,
+    "tarih_yil_min": 1348,
+    "tarih_yil_max": 1352,
+    "tek_seferlik": true,
+    "metin": "Limanlardan gelen tüccar gemileriyle büyük bir salgın hastalık (Taun/Kara Veba) şehre yayıldı. Her gün evlerden cenazeler kalkıyor.",
+    "secenekler": [
+      {
+        "metin": "Evine kapan ve sirke/otlar ile korunmaya çalış",
+        "etki": { "saglik": -10, "mutluluk": -15 },
+        "bayrak_ekle": "salgin_maruz",
+        "olumcul_sans": 15,
+        "olum_nedeni": "Kara Veba salgınında vefat etti",
+        "sonuc": "Evinde karantinada kalarak felaketi atlatmaya çalıştın."
+      },
+      {
+        "metin": "Hastalanan komşulara yardım etmeye git",
+        "etki": { "itibar": 20, "saglik": -25 },
+        "bayrak_ekle": "salgin_maruz",
+        "olumcul_sans": 30,
+        "olum_nedeni": "Veba hastalarına bakarken salğına yakalanıp öldü",
+        "sonuc": "Büyük bir fedakarlık göstererek komşularına şifa dağıttın."
+      }
+    ]
+  },
+  {
+    "id": "kurulus_14_medrese_danismendlik",
+    "yas_min": 16,
+    "yas_max": 35,
+    "tarih_yil_min": 1299,
+    "tarih_yil_max": 1453,
+    "tek_seferlik": false,
+    "gerekli_bayrak": "meslek_ilmiye",
+    "metin": "Müderris efendi icazet imtihanı açtı. Başarılı olursan Danişmend kademesine yükseleceksin.",
+    "secenekler": [
+      {
+        "metin": "Gece gündüz ders çalışıp imtihana gir",
+        "etki": { "zeka": 15, "itibar": 10 },
+        "sonuc": "İmtihanı başarıyla geçip müderris yardımcısı (Danişmend) oldun."
+      }
+    ]
+  },
+  {
+    "id": "kurulus_15_istanbul_kusatmasi_hazirligi",
+    "yas_min": 16,
+    "yas_max": 50,
+    "tarih_yil_min": 1451,
+    "tarih_yil_max": 1453,
+    "tek_seferlik": true,
+    "metin": "Genç Sultan II. Mehmed (Fatih) Edirne dökümhanelerinde devasa şahi topları döktürüyor ve İstanbul'un fethi için hazırlık başlatıldı.",
+    "secenekler": [
+      {
+        "metin": "Top dökümhanesinde veya ordu hazırlığında görev al",
+        "etki": { "itibar": 25, "para": 15, "zeka": 10 },
+        "sonuc": "Şahi toplarının ve fetih hazırlıklarının önemli bir parçası oldun."
+      }
+    ]
+  }
+]
