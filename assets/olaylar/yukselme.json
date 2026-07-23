@@ -1362,5 +1362,337 @@
         "sonuc": "İyi yönetilen bir devlette yaşamak, halkın gündelik huzuruna da yansıyordu."
       }
     ]
+  },
+  {
+    "id": "kanuni2_001_preveze_zaferi",
+    "donem": "yukselme",
+    "alt_donem": "kanuni_2_zirve",
+    "tarih_yil_min": 1538,
+    "tarih_yil_max": 1538,
+    "yas_min": 16,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": "meslek_seyfiye",
+    "metin": "Venedik, İspanya, Ceneviz, Malta ve Papalık'ın birleşik Haçlı donanması, Barbaros Hayreddin Paşa komutasındaki donanmamızla Preveze açıklarında karşılaştı. 27-28 Eylül günlerinde büyük bir zafer kazanıldı.",
+    "secenekler": [
+      {
+        "metin": "Bu tarihi deniz savaşında bulun",
+        "etki": { "para": 7, "itibar": 5, "saglik": -3, "sans_gerekli": true },
+        "sonuc": "Andrea Doria'nın komuta ettiği koca donanma dağıtıldı. Akdeniz artık tartışmasız bir 'Türk gölü' olmuştu. Bu zafer onlarca yıl sürecek bir üstünlüğün başlangıcıydı."
+      },
+      {
+        "metin": "Bu deniz zaferini karadan izle",
+        "etki": { "mutluluk": 4 },
+        "sonuc": "Zafer haberi kıyı şehirlerinde büyük bir coşkuyla kutlandı. Barbaros'un adı artık bir efsaneydi."
+      }
+    ]
+  },
+  {
+    "id": "kanuni2_002_hint_deniz_seferi",
+    "donem": "yukselme",
+    "alt_donem": "kanuni_2_zirve",
+    "tarih_yil_min": 1538,
+    "tarih_yil_max": 1538,
+    "yas_min": 15,
+    "yas_max": 50,
+    "tek_seferlik": true,
+    "gerekli_bayrak": "meslek_seyfiye",
+    "metin": "Hadım Süleyman Paşa komutasında Süveyş'teki donanma, Portekizlilerin tehdit ettiği Hindistan kıyılarındaki küçük Müslüman prensliklere yardım için sefere çıktı — İstanbul'dan binlerce kilometre uzağa.",
+    "secenekler": [
+      {
+        "metin": "Bu uzak ve egzotik sefere katıl",
+        "etki": { "para": 3, "saglik": -4, "zeka": 2, "sans_gerekli": true },
+        "sonuc": "Hindistan'a kadar uzanan bu sefer beklenen başarıyı getirmedi ama Osmanlı'nın ne kadar uzaklara ulaşabildiğini gösterdi — dünyanın öbür ucundan hikayelerle döndün."
+      },
+      {
+        "metin": "Bu uzak sefere katılmadın",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Hindistan'a kadar giden bir donanmanın hikayeleri mahallede uzun süre konuşuldu."
+      }
+    ]
+  },
+  {
+    "id": "kanuni2_003_hurrem_haseki_nufuzu",
+    "donem": "yukselme",
+    "alt_donem": "kanuni_2_zirve",
+    "tarih_yil_min": 1534,
+    "tarih_yil_max": 1558,
+    "yas_min": 10,
+    "yas_max": 60,
+    "tek_seferlik": false,
+    "gerekli_bayrak": null,
+    "metin": "Hürrem Sultan (Rus/Ukraynalı asıllı olduğu söylenen bir cariyeyken sultan'ın gönlünü kazanıp resmi eşi olan Haseki Sultan), sarayda giderek daha etkili bir konuma geliyor. Hayır kurumları, camiler, aşevleri yaptırıyor — halk arasında hem merak hem hayranlık uyandırıyor.",
+    "secenekler": [
+      {
+        "metin": "Hürrem Sultan'ın yaptırdığı bir imarethaneden yardım al",
+        "etki": { "mutluluk": 4, "para": 1 },
+        "sonuc": "Aşevinde sıcak bir çorba, zor bir günde büyük bir tesellidir. Haseki Sultan'ın hayır işleri halk arasında sevgiyle anılıyordu."
+      },
+      {
+        "metin": "Sarayın bu yeni dengesini merakla izle",
+        "etki": { "zeka": 1 },
+        "sonuc": "Bir haseki sultanın bu denli etkili olması, sarayın alışılmış düzenini değiştiriyordu."
+      }
+    ]
+  },
+  {
+    "id": "kanuni2_004_ikinci_iran_seferi",
+    "donem": "yukselme",
+    "alt_donem": "kanuni_2_zirve",
+    "tarih_yil_min": 1548,
+    "tarih_yil_max": 1549,
+    "yas_min": 16,
+    "yas_max": 50,
+    "tek_seferlik": true,
+    "gerekli_bayrak": "meslek_seyfiye",
+    "metin": "Safevi hükümdarı Şah Tahmasb'a karşı yeniden doğuya sefere çıkıldı. Tebriz'e girildi, Van kalesi alınıp yeni bir beylerbeyilik merkezi yapıldı.",
+    "secenekler": [
+      {
+        "metin": "Bu uzun doğu seferine katıl",
+        "etki": { "para": 6, "itibar": 3, "saglik": -4, "sans_gerekli": true },
+        "sonuc": "Doğu sınırlarımız yeniden pekişti. Van, artık bölgenin idari merkeziydi."
+      },
+      {
+        "metin": "Bu uzak sefere katılmadın",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Doğudaki gelişmeler İstanbul'a haftalar sonra ulaşıyordu."
+      }
+    ]
+  },
+  {
+    "id": "kanuni2_005_trablusgarp_alinisi",
+    "donem": "yukselme",
+    "alt_donem": "kanuni_2_zirve",
+    "tarih_yil_min": 1551,
+    "tarih_yil_max": 1551,
+    "yas_min": 15,
+    "yas_max": 50,
+    "tek_seferlik": true,
+    "gerekli_bayrak": "meslek_seyfiye",
+    "metin": "Sinan Paşa ve Turgut Reis komutasında Malta Şövalyelerinin elindeki Trablusgarp alındı — Kuzey Afrika'daki hakimiyetimiz bir kez daha genişledi.",
+    "secenekler": [
+      {
+        "metin": "Bu Kuzey Afrika seferine katıl",
+        "etki": { "para": 5, "itibar": 3, "saglik": -3, "sans_gerekli": true },
+        "sonuc": "Turgut Reis'in denizcilik ustalığı bir kez daha kanıtlandı. Akdeniz'deki hakimiyetimiz sağlamlaşıyordu."
+      },
+      {
+        "metin": "Bu sefere katılmadın",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Kuzey Afrika'daki fetih haberleri denizci çevrelerde büyük ilgiyle karşılandı."
+      }
+    ]
+  },
+  {
+    "id": "kanuni2_006_sehzade_mustafa_soylenti",
+    "donem": "yukselme",
+    "alt_donem": "kanuni_2_zirve",
+    "tarih_yil_min": 1550,
+    "tarih_yil_max": 1553,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": false,
+    "gerekli_bayrak": null,
+    "metin": "Sultan'ın büyük oğlu Şehzade Mustafa, yeteneği ve halkın sevgisiyle tanınıyor. Ama sarayda, onun tahta erken çıkmak istediğine dair söylentiler ve entrikalar dolaşıyor — bazıları bunun arkasında Hürrem Sultan ve Rüstem Paşa'nın olduğunu fısıldıyor.",
+    "secenekler": [
+      {
+        "metin": "Bu söylentileri endişeyle dinle",
+        "etki": { "mutluluk": -2, "zeka": 1 },
+        "sonuc": "Saray entrikaları her zaman tehlikeli sulardı. Şehzade Mustafa'nın etrafındaki gerginlik büyüyordu."
+      },
+      {
+        "metin": "Bu tür söylentilere kulak asma",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Sarayla ilgili dedikodular her zaman dolaşırdı. Ama bu seferki gerginlik farklı hissettiriyordu."
+      }
+    ]
+  },
+  {
+    "id": "kanuni2_007_mustafa_idami",
+    "donem": "yukselme",
+    "alt_donem": "kanuni_2_zirve",
+    "tarih_yil_min": 1553,
+    "tarih_yil_max": 1553,
+    "yas_min": 5,
+    "yas_max": 80,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "Yürek burkan bir haber: Doğu seferi sırasında Konya Ereğlisi'nde babasının huzuruna çıkmak için otağa giren Şehzade Mustafa, cellatlar tarafından boğdurularak idam edildi. Sultan'ın kendi eliyle verdiği bu emir, hem Osmanlı hem Avrupa kaynaklarında derin bir üzüntüyle anlatılıyor.",
+    "secenekler": [
+      {
+        "metin": "Bu acı haberi derin bir üzüntüyle karşıla",
+        "etki": { "mutluluk": -8, "saglik": -1 },
+        "sonuc": "Halkın çok sevdiği bir şehzadenin bu şekilde ölmesi, mahallede uzun süre yaslı bir sessizlikle karşılandı."
+      },
+      {
+        "metin": "Devletin bekası adına bu kararı anlamaya çalış",
+        "etki": { "zeka": 2, "mutluluk": -5 },
+        "sonuc": "Fetret Devri'nin acı hatırası, güçlü bir şehzadenin bile tahtı için babasına karşı gelebileceği korkusunu besliyordu. Yine de bu, en ağır bedellerden biriydi."
+      }
+    ]
+  },
+  {
+    "id": "kanuni2_008_cihangir_olumu",
+    "donem": "yukselme",
+    "alt_donem": "kanuni_2_zirve",
+    "tarih_yil_min": 1553,
+    "tarih_yil_max": 1553,
+    "yas_min": 5,
+    "yas_max": 80,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "Mustafa'nın idamından sadece birkaç hafta sonra, Sultan'ın hasta ve kambur oğlu Şehzade Cihangir de Halep'te vefat etti — ağabeyinin ölümünün acısına dayanamadığı söyleniyor. Sultan, iki oğlunu art arda kaybetmenin derin bir ümitsizliğine kapıldı.",
+    "secenekler": [
+      {
+        "metin": "Bu üst üste gelen acıları paylaş",
+        "etki": { "mutluluk": -6 },
+        "sonuc": "Bir babanın iki oğlunu kısa sürede kaybetmesi, en sert hükümdarları bile diz çöktürecek bir acıydı. Sultan'ın uzun süre bu kederin izlerini taşıdığı söyleniyordu."
+      },
+      {
+        "metin": "Sessizce yasını tut",
+        "etki": { "mutluluk": -4 },
+        "sonuc": "Saray sessizliğe büründü. Bu acı, herkesin ortak yükü gibiydi."
+      }
+    ]
+  },
+  {
+    "id": "kanuni2_009_rustem_pasa_azli",
+    "donem": "yukselme",
+    "alt_donem": "kanuni_2_zirve",
+    "tarih_yil_min": 1553,
+    "tarih_yil_max": 1555,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "Şehzade Mustafa'nın idamında parmağı olduğuna inanılan Sadrazam Rüstem Paşa, halkın büyük tepkisi üzerine görevden alındı. Ama birkaç yıl sonra, Hürrem Sultan'ın etkisiyle yeniden sadrazamlığa getirildiği konuşuluyor.",
+    "secenekler": [
+      {
+        "metin": "Halkın bu öfkesini paylaş",
+        "etki": { "mutluluk": -2, "itibar": 1 },
+        "sonuc": "Sevilen bir şehzadenin ölümünde payı olduğuna inanılan bir devlet adamına karşı halkın tepkisi büyüktü."
+      },
+      {
+        "metin": "Saray içi dengelere karışma",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Sarayın iç işleri karmaşık ve tehlikeliydi. Uzak durmak akıllıcaydı."
+      }
+    ]
+  },
+  {
+    "id": "kanuni2_010_barbaros_son_yillar",
+    "donem": "yukselme",
+    "alt_donem": "kanuni_2_zirve",
+    "tarih_yil_min": 1538,
+    "tarih_yil_max": 1546,
+    "yas_min": 15,
+    "yas_max": 50,
+    "tek_seferlik": false,
+    "gerekli_bayrak": null,
+    "metin": "Preveze zaferinin efsanevi kahramanı Barbaros Hayreddin Paşa, ömrünün son yıllarında İstanbul'da, kendi adını taşıyan bir külliye ve deniz üssü inşa ettiriyor. Denizcilik mesleğine ilgi duyanlar için büyük bir fırsat.",
+    "secenekler": [
+      {
+        "metin": "Denizcilik/tersane işinde çalışmayı dene",
+        "etki": { "para": 4, "zeka": 2 },
+        "sonuc": "Barbaros'un kurduğu deniz geleneği, ondan sonraki nesillere de aktarılıyordu."
+      },
+      {
+        "metin": "Karada kendi işinde kal",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Herkesin bir yeteneği vardı. Deniz herkese göre değildi."
+      }
+    ]
+  },
+  {
+    "id": "kanuni2_011_devlet_teskilati_genisleme",
+    "donem": "yukselme",
+    "alt_donem": "kanuni_2_zirve",
+    "tarih_yil_min": 1540,
+    "tarih_yil_max": 1553,
+    "yas_min": 15,
+    "yas_max": 55,
+    "tek_seferlik": false,
+    "gerekli_bayrak": "meslek_kalemiye",
+    "metin": "İmparatorluk büyüdükçe devlet teşkilatı da genişliyor. Vezir sayısı artırıldı, Kaptan-ı Derya ve Reisülküttab (dış işlerden sorumlu) ilk kez divan üyesi oldu.",
+    "secenekler": [
+      {
+        "metin": "Bu genişleyen bürokraside yükselmeye çalış",
+        "etki": { "zeka": 3, "itibar": 2 },
+        "sonuc": "Devlet mekanizması her geçen yıl daha karmaşık ama daha da güçlü hale geliyordu."
+      }
+    ]
+  },
+  {
+    "id": "kanuni2_012_istanbul_gunluk_hayat",
+    "donem": "yukselme",
+    "alt_donem": "kanuni_2_zirve",
+    "tarih_yil_min": 1538,
+    "tarih_yil_max": 1553,
+    "yas_min": 10,
+    "yas_max": 60,
+    "tek_seferlik": false,
+    "gerekli_bayrak": null,
+    "metin": "İmparatorluğun zirvesindeki bu yıllarda İstanbul, dünyanın en kalabalık ve zengin şehirlerinden biri haline geldi. Kapalıçarşı'da her dilden tüccar, her renkten mal bulunuyor.",
+    "secenekler": [
+      {
+        "metin": "Bu zenginlikten faydalanmaya çalış",
+        "etki": { "para": 3, "mutluluk": 2 },
+        "sonuc": "İmparatorluğun altın çağı, sokaklarda, pazarlarda hissediliyordu."
+      },
+      {
+        "metin": "Sade bir hayat sürmeye devam et",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Herkes bu zenginlikten aynı ölçüde faydalanmıyordu ama genel bir refah havası vardı."
+      }
+    ]
+  },
+  {
+    "id": "kanuni2_013_mimar_sinan_ilk_eserler",
+    "donem": "yukselme",
+    "alt_donem": "kanuni_2_zirve",
+    "tarih_yil_min": 1539,
+    "tarih_yil_max": 1550,
+    "yas_min": 10,
+    "yas_max": 50,
+    "tek_seferlik": false,
+    "gerekli_bayrak": null,
+    "metin": "Baş mimar Sinan, Şehzade Camii gibi eserlerini tamamlıyor — ama asıl büyük başyapıtı olan Süleymaniye için hazırlıklara başlanıyor. İnşaat için usta işçi ve zanaatkarlar aranıyor.",
+    "secenekler": [
+      {
+        "metin": "Bu büyük inşaatta çalışmaya git",
+        "etki": { "para": 4, "zeka": 2 },
+        "meslek_atama": "ahilik",
+        "sonuc": "Mimar Sinan'ın vizyonunun bir parçası olmak, taş taşımak bile olsa gurur vericiydi."
+      },
+      {
+        "metin": "Kendi işinde kalmayı tercih et",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Bu büyük eserin nasıl şekilleneceği merakla izleniyordu."
+      }
+    ]
+  },
+  {
+    "id": "kanuni2_014_selim_bayezid_sancak",
+    "donem": "yukselme",
+    "alt_donem": "kanuni_2_zirve",
+    "tarih_yil_min": 1553,
+    "tarih_yil_max": 1553,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "Mustafa ve Cihangir'in ölümünden sonra, geride sadece iki şehzade kaldı: Selim ve Bayezid. İkisi de kendi sancaklarına gönderildi — ama aralarındaki rekabetin de büyüyeceği şimdiden hissediliyor.",
+    "secenekler": [
+      {
+        "metin": "Gelecekteki olası bir kardeş kavgasından endişelen",
+        "etki": { "zeka": 2, "mutluluk": -1 },
+        "sonuc": "İki şehzade arasındaki gerginlik, geleceğin belirsizliğini de beraberinde getiriyordu."
+      },
+      {
+        "metin": "Şimdilik huzuru koru, geleceği düşünme",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Şu an için barış vardı, ama herkes bu barışın ne kadar süreceğini merak ediyordu."
+      }
+    ]
   }
 ]
