@@ -2805,5 +2805,309 @@
         "sonuc": "Yıllarca süren belirsizlik, insanlarda temkinli bir alışkanlık bırakmıştı."
       }
     ]
+  },
+  {
+    "id": "kurulus_126",
+    "donem": "kurulus",
+    "alt_donem": "murad_2",
+    "tarih_yil_min": 1421,
+    "tarih_yil_max": 1421,
+    "yas_min": 5,
+    "yas_max": 70,
+    "tek_seferlik": true,
+    "metin": "Bursa'da Çelebi Mehmed vefat etti. Yerine 19 yaşındaki oğlu Şehzade Murad, II. Murad unvanıyla tahta çıktı.",
+    "secenekler": [
+      {
+        "metin": "Genç sultana bağlılığını göster",
+        "etki": { "itibar": 2, "mutluluk": -1 },
+        "sonuc": "Genç bir hükümdar başa geçmişti. İç ve dış düşmanlar bu geçiş dönemini fırsat bilebilirdi."
+      },
+      {
+        "metin": "Endişeyle bekle, gelişmeleri izle",
+        "etki": { "zeka": 1 },
+        "sonuc": "Taht değişimleri her zaman belirsizlik getirirdi. Sabırla beklemek gerekiyordu."
+      }
+    ]
+  },
+  {
+    "id": "kurulus_127",
+    "donem": "kurulus",
+    "alt_donem": "murad_2",
+    "tarih_yil_min": 1421,
+    "tarih_yil_max": 1422,
+    "yas_min": 10,
+    "yas_max": 60,
+    "tek_seferlik": true,
+    "gerekli_bayrak": "meslek_seyfiye",
+    "metin": "Bizans'ın serbest bırakıp desteklediği Düzmece Mustafa, genç sultanı fırsat bilip yeniden ortaya çıktı. II. Murad'ın kuvvetleri sefer düzenledi.",
+    "secenekler": [
+      {
+        "metin": "Sefere katıl",
+        "etki": { "para": 4, "itibar": 3, "saglik": -2, "sans_gerekli": true },
+        "sonuc": "Düzmece Mustafa yakalanıp Edirne'de idam edildi. Genç sultan ilk büyük sınavını başarıyla geçmişti."
+      },
+      {
+        "metin": "Sefere katılmadın, gelişmeleri bekledin",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "İsyanın bastırıldığı haberi geldiğinde köyde rahat bir nefes alındı."
+      }
+    ]
+  },
+  {
+    "id": "kurulus_128",
+    "donem": "kurulus",
+    "alt_donem": "murad_2",
+    "tarih_yil_min": 1422,
+    "tarih_yil_max": 1422,
+    "yas_min": 15,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": "meslek_seyfiye",
+    "metin": "Düzmece Mustafa'yı destekleyen Bizans'a ders vermek için İstanbul kuşatıldı. Ama surlar bir kez daha dayandı, kuşatma kaldırıldı.",
+    "secenekler": [
+      {
+        "metin": "Kuşatmaya katıl",
+        "etki": { "para": 2, "saglik": -2 },
+        "sonuc": "Şehir yine alınamadı. İstanbul'un fethi gelecek bir nesle nasip olacaktı."
+      },
+      {
+        "metin": "Kuşatmaya katılmadın",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Dördüncü başarısız kuşatma haberi, herkeste bir tür alışkanlık yaratmıştı artık."
+      }
+    ]
+  },
+  {
+    "id": "kurulus_129",
+    "donem": "kurulus",
+    "alt_donem": "murad_2",
+    "tarih_yil_min": 1422,
+    "tarih_yil_max": 1423,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "metin": "Bu kez de II. Murad'ın kendi küçük kardeşi Şehzade Mustafa, Karaman ve Bizans kışkırtmasıyla isyan bayrağı açtı. Bursa'yı kuşattı.",
+    "secenekler": [
+      {
+        "metin": "Bu kardeş kavgasını üzüntüyle karşıla",
+        "etki": { "mutluluk": -3 },
+        "sonuc": "Taht kavgaları bir türlü bitmiyordu. Bursa'nın kuşatılması herkesi tedirgin etti."
+      },
+      {
+        "metin": "Devletin bekası için gerekli bir mücadele say",
+        "etki": { "itibar": 1 },
+        "sonuc": "İsyan bastırıldı, birlik yeniden sağlandı."
+      }
+    ]
+  },
+  {
+    "id": "kurulus_130",
+    "donem": "kurulus",
+    "alt_donem": "murad_2",
+    "tarih_yil_min": 1423,
+    "tarih_yil_max": 1429,
+    "yas_min": 10,
+    "yas_max": 60,
+    "tek_seferlik": true,
+    "metin": "Aydınoğulları, Menteşeoğulları, Tekeoğulları beyliklerine kesin olarak son verildi. Germiyanoğulları da kendi isteğiyle (vasiyet yoluyla) Osmanlı'ya katıldı. Anadolu Türk birliği artık büyük ölçüde tamamlandı.",
+    "secenekler": [
+      {
+        "metin": "Bu birliğin sağlanmasından gurur duy",
+        "etki": { "mutluluk": 3, "itibar": 1 },
+        "sonuc": "Osman Gazi'den beri süren rüya, adım adım gerçeğe dönüşüyordu."
+      },
+      {
+        "metin": "Günlük hayatına devam et",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Büyük siyasi gelişmeler kendi mecrasında akarken, halkın gündelik hayatı sürdü."
+      }
+    ]
+  },
+  {
+    "id": "kurulus_131",
+    "donem": "kurulus",
+    "alt_donem": "murad_2",
+    "tarih_yil_min": 1443,
+    "tarih_yil_max": 1443,
+    "yas_min": 16,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": "meslek_seyfiye",
+    "metin": "Macar, Leh, Sırp, Bosna ve Eflak kuvvetlerinin Papalık desteğiyle oluşturduğu büyük bir Haçlı ordusu Balkanlar'da ilerliyor. İzladi Geçidi, Derbent ve Yalvaç'ta yapılan savaşları bu kez biz kaybettik.",
+    "secenekler": [
+      {
+        "metin": "Bu seferde bulundun, yenilgiyi yaşadın",
+        "etki": { "saglik": -4, "mutluluk": -4, "sans_gerekli": true },
+        "sonuc": "Üst üste gelen yenilgiler moralleri bozdu. Balkanlar'daki hakimiyetimiz ilk kez ciddi bir tehdit altındaydı."
+      },
+      {
+        "metin": "Bu sefere katılmadın",
+        "etki": { "mutluluk": -1 },
+        "sonuc": "Kötü haberler köye ulaştıkça endişe büyüdü."
+      }
+    ]
+  },
+  {
+    "id": "kurulus_132",
+    "donem": "kurulus",
+    "alt_donem": "murad_2",
+    "tarih_yil_min": 1444,
+    "tarih_yil_max": 1444,
+    "yas_min": 10,
+    "yas_max": 60,
+    "tek_seferlik": true,
+    "metin": "Üst üste yenilgilerin ardından Macarlarla 10 yıllık bir barış antlaşması imzalandı — Edirne-Segedin Antlaşması. Bu, Haçlılarla yapılan ilk resmi antlaşmamız.",
+    "secenekler": [
+      {
+        "metin": "Barışın getirdiği huzuru hisset",
+        "etki": { "mutluluk": 4 },
+        "sonuc": "Savaş yorgunu halk için barış haberi büyük bir rahatlamaydı."
+      },
+      {
+        "metin": "Bu antlaşmanın uzun sürmeyeceğinden şüphelen",
+        "etki": { "zeka": 2 },
+        "sonuc": "Bazı tecrübeli kişiler, Haçlıların bu antlaşmaya sadık kalmayabileceğini konuşuyordu — haklı çıkacaklardı."
+      }
+    ]
+  },
+  {
+    "id": "kurulus_133",
+    "donem": "kurulus",
+    "alt_donem": "murad_2",
+    "tarih_yil_min": 1443,
+    "tarih_yil_max": 1444,
+    "yas_min": 8,
+    "yas_max": 70,
+    "tek_seferlik": true,
+    "metin": "Sultan'ın en sevdiği oğlu Şehzade Alaeddin'in vefat ettiği haberi geldi. Sultan'ın bu kayıptan derin bir üzüntü yaşadığı, artık tahttan bezmiş göründüğü söyleniyor.",
+    "secenekler": [
+      {
+        "metin": "Bu acı haberi mahalle ile birlikte konuş",
+        "etki": { "mutluluk": -3 },
+        "sonuc": "Bir babanın acısı, halkın da yüreğini burktu. Sultan'ın ruh hali devletin geleceğini de etkileyecekti."
+      },
+      {
+        "metin": "Sessizce yasını tut",
+        "etki": { "mutluluk": -2 },
+        "sonuc": "Herkesin yası kendi içindeydi."
+      }
+    ]
+  },
+  {
+    "id": "kurulus_134",
+    "donem": "kurulus",
+    "alt_donem": "murad_2",
+    "tarih_yil_min": 1444,
+    "tarih_yil_max": 1444,
+    "yas_min": 8,
+    "yas_max": 70,
+    "tek_seferlik": true,
+    "metin": "Şaşırtıcı bir haber: II. Murad, kendi isteğiyle tahtı 12 yaşındaki oğlu Şehzade Mehmed'e bırakıp Manisa'ya çekildi. Manevi rehberi Hacı Bayram-ı Veli'nin 'İstanbul'u fethedecek olan şehzadeniz Mehmed'dir' dediği söyleniyor. Bu, tarihimizde kendi isteğiyle tahttan çekilen ilk padişah.",
+    "secenekler": [
+      {
+        "metin": "Bu kararı manevi bir işaret olarak yorumla",
+        "etki": { "zeka": 2, "mutluluk": 1 },
+        "sonuc": "Genç Mehmed'in geleceği merak konusuydu. Hacı Bayram-ı Veli'nin sözleri halk arasında dilden dile dolaşıyordu."
+      },
+      {
+        "metin": "12 yaşında bir çocuğun padişah olmasından endişelen",
+        "etki": { "mutluluk": -2, "zeka": 1 },
+        "sonuc": "Bu denli genç bir hükümdar, dış düşmanlar için bir fırsat olabilirdi. Endişeler haksız çıkmayacaktı."
+      }
+    ]
+  },
+  {
+    "id": "kurulus_135",
+    "donem": "kurulus",
+    "alt_donem": "murad_2",
+    "tarih_yil_min": 1446,
+    "tarih_yil_max": 1446,
+    "yas_min": 15,
+    "yas_max": 45,
+    "tek_seferlik": true,
+    "gerekli_bayrak": "meslek_seyfiye",
+    "metin": "Haçlıların antlaşmayı bozup yeniden saldırıya geçmesi üzerine II. Murad tahta geri çağrıldı. Bu geçiş sırasında Edirne'de yeniçeriler arasında maaş talebiyle bir ayaklanma çıktı — devlet tarihindeki ilk yeniçeri isyanı (Buçuktepe İsyanı).",
+    "secenekler": [
+      {
+        "metin": "Bu ayaklanmayı endişeyle izle",
+        "etki": { "zeka": 2, "mutluluk": -1 },
+        "sonuc": "İsyan, maaşlara zam yapılarak yatıştırıldı. Ama kapıkulu askerinin bu denli güçlü olduğu ilk kez böyle açıkça görülmüştü."
+      },
+      {
+        "metin": "Kendi işine devam et, saraya karışma",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Saray içi kargaşalar, sıradan halkın gündelik hayatını fazla etkilemedi."
+      }
+    ]
+  },
+  {
+    "id": "kurulus_136",
+    "donem": "kurulus",
+    "alt_donem": "murad_2",
+    "tarih_yil_min": 1446,
+    "tarih_yil_max": 1446,
+    "yas_min": 10,
+    "yas_max": 70,
+    "tek_seferlik": true,
+    "metin": "Devlet erkanının ve genç Mehmed'in ısrarıyla II. Murad ikinci kez tahta ve ordunun başına geçti. Büyük bir hızla Edirne'ye geldi.",
+    "secenekler": [
+      {
+        "metin": "Tecrübeli sultanın geri dönüşünü rahatlatıcı bul",
+        "etki": { "mutluluk": 3, "itibar": 1 },
+        "sonuc": "Genç Mehmed'in yönetimindeki belirsizlikten sonra, tecrübeli bir elin yeniden dümende olması güven verdi."
+      },
+      {
+        "metin": "Bu ikili yönetim değişimini karışık bul",
+        "etki": { "zeka": 1 },
+        "sonuc": "Devlet işleri sıradan halk için bazen anlaşılması güç bir karmaşa gibi görünüyordu."
+      }
+    ]
+  },
+  {
+    "id": "kurulus_137",
+    "donem": "kurulus",
+    "alt_donem": "murad_2",
+    "tarih_yil_min": 1444,
+    "tarih_yil_max": 1451,
+    "yas_min": 15,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": "meslek_seyfiye",
+    "metin": "Karamanoğlu İbrahim Bey'in tutumlarından rahatsız olan II. Murad, devrin alimlerinden fetva alarak Karaman üzerine yürüdü. Ama Karamanoğlu Bey savaşmaktan çekinip af diledi.",
+    "secenekler": [
+      {
+        "metin": "Sefere katıl",
+        "etki": { "para": 3, "saglik": -1, "sans_gerekli": true },
+        "sonuc": "Karamanoğlu affedildi, beyliği tamamen ortadan kaldırılmadı. Diplomatik bir denge kuruldu."
+      },
+      {
+        "metin": "Sefere katılmadın",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Kısa süren bir gerginlik, savaşmadan çözülmüştü."
+      }
+    ]
+  },
+  {
+    "id": "kurulus_138",
+    "donem": "kurulus",
+    "alt_donem": "murad_2",
+    "tarih_yil_min": 1449,
+    "tarih_yil_max": 1451,
+    "yas_min": 15,
+    "yas_max": 70,
+    "tek_seferlik": false,
+    "metin": "İkinci Kosova zaferinin ardından Balkanlar'daki hakimiyetimiz artık tartışılmaz hale geldi. Sultan yaşlanıyor, genç Mehmed de her geçen yıl daha fazla devlet işine dahil oluyor.",
+    "secenekler": [
+      {
+        "metin": "Bu istikrar döneminden faydalanmaya çalış",
+        "etki": { "para": 3, "mutluluk": 2 },
+        "sonuc": "Yıllardır süren savaşların ardından bu görece huzur dönemi, ticaret ve gündelik hayat için nefes alma fırsatıydı."
+      },
+      {
+        "metin": "Genç şehzadenin geleceğini merak et",
+        "etki": { "zeka": 2 },
+        "sonuc": "Hacı Bayram-ı Veli'nin sözleri hâlâ hatırlanıyordu — genç Mehmed'in büyük işler yapacağı bekleniyordu."
+      }
+    ]
   }
 ]

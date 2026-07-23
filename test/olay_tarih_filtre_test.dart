@@ -17,12 +17,12 @@ void main() {
       kurulusOlaylari = yukleyici.jsonMetnindenYukle(jsonString, 'kurulus.json');
     });
 
-    test('1. kurulus.json 125 olay eksiksiz, benzersiz ID, alt_donem ve tarih_yil_min/max alanlarıyla yüklenmeli', () {
-      expect(kurulusOlaylari.length, equals(125));
+    test('1. kurulus.json 138 olay eksiksiz, benzersiz ID, alt_donem ve tarih_yil_min/max alanlarıyla yüklenmeli', () {
+      expect(kurulusOlaylari.length, equals(138));
       
       // Benzersiz ID kontrolü
       final idSet = kurulusOlaylari.map((o) => o.id).toSet();
-      expect(idSet.length, equals(125));
+      expect(idSet.length, equals(138));
 
       final ahilikOlayi = kurulusOlaylari.firstWhere((o) => o.id == 'kurulus_001');
       expect(ahilikOlayi.tarihYilMin, equals(1299));
@@ -60,6 +60,9 @@ void main() {
 
       final celebiBedreddinOlayi = kurulusOlaylari.firstWhere((o) => o.id == 'kurulus_116');
       expect(celebiBedreddinOlayi.altDonem, equals('celebi_mehmed'));
+
+      final murad2TahtaCikisOlayi = kurulusOlaylari.firstWhere((o) => o.id == 'kurulus_126');
+      expect(murad2TahtaCikisOlayi.altDonem, equals('murad_2'));
     });
 
     test('2. Şema doğrulayıcı hatalı tarih_yil_min > tarih_yil_max durumunu yakalamalı', () {
