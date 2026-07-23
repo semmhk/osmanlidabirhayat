@@ -48,6 +48,7 @@ void main() {
         List<dynamic>.from(hataliJson).toString(),
         'test.json',
       );
+      expect(yuklenen, isEmpty);
 
       final hata = yukleyici.dogrulaOlaySemasi(hataliJson.first, {});
       expect(hata, contains('değerinden büyük olamaz'));

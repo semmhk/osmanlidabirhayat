@@ -4,7 +4,7 @@
 
 ## MEVCUT DURUM
 
-**Aktif Faz:** Adım 1 & Adım 4 (Proje İskeleti + Temel Modeller + Tarih Filtreli Motor ve Birim Testleri) ✅
+**Aktif Faz:** Adım 1 & Adım 4 (Proje İskeleti + Tarihsel Düzeltmeler + Birim Testleri + GitHub Entegrasyonu) ✅
 **Son güncelleme:** 23 Temmuz 2026
 
 ---
@@ -27,10 +27,14 @@
 - [x] `PadisahDeposu` ve `Donem` depoları Kuruluş dönemi (1299-1453) doğrulanmış padişah listesiyle yazıldı (`lib/modeller/padisah_deposu.dart`).
 - [x] Osmanlı meslek depoları yazıldı (`lib/modeller/meslek.dart`).
 - [x] `OlayYukleyici` tarih yılı min/max şema doğrulayıcısı ile yazıldı (`lib/motor/olay_yukleyici.dart`).
-- [x] `OyunMotoru` takvim yılı ilertme, tarihsel ölüm riski ve tarih filtreli olay seçimi ile yazıldı (`lib/motor/oyun_motoru.dart`).
+- [x] `OyunMotoru` takvim yılı ilerletme, tarihsel ölüm riski, `agirlikliOlaySec` (10x-25x) ve 2 yıl toleranslı garantili terfi kuralı ile yazıldı (`lib/motor/oyun_motoru.dart`).
 - [x] `assets/olaylar/kurulus.json` dosyasına 15 adet araştırılmış Kuruluş dönemi olayı eklendi.
+- [x] **Tarihsel İnceleme Güncellemeleri**:
+  - `kurulus_06_rumeliye_gecis`: Çimpe Kalesi tarihi 1352-1357 olarak düzeltildi.
+  - `kurulus_04_bursa_fethi_sevinci`: Doğrulanmamış "poyraz kapısı" ifadesi metinden temizlendi.
 - [x] `VesikalikAvatar` görsel mühürlü Osmanlı çizimiyle güncellendi (`lib/bilesenler/vesikalik_avatar.dart`).
-- [x] Birim testleri yazıldı (`test/olay_tarih_filtre_test.dart` & `test/widget_test.dart`).
+- [x] Birim testleri yazıldı (`test/olay_tarih_filtre_test.dart`, `test/oyun_motoru_agirlik_ve_terfi_test.dart` & `test/widget_test.dart`). Toplam **7/7 test YEŞİL ✅**. `flutter analyze` **0 hata / 0 uyarı ✅**.
+- [x] GitHub Reposu: `https://github.com/semmhk/osmanlidabirhayat.git` (main branch).
 
 ---
 

@@ -77,7 +77,7 @@
     "tarih_yil_min": 1326,
     "tarih_yil_max": 1330,
     "tek_seferlik": true,
-    "metin": "Orhan Gazi'nin Bursa'yı fethedip poyraz kapısından şehre girdiği haberi dalga dalga yayıldı. Şehirde bayram havası var.",
+    "metin": "Orhan Gazi'nin Bursa'yı fethedip şehre girdiği haberi dalga dalga yayıldı. Şehirde bayram havası var.",
     "secenekler": [
       {
         "metin": "Fetih şenliklerine katıl ve hayır duası et",
@@ -111,8 +111,8 @@
     "id": "kurulus_06_rumeliye_gecis",
     "yas_min": 18,
     "yas_max": 35,
-    "tarih_yil_min": 1354,
-    "tarih_yil_max": 1380,
+    "tarih_yil_min": 1352,
+    "tarih_yil_max": 1357,
     "tek_seferlik": true,
     "gerekli_bayrak": "meslek_seyfiye",
     "metin": "Süleyman Paşa komutasında Çimpe Kalesi alınarak Rumeli'ye ilk adım atıldı. Akıncı birlikleri evlad-ı fatihan olarak karşıya geçiyor.",

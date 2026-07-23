@@ -1,5 +1,4 @@
 import 'dart:math';
-import '../modeller/cocuk.dart';
 import '../modeller/karakter.dart';
 import '../modeller/olay.dart';
 import '../modeller/meslek.dart';
