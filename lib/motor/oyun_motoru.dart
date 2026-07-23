@@ -61,24 +61,23 @@ class OyunMotoru {
     return Karakter(isim: isim, cinsiyet: cinsiyet, genler: genler, rnd: r);
   }
 
-  /// Meslek ve yaşa göre Akçe gelir hesabı
   static double gelirHesapla(Karakter k, int yas) {
     final double tabanGelir;
     if (yas <= 17) {
       tabanGelir = 0.0;
     } else if (yas <= 24) {
-      tabanGelir = 10.0; // Gençlik harçlığı / Çıraklık desteği
+      tabanGelir = 10.0;
     } else if (yas <= 59) {
       if (k.meslekZincirId == null) {
         k.meslek = 'Vasıfsız İşçi';
         if (!k.bayraklar.contains('calisaniyor')) {
           k.bayraklar.add('calisaniyor');
         }
-        return 20.0; // Taban 20 Akçe
+        return 20.0;
       }
       tabanGelir = 20.0;
     } else {
-      tabanGelir = 15.0; // Yaşlılık desteği / Birikim
+      tabanGelir = 15.0;
     }
 
     double meslekCarpan = 1.0;
@@ -92,11 +91,10 @@ class OyunMotoru {
     return tabanGelir * meslekCarpan;
   }
 
-  /// Yıllık Akçe gider hesabı
   static double giderHesapla(Karakter k, int yas) {
     if (yas <= 17) return 0.0;
-    double gider = 15.0; // Taban yaşam gideri
-    gider += (k.cocuklar.length * 5.0); // Çocuk başı 5 Akçe
+    double gider = 15.0;
+    gider += (k.cocuklar.length * 5.0);
     return gider;
   }
 
@@ -106,7 +104,6 @@ class OyunMotoru {
     sonIslemTerfiMi = false;
   }
 
-  /// Tarihsel Osmanlı ölüm riski formülü
   bool olumKontrolu() {
     if (karakter.saglik <= 0) {
       karakter.olumNedeni ??= 'Ağır hastalık ve şifa bulunamaması';
@@ -115,11 +112,11 @@ class OyunMotoru {
 
     double yasRiski = 0.0;
     if (karakter.yas <= 2) {
-      yasRiski = 0.06; // %6.0 çocukluk riski
+      yasRiski = 0.06;
     } else if (karakter.yas <= 5) {
       yasRiski = 0.03;
     } else if (karakter.yas >= 80) {
-      yasRiski = 0.40; // %40.0 yaşlılık riski
+      yasRiski = 0.40;
     } else if (karakter.yas >= 70) {
       yasRiski = 0.20;
     } else if (karakter.yas >= 60) {
@@ -153,7 +150,10 @@ class OyunMotoru {
     return false;
   }
 
-  /// Terfi kontrolü & Garantili terfi kuralı
+  /// Terfi Kontrolü: 
+  /// - Karakter terfi şartlarını sağladıysa kademedeki süresini takip eder.
+  /// - Eğer şartlar sağlandığı halde 2 yıl bekleme süresi dolmuşsa (kademedekiYil >= minYil + 2), 
+  ///   GARANTİLİ / ZORUNLU TERFİ gerçekleşir.
   bool terfiKontrolEt() {
     if (karakter.meslekZincirId == null) return false;
 
@@ -161,21 +161,26 @@ class OyunMotoru {
     final zincir = MeslekDeposu.zincirGetir(karakter.meslekZincirId);
     if (zincir == null || karakter.meslekKademesi >= zincir.kademeler.length - 1) return false;
 
-    final mevcutKademe = zincir.kademeler[karakter.meslekKademesi];
+    final mevcukKademe = zincir.kademeler[karakter.meslekKademesi];
     final sonrakiKademe = zincir.kademeler[karakter.meslekKademesi + 1];
 
-    if (karakter.kademedekiYil >= mevcutKademe.minYil &&
+    // Şartlar sağlandı mı?
+    if (karakter.kademedekiYil >= mevcukKademe.minYil &&
         karakter.zeka >= sonrakiKademe.minZeka &&
         karakter.itibar >= sonrakiKademe.minItibar) {
-      karakter.meslekKademesi++;
-      karakter.kademedekiYil = 0;
-      karakter.meslek = sonrakiKademe.unvan;
-      karakter.bayraklar.add('terfi_edildi');
-      karakter.gunluk.insert(
-        0,
-        '${karakter.yas} yaş (${karakter.takvimYili}) — 🎖️ TERFİ! Yeni unvanınız: ${karakter.meslekUnvaniGetir()}',
-      );
-      return true;
+      
+      // 2 yıl tolerans bekleme süresi dolduysa ZORUNLU GARANTİLİ TERFİ!
+      if (karakter.kademedekiYil >= mevcukKademe.minYil + 2) {
+        karakter.meslekKademesi++;
+        karakter.kademedekiYil = 0;
+        karakter.meslek = sonrakiKademe.unvan;
+        karakter.bayraklar.add('terfi_edildi');
+        karakter.gunluk.insert(
+          0,
+          '${karakter.yas} yaş (${karakter.takvimYili}) — 🎖️ GARANTİLİ TERFİ! Yeni unvanınız: ${karakter.meslekUnvaniGetir()}',
+        );
+        return true;
+      }
     }
     return false;
   }
@@ -185,14 +190,11 @@ class OyunMotoru {
     return tumOlaylar.where((o) {
       if (karakter.kullanilanOlaylar.contains(o.id) && o.tekSeferlik) return false;
 
-      // 1. Yaş Aralığı Doğrulaması
       if (karakter.yas < o.yasMin || karakter.yas > o.yasMax) return false;
 
-      // 2. Takvim Yılı Aralığı Doğrulaması (Yeni Tarih Filtresi)
       if (o.tarihYilMin != null && karakter.takvimYili < o.tarihYilMin!) return false;
       if (o.tarihYilMax != null && karakter.takvimYili > o.tarihYilMax!) return false;
 
-      // 3. Stat Şartı Doğrulaması
       if (o.kosul != null) {
         final val = switch (o.kosul!.stat) {
           'saglik' => karakter.saglik,
@@ -205,13 +207,64 @@ class OyunMotoru {
         if (val < o.kosul!.min) return false;
       }
 
-      // 4. Bayrak Doğrulamaları
       if (o.gerekliBayrak != null && !karakter.bayraklar.contains(o.gerekliBayrak)) return false;
       if (o.gerekliBayraklar != null && !o.gerekliBayraklar!.every(karakter.bayraklar.contains)) return false;
       if (o.engelBayrak != null && karakter.bayraklar.contains(o.engelBayrak)) return false;
 
       return true;
     }).toList();
+  }
+
+  /// Olay Havuzu Sayısal Ağırlıklandırması (Weighted Pool Selector)
+  /// - Standart olaylar: weight = 1
+  /// - Standart kilometre taşı olayları (10-14 meslek, 16-22 evlilik): weight = 10
+  /// - Telafi / geç kalmış kilometre taşları (18+ mesleksiz, 28+ bekar): weight = 25
+  /// - Terfi bekleme dönemindeki olaylar: weight = 15
+  Olay? agirlikliOlaySec(List<Olay> uygunlar) {
+    if (uygunlar.isEmpty) return null;
+
+    final List<int> agirliklar = [];
+    int toplamAgirlik = 0;
+
+    for (final o in uygunlar) {
+      int agirlik = 1;
+
+      if (o.oncelikli) {
+        // Telafi durumu kontrolü
+        final bool meslekTelafi = (karakter.yas >= 18 && karakter.meslekZincirId == null);
+        final bool evlilikTelafi = (karakter.yas >= 28 && karakter.esAdi == null);
+
+        if (meslekTelafi || evlilikTelafi) {
+          agirlik = 25; // Telafi kilometre taşı ağırlığı
+        } else {
+          agirlik = 10; // Standart kilometre taşı ağırlığı (10-14 & 16-22)
+        }
+      }
+
+      // Terfi dönemi olaylarına 15x ağırlık verilmesi
+      if (karakter.meslekZincirId != null) {
+        final zincir = MeslekDeposu.zincirGetir(karakter.meslekZincirId);
+        if (zincir != null && karakter.meslekKademesi < zincir.kademeler.length - 1) {
+          final mevcukKademe = zincir.kademeler[karakter.meslekKademesi];
+          if (karakter.kademedekiYil >= mevcukKademe.minYil) {
+            agirlik = max(agirlik, 15);
+          }
+        }
+      }
+
+      agirliklar.add(agirlik);
+      toplamAgirlik += agirlik;
+    }
+
+    int zar = _random.nextInt(toplamAgirlik);
+    for (var i = 0; i < uygunlar.length; i++) {
+      if (zar < agirliklar[i]) {
+        return uygunlar[i];
+      }
+      zar -= agirliklar[i];
+    }
+
+    return uygunlar.last;
   }
 
   /// Bir yıl yaşama fonksiyonu
@@ -236,13 +289,8 @@ class OyunMotoru {
 
     final uygunlar = uygunOlaylariGetir();
     if (uygunlar.isNotEmpty) {
-      // Öncelikli / Kilometre taşı ağırlıklandırma seçimi
-      final oncelikliler = uygunlar.where((o) => o.oncelikli).toList();
-      if (oncelikliler.isNotEmpty && _random.nextDouble() < 0.70) {
-        bekleyenOlay = oncelikliler[_random.nextInt(oncelikliler.length)];
-      } else {
-        bekleyenOlay = uygunlar[_random.nextInt(uygunlar.length)];
-      }
+      // Sayısal ağırlıklandırma algoritması ile seçim yap
+      bekleyenOlay = agirlikliOlaySec(uygunlar);
     } else {
       bekleyenOlay = null;
       final metin = _sakinMetinGetir(karakter.yas);
@@ -290,7 +338,6 @@ class OyunMotoru {
 
     karakter.kullanilanOlaylar.add(bekleyenOlay!.id);
 
-    // Ani ölümcül kaza kontrolü
     if (secenek.olumculSans > 0 && _random.nextInt(100) < secenek.olumculSans) {
       karakter.olu = true;
       karakter.olumNedeni = secenek.olumNedeni ?? 'Beklenmedik felaket / Kaza';
