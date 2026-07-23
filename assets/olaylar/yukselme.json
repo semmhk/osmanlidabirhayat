@@ -1031,5 +1031,336 @@
         "sonuc": "Şehzade Süleyman'ın babası kadar sert olmadığı, daha adaletli bir yönetim beklendiği konuşuluyordu."
       }
     ]
+  },
+  {
+    "id": "kanuni1_001_tahta_cikis",
+    "donem": "yukselme",
+    "alt_donem": "kanuni_1_yukselis",
+    "tarih_yil_min": 1520,
+    "tarih_yil_max": 1520,
+    "yas_min": 5,
+    "yas_max": 70,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "Yavuz Sultan Selim'in vefatının ardından tek oğlu Şehzade Süleyman, 26 yaşında Osmanlı tahtına çıktı. Babasının aksine sakin ve adaletli bir mizaçla tanınıyor.",
+    "secenekler": [
+      {
+        "metin": "Yeni sultana umutla bak",
+        "etki": { "mutluluk": 3, "itibar": 1 },
+        "sonuc": "Sert Yavuz döneminin ardından, daha yumuşak bir yönetim bekleniyordu. Bu beklenti boşa çıkmayacaktı."
+      },
+      {
+        "metin": "Temkinli bir bekleyiş içinde ol",
+        "etki": { "zeka": 1 },
+        "sonuc": "Genç sultanların ilk icraatları merakla izleniyordu."
+      }
+    ]
+  },
+  {
+    "id": "kanuni1_002_belgrad_fethi",
+    "donem": "yukselme",
+    "alt_donem": "kanuni_1_yukselis",
+    "tarih_yil_min": 1521,
+    "tarih_yil_max": 1521,
+    "yas_min": 16,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": "meslek_seyfiye",
+    "metin": "Kanuni'nin ilk büyük seferi Belgrad'a düzenlendi — Yıldırım Bayezid'in bile alamadığı bu kale, sonunda fethedildi. Orta Avrupa'nın kapıları artık açıktı.",
+    "secenekler": [
+      {
+        "metin": "Bu ilk fethin parçası ol",
+        "etki": { "para": 6, "itibar": 4, "saglik": -3, "sans_gerekli": true },
+        "sonuc": "Genç sultanın ilk zaferi, büyük bir saltanatın habercisiydi. İstanbul'a getirilen bazı Belgradlılar, şehirde kendi adını taşıyan bir köye yerleştirildi."
+      },
+      {
+        "metin": "Sefere katılmadın",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Zafer haberi büyük bir coşkuyla karşılandı."
+      }
+    ]
+  },
+  {
+    "id": "kanuni1_003_rodos_fethi",
+    "donem": "yukselme",
+    "alt_donem": "kanuni_1_yukselis",
+    "tarih_yil_min": 1522,
+    "tarih_yil_max": 1522,
+    "yas_min": 16,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": "meslek_seyfiye",
+    "metin": "Akdeniz ticaretine yıllardır saldıran Rodos şövalyeleri üzerine büyük bir donanma ve kara ordusu gönderildi. Uzun bir kuşatmanın ardından ada teslim oldu, şövalyeler Malta'ya çekildi.",
+    "secenekler": [
+      {
+        "metin": "Bu deniz-kara ortak seferine katıl",
+        "etki": { "para": 6, "itibar": 3, "saglik": -3, "sans_gerekli": true },
+        "sonuc": "Akdeniz'deki en büyük tehditlerden biri bertaraf edilmişti. Ticaret yolları artık daha güvenliydi."
+      },
+      {
+        "metin": "Sefere katılmadın",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Rodos'un fethi, denizlerdeki hakimiyetimiz için önemli bir adımdı."
+      }
+    ]
+  },
+  {
+    "id": "kanuni1_004_mohac_zaferi",
+    "donem": "yukselme",
+    "alt_donem": "kanuni_1_yukselis",
+    "tarih_yil_min": 1526,
+    "tarih_yil_max": 1526,
+    "yas_min": 16,
+    "yas_max": 50,
+    "tek_seferlik": true,
+    "gerekli_bayrak": "meslek_seyfiye",
+    "metin": "Yüz bin kişilik ordu ve 300 topla Mohaç Ovası'nda Macar ordusuyla karşılaşıldı. Sultan'ın sancakları açıp gökyüzüne dua ettiği anlatılıyor. Savaş, tarihin en büyük meydan muharebelerinden biri olarak kazanıldı.",
+    "secenekler": [
+      {
+        "metin": "Bu tarihi savaşa katıl",
+        "etki": { "para": 7, "itibar": 5, "saglik": -4, "sans_gerekli": true },
+        "sonuc": "Macar ordusu tamamen dağıtıldı, kral savaş meydanında öldü. İki hafta sonra Budin'e girildi — Macaristan artık hakimiyetimiz altındaydı."
+      },
+      {
+        "metin": "Bu sefere katılmadın",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Zafer haberi tüm ülkede büyük bir gururla karşılandı."
+      }
+    ]
+  },
+  {
+    "id": "kanuni1_005_ilk_viyana_kusatmasi",
+    "donem": "yukselme",
+    "alt_donem": "kanuni_1_yukselis",
+    "tarih_yil_min": 1529,
+    "tarih_yil_max": 1529,
+    "yas_min": 16,
+    "yas_max": 50,
+    "tek_seferlik": true,
+    "gerekli_bayrak": "meslek_seyfiye",
+    "metin": "Ordu, Avrupa'nın kalbindeki Viyana'yı kuşattı. Ama ağır kuşatma toplarının yetiştirilememesi ve kışın erken bastırması yüzünden kuşatma başarısız oldu, geri çekilme kararı alındı.",
+    "secenekler": [
+      {
+        "metin": "Bu zorlu ve sonuçsuz seferde bulundun",
+        "etki": { "para": 2, "saglik": -4, "mutluluk": -2, "sans_gerekli": true },
+        "sonuc": "Nadiren yaşanan bir geri çekilmeydi bu. Ama sefer, Osmanlı'nın Avrupa'nın göbeğine kadar ulaşabildiğini de göstermişti."
+      },
+      {
+        "metin": "Sefere katılmadın",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Bu seferin sonucu, kesin bir zafer değildi ama yine de gücümüzün bir göstergesiydi."
+      }
+    ]
+  },
+  {
+    "id": "kanuni1_006_barbaros_katilim",
+    "donem": "yukselme",
+    "alt_donem": "kanuni_1_yukselis",
+    "tarih_yil_min": 1533,
+    "tarih_yil_max": 1533,
+    "yas_min": 15,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "Kuzey Afrika'da adını korkuyla andıran ünlü denizci Barbaros Hayreddin Paşa, Cezayir ve komutasındaki güçlü donanmasıyla birlikte resmen Osmanlı hizmetine girdi ve Kaptan-ı Derya (Kaptan Paşa) yapıldı.",
+    "secenekler": [
+      {
+        "metin": "Bu güçlü ittifakı sevinçle karşıla",
+        "etki": { "mutluluk": 3, "zeka": 1 },
+        "sonuc": "Akdeniz'deki en yetenekli denizcilerden biri artık bizim safımızdaydı. Bu, denizlerdeki geleceğimizi değiştirecekti."
+      },
+      {
+        "metin": "Gündelik hayatına devam et",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Deniz gücümüzün büyüdüğü haberi kıyı şehirlerinde büyük memnuniyetle karşılandı."
+      }
+    ]
+  },
+  {
+    "id": "kanuni1_007_istanbul_antlasmasi",
+    "donem": "yukselme",
+    "alt_donem": "kanuni_1_yukselis",
+    "tarih_yil_min": 1533,
+    "tarih_yil_max": 1533,
+    "yas_min": 10,
+    "yas_max": 60,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "Avusturya ile ilk resmi antlaşmamız (İstanbul Antlaşması) imzalandı. Macaristan meselesinde geçici bir denge kuruldu.",
+    "secenekler": [
+      {
+        "metin": "Bu barışın getirdiği huzuru hisset",
+        "etki": { "mutluluk": 2 },
+        "sonuc": "Savaş yorgunu sınır bölgeleri için bu antlaşma bir nefes alma fırsatıydı."
+      },
+      {
+        "metin": "Bu antlaşmanın kalıcı olup olmayacağını merak et",
+        "etki": { "zeka": 1 },
+        "sonuc": "Diplomatik dengeler her zaman kırılgan olurdu."
+      }
+    ]
+  },
+  {
+    "id": "kanuni1_008_bagdat_seferi",
+    "donem": "yukselme",
+    "alt_donem": "kanuni_1_yukselis",
+    "tarih_yil_min": 1534,
+    "tarih_yil_max": 1534,
+    "yas_min": 16,
+    "yas_max": 50,
+    "tek_seferlik": true,
+    "gerekli_bayrak": "meslek_seyfiye",
+    "metin": "Doğuda Safevilere karşı düzenlenen büyük seferle Bağdat ele geçirildi. Basra Körfezi'ne kadar uzanan geniş bir bölge artık kontrolümüzde.",
+    "secenekler": [
+      {
+        "metin": "Bu uzun doğu seferine katıl",
+        "etki": { "para": 6, "itibar": 3, "saglik": -4, "sans_gerekli": true },
+        "sonuc": "İslam'ın kutsal şehirlerinden biri olan Bağdat artık Osmanlı toprağıydı. Doğu ticaret yollarındaki hakimiyetimiz pekişti."
+      },
+      {
+        "metin": "Bu uzak sefere katılmadın",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Doğudaki fetih haberleri İstanbul'a ulaştıkça sevinçle karşılandı."
+      }
+    ]
+  },
+  {
+    "id": "kanuni1_009_fransaya_kapitulasyon",
+    "donem": "yukselme",
+    "alt_donem": "kanuni_1_yukselis",
+    "tarih_yil_min": 1535,
+    "tarih_yil_max": 1535,
+    "yas_min": 15,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "Fransa Kralı I. Fransuva'nın isteğiyle, Fransız tüccarlara Osmanlı topraklarında özel ticaret ve hukuki ayrıcalıklar (kapitülasyon) tanındı — bu tür bir ayrıcalık ilk kez veriliyor.",
+    "secenekler": [
+      {
+        "metin": "Yeni gelen Fransız tüccarlarla ticaret yapmayı dene",
+        "etki": { "para": 3, "zeka": 2 },
+        "sonuc": "Limanlarda yeni yüzler, yeni mallar görülmeye başlandı. Avrupa ile ticari bağlarımız genişliyordu."
+      },
+      {
+        "metin": "Bu yeni düzenlemeyi mesafeli karşıla",
+        "etki": { "mutluluk": -1 },
+        "sonuc": "Yabancılara verilen ayrıcalıklar bazılarını rahatsız etse de, diplomatik dengeler gereği kabul edildi."
+      }
+    ]
+  },
+  {
+    "id": "kanuni1_010_ibrahim_pasa_yukselisi",
+    "donem": "yukselme",
+    "alt_donem": "kanuni_1_yukselis",
+    "tarih_yil_min": 1523,
+    "tarih_yil_max": 1535,
+    "yas_min": 15,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": "meslek_kalemiye",
+    "metin": "Sultan'ın çocukluk arkadaşı İbrahim Paşa, olağanüstü bir hızla yükselip Sadrazam oldu — 'Makbul İbrahim Paşa' diye anılıyor. Sultan'ın ona olan güveni ve yakınlığı dillere destan.",
+    "secenekler": [
+      {
+        "metin": "Bu yakın dostluğu ve yükselişi izle",
+        "etki": { "zeka": 2 },
+        "sonuc": "İbrahim Paşa'nın gücü ve nüfuzu, saray içinde herkesin dikkatini çekiyordu."
+      }
+    ]
+  },
+  {
+    "id": "kanuni1_011_ibrahim_pasa_idami",
+    "donem": "yukselme",
+    "alt_donem": "kanuni_1_yukselis",
+    "tarih_yil_min": 1536,
+    "tarih_yil_max": 1536,
+    "yas_min": 10,
+    "yas_max": 60,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "Şok edici bir haber: Sultan'ın en güvendiği dostu ve sadrazamı İbrahim Paşa, bir gece ansızın idam edildi. Sebebi tam olarak bilinmiyor ama gücünün fazla arttığı, hatta kendini padişahtan üstün gördüğü söylentileri var — 'Makbul' artık 'Maktul' (öldürülen) İbrahim Paşa olarak anılacak.",
+    "secenekler": [
+      {
+        "metin": "Bu şaşırtıcı haberi dehşetle karşıla",
+        "etki": { "mutluluk": -3, "zeka": 1 },
+        "sonuc": "En yakın dostun bile bir gecede infaz edilebilmesi, sarayın ne kadar tehlikeli bir yer olduğunu bir kez daha gösterdi."
+      },
+      {
+        "metin": "Bu kararı devlet mantığı çerçevesinde anlamaya çalış",
+        "etki": { "zeka": 2, "mutluluk": -2 },
+        "sonuc": "Güç ne kadar büyük olursa olsun, padişahın üstünde hiç kimse olamazdı. Bu, herkese verilen sert bir mesajdı."
+      }
+    ]
+  },
+  {
+    "id": "kanuni1_012_preveze_hazirlik",
+    "donem": "yukselme",
+    "alt_donem": "kanuni_1_yukselis",
+    "tarih_yil_min": 1537,
+    "tarih_yil_max": 1538,
+    "yas_min": 15,
+    "yas_max": 50,
+    "tek_seferlik": false,
+    "gerekli_bayrak": null,
+    "metin": "Venedik, İspanya, Ceneviz, Malta ve Papalık birleşerek büyük bir Haçlı donanması oluşturdu. Barbaros Hayreddin Paşa, bu tehdide karşı donanmayı hazırlıyor. Herkes büyük bir deniz savaşının yaklaştığını hissediyor.",
+    "secenekler": [
+      {
+        "metin": "Donanma hazırlıklarına katkıda bulun",
+        "etki": { "para": -2, "itibar": 1 },
+        "sonuc": "Tersaneler gece gündüz çalışıyordu. Büyük bir sınav yaklaşıyordu."
+      },
+      {
+        "metin": "Gündelik hayatına devam et",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Denizdeki gerginlik, kıyı halkını daha çok ilgilendiriyordu."
+      }
+    ]
+  },
+  {
+    "id": "kanuni1_013_16_yil_venedik_savasi_baslangic",
+    "donem": "yukselme",
+    "alt_donem": "kanuni_1_yukselis",
+    "tarih_yil_min": 1521,
+    "tarih_yil_max": 1538,
+    "yas_min": 15,
+    "yas_max": 55,
+    "tek_seferlik": false,
+    "gerekli_bayrak": null,
+    "metin": "Batı seferlerinin yoğunlaştığı bu yıllarda, İstanbul'da devlet teşkilatı da büyüyordu. Kanunname-i Al-i Osman ile hukuk sistemi yeniden düzenlenirken, bu titizlik sultan'a 'Kanuni' lakabını kazandıracaktı.",
+    "secenekler": [
+      {
+        "metin": "Yeni kanunların adaletli uygulanmasından memnun ol",
+        "etki": { "itibar": 2, "mutluluk": 2 },
+        "sonuc": "Kadı mahkemelerinde artık daha net ve tutarlı kararlar veriliyordu. Halk arasında sultan'ın adaletinden övgüyle bahsediliyordu."
+      },
+      {
+        "metin": "Günlük hayatına devam et",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Hukuki düzenlemeler zamanla herkesin hayatına dokunacaktı."
+      }
+    ]
+  },
+  {
+    "id": "kanuni1_014_kefe_manisa_valilik_anisi",
+    "donem": "yukselme",
+    "alt_donem": "kanuni_1_yukselis",
+    "tarih_yil_min": 1520,
+    "tarih_yil_max": 1530,
+    "yas_min": 10,
+    "yas_max": 50,
+    "tek_seferlik": false,
+    "gerekli_bayrak": null,
+    "metin": "Sultan Süleyman'ın şehzadeliğinde Kefe ve Manisa'da valilik yaptığı, idari ve mali meseleleri bizzat yönettiği, Arapça ve Farsça öğrendiği anlatılıyor — bu tecrübeli yönetim anlayışı şimdi tüm imparatorluğa yansıyor.",
+    "secenekler": [
+      {
+        "metin": "Bu tecrübeli yönetimin faydalarını gör",
+        "etki": { "zeka": 2, "mutluluk": 1 },
+        "sonuc": "Genç yaşta kazanılan tecrübe, büyük bir devletin yönetiminde fark yaratıyordu."
+      },
+      {
+        "metin": "Günlük hayatına devam et",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "İyi yönetilen bir devlette yaşamak, halkın gündelik huzuruna da yansıyordu."
+      }
+    ]
   }
 ]
