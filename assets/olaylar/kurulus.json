@@ -2573,5 +2573,237 @@
         "sonuc": "Belirsizlik ortamında iş yapmak zordu ama hayat, ne olursa olsun devam etmek zorundaydı."
       }
     ]
+  },
+  {
+    "id": "kurulus_116",
+    "donem": "kurulus",
+    "alt_donem": "celebi_mehmed",
+    "tarih_yil_min": 1413,
+    "tarih_yil_max": 1413,
+    "yas_min": 15,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "metin": "Tahta geçen Çelebi Mehmed'in ilk işlerinden biri, Musa Çelebi'nin kazaskeri Şeyh Bedreddin'i görevden alıp İznik'e sürgün etmek oldu — 1000 akçe maaşla göz hapsinde tutulacakmış.",
+    "secenekler": [
+      {
+        "metin": "Bu kararı devletin istikrarı için gerekli say",
+        "etki": { "itibar": 1, "zeka": 2 },
+        "sonuc": "Yeni hükümdar, önceki dönemin izlerini siliyordu. Bedreddin'in ne yapacağı merak konusuydu."
+      },
+      {
+        "metin": "Bu bilge kişinin görevden alınmasına üzül",
+        "etki": { "mutluluk": -2 },
+        "sonuc": "Bazıları onun adaletini özlüyordu. Bu hoşnutsuzluğun ileride büyüyeceğini kimse henüz bilmiyordu."
+      }
+    ]
+  },
+  {
+    "id": "kurulus_117",
+    "donem": "kurulus",
+    "alt_donem": "celebi_mehmed",
+    "tarih_yil_min": 1414,
+    "tarih_yil_max": 1415,
+    "yas_min": 16,
+    "yas_max": 50,
+    "tek_seferlik": true,
+    "gerekli_bayrak": "meslek_seyfiye",
+    "metin": "Çelebi Mehmed, Karamanoğulları üzerine ikinci büyük seferini düzenledi. Akşehir, Beyşehir, Seydişehir alındı, ardından Konya kuşatıldı.",
+    "secenekler": [
+      {
+        "metin": "Sefere katıl",
+        "etki": { "para": 5, "itibar": 3, "saglik": -2, "sans_gerekli": true },
+        "sonuc": "Konya alındı, Karamanoğlu Mehmed Bey ve oğlu esir düştü ama affedildi. Mehmed Çelebi'nin merhametiyle de tanındığı bir andı."
+      },
+      {
+        "metin": "Sefere katılmadın",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Zafer haberi geldiğinde köyde sevinç yaşandı."
+      }
+    ]
+  },
+  {
+    "id": "kurulus_118",
+    "donem": "kurulus",
+    "alt_donem": "celebi_mehmed",
+    "tarih_yil_min": 1415,
+    "tarih_yil_max": 1415,
+    "yas_min": 15,
+    "yas_max": 50,
+    "tek_seferlik": true,
+    "metin": "Karamanoğlu'nun kışkırtmasıyla Aydınoğlu Cüneyd Bey isyan bayrağı açtı. Üzerine asker gönderilince Cüneyd Bey aman diledi ve affedildi.",
+    "secenekler": [
+      {
+        "metin": "Bu affı hükümdarın hoşgörüsüne yor",
+        "etki": { "zeka": 1, "mutluluk": 1 },
+        "sonuc": "Çelebi Mehmed, gücünü göstermek kadar affetmeyi de biliyordu. İzmir dışında tüm Aydın bölgesi artık Osmanlı toprağıydı."
+      },
+      {
+        "metin": "Bu affı zayıflık işareti say",
+        "etki": { "itibar": -1 },
+        "sonuc": "Bazıları sertlik isterken, hükümdar diplomasiyi tercih etti."
+      }
+    ]
+  },
+  {
+    "id": "kurulus_119",
+    "donem": "kurulus",
+    "alt_donem": "celebi_mehmed",
+    "tarih_yil_min": 1414,
+    "tarih_yil_max": 1415,
+    "yas_min": 10,
+    "yas_max": 60,
+    "tek_seferlik": true,
+    "metin": "Ceneviz sömürgesi olan Foça, Midilli ve Sakız adaları Osmanlı himayesine bağlandığını bildirdi.",
+    "secenekler": [
+      {
+        "metin": "Deniz gücümüzün genişlediğini takdir et",
+        "etki": { "zeka": 1, "mutluluk": 1 },
+        "sonuc": "Ege'deki nüfuzumuz her geçen yıl artıyordu."
+      },
+      {
+        "metin": "Bu haberi sıradan bir gelişme gibi geç",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Uzak adaların hikayeleri, gündelik hayatın akışını değiştirmiyordu."
+      }
+    ]
+  },
+  {
+    "id": "kurulus_120",
+    "donem": "kurulus",
+    "alt_donem": "celebi_mehmed",
+    "tarih_yil_min": 1416,
+    "tarih_yil_max": 1416,
+    "yas_min": 16,
+    "yas_max": 50,
+    "tek_seferlik": true,
+    "gerekli_bayrak": "meslek_seyfiye",
+    "metin": "Venedik gemileriyle Türk ticaret gemileri arasındaki gerginlik büyüdü. Gelibolu açıklarında Venedik donanmasıyla ilk büyük deniz savaşımız yapıldı.",
+    "secenekler": [
+      {
+        "metin": "Donanmada bu sefere katıl",
+        "etki": { "para": 2, "saglik": -3, "sans_gerekli": true },
+        "sonuc": "Ne yazık ki bu savaşı kaybettik, donanma komutanı Çalı Bey şehit düştü. Denizde henüz Venedik kadar güçlü değildik — ama bu bir ders oldu."
+      },
+      {
+        "metin": "Karada kal, denize açılma",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Yenilgi haberi acı oldu. Herkes deniz gücümüzün gelişmesi gerektiğini konuşuyordu."
+      }
+    ]
+  },
+  {
+    "id": "kurulus_121",
+    "donem": "kurulus",
+    "alt_donem": "celebi_mehmed",
+    "tarih_yil_min": 1415,
+    "tarih_yil_max": 1417,
+    "yas_min": 10,
+    "yas_max": 60,
+    "tek_seferlik": true,
+    "metin": "Eflak (bugünkü Romanya'nın bir bölgesi) yeniden Osmanlı'ya bağlandığını bildirdi. Sınırlarımız Tuna'nın ötesine doğru genişlemeye devam ediyor.",
+    "secenekler": [
+      {
+        "metin": "Genişleyen sınırlardan gurur duy",
+        "etki": { "mutluluk": 2 },
+        "sonuc": "11 yıllık kargaşadan sonra devletin yeniden büyümesi umut vericiydi."
+      },
+      {
+        "metin": "Günlük işine devam et",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Uzak sınırlardaki gelişmeler halkın gündelik derdini değiştirmiyordu."
+      }
+    ]
+  },
+  {
+    "id": "kurulus_122",
+    "donem": "kurulus",
+    "alt_donem": "celebi_mehmed",
+    "tarih_yil_min": 1414,
+    "tarih_yil_max": 1420,
+    "yas_min": 10,
+    "yas_max": 60,
+    "tek_seferlik": true,
+    "metin": "Saruhanoğulları Beyliği'ne (Manisa çevresi) son verildi, toprakları tamamen Osmanlı'ya katıldı. Anadolu Türk birliği adım adım yeniden kuruluyor.",
+    "secenekler": [
+      {
+        "metin": "Bu ilhakı memnuniyetle karşıla",
+        "etki": { "mutluluk": 2, "itibar": 1 },
+        "sonuc": "Fetret Devri'nde dağılan birlik, Çelebi Mehmed'in sabırlı siyasetiyle yeniden toparlanıyordu."
+      },
+      {
+        "metin": "Kendi işine odaklan",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Siyasi gelişmeler kendi mecrasında akarken, gündelik hayat sürdü."
+      }
+    ]
+  },
+  {
+    "id": "kurulus_123",
+    "donem": "kurulus",
+    "alt_donem": "celebi_mehmed",
+    "tarih_yil_min": 1415,
+    "tarih_yil_max": 1416,
+    "yas_min": 10,
+    "yas_max": 60,
+    "tek_seferlik": true,
+    "metin": "Timur'un ölümünün ardından, yıllardır Semerkant'ta rehin tutulan Yıldırım Bayezid'in oğlu Mustafa Çelebi serbest bırakıldı. Anadolu'ya gelip taht iddiasında bulunacağı, ama gerçekten o mu yoksa bir 'düzmece' mi olduğu konusunda şüpheler var.",
+    "secenekler": [
+      {
+        "metin": "Bu gelişmeyi endişeyle takip et",
+        "etki": { "zeka": 2, "mutluluk": -1 },
+        "sonuc": "11 yıllık kargaşadan yeni çıkmışken, yeni bir taht iddiacısı endişe vericiydi."
+      },
+      {
+        "metin": "Onun gerçek olup olmadığını merak et",
+        "etki": { "zeka": 1 },
+        "sonuc": "Kimliği tartışmalıydı ama iddiası ciddiye alınıyordu. Bu meselenin nasıl sonuçlanacağı zamanla görülecekti."
+      }
+    ]
+  },
+  {
+    "id": "kurulus_124",
+    "donem": "kurulus",
+    "alt_donem": "celebi_mehmed",
+    "tarih_yil_min": 1413,
+    "tarih_yil_max": 1421,
+    "yas_min": 15,
+    "yas_max": 60,
+    "tek_seferlik": true,
+    "metin": "Yıllar geçtikçe halk arasında Çelebi Mehmed için 'devletin ikinci kurucusu' tabiri kullanılmaya başlandı — dağılma tehlikesi geçiren devleti yeniden birleştirip ayakta tutmuştu.",
+    "secenekler": [
+      {
+        "metin": "Bu unvanı hak ettiğini düşün",
+        "etki": { "mutluluk": 3, "itibar": 1 },
+        "sonuc": "11 yıllık kargaşadan sonra istikrarın gelmesi, herkes için büyük bir rahatlamaydı."
+      },
+      {
+        "metin": "Zamanın gösterecebileceğini düşün, temkinli ol",
+        "etki": { "zeka": 1 },
+        "sonuc": "Tarih henüz bu hükümdarı tam olarak değerlendirmemişti, ama şimdilik istikrar iyiye işaretti."
+      }
+    ]
+  },
+  {
+    "id": "kurulus_125",
+    "donem": "kurulus",
+    "alt_donem": "celebi_mehmed",
+    "tarih_yil_min": 1413,
+    "tarih_yil_max": 1421,
+    "yas_min": 15,
+    "yas_max": 55,
+    "tek_seferlik": false,
+    "metin": "11 yıllık Fetret Devri'nin ardından ticaret yolları yeniden güvenli hale geliyor, pazarlar canlanıyor, vergiler tek bir merkezden düzenli toplanıyor.",
+    "secenekler": [
+      {
+        "metin": "Yeniden canlanan ticaretten faydalanmaya çalış",
+        "etki": { "para": 3, "mutluluk": 2 },
+        "sonuc": "İstikrar, ekonomik hayata da yansımıştı. İşler yeniden yoluna girmeye başlamıştı."
+      },
+      {
+        "metin": "Temkinli ol, kargaşanın tekrar başlamasından çekin",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Yıllarca süren belirsizlik, insanlarda temkinli bir alışkanlık bırakmıştı."
+      }
+    ]
   }
 ]
