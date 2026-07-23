@@ -23,12 +23,12 @@ void main() {
       tumOlaylar = [...o1, ...o2];
     });
 
-    test('1. kurulus.json (138) + yukselme.json (30) = 168 olay eksiksiz, benzersiz ID ve alt_donem alanlarıyla yüklenmeli', () {
-      expect(tumOlaylar.length, equals(168));
+    test('1. kurulus.json (138) + yukselme.json (43) = 181 olay eksiksiz, benzersiz ID ve alt_donem alanlarıyla yüklenmeli', () {
+      expect(tumOlaylar.length, equals(181));
       
       // Benzersiz ID kontrolü
       final idSet = tumOlaylar.map((o) => o.id).toSet();
-      expect(idSet.length, equals(168));
+      expect(idSet.length, equals(181));
 
       final ahilikOlayi = tumOlaylar.firstWhere((o) => o.id == 'kurulus_001');
       expect(ahilikOlayi.tarihYilMin, equals(1299));
@@ -46,6 +46,11 @@ void main() {
       final bayezid2TahtaCikis = tumOlaylar.firstWhere((o) => o.id == 'bayezid2_001_tahta_cikis_yarisi');
       expect(bayezid2TahtaCikis.donem, equals('yukselme'));
       expect(bayezid2TahtaCikis.altDonem, equals('ikinci_bayezid'));
+
+      // Yavuz Sultan Selim Yükselme dönemi olayları kontrolü
+      final caldiranSavasi = tumOlaylar.firstWhere((o) => o.id == 'selim1_003_caldiran_savasi');
+      expect(caldiranSavasi.donem, equals('yukselme'));
+      expect(caldiranSavasi.altDonem, equals('yavuz_selim'));
     });
 
     test('2. Şema doğrulayıcı hatalı tarih_yil_min > tarih_yil_max durumunu yakalamalı', () {

@@ -719,5 +719,317 @@
         "sonuc": "Selim'in kararlılığı ve sertliği herkesçe biliniyordu. Önümüzdeki yıllar hareketli geçecek gibiydi."
       }
     ]
+  },
+  {
+    "id": "selim1_001_tahta_cikis_kardesler",
+    "donem": "yukselme",
+    "alt_donem": "yavuz_selim",
+    "tarih_yil_min": 1512,
+    "tarih_yil_max": 1513,
+    "yas_min": 10,
+    "yas_max": 60,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "Yavuz Sultan Selim tahta çıktıktan sonra, Fatih'in kanunnamesindeki 'kardeş katli' maddesi gereğince kardeşleri ve yeğenleriyle olan taht rekabetini kesin olarak sonlandırdı. Devletin bir daha Fetret Devri gibi bir kargaşa yaşamaması için sert bir kararlılıkla hareket ediyor.",
+    "secenekler": [
+      {
+        "metin": "Bu sert kararlılığı devletin bekası için gerekli say",
+        "etki": { "zeka": 2, "mutluluk": -2 },
+        "sonuc": "Yavuz'un lakabı boşuna değildi. Kararlılığı hem korku hem saygı uyandırıyordu."
+      },
+      {
+        "metin": "Bu sertliği vicdanen sorgula",
+        "etki": { "mutluluk": -2 },
+        "sonuc": "Devlet mantığı ile aile bağları arasındaki bu gerilim, herkesi derinden düşündürüyordu."
+      }
+    ]
+  },
+  {
+    "id": "selim1_002_dogu_hazirlik",
+    "donem": "yukselme",
+    "alt_donem": "yavuz_selim",
+    "tarih_yil_min": 1512,
+    "tarih_yil_max": 1514,
+    "yas_min": 15,
+    "yas_max": 50,
+    "tek_seferlik": false,
+    "gerekli_bayrak": null,
+    "metin": "Yavuz Sultan Selim, ordu ve devlet teşkilatında sıkı düzenlemeler yapıp doğuya, Safeviler üzerine büyük bir sefere hazırlanıyor. Şah İsmail'in Kızılbaş propagandasına karşı sert önlemler alınıyor.",
+    "secenekler": [
+      {
+        "metin": "Bu hazırlıklara katkıda bulun",
+        "etki": { "para": -2, "itibar": 1 },
+        "sonuc": "Büyük bir seferin yaklaştığı herkesçe hissediliyordu."
+      },
+      {
+        "metin": "Gündelik hayatına devam et",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Askeri hazırlıklar saray ve ordu çevresinde yoğunlaşıyordu."
+      }
+    ]
+  },
+  {
+    "id": "selim1_003_caldiran_savasi",
+    "donem": "yukselme",
+    "alt_donem": "yavuz_selim",
+    "tarih_yil_min": 1514,
+    "tarih_yil_max": 1514,
+    "yas_min": 16,
+    "yas_max": 50,
+    "tek_seferlik": true,
+    "gerekli_bayrak": "meslek_seyfiye",
+    "metin": "Çaldıran'da Osmanlı ile Safevi orduları karşı karşıya geldi. Şah İsmail'in ünlü süvarileri, Osmanlı'nın top ve tüfekli yeniçerileri karşısında ağır bir yenilgiye uğradı.",
+    "secenekler": [
+      {
+        "metin": "Bu tarihi sefere katıl",
+        "etki": { "para": 6, "itibar": 4, "saglik": -4, "sans_gerekli": true },
+        "sonuc": "Büyük zafer kazanıldı. Tebriz'e girildi, Doğu Anadolu'daki Safevi tehdidi büyük ölçüde bertaraf edildi."
+      },
+      {
+        "metin": "Sefere katılmadın",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Zafer haberi köye ulaştığında büyük bir gurur ve rahatlama yaşandı."
+      }
+    ]
+  },
+  {
+    "id": "selim1_004_tebriz_bilginler",
+    "donem": "yukselme",
+    "alt_donem": "yavuz_selim",
+    "tarih_yil_min": 1514,
+    "tarih_yil_max": 1515,
+    "yas_min": 15,
+    "yas_max": 50,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "Tebriz'in alınmasının ardından, şehirdeki değerli bilginler, sanatçılar ve zanaatkarlar İstanbul'a getirildi. Osmanlı sarayına doğu kültürü ve ilmi yeni bir renk katıyor.",
+    "secenekler": [
+      {
+        "metin": "Bu yeni gelen bilginlerin meclislerine katılmaya çalış",
+        "etki": { "zeka": 4, "mutluluk": 2 },
+        "sonuc": "Farklı bir bilgi ve sanat dünyası İstanbul'a taşınmıştı. Bu kültürel zenginlik yıllarca hissedilecekti."
+      },
+      {
+        "metin": "Kendi çevrende kalmayı tercih et",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Yeni gelenlerin hikayeleri mahallede merakla konuşuluyordu."
+      }
+    ]
+  },
+  {
+    "id": "selim1_005_turnadag_dulkadir",
+    "donem": "yukselme",
+    "alt_donem": "yavuz_selim",
+    "tarih_yil_min": 1515,
+    "tarih_yil_max": 1515,
+    "yas_min": 16,
+    "yas_max": 50,
+    "tek_seferlik": true,
+    "gerekli_bayrak": "meslek_seyfiye",
+    "metin": "Safevilerle iş birliği yaptığı gerekçesiyle Dulkadiroğulları Beyliği üzerine Turnadağ'da sefer düzenlendi. Bu beyliğin ortadan kaldırılmasıyla Anadolu Türk siyasi birliği artık KESİN olarak tamamlanmış oldu.",
+    "secenekler": [
+      {
+        "metin": "Bu son beyliğin ilhakına katıl",
+        "etki": { "para": 4, "itibar": 3, "saglik": -2, "sans_gerekli": true },
+        "sonuc": "Osman Gazi'den beri süren rüya, iki asrı aşkın bir sürecin ardından nihayet tam anlamıyla gerçekleşmişti."
+      },
+      {
+        "metin": "Sefere katılmadın",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Anadolu birliğinin tamamlandığı haberi büyük bir gururla karşılandı."
+      }
+    ]
+  },
+  {
+    "id": "selim1_006_misir_seferi_karar",
+    "donem": "yukselme",
+    "alt_donem": "yavuz_selim",
+    "tarih_yil_min": 1516,
+    "tarih_yil_max": 1516,
+    "yas_min": 10,
+    "yas_max": 60,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "Memlük Devleti'nin Safevilerle gizlice ittifak kurduğu ortaya çıktı. Yavuz Sultan Selim, güneye, Mısır'a doğru büyük bir sefere karar verdi.",
+    "secenekler": [
+      {
+        "metin": "Bu büyük seferin hazırlıklarına destek ver",
+        "etki": { "para": -2, "zeka": 1 },
+        "sonuc": "İstanbul ve Rumeli'den Kahire'ye uzanacak uzun ve meşakkatli bir yürüyüş başlıyordu."
+      },
+      {
+        "metin": "Gündelik hayatına devam et",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Büyük seferlerin hazırlığı aylar alırdı."
+      }
+    ]
+  },
+  {
+    "id": "selim1_007_mercidabik",
+    "donem": "yukselme",
+    "alt_donem": "yavuz_selim",
+    "tarih_yil_min": 1516,
+    "tarih_yil_max": 1516,
+    "yas_min": 16,
+    "yas_max": 50,
+    "tek_seferlik": true,
+    "gerekli_bayrak": "meslek_seyfiye",
+    "metin": "Halep yakınlarında Mercidabık'ta Memlük Sultanı Kansu Gavri'nin ordusuyla karşılaşıldı. Memlük ordusu bozguna uğratıldı, Suriye ve Filistin toprakları açıldı.",
+    "secenekler": [
+      {
+        "metin": "Bu büyük savaşa katıl",
+        "etki": { "para": 6, "itibar": 4, "saglik": -4, "sans_gerekli": true },
+        "sonuc": "Zafer kesin oldu. Şam kapılarını açtı, Suriye ve Filistin Osmanlı topraklarına katılıyordu."
+      },
+      {
+        "metin": "Bu sefere katılmadın",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Zafer haberleri arka arkaya geliyordu, herkes bu büyük genişlemeyi konuşuyordu."
+      }
+    ]
+  },
+  {
+    "id": "selim1_008_sina_colu_gecisi",
+    "donem": "yukselme",
+    "alt_donem": "yavuz_selim",
+    "tarih_yil_min": 1517,
+    "tarih_yil_max": 1517,
+    "yas_min": 16,
+    "yas_max": 45,
+    "tek_seferlik": true,
+    "gerekli_bayrak": "meslek_seyfiye",
+    "metin": "Osmanlı ordusu, 'geçilemez' denilen Sina Çölü'nü sadece 13 günde geçip Kahire önlerine ulaştı. Su ve erzak taşımak inanılmaz bir çabaydı.",
+    "secenekler": [
+      {
+        "metin": "Bu zorlu çöl geçişinde bulun",
+        "etki": { "para": 4, "saglik": -5, "itibar": 3, "sans_gerekli": true },
+        "sonuc": "Susuzluk ve yorgunluk had safhadaydı ama ordu disiplinini hiç bozmadan Kahire'ye ulaştı. Bu, askeri tarihte destansı bir başarıydı."
+      },
+      {
+        "metin": "Bu zorlu sefere katılmadın",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Çölü geçen askerlerin hikayeleri efsaneye dönüşecekti."
+      }
+    ]
+  },
+  {
+    "id": "selim1_009_ridaniye_savasi",
+    "donem": "yukselme",
+    "alt_donem": "yavuz_selim",
+    "tarih_yil_min": 1517,
+    "tarih_yil_max": 1517,
+    "yas_min": 16,
+    "yas_max": 50,
+    "tek_seferlik": true,
+    "gerekli_bayrak": "meslek_seyfiye",
+    "metin": "Kahire önlerinde Ridaniye'de Memlüklerin yeni sultanı Tomanbay'ın savunma hattı, akıllıca bir manevrayla çökertildi. Memlük Devleti kesin olarak yıkıldı.",
+    "secenekler": [
+      {
+        "metin": "Bu son büyük savaşa katıl",
+        "etki": { "para": 7, "itibar": 5, "saglik": -4, "sans_gerekli": true },
+        "sonuc": "Yüzyıllardır İslam dünyasının önemli bir gücü olan Memlük Devleti tarihe karıştı. Mısır, Suriye, Filistin, Hicaz — hepsi artık Osmanlı toprağıydı."
+      },
+      {
+        "metin": "Bu sefere katılmadın",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Bu tarihi zaferin haberi tüm ülkede büyük bir coşkuyla karşılandı."
+      }
+    ]
+  },
+  {
+    "id": "selim1_010_halifelik_devri",
+    "donem": "yukselme",
+    "alt_donem": "yavuz_selim",
+    "tarih_yil_min": 1517,
+    "tarih_yil_max": 1517,
+    "yas_min": 8,
+    "yas_max": 70,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "Kutsal Emanetler (Peygamber'in hırkası, kılıcı gibi eserler) ve halifelik makamı Yavuz Sultan Selim'e teslim edildi. Sultan artık aynı zamanda İslam dünyasının halifesi — bu unvanı taşıyan ilk Osmanlı padişahı.",
+    "secenekler": [
+      {
+        "metin": "Bu tarihi anı büyük bir gururla karşıla",
+        "etki": { "mutluluk": 6, "itibar": 3 },
+        "sonuc": "Osmanlı artık sadece bir imparatorluk değil, İslam dünyasının siyasi ve dini merkeziydi. Kutsal Emanetler İstanbul'a, Topkapı Sarayı'na getirilecekti."
+      },
+      {
+        "metin": "Bu büyük sorumluluğun ağırlığını düşün",
+        "etki": { "zeka": 2, "mutluluk": 2 },
+        "sonuc": "Bu unvan, hem büyük bir onur hem de büyük bir sorumluluk demekti."
+      }
+    ]
+  },
+  {
+    "id": "selim1_011_hicaz_baharat_yolu",
+    "donem": "yukselme",
+    "alt_donem": "yavuz_selim",
+    "tarih_yil_min": 1517,
+    "tarih_yil_max": 1520,
+    "yas_min": 15,
+    "yas_max": 55,
+    "tek_seferlik": false,
+    "gerekli_bayrak": null,
+    "metin": "Hicaz (Mekke ve Medine'nin bulunduğu bölge) Osmanlı himayesine girdi. Baharat Yolu'nun büyük bölümü artık bizim denetimimizde — doğu ticaretinden gelen zenginlik hazineyi dolduruyor.",
+    "secenekler": [
+      {
+        "metin": "Yeni açılan ticaret yollarından faydalanmaya çalış",
+        "etki": { "para": 5, "zeka": 2 },
+        "sonuc": "Baharat, ipek, değerli taşlar — doğudan gelen zenginlik İstanbul pazarlarını dolduruyordu."
+      },
+      {
+        "metin": "Kendi işine devam et",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Ticaretin genişlemesi zamanla herkese dokunacaktı."
+      }
+    ]
+  },
+  {
+    "id": "selim1_012_kibris_vergisi",
+    "donem": "yukselme",
+    "alt_donem": "yavuz_selim",
+    "tarih_yil_min": 1517,
+    "tarih_yil_max": 1520,
+    "yas_min": 10,
+    "yas_max": 60,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "Venedik Cumhuriyeti, daha önce Kıbrıs Adası için Memlüklere ödediği vergiyi artık Osmanlı'ya ödemeye başladı — Doğu Akdeniz'deki hakimiyetimizin bir başka kanıtı.",
+    "secenekler": [
+      {
+        "metin": "Bu diplomatik kazanımı takdir et",
+        "etki": { "zeka": 1, "mutluluk": 1 },
+        "sonuc": "Denizlerde de nüfuzumuz gözle görülür şekilde artıyordu."
+      },
+      {
+        "metin": "Günlük hayatına devam et",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Uzak diplomatik gelişmeler halkın gündelik hayatını hemen değiştirmiyordu."
+      }
+    ]
+  },
+  {
+    "id": "selim1_013_yavuz_vefati",
+    "donem": "yukselme",
+    "alt_donem": "yavuz_selim",
+    "tarih_yil_min": 1520,
+    "tarih_yil_max": 1520,
+    "yas_min": 5,
+    "yas_max": 80,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "Yeni bir sefere (bazılarına göre Rodos'a, bazılarına göre Batı'ya) hazırlanırken Yavuz Sultan Selim, ağır bir hastalığa (şirpençe/dolama) yakalanıp vefat etti. Sadece 8 yıllık saltanatında devletin topraklarını neredeyse iki katına çıkarmıştı.",
+    "secenekler": [
+      {
+        "metin": "Bu kısa ama devasa saltanatı hayırla yad et",
+        "etki": { "mutluluk": -3, "itibar": 2 },
+        "sonuc": "Sert ve kararlı bir hükümdardı ama bıraktığı miras muazzamdı: halifelik, Mısır, Suriye, Hicaz. Yerine oğlu Süleyman geçiyordu."
+      },
+      {
+        "metin": "Yeni sultanın döneminin nasıl olacağını merak et",
+        "etki": { "zeka": 2 },
+        "sonuc": "Şehzade Süleyman'ın babası kadar sert olmadığı, daha adaletli bir yönetim beklendiği konuşuluyordu."
+      }
+    ]
   }
 ]
