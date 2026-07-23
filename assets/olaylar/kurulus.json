@@ -2342,5 +2342,236 @@
         "sonuc": "Tedirginlik büyüyordu. Bazı aileler şimdiden daha güvenli bölgelere göç etmeye başlamıştı."
       }
     ]
+  },
+  {
+    "id": "kurulus_106",
+    "donem": "kurulus",
+    "alt_donem": "fetret_devri",
+    "tarih_yil_min": 1402,
+    "tarih_yil_max": 1403,
+    "yas_min": 10,
+    "yas_max": 70,
+    "tek_seferlik": true,
+    "metin": "Yıldırım Bayezid'in esir düşmesinin ardından oğulları kendi bölgelerinde hükümdarlıklarını ilan etti: Emir Süleyman Rumeli/Edirne'de, İsa Çelebi Bursa'da, Mehmed Çelebi Amasya/Tokat'ta. Artık hangi bölgede yaşıyorsan, o şehzadeye bağlısın.",
+    "secenekler": [
+      {
+        "metin": "Bulunduğun bölgedeki şehzadeye bağlılığını sürdür",
+        "etki": { "para": -1, "itibar": 1 },
+        "sonuc": "Ülke parçalanmış gibiydi. Herkes kendi bölgesindeki hükümdara vergisini veriyordu."
+      },
+      {
+        "metin": "Bu kargaşadan uzak, sakin bir bölgeye taşınmayı düşün",
+        "etki": { "para": -2, "mutluluk": 1 },
+        "sonuc": "Kargaşa zamanında güvenli bir köşe bulmak akıllıcaydı."
+      }
+    ]
+  },
+  {
+    "id": "kurulus_107",
+    "donem": "kurulus",
+    "alt_donem": "fetret_devri",
+    "tarih_yil_min": 1402,
+    "tarih_yil_max": 1403,
+    "yas_min": 10,
+    "yas_max": 60,
+    "tek_seferlik": true,
+    "metin": "Timur, Yıldırım Bayezid'in ele geçirdiği Anadolu beyliklerini (Germiyan, Aydın, Saruhan, Menteşe gibi) eski sahiplerine geri verdi. Anadolu Türk birliği bir anda dağıldı.",
+    "secenekler": [
+      {
+        "metin": "Bu dağılmayı üzüntüyle karşıla",
+        "etki": { "mutluluk": -3, "zeka": 1 },
+        "sonuc": "Yıllarca süren fetihlerin bir çırpıda geri alınması acı vericiydi. Yeniden toparlanmak zaman alacaktı."
+      },
+      {
+        "metin": "Kendi bölgende olan bitene odaklan",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Büyük siyasetin inişli çıkışlı olduğunu, halkın kendi gündelik derdiyle uğraştığını bir kez daha gördün."
+      }
+    ]
+  },
+  {
+    "id": "kurulus_108",
+    "donem": "kurulus",
+    "alt_donem": "fetret_devri",
+    "tarih_yil_min": 1403,
+    "tarih_yil_max": 1410,
+    "yas_min": 15,
+    "yas_max": 50,
+    "tek_seferlik": false,
+    "metin": "Edirne'de hüküm süren Emir Süleyman Çelebi'nin, devlet işlerinden çok eğlenceye ve içkili meclislere düşkün olduğu, halkın bundan rahatsız olduğu konuşuluyor.",
+    "secenekler": [
+      {
+        "metin": "Bu eleştirileri sessizce dinle, kendi işine bak",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Hükümdarları eleştirmek risksiz değildi. Sen ihtiyatlı davrandın."
+      },
+      {
+        "metin": "Sen de bu yönetimden memnuniyetsizliğini dile getir",
+        "etki": { "itibar": -1, "mutluluk": 1 },
+        "sonuc": "Halkın memnuniyetsizliği git gide büyüyordu. Bu, ileride önemli sonuçlar doğuracaktı."
+      }
+    ]
+  },
+  {
+    "id": "kurulus_109",
+    "donem": "kurulus",
+    "alt_donem": "fetret_devri",
+    "tarih_yil_min": 1411,
+    "tarih_yil_max": 1411,
+    "yas_min": 10,
+    "yas_max": 70,
+    "tek_seferlik": true,
+    "metin": "Beklenmedik bir haber: Musa Çelebi, ansızın Edirne'ye girip ağabeyi Emir Süleyman'ı öldürttü. Artık Rumeli'nin yeni hakimi Musa Çelebi.",
+    "secenekler": [
+      {
+        "metin": "Bu ani değişimi dehşetle karşıla",
+        "etki": { "mutluluk": -4 },
+        "sonuc": "Kardeş kanı dökülmesi herkesi derinden etkiledi. Yeni hükümdarın nasıl biri olacağı merak konusuydu."
+      },
+      {
+        "metin": "Yeni duruma hızla uyum sağla",
+        "etki": { "zeka": 2, "itibar": 1 },
+        "sonuc": "Kargaşa zamanında ayakta kalmanın yolu, hızlı uyum sağlamaktan geçiyordu."
+      }
+    ]
+  },
+  {
+    "id": "kurulus_110",
+    "donem": "kurulus",
+    "alt_donem": "fetret_devri",
+    "tarih_yil_min": 1411,
+    "tarih_yil_max": 1413,
+    "yas_min": 15,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "metin": "Musa Çelebi, bilgin ve gazi ruhuyla tanınan Şeyh Bedreddin'i Kazaskerlik (en üst yargı) makamına atadı. Onun adalet dağıtışı halk arasında övgüyle anılıyor.",
+    "secenekler": [
+      {
+        "metin": "Bir davanı Kazasker Şeyh Bedreddin'e götür",
+        "etki": { "itibar": 3, "zeka": 2 },
+        "sonuc": "Adil ve hızlı bir karar aldın. Onun adaletine olan güven her geçen gün artıyordu."
+      },
+      {
+        "metin": "Şimdilik bir davan yok, sadece haberi dinle",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Yeni kazaskerin ismi mahallede sıkça anılıyordu."
+      }
+    ]
+  },
+  {
+    "id": "kurulus_111",
+    "donem": "kurulus",
+    "alt_donem": "fetret_devri",
+    "tarih_yil_min": 1411,
+    "tarih_yil_max": 1413,
+    "yas_min": 15,
+    "yas_max": 55,
+    "tek_seferlik": false,
+    "metin": "Musa Çelebi'nin uç beylerinin desteğiyle Rumeli'deki vasal Hristiyan beyliklere sert baskılar uyguladığı, eski gaza siyasetini sertçe canlandırdığı konuşuluyor.",
+    "secenekler": [
+      {
+        "metin": "Bu sert siyasetin sonuçlarını endişeyle izle",
+        "etki": { "zeka": 2, "mutluluk": -1 },
+        "sonuc": "Sertlik bazılarını memnun ediyor bazılarını uzaklaştırıyordu. Kardeşi Mehmed Çelebi'nin bu memnuniyetsizlikten yararlanacağı konuşuluyordu."
+      },
+      {
+        "metin": "Bu siyasetten memnuniyetini dile getir",
+        "etki": { "itibar": 1 },
+        "sonuc": "Bazı çevreler bu güçlü duruşu takdir ediyordu."
+      }
+    ]
+  },
+  {
+    "id": "kurulus_112",
+    "donem": "kurulus",
+    "alt_donem": "fetret_devri",
+    "tarih_yil_min": 1403,
+    "tarih_yil_max": 1403,
+    "yas_min": 10,
+    "yas_max": 60,
+    "tek_seferlik": true,
+    "metin": "İsa Çelebi, Bursa'yı yeniden ele geçirmeye çalıştı ama halk Mehmed Çelebi'yi desteklediği için bu girişim başarısız oldu.",
+    "secenekler": [
+      {
+        "metin": "Mehmed Çelebi'ye desteğini sürdür",
+        "etki": { "itibar": 2 },
+        "sonuc": "Halkın tercihleri bazen savaş meydanlarından daha belirleyici oluyordu."
+      },
+      {
+        "metin": "Bu kargaşadan uzak dur",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Taht kavgaları uzadıkça, sıradan halk bir an önce istikrar istiyordu."
+      }
+    ]
+  },
+  {
+    "id": "kurulus_113",
+    "donem": "kurulus",
+    "alt_donem": "fetret_devri",
+    "tarih_yil_min": 1409,
+    "tarih_yil_max": 1409,
+    "yas_min": 8,
+    "yas_max": 70,
+    "tek_seferlik": true,
+    "metin": "Bursalı şair-imam Süleyman Çelebi'nin, Hz. Peygamber'in doğumunu ve hayatını anlatan 'Vesiletü'n-Necat' adlı eserinin (halk arasında 'Mevlid' diye anılacak) tamamlandığı, camilerde okunmaya başlandığı haberi geldi.",
+    "secenekler": [
+      {
+        "metin": "Camide bu yeni eserin okunduğu bir meclise katıl",
+        "etki": { "mutluluk": 6, "zeka": 2 },
+        "sonuc": "Dizeler öyle içten ve güzeldi ki, gözyaşı döken çok oldu. Bu eser nesillerce okunacaktı."
+      },
+      {
+        "metin": "Haberini duy ama katılma fırsatın olmadı",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Kargaşa zamanında böylesine güzel bir eserin doğması, halkın moralini bir nebze yükseltiyordu."
+      }
+    ]
+  },
+  {
+    "id": "kurulus_114",
+    "donem": "kurulus",
+    "alt_donem": "fetret_devri",
+    "tarih_yil_min": 1413,
+    "tarih_yil_max": 1413,
+    "yas_min": 15,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": "meslek_seyfiye",
+    "metin": "Mehmed Çelebi, Musa Çelebi'ye karşı son seferine çıkarken Dulkadiroğlu Beyliği'nden de büyük askeri destek aldı. Bu ittifak sayesinde ordusu güçlendi.",
+    "secenekler": [
+      {
+        "metin": "Bu son sefere katıl",
+        "etki": { "para": 5, "itibar": 3, "saglik": -2, "sans_gerekli": true },
+        "sonuc": "Farklı beyliklerden gelen güçlerin birleşmesi, Mehmed Çelebi'nin zaferini kolaylaştırdı."
+      },
+      {
+        "metin": "Bu sefere katılmadın",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Uzun süredir beklenen bir sonucun yaklaştığı hissediliyordu."
+      }
+    ]
+  },
+  {
+    "id": "kurulus_115",
+    "donem": "kurulus",
+    "alt_donem": "fetret_devri",
+    "tarih_yil_min": 1402,
+    "tarih_yil_max": 1413,
+    "yas_min": 15,
+    "yas_max": 60,
+    "tek_seferlik": false,
+    "metin": "11 yıldır süren bu kargaşa, herkesi yormuştu. Vergiler sürekli değişiyor, kimin hükümdar olduğu bölgeden bölgeye farklılık gösteriyor, ticaret ve gündelik hayat bu belirsizlikten olumsuz etkileniyordu.",
+    "secenekler": [
+      {
+        "metin": "Sabırla bu dönemin geçmesini bekle",
+        "etki": { "mutluluk": -2, "zeka": 1 },
+        "sonuc": "Herkes bir an önce istikrarın gelmesini diliyordu. Uzun kargaşalar sabrı zorluyordu."
+      },
+      {
+        "metin": "Elindeki imkanlarla ticaretini/işini sürdürmeye çalış",
+        "etki": { "para": -1, "zeka": 2 },
+        "sonuc": "Belirsizlik ortamında iş yapmak zordu ama hayat, ne olursa olsun devam etmek zorundaydı."
+      }
+    ]
   }
 ]
