@@ -25,10 +25,10 @@ void main() {
       kurulusOlaylari = yukleyici.jsonMetnindenYukle(jsonString, 'kurulus.json');
     });
 
-    test('1. Toplam 77 olay yüklenmeli ve benzersiz ID\'lere sahip olmalı', () {
-      expect(kurulusOlaylari.length, equals(77));
+    test('1. Toplam 93 olay yüklenmeli ve benzersiz ID\'lere sahip olmalı', () {
+      expect(kurulusOlaylari.length, equals(93));
       final idSet = kurulusOlaylari.map((o) => o.id).toSet();
-      expect(idSet.length, equals(77));
+      expect(idSet.length, equals(93));
     });
 
     test('2. Kalemiye meslek atama olayı (kurulus_073) doğru çalışmalı', () {

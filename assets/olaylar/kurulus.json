@@ -1698,5 +1698,371 @@
         "sonuc": "Murad Bey, Rumeli fetihleriyle zaten adından söz ettirmişti. Onun döneminde neler olacağı merak konusuydu."
       }
     ]
+  },
+  {
+    "id": "kurulus_078",
+    "donem": "kurulus",
+    "alt_donem": "murad_1",
+    "tarih_yil_min": 1361,
+    "tarih_yil_max": 1363,
+    "yas_min": 5,
+    "yas_max": 80,
+    "tek_seferlik": true,
+    "metin": "Sazlıdere'de kazanılan zaferin ardından Edirne fethedildi. Kısa süre sonra başkentin Bursa'dan Edirne'ye taşınacağı konuşuluyor.",
+    "secenekler": [
+      {
+        "metin": "Yeni başkente göç etmeyi düşün",
+        "etki": { "para": -2, "mutluluk": 3 },
+        "sonuc": "Edirne, Rumeli fetihlerinin merkezi olacak gibi görünüyordu. Yeni bir hayat kurmak cazipti."
+      },
+      {
+        "metin": "Bursa'da/Anadolu'da kalmayı tercih et",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Bursa hâlâ önemli bir şehirdi, hemen boşalmayacaktı. Sen köklerinde kalmayı seçtin."
+      }
+    ]
+  },
+  {
+    "id": "kurulus_079",
+    "donem": "kurulus",
+    "alt_donem": "murad_1",
+    "tarih_yil_min": 1361,
+    "tarih_yil_max": 1365,
+    "yas_min": 10,
+    "yas_max": 60,
+    "tek_seferlik": false,
+    "metin": "Ulemadan Karamanlı Kara Rüstem'in önerisi, Kazasker Çandarlı Kara Halil'in onayı ve Sultan Murad'ın kabulüyle yeni bir uygulama başladı: savaş esirlerinin beşte biri (pençik) devlet için asker olarak toplanacak. Gelibolu'da bunun için bir ocak kuruluyor.",
+    "secenekler": [
+      {
+        "metin": "Bu yeni sistemin nasıl işlediğini merak edip öğrenmeye çalış",
+        "etki": { "zeka": 3 },
+        "sonuc": "Devletin savaş esirlerinden düzenli asker yetiştirmesi, gücünün sürekliliğini sağlayacak yeni bir yöntemdi."
+      },
+      {
+        "metin": "Kendi işine devam et, ilgilenme",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Bu, daha çok saray ve ordu işiydi. Sıradan halkın gündelik hayatı aynı akışta sürdü."
+      }
+    ]
+  },
+  {
+    "id": "kurulus_080",
+    "donem": "kurulus",
+    "alt_donem": "murad_1",
+    "tarih_yil_min": 1362,
+    "tarih_yil_max": 1370,
+    "yas_min": 16,
+    "yas_max": 40,
+    "tek_seferlik": true,
+    "metin": "Gelibolu'da kurulan Acemi Oğlanlar Ocağı'na, disiplinli bir eğitimle 'yeniçeri' (yeni asker) yetiştirilmeye başlandı. Bu düzenli, maaşlı, sürekli hizmet veren yeni bir askeri sınıf.",
+    "secenekler": [
+      {
+        "metin": "Bu yeni askeri düzene katılmayı dene",
+        "etki": { "para": 4, "saglik": -2, "itibar": 2 },
+        "meslek_atama": "seyfiye",
+        "bayrak_ekle": "meslek_seyfiye",
+        "sonuc": "Kapıkulu askeri olmak, aşiret/gönüllü askerlikten çok farklı bir disiplin gerektiriyordu — ama karşılığında istikrarlı bir maaş vardı."
+      },
+      {
+        "metin": "Eski usul gönüllü akıncılığı tercih et",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Yeni sistem henüz herkes için cazip değildi. Sen bildiğin yoldan devam ettin."
+      }
+    ]
+  },
+  {
+    "id": "kurulus_081",
+    "donem": "kurulus",
+    "alt_donem": "murad_1",
+    "tarih_yil_min": 1362,
+    "tarih_yil_max": 1365,
+    "yas_min": 10,
+    "yas_max": 70,
+    "tek_seferlik": true,
+    "metin": "Rumeli topraklarının yönetimi için ayrı bir Beylerbeyilik kuruldu, ilk Rumeli Beylerbeyi olarak Lala Şahin Paşa atandı. Artık Rumeli ve Anadolu ayrı ayrı yönetiliyor.",
+    "secenekler": [
+      {
+        "metin": "Yeni idari düzeni memnuniyetle karşıla",
+        "etki": { "zeka": 2, "itibar": 1 },
+        "sonuc": "Genişleyen topraklar artık daha düzenli yönetiliyordu. Devlet olgunlaşıyordu."
+      },
+      {
+        "metin": "Değişikliği fazla önemsemeden günlük işine bak",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "İdari düzenlemeler üst kademede kalıyordu, senin gündelik hayatını hemen etkilemedi."
+      }
+    ]
+  },
+  {
+    "id": "kurulus_082",
+    "donem": "kurulus",
+    "alt_donem": "murad_1",
+    "tarih_yil_min": 1362,
+    "tarih_yil_max": 1389,
+    "yas_min": 18,
+    "yas_max": 50,
+    "tek_seferlik": true,
+    "gerekli_bayrak": "meslek_seyfiye",
+    "metin": "Rumeli'de gösterdiğin hizmetler karşılığında sana küçük bir tımar (toprak geliri) bağlanması teklif edildi — artık bu topraktan elde edilen vergiyle geçimini sağlayacak, karşılığında savaş zamanı atlı asker olarak hazır bulunacaksın.",
+    "secenekler": [
+      {
+        "metin": "Tımarı kabul et, sipahi ol",
+        "etki": { "para": 5, "itibar": 3 },
+        "sonuc": "Artık bir tımarlı sipahisin. Bu sistem, hem orduyu hem toprağı bir arada tutan akıllı bir düzendi."
+      }
+    ]
+  },
+  {
+    "id": "kurulus_083",
+    "donem": "kurulus",
+    "alt_donem": "murad_1",
+    "tarih_yil_min": 1363,
+    "tarih_yil_max": 1389,
+    "yas_min": 10,
+    "yas_max": 25,
+    "tek_seferlik": true,
+    "metin": "Edirne Sarayı'nda, seçkin gençlerin devlet hizmeti için özenle eğitildiği Enderun Mektebi kuruldu. Buraya alınanlar dil, edebiyat, silah kullanma ve idarecilik dersleri alıyor.",
+    "secenekler": [
+      {
+        "metin": "Bu okula girme fırsatını değerlendir",
+        "etki": { "zeka": 6, "itibar": 3 },
+        "meslek_atama": "kalemiye",
+        "bayrak_ekle": "meslek_kalemiye",
+        "sonuc": "Enderun'un disiplini zorluydu ama sana devlet kademelerinde ilerleme kapısı açtı."
+      },
+      {
+        "metin": "Bu fırsat sana uygun değil, kendi yolunda devam et",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Herkes bu sıkı disipline dayanamazdı. Sen kendi bildiğin hayatı sürdürdün."
+      }
+    ]
+  },
+  {
+    "id": "kurulus_084",
+    "donem": "kurulus",
+    "alt_donem": "murad_1",
+    "tarih_yil_min": 1381,
+    "tarih_yil_max": 1381,
+    "yas_min": 5,
+    "yas_max": 70,
+    "tek_seferlik": true,
+    "metin": "Şehzade Bayezid, Germiyan Beyi'nin kızı Devletşah Hatun ile evlendi. Çeyiz olarak Kütahya ve çevresindeki topraklar Osmanlı'ya katıldı — savaşmadan, evlilik yoluyla kazanılan bir genişleme.",
+    "secenekler": [
+      {
+        "metin": "Bu barışçıl kazanımı takdir et",
+        "etki": { "zeka": 2, "mutluluk": 2 },
+        "sonuc": "Kılıç kullanmadan da toprak kazanılabileceğini gösteren akıllıca bir siyasetti."
+      },
+      {
+        "metin": "Sıradan bir haber gibi geç",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Saray evlilikleri sıkça konuşulurdu. Sen günlük işine devam ettin."
+      }
+    ]
+  },
+  {
+    "id": "kurulus_085",
+    "donem": "kurulus",
+    "alt_donem": "murad_1",
+    "tarih_yil_min": 1371,
+    "tarih_yil_max": 1371,
+    "yas_min": 16,
+    "yas_max": 50,
+    "tek_seferlik": true,
+    "gerekli_bayrak": "meslek_seyfiye",
+    "metin": "Sırpsındığı yenilgisinin intikamını almak isteyen Sırp kuvvetleri yeniden toplandı. Evrenos Gazi önderliğindeki kuvvetler Çirmen'de karşılarına çıktı.",
+    "secenekler": [
+      {
+        "metin": "Sefere katıl",
+        "etki": { "para": 5, "itibar": 4, "saglik": -2, "sans_gerekli": true },
+        "sonuc": "Zafer bir kez daha bizimdi. Makedonya'nın yolu artık açılmıştı, Sırp Krallığı hakimiyetimizi tanımak zorunda kaldı."
+      },
+      {
+        "metin": "Bu sefere katılma",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Zafer haberi geldiğinde köyde büyük sevinç yaşandı."
+      }
+    ]
+  },
+  {
+    "id": "kurulus_086",
+    "donem": "kurulus",
+    "alt_donem": "murad_1",
+    "tarih_yil_min": 1362,
+    "tarih_yil_max": 1389,
+    "yas_min": 15,
+    "yas_max": 60,
+    "tek_seferlik": false,
+    "metin": "Devletin artık 'hükümdar ve oğullarının ortak malı' sayıldığı, yani şehzadelerin de yönetimde söz sahibi olduğu yönünde yeni bir anlayış benimseniyor. Bu, ileride taht kavgalarına da zemin hazırlayabilir diye fısıldaşılıyor.",
+    "secenekler": [
+      {
+        "metin": "Bu değişimin sonuçlarını merak et",
+        "etki": { "zeka": 2 },
+        "sonuc": "Devlet işleri karmaşıklaşıyordu. Bazı yaşlılar bunun ileride sorun yaratabileceğini söylüyordu."
+      },
+      {
+        "metin": "Büyük siyasetle ilgilenme",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Saray içi düzenlemeler senin gündelik hayatını doğrudan etkilemiyordu."
+      }
+    ]
+  },
+  {
+    "id": "kurulus_087",
+    "donem": "kurulus",
+    "alt_donem": "murad_1",
+    "tarih_yil_min": 1385,
+    "tarih_yil_max": 1385,
+    "yas_min": 10,
+    "yas_max": 70,
+    "tek_seferlik": true,
+    "metin": "Şok edici bir haber: Sultan Murad'ın oğlu Şehzade Savcı Bey, babasına karşı isyan etti. İsyan bastırıldı, Savcı Bey ve ona katılan iki kardeşi (İbrahim ve Halil) yakalanıp idam edildi.",
+    "secenekler": [
+      {
+        "metin": "Bu acı haberi mahalle ile birlikte konuş",
+        "etki": { "mutluluk": -3, "zeka": 1 },
+        "sonuc": "Bir babanın kendi oğlunu bu şekilde kaybetmesi herkesi derinden sarstı. Devletin bekası için alınan zor bir karardı."
+      },
+      {
+        "metin": "Bu konuda konuşmaktan kaçın, tehlikeli bir mesele",
+        "etki": { "itibar": 1 },
+        "sonuc": "Saray içi meseleler hakkında konuşmak risk taşıyordu. Sen temkinli davrandın."
+      }
+    ]
+  },
+  {
+    "id": "kurulus_088",
+    "donem": "kurulus",
+    "alt_donem": "murad_1",
+    "tarih_yil_min": 1364,
+    "tarih_yil_max": 1387,
+    "yas_min": 15,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": "meslek_kalemiye",
+    "metin": "Çandarlı Kara Halil Paşa, 'vezir-i azam' (sadrazam) unvanıyla devletin en yetkili ismi oldu — bu, ilk kez kullanılan bir unvan. Divan'daki kâtiplik görevinde bu değişimi yakından izliyorsun.",
+    "secenekler": [
+      {
+        "metin": "Yeni hiyerarşiye uyum sağla, öğrenmeye devam et",
+        "etki": { "zeka": 4, "itibar": 2 },
+        "sonuc": "Devlet teşkilatı her geçen yıl biraz daha karmaşıklaşıyor, biraz daha olgunlaşıyordu."
+      }
+    ]
+  },
+  {
+    "id": "kurulus_089",
+    "donem": "kurulus",
+    "alt_donem": "murad_1",
+    "tarih_yil_min": 1374,
+    "tarih_yil_max": 1387,
+    "yas_min": 16,
+    "yas_max": 50,
+    "tek_seferlik": true,
+    "gerekli_bayrak": "meslek_seyfiye",
+    "metin": "Çandarlı Hayreddin Paşa komutasında Selanik üzerine bir sefer düzenleniyor. Makedonya'daki fetihler sürüyor.",
+    "secenekler": [
+      {
+        "metin": "Sefere katıl",
+        "etki": { "para": 4, "saglik": -2, "sans_gerekli": true },
+        "sonuc": "Makedonya'daki hakimiyetimiz genişledi. Uzun ve yorucu bir seferdi."
+      },
+      {
+        "metin": "Bu sefere katılma",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Fetih haberleri arka arkaya geliyordu. Sen bu sefer evde kaldın."
+      }
+    ]
+  },
+  {
+    "id": "kurulus_090",
+    "donem": "kurulus",
+    "alt_donem": "murad_1",
+    "tarih_yil_min": 1376,
+    "tarih_yil_max": 1376,
+    "yas_min": 8,
+    "yas_max": 70,
+    "tek_seferlik": true,
+    "metin": "Bulgar Krallığı, Osmanlı hakimiyetini resmen kabul ettiğini bildirdi. Sınırlarımız Balkanlar'ın içlerine doğru genişlemeye devam ediyor.",
+    "secenekler": [
+      {
+        "metin": "Genişlemekte olan devletin gücünden gurur duy",
+        "etki": { "mutluluk": 3, "itibar": 1 },
+        "sonuc": "Küçük bir beylikten bu denli büyük bir güce ulaşmak, herkesi gururlandırıyordu."
+      },
+      {
+        "metin": "Haberi sakin karşıla",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Fetih ve tabiiyet haberleri artık sık geliyordu, herkes kendi hayatına devam ediyordu."
+      }
+    ]
+  },
+  {
+    "id": "kurulus_091",
+    "donem": "kurulus",
+    "alt_donem": "murad_1",
+    "tarih_yil_min": 1377,
+    "tarih_yil_max": 1377,
+    "yas_min": 10,
+    "yas_max": 60,
+    "tek_seferlik": true,
+    "metin": "Bizans, Osmanlı himayesini kabul eden bir antlaşmayla Gelibolu'yu Osmanlı'ya iade etti. Rumeli'ye açılan bu stratejik kapı yeniden elimizde.",
+    "secenekler": [
+      {
+        "metin": "Bu diplomatik başarıyı takdir et",
+        "etki": { "zeka": 2, "mutluluk": 2 },
+        "sonuc": "Kılıçla olduğu kadar akılla da toprak/nüfuz kazanılabiliyordu."
+      },
+      {
+        "metin": "Günlük hayatına devam et",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Diplomatik gelişmeler saray çevresinde konuşulurdu, halkın gündelik hayatı aynı akışta sürdü."
+      }
+    ]
+  },
+  {
+    "id": "kurulus_092",
+    "donem": "kurulus",
+    "alt_donem": "murad_1",
+    "tarih_yil_min": 1362,
+    "tarih_yil_max": 1389,
+    "yas_min": 12,
+    "yas_max": 20,
+    "tek_seferlik": true,
+    "metin": "Murad Hüdavendigar'ın kendi şehzadelerini genç yaşta sancaklara (illere) vali olarak gönderip idarecilik tecrübesi kazandırdığı bir gelenek başladı. Bu gelenek, ileride tüm Osmanlı şehzadeleri için uygulanacakmış.",
+    "secenekler": [
+      {
+        "metin": "Bu yeni geleneğin devletin geleceği için iyi olduğunu düşün",
+        "etki": { "zeka": 3 },
+        "sonuc": "Genç yaşta yönetim tecrübesi kazanan şehzadeler, tahta çıktıklarında daha hazırlıklı olacaklardı."
+      },
+      {
+        "metin": "Saray işleri seni ilgilendirmiyor, kendi işine bak",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Şehzade eğitimi elbette önemliydi ama senin gündelik hayatın kendi mecrasında sürdü."
+      }
+    ]
+  },
+  {
+    "id": "kurulus_093",
+    "donem": "kurulus",
+    "alt_donem": "murad_1",
+    "tarih_yil_min": 1389,
+    "tarih_yil_max": 1389,
+    "yas_min": 5,
+    "yas_max": 80,
+    "tek_seferlik": true,
+    "metin": "Kosova'da kazanılan büyük zaferin ardından acı bir haber geldi: Sultan I. Murad, savaş meydanını gezerken bir suikastçı (Miloş Obiliç) tarafından hançerlenerek şehit edildi. Savaş alanında şehit düşen tek Osmanlı padişahı oldu.",
+    "secenekler": [
+      {
+        "metin": "Hem zaferi hem şehadeti birlikte anlamlandırmaya çalış",
+        "etki": { "mutluluk": -4, "itibar": 2 },
+        "sonuc": "37 savaşın galibi bir hükümdar, en büyük zaferinin ardından şehit düşmüştü. Yerine oğlu Yıldırım Bayezid geçti."
+      },
+      {
+        "metin": "Sessizce yasını tut",
+        "etki": { "mutluluk": -3 },
+        "sonuc": "Hüdavendigar'ın adı halk arasında saygıyla anılmaya devam edecekti."
+      }
+    ]
   }
 ]
