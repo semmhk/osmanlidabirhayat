@@ -1177,5 +1177,51 @@
         "sonuc": "Herkesin kendi çevresinde rahat ettiği bir dönemdi."
       }
     ]
+  },
+  {
+    "id": "kurulus_056",
+    "donem": "kurulus",
+    "alt_donem": "osman_gazi",
+    "tarih_yil_min": 1288,
+    "tarih_yil_max": 1299,
+    "yas_min": 10,
+    "yas_max": 70,
+    "tek_seferlik": true,
+    "metin": "Karacahisar'ın fethinden sonra halk 'Cuma namazı kılalım, bir kadı isteyelim' diye Dursun Fakih'e başvurdu. Dursun Fakih, izin için Selçuklu sultanına mı sorulması gerektiğini sorunca, Osman Bey'in 'Bu şehri kendi kılıcımla aldım, ondan izin almama gerek yok' dediği ve hutbenin kendi adına okunmasını istediği söyleniyor. Bugün o hutbe Karacahisar camisinde ilk kez onun adına okunacak.",
+    "secenekler": [
+      {
+        "metin": "Cuma namazına katıl, tarihi ana tanık ol",
+        "etki": { "mutluluk": 6, "itibar": 3 },
+        "sonuc": "Hutbede ilk kez 'Osman Bey' adı anıldı. O gün orada bulunanlar, bunun sıradan bir Cuma olmadığını hissetti — artık kimsenin emri altında değildik."
+      },
+      {
+        "metin": "Duyduğun kadarıyla yetin, günlük işine devam et",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Haberi sonradan duydun. Yine de bu hutbenin önemini herkes konuşuyordu — bağımsızlığın ilk işaretiydi."
+      }
+    ]
+  },
+  {
+    "id": "kurulus_057",
+    "donem": "kurulus",
+    "alt_donem": "osman_gazi",
+    "tarih_yil_min": 1288,
+    "tarih_yil_max": 1300,
+    "yas_min": 15,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "metin": "Dursun Fakih, Karacahisar'ın ilk kadısı olarak atandı — artık davalar burada, kendi kadımız tarafından görülecek, uzak bir sultanın adaletine muhtaç olmayacaktık.",
+    "secenekler": [
+      {
+        "metin": "Bir anlaşmazlığını yeni kadıya götür",
+        "etki": { "itibar": 2, "zeka": 2 },
+        "sonuc": "Yeni düzenin ilk davalarından biri seninkiydi. Kadı adil bir karar verdi, herkes memnun ayrıldı."
+      },
+      {
+        "metin": "Şimdilik bir davan yok, sadece haberi dinle",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Kendi kadımızın olması güven vericiydi. Artık adalet uzakta değildi."
+      }
+    ]
   }
 ]
