@@ -1,6 +1,6 @@
 [
   {
-    "id": "kurulus_01_ahilik_giris",
+    "id": "kurulus_001",
     "yas_min": 10,
     "yas_max": 14,
     "tarih_yil_min": 1299,
@@ -24,7 +24,7 @@
     ]
   },
   {
-    "id": "kurulus_02_medrese_talebeliği",
+    "id": "kurulus_002",
     "yas_min": 10,
     "yas_max": 15,
     "tarih_yil_min": 1299,
@@ -48,7 +48,7 @@
     ]
   },
   {
-    "id": "kurulus_03_osman_gazi_gaza",
+    "id": "kurulus_003",
     "yas_min": 15,
     "yas_max": 25,
     "tarih_yil_min": 1299,
@@ -71,7 +71,7 @@
     ]
   },
   {
-    "id": "kurulus_04_bursa_fethi_sevinci",
+    "id": "kurulus_004",
     "yas_min": 8,
     "yas_max": 60,
     "tarih_yil_min": 1326,
@@ -87,7 +87,7 @@
     ]
   },
   {
-    "id": "kurulus_05_orhan_gazi_imareti",
+    "id": "kurulus_005",
     "yas_min": 12,
     "yas_max": 70,
     "tarih_yil_min": 1335,
@@ -108,7 +108,7 @@
     ]
   },
   {
-    "id": "kurulus_06_rumeliye_gecis",
+    "id": "kurulus_006",
     "yas_min": 18,
     "yas_max": 35,
     "tarih_yil_min": 1352,
@@ -130,7 +130,7 @@
     ]
   },
   {
-    "id": "kurulus_07_kosova_meydan_muharebesi",
+    "id": "kurulus_007",
     "yas_min": 18,
     "yas_max": 45,
     "tarih_yil_min": 1389,
@@ -154,7 +154,7 @@
     ]
   },
   {
-    "id": "kurulus_08_nigar_hatun_evlilik",
+    "id": "kurulus_008",
     "yas_min": 18,
     "yas_max": 30,
     "tarih_yil_min": 1299,
@@ -178,7 +178,7 @@
     ]
   },
   {
-    "id": "kurulus_09_fetret_devri_karasizligi",
+    "id": "kurulus_009",
     "yas_min": 16,
     "yas_max": 65,
     "tarih_yil_min": 1402,
@@ -199,7 +199,7 @@
     ]
   },
   {
-    "id": "kurulus_10_celebi_mehmed_huzur",
+    "id": "kurulus_010",
     "yas_min": 10,
     "yas_max": 75,
     "tarih_yil_min": 1413,
@@ -215,7 +215,7 @@
     ]
   },
   {
-    "id": "kurulus_11_ii_murad_varna_savası",
+    "id": "kurulus_011",
     "yas_min": 18,
     "yas_max": 50,
     "tarih_yil_min": 1444,
@@ -234,7 +234,7 @@
     ]
   },
   {
-    "id": "kurulus_12_ahilik_ustalik_terfi",
+    "id": "kurulus_012",
     "yas_min": 18,
     "yas_max": 50,
     "tarih_yil_min": 1299,
@@ -251,7 +251,7 @@
     ]
   },
   {
-    "id": "kurulus_13_salgin_veba",
+    "id": "kurulus_013",
     "yas_min": 1,
     "yas_max": 80,
     "tarih_yil_min": 1348,
@@ -278,7 +278,7 @@
     ]
   },
   {
-    "id": "kurulus_14_medrese_danismendlik",
+    "id": "kurulus_014",
     "yas_min": 16,
     "yas_max": 35,
     "tarih_yil_min": 1299,
@@ -295,7 +295,7 @@
     ]
   },
   {
-    "id": "kurulus_15_istanbul_kusatmasi_hazirligi",
+    "id": "kurulus_015",
     "yas_min": 16,
     "yas_max": 50,
     "tarih_yil_min": 1451,
@@ -307,6 +307,528 @@
         "metin": "Top dökümhanesinde veya ordu hazırlığında görev al",
         "etki": { "itibar": 25, "para": 15, "zeka": 10 },
         "sonuc": "Şahi toplarının ve fetih hazırlıklarının önemli bir parçası oldun."
+      }
+    ]
+  },
+  {
+    "id": "kurulus_016",
+    "yas_min": 10,
+    "yas_max": 60,
+    "tarih_yil_min": 1389,
+    "tarih_yil_max": 1389,
+    "tek_seferlik": true,
+    "metin": "Köyünüze at sırtında bir haberci geldi: Kosova'da büyük bir meydan muharebesi olmuş. Sultan I. Murad Hüdavendigar savaş meydanında bir Sırp tarafından şehit edilmiş. Yerine oğlu Yıldırım Bayezid tahta çıkmış.",
+    "secenekler": [
+      {
+        "metin": "Camide/mescitte toplu dua için köylülerle bir araya gel",
+        "etki": { "mutluluk": -3, "itibar": 3 },
+        "sonuc": "Köy meydanında uzun bir sessizlik oldu. Herkes yeni sultanın ne getireceğini merak ediyordu."
+      },
+      {
+        "metin": "İşine devam et, büyük siyaset senin harcın değil",
+        "etki": { "mutluluk": -1, "zeka": 1 },
+        "sonuc": "Tarla sürülmeye devam etti. Devlet işleri devletlinindir, dendi."
+      }
+    ]
+  },
+  {
+    "id": "kurulus_017",
+    "yas_min": 15,
+    "yas_max": 45,
+    "tarih_yil_min": 1390,
+    "tarih_yil_max": 1401,
+    "tek_seferlik": false,
+    "metin": "Mahalledeki ahi zaviyesinde bir çıraklık yeri açıldı. Ahi babası seni gördü, 'gel evladım, hem sanat öğren hem er kişi ol' dedi.",
+    "secenekler": [
+      {
+        "metin": "Zaviyeye katıl, ahilik yoluna gir",
+        "etki": { "zeka": 4, "itibar": 3 },
+        "meslek_atama": "ahilik",
+        "bayrak_ekle": "meslek_ahilik",
+        "sonuc": "Artık bir ahi çırağısın — hem meslek öğreneceksin hem fütüvvet erdemlerini."
+      },
+      {
+        "metin": "Babanın tarlasında kalmayı tercih et",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Toprak babadan kalma, onu bırakmaya gönlün razı olmadı."
+      }
+    ]
+  },
+  {
+    "id": "kurulus_018",
+    "yas_min": 5,
+    "yas_max": 70,
+    "tarih_yil_min": 1389,
+    "tarih_yil_max": 1389,
+    "tek_seferlik": true,
+    "metin": "Yeni padişah Yıldırım Bayezid'in tahta çıkışı şerefine, cülus bahşişi dağıtıldığı haberi mahalleye ulaştı — böyle bir gelenek ilk kez başlıyormuş.",
+    "secenekler": [
+      {
+        "metin": "Şehre gidip bahşişten payını almaya çalış",
+        "etki": { "para": 3, "sans_gerekli": true },
+        "sonuc": "Yollar kalabalıktı. Ya elin boş dönmedin ya da izdihamda geri çekilmek zorunda kaldın."
+      },
+      {
+        "metin": "Köyde kal, boşuna yorulma",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Şehre gidenlerin bir kısmı boş döndü, sen bari yorulmadın."
+      }
+    ]
+  },
+  {
+    "id": "kurulus_019",
+    "yas_min": 18,
+    "yas_max": 50,
+    "tarih_yil_min": 1396,
+    "tarih_yil_max": 1401,
+    "tek_seferlik": true,
+    "gerekli_bayrak": "meslek_ahilik",
+    "metin": "Sultan Yıldırım Bayezid'in İstanbul kuşatmasına (Bizans üzerine) asker ve erzak talebi köyünüze de ulaştı. Sipahi ağası kapına dayandı.",
+    "secenekler": [
+      {
+        "metin": "Sefere katıl, kuşatmaya git",
+        "etki": { "para": 4, "saglik": -3, "sans_gerekli": true },
+        "sonuc": "Kuşatma uzun sürdü. Ya ganimetle döndün ya da yaralı, hangisi olursa olsun bir daha eskisi gibi olmadın."
+      },
+      {
+        "metin": "Erzak vererek sefer yükümlülüğünü öde",
+        "etki": { "para": -3, "itibar": 1 },
+        "sonuc": "Tahılının bir kısmı sefer için alındı. Yerinde kaldın, ambar biraz boşaldı."
+      }
+    ]
+  },
+  {
+    "id": "kurulus_020",
+    "yas_min": 5,
+    "yas_max": 70,
+    "tarih_yil_min": 1402,
+    "tarih_yil_max": 1402,
+    "tek_seferlik": true,
+    "metin": "Ankara yakınlarında Çubuk Ovası'nda büyük bir savaş oldu. Doğudan gelen Timur'un orduları, Sultan Yıldırım Bayezid'in ordusunu bozguna uğrattı. Padişahın esir düştüğü söyleniyor.",
+    "secenekler": [
+      {
+        "metin": "Şehre inip doğru haber almaya çalış",
+        "etki": { "zeka": 3, "mutluluk": -4 },
+        "sonuc": "Haberler karışıktı ama gerçek acıydı: sultan gerçekten esir düşmüştü. Devletin geleceği belirsizdi."
+      },
+      {
+        "metin": "Ailenle köyde sakin kalıp bekle",
+        "etki": { "mutluluk": -2, "saglik": 1 },
+        "sonuc": "Kargaşa zamanında dışarı çıkmamak akıllıcaydı. Yine de içindeki tedirginlik geçmedi."
+      }
+    ]
+  },
+  {
+    "id": "kurulus_021",
+    "yas_min": 10,
+    "yas_max": 60,
+    "tarih_yil_min": 1402,
+    "tarih_yil_max": 1413,
+    "tek_seferlik": false,
+    "metin": "Yıldırım'ın oğulları (Musa, Süleyman, İsa, Mehmed Çelebiler) taht için birbirleriyle savaşıyor. Bölgeni hangi şehzadenin adamları kontrol ediyorsa, ona vergi/asker vermen isteniyor.",
+    "secenekler": [
+      {
+        "metin": "Hangi şehzade güçlüyse ona bağlılık göster",
+        "etki": { "para": -2, "zeka": 2 },
+        "sonuc": "Pragmatik bir tercihti. Fetret Devri'nde ayakta kalmanın yolu buydu."
+      },
+      {
+        "metin": "Hiçbirine karışma, tarafsız kal",
+        "etki": { "itibar": -2, "mutluluk": 1 },
+        "sonuc": "Tarafsızlığın bazılarınca 'sadakatsizlik' sayıldı ama en azından kimseye düşman olmadın."
+      }
+    ]
+  },
+  {
+    "id": "kurulus_022",
+    "yas_min": 5,
+    "yas_max": 70,
+    "tarih_yil_min": 1413,
+    "tarih_yil_max": 1413,
+    "tek_seferlik": true,
+    "metin": "11 yıl süren kardeş kavgası nihayet bitti. Çelebi Mehmed, Çamurluova'da son rakibi Musa Çelebi'yi de yenip tek başına padişah oldu. Devlet yeniden birleşti.",
+    "secenekler": [
+      {
+        "metin": "Rahatlayıp bereketli bir hasat için dua et",
+        "etki": { "mutluluk": 6, "saglik": 1 },
+        "sonuc": "Yıllardır ilk kez tek bir otorite vardı. Köy meydanında bayram havası esti."
+      },
+      {
+        "metin": "Temkinli ol, yeni düzenin ne getireceğini bekle",
+        "etki": { "zeka": 2 },
+        "sonuc": "Geçmiş yıllar sana temkin öğretmişti. Sevinmek için erken olabilirdi."
+      }
+    ]
+  },
+  {
+    "id": "kurulus_023",
+    "yas_min": 12,
+    "yas_max": 25,
+    "tarih_yil_min": 1300,
+    "tarih_yil_max": 1450,
+    "tek_seferlik": true,
+    "metin": "Baban seni medreseye mi göndermek istiyor, yoksa bir ahi ustasının yanına çırak mı vermek istiyor, ikisi arasında kararsız kaldı. Sana soruyor.",
+    "secenekler": [
+      {
+        "metin": "Medreseye gitmek istediğini söyle",
+        "etki": { "zeka": 5, "para": -1 },
+        "meslek_atama": "ilmiye",
+        "bayrak_ekle": "meslek_ilmiye",
+        "sonuc": "Kur'an ve fıkıh dersleri başladı. Belki bir gün kadı ya da müderris olursun."
+      },
+      {
+        "metin": "Bir ahi ustasının yanında sanat öğrenmek istediğini söyle",
+        "etki": { "zeka": 2, "para": 1 },
+        "meslek_atama": "ahilik",
+        "bayrak_ekle": "meslek_ahilik",
+        "sonuc": "Elinle iş yapmayı, hem de bir loncanın parçası olmayı seçtin."
+      }
+    ]
+  },
+  {
+    "id": "kurulus_024",
+    "yas_min": 16,
+    "yas_max": 40,
+    "tarih_yil_min": 1300,
+    "tarih_yil_max": 1450,
+    "tek_seferlik": false,
+    "metin": "Konar-göçer akrabaların yaylaya çıkma vaktine denk geldi, seni de davet ettiler. Ama devletin yerleşik hayata geçirme baskısı var.",
+    "secenekler": [
+      {
+        "metin": "Yaylaya çık, göçebe hayatı bir süre daha yaşa",
+        "etki": { "mutluluk": 5, "saglik": 2 },
+        "sonuc": "Otlaklar bereketliydi, sürüler semirdi. Ama tımar defterine adın yine de yazılmadı."
+      },
+      {
+        "metin": "Köyde kalıp toprağa bağlan",
+        "etki": { "para": 2, "itibar": 1 },
+        "sonuc": "Vergi kaydına girdin. Artık 'yeri belli' bir reayasın, devletin gözünde daha güvenilirsin."
+      }
+    ]
+  },
+  {
+    "id": "kurulus_025",
+    "yas_min": 5,
+    "yas_max": 70,
+    "tarih_yil_min": 1421,
+    "tarih_yil_max": 1421,
+    "tek_seferlik": true,
+    "metin": "Çelebi Mehmed vefat etti, oğlu II. Murad tahta geçti. Ama amcası Mustafa Çelebi ('Düzmece Mustafa') taht iddiasıyla ortaya çıktı.",
+    "secenekler": [
+      {
+        "metin": "Yeni sultana bağlılığını göster",
+        "etki": { "itibar": 2, "mutluluk": -2 },
+        "sonuc": "Bazı komşuların Mustafa'yı desteklediği söyleniyordu. Sofrada bu yüzden tartışmalar oldu."
+      },
+      {
+        "metin": "Kimden yana olduğunu belli etme",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Ortalık netleşene kadar sessiz kalman akıllıcaydı."
+      }
+    ]
+  },
+  {
+    "id": "kurulus_026",
+    "yas_min": 20,
+    "yas_max": 45,
+    "tarih_yil_min": 1300,
+    "tarih_yil_max": 1450,
+    "tek_seferlik": true,
+    "gerekli_bayrak": "meslek_ahilik",
+    "metin": "Ahi babası seni yanına çağırdı: 'Yeterince çıraklık yaptın, artık kalfalık zamanı geldi evladım.' Fütüvvetnamedeki erdemleri sana hatırlattı.",
+    "secenekler": [
+      {
+        "metin": "Kalfalığa terfi et, yemin et",
+        "etki": { "itibar": 5, "zeka": 3 },
+        "sonuc": "Artık bir kalfasın. Sırtına yeni bir sorumluluk, ama gururlu bir sorumluluk bindi."
+      }
+    ]
+  },
+  {
+    "id": "kurulus_027",
+    "yas_min": 18,
+    "yas_max": 55,
+    "tarih_yil_min": 1300,
+    "tarih_yil_max": 1450,
+    "tek_seferlik": false,
+    "metin": "Şehre pazar günü indin. Kadı huzurında bir anlaşmazlık görülüyordu — komşun ile bir başkası arasında toprak sınırı davası. Kadı senden de tanıklık istedi.",
+    "secenekler": [
+      {
+        "metin": "Bildiğin doğruyu söyle, komşunu kırma pahasına",
+        "etki": { "itibar": 4, "mutluluk": -2 },
+        "sonuc": "Doğruyu söylemek kolay değildi ama kadı huzurunda yalan yeminin vebali ağırdı."
+      },
+      {
+        "metin": "Tanıklıktan kaçınmaya çalış",
+        "etki": { "itibar": -2 },
+        "sonuc": "Kaçamak cevapların kadıyı tatmin etmedi. Mahallede biraz laf oldu."
+      }
+    ]
+  },
+  {
+    "id": "kurulus_028",
+    "yas_min": 20,
+    "yas_max": 50,
+    "tarih_yil_min": 1300,
+    "tarih_yil_max": 1450,
+    "tek_seferlik": true,
+    "metin": "Komşu köyde bir eşleşme teklif edildi. Aileler görüşmeye başladı bile.",
+    "secenekler": [
+      {
+        "metin": "Teklife olumlu bak, nikaha razı ol",
+        "etki": { "mutluluk": 6, "para": -2 },
+        "bayrak_ekle": "evli",
+        "sonuc": "Mahalle imamı nikahı kıydı. İki ailenin de yüzü güldü."
+      },
+      {
+        "metin": "Şimdilik acele etme, düşünmek istediğini söyle",
+        "etki": { "mutluluk": -1 },
+        "sonuc": "Aile biraz şaşırdı ama kararına saygı gösterdi."
+      }
+    ]
+  },
+  {
+    "id": "kurulus_029",
+    "yas_min": 25,
+    "yas_max": 60,
+    "tarih_yil_min": 1300,
+    "tarih_yil_max": 1450,
+    "tek_seferlik": false,
+    "gerekli_bayrak": "evli",
+    "metin": "Eşin hamile olduğu haberini getirdi. Ebe kadın çağırıldı, komşular hayırlı olsun demeye geldi.",
+    "secenekler": [
+      {
+        "metin": "Şükürle karşıla, komşulara helva dağıt",
+        "etki": { "mutluluk": 8, "para": -1 },
+        "bayrak_ekle": "cocuklu",
+        "sonuc": "Doğum sağlıklı geçti. Köyde yeni bir can, yeni bir umut demekti."
+      }
+    ]
+  },
+  {
+    "id": "kurulus_030",
+    "yas_min": 10,
+    "yas_max": 70,
+    "tarih_yil_min": 1440,
+    "tarih_yil_max": 1451,
+    "tek_seferlik": true,
+    "metin": "II. Murad'ın oğlu genç şehzade Mehmed'in bazen tahta çıkıp bazen babasının geri döndüğü karışık bir dönemden geçiliyor.",
+    "secenekler": [
+      {
+        "metin": "Söylentilere kulak ver, gelecek için umutlan",
+        "etki": { "mutluluk": 3, "zeka": 1 },
+        "sonuc": "Kimse henüz bilmiyordu ama bu şehzade birkaç yıl sonra İstanbul'u fethedecekti."
+      },
+      {
+        "metin": "Söylentilere aldırma, günlük işine bak",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Büyük siyaset kendi mecrasında akarken, sen kendi hayatını yaşamaya devam ettin."
+      }
+    ]
+  },
+  {
+    "id": "kurulus_031",
+    "yas_min": 5,
+    "yas_max": 70,
+    "tarih_yil_min": 1361,
+    "tarih_yil_max": 1362,
+    "tek_seferlik": true,
+    "metin": "I. Murad'ın kuvvetleri Edirne'yi fethetti. Şehir kısa süre sonra Bursa'nın yanında yeni bir merkez olacakmış, diye konuşuluyor.",
+    "secenekler": [
+      {
+        "metin": "Rumeli'deki yeni topraklara göç etmeyi düşün",
+        "etki": { "mutluluk": 3, "para": -2 },
+        "sonuc": "Yeni fethedilen topraklarda toprak dağıtımı yapılıyordu. Riskli ama cazip bir fırsattı."
+      },
+      {
+        "metin": "Bursa'da/Anadolu'da kalmayı tercih et",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Bilinen topraklarda kalmak güvenliydi. Bazı komşuların Rumeli'ye gittiğini duydun."
+      }
+    ]
+  },
+  {
+    "id": "kurulus_032",
+    "yas_min": 15,
+    "yas_max": 50,
+    "tarih_yil_min": 1364,
+    "tarih_yil_max": 1364,
+    "tek_seferlik": true,
+    "metin": "Sırp ve Bulgar kuvvetlerinin ani bir gece baskınıyla Osmanlı ordusunu Meriç kıyısında bastırmaya çalıştığı, ama akıncıların bu baskını püskürttüğü haberi geldi — 'Sırpsındığı' diye anılacakmış bu zafer.",
+    "secenekler": [
+      {
+        "metin": "Zaferi kutlayan köy şenliğine katıl",
+        "etki": { "mutluluk": 4, "itibar": 1 },
+        "sonuc": "Meydanda davul zurna çalındı. Rumeli'deki varlığımız bir kez daha perçinlendi."
+      },
+      {
+        "metin": "Sıradan bir haber gibi geç, işine devam et",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Savaş haberleri sık geliyordu artık. Herkes kendi telaşındaydı."
+      }
+    ]
+  },
+  {
+    "id": "kurulus_033",
+    "yas_min": 16,
+    "yas_max": 45,
+    "tarih_yil_min": 1396,
+    "tarih_yil_max": 1396,
+    "tek_seferlik": true,
+    "metin": "Koca bir Haçlı ordusu Tuna'yı geçip Niğbolu'ya dayandı. Sultan Yıldırım Bayezid bütün sancaklardan asker topluyor.",
+    "secenekler": [
+      {
+        "metin": "Sefere katıl, Niğbolu'ya git",
+        "etki": { "para": 5, "saglik": -3, "itibar": 3, "sans_gerekli": true },
+        "sonuc": "25 Eylül günü meydanda büyük bir zafer kazanıldı. Haçlı ordusu dağıtıldı."
+      },
+      {
+        "metin": "Sefere katılmayıp köyde kal, dua et",
+        "etki": { "mutluluk": -2 },
+        "sonuc": "Zaferin haberi köye ulaştığında büyük bir sevinç yaşandı."
+      }
+    ]
+  },
+  {
+    "id": "kurulus_034",
+    "yas_min": 15,
+    "yas_max": 55,
+    "tarih_yil_min": 1416,
+    "tarih_yil_max": 1420,
+    "tek_seferlik": true,
+    "metin": "Simavna Kadısı oğlu Şeyh Bedreddin'in müritleri (Börklüce Mustafa ve Torlak Kemal önderliğinde) Batı Anadolu ve Rumeli'de isyan başlattı. Devlet bunu bastırmaya çalışıyor.",
+    "secenekler": [
+      {
+        "metin": "İsyancıların vaazlarını dinlemeye git",
+        "etki": { "zeka": 3, "itibar": -3, "sans_gerekli": true },
+        "sonuc": "Fikirleri ilgi çekiciydi ama tehlikeliydi."
+      },
+      {
+        "metin": "Karışma, devlete sadık kal",
+        "etki": { "itibar": 2, "mutluluk": -1 },
+        "sonuc": "İsyan bastırıldı. Bazı komşuların bu olaydan etkilendiğini duydun."
+      }
+    ]
+  },
+  {
+    "id": "kurulus_035",
+    "yas_min": 16,
+    "yas_max": 50,
+    "tarih_yil_min": 1448,
+    "tarih_yil_max": 1448,
+    "tek_seferlik": true,
+    "metin": "Macar kumandan Hunyadi Yanoş, Varna'daki yenilginin intikamını almak için yeniden büyük bir orduyla geldi. II. Murad ordusunun başında yine Kosova Ovası'na çıktı.",
+    "secenekler": [
+      {
+        "metin": "Sefere katıl",
+        "etki": { "para": 4, "saglik": -3, "itibar": 3, "sans_gerekli": true },
+        "sonuc": "Üç gün süren çetin savaşın ardından zafer yine Osmanlı'nındı. Balkanlar'daki Osmanlı hakimiyeti pekişti."
+      },
+      {
+        "metin": "Erzak/vergi desteğiyle katkıda bulun",
+        "etki": { "para": -3, "itibar": 1 },
+        "sonuc": "Ambarından bir kısmı sefer için alındı. Zafer haberi geldiğinde gurur duydun."
+      }
+    ]
+  },
+  {
+    "id": "kurulus_036",
+    "yas_min": 15,
+    "yas_max": 50,
+    "tarih_yil_min": 1452,
+    "tarih_yil_max": 1453,
+    "tek_seferlik": true,
+    "metin": "Genç Sultan II. Mehmed, İstanbul'u kuşatmak için Rumelihisarı'nı ('Boğazkesen') inşa ettirdi ve devasa toplar döktürüyor.",
+    "secenekler": [
+      {
+        "metin": "Hisar inşaatında ya da top dökümünde çalış",
+        "etki": { "para": 3, "saglik": -2, "zeka": 2 },
+        "sonuc": "Ellerin nasırlaştı ama tarihi bir işin parçası olduğunu hissettin."
+      },
+      {
+        "metin": "Kendi işine devam et",
+        "etki": { "mutluluk": 1, "itibar": -1 },
+        "sonuc": "Herkesin bu büyük hazırlığa koştuğu bir dönemde geride durmak seni biraz rahatsız etti."
+      }
+    ]
+  },
+  {
+    "id": "kurulus_037",
+    "yas_min": 5,
+    "yas_max": 80,
+    "tarih_yil_min": 1453,
+    "tarih_yil_max": 1453,
+    "tek_seferlik": true,
+    "metin": "29 Mayıs 1453. Elli üç günlük kuşatmanın ardından surlar aşıldı. II. Mehmed'in ordusu şehre girdi — bin yıllık Bizans başkenti artık Osmanlı'nın elindeydi.",
+    "secenekler": [
+      {
+        "metin": "Zaferi büyük bir coşkuyla kutla",
+        "etki": { "mutluluk": 10, "itibar": 3 },
+        "sonuc": "Nesillerdir hayal edilen bir fetih gerçekleşmişti. Köy meydanında bayram havası günlerce sürdü."
+      },
+      {
+        "metin": "Şehre gidip yeni başkenti görmeyi düşün",
+        "etki": { "zeka": 4, "para": -3 },
+        "sonuc": "İstanbul'a doğru yola çıkanlar arasındaydın."
+      }
+    ]
+  },
+  {
+    "id": "kurulus_038",
+    "yas_min": 18,
+    "yas_max": 55,
+    "tarih_yil_min": 1453,
+    "tarih_yil_max": 1460,
+    "tek_seferlik": true,
+    "metin": "Fatih Sultan Mehmed, fethedilen ama nüfusu azalmış İstanbul'u yeniden şenlendirmek için Anadolu ve Rumeli'den ailelerin şehre yerleşmesini (iskan siyaseti) teşvik ediyor.",
+    "secenekler": [
+      {
+        "metin": "Gönüllü olarak İstanbul'a yerleş",
+        "etki": { "mutluluk": 5, "para": -2, "itibar": 2 },
+        "sonuc": "Yeni başkentte bir dükkan/ev sahibi oldun. Şehir yavaş yavaş yeniden hayat buluyordu."
+      },
+      {
+        "metin": "Bulunduğun yerde kalmayı tercih et",
+        "etki": { "mutluluk": 2 },
+        "sonuc": "Köklerini bırakmak istemedin. İstanbul'un hikayelerini uzaktan dinlemekle yetindin."
+      }
+    ]
+  },
+  {
+    "id": "kurulus_039",
+    "yas_min": 10,
+    "yas_max": 70,
+    "tarih_yil_min": 1453,
+    "tarih_yil_max": 1453,
+    "tek_seferlik": true,
+    "metin": "Fetihten sonra Ayasofya'nın camiye çevrildiği ve ilk Cuma namazının orada kılındığı haberi mahallene ulaştı.",
+    "secenekler": [
+      {
+        "metin": "Haberi hayırla karşıla",
+        "etki": { "mutluluk": 4 },
+        "sonuc": "Büyük bir günün parçası olduğunuzu hissettiniz."
+      },
+      {
+        "metin": "Günlük işine dönerek haberi sakin karşıla",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Büyük olaylar oluyordu ama hayat dükkanda devam ediyordu."
+      }
+    ]
+  },
+  {
+    "id": "kurulus_040",
+    "yas_min": 18,
+    "yas_max": 45,
+    "tarih_yil_min": 1300,
+    "tarih_yil_max": 1453,
+    "tek_seferlik": true,
+    "gerekli_bayrak": "meslek_seyfiye",
+    "metin": "Uç bölgesindeki bir akında gösterdiğin yararlılık komutanların dikkatini çekti. Sana 'gazi' unvanı verilmesi öneriliyor.",
+    "secenekler": [
+      {
+        "metin": "Unvanı gururla kabul et",
+        "etki": { "itibar": 6, "mutluluk": 4 },
+        "sonuc": "Artık mahallede sana 'gazi' diye hitap ediliyor. Bu, kolay kazanılmayan bir şerefti."
       }
     ]
   }

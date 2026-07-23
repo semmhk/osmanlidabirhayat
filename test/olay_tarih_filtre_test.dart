@@ -17,16 +17,27 @@ void main() {
       kurulusOlaylari = yukleyici.jsonMetnindenYukle(jsonString, 'kurulus.json');
     });
 
-    test('1. kurulus.json 15 olay eksiksiz ve tarih_yil_min/max alanlarıyla yüklenmeli', () {
-      expect(kurulusOlaylari.length, equals(15));
+    test('1. kurulus.json 40 olay eksiksiz, benzersiz ID ve tarih_yil_min/max alanlarıyla yüklenmeli', () {
+      expect(kurulusOlaylari.length, equals(40));
       
-      final ahilikOlayi = kurulusOlaylari.firstWhere((o) => o.id == 'kurulus_01_ahilik_giris');
+      // Benzersiz ID kontrolü
+      final idSet = kurulusOlaylari.map((o) => o.id).toSet();
+      expect(idSet.length, equals(40));
+
+      final ahilikOlayi = kurulusOlaylari.firstWhere((o) => o.id == 'kurulus_001');
       expect(ahilikOlayi.tarihYilMin, equals(1299));
       expect(ahilikOlayi.tarihYilMax, equals(1453));
 
-      final vebaOlayi = kurulusOlaylari.firstWhere((o) => o.id == 'kurulus_13_salgin_veba');
+      final rumeliOlayi = kurulusOlaylari.firstWhere((o) => o.id == 'kurulus_006');
+      expect(rumeliOlayi.tarihYilMin, equals(1352));
+      expect(rumeliOlayi.tarihYilMax, equals(1357));
+
+      final vebaOlayi = kurulusOlaylari.firstWhere((o) => o.id == 'kurulus_013');
       expect(vebaOlayi.tarihYilMin, equals(1348));
       expect(vebaOlayi.tarihYilMax, equals(1352));
+
+      final gaziOlayi = kurulusOlaylari.firstWhere((o) => o.id == 'kurulus_040');
+      expect(gaziOlayi.gerekliBayrak, equals('meslek_seyfiye'));
     });
 
     test('2. Şema doğrulayıcı hatalı tarih_yil_min > tarih_yil_max durumunu yakalamalı', () {
@@ -71,14 +82,14 @@ void main() {
       final uygunIdler = uygunlar.map((o) => o.id).toList();
 
       // 1350 yılında (takvimYili = 1350, yas = 10):
-      // - kurulus_13_salgin_veba (tarih: 1348-1352, yas: 1-80) HAVUZA GİRMELİ!
-      expect(uygunIdler, contains('kurulus_13_salgin_veba'));
+      // - kurulus_013 (tarih: 1348-1352, yas: 1-80) HAVUZA GİRMELİ!
+      expect(uygunIdler, contains('kurulus_013'));
 
-      // - kurulus_03_osman_gazi_gaza (tarih: 1299-1326) HAVUZA GİRMEMELİ! (1350 > 1326)
-      expect(uygunIdler, isNot(contains('kurulus_03_osman_gazi_gaza')));
+      // - kurulus_003 (tarih: 1299-1326) HAVUZA GİRMEMELİ! (1350 > 1326)
+      expect(uygunIdler, isNot(contains('kurulus_003')));
 
-      // - kurulus_15_istanbul_kusatmasi_hazirligi (tarih: 1451-1453) HAVUZA GİRMEMELİ! (1350 < 1451)
-      expect(uygunIdler, isNot(contains('kurulus_15_istanbul_kusatmasi_hazirligi')));
+      // - kurulus_015 (tarih: 1451-1453) HAVUZA GİRMEMELİ! (1350 < 1451)
+      expect(uygunIdler, isNot(contains('kurulus_015')));
     });
 
     test('4. 1452 yılındaki bir karakter İstanbul Kuşatması olayını görebilmeli', () {
@@ -96,7 +107,7 @@ void main() {
       final uygunlar = motor.uygunOlaylariGetir();
       final uygunIdler = uygunlar.map((o) => o.id).toList();
 
-      expect(uygunIdler, contains('kurulus_15_istanbul_kusatmasi_hazirligi'));
+      expect(uygunIdler, contains('kurulus_015'));
     });
   });
 }
