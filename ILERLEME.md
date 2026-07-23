@@ -4,7 +4,7 @@
 
 ## MEVCUT DURUM
 
-**Aktif Faz:** Adım 1 & Adım 4 (Proje İskeleti + 138 Olaylık Kuruluş Dönemi & 7/7 Padişah/Alt-Dönem TAMAMLANDI + **YÜKSELME DÖNEMİ [Fatih 16 + II. Bayezid 14 + Yavuz 13 + Kanuni I 14 + Kanuni II 14 + Kanuni III 13 = 84 Yükselme Olayı TAMAMLANDI]** + 222 Toplam Olay + 14 Başarım Sistemi + Kalemiye & Boşanma Zincirleri + Birim Testleri + GitHub Entegrasyonu) ✅
+**Aktif Faz:** Adım 1 & Adım 4 (Proje İskeleti + 138 Olaylık Kuruluş Dönemi & 7/7 Padişah/Alt-Dönem TAMAMLANDI + **YÜKSELME DÖNEMİ TAMAMEN TAMAMLANDI [5/5 Alt-Dönem: Fatih 16 + II. Bayezid 14 + Yavuz 13 + Kanuni 41 (3 parça) + II. Selim 14 = 98 Yükselme Olayı]** + 236 Toplam Olay + 14 Başarım Sistemi + Kalemiye & Boşanma Zincirleri + Birim Testleri + GitHub Entegrasyonu) ✅
 **Son güncelleme:** 24 Temmuz 2026
 
 ---
@@ -30,28 +30,25 @@
 - [x] `OyunMotoru` takvim yılı ilerletme, tarihsel ölüm riski, `agirlikliOlaySec` (10x-25x), statik `secenekUygula` ve 2 yıl toleranslı garantili terfi kuralı ile yazıldı (`lib/motor/oyun_motoru.dart`).
 - [x] **Kuruluş Dönemi (7/7 Padişah/Alt-Dönem TAM TAMAMLANDI - 138 Olay)**:
   - Osman Gazi (17 Olay), Orhan Gazi (20 Olay), I. Murad (18 Olay), Yıldırım Bayezid (19 Olay), Fetret Devri (12 Olay), Çelebi Mehmed (13 Olay), II. Murad (17 Olay).
-- [x] **YÜKSELME DÖNEMİ (84 Olay TAMAMLANDI - 4/5 Alt-Dönem)**:
+- [x] **YÜKSELME DÖNEMİ (5/5 Alt-Dönem TAM TAMAMLANDI - 98 Olay 🎉)**:
   - **Fatih Sultan Mehmed (1451-1481)**: 16 Olay TAMAMLANDI.
   - **II. Bayezid (1481-1512)**: 14 Olay TAMAMLANDI.
   - **Yavuz Sultan Selim (1512-1520)**: 13 Olay TAMAMLANDI.
-  - **KANUNİ SULTAN SÜLEYMAN (1520-1566) — 46 YILLIK SALTANAT TAMAMEN TAMAMLANDI (41 OLAY)**:
-    - Kanuni I (Yükseliş, 1520-1538): 14 Olay
-    - Kanuni II (Zirve, 1538-1553): 14 Olay
-    - **Kanuni III (Son Yıllar, 1553-1566)**: 13 Olay TAMAMLANDI (`assets/olaylar/yukselme.json`, `alt_donem: "kanuni_3_son_yillar"` — 1555 Amasya Barış Antlaşması & doğu sınırı huzuru, Süleymaniye Camii açılışı [1557], Hürrem Sultan'ın vefatı [1558], Şehzade Selim & Bayezid Konya savaşı, Bayezid'in İran'a kaçışı & rehinliği, Bayezid ve oğullarının geri alınıp idamı, Cerbe Deniz Zaferi [1560], Sokullu Mehmed Paşa'nın yükselişi, Malta Kuşatması & Turgut Reis'in şehadeti [1565], 72 yaşındaki Kanuni'nin Eyüp Sultan'da helalleşip vedası, Zigetvar Seferi, 7 Eylül 1566 Kanuni Sultan Süleyman'ın vefatı & Sokullu'nun ölümü gizlemesi, Altın Çağ ve Muhibbi kültür yansımaları).
+  - **Kanuni Sultan Süleyman (1520-1566)**: 41 Olay TAMAMLANDI (Kanuni I Yükseliş 14 + Kanuni II Zirve 14 + Kanuni III Son Yıllar 13).
+  - **II. Selim (Sarı Selim, 1566-1574)**: 14 Olay TAMAMLANDI (`assets/olaylar/yukselme.json`, `alt_donem: "ikinci_selim"` — Tahta çıkış & Belgrad'da askere cülus biatı, Yeniçeri cülus bahşişi huzursuzluğu & Sokullu müdahalesi, Sokullu Mehmed Paşa'nın fiili devlet yönetimi, Sakız Adası'nın fethi [1566], Yemen isyanı & Sumatra'ya [Endonezya] yardım gönderilmesi, Kıbrıs sefer kararı, Kıbrıs'ın Fethi [1570-1571], 1571 İnebahtı Deniz Bozgunu & ilk büyük kayıp, Sokullu önderliğinde tersanelerde yeni donanmanın süratle inşası, 1573 Venedik barış antlaşması & tazminat, 1574 Tunus'un Fethi, Sokullu'nun Don-Volga ve Süveyş kanal projeleri, İstanbul imar faaliyetleri & Mimar Sinan, II. Selim'in vefatı & Yükselme Dönemi'nin kapanışı).
 - [x] **Sistem boşlukları kapatıldı: kalemiye, 14 başarım, boşanma/nesil içeriği**:
   - 14 Osmanlı-uyumlu Başarım sistemi eklendi (`assets/basarimlar.json`, `lib/modeller/basarim.dart`, `lib/motor/basarim_kontrolcusu.dart`).
   - Kalemiye Meslek Zinciri eklendi (`kurulus_073`).
   - Boşanma / Eşin Vefatı / İkinci Nikah Zinciri eklendi (`kurulus_074`, `kurulus_075`, `kurulus_076`).
   - UI Ekranları: `BasarimlarEkrani` ve `OlumEkrani` eklendi (`lib/ekranlar/`).
-- [x] **TOPLAM OLAY SAYISI: 222 OLAY** (Kuruluş 138 + Yükselme 84).
-- [x] Birim testleri yazıldı (`test/sistem_bosluklari_test.dart` & `test/olay_tarih_filtre_test.dart` — 222 olay, iki dosyanın paralel yüklenmesi, Kalemiye ataması, 14 başarım koşulu ve boşanma/ikinci nikah zinciri). Toplam **11/11 test YEŞİL ✅**. `flutter analyze` **0 hata / 0 uyarı ✅**.
+- [x] **TOPLAM OLAY SAYISI: 236 OLAY** (Kuruluş 138 + Yükselme 98).
+- [x] Birim testleri yazıldı (`test/sistem_bosluklari_test.dart` & `test/olay_tarih_filtre_test.dart` — 236 olay, iki dosyanın paralel yüklenmesi, Kalemiye ataması, 14 başarım koşulu ve boşanma/ikinci nikah zinciri). Toplam **11/11 test YEŞİL ✅**. `flutter analyze` **0 hata / 0 uyarı ✅**.
 - [x] GitHub Reposu: `https://github.com/semmhk/osmanlidabirhayat.git` (main branch).
 
 ---
 
 ## KALAN İŞLER / SONRAKİ ADIMLAR
 
-- [ ] Yükselme Dönemi SON Alt-Dönem: 
-  - **II. Selim (Sarı Selim, 1566-1574)**: İnebahtı Deniz Savaşı, Kıbrıs'ın Fethi, Sokullu Mehmed Paşa dönemi icraatları — bu tamamlanınca YÜKSELME DÖNEMİ de tam olarak kapanacak.
+- [ ] **DURAKLAMA DÖNEMİ (1579-1699)**: İlk alt-dönem hazırlıkları.
 - [ ] UI Ekranlarının (Ana Menü, Oyun Ekranı) ferman estetiğiyle entegrasyonunun tamamlanması.
 - [ ] Hive entegrasyonu ve geçmiş hayatlar kaydı.

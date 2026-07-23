@@ -23,12 +23,12 @@ void main() {
       tumOlaylar = [...o1, ...o2];
     });
 
-    test('1. kurulus.json (138) + yukselme.json (84) = 222 olay eksiksiz, benzersiz ID ve alt_donem alanlarıyla yüklenmeli', () {
-      expect(tumOlaylar.length, equals(222));
+    test('1. kurulus.json (138) + yukselme.json (98) = 236 olay eksiksiz, benzersiz ID ve alt_donem alanlarıyla yüklenmeli', () {
+      expect(tumOlaylar.length, equals(236));
       
       // Benzersiz ID kontrolü
       final idSet = tumOlaylar.map((o) => o.id).toSet();
-      expect(idSet.length, equals(222));
+      expect(idSet.length, equals(236));
 
       final ahilikOlayi = tumOlaylar.firstWhere((o) => o.id == 'kurulus_001');
       expect(ahilikOlayi.tarihYilMin, equals(1299));
@@ -66,6 +66,11 @@ void main() {
       final kanuniVefati = tumOlaylar.firstWhere((o) => o.id == 'kanuni3_012_kanuni_vefati');
       expect(kanuniVefati.donem, equals('yukselme'));
       expect(kanuniVefati.altDonem, equals('kanuni_3_son_yillar'));
+
+      // II. Selim dönemi olayları kontrolü
+      final kibrisFethi = tumOlaylar.firstWhere((o) => o.id == 'selim2_007_kibris_fethi');
+      expect(kibrisFethi.donem, equals('yukselme'));
+      expect(kibrisFethi.altDonem, equals('ikinci_selim'));
     });
 
     test('2. Şema doğrulayıcı hatalı tarih_yil_min > tarih_yil_max durumunu yakalamalı', () {

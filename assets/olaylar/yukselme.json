@@ -2001,5 +2001,343 @@
         "sonuc": "Herkes bu altın çağın farklı bir köşesinde kendi hayatını yaşıyordu."
       }
     ]
+  },
+  {
+    "id": "selim2_001_tahta_cikis",
+    "donem": "yukselme",
+    "alt_donem": "ikinci_selim",
+    "tarih_yil_min": 1566,
+    "tarih_yil_max": 1566,
+    "yas_min": 5,
+    "yas_max": 70,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "Kanuni'nin vefatının ardından, tek geride kalan oğlu Şehzade Selim, Kütahya'dan İstanbul'a gelip tahta çıktı. Ardından bizzat Belgrad'daki orduya kadar giderek askerin huzurunda cülus törenini tekrarladı.",
+    "secenekler": [
+      {
+        "metin": "Yeni sultanın nasıl bir dönem açacağını merak et",
+        "etki": { "zeka": 1, "mutluluk": 1 },
+        "sonuc": "Babası ve dedesi gibi bir savaşçı olmadığı biliniyordu, ama Sokullu Mehmed Paşa'nın tecrübesi devletin sağlam kalmasını garanti ediyordu."
+      },
+      {
+        "metin": "Temkinli bir bekleyiş içinde ol",
+        "etki": { "zeka": 1 },
+        "sonuc": "Her taht değişiminde olduğu gibi, ilk yıllar dikkatle izleniyordu."
+      }
+    ]
+  },
+  {
+    "id": "selim2_002_yenicheri_bahsis_huzursuzlugu",
+    "donem": "yukselme",
+    "alt_donem": "ikinci_selim",
+    "tarih_yil_min": 1566,
+    "tarih_yil_max": 1566,
+    "yas_min": 15,
+    "yas_max": 45,
+    "tek_seferlik": true,
+    "gerekli_bayrak": "meslek_seyfiye",
+    "metin": "Cülus bahşişinin miktarından memnun olmayan yeniçeriler huzursuzluk çıkardı — yeni sultana karşı ilk baş kaldırma belirtisiydi bu. Sokullu Mehmed Paşa devreye girip isteklerini kabul ettirerek durumu yatıştırdı.",
+    "secenekler": [
+      {
+        "metin": "Bu huzursuzluğa katıl, hak talep et",
+        "etki": { "para": 3, "itibar": -1 },
+        "sonuc": "İstekler kabul edildi. Ama bu olay, Sokullu'nun ne kadar vazgeçilmez olduğunu bir kez daha gösterdi."
+      },
+      {
+        "metin": "Sessizce bekle, karışma",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Sokullu'nun ustaca müdahalesiyle kriz büyümeden çözüldü."
+      }
+    ]
+  },
+  {
+    "id": "selim2_003_sokullu_fiili_yonetim",
+    "donem": "yukselme",
+    "alt_donem": "ikinci_selim",
+    "tarih_yil_min": 1566,
+    "tarih_yil_max": 1574,
+    "yas_min": 15,
+    "yas_max": 55,
+    "tek_seferlik": false,
+    "gerekli_bayrak": "meslek_kalemiye",
+    "metin": "II. Selim, devlet işlerini büyük ölçüde Sadrazam Sokullu Mehmed Paşa'ya bırakıyor. Kanuni, Yavuz ve Fatih gibi ordunun başında sefere çıkmayan ilk padişah olarak anılıyor — ama Sokullu'nun tecrübesi sayesinde devlet düzeni hiç bozulmuyor.",
+    "secenekler": [
+      {
+        "metin": "Sokullu'nun idaresindeki devlet dairesinde çalış",
+        "etki": { "zeka": 3, "itibar": 2 },
+        "sonuc": "Sokullu, Kanuni dönemini aratmayacak bir yetkinlikle devleti yönetiyordu. Onun idaresi altında çalışmak büyük bir tecrübeydi."
+      },
+      {
+        "metin": "Bu farklı yönetim tarzını merakla izle",
+        "etki": { "zeka": 1 },
+        "sonuc": "Bir sadrazamın bu denli güçlü olması, devletin geleceği için hem fırsat hem risk taşıyordu."
+      }
+    ]
+  },
+  {
+    "id": "selim2_004_sakiz_fethi",
+    "donem": "yukselme",
+    "alt_donem": "ikinci_selim",
+    "tarih_yil_min": 1566,
+    "tarih_yil_max": 1568,
+    "yas_min": 15,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": "meslek_seyfiye",
+    "metin": "Ege Denizi'ndeki son Ceneviz kolonisi olan Sakız Adası fethedildi. Ege'deki hakimiyetimiz artık tam anlamıyla tamamlanmıştı.",
+    "secenekler": [
+      {
+        "metin": "Bu sefere katıl",
+        "etki": { "para": 4, "itibar": 2, "saglik": -2, "sans_gerekli": true },
+        "sonuc": "Ege'deki son yabancı koloni de böylece kapanmış oldu."
+      },
+      {
+        "metin": "Sefere katılmadın",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Fetih haberi denizci çevrelerde memnuniyetle karşılandı."
+      }
+    ]
+  },
+  {
+    "id": "selim2_005_yemen_isyani",
+    "donem": "yukselme",
+    "alt_donem": "ikinci_selim",
+    "tarih_yil_min": 1568,
+    "tarih_yil_max": 1570,
+    "yas_min": 15,
+    "yas_max": 50,
+    "tek_seferlik": true,
+    "gerekli_bayrak": "meslek_seyfiye",
+    "metin": "Uzak Yemen'de çıkan büyük bir isyan bastırıldı, bölgedeki egemenliğimiz yeniden sağlandı. Aynı yıllarda donanmamız Sumatra'daki (Endonezya) Müslüman sultanlığa bile yardım gönderdi — imparatorluğun ulaştığı uzaklık şaşırtıcıydı.",
+    "secenekler": [
+      {
+        "metin": "Bu uzak coğrafyalardaki seferlere katıl",
+        "etki": { "para": 4, "saglik": -3, "zeka": 2, "sans_gerekli": true },
+        "sonuc": "Dünyanın öbür ucundaki Müslümanlara yardım göndermek, imparatorluğun ne kadar geniş bir etki alanına sahip olduğunu gösteriyordu."
+      },
+      {
+        "metin": "Bu uzak seferlere katılmadın",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Yemen ve Sumatra gibi uzak diyarların hikayeleri İstanbul'da merakla dinleniyordu."
+      }
+    ]
+  },
+  {
+    "id": "selim2_006_kibris_sefer_karar",
+    "donem": "yukselme",
+    "alt_donem": "ikinci_selim",
+    "tarih_yil_min": 1570,
+    "tarih_yil_max": 1570,
+    "yas_min": 10,
+    "yas_max": 60,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "Venediklilerin elindeki Kıbrıs Adası'na, Mısır yolunun güvenliği için sefer kararı alındı. Lala Mustafa Paşa komutasında büyük bir ordu ve donanma gönderildi.",
+    "secenekler": [
+      {
+        "metin": "Bu büyük seferin hazırlıklarına katkı ver",
+        "etki": { "para": -2, "zeka": 1 },
+        "sonuc": "Kıbrıs, Mısır'a giden deniz yolunun tam ortasında stratejik bir noktaydı."
+      },
+      {
+        "metin": "Gündelik hayatına devam et",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Büyük seferlerin sonucu aylar sonra belli olurdu."
+      }
+    ]
+  },
+  {
+    "id": "selim2_007_kibris_fethi",
+    "donem": "yukselme",
+    "alt_donem": "ikinci_selim",
+    "tarih_yil_min": 1570,
+    "tarih_yil_max": 1571,
+    "yas_min": 16,
+    "yas_max": 50,
+    "tek_seferlik": true,
+    "gerekli_bayrak": "meslek_seyfiye",
+    "metin": "Bir yıla yakın süren zorlu bir kuşatmanın ardından Kıbrıs teslim oldu. Ada artık Osmanlı toprağı — Mısır yolunun güvenliği sağlanmış oldu.",
+    "secenekler": [
+      {
+        "metin": "Bu uzun kuşatmada bulun",
+        "etki": { "para": 6, "itibar": 4, "saglik": -4, "sans_gerekli": true },
+        "sonuc": "Zorlu ve kanlı bir kuşatmaydı ama zafer kesindi. Kıbrıs'ın fethi, imparatorluğun son büyük kara/ada zaferlerinden biri olacaktı."
+      },
+      {
+        "metin": "Sefere katılmadın",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Zafer haberi büyük bir gururla karşılandı."
+      }
+    ]
+  },
+  {
+    "id": "selim2_008_inebahti_bozgunu",
+    "donem": "yukselme",
+    "alt_donem": "ikinci_selim",
+    "tarih_yil_min": 1571,
+    "tarih_yil_max": 1571,
+    "yas_min": 16,
+    "yas_max": 50,
+    "tek_seferlik": true,
+    "gerekli_bayrak": "meslek_seyfiye",
+    "metin": "Kıbrıs zaferinin hemen ardından acı bir haber geldi: İnebahtı Körfezi'nde Papa'nın öncülüğünde kurulan büyük bir Haçlı donanması, Osmanlı donanmasını ağır bir yenilgiye uğrattı. Neredeyse tüm gemilerimiz yakıldı — Uluç Ali Reis ancak bir kısım gemiyle İstanbul'a dönebildi. Bu, denizlerdeki ilk büyük yenilgimizdi.",
+    "secenekler": [
+      {
+        "metin": "Bu felaketin bir parçası olarak hayatta kaldın",
+        "etki": { "saglik": -6, "mutluluk": -6, "sans_gerekli": true },
+        "sonuc": "Preveze'den beri süren yenilmezlik efsanesi kırılmıştı. Ama İstanbul'da şaşırtıcı bir kararlılıkla, kışın bile yeni bir donanma inşasına başlandı."
+      },
+      {
+        "metin": "Bu felaket haberini derin bir üzüntüyle karşıla",
+        "etki": { "mutluluk": -5 },
+        "sonuc": "Denizlerdeki yenilmezlik inancı sarsılmıştı. Yine de devlet, hızla toparlanma kararlılığı gösteriyordu."
+      }
+    ]
+  },
+  {
+    "id": "selim2_009_donanma_yeniden_insa",
+    "donem": "yukselme",
+    "alt_donem": "ikinci_selim",
+    "tarih_yil_min": 1571,
+    "tarih_yil_max": 1572,
+    "yas_min": 15,
+    "yas_max": 50,
+    "tek_seferlik": false,
+    "gerekli_bayrak": null,
+    "metin": "İnebahtı'daki kayıptan sonra Sokullu Mehmed Paşa'nın öncülüğünde, tersanelerde şaşırtıcı bir hızla yeni bir donanma inşa edildi. 'Kesilen kol yerine gelmez ama sakal traşından daha gür çıkar' sözü bu dönemin ruhunu özetliyor.",
+    "secenekler": [
+      {
+        "metin": "Tersanede yeniden inşa çabasına katıl",
+        "etki": { "para": 4, "zeka": 2, "itibar": 2 },
+        "meslek_atama": "ahilik",
+        "sonuc": "Kısa sürede yeni gemiler denize indirildi. Devletin toparlanma gücü, Avrupalı gözlemcileri bile şaşırtmıştı."
+      },
+      {
+        "metin": "Kendi işinde kalmayı tercih et",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Devletin bu hızlı toparlanışı, halkın moralini de yükseltti."
+      }
+    ]
+  },
+  {
+    "id": "selim2_010_venedik_baris",
+    "donem": "yukselme",
+    "alt_donem": "ikinci_selim",
+    "tarih_yil_min": 1573,
+    "tarih_yil_max": 1573,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "İnebahtı'daki yenilgisine rağmen, Venedik yalnız kalınca Osmanlı ile barış yapmak zorunda kaldı — Kıbrıs resmen bize bırakıldı, ayrıca savaş tazminatı da ödendi.",
+    "secenekler": [
+      {
+        "metin": "Bu diplomatik zaferi takdir et",
+        "etki": { "zeka": 2, "mutluluk": 2 },
+        "sonuc": "Deniz savaşını kaybetsek de, siyasi masada istediğimizi almıştık. Sokullu'nun öngörüsü bir kez daha doğrulanmıştı."
+      },
+      {
+        "metin": "Gündelik hayatına devam et",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Barış haberleri, yorgun halk için her zaman iyi bir haberdi."
+      }
+    ]
+  },
+  {
+    "id": "selim2_011_tunus_fethi",
+    "donem": "yukselme",
+    "alt_donem": "ikinci_selim",
+    "tarih_yil_min": 1574,
+    "tarih_yil_max": 1574,
+    "yas_min": 15,
+    "yas_max": 50,
+    "tek_seferlik": true,
+    "gerekli_bayrak": "meslek_seyfiye",
+    "metin": "Kuzey Afrika'da İspanyolların elindeki Tunus alındı. Akdeniz'deki hakimiyetimiz, İnebahtı'nın gölgesine rağmen sağlamlığını koruyordu.",
+    "secenekler": [
+      {
+        "metin": "Bu son büyük fethe katıl",
+        "etki": { "para": 5, "itibar": 3, "saglik": -3, "sans_gerekli": true },
+        "sonuc": "Kuzey Afrika kıyıları büyük ölçüde bizim kontrolümüzdeydi. Bu, imparatorluğun hâlâ ne kadar güçlü olduğunun bir kanıtıydı."
+      },
+      {
+        "metin": "Sefere katılmadın",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Zafer haberi, İnebahtı'nın acısını bir nebze hafifletti."
+      }
+    ]
+  },
+  {
+    "id": "selim2_012_sokullu_kanal_projeleri",
+    "donem": "yukselme",
+    "alt_donem": "ikinci_selim",
+    "tarih_yil_min": 1568,
+    "tarih_yil_max": 1574,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": false,
+    "gerekli_bayrak": null,
+    "metin": "Sokullu Mehmed Paşa'nın ileri görüşlü zihninden ilginç fikirler çıkıyor: Don ve Volga nehirlerini birleştirecek bir kanal, hatta Süveyş'te bir kanal projesi bile konuşuluyor. Bu denli büyük düşünen bir devlet adamı görülmemişti.",
+    "secenekler": [
+      {
+        "metin": "Bu vizyoner fikirleri hayranlıkla dinle",
+        "etki": { "zeka": 3, "mutluluk": 1 },
+        "sonuc": "Yüzyıllar sonra gerçekleşecek projelerin fikri, o dönemde bile ortaya atılmıştı. Sokullu'nun aklı çağının çok ilerisindeydi."
+      },
+      {
+        "metin": "Bu fikirleri gerçekçi bulma",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Bazı projeler hayal olarak kaldı, ama bu vizyon devletin gücünü gösteriyordu."
+      }
+    ]
+  },
+  {
+    "id": "selim2_013_istanbul_imar",
+    "donem": "yukselme",
+    "alt_donem": "ikinci_selim",
+    "tarih_yil_min": 1566,
+    "tarih_yil_max": 1574,
+    "yas_min": 10,
+    "yas_max": 60,
+    "tek_seferlik": false,
+    "gerekli_bayrak": null,
+    "metin": "II. Selim döneminde İstanbul ve imparatorluğun çeşitli yerlerinde önemli mimari eserler ve onarım faaliyetleri sürdürülüyor. Mimar Sinan hâlâ aktif, yeni eserler şehri süslüyor.",
+    "secenekler": [
+      {
+        "metin": "Bu imar faaliyetlerinde çalış",
+        "etki": { "para": 3, "zeka": 1 },
+        "meslek_atama": "ahilik",
+        "sonuc": "Şehir, savaş kayıplarına rağmen güzelleşmeye devam ediyordu."
+      },
+      {
+        "metin": "Kendi işinde kalmayı tercih et",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "İmparatorluğun ihtişamı, mimari eserlerde de kendini gösteriyordu."
+      }
+    ]
+  },
+  {
+    "id": "selim2_014_selim_vefati",
+    "donem": "yukselme",
+    "alt_donem": "ikinci_selim",
+    "tarih_yil_min": 1574,
+    "tarih_yil_max": 1574,
+    "yas_min": 5,
+    "yas_max": 80,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "15 Aralık 1574'te Sultan II. Selim, Topkapı Sarayı'nda vefat etti. Sekiz yıllık saltanatı, kendi kararlarından çok Sokullu Mehmed Paşa'nın idaresiyle anılacaktı. Yerine oğlu III. Murad geçiyor — Sokullu'nun etkisi bir süre daha devam edecek gibi görünüyor.",
+    "secenekler": [
+      {
+        "metin": "Bu sekiz yıllık sakin dönemi hayırla an",
+        "etki": { "mutluluk": -2, "itibar": 1 },
+        "sonuc": "Babası ve dedesi kadar parlak olmasa da, Sokullu'nun becerisiyle devlet zirvede kalmayı sürdürmüştü. Yükselme Dönemi'nin son sayfası kapanıyordu."
+      },
+      {
+        "metin": "Yeni sultanın döneminin nasıl olacağını merak et",
+        "etki": { "zeka": 2 },
+        "sonuc": "Bir çağ kapanırken, imparatorluğun geleceği hakkında sorular çoğalıyordu."
+      }
+    ]
   }
 ]
