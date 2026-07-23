@@ -178,6 +178,10 @@ class Karakter {
   List<String> get cocukAdlari => _CocukAdlariListWrapper(this);
 
   int nesil;
+  int get cocukSayisi => cocuklar.length;
+
+  bool get hicVasifsizIsciOldu => hicAsgariUcretliOldu;
+  set hicVasifsizIsciOldu(bool val) => hicAsgariUcretliOldu = val;
 
   final Set<String> kullanilanOlaylar;
   final List<String> gunluk;

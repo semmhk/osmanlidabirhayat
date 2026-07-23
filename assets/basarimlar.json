@@ -1,0 +1,86 @@
+[
+  {
+    "id": "ilk_nesil",
+    "baslik": "İlk Hayat",
+    "aciklama": "Devlet-i Aliyye topraklarındaki ilk hayatını tamamla",
+    "ikon": "📜"
+  },
+  {
+    "id": "uzun_omur",
+    "baslik": "Ulu Çınar",
+    "aciklama": "80 yaş ve üzerinde vefat et",
+    "ikon": "🌳"
+  },
+  {
+    "id": "emektar",
+    "baslik": "Dönem Emektarı",
+    "aciklama": "Üç hayat üst üste 60 yaş ve üzerinde vefat et",
+    "ikon": "⏳"
+  },
+  {
+    "id": "lonca_ustabasi",
+    "baslik": "Ahi Ustabası",
+    "aciklama": "Ahilik zincirinde en üst kademeye ulaş",
+    "ikon": "🔨"
+  },
+  {
+    "id": "divan_efendisi",
+    "baslik": "Divan Efendisi",
+    "aciklama": "Kalemiye zincirinde en üst kademeye ulaş",
+    "ikon": "✒️"
+  },
+  {
+    "id": "kadiasker",
+    "baslik": "Kazasker",
+    "aciklama": "İlmiye zincirinde en üst kademeye ulaş",
+    "ikon": "📚"
+  },
+  {
+    "id": "serdar_aga",
+    "baslik": "Serdar Ağa",
+    "aciklama": "Seyfiye zincirinde en üst kademeye ulaş",
+    "ikon": "⚔️"
+  },
+  {
+    "id": "zengin_olum",
+    "baslik": "Karun Gibi",
+    "aciklama": "300 ve üzeri Akçe bakiyeyle vefat et",
+    "ikon": "💰"
+  },
+  {
+    "id": "aile_ocagi",
+    "baslik": "Geniş Hanedan",
+    "aciklama": "Evlen ve en az 2 evlada sahip ol",
+    "ikon": "🏠"
+  },
+  {
+    "id": "yalniz_kurt",
+    "baslik": "Mücerret Hayat",
+    "aciklama": "Hiç evlenmeden 60 yaş ve üzerine ulaş",
+    "ikon": "🐺"
+  },
+  {
+    "id": "sifirdan_zirveye",
+    "baslik": "Sıfırdan Zirveye",
+    "aciklama": "Vasıfsız durumdan başlayıp herhangi bir meslekte terfi al",
+    "ikon": "🧗"
+  },
+  {
+    "id": "ikinci_bahar",
+    "baslik": "İkinci Bahar",
+    "aciklama": "Dul veya boşanmış kaldıktan sonra yeniden evlen",
+    "ikon": "💍"
+  },
+  {
+    "id": "ahalinin_gururu",
+    "baslik": "Ahalinin Gururu",
+    "aciklama": "İtibar değerini 90 ve üzerine çıkar",
+    "ikon": "🎖️"
+  },
+  {
+    "id": "ulu_kisi",
+    "baslik": "Ulu İlim Sahibi",
+    "aciklama": "Zeka değerini 90 ve üzerine çıkar",
+    "ikon": "💡"
+  }
+]

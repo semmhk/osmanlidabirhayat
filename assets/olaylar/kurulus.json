@@ -1573,5 +1573,107 @@
         "sonuc": "Köklerini bırakmak istemedin. Rumeli'ye gidenlerin hikayelerini uzaktan dinledin."
       }
     ]
+  },
+  {
+    "id": "kurulus_073",
+    "donem": "kurulus",
+    "alt_donem": "orhan_gazi",
+    "tarih_yil_min": 1327,
+    "tarih_yil_max": 1359,
+    "yas_min": 14,
+    "yas_max": 30,
+    "tek_seferlik": true,
+    "metin": "Yeni kurulan Divan'ın yazı işlerine bakacak, hesap tutacak, ferman yazacak kâtipler aranıyor. Okuma yazman ve düzgün bir el yazın varsa bu iş sana uygun olabilir.",
+    "secenekler": [
+      {
+        "metin": "Kâtiplik yoluna gir",
+        "etki": { "zeka": 5, "itibar": 2 },
+        "meslek_atama": "kalemiye",
+        "bayrak_ekle": "meslek_kalemiye",
+        "sonuc": "Divan'ın yazı işlerinde ilk adımını attın. Kalem tutmak, kılıç tutmaktan farklı ama bir o kadar değerli bir hünerdi."
+      },
+      {
+        "metin": "Bu işi düşünmediğini söyle",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Herkesin bir yeteneği vardı. Kalem işleri sana göre değildi belki de."
+      }
+    ]
+  },
+  {
+    "id": "kurulus_074",
+    "donem": "kurulus",
+    "tarih_yil_min": 1299,
+    "tarih_yil_max": 1453,
+    "yas_min": 25,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": "evli",
+    "metin": "Eşinle aranızda uzun süredir biriken bir anlaşmazlık büyüdü. Kadı huzurunda talak (boşanma) yolunu düşünmeye başladınız.",
+    "secenekler": [
+      {
+        "metin": "Boşanmayı kabul et",
+        "etki": { "mutluluk": -6, "para": -1 },
+        "bayrak_ekle": "dul_bosanmis",
+        "bayrak_kaldir": "evli",
+        "sonuc": "Kadı huzurunda ayrılık gerçekleşti. Zor bir dönemdi ama hayat devam etti."
+      },
+      {
+        "metin": "Aile büyüklerinin arabuluculuğuyla barışmayı dene",
+        "etki": { "mutluluk": 4 },
+        "sonuc": "Mahalle imamı ve aile büyükleri araya girdi. Bu sefer ilişki kurtarıldı."
+      }
+    ]
+  },
+  {
+    "id": "kurulus_075",
+    "donem": "kurulus",
+    "tarih_yil_min": 1299,
+    "tarih_yil_max": 1453,
+    "yas_min": 35,
+    "yas_max": 75,
+    "tek_seferlik": true,
+    "gerekli_bayrak": "evli",
+    "metin": "Eşin ağır bir hastalığa yakalandı ve şifa bulunamadan Hakk'a yürüdü. Mahalle, taziyeye geldi.",
+    "secenekler": [
+      {
+        "metin": "Yasını mahalle ile birlikte tut",
+        "etki": { "mutluluk": -8, "itibar": 2 },
+        "bayrak_ekle": "dul_bosanmis",
+        "bayrak_kaldir": "evli",
+        "sonuc": "Kırk gün yas tutuldu. Komşuların desteği, acıyı biraz olsun hafifletti."
+      },
+      {
+        "metin": "Sabırla, sessizce yasını tut",
+        "etki": { "mutluluk": -5 },
+        "bayrak_ekle": "dul_bosanmis",
+        "bayrak_kaldir": "evli",
+        "sonuc": "Herkesin yas tutma biçimi farklıdır. Sen sessizliği seçtin."
+      }
+    ]
+  },
+  {
+    "id": "kurulus_076",
+    "donem": "kurulus",
+    "tarih_yil_min": 1299,
+    "tarih_yil_max": 1453,
+    "yas_min": 30,
+    "yas_max": 65,
+    "tek_seferlik": true,
+    "gerekli_bayrak": "dul_bosanmis",
+    "metin": "Dul/boşanmış olarak geçen bir sürenin ardından, ailenin ya da mahalle büyüklerinin aracılığıyla yeni bir kısmet konuşulmaya başlandı.",
+    "secenekler": [
+      {
+        "metin": "Yeniden evlenmeyi kabul et",
+        "etki": { "mutluluk": 7, "para": -1 },
+        "bayraklar_ekle": ["evli", "ikinci_evlilik"],
+        "bayrak_kaldir": "dul_bosanmis",
+        "sonuc": "Yeni bir nikah, yeni bir başlangıçtı. Hayat, kayıpların ardından da devam edebiliyordu."
+      },
+      {
+        "metin": "Şimdilik yalnız kalmayı tercih et",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Herkesin kendi zamanı vardı. Sen henüz hazır hissetmiyordun."
+      }
+    ]
   }
 ]

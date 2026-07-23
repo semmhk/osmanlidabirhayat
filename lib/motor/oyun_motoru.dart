@@ -309,32 +309,35 @@ class OyunMotoru {
     return _sakinYilMetinleriYasli[_random.nextInt(_sakinYilMetinleriYasli.length)];
   }
 
-  void secenekSec(Secenek secenek) {
-    if (bekleyenOlay == null || karakter.olu) return;
-
-    karakter.saglik += secenek.etki.saglik;
-    karakter.mutluluk += secenek.etki.mutluluk;
-    karakter.zeka += secenek.etki.zeka;
-    karakter.para += secenek.etki.para;
-    karakter.itibar += secenek.etki.itibar;
-    karakter.statSinirla();
+  static void secenekUygula(Karakter k, Secenek secenek) {
+    k.saglik += secenek.etki.saglik;
+    k.mutluluk += secenek.etki.mutluluk;
+    k.zeka += secenek.etki.zeka;
+    k.para += secenek.etki.para;
+    k.itibar += secenek.etki.itibar;
+    k.statSinirla();
 
     if (secenek.meslekAtama != null) {
-      karakter.meslekZincirId = secenek.meslekAtama;
-      karakter.meslekKademesi = 0;
-      karakter.kademedekiYil = 0;
+      k.meslekZincirId = secenek.meslekAtama;
+      k.meslekKademesi = 0;
+      k.kademedekiYil = 0;
       final zincir = MeslekDeposu.zincirGetir(secenek.meslekAtama);
       if (zincir != null && zincir.kademeler.isNotEmpty) {
-        karakter.meslek = zincir.kademeler[0].unvan;
-        karakter.bayraklar.add('meslek_${secenek.meslekAtama}');
-        karakter.bayraklar.add('calisaniyor');
+        k.meslek = zincir.kademeler[0].unvan;
+        k.bayraklar.add('meslek_${secenek.meslekAtama}');
+        k.bayraklar.add('calisaniyor');
       }
     }
 
-    if (secenek.bayrakEkle != null) karakter.bayraklar.add(secenek.bayrakEkle!);
-    if (secenek.bayraklarEkle != null) karakter.bayraklar.addAll(secenek.bayraklarEkle!);
-    if (secenek.bayrakKaldir != null) karakter.bayraklar.remove(secenek.bayrakKaldir!);
+    if (secenek.bayrakEkle != null) k.bayraklar.add(secenek.bayrakEkle!);
+    if (secenek.bayraklarEkle != null) k.bayraklar.addAll(secenek.bayraklarEkle!);
+    if (secenek.bayrakKaldir != null) k.bayraklar.remove(secenek.bayrakKaldir!);
+  }
 
+  void secenekSec(Secenek secenek) {
+    if (bekleyenOlay == null || karakter.olu) return;
+
+    secenekUygula(karakter, secenek);
     karakter.kullanilanOlaylar.add(bekleyenOlay!.id);
 
     if (secenek.olumculSans > 0 && _random.nextInt(100) < secenek.olumculSans) {
