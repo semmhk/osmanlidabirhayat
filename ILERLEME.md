@@ -4,7 +4,7 @@
 
 ## MEVCUT DURUM
 
-**Aktif Faz:** Adım 1 & Adım 4 (Proje İskeleti + 138 Olaylık Kuruluş Dönemi [7/7 TAMAMLANDI] + 101 Olaylık Yükselme Dönemi [5/5 TAMAMLANDI] + 118 Olaylık Duraklama Dönemi [10/10 TAMAMLANDI] + 68 Olaylık Gerileme Dönemi [6/6 TAMAMLANDI] + **DAĞILMA DÖNEMİ (4.5/6 Alt-Dönem - 67 Dağılma Olayı)** + 492 Toplam Olay + 14 Başarım Sistemi + Kalemiye & Boşanma Zincirleri + Birim Testleri + GitHub Entegrasyonu) ✅
+**Aktif Faz:** Adım 1 & Adım 4 (Proje İskeleti + 138 Olaylık Kuruluş Dönemi [7/7 TAMAMLANDI] + 101 Olaylık Yükselme Dönemi [5/5 TAMAMLANDI] + 118 Olaylık Duraklama Dönemi [10/10 TAMAMLANDI] + 68 Olaylık Gerileme Dönemi [6/6 TAMAMLANDI] + **DAĞILMA DÖNEMİ (5/6 Alt-Dönem - 80 Dağılma Olayı)** + 505 Toplam Olay + 14 Başarım Sistemi + Kalemiye & Boşanma Zincirleri + Birim Testleri + GitHub Entegrasyonu) ✅
 **Son güncelleme:** 24 Temmuz 2026
 
 ---
@@ -32,27 +32,28 @@
 - [x] **Yükselme Dönemi (5/5 Padişah/Alt-Dönem TAM TAMAMLANDI - 101 Olay)**: Fatih Sultan Mehmed (18), II. Bayezid (14), Yavuz Sultan Selim (13), Kanuni Sultan Süleyman (42), II. Selim (14).
 - [x] **Duraklama Dönemi (10/10 Alt-Dönem TAM TAMAMLANDI - 118 Olay)**: III. Murad (13), III. Mehmed (12), I. Ahmed (12), I. Mustafa & Genç Osman (11), IV. Murad (12), Sultan İbrahim (11), IV. Mehmed (34), II. Süleyman/II. Ahmed/II. Mustafa (13).
 - [x] **Gerileme Dönemi (6/6 Alt-Dönem TAM TAMAMLANDI - 68 Olay)**: III. Ahmed/Lale (15), I. Mahmud (13), III. Osman/III. Mustafa (12), I. Abdülhamid (13), III. Selim (15).
-- [x] **Dağılma Dönemi (4.5/6 Alt-Dönem - 67 Olay 🎉)**:
+- [x] **Dağılma Dönemi (5/6 Alt-Dönem - 80 Olay 🎉)**:
   - **II. Mahmud I (1808-1826)**: 12 Olay TAMAMLANDI.
   - **II. Mahmud II (1826-1839)**: 14 Olay TAMAMLANDI.
   - **Sultan Abdülmecid (1839-1861)**: 14 Olay TAMAMLANDI.
   - **Sultan Abdülaziz (1861-1876)**: 14 Olay TAMAMLANDI.
-  - **II. Abdülhamid I (I. Meşrutiyet & 93 Harbi, 1876-1878)**: 13 Olay TAMAMLANDI (`assets/olaylar/dagilma.json`, `alt_donem: "ikinci_abdulhamid_1"` — 31 Ağustos 1876 cülus & Mithat Paşa'ya meşrutiyet sözü, Tersane Konferansı diplomatik taktiği, **23 ARALIK 1876 KANUN-I ESASİ** [İlk Osmanlı Anayasası], 19 Mart 1877 Meclis-i Mebusan'ın açılışı, Mithat Paşa'nın sürgüne gönderilmesi, **24 NİSAN 1877 93 HARBİ PATLAK VERMESİ** [Rusya'nın iki cepheden saldırısı], **1877 PLEVNE SAVUNMASI** [Gazi Osman Paşa'nın 5 aylık efsanevi direnişi], Rus ordusunun Ayastefanos'a [Yeşilköy] dayanması, **3 MART 1878 AYASTEFANOS ANTLAŞMASI**, **13 TEMMUZ 1878 BERLİN ANTLAŞMASI** [Sırbistan, Karadağ ve Romanya bağımsızlığı, Bosna'nın Avusturya'ya, Kıbrıs'ın İngiltere'ye verilmesi], II. Abdülhamid'in Meclis-i Mebusan'ı tatil etmesi/kapatması, Kıbrıs'ın İngiliz idaresine bırakılması, İstibdat Dönemi'ne geçiş retrospektifi).
+  - **II. Abdülhamid I (1876-1878)**: 13 Olay TAMAMLANDI.
+  - **II. Abdülhamid II (İstibdat Dönemi, 1878-1908)**: 13 Olay TAMAMLANDI (`assets/olaylar/dagilma.json`, `alt_donem: "ikinci_abdulhamid_2"` — **1880 YILDIZ İSTİHBARAT TEŞKİLATI/HAFİYE** [Jurnal gözetim ağı], **1881 MUHARREM KARARNAMESİ & DÜYUN-I UMUMİYE** [Devletin mali iflası & yabancıların vergi gelirlerine el koyması], 1881 Tunus [Fransa] & 1882 Mısır [İngiltere] işgalleri, **EĞİTİM HAMLESİ** [Sanayi-i Nefise, Hukuk, Ticaret, Kız meslek mektepleri], **TELGRAF AĞI** [50 bin km telgraf hattı], **1897 OSMANLI-YUNAN SAVAŞI & DÖMEKE ZAFERİ** [93 Harbi'nden sonra ilk büyük zafer], **1900-1908 HİCAZ DEMİRYOLU** [Şam-Medine, bağışlarla inşa], Bağdat Demiryolu & Almanya ittifak yönelimi, Jön Türkler & İttihat ve Terakki muhalefeti, Basın sansürü, Darülaceze & Şişli Etfal Hastanesi sosial yardım kurumları, Çanakkale Boğazı tabyalarının güçlendirilmesi, İstibdat sonu & Meşrutiyet baskısı).
 - [x] **Sistem boşlukları kapatıldı: kalemiye, 14 başarım, boşanma/nesil içeriği**:
   - 14 Osmanlı-uyumlu Başarım sistemi eklendi (`assets/basarimlar.json`, `lib/modeller/basarim.dart`, `lib/motor/basarim_kontrolcusu.dart`).
   - Kalemiye Meslek Zinciri eklendi (`kurulus_073`).
   - Boşanma / Eşin Vefatı / İkinci Nikah Zinciri eklendi (`kurulus_074`, `kurulus_075`, `kurulus_076`).
   - UI Ekranları: `BasarimlarEkrani` ve `OlumEkrani` eklendi (`lib/ekranlar/`).
-- [x] **TOPLAM OLAY SAYISI: 492 OLAY** (Kuruluş 138 + Yükselme 101 + Duraklama 118 + Gerileme 68 + Dağılma 67).
-- [x] Birim testleri yazıldı (`test/sistem_bosluklari_test.dart` & `test/olay_tarih_filtre_test.dart` — 492 olay, 5 JSON dosyasının paralel yüklenmesi, Kalemiye ataması, 14 başarım koşulu ve boşanma/ikinci nikah zinciri). Toplam **11/11 test YEŞİL ✅**. `flutter analyze` **0 hata / 0 uyarı ✅**.
+- [x] **TOPLAM OLAY SAYISI: 505 OLAY** (Kuruluş 138 + Yükselme 101 + Duraklama 118 + Gerileme 68 + Dağılma 80).
+- [x] Birim testleri yazıldı (`test/sistem_bosluklari_test.dart` & `test/olay_tarih_filtre_test.dart` — 505 olay, 5 JSON dosyasının paralel yüklenmesi, Kalemiye ataması, 14 başarım koşulu ve boşanma/ikinci nikah zinciri). Toplam **11/11 test YEŞİL ✅**. `flutter analyze` **0 hata / 0 uyarı ✅**.
 - [x] GitHub Reposu: `https://github.com/semmhk/osmanlidabirhayat.git` (main branch).
 
 ---
 
 ## KALAN İŞLER / SONRAKİ ADIMLAR
 
-- [ ] **DAĞILMA DÖNEMİ KALAN ALT-DÖNEMLER (5/6 - 6/6)**:
-  - **Sırada:** II. Abdülhamid II (1878-1908, 30 Yıllık İstibdat Dönemi) — En uzun tekil alt-dönem olacak (Yıldız Sarayı yönetimi, Hafiye teşkilatı, Düyun-ı Umumiye 1881, 1897 Osmanlı-Yunan Savaşı/Dömeke Zaferi, Hicaz Demiryolu, Mektep/Eğitim hamlesi, Jön Türkler & İttihat ve Terakki, 1908 II. Meşrutiyet'in ilanı).
-  - II. Abdülhamid III (1908-1909, 31 Mart Vakası & Tahttan İndirilme) + V. Mehmed Reşad & VI. Mehmed Vahdeddin (Trablusgarp, Balkan Savaşları, I. Dünya Savaşı, Kurtuluş Savaşı ve Saltanatın Kaldırılması 1922).
+- [ ] **DAĞILMA DÖNEMİ KALAN ALT-DÖNEMLER (5.5/6 - 6/6)**:
+  - **Sırada SON parça:** II. Abdülhamid III (1908-1909) — II. Meşrutiyet'in ilanı, 31 Mart Vakası, Hareket Ordusu ve tahttan indirilme. Bu tamamlanınca II. Abdülhamid'in 33 yıllık saltanatı bitecek.
+  - V. Mehmed Reşad & VI. Mehmed Vahdeddin (Trablusgarp, Balkan Savaşları, I. Dünya Savaşı, Kurtuluş Savaşı ve Saltanatın Kaldırılması 1922).
 - [ ] UI Ekranlarının (Ana Menü, Oyun Ekranı) ferman estetiğiyle entegrasyonunun tamamlanması.
 - [ ] Hive entegrasyonu ve geçmiş hayatlar kaydı.

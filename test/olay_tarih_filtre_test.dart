@@ -27,12 +27,12 @@ void main() {
       tumOlaylar = [...o1, ...o2, ...o3, ...o4, ...o5];
     });
 
-    test('1. kurulus (138) + yukselme (101) + duraklama (118) + gerileme (68) + dagilma (67) = 492 olay eksiksiz, benzersiz ID ve alt_donem alanlarıyla yüklenmeli', () {
-      expect(tumOlaylar.length, equals(492));
+    test('1. kurulus (138) + yukselme (101) + duraklama (118) + gerileme (68) + dagilma (80) = 505 olay eksiksiz, benzersiz ID ve alt_donem alanlarıyla yüklenmeli', () {
+      expect(tumOlaylar.length, equals(505));
       
       // Benzersiz ID kontrolü
       final idSet = tumOlaylar.map((o) => o.id).toSet();
-      expect(idSet.length, equals(492));
+      expect(idSet.length, equals(505));
 
       final ahilikOlayi = tumOlaylar.firstWhere((o) => o.id == 'kurulus_001');
       expect(ahilikOlayi.tarihYilMin, equals(1299));
@@ -181,6 +181,11 @@ void main() {
       final kanunIEsasi = tumOlaylar.firstWhere((o) => o.id == 'abdulhamid2_1_003_kanun_i_esasi');
       expect(kanunIEsasi.donem, equals('dagilma'));
       expect(kanunIEsasi.altDonem, equals('ikinci_abdulhamid_1'));
+
+      // II. Abdülhamid II Dağılma dönemi (İstibdat) olayları kontrolü
+      final hicazDemiryolu = tumOlaylar.firstWhere((o) => o.id == 'abdulhamid2_2_007_hicaz_demiryolu');
+      expect(hicazDemiryolu.donem, equals('dagilma'));
+      expect(hicazDemiryolu.altDonem, equals('ikinci_abdulhamid_2'));
     });
 
     test('2. Şema doğrulayıcı hatalı tarih_yil_min > tarih_yil_max durumunu yakalamalı', () {

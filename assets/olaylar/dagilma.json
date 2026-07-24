@@ -1609,5 +1609,320 @@
         "sonuc": "93 Harbi'nin acısı, herkesin bir tür istikrar aramasına yol açmıştı."
       }
     ]
+  },
+  {
+    "id": "abdulhamid2_2_001_yildiz_hafiye_teskilati",
+    "donem": "dagilma",
+    "alt_donem": "ikinci_abdulhamid_2",
+    "tarih_yil_min": 1880,
+    "tarih_yil_max": 1880,
+    "yas_min": 15,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "Kendisine yönelik başarısız bir baskın girişiminin ardından II. Abdülhamid, imparatorluk tarihinde ilk kez geniş kapsamlı ve kurumsallaşmış bir istihbarat örgütü olan Yıldız İstihbarat Teşkilatı'nı (Hafiye) kurdu — artık her yerde 'jurnal' yazan gizli muhbirler var.",
+    "secenekler": [
+      {
+        "metin": "Bu gözetim ortamında dikkatli konuş",
+        "etki": { "mutluluk": -2, "zeka": 2 },
+        "sonuc": "Kahvehanelerde bile artık kelimelerini tartarak konuşman gerekiyordu — güvensizlik havası her yere sinmişti."
+      },
+      {
+        "metin": "Bu tedbirleri devletin güvenliği için gerekli say",
+        "etki": { "zeka": 1, "mutluluk": -1 },
+        "sonuc": "Devlet, iç ve dış tehditlere karşı böyle bir önlemi zorunlu görüyordu."
+      }
+    ]
+  },
+  {
+    "id": "abdulhamid2_2_002_muharrem_kararnamesi_duyun_u_umumiye",
+    "donem": "dagilma",
+    "alt_donem": "ikinci_abdulhamid_2",
+    "tarih_yil_min": 1881,
+    "tarih_yil_max": 1881,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "Muharrem Kararnamesi ile devlet resmen iflasını kabul etti — İngiliz, Fransız, Alman, İtalyan ve Avusturyalı alacaklı devletlerin temsilcilerinden oluşan 'Düyun-ı Umumiye' (Genel Borçlar İdaresi) kuruldu. Bu kurul, tuz, tütün, içki, ipek gibi önemli devlet gelirlerine doğrudan el koydu.",
+    "secenekler": [
+      {
+        "metin": "Bu düzenlemeyi devletin mali bağımsızlığının sonu say",
+        "etki": { "mutluluk": -6, "zeka": 2 },
+        "sonuc": "Yabancı devletlerin temsilcilerinin, kendi devletimizin vergi gelirlerini doğrudan topladığını görmek, acı bir gerçeklikti."
+      },
+      {
+        "metin": "Bu düzenlemenin en azından kaosu düzene soktuğunu düşün",
+        "etki": { "zeka": 1, "mutluluk": -3 },
+        "sonuc": "Kaotik borç yönetiminden, en azından öngörülebilir bir sisteme geçilmişti — ama egemenlik bedeli ağırdı."
+      }
+    ]
+  },
+  {
+    "id": "abdulhamid2_2_003_tunus_misir_isgalleri",
+    "donem": "dagilma",
+    "alt_donem": "ikinci_abdulhamid_2",
+    "tarih_yil_min": 1881,
+    "tarih_yil_max": 1882,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "Fransa 1881'de Tunus'u, İngiltere de 1882'de Mısır'ı fiilen işgal etti — her ikisi de kağıt üzerinde Osmanlı toprağı sayılmaya devam etse de, artık gerçek anlamda Avrupa güçlerinin kontrolündeydi.",
+    "secenekler": [
+      {
+        "metin": "Bu kayıpları derin bir üzüntüyle karşıla",
+        "etki": { "mutluluk": -5, "zeka": 1 },
+        "sonuc": "Kuzey Afrika'daki nüfuzumuz, artık sadece isim üzerinde kalmıştı."
+      },
+      {
+        "metin": "Devletin bu kayıpları önleyecek gücü olmadığını kabullen",
+        "etki": { "zeka": 2, "mutluluk": -3 },
+        "sonuc": "Avrupa'nın sömürgeci hırsı karşısında, uzak eyaletleri korumak giderek imkansızlaşıyordu."
+      }
+    ]
+  },
+  {
+    "id": "abdulhamid2_2_004_egitim_hamlesi",
+    "donem": "dagilma",
+    "alt_donem": "ikinci_abdulhamid_2",
+    "tarih_yil_min": 1883,
+    "tarih_yil_max": 1900,
+    "yas_min": 10,
+    "yas_max": 25,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "İstibdat'ın baskıcı yüzünün yanında, II. Abdülhamid eğitime büyük önem verdi: Sanayi-i Nefise Mektebi (Güzel Sanatlar Okulu, Osman Hamdi Bey öncülüğünde), ticaret/hukuk/mühendislik okulları, kız meslek liseleri, ziraat ve baytar mektepleri açıldı — imparatorluk tarihinde eşi görülmemiş bir eğitim seferberliği.",
+    "secenekler": [
+      {
+        "metin": "Bu yeni okullardan birine kaydol",
+        "etki": { "zeka": 6, "itibar": 2 },
+        "meslek_atama": "kalemiye",
+        "sonuc": "Yeni açılan mekteplerde okumak, geleceğin devlet kademelerine giden bir kapıydı."
+      },
+      {
+        "metin": "Bu eğitim seferberliğinden gurur duy",
+        "etki": { "zeka": 2, "mutluluk": 2 },
+        "sonuc": "Ülkenin dört bir yanında yeni okullar açılıyor, okuma yazma oranı artıyordu."
+      }
+    ]
+  },
+  {
+    "id": "abdulhamid2_2_005_telgraf_agi",
+    "donem": "dagilma",
+    "alt_donem": "ikinci_abdulhamid_2",
+    "tarih_yil_min": 1880,
+    "tarih_yil_max": 1904,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": false,
+    "gerekli_bayrak": null,
+    "metin": "II. Abdülhamid, Yıldız Sarayı'ndaki kendi telgrafhanesinden tüm imparatorluğu doğrudan takip edebiliyordu — kara telgraf hatları 1882'de 23 bin kilometreden 1904'te 50 bin kilometreye çıktı. Bir Fransız mühendis, 'Türkiye, yolların gidemediği yerlere telgraf hattı çeken ilk ülke' diyordu.",
+    "secenekler": [
+      {
+        "metin": "Bu telgraf ağında bir görev al",
+        "etki": { "zeka": 4, "para": 3 },
+        "meslek_atama": "kalemiye",
+        "sonuc": "Telgrafçılık, hem prestijli hem de devletin en uzak köşesindeki gelişmelerden anında haberdar olmayı sağlayan yeni bir meslekti."
+      },
+      {
+        "metin": "Bu hızlı haberleşmeden etkilen",
+        "etki": { "zeka": 2, "mutluluk": 2 },
+        "sonuc": "Haberler artık günler değil, saatler içinde en uzak eyaletlere ulaşabiliyordu."
+      }
+    ]
+  },
+  {
+    "id": "abdulhamid2_2_006_1897_yunan_savasi",
+    "donem": "dagilma",
+    "alt_donem": "ikinci_abdulhamid_2",
+    "tarih_yil_min": 1897,
+    "tarih_yil_max": 1897,
+    "yas_min": 16,
+    "yas_max": 50,
+    "tek_seferlik": true,
+    "gerekli_bayrak": "meslek_seyfiye",
+    "metin": "Girit'teki bir isyan üzerine Yunanistan adaya asker çıkarınca, Osmanlı Devleti Yunanistan'a savaş ilan etti. Dömeke Meydan Muharebesi'nde Yunan ordusu ağır bir yenilgiye uğratıldı — 93 Harbi'nden beri ilk büyük askeri zaferimizdi bu.",
+    "secenekler": [
+      {
+        "metin": "Bu tarihi zafere katıl",
+        "etki": { "para": 6, "itibar": 4, "saglik": -3, "sans_gerekli": true },
+        "sonuc": "Dömeke'deki zafer, uzun süredir ilk kez kazanılan büyük bir askeri başarıydı — ordu ve halkın morali yükseldi."
+      },
+      {
+        "metin": "Bu zaferi büyük bir gururla uzaktan kutla",
+        "etki": { "mutluluk": 6, "itibar": 2 },
+        "sonuc": "'93 Harbi'nin acısından sonra bu zafer, milletin özgüvenini bir nebze geri getirdi."
+      }
+    ]
+  },
+  {
+    "id": "abdulhamid2_2_007_hicaz_demiryolu",
+    "donem": "dagilma",
+    "alt_donem": "ikinci_abdulhamid_2",
+    "tarih_yil_min": 1900,
+    "tarih_yil_max": 1908,
+    "yas_min": 15,
+    "yas_max": 50,
+    "tek_seferlik": false,
+    "gerekli_bayrak": null,
+    "metin": "Şam ile Medine arasında, tamamen Müslüman dünyasından toplanan bağışlarla Hicaz Demiryolu inşa edildi — amaç, hacıların Mekke'ye yolculuğunu kolaylaştırmak ve Arabistan'daki devlet otoritesini güçlendirmekti.",
+    "secenekler": [
+      {
+        "metin": "Bu inşaata bağış yap veya katkıda bulun",
+        "etki": { "para": -2, "mutluluk": 4, "itibar": 2 },
+        "sonuc": "Tüm İslam dünyasından gelen bağışlarla inşa edilen bu demiryolu, ortak bir gurur kaynağıydı."
+      },
+      {
+        "metin": "Bu projeyi merakla takip et",
+        "etki": { "zeka": 2 },
+        "sonuc": "Çölün ortasından geçen bu demiryolu, mühendislik açısından da büyük bir başarıydı."
+      }
+    ]
+  },
+  {
+    "id": "abdulhamid2_2_008_bagdat_demiryolu_almanya",
+    "donem": "dagilma",
+    "alt_donem": "ikinci_abdulhamid_2",
+    "tarih_yil_min": 1888,
+    "tarih_yil_max": 1908,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": false,
+    "gerekli_bayrak": null,
+    "metin": "Almanya ile giderek yakınlaşan siyasi ilişkiler çerçevesinde, Alman şirketlerine Bağdat Demiryolu'nun inşası verildi — bu, imparatorluğun Batı Avrupa'nın büyük güçlerinden (İngiltere, Fransa) ziyade Almanya'ya yakınlaşmasının bir işaretiydi.",
+    "secenekler": [
+      {
+        "metin": "Bu yeni ittifak yönelimini merakla izle",
+        "etki": { "zeka": 2 },
+        "sonuc": "Almanya ile kurulan bu bağlar, ileride devletin kaderini derinden etkileyecekti."
+      },
+      {
+        "metin": "Demiryolu inşaatında çalışmayı dene",
+        "etki": { "para": 4, "zeka": 2 },
+        "meslek_atama": "ahilik",
+        "sonuc": "Modern mühendislik teknikleriyle döşenen raylar, ülkenin en ücra köşelerine kadar uzanıyordu."
+      }
+    ]
+  },
+  {
+    "id": "abdulhamid2_2_009_jon_turkler_muhalefet",
+    "donem": "dagilma",
+    "alt_donem": "ikinci_abdulhamid_2",
+    "tarih_yil_min": 1889,
+    "tarih_yil_max": 1907,
+    "yas_min": 15,
+    "yas_max": 45,
+    "tek_seferlik": false,
+    "gerekli_bayrak": null,
+    "metin": "Askeri okullardaki öğrenciler ve genç subaylar arasında, meşrutiyetin yeniden ilan edilmesini isteyen gizli bir muhalefet hareketi ('Jön Türkler', İttihat ve Terakki Cemiyeti) büyüyor — çoğu Paris ve Selanik'te örgütleniyor, yasadışı yayınlar dağıtıyor.",
+    "secenekler": [
+      {
+        "metin": "Bu gizli muhalefet fikirlerine ilgi duy",
+        "etki": { "zeka": 3, "mutluluk": -1, "sans_gerekli": true },
+        "sonuc": "Bu fikirlere ilgi duymak tehlikeliydi — ya kimse fark etmedi ya da hafiyelerin dikkatini çektin."
+      },
+      {
+        "metin": "Bu meselelerden uzak dur, kendi işine bak",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Siyasi meselelere karışmamak, İstibdat döneminde en güvenli yoldu."
+      }
+    ]
+  },
+  {
+    "id": "abdulhamid2_2_010_sansur_basin_baskisi",
+    "donem": "dagilma",
+    "alt_donem": "ikinci_abdulhamid_2",
+    "tarih_yil_min": 1878,
+    "tarih_yil_max": 1908,
+    "yas_min": 15,
+    "yas_max": 55,
+    "tek_seferlik": false,
+    "gerekli_bayrak": null,
+    "metin": "Basın üzerindeki sansür had safhada — gazeteler, hatta bazı kelimeler (suikast, ihtilal, hürriyet gibi) bile yasaklı. Yazarlar ve gazeteciler, ne yazabileceklerini sürekli tartıyor.",
+    "secenekler": [
+      {
+        "metin": "Bu sansür ortamında dikkatli yaz/konuş",
+        "etki": { "zeka": 2, "mutluluk": -2 },
+        "sonuc": "Kelimeler bile tehlikeli olabiliyordu — bu, uzun ve yorucu bir sessizlik dönemiydi."
+      },
+      {
+        "metin": "Bu baskıcı ortamdan bunalım hisset",
+        "etki": { "mutluluk": -3 },
+        "sonuc": "30 yıl süren bu sıkı denetim, toplumda derin bir hoşnutsuzluk biriktiriyordu."
+      }
+    ]
+  },
+  {
+    "id": "abdulhamid2_2_011_saglik_sosyal_kurumlar",
+    "donem": "dagilma",
+    "alt_donem": "ikinci_abdulhamid_2",
+    "tarih_yil_min": 1895,
+    "tarih_yil_max": 1899,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "Darülaceze (kimsesizler yurdu) ve Şişli Etfal Hastanesi (çocuk hastanesi) gibi sosyal yardım kurumları açıldı — İstibdat'ın baskıcı yüzünün yanında, sosyal yardım alanında da adımlar atılıyordu.",
+    "secenekler": [
+      {
+        "metin": "Bu sosyal kurumlardan faydalan ya da katkıda bulun",
+        "etki": { "mutluluk": 4, "para": -1 },
+        "sonuc": "Zor durumdaki insanlar için bu kurumlar gerçek bir umut kaynağıydı."
+      },
+      {
+        "metin": "Bu gelişmeleri olumlu bul",
+        "etki": { "mutluluk": 2 },
+        "sonuc": "Devletin sosyal sorumluluk anlayışı, yavaş da olsa gelişiyordu."
+      }
+    ]
+  },
+  {
+    "id": "abdulhamid2_2_012_canakkale_tabyalari",
+    "donem": "dagilma",
+    "alt_donem": "ikinci_abdulhamid_2",
+    "tarih_yil_min": 1880,
+    "tarih_yil_max": 1908,
+    "yas_min": 15,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": "meslek_seyfiye",
+    "metin": "II. Abdülhamid, Çanakkale Boğazı'ndaki tabya ve savunma hatlarını sürekli güçlendirdi — bu uzak görüşlü hazırlıklar, yıllar sonra (I. Dünya Savaşı'nda) hayati önem taşıyacaktı.",
+    "secenekler": [
+      {
+        "metin": "Bu tabya inşaat ve güçlendirme çalışmalarına katıl",
+        "etki": { "para": 4, "itibar": 2 },
+        "sonuc": "Boğazın savunması, gelecekte devletin hayatta kalması için kritik bir yatırım olacaktı."
+      },
+      {
+        "metin": "Bu hazırlıkları gereksiz bulma",
+        "etki": { "zeka": 1 },
+        "sonuc": "Sultan'ın bu tedbirli yaklaşımının anlamı, ancak yıllar sonra tam olarak anlaşılacaktı."
+      }
+    ]
+  },
+  {
+    "id": "abdulhamid2_2_013_donem_sonu_yaklasimi",
+    "donem": "dagilma",
+    "alt_donem": "ikinci_abdulhamid_2",
+    "tarih_yil_min": 1905,
+    "tarih_yil_max": 1908,
+    "yas_min": 15,
+    "yas_max": 55,
+    "tek_seferlik": false,
+    "gerekli_bayrak": null,
+    "metin": "30 yıllık İstibdat dönemi sona yaklaşırken, İttihat ve Terakki'nin Rumeli'deki (özellikle Selanik'teki) 3. Ordu içindeki etkisi giderek büyüyor — meşrutiyetin yeniden ilan edilmesi için baskı artık göz ardı edilemez bir noktaya geliyor.",
+    "secenekler": [
+      {
+        "metin": "Bu değişim rüzgarını hissedip umutlan",
+        "etki": { "zeka": 2, "mutluluk": 2 },
+        "sonuc": "Uzun süredir bastırılan özgürlük talebi, artık geri çevrilemez bir güce ulaşıyordu."
+      },
+      {
+        "metin": "Bu belirsiz geçiş döneminden endişelen",
+        "etki": { "zeka": 1, "mutluluk": -1 },
+        "sonuc": "Büyük bir değişimin yaklaştığı hissediliyordu, ama sonucunun ne olacağı belirsizdi."
+      }
+    ]
   }
 ]
