@@ -1,0 +1,363 @@
+[
+  {
+    "id": "ahmed3_001_ic_duzen_saglama",
+    "donem": "gerileme",
+    "alt_donem": "ucuncu_ahmed_lale",
+    "tarih_yil_min": 1703,
+    "tarih_yil_max": 1706,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "Edirne Vakası sonucu tahta çıkan III. Ahmed, ilk yıllarında kendisini tahta getiren isyancıları tek tek cezalandırıp iç düzeni sağlamaya çalıştı — Sokullu ya da Köprülü ayarında güvenilir bir sadrazam arıyordu.",
+    "secenekler": [
+      {
+        "metin": "Bu düzen sağlama çabalarını destekle",
+        "etki": { "zeka": 2, "itibar": 1 },
+        "sonuc": "Yeni sultan, önceki isyanın tekrarlanmaması için kararlı adımlar atıyordu."
+      },
+      {
+        "metin": "Gündelik hayatına devam et",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Saray içi düzenlemeler, halkın gündelik hayatını yavaş yavaş etkiliyordu."
+      }
+    ]
+  },
+  {
+    "id": "ahmed3_002_demirbas_sarl_siginmasi",
+    "donem": "gerileme",
+    "alt_donem": "ucuncu_ahmed_lale",
+    "tarih_yil_min": 1709,
+    "tarih_yil_max": 1711,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "İsveç Kralı XII. Karl (halk arasında 'Demirbaş Şarl' diye anılacak), Rus Çarı Petro'ya Poltava'da yenilip Osmanlı topraklarına sığındı. Onun burada uzun süre misafir kalması, Rusya ile gerginliği tırmandırdı.",
+    "secenekler": [
+      {
+        "metin": "Bu ilginç yabancı konuğun hikayesini merakla dinle",
+        "etki": { "zeka": 2, "mutluluk": 1 },
+        "sonuc": "Bir Avrupa kralının Osmanlı'ya sığınması, dönemin en ilginç diplomatik olaylarından biriydi."
+      },
+      {
+        "metin": "Bu durumun getirdiği gerginlikten endişelen",
+        "etki": { "mutluluk": -1 },
+        "sonuc": "Rusya ile yeni bir çatışmanın kapıda olduğu hissediliyordu."
+      }
+    ]
+  },
+  {
+    "id": "ahmed3_003_prut_seferi_zaferi",
+    "donem": "gerileme",
+    "alt_donem": "ucuncu_ahmed_lale",
+    "tarih_yil_min": 1711,
+    "tarih_yil_max": 1711,
+    "yas_min": 16,
+    "yas_max": 50,
+    "tek_seferlik": true,
+    "gerekli_bayrak": "meslek_seyfiye",
+    "metin": "Rusya ile savaş patlak verdi. Sadrazam Baltacı Mehmed Paşa komutasındaki ordu, Prut Nehri kıyısında bizzat Çar Petro'nun (Deli Petro) ordusunu kıskaca aldı — Rus ordusu neredeyse tamamen çembere alınmış durumdaydı.",
+    "secenekler": [
+      {
+        "metin": "Bu büyük kuşatmaya katıl",
+        "etki": { "para": 7, "itibar": 5, "saglik": -4, "sans_gerekli": true },
+        "sonuc": "Nadir görülen bir fırsattı bu — Rus Çarı'nın ordusu tamamen kuşatılmıştı. Herkes kesin bir zafer bekliyordu."
+      },
+      {
+        "metin": "Bu sefere katılmadın",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Zaferin habercisi olan bu kuşatma haberi büyük heyecan yaratmıştı."
+      }
+    ]
+  },
+  {
+    "id": "ahmed3_004_prut_antlasmasi_tepki",
+    "donem": "gerileme",
+    "alt_donem": "ucuncu_ahmed_lale",
+    "tarih_yil_min": 1711,
+    "tarih_yil_max": 1711,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "Çar Petro'yu tamamen ele geçirebilecekken, Baltacı Mehmed Paşa şaşırtıcı bir şekilde ılımlı şartlarla bir antlaşma imzaladı — Azak Kalesi geri alındı ama Rus Çarı'nın kendisi elden kaçırılmıştı. Halk arasında bu, büyük bir hayal kırıklığı ve öfkeyle karşılandı.",
+    "secenekler": [
+      {
+        "metin": "Bu kararı büyük bir hayal kırıklığıyla eleştir",
+        "etki": { "mutluluk": -4, "zeka": 1 },
+        "sonuc": "Elde tutulabilecek en büyük fırsatlardan biri, bu şekilde kaçırılmıştı — halkın öfkesi giderek büyüyordu."
+      },
+      {
+        "metin": "Azak'ın geri alınmasını yine de bir kazanım say",
+        "etki": { "mutluluk": 2 },
+        "sonuc": "En azından kaybedilen bir toprak geri alınmıştı, ama beklenti çok daha büyüktü."
+      }
+    ]
+  },
+  {
+    "id": "ahmed3_005_baltaci_azli",
+    "donem": "gerileme",
+    "alt_donem": "ucuncu_ahmed_lale",
+    "tarih_yil_min": 1711,
+    "tarih_yil_max": 1711,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "Halkın büyüyen tepkisinden çekinen III. Ahmed, Baltacı Mehmed Paşa'yı görevden aldı — nedeni tartışmalı olsa da, kaçırılan fırsatın bedeli sadrazama ödetildi.",
+    "secenekler": [
+      {
+        "metin": "Bu kararı halkın sesine kulak verme olarak yorumla",
+        "etki": { "zeka": 1, "mutluluk": 1 },
+        "sonuc": "Sultan, en azından halkın öfkesini görmezden gelmemişti."
+      },
+      {
+        "metin": "Bu azli haksız bul",
+        "etki": { "mutluluk": -1 },
+        "sonuc": "Sadrazamlık koltuğu, başarı ya da başarısızlıkla değil, halkın algısıyla da belirleniyordu artık."
+      }
+    ]
+  },
+  {
+    "id": "ahmed3_006_mora_seferi",
+    "donem": "gerileme",
+    "alt_donem": "ucuncu_ahmed_lale",
+    "tarih_yil_min": 1714,
+    "tarih_yil_max": 1715,
+    "yas_min": 16,
+    "yas_max": 50,
+    "tek_seferlik": true,
+    "gerekli_bayrak": "meslek_seyfiye",
+    "metin": "Venedik'in elindeki Mora Yarımadası üzerine sefer düzenlendi — nadir görülen bir başarıyla Mora geri alındı, stratejik önemdeki Suda Kalesi de ele geçirildi.",
+    "secenekler": [
+      {
+        "metin": "Bu sefere katıl",
+        "etki": { "para": 5, "itibar": 3, "saglik": -3, "sans_gerekli": true },
+        "sonuc": "Uzun zamandır ilk kez, gerçek anlamda bir toprak geri kazanımı yaşanmıştı."
+      },
+      {
+        "metin": "Sefere katılmadın",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Mora'nın geri alınması, halkın moralini bir nebze yükseltti."
+      }
+    ]
+  },
+  {
+    "id": "ahmed3_007_pasarofca_yenilgisi",
+    "donem": "gerileme",
+    "alt_donem": "ucuncu_ahmed_lale",
+    "tarih_yil_min": 1716,
+    "tarih_yil_max": 1718,
+    "yas_min": 16,
+    "yas_max": 50,
+    "tek_seferlik": true,
+    "gerekli_bayrak": "meslek_seyfiye",
+    "metin": "Avusturya ve Venedik'e karşı 3 yıl süren yeni bir savaşta bu kez yenilgi alındı — Belgrad, Kuzey Sırbistan ve Eflak'ın batısı kaybedildi. 1718'de Pasarofça Antlaşması imzalandı.",
+    "secenekler": [
+      {
+        "metin": "Bu kayıpları üzüntüyle karşıla",
+        "etki": { "mutluluk": -5, "saglik": -2, "sans_gerekli": true },
+        "sonuc": "Mora'daki başarının ardından gelen bu yenilgi, karışık duygular yaratmıştı — bazı cephelerde kazanıyorduk, bazılarında kaybediyorduk."
+      },
+      {
+        "metin": "Bu barışın getirdiği huzuru düşün",
+        "etki": { "mutluluk": 2 },
+        "sonuc": "Kayıplar acı olsa da, en azından uzun süredir devam eden savaşlar duruyordu."
+      }
+    ]
+  },
+  {
+    "id": "ahmed3_008_damat_ibrahim_pasa_lale_devri",
+    "donem": "gerileme",
+    "alt_donem": "ucuncu_ahmed_lale",
+    "tarih_yil_min": 1718,
+    "tarih_yil_max": 1718,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "Pasarofça'nın ardından Nevşehirli Damat İbrahim Paşa sadrazam oldu — o ve Sultan III. Ahmed, artık savaştan çok barış ve gelişmeye odaklı bir politika izlemeye karar verdiler. 'Lale Devri' başlıyor.",
+    "secenekler": [
+      {
+        "metin": "Bu barışçıl yeni yönü umutla karşıla",
+        "etki": { "mutluluk": 4, "zeka": 1 },
+        "sonuc": "Yıllardır süren savaşların ardından, huzur ve gelişme dönemi büyük bir rahatlamaydı."
+      },
+      {
+        "metin": "Bu yeni politikanın nasıl işleyeceğini merak et",
+        "etki": { "zeka": 2 },
+        "sonuc": "Savaş yerine sanat ve bilime yönelmek, alışılmadık ama umut verici bir seçimdi."
+      }
+    ]
+  },
+  {
+    "id": "ahmed3_009_ilk_matbaa",
+    "donem": "gerileme",
+    "alt_donem": "ucuncu_ahmed_lale",
+    "tarih_yil_min": 1727,
+    "tarih_yil_max": 1727,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "16 Aralık 1727'de İbrahim Müteferrika ve Said Efendi'nin çabalarıyla, padişah fermanıyla ilk Osmanlı matbaası kuruldu — dini eserler hariç, tarih, coğrafya ve felsefe kitapları artık basılabilecek. Hattatlar bu yeniliğe en çok tepki gösteren kesim oldu.",
+    "secenekler": [
+      {
+        "metin": "Bu devrim niteliğindeki yeniliği heyecanla karşıla",
+        "etki": { "zeka": 5, "mutluluk": 3 },
+        "sonuc": "Kitapların elle değil makineyle çoğaltılabilmesi, bilgiye erişimi kökten değiştirecek bir gelişmeydi."
+      },
+      {
+        "metin": "Geleneksel hattatlık sanatının kaybolmasından endişelen",
+        "etki": { "mutluluk": -1, "zeka": 1 },
+        "sonuc": "Her yenilik, eskiyi bir şekilde geride bırakıyordu — bu, hem heyecan hem hüzün verici bir andı."
+      }
+    ]
+  },
+  {
+    "id": "ahmed3_010_sadabad_lale_bahceleri",
+    "donem": "gerileme",
+    "alt_donem": "ucuncu_ahmed_lale",
+    "tarih_yil_min": 1722,
+    "tarih_yil_max": 1730,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": false,
+    "gerekli_bayrak": null,
+    "metin": "Kağıthane'de, Avrupa'daki Versay Sarayı'ndan esinlenen Sadabad Sarayı ve etrafındaki muhteşem lale bahçeleri inşa edildi. İstanbul'un dört bir yanında köşkler, kasırlar ve lale meraklıları için özel bahçeler yapılıyor.",
+    "secenekler": [
+      {
+        "metin": "Bu görkemli bahçelerde bir eğlenceye katıl",
+        "etki": { "mutluluk": 6, "para": -2 },
+        "sonuc": "Geceleri kaplumbağaların sırtına mumlar bağlanıp bahçede gezdirildiği, fener alaylarının yapıldığı anlatılıyordu — büyülü bir atmosferdi."
+      },
+      {
+        "metin": "Bu lüksü israf olarak gör",
+        "etki": { "mutluluk": -1 },
+        "sonuc": "Herkes bu gösterişten aynı ölçüde memnun değildi — bazıları bunu gereksiz bir harcama olarak görüyordu."
+      }
+    ]
+  },
+  {
+    "id": "ahmed3_011_fabrikalar_cicek_asisi",
+    "donem": "gerileme",
+    "alt_donem": "ucuncu_ahmed_lale",
+    "tarih_yil_min": 1719,
+    "tarih_yil_max": 1730,
+    "yas_min": 15,
+    "yas_max": 55,
+    "tek_seferlik": false,
+    "gerekli_bayrak": null,
+    "metin": "Yalova'da bir kağıt fabrikası, İstanbul'da kumaş ve çini fabrikaları açıldı. Aynı dönemde ilk kez çiçek hastalığına karşı aşı uygulaması denendi.",
+    "secenekler": [
+      {
+        "metin": "Bu yeni fabrikalarda çalışmayı dene",
+        "etki": { "para": 5, "zeka": 2 },
+        "meslek_atama": "ahilik",
+        "sonuc": "Avrupa tarzı üretim teknikleri, geleneksel zanaatlara yeni bir boyut katıyordu."
+      },
+      {
+        "metin": "Çiçek aşısı uygulamasına gönüllü ol",
+        "etki": { "saglik": 3, "zeka": 1, "sans_gerekli": true },
+        "sonuc": "Bu yeni yöntem henüz herkese güven vermiyordu, ama sağlık açısından umut vericiydi."
+      }
+    ]
+  },
+  {
+    "id": "ahmed3_012_avrupaya_elciler",
+    "donem": "gerileme",
+    "alt_donem": "ucuncu_ahmed_lale",
+    "tarih_yil_min": 1720,
+    "tarih_yil_max": 1730,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "İlk kez Avrupa başkentlerine (Paris gibi) geçici Osmanlı elçileri gönderilmeye başlandı — bu elçilerin getirdiği izlenimler, Lale Devri'nin Batı hayranlığını daha da besliyor.",
+    "secenekler": [
+      {
+        "metin": "Elçilerin anlattığı Avrupa hikayelerini merakla dinle",
+        "etki": { "zeka": 3, "mutluluk": 2 },
+        "sonuc": "Paris'in bahçeleri, mimarisi ve yaşam tarzı hakkındaki hikayeler, İstanbul sosyetesinde büyük ilgi görüyordu."
+      },
+      {
+        "metin": "Kendi kültürüne sadık kal",
+        "etki": { "itibar": 1 },
+        "sonuc": "Herkes bu yeni etkileşimden aynı ölçüde etkilenmiyordu."
+      }
+    ]
+  },
+  {
+    "id": "ahmed3_013_iran_savaslari_baslangic",
+    "donem": "gerileme",
+    "alt_donem": "ucuncu_ahmed_lale",
+    "tarih_yil_min": 1723,
+    "tarih_yil_max": 1730,
+    "yas_min": 16,
+    "yas_max": 50,
+    "tek_seferlik": true,
+    "gerekli_bayrak": "meslek_seyfiye",
+    "metin": "Rusya'nın İran'a müdahalesi Osmanlı'yı da harekete geçirmek zorunda bıraktı — 7 yıl sürecek yeni bir doğu savaşı başladı. Bu, Lale Devri'nin huzurlu havasını giderek bozan bir gelişme.",
+    "secenekler": [
+      {
+        "metin": "Bu yeni sefere katıl",
+        "etki": { "para": 4, "saglik": -4, "mutluluk": -1, "sans_gerekli": true },
+        "sonuc": "Barış yılları geride kalıyor, yeniden savaş masrafları ve asker talebi gündeme geliyordu."
+      },
+      {
+        "metin": "Bu sefere katılmadın",
+        "etki": { "mutluluk": -1 },
+        "sonuc": "Lale Devri'nin huzuru, bu uzun savaşla birlikte sarsılmaya başlamıştı."
+      }
+    ]
+  },
+  {
+    "id": "ahmed3_014_patrona_halil_isyani",
+    "donem": "gerileme",
+    "alt_donem": "ucuncu_ahmed_lale",
+    "tarih_yil_min": 1730,
+    "tarih_yil_max": 1730,
+    "yas_min": 10,
+    "yas_max": 60,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "İran seferinden gelen kötü haberler ve Lale Devri'nin gösterişli harcamalarına duyulan öfke birikince, Yeniçeri Patrona Halil önderliğinde büyük bir isyan patlak verdi. Halktan da çok sayıda kişi bu isyana katıldı — ilginç bir şekilde isyancılar köşkleri, bahçeleri yıktı ama matbaaya hiç dokunmadı.",
+    "secenekler": [
+      {
+        "metin": "Bu isyana katıl, israfa duyduğun öfkeyi göster",
+        "etki": { "mutluluk": 3, "itibar": -1, "sans_gerekli": true },
+        "sonuc": "Halkın öfkesi, yöneticilerin lüksüne yönelikti — matbaa gibi yeniliklere değil. Bu ayrım, isyanın gerçek sebebini gösteriyordu."
+      },
+      {
+        "metin": "Bu şiddetli isyandan uzak dur",
+        "etki": { "mutluluk": -3 },
+        "sonuc": "Sadabad'ın köşkleri yerle bir ediliyordu — 12 yıllık huzur dönemi, bir gecede sona eriyordu."
+      }
+    ]
+  },
+  {
+    "id": "ahmed3_015_tahttan_cekilme",
+    "donem": "gerileme",
+    "alt_donem": "ucuncu_ahmed_lale",
+    "tarih_yil_min": 1730,
+    "tarih_yil_max": 1730,
+    "yas_min": 5,
+    "yas_max": 80,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "1 Ekim 1730'da III. Ahmed, kendisine ve ailesine zarar verilmemesi şartıyla tahttan çekildi — yerine yeğeni I. Mahmud geçti. 27 yıllık saltanat, hem savaş zaferleriyle hem de sanat ve bilimdeki 'Lale Devri' parlaklığıyla, ama sonunda bir isyanla kapandı.",
+    "secenekler": [
+      {
+        "metin": "Bu çelişkili mirası (savaş + Lale Devri parlaklığı) değerlendir",
+        "etki": { "zeka": 3, "mutluluk": -2 },
+        "sonuc": "Prut'un zaferi, Pasarofça'nın acısı, matbaanın devrimi, Sadabad'ın güzelliği — hepsi aynı saltanatta yaşanmıştı. Yeni sultanın bu karmaşık mirası nasıl devralacağı merak konusuydu."
+      },
+      {
+        "metin": "Yeni sultanın dönemini umutla bekle",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Bir dönem kapanırken, devletin önünde yeni zorluklar ve fırsatlar vardı."
+      }
+    ]
+  }
+]

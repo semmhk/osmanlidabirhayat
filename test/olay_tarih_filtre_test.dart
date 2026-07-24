@@ -13,25 +13,24 @@ void main() {
     setUp(() {
       yukleyici = OlayYukleyici();
       final fileKurulus = File('assets/olaylar/kurulus.json');
-      final jsonKurulus = fileKurulus.readAsStringSync();
       final fileYukselme = File('assets/olaylar/yukselme.json');
-      final jsonYukselme = fileYukselme.readAsStringSync();
       final fileDuraklama = File('assets/olaylar/duraklama.json');
-      final jsonDuraklama = fileDuraklama.readAsStringSync();
+      final fileGerileme = File('assets/olaylar/gerileme.json');
 
-      final gorulenIdler = <String>{};
-      final o1 = yukleyici.jsonMetnindenYukle(jsonKurulus, 'kurulus.json', gorulenIdler);
-      final o2 = yukleyici.jsonMetnindenYukle(jsonYukselme, 'yukselme.json', gorulenIdler);
-      final o3 = yukleyici.jsonMetnindenYukle(jsonDuraklama, 'duraklama.json', gorulenIdler);
-      tumOlaylar = [...o1, ...o2, ...o3];
+      final o1 = yukleyici.jsonMetnindenYukle(fileKurulus.readAsStringSync(), 'kurulus.json');
+      final o2 = yukleyici.jsonMetnindenYukle(fileYukselme.readAsStringSync(), 'yukselme.json');
+      final o3 = yukleyici.jsonMetnindenYukle(fileDuraklama.readAsStringSync(), 'duraklama.json');
+      final o4 = yukleyici.jsonMetnindenYukle(fileGerileme.readAsStringSync(), 'gerileme.json');
+
+      tumOlaylar = [...o1, ...o2, ...o3, ...o4];
     });
 
-    test('1. kurulus.json (138) + yukselme.json (101) + duraklama.json (118) = 357 olay eksiksiz, benzersiz ID ve alt_donem alanlarıyla yüklenmeli', () {
-      expect(tumOlaylar.length, equals(357));
+    test('1. kurulus.json (138) + yukselme.json (101) + duraklama.json (118) + gerileme.json (15) = 372 olay eksiksiz, benzersiz ID ve alt_donem alanlarıyla yüklenmeli', () {
+      expect(tumOlaylar.length, equals(372));
       
       // Benzersiz ID kontrolü
       final idSet = tumOlaylar.map((o) => o.id).toSet();
-      expect(idSet.length, equals(357));
+      expect(idSet.length, equals(372));
 
       final ahilikOlayi = tumOlaylar.firstWhere((o) => o.id == 'kurulus_001');
       expect(ahilikOlayi.tarihYilMin, equals(1299));
@@ -130,6 +129,11 @@ void main() {
       final karlofcaAntlasmasi = tumOlaylar.firstWhere((o) => o.id == 'suleyman2_012_karlofca_antlasmasi');
       expect(karlofcaAntlasmasi.donem, equals('duraklama'));
       expect(karlofcaAntlasmasi.altDonem, equals('suleyman2_ahmed2_mustafa2_kapanis'));
+
+      // III. Ahmed / Lale Devri Gerileme dönemi olayları kontrolü
+      final ilkMatbaa = tumOlaylar.firstWhere((o) => o.id == 'ahmed3_009_ilk_matbaa');
+      expect(ilkMatbaa.donem, equals('gerileme'));
+      expect(ilkMatbaa.altDonem, equals('ucuncu_ahmed_lale'));
     });
 
     test('2. Şema doğrulayıcı hatalı tarih_yil_min > tarih_yil_max durumunu yakalamalı', () {

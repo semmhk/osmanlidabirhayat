@@ -4,7 +4,7 @@
 
 ## MEVCUT DURUM
 
-**Aktif Faz:** Adım 1 & Adım 4 (Proje İskeleti + 138 Olaylık Kuruluş Dönemi [7/7 TAMAMLANDI] + 101 Olaylık Yükselme Dönemi [5/5 TAMAMLANDI] + **DURAKLAMA DÖNEMİ TAMAMEN TAMAMLANDI [10/10 Alt-Dönem - 118 Duraklama Olayı]** + 357 Toplam Olay + 14 Başarım Sistemi + Kalemiye & Boşanma Zincirleri + Birim Testleri + GitHub Entegrasyonu) ✅
+**Aktif Faz:** Adım 1 & Adım 4 (Proje İskeleti + 138 Olaylık Kuruluş Dönemi [7/7 TAMAMLANDI] + 101 Olaylık Yükselme Dönemi [5/5 TAMAMLANDI] + 118 Olaylık Duraklama Dönemi [10/10 TAMAMLANDI] + **GERİLEME DÖNEMİ BAŞLADI [1/6 Alt-Dönem: III. Ahmed / Lale Devri 15 Gerileme Olayı]** + 372 Toplam Olay + 14 Başarım Sistemi + Kalemiye & Boşanma Zincirleri + Birim Testleri + GitHub Entegrasyonu) ✅
 **Son güncelleme:** 24 Temmuz 2026
 
 ---
@@ -24,38 +24,35 @@
 - [x] `pubspec.yaml` bağımlılıkları ve asset tanımları yapılandırıldı (`assets/olaylar/ Klasörü` ve `assets/basarimlar.json` dahil).
 - [x] `Karakter` modeli `dogumYili`, `takvimYili`, `Akçe` para sistemi, `zirveZeka`, `zirveItibar`, `hicVasifsizIsciOldu` ve `cocukSayisi` alanları eklenerek yazıldı (`lib/modeller/karakter.dart`).
 - [x] `Olay` ve `Secenek` modellerine `tarih_yil_min` ve `tarih_yil_max` alanları ile birlikte **`alt_donem`** (opsiyonel padişah alt-donem etiketi) eklendi (`lib/modeller/olay.dart`).
-- [x] `PadisahDeposu` ve `Donem` depoları Kuruluş, Yükselme ve Duraklama dönemi padişah listesiyle yazıldı (`lib/modeller/padisah_deposu.dart`).
+- [x] `PadisahDeposu` ve `Donem` depoları Kuruluş, Yükselme, Duraklama ve Gerileme dönemi padişah listesiyle yazıldı (`lib/modeller/padisah_deposu.dart`).
 - [x] Osmanlı meslek depoları yazıldı (`lib/modeller/meslek.dart`).
-- [x] `OlayYukleyici` çoklu dosya desteği (`kurulus.json`, `yukselme.json` & `duraklama.json`), tarih yılı min/max ve `alt_donem` şema doğrulayıcısı ile yazıldı (`lib/motor/olay_yukleyici.dart`).
+- [x] `OlayYukleyici` 4 dosya desteği (`kurulus.json`, `yukselme.json`, `duraklama.json` & **`gerileme.json`**), tarih yılı min/max ve `alt_donem` şema doğrulayıcısı ile yazıldı (`lib/motor/olay_yukleyici.dart`).
 - [x] `OyunMotoru` takvim yılı ilerletme, tarihsel ölüm riski, `agirlikliOlaySec` (10x-25x), statik `secenekUygula` ve 2 yıl toleranslı garantili terfi kuralı ile yazıldı (`lib/motor/oyun_motoru.dart`).
 - [x] **Kuruluş Dönemi (7/7 Padişah/Alt-Dönem TAM TAMAMLANDI - 138 Olay)**:
   - Osman Gazi (17 Olay), Orhan Gazi (20 Olay), I. Murad (18 Olay), Yıldırım Bayezid (19 Olay), Fetret Devri (12 Olay), Çelebi Mehmed (13 Olay), II. Murad (17 Olay).
 - [x] **Yükselme Dönemi (5/5 Padişah/Alt-Dönem TAM TAMAMLANDI - 101 Olay)**:
   - Fatih Sultan Mehmed (18 Olay), II. Bayezid (14 Olay), Yavuz Sultan Selim (13 Olay), Kanuni Sultan Süleyman (42 Olay), II. Selim (14 Olay).
-- [x] **Duraklama Dönemi (10/10 Alt-Dönem TAM TAMAMLANDI - 118 Olay 🎉)**:
-  - **III. Murad (1574-1595)**: 13 Olay TAMAMLANDI.
-  - **III. Mehmed (1595-1603)**: 12 Olay TAMAMLANDI.
-  - **I. Ahmed (1603-1617)**: 12 Olay TAMAMLANDI.
-  - **I. Mustafa & Genç Osman (1617-1623)**: 11 Olay TAMAMLANDI.
-  - **IV. Murad (1623-1640)**: 12 Olay TAMAMLANDI.
-  - **Sultan İbrahim (1640-1648)**: 11 Olay TAMAMLANDI.
-  - **IV. Mehmed (1648-1687)**: 34 Olay (3 Parça: Kaos 10 + Köprülüler 14 + Çöküş 10) TAMAMLANDI.
-  - **II. Süleyman / II. Ahmed / II. Mustafa (1687-1703)**: 13 Olay TAMAMLANDI (`assets/olaylar/duraklama.json`, `alt_donem: "suleyman2_ahmed2_mustafa2_kapanis"` — Hayatının 40 yılını kafeste geçiren Şehzade II. Süleyman'ın tahta çıkarılışı [1687], Belgrad'ın Avusturyalılara kaybı [1688], Köprülü ailesinin 3. büyük ismi Fazıl Mustafa Paşa'nın sadrazamlığa getirilmesi ve haksız vergileri kaldırması [1689], Fazıl Mustafa Paşa'nın bizzat cepheye giderek Belgrad'ı geri alması [1690], II. Süleyman'ın vefatı & II. Ahmed'in cülusu [1691], 1691 Salankamen Bozgunu ve Fazıl Mustafa Paşa'nın şehit düşmesi, Mankur parasının bastırılması ve enflasyon krizleri, II. Ahmed'in vefatı & II. Mustafa'nın tahta çıkışı [1695], Hazine için Malikane vergi sistemine geçilmesi [1695], II. Mustafa'nın bizzat ordunun başında seferlere çıkması, 1697 Zenta Bozgunu [Prens Eugene baskını], **26 Ocak 1699 KARLOFÇA ANTLAŞMASI** [Macaristan, Mora ve Podolya'nın kaybı — Osmanlı tarihinde ilk kez büyük toprak kaybının kabulü & Duraklama Döneminin resmen kapanması], 1703 Edirne Vakası [II. Mustafa'nın tahttan indirilmesi ve III. Ahmed'in cülusu]).
+- [x] **Duraklama Dönemi (10/10 Alt-Dönem TAM TAMAMLANDI - 118 Olay)**:
+  - III. Murad (13), III. Mehmed (12), I. Ahmed (12), I. Mustafa & Genç Osman (11), IV. Murad (12), Sultan İbrahim (11), IV. Mehmed (34 - Kaos/Köprülüler/Çöküş), II. Süleyman/II. Ahmed/II. Mustafa (13).
+- [x] **Gerileme Dönemi (1/6 Alt-Dönem - 15 Olay 🎉)**:
+  - **III. Ahmed / Lale Devri (1703-1730)**: 15 Olay TAMAMLANDI (`assets/olaylar/gerileme.json`, `alt_donem: "ucuncu_ahmed_lale"` — Edirne Vakası sonrası iç düzeni sağlama çabaları, İsveç Kralı XII. Karl'ın ('Demirbaş Şarl') sığınması [1709], 1711 Prut Seferi ve Çar Petro'nun ordusunun çembere alınması, Baltacı Mehmed Paşa'nın tartışmalı Prut Antlaşması & Azak Kalesi'nin geri alınması, Baltacı'nın azli, 1714 Mora Seferi ve Venedik'ten Mora'nın geri alınması, 1718 Pasarofça Antlaşması & Belgrad'ın kaybı, Nevşehirli Damat İbrahim Paşa sadrazamlığı ve 'Lale Devri'nin başlaması [1718], 16 Aralık 1727 İbrahim Müteferrika ve Said Efendi fermanıyla ilk Osmanlı matbaasının kurulması, Sadabad Sarayı ve Kağıthane Lale bahçeleri, Yalova kağıt fabrikası, kumaş/çini imalathaneleri ve ilk çiçek aşısı denemeleri, Paris gibi Avrupa başkentlerine elçilerin gönderilmesi, 7 yıl sürecek İran Savaşları'nın başlaması [1723], 1730 Patrona Halil İsyanı [matbaaya dokunulmadan köşklerin yıktırılması] ve 1 Ekim 1730 III. Ahmed'in tahttan çekilip I. Mahmud'un cülusu).
 - [x] **Sistem boşlukları kapatıldı: kalemiye, 14 başarım, boşanma/nesil içeriği**:
   - 14 Osmanlı-uyumlu Başarım sistemi eklendi (`assets/basarimlar.json`, `lib/modeller/basarim.dart`, `lib/motor/basarim_kontrolcusu.dart`).
   - Kalemiye Meslek Zinciri eklendi (`kurulus_073`).
   - Boşanma / Eşin Vefatı / İkinci Nikah Zinciri eklendi (`kurulus_074`, `kurulus_075`, `kurulus_076`).
   - UI Ekranları: `BasarimlarEkrani` ve `OlumEkrani` eklendi (`lib/ekranlar/`).
-- [x] **TOPLAM OLAY SAYISI: 357 OLAY** (Kuruluş 138 + Yükselme 101 + Duraklama 118).
-- [x] Birim testleri yazıldı (`test/sistem_bosluklari_test.dart` & `test/olay_tarih_filtre_test.dart` — 357 olay, üç dosyanın paralel yüklenmesi, Kalemiye ataması, 14 başarım koşulu ve boşanma/ikinci nikah zinciri). Toplam **11/11 test YEŞİL ✅**. `flutter analyze` **0 hata / 0 uyarı ✅**.
+- [x] **TOPLAM OLAY SAYISI: 372 OLAY** (Kuruluş 138 + Yükselme 101 + Duraklama 118 + Gerileme 15).
+- [x] Birim testleri yazıldı (`test/sistem_bosluklari_test.dart` & `test/olay_tarih_filtre_test.dart` — 372 olay, 4 JSON dosyasının paralel yüklenmesi, Kalemiye ataması, 14 başarım koşulu ve boşanma/ikinci nikah zinciri). Toplam **11/11 test YEŞİL ✅**. `flutter analyze` **0 hata / 0 uyarı ✅**.
 - [x] GitHub Reposu: `https://github.com/semmhk/osmanlidabirhayat.git` (main branch).
 
 ---
 
 ## KALAN İŞLER / SONRAKİ ADIMLAR
 
-- [ ] **GERİLEME DÖNEMİ (1699-1792)**:
-  - **Sırada:** III. Ahmed / Lale Devri (1703-1730) — Prut Savaşı (1711, Baltacı Mehmed Paşa), Pasarofça Antlaşması (1718), Nevşehirli Damat İbrahim Paşa, İbrahim Müteferrika ve İlk Matbaa, Lale Devri sefahatı ve Patrona Halil İsyanı (1730)
-  - I. Mahmud & I. Osman & III. Mustafa & I. Abdülhamid & III. Selim grubu
+- [ ] **GERİLEME DÖNEMİ KALAN ALT-DÖNEMLERİ (5/6 Kalan)**:
+  - **Sırada:** I. Mahmud (1730-1754) — Patrona Halil'in tasfiyesi, 1736-1739 Rusya-Avusturya Savaşları, Belgrad Antlaşması (1739, Belgrad'ın son kez geri alınması), Humbaracı Ahmed Paşa (Comte de Bonneval) askeri reformları
+  - III. Osman & III. Mustafa (1754-1774) — 1768-1774 Rus Savaşı, Çeşme Deniz Bozgunu (1770)
+  - I. Abdülhamid (1774-1789) — Küçük Kaynarca Antlaşması (1774, Kırım'ın kaybı), Halil Hamid Paşa reformları
+  - III. Selim (1789-1807) — Nizam-ı Cedid reformları, Ziştovi/Yaş Antlaşmaları (1791/1792), Napolyon'un Mısır Seferi (1798), Kabakçı Mustafa İsyanı (1807)
 - [ ] UI Ekranlarının (Ana Menü, Oyun Ekranı) ferman estetiğiyle entegrasyonunun tamamlanması.
 - [ ] Hive entegrasyonu ve geçmiş hayatlar kaydı.
