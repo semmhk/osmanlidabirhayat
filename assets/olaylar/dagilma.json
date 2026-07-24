@@ -2212,5 +2212,365 @@
         "sonuc": "Tarihin büyük çarkı dönmeye devam ederken, hayat kendi akışında sürüyordu."
       }
     ]
+  },
+  {
+    "id": "son_donem_001_resad_tahta_cikis",
+    "donem": "dagilma",
+    "alt_donem": "resad_vahdettin_son_donem",
+    "tarih_yil_min": 1909,
+    "tarih_yil_max": 1909,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "65 yaşındaki V. Mehmed Reşad, kardeşi II. Abdülhamid'in yerine tahta çıktı — tarihin en geç yaşta tahta çıkan padişahı. Anayasal bir monark olarak, gerçek gücün büyük ölçüde İttihat ve Terakki Cemiyeti'nde olduğu bir dönem başlıyor.",
+    "secenekler": [
+      {
+        "metin": "Bu yeni sembolik padişahlık dönemini merakla izle",
+        "etki": { "zeka": 2, "mutluluk": 1 },
+        "sonuc": "Artık kararlar sarayda değil, Meclis'te ve İttihat ve Terakki'nin koridorlarında alınıyordu."
+      },
+      {
+        "metin": "Gündelik hayatına devam et",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Yönetim şekli değişiyordu ama gündelik hayatın akışı sürüyordu."
+      }
+    ]
+  },
+  {
+    "id": "son_donem_002_trablusgarp_savasi",
+    "donem": "dagilma",
+    "alt_donem": "resad_vahdettin_son_donem",
+    "tarih_yil_min": 1911,
+    "tarih_yil_max": 1912,
+    "yas_min": 16,
+    "yas_max": 50,
+    "tek_seferlik": true,
+    "gerekli_bayrak": "meslek_seyfiye",
+    "metin": "İtalya, Trablusgarp ve Bingazi'yi (bugünkü Libya) işgal etti — Osmanlı, Kuzey Afrika'daki bu son toprağını savunmaya çalıştı ama denizden ve karadan kesilen ordu yeterince destek gönderemedi. Savaş, 1912'de Uşi Antlaşması ile Trablusgarp'ın kaybıyla sonuçlandı.",
+    "secenekler": [
+      {
+        "metin": "Bu uzak savunmaya gönüllü olarak katıl",
+        "etki": { "para": 3, "saglik": -4, "itibar": 2, "sans_gerekli": true },
+        "sonuc": "Enver Bey gibi genç subaylar gönüllü olarak Trablusgarp'a gidip yerel halkla birlikte direniş gösterdi — ama denizden gelen destek olmadan bu savunma sürdürülemezdi."
+      },
+      {
+        "metin": "Bu kaybı büyük bir üzüntüyle karşıla",
+        "etki": { "mutluluk": -5, "zeka": 1 },
+        "sonuc": "Kuzey Afrika'daki son toprağımız da artık kaybedilmişti."
+      }
+    ]
+  },
+  {
+    "id": "son_donem_003_balkan_savaslari",
+    "donem": "dagilma",
+    "alt_donem": "resad_vahdettin_son_donem",
+    "tarih_yil_min": 1912,
+    "tarih_yil_max": 1913,
+    "yas_min": 16,
+    "yas_max": 50,
+    "tek_seferlik": true,
+    "gerekli_bayrak": "meslek_seyfiye",
+    "metin": "Balkan devletleri (Bulgaristan, Sırbistan, Yunanistan, Karadağ) birleşip Osmanlı'ya savaş açtı. Yıllardır ihmal edilen ordu, hazırlıksız yakalandı — Selanik, Batı Trakya, Ege Adaları ve neredeyse tüm Balkan toprakları kaybedildi. Bu, en acı ve en hızlı toprak kayıplarından biriydi.",
+    "secenekler": [
+      {
+        "metin": "Bu felaket derecesindeki savaşta bulun",
+        "etki": { "saglik": -7, "mutluluk": -8, "sans_gerekli": true },
+        "sonuc": "Birkaç ay içinde, yüzyıllardır Osmanlı toprağı olan Balkanlar'ın neredeyse tamamı elden gitmişti — bu, sadece askeri değil, ruhsal bir yıkımdı da."
+      },
+      {
+        "metin": "Bu felaketi İstanbul'da derin bir dehşetle karşıla",
+        "etki": { "mutluluk": -7 },
+        "sonuc": "Selanik gibi köklü bir Osmanlı şehrinin kaybı, herkesi derinden sarstı."
+      }
+    ]
+  },
+  {
+    "id": "son_donem_004_babiali_baskini",
+    "donem": "dagilma",
+    "alt_donem": "resad_vahdettin_son_donem",
+    "tarih_yil_min": 1913,
+    "tarih_yil_max": 1913,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "23 Ocak 1913'te Enver Bey önderliğindeki İttihatçı subaylar, Bab-ı Ali'yi (hükümet binasını) basıp kanlı bir darbe yaptı — Sadrazam ve Harbiye Nazırı öldürüldü. Bu tarihten sonra devlet yönetimi tamamen Enver, Talat ve Cemal Paşaların ('Üç Paşalar') eline geçti, Sultan Reşad ise fiilen tüm etkisini yitirdi.",
+    "secenekler": [
+      {
+        "metin": "Bu kanlı darbeyi büyük bir şokla karşıla",
+        "etki": { "mutluluk": -5, "zeka": 2 },
+        "sonuc": "Meşrutiyet, artık üç kişinin fiili diktatörlüğüne dönüşmüş gibiydi."
+      },
+      {
+        "metin": "Bu köklü değişimin devlet için ne anlama geldiğini düşün",
+        "etki": { "zeka": 3, "mutluluk": -3 },
+        "sonuc": "Devletin kaderi artık tamamen bu üç paşanın kararlarına bağlıydı."
+      }
+    ]
+  },
+  {
+    "id": "son_donem_005_birinci_dunya_savasina_giris",
+    "donem": "dagilma",
+    "alt_donem": "resad_vahdettin_son_donem",
+    "tarih_yil_min": 1914,
+    "tarih_yil_max": 1914,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "Enver Paşa'nın öncülüğünde, Almanya ile gizli bir ittifak imzalanarak Osmanlı Devleti, hazırlıksız bir şekilde I. Dünya Savaşı'na girdi — Almanya, Avusturya-Macaristan yanında, İngiltere, Fransa ve Rusya'ya karşı.",
+    "secenekler": [
+      {
+        "metin": "Bu büyük ve tehlikeli savaşa hazırlan",
+        "etki": { "para": -3, "mutluluk": -3, "zeka": 1 },
+        "sonuc": "Balkan Savaşları'nın yaraları henüz kapanmamışken, çok daha büyük bir savaşa giriliyordu."
+      },
+      {
+        "metin": "Bu kararın akıbetinden derin bir endişe duy",
+        "etki": { "zeka": 2, "mutluluk": -3 },
+        "sonuc": "Devletin bu denli büyük bir dünya savaşına ne kadar hazırlıklı olduğu büyük bir soru işaretiydi."
+      }
+    ]
+  },
+  {
+    "id": "son_donem_006_canakkale_zaferi",
+    "donem": "dagilma",
+    "alt_donem": "resad_vahdettin_son_donem",
+    "tarih_yil_min": 1915,
+    "tarih_yil_max": 1915,
+    "yas_min": 16,
+    "yas_max": 50,
+    "tek_seferlik": true,
+    "gerekli_bayrak": "meslek_seyfiye",
+    "metin": "İngiliz ve Fransız donanmaları, Çanakkale Boğazı'nı geçip İstanbul'a ulaşmaya çalıştı — ama hem denizde hem karada (Albay Mustafa Kemal'in Anafartalar/Conkbayırı'ndaki önderliğiyle) büyük bir direniş gösterildi. Aylarca süren kanlı çarpışmaların ardından düşman geri çekilmek zorunda kaldı.",
+    "secenekler": [
+      {
+        "metin": "Bu tarihi ve destansı savunmada bulun",
+        "etki": { "para": 6, "itibar": 5, "saglik": -6, "sans_gerekli": true },
+        "sonuc": "Çanakkale, imparatorluğun en karanlık yıllarında bile büyük bir zaferin mümkün olduğunu gösterdi — bu direniş, nesillerce anlatılacaktı."
+      },
+      {
+        "metin": "Bu zaferi büyük bir gururla uzaktan takip et",
+        "etki": { "mutluluk": 7, "itibar": 3 },
+        "sonuc": "Boğazlar geçilemedi — bu, savaşın en gururlu anlarından biriydi."
+      }
+    ]
+  },
+  {
+    "id": "son_donem_007_arap_cephesi_zorluklari",
+    "donem": "dagilma",
+    "alt_donem": "resad_vahdettin_son_donem",
+    "tarih_yil_min": 1916,
+    "tarih_yil_max": 1918,
+    "yas_min": 16,
+    "yas_max": 50,
+    "tek_seferlik": true,
+    "gerekli_bayrak": "meslek_seyfiye",
+    "metin": "Arabistan, Filistin ve Irak cephelerinde savaş uzadıkça, İngilizlerin desteklediği yerel isyanlar ve ağır kayıplar nedeniyle Osmanlı kuvvetleri kademeli olarak kuzeye çekilmek zorunda kaldı.",
+    "secenekler": [
+      {
+        "metin": "Bu zorlu ve uzak cephede bulun",
+        "etki": { "saglik": -6, "mutluluk": -5, "sans_gerekli": true },
+        "sonuc": "Çöl sıcağı, uzun ikmal hatları ve düşman baskısı, bu cepheyi savaşın en zorlu bölümlerinden biri yapıyordu."
+      },
+      {
+        "metin": "Bu uzak cephenin kötü gidişatından endişelen",
+        "etki": { "mutluluk": -4 },
+        "sonuc": "Savaşın birden fazla cephede aynı anda kaybedilmesi, devletin geleceği için giderek daha endişe vericiydi."
+      }
+    ]
+  },
+  {
+    "id": "son_donem_008_resad_vefati",
+    "donem": "dagilma",
+    "alt_donem": "resad_vahdettin_son_donem",
+    "tarih_yil_min": 1918,
+    "tarih_yil_max": 1918,
+    "yas_min": 5,
+    "yas_max": 80,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "3 Temmuz 1918'de, savaşın sonucu henüz belli olmadan, V. Mehmed Reşad vefat etti — dokuz yıllık, büyük ölçüde sembolik bir saltanattı bu. Yerine kardeşi Mehmed Vahdettin (VI. Mehmed) tahta çıktı.",
+    "secenekler": [
+      {
+        "metin": "Bu geçişi savaşın ağır yükü altında karşıla",
+        "etki": { "mutluluk": -3, "zeka": 1 },
+        "sonuc": "Yeni sultan, çok daha zorlu bir mirası devralıyordu — savaşın sonu artık çok uzak görünmüyordu, ama iyi bir sonla bitmeyeceği de hissediliyordu."
+      },
+      {
+        "metin": "Yeni sultanın savaşı nasıl yöneteceğini merak et",
+        "etki": { "zeka": 2 },
+        "sonuc": "Devletin kaderi, artık büyük ölçüde savaşın gidişatına bağlıydı."
+      }
+    ]
+  },
+  {
+    "id": "son_donem_009_mondros_mutarekesi",
+    "donem": "dagilma",
+    "alt_donem": "resad_vahdettin_son_donem",
+    "tarih_yil_min": 1918,
+    "tarih_yil_max": 1918,
+    "yas_min": 5,
+    "yas_max": 80,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "30 Ekim 1918'de, dört yıl süren I. Dünya Savaşı'nda mağlup olan Osmanlı Devleti, İtilaf Devletleri ile Mondros Mütarekesi'ni imzaladı — bu ateşkes, ağır maddeleriyle Anadolu'nun çeşitli bölgelerinin işgal edilmesinin de yolunu açtı.",
+    "secenekler": [
+      {
+        "metin": "Bu yenilgiyi ve ağır şartları derin bir üzüntüyle karşıla",
+        "etki": { "mutluluk": -9, "zeka": 2 },
+        "sonuc": "Dört yıllık büyük savaşın kaybedilmesi, altı asırlık bir imparatorluğun sonunun geldiğini hissettiriyordu."
+      },
+      {
+        "metin": "Bu ağır sonuçlardan devletin geleceği için endişelen",
+        "etki": { "zeka": 3, "mutluluk": -7 },
+        "sonuc": "İşgal tehlikesi artık soyut bir kavram değil, somut bir gerçeklikti."
+      }
+    ]
+  },
+  {
+    "id": "son_donem_010_anadolu_isgali",
+    "donem": "dagilma",
+    "alt_donem": "resad_vahdettin_son_donem",
+    "tarih_yil_min": 1918,
+    "tarih_yil_max": 1919,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": false,
+    "gerekli_bayrak": null,
+    "metin": "Mütareke'nin ardından İngiliz, Fransız, İtalyan ve Yunan kuvvetleri Anadolu ve İstanbul'un çeşitli bölgelerini işgal etmeye başladı — İzmir'in Yunanlar tarafından işgali (Mayıs 1919), halkta büyük bir infial yarattı.",
+    "secenekler": [
+      {
+        "metin": "Bu işgalleri büyük bir öfke ve dehşetle karşıla",
+        "etki": { "mutluluk": -8, "itibar": 1 },
+        "sonuc": "Yüzyıllardır bağımsız bir devletin toprakları, şimdi yabancı ordular tarafından işgal ediliyordu — bu, tarihin en acı sayfalarından biriydi."
+      },
+      {
+        "metin": "Bu duruma karşı bir direniş umudu ara",
+        "etki": { "zeka": 2, "mutluluk": -5 },
+        "sonuc": "Bazı bölgelerde halk, kendi imkanlarıyla direniş cepheleri kurmaya başlamıştı."
+      }
+    ]
+  },
+  {
+    "id": "son_donem_011_milli_mucadele_baslangic",
+    "donem": "dagilma",
+    "alt_donem": "resad_vahdettin_son_donem",
+    "tarih_yil_min": 1919,
+    "tarih_yil_max": 1919,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "19 Mayıs 1919'da, Mustafa Kemal Paşa, 9. Ordu Müfettişi sıfatıyla Samsun'a çıktı — bu tarih, Anadolu'da örgütlenen Milli Mücadele'nin (Kurtulus Savaşı'nın) sembolik başlangıcı olarak kabul edilir. Amasya Genelgesi ve Erzurum/Sivas Kongreleri ile direniş örgütlenmeye başladı.",
+    "secenekler": [
+      {
+        "metin": "Bu örgütlenme hareketine katkıda bulun ya da katıl",
+        "etki": { "para": -2, "itibar": 3, "mutluluk": 4 },
+        "sonuc": "Anadolu'nun dört bir yanından, işgale karşı bir direniş iradesi yükseliyordu."
+      },
+      {
+        "metin": "Bu hareketi umutla ve dikkatle izle",
+        "etki": { "zeka": 2, "mutluluk": 3 },
+        "sonuc": "Karanlık günlerin ortasında, yeni bir umut ışığı doğuyordu."
+      }
+    ]
+  },
+  {
+    "id": "son_donem_012_tbmm_kurulusu",
+    "donem": "dagilma",
+    "alt_donem": "resad_vahdettin_son_donem",
+    "tarih_yil_min": 1920,
+    "tarih_yil_max": 1920,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "23 Nisan 1920'de Ankara'da Türkiye Büyük Millet Meclisi açıldı — Mustafa Kemal Paşa başkanlığında, Anadolu'daki direnişi tek bir çatı altında toplayan yeni bir siyasi merkez kuruldu.",
+    "secenekler": [
+      {
+        "metin": "Bu yeni siyasi merkezi umutla karşıla",
+        "etki": { "zeka": 3, "mutluluk": 4 },
+        "sonuc": "İstanbul işgal altındayken, Ankara'da yeni bir irade doğuyordu."
+      },
+      {
+        "metin": "Bu gelişmeleri dikkatle takip et",
+        "etki": { "zeka": 2, "mutluluk": 2 },
+        "sonuc": "Devletin geleceği artık bu yeni meclisin ellerinde şekilleniyordu."
+      }
+    ]
+  },
+  {
+    "id": "son_donem_013_kurtulus_savasi_zaferi",
+    "donem": "dagilma",
+    "alt_donem": "resad_vahdettin_son_donem",
+    "tarih_yil_min": 1920,
+    "tarih_yil_max": 1922,
+    "yas_min": 16,
+    "yas_max": 50,
+    "tek_seferlik": true,
+    "gerekli_bayrak": "meslek_seyfiye",
+    "metin": "Sakarya Meydan Muharebesi ve ardından Büyük Taarruz ile Anadolu'daki işgal kuvvetleri geri püskürtüldü — 1919'da başlayan Milli Mücadele, 1922'de zaferle sonuçlandı.",
+    "secenekler": [
+      {
+        "metin": "Bu kurtuluş mücadelesinde bulun",
+        "etki": { "para": 5, "itibar": 5, "saglik": -5, "sans_gerekli": true },
+        "sonuc": "Yıllarca süren işgal ve umutsuzluğun ardından, bu zafer büyük bir gurur ve rahatlama getirdi."
+      },
+      {
+        "metin": "Bu zaferi büyük bir gururla karşıla",
+        "etki": { "mutluluk": 9, "itibar": 3 },
+        "sonuc": "Anadolu, işgalden kurtulmuştu — yeni bir çağın kapıları aralanıyordu."
+      }
+    ]
+  },
+  {
+    "id": "son_donem_014_saltanatin_kaldirilmasi",
+    "donem": "dagilma",
+    "alt_donem": "resad_vahdettin_son_donem",
+    "tarih_yil_min": 1922,
+    "tarih_yil_max": 1922,
+    "yas_min": 5,
+    "yas_max": 80,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "1 Kasım 1922'de Türkiye Büyük Millet Meclisi, saltanatı resmen kaldırdı — VI. Mehmed Vahdettin, son Osmanlı padişahı olarak ülkeyi terk etmek zorunda kaldı. 623 yıllık bir hanedanın yönetimi, böylece tarihe karışıyordu.",
+    "secenekler": [
+      {
+        "metin": "Bu tarihi dönüşümü derin bir duygusallıkla karşıla",
+        "etki": { "mutluluk": -3, "zeka": 4 },
+        "sonuc": "Osman Gazi'den beri süregelen bir hanedanın sonu geliyordu — hem bir çağın kapanışı hem yeni bir çağın açılışıydı bu."
+      },
+      {
+        "metin": "Yeni bir döneme, yeni bir devlete umutla bak",
+        "etki": { "mutluluk": 3, "zeka": 2 },
+        "sonuc": "623 yıllık bir yolculuk sona ermişti — Osman Gazi'nin küçük beyliğinden başlayan bu hikaye, artık yeni bir sayfaya bırakıyordu yerini."
+      }
+    ]
+  },
+  {
+    "id": "son_donem_015_623_yillik_yolculuk_retrospektifi",
+    "donem": "dagilma",
+    "alt_donem": "resad_vahdettin_son_donem",
+    "tarih_yil_min": 1299,
+    "tarih_yil_max": 1922,
+    "yas_min": 15,
+    "yas_max": 70,
+    "tek_seferlik": false,
+    "gerekli_bayrak": null,
+    "metin": "1299'da Söğüt'te küçük bir beylik olarak başlayan bu yolculuk; Fatih'in İstanbul'u fethinden Kanuni'nin altın çağına, Duraklama'nın kaosundan Gerileme'nin reformlarına, ve nihayet Dağılma'nın acı ama kahramanca son perdesine kadar 623 yıl sürmüştü. Sen de, hangi yüzyılda yaşadıysan, bu büyük hikayenin bir parçası oldun.",
+    "secenekler": [
+      {
+        "metin": "Bu uzun ve destansı yolculuğu gururla anımsa",
+        "etki": { "mutluluk": 5, "zeka": 3 },
+        "sonuc": "Yükselişler ve düşüşler, zaferler ve yenilgiler, reformlar ve gelenekler — hepsi bu büyük hikayenin bir parçasıydı. Ve şimdi, yeni bir hikaye başlıyordu."
+      },
+      {
+        "metin": "Geçmişin derslerini geleceğe taşı",
+        "etki": { "zeka": 4, "mutluluk": 3 },
+        "sonuc": "Altı asırlık bir mirasın üzerine, yeni bir gelecek inşa edilecekti."
+      }
+    ]
   }
 ]

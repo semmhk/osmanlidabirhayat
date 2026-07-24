@@ -27,12 +27,12 @@ void main() {
       tumOlaylar = [...o1, ...o2, ...o3, ...o4, ...o5];
     });
 
-    test('1. kurulus (138) + yukselme (101) + duraklama (118) + gerileme (68) + dagilma (92) = 517 olay eksiksiz, benzersiz ID ve alt_donem alanlarıyla yüklenmeli', () {
-      expect(tumOlaylar.length, equals(517));
+    test('1. kurulus (138) + yukselme (101) + duraklama (118) + gerileme (68) + dagilma (107) = 532 olay eksiksiz, benzersiz ID ve alt_donem alanlarıyla yüklenmeli', () {
+      expect(tumOlaylar.length, equals(532));
       
       // Benzersiz ID kontrolü
       final idSet = tumOlaylar.map((o) => o.id).toSet();
-      expect(idSet.length, equals(517));
+      expect(idSet.length, equals(532));
 
       final ahilikOlayi = tumOlaylar.firstWhere((o) => o.id == 'kurulus_001');
       expect(ahilikOlayi.tarihYilMin, equals(1299));
@@ -191,6 +191,11 @@ void main() {
       final mesrutiyetinIlani = tumOlaylar.firstWhere((o) => o.id == 'abdulhamid2_3_002_mesrutiyetin_ilani');
       expect(mesrutiyetinIlani.donem, equals('dagilma'));
       expect(mesrutiyetinIlani.altDonem, equals('ikinci_abdulhamid_3'));
+
+      // V. Mehmed Reşad & VI. Mehmed Vahdettin (Son Dönem) olayları kontrolü
+      final saltanatinKaldirilmasi = tumOlaylar.firstWhere((o) => o.id == 'son_donem_014_saltanatin_kaldirilmasi');
+      expect(saltanatinKaldirilmasi.donem, equals('dagilma'));
+      expect(saltanatinKaldirilmasi.altDonem, equals('resad_vahdettin_son_donem'));
     });
 
     test('2. Şema doğrulayıcı hatalı tarih_yil_min > tarih_yil_max durumunu yakalamalı', () {
