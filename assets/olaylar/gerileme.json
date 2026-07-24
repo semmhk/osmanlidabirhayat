@@ -359,5 +359,318 @@
         "sonuc": "Bir dönem kapanırken, devletin önünde yeni zorluklar ve fırsatlar vardı."
       }
     ]
+  },
+  {
+    "id": "mahmud1_001_tahta_cikis_duzen",
+    "donem": "gerileme",
+    "alt_donem": "birinci_mahmud",
+    "tarih_yil_min": 1730,
+    "tarih_yil_max": 1730,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "Patrona Halil İsyanı sonucu tahta çıkan I. Mahmud, ilk aylarını kendisini tahta getiren isyancı grubun etkisi altında geçirmek zorunda kaldı — isyancılar bir süre şehirde kendi kurallarını dayatıyordu.",
+    "secenekler": [
+      {
+        "metin": "Bu belirsiz ve tehlikeli geçiş dönemini dikkatle izle",
+        "etki": { "zeka": 2, "mutluluk": -2 },
+        "sonuc": "Yeni sultanın gerçek gücü henüz belli değildi — isyancılar hâlâ sokaklarda etkiliydi."
+      },
+      {
+        "metin": "Sultan'ın doğru zamanı beklediğini sezinle",
+        "etki": { "zeka": 1 },
+        "sonuc": "Bazı gözlemciler, sultan'ın sabırla fırsat kolladığını fark etmişti."
+      }
+    ]
+  },
+  {
+    "id": "mahmud1_002_patrona_halil_tasfiyesi",
+    "donem": "gerileme",
+    "alt_donem": "birinci_mahmud",
+    "tarih_yil_min": 1730,
+    "tarih_yil_max": 1730,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "I. Mahmud, kurnaz bir plan yaptı: Patrona Halil ve yandaşlarını sahte bir 'gizli divan toplantısı' bahanesiyle saraya davet etti. İsyancılar içeri girer girmez yakalanıp derhal idam edildi — devrik hükümdarları koruyan güç, bir gecede tasfiye edilmişti.",
+    "secenekler": [
+      {
+        "metin": "Bu kurnaz ve kararlı hamleyi takdir et",
+        "etki": { "zeka": 3, "itibar": 2 },
+        "sonuc": "Sultan, sabırla beklediği fırsatı ustaca değerlendirmişti. Devletin gerçek otoritesi artık netleşiyordu."
+      },
+      {
+        "metin": "Bu ani şiddeti şaşkınlıkla karşıla",
+        "etki": { "mutluluk": -1 },
+        "sonuc": "Bir günde tüm dengeler değişmişti — İstanbul'un sokaklarını yöneten kişiler artık yoktu."
+      }
+    ]
+  },
+  {
+    "id": "mahmud1_003_yenicheri_isyani_1731",
+    "donem": "gerileme",
+    "alt_donem": "birinci_mahmud",
+    "tarih_yil_min": 1731,
+    "tarih_yil_max": 1731,
+    "yas_min": 15,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": "meslek_seyfiye",
+    "metin": "Patrona Halil'in tasfiyesinin ardından, bazı yeniçeriler yeni bir ayaklanma girişiminde bulundu. Bu kez daha hazırlıklı olan sultan, isyanı hızla bastırdı.",
+    "secenekler": [
+      {
+        "metin": "Devlet kuvvetlerine destek ol",
+        "etki": { "para": 2, "itibar": 1 },
+        "sonuc": "İkinci isyan girişimi, ilkinden çok daha hızlı ve kararlı bir şekilde bastırıldı."
+      },
+      {
+        "metin": "Bu kargaşadan uzak dur",
+        "etki": { "mutluluk": -1 },
+        "sonuc": "Devletin otoritesini yeniden tesis etme sürecinin ne kadar zorlu olduğu bir kez daha görülmüştü."
+      }
+    ]
+  },
+  {
+    "id": "mahmud1_004_ilk_iran_savasi",
+    "donem": "gerileme",
+    "alt_donem": "birinci_mahmud",
+    "tarih_yil_min": 1730,
+    "tarih_yil_max": 1732,
+    "yas_min": 16,
+    "yas_max": 50,
+    "tek_seferlik": true,
+    "gerekli_bayrak": "meslek_seyfiye",
+    "metin": "İran ile yeniden savaş başladı — bu, üç kez tekrarlanacak uzun bir mücadelenin ilkiydi. 1732'de Ahmed Paşa Antlaşması ile geçici bir barış sağlandı.",
+    "secenekler": [
+      {
+        "metin": "Bu sefere katıl",
+        "etki": { "para": 4, "saglik": -3, "sans_gerekli": true },
+        "sonuc": "Doğu sınırındaki mücadele, yıllarca aralıklarla sürecek bir hal alacaktı."
+      },
+      {
+        "metin": "Sefere katılmadın",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Geçici bir barış sağlanmıştı ama kalıcılığı şüpheliydi."
+      }
+    ]
+  },
+  {
+    "id": "mahmud1_005_bonneval_ihtida",
+    "donem": "gerileme",
+    "alt_donem": "birinci_mahmud",
+    "tarih_yil_min": 1731,
+    "tarih_yil_max": 1731,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "İlginç bir haber: Fransız ve Avusturya ordularında görev yapmış bir general olan Kont de Bonneval, Avusturya'dan kaçıp Osmanlı'ya sığındı ve Müslüman olarak 'Humbaracı Ahmed Paşa' adını aldı. Ordunun sadece sayıyla değil 'geometri ve fen' ile güçlenebileceğini savunuyor.",
+    "secenekler": [
+      {
+        "metin": "Bu yabancı devlet adamının fikirlerini merakla dinle",
+        "etki": { "zeka": 3, "mutluluk": 1 },
+        "sonuc": "Avrupa'nın askeri bilgisini bizzat getiren bu adam, ordumuzun geleceğini değiştirecek gibi görünüyordu."
+      },
+      {
+        "metin": "Bu yabancı etkiye şüpheyle yaklaş",
+        "etki": { "mutluluk": -1 },
+        "sonuc": "Herkes bu yeni fikirlere aynı açıklıkla bakmıyordu, ama zamanla kabul görecekti."
+      }
+    ]
+  },
+  {
+    "id": "mahmud1_006_hendesehane",
+    "donem": "gerileme",
+    "alt_donem": "birinci_mahmud",
+    "tarih_yil_min": 1734,
+    "tarih_yil_max": 1734,
+    "yas_min": 10,
+    "yas_max": 30,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "Üsküdar'da Hendesehane (Kara Mühendishanesi) açıldı — Osmanlı'daki ilk modern askeri teknik okul. Burada askerlere matematik, geometri, balistik hesaplamalar ve haritacılık öğretiliyor. Bu okul, ileride İstanbul Teknik Üniversitesi'nin tarihsel temeli sayılacak.",
+    "secenekler": [
+      {
+        "metin": "Bu yeni okula başvur, teknik eğitim al",
+        "etki": { "zeka": 6, "itibar": 2 },
+        "meslek_atama": "seyfiye",
+        "sonuc": "Geleneksel askerlikten çok farklı bir eğitimdi bu — trigonometri ve top dökümünde 'ölçek ve standart' kavramları öğreniyordun."
+      },
+      {
+        "metin": "Bu yeniliği uzaktan takip et",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Bu okulun mezunlarının ordu için ne kadar değerli olacağı zamanla görülecekti."
+      }
+    ]
+  },
+  {
+    "id": "mahmud1_007_ikinci_iran_savasi",
+    "donem": "gerileme",
+    "alt_donem": "birinci_mahmud",
+    "tarih_yil_min": 1735,
+    "tarih_yil_max": 1736,
+    "yas_min": 16,
+    "yas_max": 50,
+    "tek_seferlik": true,
+    "gerekli_bayrak": "meslek_seyfiye",
+    "metin": "İran, Ahmed Paşa Antlaşması'na uymayıp yeniden harekete geçti ve Tiflis ile Revan'ı ele geçirdi — savaş yeniden başladı.",
+    "secenekler": [
+      {
+        "metin": "Bu ikinci sefere katıl",
+        "etki": { "para": 3, "saglik": -3, "mutluluk": -1, "sans_gerekli": true },
+        "sonuc": "Antlaşmaların bozulması, doğu sınırındaki huzursuzluğun bitmediğini gösteriyordu."
+      },
+      {
+        "metin": "Bu sefere katılmadın",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Doğu cephesi bir türlü tam anlamıyla dinginleşmiyordu."
+      }
+    ]
+  },
+  {
+    "id": "mahmud1_008_avusturya_rusya_savasi_zaferler",
+    "donem": "gerileme",
+    "alt_donem": "birinci_mahmud",
+    "tarih_yil_min": 1735,
+    "tarih_yil_max": 1739,
+    "yas_min": 16,
+    "yas_max": 50,
+    "tek_seferlik": true,
+    "gerekli_bayrak": "meslek_seyfiye",
+    "metin": "Avusturya ve Rusya'ya karşı aynı anda savaşılan bu zorlu dönemde, Humbaracı Ahmed Paşa'nın yetiştirdiği topçu sınıfının da katkısıyla Hocabey (Stavuçan) ve Kroçka'da önemli zaferler kazanıldı — Pasarofça'nın yarattığı 'yenilmez Avrupa' algısı sarsılıyordu.",
+    "secenekler": [
+      {
+        "metin": "Bu iki cepheli zorlu savaşa katıl",
+        "etki": { "para": 7, "itibar": 4, "saglik": -4, "sans_gerekli": true },
+        "sonuc": "Hem Avusturya hem Rusya'ya karşı aynı anda savaşıp galip gelmek, olağanüstü bir başarıydı. Askeri reformların meyveleri toplanıyordu."
+      },
+      {
+        "metin": "Bu zaferleri uzaktan gururla takip et",
+        "etki": { "mutluluk": 4 },
+        "sonuc": "Uzun zamandır ilk kez, Avrupa'ya karşı bu denli güçlü bir direniş gösterilmişti."
+      }
+    ]
+  },
+  {
+    "id": "mahmud1_009_belgrad_antlasmasi",
+    "donem": "gerileme",
+    "alt_donem": "birinci_mahmud",
+    "tarih_yil_min": 1739,
+    "tarih_yil_max": 1739,
+    "yas_min": 5,
+    "yas_max": 70,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "1739'da imzalanan Belgrad Antlaşması ile Pasarofça'da kaybedilen Belgrad ve Kuzey Sırbistan geri alındı — bu, 18. yüzyılda Osmanlı'nın imzaladığı son gerçekten kazançlı antlaşma olarak tarihe geçecek.",
+    "secenekler": [
+      {
+        "metin": "Bu büyük diplomatik ve askeri başarıyı büyük bir gururla kutla",
+        "etki": { "mutluluk": 8, "itibar": 3 },
+        "sonuc": "Belgrad'ın geri alınması, devletin hâlâ ayakta kalabildiğinin ve kendini toparlayabildiğinin en güçlü kanıtıydı."
+      },
+      {
+        "metin": "Bu başarının reformların meyvesi olduğunu düşün",
+        "etki": { "zeka": 2, "mutluluk": 5 },
+        "sonuc": "Hendesehane'den yetişen subaylar ve yenilenen humbaracı ocağı, bu zaferde belirleyici rol oynamıştı."
+      }
+    ]
+  },
+  {
+    "id": "mahmud1_010_kultur_devami",
+    "donem": "gerileme",
+    "alt_donem": "birinci_mahmud",
+    "tarih_yil_min": 1730,
+    "tarih_yil_max": 1754,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": false,
+    "gerekli_bayrak": null,
+    "metin": "Lale Devri'nin gösterişli harcamaları geride kalsa da, I. Mahmud sanata ve şiire olan ilgisini sürdürdü — kendisi de Arapça şiirler yazan bir sultan olarak biliniyor, edebiyat ve müzik faaliyetlerini himaye ediyor.",
+    "secenekler": [
+      {
+        "metin": "Bu daha ölçülü ama devam eden kültürel hayattan faydalan",
+        "etki": { "zeka": 3, "mutluluk": 2 },
+        "sonuc": "Sadabad'ın israfı olmasa da, sanat ve edebiyat hayatı canlılığını koruyordu."
+      },
+      {
+        "metin": "Kendi işine devam et",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Sultan'ın şiirlerinin bazı beyitleri, mahallede bile konuşuluyordu."
+      }
+    ]
+  },
+  {
+    "id": "mahmud1_011_ucuncu_iran_savasi",
+    "donem": "gerileme",
+    "alt_donem": "birinci_mahmud",
+    "tarih_yil_min": 1743,
+    "tarih_yil_max": 1746,
+    "yas_min": 16,
+    "yas_max": 50,
+    "tek_seferlik": true,
+    "gerekli_bayrak": "meslek_seyfiye",
+    "metin": "Güçlü İran hükümdarı Nadir Şah ile üçüncü ve son savaş yaşandı — çetin bir mücadeleydi, hiçbir taraf kesin bir üstünlük sağlayamadı. 1746'da eski Kasr-ı Şirin sınırının geçerli sayılacağı bir barışla sona erdi.",
+    "secenekler": [
+      {
+        "metin": "Bu son ve çetin doğu seferine katıl",
+        "etki": { "para": 4, "saglik": -4, "sans_gerekli": true },
+        "sonuc": "Nadir Şah, döneminin en güçlü hükümdarlarından biriydi — onunla berabere kalmak bile büyük bir başarıydı."
+      },
+      {
+        "metin": "Bu sefere katılmadın",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Barış haberi geldiğinde, doğu sınırındaki uzun mücadele nihayet dinginleşti."
+      }
+    ]
+  },
+  {
+    "id": "mahmud1_012_uzun_baris_donemi",
+    "donem": "gerileme",
+    "alt_donem": "birinci_mahmud",
+    "tarih_yil_min": 1746,
+    "tarih_yil_max": 1754,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": false,
+    "gerekli_bayrak": null,
+    "metin": "1746'dan sonra imparatorluk hem doğuda hem batıda görece uzun bir barış dönemine girdi — Humbaracı Ahmed Paşa'nın başlattığı askeri reformlar, bu barış yıllarında da devam ediyor.",
+    "secenekler": [
+      {
+        "metin": "Bu huzur döneminden faydalanmaya çalış",
+        "etki": { "para": 4, "mutluluk": 3 },
+        "sonuc": "Savaşsız geçen yıllar, ticaret ve gündelik hayat için değerli bir soluklanma fırsatıydı."
+      },
+      {
+        "metin": "Bu barışın kalıcı olmasını umut et",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Herkes, bu huzurun uzun sürmesini diliyordu."
+      }
+    ]
+  },
+  {
+    "id": "mahmud1_013_mahmud_vefati",
+    "donem": "gerileme",
+    "alt_donem": "birinci_mahmud",
+    "tarih_yil_min": 1754,
+    "tarih_yil_max": 1754,
+    "yas_min": 5,
+    "yas_max": 80,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "13 Aralık 1754'te I. Mahmud vefat etti — 24 yıllık saltanatı, Patrona Halil'in kurnazca tasfiyesiyle başlamış, Hendesehane ve askeri reformlarla devam etmiş, Belgrad'ın geri alınmasıyla taçlanmıştı. Yerine kardeşi III. Osman geçti.",
+    "secenekler": [
+      {
+        "metin": "Bu istikrarlı ve reformcu saltanatı takdirle an",
+        "etki": { "mutluluk": -2, "zeka": 2 },
+        "sonuc": "I. Mahmud, hem içeride düzeni sağlamış hem askeri alanda gerçek yenilikler yapmış, hem de son büyük zaferi (Belgrad) kazanmıştı — devletin kendini toparlayabileceğinin bir kanıtıydı bu."
+      },
+      {
+        "metin": "Yeni sultanın döneminden merak et",
+        "etki": { "zeka": 1 },
+        "sonuc": "24 yıllık istikrarın ardından, devletin gidişatı yeni sultanın handsindeydi."
+      }
+    ]
   }
 ]
