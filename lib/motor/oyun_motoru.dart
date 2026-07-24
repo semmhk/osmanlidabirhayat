@@ -257,7 +257,8 @@ class OyunMotoru {
     int toplamAgirlik = 0;
 
     for (final o in secimHavuzu) {
-      int agirlik = 2; // Temel olay ağırlığı
+      bool tarihiOlay = !o.id.startsWith('gundelik');
+      int agirlik = tarihiOlay ? 8 : 2; // Tarihi olaylara 4 kat daha yüksek öncelik
 
       if (o.oncelikli) {
         // Telafi durumu kontrolü
@@ -265,9 +266,9 @@ class OyunMotoru {
         final bool evlilikTelafi = (karakter.yas >= 28 && karakter.esAdi == null);
 
         if (meslekTelafi || evlilikTelafi) {
-          agirlik = 8; // Telafi ağırlığı
+          agirlik = 12; // Telafi ağırlığı
         } else {
-          agirlik = 4; // Kilometre taşı ağırlığı
+          agirlik = 8; // Kilometre taşı ağırlığı
         }
       }
 
@@ -277,7 +278,7 @@ class OyunMotoru {
         if (zincir != null && karakter.meslekKademesi < zincir.kademeler.length - 1) {
           final mevcukKademe = zincir.kademeler[karakter.meslekKademesi];
           if (karakter.kademedekiYil >= mevcukKademe.minYil) {
-            agirlik = max(agirlik, 5);
+            agirlik = max(agirlik, 8);
           }
         }
       }
