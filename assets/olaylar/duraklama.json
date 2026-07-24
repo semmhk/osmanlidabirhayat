@@ -1934,5 +1934,341 @@
         "sonuc": "Boğazın açılması, tüm şehirde büyük bir bayram havası yarattı."
       }
     ]
+  },
+  {
+    "id": "mehmed4_2_001_fazil_ahmed_atanma",
+    "donem": "duraklama",
+    "alt_donem": "dorduncu_mehmed_2_koprululer",
+    "tarih_yil_min": 1661,
+    "tarih_yil_max": 1661,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "Yaşlı Köprülü Mehmed Paşa, ölmeden önce oğlu Fazıl Ahmed Paşa'yı kendi yerine sadrazam olarak tavsiye etti. Genç ama son derece iyi eğitimli Fazıl Ahmed, sadece 26 yaşında bu göreve getirildi.",
+    "secenekler": [
+      {
+        "metin": "Bu genç sadrazamdan büyük şeyler bekle",
+        "etki": { "zeka": 2, "mutluluk": 2 },
+        "sonuc": "Köprülü ailesinin devlet yönetimindeki başarısı, artık ikinci nesle geçiyordu."
+      },
+      {
+        "metin": "Bu genç yaştaki atamayı temkinle karşıla",
+        "etki": { "zeka": 1 },
+        "sonuc": "Zaman gösterecekti — bu genç adam, babasından bile daha parlak bir dönem açacaktı."
+      }
+    ]
+  },
+  {
+    "id": "mehmed4_2_002_uyvar_fethi",
+    "donem": "duraklama",
+    "alt_donem": "dorduncu_mehmed_2_koprululer",
+    "tarih_yil_min": 1663,
+    "tarih_yil_max": 1663,
+    "yas_min": 16,
+    "yas_max": 50,
+    "tek_seferlik": true,
+    "gerekli_bayrak": "meslek_seyfiye",
+    "metin": "Fazıl Ahmed Paşa, bizzat ordunun başında Avusturya'ya sefere çıktı ve Kanuni döneminde bile alınamayan Uyvar Kalesi'ni sadece 18 günde fethetti — Avrupa'da 'Uyvar önünde bir Türk kadar güçlü' deyimi doğdu.",
+    "secenekler": [
+      {
+        "metin": "Bu şaşırtıcı hızlı zafere katıl",
+        "etki": { "para": 6, "itibar": 4, "saglik": -3, "sans_gerekli": true },
+        "sonuc": "Onlarca yıldır alınamayan bir kale, bu genç sadrazamın komutasında haftalar içinde düşmüştü. Köprülüler'in gücü tartışmasızdı artık."
+      },
+      {
+        "metin": "Bu sefere katılmadın",
+        "etki": { "mutluluk": 2 },
+        "sonuc": "Zafer haberi, uzun süredir görülmeyen bir gururla karşılandı."
+      }
+    ]
+  },
+  {
+    "id": "mehmed4_2_003_vasvar_antlasmasi",
+    "donem": "duraklama",
+    "alt_donem": "dorduncu_mehmed_2_koprululer",
+    "tarih_yil_min": 1664,
+    "tarih_yil_max": 1664,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "Vasvar Antlaşması imzalandı — 1606'daki Zitvatorok'tan beri Osmanlı aleyhine değişen denge, bu antlaşmayla yeniden imparatorluk lehine döndü. Bu, yüzyılın en kazançlı antlaşması olarak anılacak.",
+    "secenekler": [
+      {
+        "metin": "Bu diplomatik başarıyı takdir et",
+        "etki": { "zeka": 2, "mutluluk": 3 },
+        "sonuc": "Köprülüler, sadece savaş meydanında değil, masa başında da üstünlük sağlamayı başarmıştı."
+      },
+      {
+        "metin": "Gündelik hayatına devam et",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Batı sınırında uzun süreli bir huzur sağlanmıştı."
+      }
+    ]
+  },
+  {
+    "id": "mehmed4_2_004_girit_3_yil_kusatma",
+    "donem": "duraklama",
+    "alt_donem": "dorduncu_mehmed_2_koprululer",
+    "tarih_yil_min": 1666,
+    "tarih_yil_max": 1669,
+    "yas_min": 16,
+    "yas_max": 50,
+    "tek_seferlik": true,
+    "gerekli_bayrak": "meslek_seyfiye",
+    "metin": "Fazıl Ahmed Paşa, 21 yıldır süren Girit meselesini kesin olarak çözmek için bizzat Kandiye önüne gitti — ve tam üç yıl boyunca aralıksız orada kaldı, kışları bile siperlerde geçirdi. Padişahtan yeterli destek gelmeyebileceği haberi bile onu geri döndürmedi.",
+    "secenekler": [
+      {
+        "metin": "Bu inanılmaz kararlılığa şahit ol, sefere katıl",
+        "etki": { "para": 5, "saglik": -5, "itibar": 3, "sans_gerekli": true },
+        "sonuc": "Üç yıl boyunca aynı kuşatmada kalmak, askeri tarihte ender görülen bir azimdi. Fazıl Ahmed, kendini tamamen bu davaya adamıştı."
+      },
+      {
+        "metin": "Bu uzun kuşatmaya katılmadın",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Sadrazamın bu kararlılığı, İstanbul'da da büyük saygıyla konuşuluyordu."
+      }
+    ]
+  },
+  {
+    "id": "mehmed4_2_005_kandiye_fethi",
+    "donem": "duraklama",
+    "alt_donem": "dorduncu_mehmed_2_koprululer",
+    "tarih_yil_min": 1669,
+    "tarih_yil_max": 1669,
+    "yas_min": 5,
+    "yas_max": 80,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "6 Eylül 1669'da Kandiye kalesi teslim oldu — 24-25 yıldır süren Girit meselesi nihayet tamamen çözüldü. Bu, Sultan İbrahim döneminde başlayan bir savaşın, üç padişah sonra kapanmasıydı.",
+    "secenekler": [
+      {
+        "metin": "Bu tarihi zaferi büyük bir coşkuyla kutla",
+        "etki": { "mutluluk": 8, "itibar": 3 },
+        "sonuc": "Nesillerdir süren bir savaş nihayet bitmişti. Şehirlerde günlerce şenlik yapıldı."
+      },
+      {
+        "metin": "Bu uzun savaşın maliyetini düşün",
+        "etki": { "zeka": 2, "mutluluk": 4 },
+        "sonuc": "Zafer büyüktü ama bedeli de ağır olmuştu — çeyrek asırlık bir mücadeleydi bu."
+      }
+    ]
+  },
+  {
+    "id": "mehmed4_2_006_kamanice_bucas",
+    "donem": "duraklama",
+    "alt_donem": "dorduncu_mehmed_2_koprululer",
+    "tarih_yil_min": 1672,
+    "tarih_yil_max": 1672,
+    "yas_min": 16,
+    "yas_max": 50,
+    "tek_seferlik": true,
+    "gerekli_bayrak": "meslek_seyfiye",
+    "metin": "Lehistan (Polonya) üzerine düzenlenen sefer, Kamaniçe ve Podolya gibi önemli toprakların fethiyle sonuçlandı. Bucaş Antlaşması ile Lehistan ağır bir vergiye mahkum edildi.",
+    "secenekler": [
+      {
+        "metin": "Bu sefere katıl",
+        "etki": { "para": 6, "itibar": 3, "saglik": -3, "sans_gerekli": true },
+        "sonuc": "Kamaniçe'nin fethi, Köprülüler döneminin bir başka büyük başarısı olarak tarihe geçti."
+      },
+      {
+        "metin": "Sefere katılmadın",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Zafer haberi geldiğinde büyük bir memnuniyet yaşandı."
+      }
+    ]
+  },
+  {
+    "id": "mehmed4_2_007_lehler_ihanet_ikinci_sefer",
+    "donem": "duraklama",
+    "alt_donem": "dorduncu_mehmed_2_koprululer",
+    "tarih_yil_min": 1674,
+    "tarih_yil_max": 1676,
+    "yas_min": 16,
+    "yas_max": 50,
+    "tek_seferlik": true,
+    "gerekli_bayrak": "meslek_seyfiye",
+    "metin": "Lehistan Meclisi, Bucaş Antlaşması'ndaki ağır vergiyi reddedince savaş yeniden başladı. Fazıl Ahmed Paşa ikinci kez sefere çıkmak zorunda kaldı.",
+    "secenekler": [
+      {
+        "metin": "Bu tekrarlanan sefere katıl",
+        "etki": { "para": 4, "saglik": -4, "mutluluk": -1, "sans_gerekli": true },
+        "sonuc": "Antlaşmaların bozulması, savaşların bitmek bilmediğini bir kez daha gösteriyordu."
+      },
+      {
+        "metin": "Bu sefere katılmadın",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Sürekli tekrarlanan savaşlar, halkı yormaya başlamıştı."
+      }
+    ]
+  },
+  {
+    "id": "mehmed4_2_008_fazil_ahmed_olumu",
+    "donem": "duraklama",
+    "alt_donem": "dorduncu_mehmed_2_koprululer",
+    "tarih_yil_min": 1676,
+    "tarih_yil_max": 1676,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "15 yıl boyunca imparatorluğu zaferden zafere taşıyan Fazıl Ahmed Paşa, yorucu seferlerin ve içki alışkanlığının etkisiyle henüz 41 yaşında vefat etti.",
+    "secenekler": [
+      {
+        "metin": "Bu büyük devlet adamının kaybını derin bir üzüntüyle karşıla",
+        "etki": { "mutluluk": -5, "zeka": 1 },
+        "sonuc": "Uyvar'dan Girit'e, Kamaniçe'ye kadar uzanan bir zafer serisinin mimarı artık yoktu. Onun yerini kimin dolduracağı büyük bir soru işaretiydi."
+      },
+      {
+        "metin": "Onun mirasının kalıcı olacağını düşün",
+        "etki": { "zeka": 2, "mutluluk": -3 },
+        "sonuc": "Köprülüler'in ikinci nesli, imparatorluğa parlak bir altın çağ yaşatmıştı."
+      }
+    ]
+  },
+  {
+    "id": "mehmed4_2_009_merzifonlu_atanma",
+    "donem": "duraklama",
+    "alt_donem": "dorduncu_mehmed_2_koprululer",
+    "tarih_yil_min": 1676,
+    "tarih_yil_max": 1676,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "Fazıl Ahmed Paşa'nın yerine, Köprülü ailesinin damadı Merzifonlu Kara Mustafa Paşa sadrazam oldu — hırslı ve iddialı bir devlet adamı, kendi büyük zaferini arıyor.",
+    "secenekler": [
+      {
+        "metin": "Bu yeni sadrazamın hırsını merakla izle",
+        "etki": { "zeka": 1 },
+        "sonuc": "Köprülülerin başarı zincirinin devam edip etmeyeceği merak konusuydu."
+      },
+      {
+        "metin": "Devlet işlerine karışmadan hayatına devam et",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Her yeni sadrazamla birlikte yeni bir dönem beklentisi doğardı."
+      }
+    ]
+  },
+  {
+    "id": "mehmed4_2_010_rusya_savasi_bahcesaray",
+    "donem": "duraklama",
+    "alt_donem": "dorduncu_mehmed_2_koprululer",
+    "tarih_yil_min": 1677,
+    "tarih_yil_max": 1678,
+    "yas_min": 16,
+    "yas_max": 50,
+    "tek_seferlik": true,
+    "gerekli_bayrak": "meslek_seyfiye",
+    "metin": "Rusya'nın saldırısı üzerine Çehrin Kalesi çevresinde savaşlar başladı. Mücadele, 1678'de Bahçesaray Antlaşması ile sona erdi.",
+    "secenekler": [
+      {
+        "metin": "Bu doğu sınırı meselesine katkıda bulun",
+        "etki": { "para": 3, "saglik": -2, "sans_gerekli": true },
+        "sonuc": "Rusya ile ilk büyük çaplı karşılaşmalardan biriydi bu — ileride çok daha büyük bir rakip olacaklardı."
+      },
+      {
+        "metin": "Bu uzak sefere katılmadın",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Antlaşma haberi geldiğinde bölgede bir süreliğine huzur sağlandı."
+      }
+    ]
+  },
+  {
+    "id": "mehmed4_2_011_tokeli_imre_himaye",
+    "donem": "duraklama",
+    "alt_donem": "dorduncu_mehmed_2_koprululer",
+    "tarih_yil_min": 1681,
+    "tarih_yil_max": 1682,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "Avusturya'nın baskısına karşı ayaklanan Protestan Macar lideri Tökeli İmre, Osmanlı himayesine girmek istedi. Bu kez Merzifonlu Kara Mustafa Paşa bu teklifi kabul etti — bu, büyük bir Avusturya seferinin fitilini ateşleyecekti.",
+    "secenekler": [
+      {
+        "metin": "Bu ittifakın sonuçlarını merakla düşün",
+        "etki": { "zeka": 2, "mutluluk": -1 },
+        "sonuc": "Sadrazam'ın hırsı, imparatorluğu çok daha büyük bir maceraya sürüklüyor gibiydi."
+      },
+      {
+        "metin": "Gündelik hayatına devam et",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Büyük bir seferin hazırlıkları başlamıştı bile."
+      }
+    ]
+  },
+  {
+    "id": "mehmed4_2_012_viyana_kusatma_baslangic",
+    "donem": "duraklama",
+    "alt_donem": "dorduncu_mehmed_2_koprululer",
+    "tarih_yil_min": 1683,
+    "tarih_yil_max": 1683,
+    "yas_min": 16,
+    "yas_max": 50,
+    "tek_seferlik": true,
+    "gerekli_bayrak": "meslek_seyfiye",
+    "metin": "Merzifonlu Kara Mustafa Paşa, yaklaşık 150.000 kişilik dev bir orduyla Viyana'ya yürüdü — hedefi, Kanuni'nin 1529'da başaramadığını başarmaktı. 14 Temmuz'da şehir kuşatıldı.",
+    "secenekler": [
+      {
+        "metin": "Bu tarihi büyük sefere katıl",
+        "etki": { "para": 5, "itibar": 3, "saglik": -4, "sans_gerekli": true },
+        "sonuc": "Avrupa'nın kalbindeki bu büyük şehri kuşatmak, muazzam bir hırsın göstergesiydi. Kimse henüz sonucun nasıl olacağını bilmiyordu."
+      },
+      {
+        "metin": "Bu uzak ve büyük sefere katılmadın",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "İstanbul'da herkes bu büyük seferin sonucunu merakla bekliyordu."
+      }
+    ]
+  },
+  {
+    "id": "mehmed4_2_013_kahlenberg_bozgunu",
+    "donem": "duraklama",
+    "alt_donem": "dorduncu_mehmed_2_koprululer",
+    "tarih_yil_min": 1683,
+    "tarih_yil_max": 1683,
+    "yas_min": 5,
+    "yas_max": 80,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "İki ay süren kuşatmanın ardından, Lehistan Kralı Sobieski komutasındaki dev bir Hristiyan yardım ordusu Kahlenberg Tepesi'nden ani bir saldırıya geçti. Kırım Hanı'nın (sadrazama duyduğu kin yüzünden) gerekli desteği vermemesi de bozgunu hızlandırdı. Osmanlı ordusu ağır bir şekilde dağıldı, ordugah, silahlar ve hazine düşman eline geçti.",
+    "secenekler": [
+      {
+        "metin": "Bu feci bozgunun bir parçası olarak hayatta kal",
+        "etki": { "saglik": -6, "mutluluk": -8, "sans_gerekli": true },
+        "sonuc": "Bu, Osmanlı askeri tarihinin en ağır yenilgilerinden biriydi. 154 yıl önce Kanuni'nin başaramadığı fetih, şimdi tam tersine bir felaketle sonuçlanmıştı."
+      },
+      {
+        "metin": "Bu dehşet verici haberi İstanbul'da bekleyerek karşıla",
+        "etki": { "mutluluk": -7 },
+        "sonuc": "Bozgun haberi tüm ülkeyi derinden sarstı — bu, 'yenilmez' sanılan bir imparatorluk için bir kırılma noktasıydı."
+      }
+    ]
+  },
+  {
+    "id": "mehmed4_2_014_merzifonlu_idami",
+    "donem": "duraklama",
+    "alt_donem": "dorduncu_mehmed_2_koprululer",
+    "tarih_yil_min": 1683,
+    "tarih_yil_max": 1683,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "Bozgunun sorumlusu sayılan Merzifonlu Kara Mustafa Paşa, Belgrad'a ulaştığında IV. Mehmed'in emriyle idam edildi. Rivayete göre padişah sonradan fikrini değiştirip affetmek istese de, ikinci emir ulaşana kadar paşa çoktan idam edilmişti.",
+    "secenekler": [
+      {
+        "metin": "Bu trajik ve geç kalan affı düşün",
+        "etki": { "mutluluk": -4, "zeka": 2 },
+        "sonuc": "Yıllarca imparatorluğa hizmet etmiş bir sadrazamın, bir bozgunun ardından bu şekilde son bulması, sarayın ne kadar acımasız bir yer olabildiğini bir kez daha gösterdi."
+      },
+      {
+        "metin": "Bu sonucu devlet mantığı çerçevesinde anlamaya çalış",
+        "etki": { "zeka": 1, "mutluluk": -3 },
+        "sonuc": "Böylesine büyük bir yenilginin bir sorumlusu olması gerekiyordu — ama bu, geleceğe dair derin bir endişe de bırakıyordu."
+      }
+    ]
   }
 ]

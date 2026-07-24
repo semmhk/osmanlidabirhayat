@@ -26,12 +26,12 @@ void main() {
       tumOlaylar = [...o1, ...o2, ...o3];
     });
 
-    test('1. kurulus.json (138) + yukselme.json (101) + duraklama.json (81) = 320 olay eksiksiz, benzersiz ID ve alt_donem alanlarıyla yüklenmeli', () {
-      expect(tumOlaylar.length, equals(320));
+    test('1. kurulus.json (138) + yukselme.json (101) + duraklama.json (95) = 334 olay eksiksiz, benzersiz ID ve alt_donem alanlarıyla yüklenmeli', () {
+      expect(tumOlaylar.length, equals(334));
       
       // Benzersiz ID kontrolü
       final idSet = tumOlaylar.map((o) => o.id).toSet();
-      expect(idSet.length, equals(320));
+      expect(idSet.length, equals(334));
 
       final ahilikOlayi = tumOlaylar.firstWhere((o) => o.id == 'kurulus_001');
       expect(ahilikOlayi.tarihYilMin, equals(1299));
@@ -115,6 +115,11 @@ void main() {
       final cinarVakasi = tumOlaylar.firstWhere((o) => o.id == 'mehmed4_1_007_cinar_vakasi');
       expect(cinarVakasi.donem, equals('duraklama'));
       expect(cinarVakasi.altDonem, equals('dorduncu_mehmed_1_kaos'));
+
+      // IV. Mehmed II (Köprülüler) Duraklama dönemi olayları kontrolü
+      final kahlenbergBozgunu = tumOlaylar.firstWhere((o) => o.id == 'mehmed4_2_013_kahlenberg_bozgunu');
+      expect(kahlenbergBozgunu.donem, equals('duraklama'));
+      expect(kahlenbergBozgunu.altDonem, equals('dorduncu_mehmed_2_koprululer'));
     });
 
     test('2. Şema doğrulayıcı hatalı tarih_yil_min > tarih_yil_max durumunu yakalamalı', () {
