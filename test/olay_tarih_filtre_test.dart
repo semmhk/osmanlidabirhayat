@@ -23,12 +23,12 @@ void main() {
       tumOlaylar = [...o1, ...o2];
     });
 
-    test('1. kurulus.json (138) + yukselme.json (98) = 236 olay eksiksiz, benzersiz ID ve alt_donem alanlarıyla yüklenmeli', () {
-      expect(tumOlaylar.length, equals(236));
+    test('1. kurulus.json (138) + yukselme.json (101) = 239 olay eksiksiz, benzersiz ID ve alt_donem alanlarıyla yüklenmeli', () {
+      expect(tumOlaylar.length, equals(239));
       
       // Benzersiz ID kontrolü
       final idSet = tumOlaylar.map((o) => o.id).toSet();
-      expect(idSet.length, equals(236));
+      expect(idSet.length, equals(239));
 
       final ahilikOlayi = tumOlaylar.firstWhere((o) => o.id == 'kurulus_001');
       expect(ahilikOlayi.tarihYilMin, equals(1299));
@@ -41,6 +41,9 @@ void main() {
       final fatihTahtaCikis = tumOlaylar.firstWhere((o) => o.id == 'fatih_001_ikinci_tahta_cikis');
       expect(fatihTahtaCikis.donem, equals('yukselme'));
       expect(fatihTahtaCikis.altDonem, equals('fatih_sultan_mehmed'));
+
+      final sahnISeman = tumOlaylar.firstWhere((o) => o.id == 'fatih_017_sahn_i_seman');
+      expect(sahnISeman.altDonem, equals('fatih_sultan_mehmed'));
 
       // II. Bayezid Yükselme dönemi olayları kontrolü
       final bayezid2TahtaCikis = tumOlaylar.firstWhere((o) => o.id == 'bayezid2_001_tahta_cikis_yarisi');
@@ -61,6 +64,9 @@ void main() {
       final prevezeZaferi = tumOlaylar.firstWhere((o) => o.id == 'kanuni2_001_preveze_zaferi');
       expect(prevezeZaferi.donem, equals('yukselme'));
       expect(prevezeZaferi.altDonem, equals('kanuni_2_zirve'));
+
+      final budinEyaleti = tumOlaylar.firstWhere((o) => o.id == 'kanuni2_015_budin_eyaleti');
+      expect(budinEyaleti.altDonem, equals('kanuni_2_zirve'));
 
       // Kanuni III (Son Yıllar) dönemi olayları kontrolü
       final kanuniVefati = tumOlaylar.firstWhere((o) => o.id == 'kanuni3_012_kanuni_vefati');

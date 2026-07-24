@@ -2339,5 +2339,78 @@
         "sonuc": "Bir çağ kapanırken, imparatorluğun geleceği hakkında sorular çoğalıyordu."
       }
     ]
+  },
+  {
+    "id": "fatih_017_sahn_i_seman",
+    "donem": "yukselme",
+    "alt_donem": "fatih_sultan_mehmed",
+    "tarih_yil_min": 1463,
+    "tarih_yil_max": 1470,
+    "yas_min": 10,
+    "yas_max": 25,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "Fatih Camii'nin çevresinde, ünlü astronom ve matematikçi Ali Kuşçu'nun katkılarıyla sekiz büyük medreseden oluşan Sahn-ı Seman kompleksi tamamlandı — dönemin en üst düzey ilim yuvası. Buraya girebilmek için önce küçük 'tetimme' medreselerinde sınavı geçmek gerekiyor.",
+    "secenekler": [
+      {
+        "metin": "Tetimme medresesine başvur, Sahn-ı Seman'a giden yolu dene",
+        "etki": { "zeka": 6, "itibar": 2 },
+        "meslek_atama": "ilmiye",
+        "sonuc": "Zorlu bir eğitim yolculuğu başladı. Kelam, fıkıh, tefsir, hatta hesap ve gökbilim dersleri alacaktın — bu, bir 'İstanbul Ruusu' belgesine, yani ilmiye kariyerinde ileri bir kapıya açılıyordu."
+      },
+      {
+        "metin": "Kendi işinde kalmayı tercih et",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Bu zorlu ilim yolu herkese göre değildi. Sahn-ı Seman'ın ünü yine de tüm şehirde konuşuluyordu."
+      }
+    ]
+  },
+  {
+    "id": "fatih_018_ilk_altin_sikke",
+    "donem": "yukselme",
+    "alt_donem": "fatih_sultan_mehmed",
+    "tarih_yil_min": 1477,
+    "tarih_yil_max": 1481,
+    "yas_min": 8,
+    "yas_max": 70,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "İstanbul'un fethinden yıllar sonra, darphanede ilk kez Osmanlı adına bir altın sikke basıldığı haberi yayıldı. O zamana kadar hep gümüş akçe kullanılırdı — bu altın sikke, devletin ekonomik gücünün bir kanıtı sayılıyor.",
+    "secenekler": [
+      {
+        "metin": "Bu yeni altın sikkeyi görmeye/edinmeye çalış",
+        "etki": { "mutluluk": 3, "zeka": 1 },
+        "sonuc": "Elinde parlayan altın sikkeyi tutmak, devletin ne denli zenginleştiğinin somut bir kanıtıydı."
+      },
+      {
+        "metin": "Gündelik hayatında gümüş akçeyi kullanmaya devam et",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Altın sikke daha çok büyük işlemlerde ve hazine kayıtlarında kullanılıyordu, gündelik alışverişte gümüş akçe hala yaygındı."
+      }
+    ]
+  },
+  {
+    "id": "kanuni2_015_budin_eyaleti",
+    "donem": "yukselme",
+    "alt_donem": "kanuni_2_zirve",
+    "tarih_yil_min": 1541,
+    "tarih_yil_max": 1541,
+    "yas_min": 10,
+    "yas_max": 60,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "Macaristan meselesi yeniden alevlenince ordu Budin'e girdi ve burada kalıcı bir Osmanlı eyaleti kuruldu. Macaristan artık üçe bölünmüş durumda: Budin merkezli doğrudan Osmanlı toprağı, Habsburgların elindeki batı kesimi, ve vasal bir devlet olarak kurulan Erdel (Transilvanya) Beyliği.",
+    "secenekler": [
+      {
+        "metin": "Bu yeni eyalete yerleşmeyi düşün",
+        "etki": { "para": 3, "mutluluk": 1 },
+        "sonuc": "Budin, artık Orta Avrupa'daki hakimiyetimizin idari merkeziydi. Yeni bir sınır boyu hayatı başlıyordu."
+      },
+      {
+        "metin": "Bu idari düzenlemeyi uzaktan takip et",
+        "etki": { "zeka": 1 },
+        "sonuc": "Macaristan'ın bu şekilde üçe bölünmesi, onlarca yıl sürecek bir denge kuracaktı."
+      }
+    ]
   }
 ]
