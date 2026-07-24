@@ -1694,5 +1694,245 @@
         "sonuc": "Kimse bilemezdi ama bu çocuk padişah, ileride uzun bir saltanat sürecekti."
       }
     ]
+  },
+  {
+    "id": "mehmed4_1_001_cocuk_padisah",
+    "donem": "duraklama",
+    "alt_donem": "dorduncu_mehmed_1_kaos",
+    "tarih_yil_min": 1648,
+    "tarih_yil_max": 1648,
+    "yas_min": 5,
+    "yas_max": 70,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "Babası Sultan İbrahim'in tahttan indirilmesinin ardından, henüz 6-7 yaşındaki Şehzade Mehmed tahta çıktı. Devlet fiilen büyükannesi Kösem Sultan ve annesi Turhan Sultan tarafından yönetilecek.",
+    "secenekler": [
+      {
+        "metin": "Bu son derece genç padişahın döneminden endişelen",
+        "etki": { "zeka": 2, "mutluluk": -1 },
+        "sonuc": "Devletin, art arda genç/dengesiz padişahlarla yönetilmesi, herkesi tedirgin ediyordu."
+      },
+      {
+        "metin": "Umutla yeni döneme bak",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Kimse bilemezdi ama bu çocuk padişah, sonunda çok uzun bir saltanat sürecekti."
+      }
+    ]
+  },
+  {
+    "id": "mehmed4_1_002_kosem_turhan_rekabeti",
+    "donem": "duraklama",
+    "alt_donem": "dorduncu_mehmed_1_kaos",
+    "tarih_yil_min": 1648,
+    "tarih_yil_max": 1651,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": false,
+    "gerekli_bayrak": null,
+    "metin": "Sarayda iki güçlü kadın arasında amansız bir iktidar mücadelesi yaşanıyor: onlarca yıldır etkili olan büyükanne Kösem Sultan ile genç padişahın annesi Turhan Sultan. İkisi de kendi adamlarını devlet kademelerine yerleştirmeye çalışıyor.",
+    "secenekler": [
+      {
+        "metin": "Bu rekabeti endişeyle izle",
+        "etki": { "zeka": 2, "mutluluk": -1 },
+        "sonuc": "Sarayın bu iç çekişmesi, devlet işlerinin sağlıklı yürütülmesini iyice zorlaştırıyordu."
+      },
+      {
+        "metin": "Kendi işine odaklan",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Saray içi güç mücadeleleri, halkın gündelik derdinden uzak görünüyordu — ama sonuçları herkesi etkileyecekti."
+      }
+    ]
+  },
+  {
+    "id": "mehmed4_1_003_kosem_katli",
+    "donem": "duraklama",
+    "alt_donem": "dorduncu_mehmed_1_kaos",
+    "tarih_yil_min": 1651,
+    "tarih_yil_max": 1651,
+    "yas_min": 10,
+    "yas_max": 60,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "Şok edici bir haber: Turhan Sultan, yıllardır devletin en güçlü kadını olan Kösem Sultan'ı bir gece baskınında öldürttü — kırk yıla yakın süredir sarayın perde arkasındaki en etkili ismi, kendi hanedanı içindeki bir rekabet sonucu can vermişti.",
+    "secenekler": [
+      {
+        "metin": "Bu büyük kaybı derin bir şaşkınlıkla karşıla",
+        "etki": { "mutluluk": -5, "zeka": 1 },
+        "sonuc": "I. Ahmed'den beri dört padişah döneminde etkili olmuş bir kadının bu şekilde sonu gelmesi, herkesi derinden sarstı."
+      },
+      {
+        "metin": "Bu iktidar mücadelesinin doğal bir sonucu say",
+        "etki": { "zeka": 2, "mutluluk": -3 },
+        "sonuc": "Saray içi rekabet, en güçlü isimleri bile koruyamıyordu."
+      }
+    ]
+  },
+  {
+    "id": "mehmed4_1_004_turhan_naipligi",
+    "donem": "duraklama",
+    "alt_donem": "dorduncu_mehmed_1_kaos",
+    "tarih_yil_min": 1651,
+    "tarih_yil_max": 1656,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": false,
+    "gerekli_bayrak": null,
+    "metin": "Kösem'in ölümünden sonra Turhan Sultan, Osmanlı tarihinde fiilen tek başına naiplik (vekillik) yapan ilk Valide Sultan oldu. Ama tecrübesizliği, sık sadrazam değişimlerine ve devlet işlerinde istikrarsızlığa yol açıyor.",
+    "secenekler": [
+      {
+        "metin": "Bu yeni yönetim düzenini merakla izle",
+        "etki": { "zeka": 2 },
+        "sonuc": "Genç ve tecrübesiz bir naibe, devletin karmaşık işlerini tek başına yönetmeye çalışıyordu."
+      },
+      {
+        "metin": "İstikrarsızlıktan endişelen",
+        "etki": { "mutluluk": -2 },
+        "sonuc": "Sadrazamlar birbiri ardına değişiyor, hiçbiri kalıcı bir çözüm getiremiyordu."
+      }
+    ]
+  },
+  {
+    "id": "mehmed4_1_005_ekonomik_kriz",
+    "donem": "duraklama",
+    "alt_donem": "dorduncu_mehmed_1_kaos",
+    "tarih_yil_min": 1651,
+    "tarih_yil_max": 1656,
+    "yas_min": 15,
+    "yas_max": 55,
+    "tek_seferlik": false,
+    "gerekli_bayrak": null,
+    "metin": "Girit savaşının uzaması, sürekli sadrazam değişimleri ve idari kargaşa, devlet hazinesini iyice zorluyor. Akçenin değeri düşüyor, maaş ödemeleri aksıyor, esnaf ve asker arasında hoşnutsuzluk büyüyor.",
+    "secenekler": [
+      {
+        "metin": "Bu ekonomik sıkıntıyla mücadele etmeye çalış",
+        "etki": { "para": -4, "mutluluk": -2 },
+        "sonuc": "Herkes bütçesini yeniden gözden geçirmek zorunda kalıyordu."
+      },
+      {
+        "metin": "Devletin bir çözüm bulmasını bekle",
+        "etki": { "mutluluk": -1 },
+        "sonuc": "Kriz derinleştikçe, güçlü bir elin devreye girmesi gerektiği konuşuluyordu."
+      }
+    ]
+  },
+  {
+    "id": "mehmed4_1_006_venedik_ablukasi",
+    "donem": "duraklama",
+    "alt_donem": "dorduncu_mehmed_1_kaos",
+    "tarih_yil_min": 1651,
+    "tarih_yil_max": 1656,
+    "yas_min": 15,
+    "yas_max": 50,
+    "tek_seferlik": false,
+    "gerekli_bayrak": "meslek_seyfiye",
+    "metin": "Girit savaşı sürerken Venedik donanması, Çanakkale Boğazı'nı abluka altına almayı başardı — İstanbul'a erzak ve asker sevkiyatı ciddi şekilde tehlikeye girdi, şehirde kıtlık korkusu yayıldı.",
+    "secenekler": [
+      {
+        "metin": "Bu ablukayı kırmaya yardım et",
+        "etki": { "para": 3, "saglik": -2, "sans_gerekli": true },
+        "sonuc": "Boğazın açık tutulması hayati önem taşıyordu — bu, imparatorluğun kalbine yönelmiş ciddi bir tehditti."
+      },
+      {
+        "metin": "Kıtlık ihtimaline karşı stok yap",
+        "etki": { "para": -3 },
+        "sonuc": "Herkes olası bir kıtlığa karşı hazırlıklı olmaya çalışıyordu."
+      }
+    ]
+  },
+  {
+    "id": "mehmed4_1_007_cinar_vakasi",
+    "donem": "duraklama",
+    "alt_donem": "dorduncu_mehmed_1_kaos",
+    "tarih_yil_min": 1656,
+    "tarih_yil_max": 1656,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "Ekonomik kriz ve maaş ödemelerindeki aksaklık had safhaya varınca, yeniçeri ve sipahiler büyük bir isyan başlattı. Sultanahmet Meydanı'ndaki koca bir çınar ağacına 30'a yakın devlet adamının cesedi asıldı — bu olay 'Vaka-i Vakvakiye' (Çınar Vakası) diye anılacak.",
+    "secenekler": [
+      {
+        "metin": "Bu vahşi sahneye şahit ol",
+        "etki": { "mutluluk": -7, "saglik": -1 },
+        "sonuc": "Meydanda asılı cesetlerin görüntüsü, İstanbul halkının hafızasına kazınacak kadar dehşet vericiydi. Devletin ne denli derin bir krizde olduğunun en açık kanıtıydı bu."
+      },
+      {
+        "metin": "Bu olayı devletin dip noktasına vardığının işareti say",
+        "etki": { "zeka": 3, "mutluluk": -5 },
+        "sonuc": "Artık kökten bir değişim olmazsa, devletin daha da kötüye gideceği herkesçe hissediliyordu."
+      }
+    ]
+  },
+  {
+    "id": "mehmed4_1_008_koprulu_atanma",
+    "donem": "duraklama",
+    "alt_donem": "dorduncu_mehmed_1_kaos",
+    "tarih_yil_min": 1656,
+    "tarih_yil_max": 1656,
+    "yas_min": 10,
+    "yas_max": 60,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "Çınar Vakası'nın ardından Turhan Sultan, çaresizlik içinde yaşlı ama son derece kararlı bir devlet adamı olan Köprülü Mehmed Paşa'yı sadrazamlığa getirdi — ama Köprülü, göreve gelmeden önce kendisine tam yetki ve kimsenin müdahale etmeyeceğine dair kesin bir söz aldı.",
+    "secenekler": [
+      {
+        "metin": "Bu yeni ve kararlı ismi umutla karşıla",
+        "etki": { "mutluluk": 4, "zeka": 1 },
+        "sonuc": "Yıllardır süren kaosun ardından, güçlü ve kararlı bir elin devreye girmesi büyük bir umut kaynağıydı."
+      },
+      {
+        "metin": "Bu atamanın sonuçlarını merakla bekle",
+        "etki": { "zeka": 2 },
+        "sonuc": "Köprülü'nün sert şartları, onun gerçekten farklı bir devlet adamı olduğunun ilk işaretiydi."
+      }
+    ]
+  },
+  {
+    "id": "mehmed4_1_009_koprulu_sert_temizlik",
+    "donem": "duraklama",
+    "alt_donem": "dorduncu_mehmed_1_kaos",
+    "tarih_yil_min": 1656,
+    "tarih_yil_max": 1657,
+    "yas_min": 15,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "Köprülü Mehmed Paşa, göreve gelir gelmez binlerce (bazı rivayetlere göre on binlerce) yolsuz, rüşvetçi ve isyancı devlet görevlisini idam ettirerek devlette sert bir temizlik başlattı.",
+    "secenekler": [
+      {
+        "metin": "Bu acımasız ama etkili yöntemi devletin kurtuluşu say",
+        "etki": { "zeka": 2, "mutluluk": -2 },
+        "sonuc": "Yöntemler tartışmalıydı ama sonuçları hızlı geldi: rüşvet azaldı, otorite yeniden tesis edildi."
+      },
+      {
+        "metin": "Bu sertliğin bedelini düşün",
+        "etki": { "mutluluk": -3 },
+        "sonuc": "Düzen geri geliyordu ama bunun bedeli çok ağır oluyordu."
+      }
+    ]
+  },
+  {
+    "id": "mehmed4_1_010_bogazi_kurtarma",
+    "donem": "duraklama",
+    "alt_donem": "dorduncu_mehmed_1_kaos",
+    "tarih_yil_min": 1656,
+    "tarih_yil_max": 1656,
+    "yas_min": 16,
+    "yas_max": 50,
+    "tek_seferlik": true,
+    "gerekli_bayrak": "meslek_seyfiye",
+    "metin": "Köprülü Mehmed Paşa'nın önderliğinde yenilenen donanma, Çanakkale Boğazı'ndaki Venedik ablukasını kırmayı başardı — İstanbul'a erzak ve asker akışı yeniden güvenli hale geldi.",
+    "secenekler": [
+      {
+        "metin": "Bu zaferi büyük bir rahatlamayla karşıla",
+        "etki": { "para": 3, "mutluluk": 5, "itibar": 2, "sans_gerekli": true },
+        "sonuc": "Yılların kıtlık korkusu sona ermişti. Köprülü'nün kararlılığı, gerçekten sonuç veriyordu."
+      },
+      {
+        "metin": "Bu zaferi uzaktan sevinçle karşıla",
+        "etki": { "mutluluk": 3 },
+        "sonuc": "Boğazın açılması, tüm şehirde büyük bir bayram havası yarattı."
+      }
+    ]
   }
 ]
