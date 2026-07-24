@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import '../bilesenler/vesikalik_avatar.dart';
 import '../modeller/cocuk.dart';
 import '../modeller/karakter.dart';
 import '../modeller/olay.dart';
@@ -209,7 +210,7 @@ class _OyunEkraniState extends State<OyunEkrani> {
             children: [
               // Üst Ferman Alanı (Padişah & Takvim & Karakter & Bakiye)
               Container(
-                padding: const EdgeInsets.all(12),
+                padding: const EdgeInsets.all(10),
                 decoration: BoxDecoration(
                   color: Renkler.kagitGetirYasaGore(k.yas),
                   borderRadius: BorderRadius.circular(10),
@@ -217,7 +218,7 @@ class _OyunEkraniState extends State<OyunEkrani> {
                 ),
                 child: Column(
                   children: [
-                    // Dönem, Takvim Yılı, Padişah Portresi ve İkonlar
+                    // 1. Üst Satır: Takvim, Ev Butonu, Nesil ve Ses İkonu
                     Container(
                       padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
                       decoration: BoxDecoration(
@@ -250,44 +251,6 @@ class _OyunEkraniState extends State<OyunEkrani> {
                               ),
                             ],
                           ),
-                          if (padisah != null)
-                            Row(
-                              mainAxisSize: MainAxisSize.min,
-                              children: [
-                                if (padisah.portreGorsel != null) ...[
-                                  Container(
-                                    width: 32,
-                                    height: 32,
-                                    decoration: BoxDecoration(
-                                      shape: BoxShape.circle,
-                                      border: Border.all(color: Renkler.altin, width: 1.5),
-                                      image: DecorationImage(
-                                        image: AssetImage(padisah.portreGorsel!),
-                                        fit: BoxFit.cover,
-                                      ),
-                                    ),
-                                  ),
-                                  const SizedBox(width: 4),
-                                ],
-                                if (padisah.tugraGorsel != null) ...[
-                                  Image.asset(
-                                    padisah.tugraGorsel!,
-                                    height: 32,
-                                    fit: BoxFit.contain,
-                                    errorBuilder: (context, error, stackTrace) => const SizedBox.shrink(),
-                                  ),
-                                  const SizedBox(width: 4),
-                                ],
-                                Text(
-                                  '👑 ${padisah.isim}',
-                                  style: const TextStyle(
-                                    fontSize: 11,
-                                    fontWeight: FontWeight.w600,
-                                    color: Renkler.damga,
-                                  ),
-                                ),
-                              ],
-                            ),
                           Row(
                             mainAxisSize: MainAxisSize.min,
                             children: [
@@ -295,10 +258,11 @@ class _OyunEkraniState extends State<OyunEkrani> {
                                 '📜 N:${k.nesil}',
                                 style: const TextStyle(
                                   fontSize: 11,
+                                  fontWeight: FontWeight.w600,
                                   color: Renkler.murekkep,
                                 ),
                               ),
-                              const SizedBox(width: 6),
+                              const SizedBox(width: 8),
                               GestureDetector(
                                 onTap: () {
                                   setState(() {
@@ -316,26 +280,82 @@ class _OyunEkraniState extends State<OyunEkrani> {
                         ],
                       ),
                     ),
-                    const SizedBox(height: 12),
+                    const SizedBox(height: 6),
 
-                    // Karakter İsmi, Cinsiyet ve Bakiye
+                    // 2. Satır: Padişah Bilgi Şeridi (Taşmaları önleyen esnek FittedBox yapısı)
+                    if (padisah != null)
+                      Container(
+                        width: double.infinity,
+                        padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 3),
+                        decoration: BoxDecoration(
+                          color: Renkler.damga.withAlpha(15),
+                          borderRadius: BorderRadius.circular(6),
+                          border: Border.all(color: Renkler.altin.withAlpha(120), width: 1),
+                        ),
+                        child: FittedBox(
+                          fit: BoxFit.scaleDown,
+                          child: Row(
+                            mainAxisAlignment: MainAxisAlignment.center,
+                            children: [
+                              if (padisah.portreGorsel != null) ...[
+                                Container(
+                                  width: 26,
+                                  height: 26,
+                                  decoration: BoxDecoration(
+                                    shape: BoxShape.circle,
+                                    border: Border.all(color: Renkler.altin, width: 1.5),
+                                    image: DecorationImage(
+                                      image: AssetImage(padisah.portreGorsel!),
+                                      fit: BoxFit.cover,
+                                    ),
+                                  ),
+                                ),
+                                const SizedBox(width: 6),
+                              ],
+                              if (padisah.tugraGorsel != null) ...[
+                                Image.asset(
+                                  padisah.tugraGorsel!,
+                                  height: 24,
+                                  fit: BoxFit.contain,
+                                  errorBuilder: (context, error, stackTrace) => const SizedBox.shrink(),
+                                ),
+                                const SizedBox(width: 6),
+                              ],
+                              Text(
+                                '👑 ${padisah.isim}',
+                                style: const TextStyle(
+                                  fontSize: 12,
+                                  fontWeight: FontWeight.bold,
+                                  color: Renkler.damga,
+                                ),
+                              ),
+                            ],
+                          ),
+                        ),
+                      ),
+                    const SizedBox(height: 10),
+
+                    // 3. Satır: DİNAMİK AVATAR (VesikalikAvatar), Karakter İsmi ve Akçe Bakiyesi
                     Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
                         Row(
                           children: [
-                            Text(
-                              k.cinsiyet == Cinsiyet.erkek ? '🧔' : '🧕',
-                              style: const TextStyle(fontSize: 22),
+                            // 100% Dinamik Yaşlanan Osmanlı Avatarı
+                            VesikalikAvatar(
+                              yas: k.yas,
+                              genler: k.genler,
+                              genislik: 48,
+                              yukseklik: 58,
                             ),
-                            const SizedBox(width: 8),
+                            const SizedBox(width: 10),
                             Column(
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
                                 Text(
                                   k.isim,
                                   style: const TextStyle(
-                                    fontSize: 16,
+                                    fontSize: 15,
                                     fontWeight: FontWeight.bold,
                                     color: Renkler.murekkep,
                                   ),
@@ -376,7 +396,7 @@ class _OyunEkraniState extends State<OyunEkrani> {
                         ),
                       ],
                     ),
-                    const SizedBox(height: 12),
+                    const SizedBox(height: 10),
 
                     // Stat Barları (Sağlık, Mutluluk, Zeka, İtibar)
                     _statBar('Sağlık', k.saglik, Colors.red.shade800),
