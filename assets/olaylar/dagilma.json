@@ -1,0 +1,291 @@
+[
+  {
+    "id": "mahmud2_1_001_mustafa4_kisa_saltanat",
+    "donem": "dagilma",
+    "alt_donem": "ikinci_mahmud_1",
+    "tarih_yil_min": 1807,
+    "tarih_yil_max": 1808,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "Kabakçı Mustafa İsyanı sonucu tahta çıkan IV. Mustafa, Nizam-ı Cedid'in tüm izlerini sildirdi. Ama saltanatı kısa sürecekti — Rusçuklu bir komutan olan Alemdar Mustafa Paşa, III. Selim'i yeniden tahta çıkarmak için ordusuyla İstanbul'a yürüyordu.",
+    "secenekler": [
+      {
+        "metin": "Bu belirsiz ve gergin dönemi endişeyle izle",
+        "etki": { "zeka": 2, "mutluluk": -2 },
+        "sonuc": "İstanbul, yeni bir kriz beklentisiyle gerilim içindeydi."
+      },
+      {
+        "metin": "Devlet işlerine karışmadan hayatına devam et",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Saray içi çekişmeler, sıradan halkın gündelik derdinden uzaktı — ya da öyle görünüyordu."
+      }
+    ]
+  },
+  {
+    "id": "mahmud2_1_002_selim_katli_mahmud_kurtulus",
+    "donem": "dagilma",
+    "alt_donem": "ikinci_mahmud_1",
+    "tarih_yil_min": 1808,
+    "tarih_yil_max": 1808,
+    "yas_min": 5,
+    "yas_max": 80,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "Alemdar'ın ordusu İstanbul'a yaklaşınca, IV. Mustafa hem III. Selim'i hem kuzeni Şehzade Mahmud'u öldürterek tahtını korumaya çalıştı. III. Selim öldürüldü — ama Mahmud, son anda saklanarak veya kurtarılarak hayatta kaldı. Alemdar, Selim'i ölü bulunca Mahmud'u tahta çıkardı.",
+    "secenekler": [
+      {
+        "metin": "Bu dramatik anı derin bir şokla karşıla",
+        "etki": { "mutluluk": -6, "zeka": 1 },
+        "sonuc": "Reformcu Sultan Selim'in ölümü büyük bir üzüntüydü — ama en azından hanedanın son erkek üyesi Mahmud sağ kurtulmuştu."
+      },
+      {
+        "metin": "Bu olayı hanedanın kıl payı kurtuluşu olarak yorumla",
+        "etki": { "zeka": 2, "mutluluk": -3 },
+        "sonuc": "Eğer Mahmud da o gün ölseydi, 500 yıllık Osmanlı hanedanı sona erebilirdi."
+      }
+    ]
+  },
+  {
+    "id": "mahmud2_1_003_mahmud_tahta_alemdar_sadrazam",
+    "donem": "dagilma",
+    "alt_donem": "ikinci_mahmud_1",
+    "tarih_yil_min": 1808,
+    "tarih_yil_max": 1808,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "28 Temmuz 1808'de II. Mahmud tahta çıktı. Alemdar Mustafa Paşa da sadrazam oldu ve devletin fiili yöneticisi haline geldi — genç sultan ona büyük güven duyuyordu.",
+    "secenekler": [
+      {
+        "metin": "Bu yeni yönetimden umutlan",
+        "etki": { "mutluluk": 2, "zeka": 1 },
+        "sonuc": "Alemdar, iyi niyetli ve kararlı bir devlet adamı olarak tanınıyordu."
+      },
+      {
+        "metin": "Devletin geleceğinden endişelen",
+        "etki": { "zeka": 1, "mutluluk": -1 },
+        "sonuc": "Son yıllardaki kargaşa, herkesi temkinli kılmıştı."
+      }
+    ]
+  },
+  {
+    "id": "mahmud2_1_004_sened_i_ittifak",
+    "donem": "dagilma",
+    "alt_donem": "ikinci_mahmud_1",
+    "tarih_yil_min": 1808,
+    "tarih_yil_max": 1808,
+    "yas_min": 10,
+    "yas_max": 60,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "Alemdar Mustafa Paşa, Anadolu ve Rumeli'nin güçlü ayan ve derebeylerini İstanbul'a davet edip onlarla 'Sened-i İttifak' adında bir belge imzalattı — Osmanlı tarihinde ilk kez, padişah kendi yönettiği insanlara vergi ve askerlik konularında ödünler veriyordu.",
+    "secenekler": [
+      {
+        "metin": "Bu tarihi belgeyi merakla değerlendir",
+        "etki": { "zeka": 3, "mutluluk": 1 },
+        "sonuc": "Merkezi otoritenin taşra güçleriyle bu şekilde bir anlaşmaya varması, benzeri görülmemiş bir gelişmeydi — devlet, gücünün sınırlarını kabul ediyordu."
+      },
+      {
+        "metin": "Bu ödünlerin devleti zayıflatacağından endişelen",
+        "etki": { "zeka": 2, "mutluluk": -1 },
+        "sonuc": "Merkezi gücün taşrayla paylaşılması, hem bir çözüm hem de yeni bir belirsizlik kaynağıydı."
+      }
+    ]
+  },
+  {
+    "id": "mahmud2_1_005_sekban_i_cedid",
+    "donem": "dagilma",
+    "alt_donem": "ikinci_mahmud_1",
+    "tarih_yil_min": 1808,
+    "tarih_yil_max": 1808,
+    "yas_min": 15,
+    "yas_max": 45,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "Alemdar, Nizam-ı Cedid'in ruhunu yaşatmak için 'Sekban-ı Cedid' adında yeni bir ordu kurdu — ama bu kez yeniçerileri kızdırmamak için farklı bir isim ve daha temkinli bir yaklaşım kullanıyor.",
+    "secenekler": [
+      {
+        "metin": "Bu yeniden canlanan reforma katıl",
+        "etki": { "zeka": 4, "itibar": 2 },
+        "meslek_atama": "seyfiye",
+        "sonuc": "Selim'in vizyonu, farklı bir isimle de olsa, yeniden hayat buluyordu."
+      },
+      {
+        "metin": "Yeniçerilerin bu yeniliğe nasıl tepki vereceğini merak et",
+        "etki": { "zeka": 2 },
+        "sonuc": "Herkes, bu hassas dengeyle ne kadar sürdürülebileceğini merak ediyordu."
+      }
+    ]
+  },
+  {
+    "id": "mahmud2_1_006_kale_i_sultaniye_vakasi",
+    "donem": "dagilma",
+    "alt_donem": "ikinci_mahmud_1",
+    "tarih_yil_min": 1808,
+    "tarih_yil_max": 1808,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "Sadece birkaç ay sonra yeniçeriler büyük bir isyan başlattı — Alemdar Mustafa Paşa, sarayındaki barut deposunu kendi eliyle ateşleyerek düşmanla birlikte havaya uçtu, isyancıların eline geçmemek için intiharı seçti.",
+    "secenekler": [
+      {
+        "metin": "Bu dramatik ve trajik sonu derin bir şokla karşıla",
+        "etki": { "mutluluk": -6, "zeka": 1 },
+        "sonuc": "Devletin fiili yöneticisi olan bir adamın bu şekilde son bulması, herkesi derinden sarstı — reformların en büyük destekçisi artık yoktu."
+      },
+      {
+        "metin": "Bu olayı devletin ne kadar kırılgan olduğunun kanıtı say",
+        "etki": { "zeka": 3, "mutluluk": -4 },
+        "sonuc": "Bir sadrazamın kendini havaya uçurmak zorunda kalması, yeniçerilerin gücünün hâlâ ne kadar tehlikeli olduğunu gösteriyordu."
+      }
+    ]
+  },
+  {
+    "id": "mahmud2_1_007_mustafa4_olumu",
+    "donem": "dagilma",
+    "alt_donem": "ikinci_mahmud_1",
+    "tarih_yil_min": 1808,
+    "tarih_yil_max": 1808,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "Alemdar'ın ölümüyle çıkan kargaşada, hanedanın tek diğer erkek üyesi olan eski padişah IV. Mustafa da, yeniden tahta çıkarılma tehlikesini önlemek için öldürüldü — artık II. Mahmud, hanedanın tek erkek varisiydi.",
+    "secenekler": [
+      {
+        "metin": "Bu ağır kararı devlet güvenliği için gerekli say",
+        "etki": { "zeka": 1, "mutluluk": -3 },
+        "sonuc": "Hanedanın sürekliliği artık tamamen tek bir kişiye, II. Mahmud'a bağlıydı."
+      },
+      {
+        "metin": "Bu kanlı geçişten derin bir üzüntü duy",
+        "etki": { "mutluluk": -4 },
+        "sonuc": "Son yıllarda üst üste yaşanan bu taht kavgaları, halkın da yüreğini yormuştu."
+      }
+    ]
+  },
+  {
+    "id": "mahmud2_1_008_sekban_i_cedid_kaldirilmasi",
+    "donem": "dagilma",
+    "alt_donem": "ikinci_mahmud_1",
+    "tarih_yil_min": 1808,
+    "tarih_yil_max": 1810,
+    "yas_min": 15,
+    "yas_max": 50,
+    "tek_seferlik": true,
+    "gerekli_bayrak": "meslek_seyfiye",
+    "metin": "Alemdar'ın ölümüyle Sekban-ı Cedid ordusu da kaldırıldı — yeniçeriler yeniden tek güç haline geldi. II. Mahmud, açık reform girişimlerinin ne kadar tehlikeli olduğunu acı bir şekilde öğrenmişti; artık daha sabırlı ve gizli bir strateji izleyecekti.",
+    "secenekler": [
+      {
+        "metin": "Bu geri adımı hayal kırıklığıyla karşıla",
+        "etki": { "mutluluk": -3, "zeka": 2 },
+        "sonuc": "Reformlar bir kez daha geri alınmıştı — ama genç sultan, bu dersi unutmayacaktı."
+      },
+      {
+        "metin": "Sultan'ın sabırla yeni bir plan kuracağını sezinle",
+        "etki": { "zeka": 2 },
+        "sonuc": "II. Mahmud, artık aceleci davranmanın bedelini biliyordu — bu sefer daha uzun vadeli düşünecekti."
+      }
+    ]
+  },
+  {
+    "id": "mahmud2_1_009_sirp_ozerklik",
+    "donem": "dagilma",
+    "alt_donem": "ikinci_mahmud_1",
+    "tarih_yil_min": 1815,
+    "tarih_yil_max": 1817,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "Yıllardır süren Sırp isyanının ardından Sırbistan'a sınırlı bir özerklik tanındı — Osmanlı, Balkanlar'daki milliyetçi hareketlere karşı ilk kez bu türden bir ödün veriyordu.",
+    "secenekler": [
+      {
+        "metin": "Bu özerklik kararını endişeyle izle",
+        "etki": { "zeka": 2, "mutluluk": -1 },
+        "sonuc": "Bu, gelecekteki daha büyük toprak kayıplarının ilk işareti olabilirdi."
+      },
+      {
+        "metin": "Bunu bölgede huzur sağlayan bir uzlaşma say",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "En azından yıllarca süren kanlı çatışma bir süreliğine duruyordu."
+      }
+    ]
+  },
+  {
+    "id": "mahmud2_1_010_yunan_isyani_baslangic",
+    "donem": "dagilma",
+    "alt_donem": "ikinci_mahmud_1",
+    "tarih_yil_min": 1821,
+    "tarih_yil_max": 1821,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "Mora'da büyük bir Yunan isyanı başladı — Fransız İhtilali'nin milliyetçilik rüzgarı, imparatorluğun en eski topraklarından birinde ciddi bir ayaklanmaya dönüşmüştü. Avrupa kamuoyu, Yunanların bağımsızlık mücadelesini büyük sempatiyle izliyor.",
+    "secenekler": [
+      {
+        "metin": "Bu isyanı büyük bir endişeyle karşıla",
+        "etki": { "mutluluk": -4, "zeka": 2 },
+        "sonuc": "Bu isyan, sadece bir bölgesel kargaşa değil, Avrupa'nın da dahil olacağı büyük bir kriz olma potansiyeli taşıyordu."
+      },
+      {
+        "metin": "Devlet kuvvetlerinin isyanı bastıracağına güven",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Ama bu isyan, önceki Balkan ayaklanmalarından çok daha ciddiye alınmalıydı."
+      }
+    ]
+  },
+  {
+    "id": "mahmud2_1_011_mehmed_ali_pasa_yardimi",
+    "donem": "dagilma",
+    "alt_donem": "ikinci_mahmud_1",
+    "tarih_yil_min": 1824,
+    "tarih_yil_max": 1825,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "Yunan isyanını bastırmakta yetersiz kalan merkezi ordu yerine, Mısır Valisi güçlü Mehmed Ali Paşa'nın modern ordusu ve donanması yardıma çağrıldı — İbrahim Paşa komutasındaki bu kuvvetler Mora'da önemli başarılar kazandı.",
+    "secenekler": [
+      {
+        "metin": "Bu yardımı bir rahatlama say",
+        "etki": { "mutluluk": 2, "zeka": 1 },
+        "sonuc": "Mısır'ın modern ordusu, merkezi Osmanlı ordusunun yetersizliğini bir nebze telafi ediyordu — ama bu bağımlılık kendi başına bir risk taşıyordu."
+      },
+      {
+        "metin": "Bu bağımlılığın gelecekte sorun yaratabileceğini düşün",
+        "etki": { "zeka": 3, "mutluluk": -1 },
+        "sonuc": "Merkezi otoritenin kendi ordusuna güvenememesi, endişe verici bir durumdu."
+      }
+    ]
+  },
+  {
+    "id": "mahmud2_1_012_reform_zemin_hazirlanmasi",
+    "donem": "dagilma",
+    "alt_donem": "ikinci_mahmud_1",
+    "tarih_yil_min": 1810,
+    "tarih_yil_max": 1826,
+    "yas_min": 15,
+    "yas_max": 55,
+    "tek_seferlik": false,
+    "gerekli_bayrak": null,
+    "metin": "II. Mahmud, Alemdar'ın kaderinden ders çıkararak yıllarca sabırla hareket etti — güvenilir adamlarını kademe kademe önemli mevkilere yerleştirip, yeniçerilere karşı büyük ve nihai bir hamle için zemin hazırlıyor.",
+    "secenekler": [
+      {
+        "metin": "Bu sabırlı stratejiyi takdir et",
+        "etki": { "zeka": 3, "itibar": 1 },
+        "sonuc": "Sultan'ın yıllarca süren sabırlı planlaması, büyük bir fırtınanın öncesindeki sessizlik gibiydi."
+      },
+      {
+        "metin": "Bu bekleyişin ne zaman sona ereceğini merak et",
+        "etki": { "zeka": 1 },
+        "sonuc": "Herkes, sultan'ın ne zaman harekete geçeceğini merak ediyordu — ama kimse tam olarak bilmiyordu."
+      }
+    ]
+  }
+]

@@ -16,21 +16,23 @@ void main() {
       final fileYukselme = File('assets/olaylar/yukselme.json');
       final fileDuraklama = File('assets/olaylar/duraklama.json');
       final fileGerileme = File('assets/olaylar/gerileme.json');
+      final fileDagilma = File('assets/olaylar/dagilma.json');
 
       final o1 = yukleyici.jsonMetnindenYukle(fileKurulus.readAsStringSync(), 'kurulus.json');
       final o2 = yukleyici.jsonMetnindenYukle(fileYukselme.readAsStringSync(), 'yukselme.json');
       final o3 = yukleyici.jsonMetnindenYukle(fileDuraklama.readAsStringSync(), 'duraklama.json');
       final o4 = yukleyici.jsonMetnindenYukle(fileGerileme.readAsStringSync(), 'gerileme.json');
+      final o5 = yukleyici.jsonMetnindenYukle(fileDagilma.readAsStringSync(), 'dagilma.json');
 
-      tumOlaylar = [...o1, ...o2, ...o3, ...o4];
+      tumOlaylar = [...o1, ...o2, ...o3, ...o4, ...o5];
     });
 
-    test('1. kurulus.json (138) + yukselme.json (101) + duraklama.json (118) + gerileme.json (68) = 425 olay eksiksiz, benzersiz ID ve alt_donem alanlarıyla yüklenmeli', () {
-      expect(tumOlaylar.length, equals(425));
+    test('1. kurulus (138) + yukselme (101) + duraklama (118) + gerileme (68) + dagilma (12) = 437 olay eksiksiz, benzersiz ID ve alt_donem alanlarıyla yüklenmeli', () {
+      expect(tumOlaylar.length, equals(437));
       
       // Benzersiz ID kontrolü
       final idSet = tumOlaylar.map((o) => o.id).toSet();
-      expect(idSet.length, equals(425));
+      expect(idSet.length, equals(437));
 
       final ahilikOlayi = tumOlaylar.firstWhere((o) => o.id == 'kurulus_001');
       expect(ahilikOlayi.tarihYilMin, equals(1299));
@@ -154,6 +156,11 @@ void main() {
       final akkaZaferi = tumOlaylar.firstWhere((o) => o.id == 'selim3_007_akka_zaferi');
       expect(akkaZaferi.donem, equals('gerileme'));
       expect(akkaZaferi.altDonem, equals('ucuncu_selim'));
+
+      // II. Mahmud I Dağılma dönemi olayları kontrolü
+      final senedIIttifak = tumOlaylar.firstWhere((o) => o.id == 'mahmud2_1_004_sened_i_ittifak');
+      expect(senedIIttifak.donem, equals('dagilma'));
+      expect(senedIIttifak.altDonem, equals('ikinci_mahmud_1'));
     });
 
     test('2. Şema doğrulayıcı hatalı tarih_yil_min > tarih_yil_max durumunu yakalamalı', () {
