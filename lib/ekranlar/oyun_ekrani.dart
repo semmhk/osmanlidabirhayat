@@ -100,13 +100,27 @@ class _OyunEkraniState extends State<OyunEkrani> {
                               ),
                             ),
                             if (padisah != null)
-                              Text(
-                                '👑 ${padisah.isim}',
-                                style: const TextStyle(
-                                  fontSize: 12,
-                                  fontWeight: FontWeight.w600,
-                                  color: Renkler.damga,
-                                ),
+                              Row(
+                                mainAxisSize: MainAxisSize.min,
+                                children: [
+                                  if (padisah.tugraGorsel != null) ...[
+                                    Image.asset(
+                                      padisah.tugraGorsel!,
+                                      height: 42,
+                                      fit: BoxFit.contain,
+                                      errorBuilder: (context, error, stackTrace) => const SizedBox.shrink(),
+                                    ),
+                                    const SizedBox(width: 6),
+                                  ],
+                                  Text(
+                                    '👑 ${padisah.isim}',
+                                    style: const TextStyle(
+                                      fontSize: 12,
+                                      fontWeight: FontWeight.w600,
+                                      color: Renkler.damga,
+                                    ),
+                                  ),
+                                ],
                               ),
                             Text(
                               '📜 Nesil: ${k.nesil}',
