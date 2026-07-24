@@ -1435,5 +1435,264 @@
         "sonuc": "IV. Murad'ın demir yumruğu olmadan, kazanılan istikrarın ne kadar süreceği büyük bir soru işaretiydi."
       }
     ]
+  },
+  {
+    "id": "ibrahim1_001_olum_korkusu_tahta_cikis",
+    "donem": "duraklama",
+    "alt_donem": "sultan_ibrahim",
+    "tarih_yil_min": 1640,
+    "tarih_yil_max": 1640,
+    "yas_min": 5,
+    "yas_max": 70,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "IV. Murad'ın vefatıyla geriye kalan tek şehzade İbrahim tahtın varisiydi. Ama İbrahim, ağabeyinin gerçekten öldüğüne inanmadı — 23 yıllık kafes hayatı boyunca sürekli öldürülme korkusuyla yaşamış, bunun bir tuzak olduğunu düşündü. Annesi Kösem Sultan onu ikna edip ağabeyinin cenazesini gösterdikten sonra ancak tahta çıkmayı kabul etti.",
+    "secenekler": [
+      {
+        "metin": "Bu tuhaf ve endişe verici başlangıcı dikkatle izle",
+        "etki": { "zeka": 2, "mutluluk": -2 },
+        "sonuc": "Yıllarca süren ölüm korkusunun bir insanın ruhunda bıraktığı izler, şimdiden kendini gösteriyordu."
+      },
+      {
+        "metin": "Yeni sultana bağlılığını göster",
+        "etki": { "itibar": 1 },
+        "sonuc": "Devletin yeni sultanı, herkesin merakla izlediği belirsiz bir başlangıç yapmıştı."
+      }
+    ]
+  },
+  {
+    "id": "ibrahim1_002_cinci_hoca_yukselisi",
+    "donem": "duraklama",
+    "alt_donem": "sultan_ibrahim",
+    "tarih_yil_min": 1640,
+    "tarih_yil_max": 1648,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": false,
+    "gerekli_bayrak": null,
+    "metin": "Sultan'ın ruhsal sıkıntıları için Kösem Sultan, 'Cinci Hoca' diye bilinen, büyü ve dualarla şifa dağıttığı söylenen Hüseyin Efendi'yi saraya çağırdı. Sultan'ın ona bağlılığı büyüdükçe, bu adam hak etmediği halde kazaskerliğe kadar yükseldi.",
+    "secenekler": [
+      {
+        "metin": "Bu tuhaf yükselişi endişeyle izle",
+        "etki": { "zeka": 2, "mutluluk": -1 },
+        "sonuc": "Devletin en üst ilmiye makamlarından birine, gerçek bir ilim adamı değil bir 'şifacı'nın getirilmesi, ulema ve bürokrasi arasında büyük rahatsızlık yaratıyordu."
+      },
+      {
+        "metin": "Sultan'ın sağlığı için endişelen, çareler aramasını anlayışla karşıla",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Herkes bir çare arıyordu, ama bu çarenin devlet işlerine bu denli karışması tehlikeliydi."
+      }
+    ]
+  },
+  {
+    "id": "ibrahim1_003_kemankes_pasa_idami",
+    "donem": "duraklama",
+    "alt_donem": "sultan_ibrahim",
+    "tarih_yil_min": 1644,
+    "tarih_yil_max": 1644,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": "meslek_kalemiye",
+    "metin": "Yetenekli ve tecrübeli Sadrazam Kemankeş Kara Mustafa Paşa, Kösem Sultan ile olan rekabeti ve Cinci Hoca çevresinin düşmanlığı sonucu padişahın emriyle idam edildi, malları müsadere edildi.",
+    "secenekler": [
+      {
+        "metin": "Bu kararı devlet için büyük bir kayıp say",
+        "etki": { "zeka": 2, "mutluluk": -2 },
+        "sonuc": "Deneyimli ve dürüst devlet adamlarının saray entrikalarına kurban gitmesi, devletin geleceği için kötü bir işaretti."
+      },
+      {
+        "metin": "Bu kararı sorgulamadan kabul et",
+        "etki": { "mutluluk": -1 },
+        "sonuc": "Sarayın iç işleyişi giderek daha kararsız ve tehlikeli hale geliyordu."
+      }
+    ]
+  },
+  {
+    "id": "ibrahim1_004_girit_savasi_baslangic",
+    "donem": "duraklama",
+    "alt_donem": "sultan_ibrahim",
+    "tarih_yil_min": 1645,
+    "tarih_yil_max": 1645,
+    "yas_min": 16,
+    "yas_max": 50,
+    "tek_seferlik": true,
+    "gerekli_bayrak": "meslek_seyfiye",
+    "metin": "Venedik'e ait stratejik önemdeki Girit Adası'na büyük bir sefer başlatıldı. Hanya kalesi kısa sürede fethedildi, İstanbul'da günlerce şenlik yapıldı — kimse bunun 24 yıl sürecek bir savaşın sadece başlangıcı olduğunu bilmiyordu.",
+    "secenekler": [
+      {
+        "metin": "Bu sefere katıl",
+        "etki": { "para": 5, "itibar": 3, "saglik": -3, "sans_gerekli": true },
+        "sonuc": "Hanya'nın alınması büyük bir gururla kutlandı. Kimse, Girit'in geri kalanının bu kadar zorlu olacağını tahmin edememişti."
+      },
+      {
+        "metin": "Bu sefere katılmadın",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "İlk zafer haberi büyük bir coşkuyla karşılandı."
+      }
+    ]
+  },
+  {
+    "id": "ibrahim1_005_girit_uzun_savas",
+    "donem": "duraklama",
+    "alt_donem": "sultan_ibrahim",
+    "tarih_yil_min": 1645,
+    "tarih_yil_max": 1648,
+    "yas_min": 15,
+    "yas_max": 55,
+    "tek_seferlik": false,
+    "gerekli_bayrak": null,
+    "metin": "Girit'in coğrafi zorluğu ve Venedik'in denizden İstanbul'a yaptığı ablukalar, savaşın maliyetini ve süresini tahmin edilenin çok üzerine çıkardı. Kandiye Kalesi kuşatması yıllarca sürüyor, kimse ne zaman biteceğini bilmiyor.",
+    "secenekler": [
+      {
+        "metin": "Savaş vergilerini öde, katkıda bulun",
+        "etki": { "para": -3, "mutluluk": -1 },
+        "sonuc": "Uzayan savaş, herkesin cebinden bir şeyler götürüyordu."
+      },
+      {
+        "metin": "Bu uzun savaşın sonunu merak et",
+        "etki": { "zeka": 1, "mutluluk": -1 },
+        "sonuc": "Kimse bu savaşın koca bir nesil sürecek kadar uzayacağını henüz tahmin edemiyordu."
+      }
+    ]
+  },
+  {
+    "id": "ibrahim1_006_asiri_harcamalar_vergiler",
+    "donem": "duraklama",
+    "alt_donem": "sultan_ibrahim",
+    "tarih_yil_min": 1647,
+    "tarih_yil_max": 1648,
+    "yas_min": 15,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "Sultan'ın her yanı mücevherlerle kaplı bir kayık istemesi ve benzeri aşırı harcamaları için, ulema ve esnaftan 'amber ve samur vergisi' adında yeni ve ağır bir vergi toplanmaya başlandı.",
+    "secenekler": [
+      {
+        "metin": "Bu ağır ve garip vergiyi öde",
+        "etki": { "para": -5, "mutluluk": -4 },
+        "sonuc": "Savaş zaten herkesi yormuşken, sarayın lüks harcamaları için ek vergi ödemek büyük bir öfke yaratıyordu."
+      },
+      {
+        "metin": "Bu vergiye açıkça tepki göster",
+        "etki": { "itibar": -1, "mutluluk": -2 },
+        "sonuc": "Hoşnutsuzluk, esnaf ve ulema arasında hızla yayılıyordu."
+      }
+    ]
+  },
+  {
+    "id": "ibrahim1_007_keyfi_idamlar",
+    "donem": "duraklama",
+    "alt_donem": "sultan_ibrahim",
+    "tarih_yil_min": 1646,
+    "tarih_yil_max": 1648,
+    "yas_min": 15,
+    "yas_max": 55,
+    "tek_seferlik": false,
+    "gerekli_bayrak": "meslek_kalemiye",
+    "metin": "Sultan'ın ruh hali giderek dengesizleşiyor — devlet adamlarını küçük bahanelerle keyfi şekilde cezalandırıp idam ettirdiği, sarayında tuhaf isteklerde bulunduğu konuşuluyor.",
+    "secenekler": [
+      {
+        "metin": "Devlet kademesinde bu belirsizlik ortamında dikkatli ol",
+        "etki": { "zeka": 2, "mutluluk": -2 },
+        "sonuc": "Bir memur olmak, artık her zamankinden daha riskli bir işti."
+      }
+    ]
+  },
+  {
+    "id": "ibrahim1_008_sadrazam_dalkavukluk",
+    "donem": "duraklama",
+    "alt_donem": "sultan_ibrahim",
+    "tarih_yil_min": 1644,
+    "tarih_yil_max": 1648,
+    "yas_min": 15,
+    "yas_max": 55,
+    "tek_seferlik": false,
+    "gerekli_bayrak": null,
+    "metin": "Kemankeş Paşa'nın idamından sonra sadrazamlık koltuğu sık sık el değiştiriyor. Yeni sadrazamlardan biri, padişahın her davranışını 'sizden hata sudur etmez' diyerek övmesiyle tanınıyor — devlet yönetimi giderek dalkavukluğa teslim oluyor.",
+    "secenekler": [
+      {
+        "metin": "Bu gidişatı endişeyle izle",
+        "etki": { "zeka": 2, "mutluluk": -2 },
+        "sonuc": "Doğruyu söyleyecek cesur devlet adamları giderek azalıyordu."
+      },
+      {
+        "metin": "Kendi işine odaklan, saray meselelerine karışma",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Saray içi kargaşa, herkesi bir şekilde etkiliyordu ama halk kendi hayatını sürdürmek zorundaydı."
+      }
+    ]
+  },
+  {
+    "id": "ibrahim1_009_tahttan_indirilme",
+    "donem": "duraklama",
+    "alt_donem": "sultan_ibrahim",
+    "tarih_yil_min": 1648,
+    "tarih_yil_max": 1648,
+    "yas_min": 10,
+    "yas_max": 70,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "8 Ağustos 1648'de, Girit savaşının en kritik anında ve İstanbul'un Venedik ablukası altında büyük sıkıntı yaşadığı bir sırada, ulema, yeniçeri ve sipahilerin ortak kararıyla Sultan İbrahim tahttan indirildi. Yerine henüz 6 yaşındaki oğlu Mehmed geçirildi.",
+    "secenekler": [
+      {
+        "metin": "Bu köklü değişimi devletin bekası için gerekli say",
+        "etki": { "zeka": 2, "mutluluk": -1 },
+        "sonuc": "8 yıllık kargaşa dolu bir saltanat sona ermişti, ama 6 yaşında bir çocuğun tahta çıkması da kendi başına büyük bir belirsizlikti."
+      },
+      {
+        "metin": "Bu olayları şaşkınlıkla karşıla",
+        "etki": { "mutluluk": -1 },
+        "sonuc": "Devletin başındaki bu sürekli değişim, halkın güvenini iyice sarsıyordu."
+      }
+    ]
+  },
+  {
+    "id": "ibrahim1_010_ibrahim_idami",
+    "donem": "duraklama",
+    "alt_donem": "sultan_ibrahim",
+    "tarih_yil_min": 1648,
+    "tarih_yil_max": 1648,
+    "yas_min": 10,
+    "yas_max": 70,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "Tahttan indirilmesinin ardından on gün geçmeden, eski sultan İbrahim'in hayatta kalmasının yeni tehlikeler doğurabileceği gerekçesiyle idam edilmesine karar verildi. Çocukluğundan beri ölüm korkusuyla yaşayan İbrahim, sonunda gerçekten bu akıbete uğradı.",
+    "secenekler": [
+      {
+        "metin": "Bu trajik sonu derin bir üzüntüyle karşıla",
+        "etki": { "mutluluk": -6 },
+        "sonuc": "Ağabeyinin öldürülüşüne şahit olarak büyüyen, hayatı boyunca ölüm korkusuyla yaşayan bir adam, sonunda kendi korktuğu akıbete uğramıştı."
+      },
+      {
+        "metin": "Devlet mantığı çerçevesinde bu kararı anlamaya çalış",
+        "etki": { "zeka": 1, "mutluluk": -4 },
+        "sonuc": "Bir eski padişahın hayatta kalması, her zaman yeni bir taht kavgası riski taşıyordu — ama bu, yine de ağır bir bedeldi."
+      }
+    ]
+  },
+  {
+    "id": "ibrahim1_011_6_yasinda_padisah",
+    "donem": "duraklama",
+    "alt_donem": "sultan_ibrahim",
+    "tarih_yil_min": 1648,
+    "tarih_yil_max": 1648,
+    "yas_min": 5,
+    "yas_max": 70,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "Osmanlı tahtına tarihin en genç padişahlarından biri, henüz 6 yaşındaki IV. Mehmed geçti. Devlet fiilen büyükannesi Kösem Sultan ve annesi Turhan Sultan arasındaki bir güç mücadelesiyle yönetilecek.",
+    "secenekler": [
+      {
+        "metin": "Bu son derece genç padişahın döneminden endişelen",
+        "etki": { "zeka": 2, "mutluluk": -1 },
+        "sonuc": "6 yaşında bir çocuğun padişah olması, devletin ne kadar derin bir kriz içinde olduğunun en açık göstergesiydi."
+      },
+      {
+        "metin": "Belki bu yeni başlangıç devlete iyi gelir diye umutlan",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Kimse bilemezdi ama bu çocuk padişah, ileride uzun bir saltanat sürecekti."
+      }
+    ]
   }
 ]
