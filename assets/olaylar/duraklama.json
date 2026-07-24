@@ -310,5 +310,289 @@
         "sonuc": "Fetret Devri korkusu hâlâ derin izler bırakıyordu, ama bu ölçekte bir kayıp, geleneğin kendisini sorgulatmaya başlamıştı."
       }
     ]
+  },
+  {
+    "id": "mehmed3_001_son_sancak_sehzadesi",
+    "donem": "duraklama",
+    "alt_donem": "ucuncu_mehmed",
+    "tarih_yil_min": 1595,
+    "tarih_yil_max": 1595,
+    "yas_min": 5,
+    "yas_max": 60,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "III. Murad'ın vefatı üzerine Manisa'dan gelen Şehzade Mehmed tahta çıktı — babasının, dedesinin aksine, gerçekten sancakta valilik yapıp tecrübe kazanan son şehzade olarak tarihe geçecek. Ondan sonraki şehzadeler artık sarayda, 'kafes' denen bir sistemde büyütülecek.",
+    "secenekler": [
+      {
+        "metin": "Bu geleneğin değişmesinin sonuçlarını merak et",
+        "etki": { "zeka": 2, "mutluluk": -1 },
+        "sonuc": "Sancak tecrübesi olmadan yetişen gelecek padişahların, devlet yönetimine ne kadar hazırlıklı olacağı şimdiden merak ediliyordu."
+      },
+      {
+        "metin": "Yeni sultana bağlılığını göster",
+        "etki": { "itibar": 1 },
+        "sonuc": "Her taht değişiminde olduğu gibi, ilk yıllar dikkatle izleniyordu."
+      }
+    ]
+  },
+  {
+    "id": "mehmed3_002_egri_seferi",
+    "donem": "duraklama",
+    "alt_donem": "ucuncu_mehmed",
+    "tarih_yil_min": 1596,
+    "tarih_yil_max": 1596,
+    "yas_min": 16,
+    "yas_max": 50,
+    "tek_seferlik": true,
+    "gerekli_bayrak": "meslek_seyfiye",
+    "metin": "Toprak kayıpları arttıkça halk, asker ve ulema sarayda oturan padişahları eleştirmeye başlamıştı. Nihayet III. Mehmed, Kanuni'den beri (30 yıldır) ilk kez bizzat ordunun başında sefere çıktı — hedef Eğri Kalesi.",
+    "secenekler": [
+      {
+        "metin": "Padişahın bizzat katıldığı bu sefere sen de katıl",
+        "etki": { "para": 6, "itibar": 4, "saglik": -3, "sans_gerekli": true },
+        "sonuc": "Eğri Kalesi fethedildi, sultan 'Eğri Fatihi' unvanını kazandı. Askerin morali, padişahını yanında görünce çok yükselmişti."
+      },
+      {
+        "metin": "Sefere katılmadın",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Padişahın bizzat sefere çıkması, uzun zamandır ilk kez yaşanan bir şeydi, herkes bunu konuşuyordu."
+      }
+    ]
+  },
+  {
+    "id": "mehmed3_003_hacova_zaferi",
+    "donem": "duraklama",
+    "alt_donem": "ucuncu_mehmed",
+    "tarih_yil_min": 1596,
+    "tarih_yil_max": 1596,
+    "yas_min": 16,
+    "yas_max": 50,
+    "tek_seferlik": true,
+    "gerekli_bayrak": "meslek_seyfiye",
+    "metin": "Eğri'nin fethinin ardından Haçova'da devasa bir Avrupa Haçlı ordusuyla (yaklaşık 300 bin kişi) karşılaşıldı — bizim ordumuz sadece 140 bin kişiydi. Savaş önce kötü gidiyordu, hatta ordu bozulma noktasına geldi, ama son anda toparlanıp büyük bir zafer kazanıldı.",
+    "secenekler": [
+      {
+        "metin": "Bu nefes kesen savaşta bulun",
+        "etki": { "para": 7, "itibar": 5, "saglik": -5, "sans_gerekli": true },
+        "sonuc": "Sayıca çok daha büyük bir orduya karşı kazanılan bu zafer, mucizevi sayıldı. Viyana'nın yolu bir kez daha açılmıştı."
+      },
+      {
+        "metin": "Bu sefere katılmadın",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Zafer haberi geldiğinde tüm ülkede büyük bir rahatlama ve gurur yaşandı."
+      }
+    ]
+  },
+  {
+    "id": "mehmed3_004_zafer_sonrasi_karisiklik",
+    "donem": "duraklama",
+    "alt_donem": "ucuncu_mehmed",
+    "tarih_yil_min": 1596,
+    "tarih_yil_max": 1597,
+    "yas_min": 15,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "Zaferin hemen ardından yeni sadrazam Cığalazade Sinan Paşa, hem Kırım Hanı'nı azledip bölgede fitne çıkardı hem de savaşın ertesi günü askeri sıkı bir yoklamaya tabi tutup içeride hoşnutsuzluk yarattı — büyük bir zafer, tuhaf bir şekilde iç karışıklığa dönüştü.",
+    "secenekler": [
+      {
+        "metin": "Bu tuhaf kararları endişeyle izle",
+        "etki": { "zeka": 2, "mutluluk": -2 },
+        "sonuc": "Bir zaferin ardından bu denli hızlı bir kargaşaya dönüşmesi, devletin ne kadar kırılgan bir dengede olduğunu gösteriyordu."
+      },
+      {
+        "metin": "Devlet işlerine karışmadan kendi hayatına devam et",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Saray içi kararlar, halkın gündelik hayatına farklı şekillerde yansıyordu."
+      }
+    ]
+  },
+  {
+    "id": "mehmed3_005_celali_isyanlari",
+    "donem": "duraklama",
+    "alt_donem": "ucuncu_mehmed",
+    "tarih_yil_min": 1596,
+    "tarih_yil_max": 1603,
+    "yas_min": 15,
+    "yas_max": 55,
+    "tek_seferlik": false,
+    "gerekli_bayrak": null,
+    "metin": "Anadolu'da işsiz kalan sekban askerleri, vergi yükünden bunalmış köylüler ve fırsatçı eşkıyalar birleşip büyük çaplı isyanlar başlattı — 'Celali' denen bu eşkıya grupları (Karayazıcı, Deli Hasan gibi liderlerle) köyleri, kasabaları yağmalıyor. Bölge halkı büyük bir güvensizlik içinde.",
+    "secenekler": [
+      {
+        "metin": "Köyünü/malını korumak için tedbir al",
+        "etki": { "para": -3, "saglik": -1, "mutluluk": -3 },
+        "sonuc": "Celali baskınlarından korunmak, artık gündelik hayatın bir parçası olmuştu. Bazı aileler daha güvenli şehirlere göç etmeye başladı."
+      },
+      {
+        "metin": "Devlet kuvvetlerinin isyanı bastırmasını bekle",
+        "etki": { "mutluluk": -2 },
+        "sonuc": "Anadolu'nun iç kesimlerinde bu kargaşa yıllarca sürecek, devletin otoritesi ciddi şekilde sarsılacaktı."
+      }
+    ]
+  },
+  {
+    "id": "mehmed3_006_kanije_fethi",
+    "donem": "duraklama",
+    "alt_donem": "ucuncu_mehmed",
+    "tarih_yil_min": 1600,
+    "tarih_yil_max": 1601,
+    "yas_min": 16,
+    "yas_max": 50,
+    "tek_seferlik": true,
+    "gerekli_bayrak": "meslek_seyfiye",
+    "metin": "Kanije Kalesi kuşatıldı ve zorlu bir mücadelenin ardından fethedildi — kaleyi geri almaya çalışan büyük bir Haçlı ordusu da başarısızlıkla geri çekilmek zorunda kaldı.",
+    "secenekler": [
+      {
+        "metin": "Bu zorlu kuşatma ve savunmada bulun",
+        "etki": { "para": 5, "itibar": 3, "saglik": -4, "sans_gerekli": true },
+        "sonuc": "Batı cephesindeki hakimiyetimiz, iç kargaşaya rağmen sürdürülebilmişti."
+      },
+      {
+        "metin": "Bu sefere katılmadın",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Kanije zaferi, iç karışıklıkların gölgesinde de olsa sevinçle karşılandı."
+      }
+    ]
+  },
+  {
+    "id": "mehmed3_007_istolni_belgrad_kaybi",
+    "donem": "duraklama",
+    "alt_donem": "ucuncu_mehmed",
+    "tarih_yil_min": 1598,
+    "tarih_yil_max": 1601,
+    "yas_min": 15,
+    "yas_max": 50,
+    "tek_seferlik": true,
+    "gerekli_bayrak": "meslek_seyfiye",
+    "metin": "İstolni Belgrad (Székesfehérvár) kalesi düşman kuvvetlerince ele geçirildi — üstelik geri alma çabaları da zorlu geçti. Batı cephesindeki savaş, artık kolay kazanılan bir savaş değildi.",
+    "secenekler": [
+      {
+        "metin": "Bu kayıp haberini endişeyle karşıla",
+        "etki": { "mutluluk": -3, "zeka": 1 },
+        "sonuc": "Önceki nesillerin kolayca kazandığı zaferler artık geçmişte kalmış gibiydi."
+      },
+      {
+        "metin": "Devletin yeniden toparlanacağına güven",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Zorluklara rağmen imparatorluk hâlâ büyük bir güçtü."
+      }
+    ]
+  },
+  {
+    "id": "mehmed3_008_siddetli_vezir_degisimi",
+    "donem": "duraklama",
+    "alt_donem": "ucuncu_mehmed",
+    "tarih_yil_min": 1595,
+    "tarih_yil_max": 1603,
+    "yas_min": 15,
+    "yas_max": 55,
+    "tek_seferlik": false,
+    "gerekli_bayrak": "meslek_kalemiye",
+    "metin": "Sekiz yıllık saltanat boyunca sadrazam koltuğu şaşırtıcı bir hızla el değiştiriyor — bazıları azlediliyor, bazıları hatta idam ediliyor. Bu istikrarsızlık, devlet işlerinin sağlıklı yürütülmesini giderek zorlaştırıyor.",
+    "secenekler": [
+      {
+        "metin": "Bu değişken ortamda dikkatli ve temkinli davran",
+        "etki": { "zeka": 3, "itibar": 1 },
+        "sonuc": "Devlet kademelerinde yükselmek isteyenler için bu, hem fırsat hem büyük bir risk taşıyan bir dönemdi."
+      }
+    ]
+  },
+  {
+    "id": "mehmed3_009_yeni_cami_insaati",
+    "donem": "duraklama",
+    "alt_donem": "ucuncu_mehmed",
+    "tarih_yil_min": 1598,
+    "tarih_yil_max": 1603,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": false,
+    "gerekli_bayrak": null,
+    "metin": "Valide Sultan Safiye Sultan'ın isteğiyle, Eminönü'nde büyük bir cami (sonradan 'Yeni Cami' diye anılacak) inşaatına başlandı. İnşaat için usta ve işçi aranıyor.",
+    "secenekler": [
+      {
+        "metin": "Bu inşaatta çalışmaya git",
+        "etki": { "para": 4, "zeka": 1 },
+        "meslek_atama": "ahilik",
+        "sonuc": "Valide Sultan'ın bu büyük eseri, yıllar sonra tamamlanacak olsa da, şimdiden şehrin gündemindeydi."
+      },
+      {
+        "metin": "Kendi işinde kalmayı tercih et",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "İnşaat faaliyetleri, iç karışıklığa rağmen imparatorluğun ihtişamını gösteriyordu."
+      }
+    ]
+  },
+  {
+    "id": "mehmed3_010_yeni_iran_savasi",
+    "donem": "duraklama",
+    "alt_donem": "ucuncu_mehmed",
+    "tarih_yil_min": 1603,
+    "tarih_yil_max": 1603,
+    "yas_min": 15,
+    "yas_max": 50,
+    "tek_seferlik": true,
+    "gerekli_bayrak": "meslek_seyfiye",
+    "metin": "Doğuda Şah Abbas önderliğindeki güçlenen Safeviler yeniden saldırıya geçti — Tebriz gibi daha önce kazanılmış topraklar tehdit altında. Yeni ve uzun bir doğu savaşının (1603-1618) fitili ateşlendi.",
+    "secenekler": [
+      {
+        "metin": "Bu yeni tehdide karşı sefere hazırlan",
+        "etki": { "para": -2, "mutluluk": -1 },
+        "sonuc": "Hem batıda hem doğuda savaşmak zorunda kalmak, devletin kaynaklarını iyice zorluyordu."
+      },
+      {
+        "metin": "Gündelik hayatına devam et",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Doğudaki gerginlik haberleri İstanbul'a ulaştıkça endişe büyüyordu."
+      }
+    ]
+  },
+  {
+    "id": "mehmed3_011_mehmed_vefati",
+    "donem": "duraklama",
+    "alt_donem": "ucuncu_mehmed",
+    "tarih_yil_min": 1603,
+    "tarih_yil_max": 1603,
+    "yas_min": 5,
+    "yas_max": 70,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "III. Mehmed, iç ve dış sorunların ağırlığı altında bunalmış bir halde, hastalanıp vefat etti. Sekiz yıllık saltanatı, hem büyük bir zaferle (Haçova) hem de büyük bir kargaşayla (Celali İsyanları) hatırlanacak.",
+    "secenekler": [
+      {
+        "metin": "Bu karmaşık dönemi hem zaferi hem acısıyla hatırla",
+        "etki": { "mutluluk": -3, "zeka": 1 },
+        "sonuc": "Haçova'nın gururu ile Celali'lerin acısı aynı dönemde yaşanmıştı. Yerine oğlu, henüz 13 yaşındaki I. Ahmed geçiyor."
+      },
+      {
+        "metin": "Genç yeni sultanın dönemini merak et",
+        "etki": { "zeka": 1 },
+        "sonuc": "Bu denli genç bir padişahın, Anadolu'daki kargaşayı ve doğudaki savaşı nasıl yöneteceği belirsizdi."
+      }
+    ]
+  },
+  {
+    "id": "mehmed3_012_koyluler_sehre_goc",
+    "donem": "duraklama",
+    "alt_donem": "ucuncu_mehmed",
+    "tarih_yil_min": 1596,
+    "tarih_yil_max": 1603,
+    "yas_min": 15,
+    "yas_max": 55,
+    "tek_seferlik": false,
+    "gerekli_bayrak": null,
+    "metin": "Celali baskınlarından kaçan Anadolu köylüleri, güvenlik arayışıyla büyük şehirlere ('Büyük Kaçgunluk' olarak anılacak bu göç dalgasıyla) akın ediyor. Köyler boşalıyor, şehirler kalabalıklaşıyor.",
+    "secenekler": [
+      {
+        "metin": "Şehre göç edenlere yardım et, iş bulmalarına destek ol",
+        "etki": { "mutluluk": 3, "para": -1 },
+        "sonuc": "Zor günlerde dayanışma, hem gelenler hem yerliler için bir teselliydi."
+      },
+      {
+        "metin": "Kendi güvenliğin için şehre taşınmayı düşün",
+        "etki": { "para": -2, "saglik": 1 },
+        "sonuc": "Köyde kalmanın riskleri arttıkça, şehir hayatı daha cazip görünmeye başlamıştı."
+      }
+    ]
   }
 ]
