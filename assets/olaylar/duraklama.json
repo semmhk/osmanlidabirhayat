@@ -594,5 +594,294 @@
         "sonuc": "Köyde kalmanın riskleri arttıkça, şehir hayatı daha cazip görünmeye başlamıştı."
       }
     ]
+  },
+  {
+    "id": "ahmed1_001_genc_tahta_cikis",
+    "donem": "duraklama",
+    "alt_donem": "birinci_ahmed",
+    "tarih_yil_min": 1603,
+    "tarih_yil_max": 1603,
+    "yas_min": 5,
+    "yas_max": 70,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "III. Mehmed'in vefatı üzerine, henüz 13 yaşındaki Şehzade Ahmed tahta çıktı — tarihin en genç padişahlarından biri. Sancakta hiç valilik yapmadan doğrudan tahta geçen ilk padişah olarak da anılacak.",
+    "secenekler": [
+      {
+        "metin": "Bu genç yaştaki hükümdarın devletin ağırlığını taşıyıp taşıyamayacağını merak et",
+        "etki": { "zeka": 2, "mutluluk": -1 },
+        "sonuc": "13 yaşında bir çocuğun koca bir imparatorluğu yönetmesi, herkesi endişelendiriyordu."
+      },
+      {
+        "metin": "Yeni sultana bağlılığını göster",
+        "etki": { "itibar": 1 },
+        "sonuc": "Deneyimli devlet adamlarının desteğiyle genç sultan tahtını sağlamlaştırmaya çalışıyordu."
+      }
+    ]
+  },
+  {
+    "id": "ahmed1_002_kardes_katli_kirilma",
+    "donem": "duraklama",
+    "alt_donem": "birinci_ahmed",
+    "tarih_yil_min": 1603,
+    "tarih_yil_max": 1603,
+    "yas_min": 5,
+    "yas_max": 70,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "Şaşırtıcı bir haber: Genç Sultan I. Ahmed, geleneğin aksine küçük kardeşi Şehzade Mustafa'yı öldürtmedi, canını bağışladı. Onlarca yıldır süren kanlı kardeş katli geleneği, ilk kez bu şekilde kırıldı.",
+    "secenekler": [
+      {
+        "metin": "Bu insani kararı büyük bir rahatlamayla karşıla",
+        "etki": { "mutluluk": 6, "itibar": 2 },
+        "sonuc": "19 şehzadenin bir günde boğdurulduğu acı hafızalar hâlâ tazeydi. Bu karar, halkın yüreğine su serpti."
+      },
+      {
+        "metin": "Bu kararın devlet için riskli olabileceğini düşün",
+        "etki": { "zeka": 2, "mutluluk": 2 },
+        "sonuc": "Bazı tecrübeli devlet adamları, bunun gelecekte yeni taht kavgalarına yol açabileceğinden endişeleniyordu — ama insani vicdan bu kez ağır bastı."
+      }
+    ]
+  },
+  {
+    "id": "ahmed1_003_ekber_ersed_kafes",
+    "donem": "duraklama",
+    "alt_donem": "birinci_ahmed",
+    "tarih_yil_min": 1603,
+    "tarih_yil_max": 1617,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "Kardeş katlinin yerine yeni bir veraset sistemi resmileşti: 'Ekber ve Erşed' — artık hanedanın en yaşlı ve en olgun üyesi tahta çıkacak. Ama bunun bedeli var: şehzadeler artık sancaklara gönderilmeyip sarayda 'Kafes' denen özel bir bölümde, dış dünyadan izole bir şekilde büyütülecek.",
+    "secenekler": [
+      {
+        "metin": "Bu yeni sistemin sonuçlarını merakla düşün",
+        "etki": { "zeka": 3 },
+        "sonuc": "Kardeş kanı akmayacaktı, ama sancak tecrübesinden yoksun büyüyen şehzadelerin devlet yönetimine ne kadar hazır olacağı, uzun vadede büyük bir soru işaretiydi."
+      },
+      {
+        "metin": "Bu değişimi sadece bir saray meselesi olarak gör",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Sarayın iç işleyişindeki bu köklü değişim, yıllar içinde etkilerini gösterecekti."
+      }
+    ]
+  },
+  {
+    "id": "ahmed1_004_kuyucu_murat_pasa",
+    "donem": "duraklama",
+    "alt_donem": "birinci_ahmed",
+    "tarih_yil_min": 1606,
+    "tarih_yil_max": 1611,
+    "yas_min": 15,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": "meslek_seyfiye",
+    "metin": "Yaşlı ama son derece kararlı Sadrazam Kuyucu Murad Paşa, Anadolu'yu kasıp kavuran Celali eşkıyalarını acımasız bir sertlikle bastırmaya başladı — idam ettiklerini kuyulara gömdürdüğü için 'Kuyucu' lakabını aldı.",
+    "secenekler": [
+      {
+        "metin": "Bu sert bastırma harekatına katkıda bulun",
+        "etki": { "para": 3, "itibar": 2, "saglik": -2, "sans_gerekli": true },
+        "sonuc": "Sert yöntemler tartışmalıydı ama yıllardır süren kargaşa nihayet yatışmaya başlamıştı."
+      },
+      {
+        "metin": "Bu sertliğin bedelini düşün",
+        "etki": { "mutluluk": -2, "zeka": 1 },
+        "sonuc": "Düzen sağlanıyordu ama bunun bedeli ağır oluyordu."
+      }
+    ]
+  },
+  {
+    "id": "ahmed1_005_zitvatorok_antlasmasi",
+    "donem": "duraklama",
+    "alt_donem": "birinci_ahmed",
+    "tarih_yil_min": 1606,
+    "tarih_yil_max": 1606,
+    "yas_min": 10,
+    "yas_max": 60,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "15 yıl süren yorucu Avusturya savaşı, Zitvatorok Antlaşması ile sona erdi. Ama bu antlaşmanın bir maddesi dikkat çekiyor: Avusturya Arşidükü artık Osmanlı padişahına 'denk' sayılacak — Kanuni zamanında Arşidük sadece sadrazama denk sayılırdı. Bu, sessizce kabul edilen bir statü değişimi.",
+    "secenekler": [
+      {
+        "metin": "Bu antlaşmayı savaşın bitmesi için gerekli say",
+        "etki": { "mutluluk": 3, "zeka": 1 },
+        "sonuc": "15 yıllık savaş yorgunluğu için barış, öncelikli bir ihtiyaçtı."
+      },
+      {
+        "metin": "Bu statü değişimini imparatorluğun geleceği için endişe verici bul",
+        "etki": { "zeka": 3, "mutluluk": -2 },
+        "sonuc": "Az kişi fark etse de, bu küçük protokol değişimi, güç dengesinin sessizce kaymaya başladığının bir işaretiydi."
+      }
+    ]
+  },
+  {
+    "id": "ahmed1_006_nasuh_pasa_antlasmasi",
+    "donem": "duraklama",
+    "alt_donem": "birinci_ahmed",
+    "tarih_yil_min": 1612,
+    "tarih_yil_max": 1612,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "Doğuda Safevilerle sürdürülen yorucu savaş da Nasuh Paşa Antlaşması ile sona erdi. Artık hem batıda hem doğuda barış hakim.",
+    "secenekler": [
+      {
+        "metin": "Bu iki cepheli barışın huzurunu hisset",
+        "etki": { "mutluluk": 4 },
+        "sonuc": "Yıllardır süren savaşların ardından, imparatorluk nihayet bir soluklanma fırsatı buldu."
+      },
+      {
+        "metin": "Bu barışın kalıcılığını merak et",
+        "etki": { "zeka": 1 },
+        "sonuc": "Diplomatik dengeler her zaman kırılgandı, ama şimdilik huzur vardı."
+      }
+    ]
+  },
+  {
+    "id": "ahmed1_007_sultanahmet_camii_temel",
+    "donem": "duraklama",
+    "alt_donem": "birinci_ahmed",
+    "tarih_yil_min": 1609,
+    "tarih_yil_max": 1610,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "Sultan I. Ahmed, çok dindar bir kişiliğe sahip, imparatorluğun uzun süredir kazanılmış büyük bir zaferi olmamasına rağmen (aksine toprak/statü kayıpları yaşanmışken) Mimar Sedefkar Mehmed Ağa'ya devasa bir cami yaptırmaya karar verdi. 4 Ocak 1610'da temel atma töreni yapıldı.",
+    "secenekler": [
+      {
+        "metin": "Bu büyük inşaatta çalışmaya git",
+        "etki": { "para": 4, "zeka": 2 },
+        "meslek_atama": "ahilik",
+        "sonuc": "Bu, savaş zaferleriyle değil, inanç ve sanatla yükselen bir eser olacaktı. Herkes bu görkemli projenin bir parçası olmak istiyordu."
+      },
+      {
+        "metin": "Kendi işinde kalmayı tercih et",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Bu inşaatın haberleri şehirde büyük bir merakla takip ediliyordu."
+      }
+    ]
+  },
+  {
+    "id": "ahmed1_008_alti_minare_tartismasi",
+    "donem": "duraklama",
+    "alt_donem": "birinci_ahmed",
+    "tarih_yil_min": 1610,
+    "tarih_yil_max": 1616,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "İnşa edilen caminin tam altı minaresi olacağı ortaya çıkınca bazı çevrelerde tartışma çıktı — bu sayı, Mekke'deki Kabe'nin minare sayısıyla aynıydı, bazıları bunu saygısızlık sayıyordu. Sultan'ın, Kabe'ye yedinci bir minare ekleterek meseleyi çözdüğü söyleniyor.",
+    "secenekler": [
+      {
+        "metin": "Bu çözümü akıllıca bul",
+        "etki": { "zeka": 2, "mutluluk": 1 },
+        "sonuc": "Hem görkemli caminin tasarımı korunmuş hem de dini hassasiyet giderilmişti."
+      },
+      {
+        "metin": "Bu tartışmayı gereksiz bul",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Herkesin farklı bir görüşü vardı, ama cami her halükarda göz kamaştırıcı olacaktı."
+      }
+    ]
+  },
+  {
+    "id": "ahmed1_009_kosem_sultan_yukselisi",
+    "donem": "duraklama",
+    "alt_donem": "birinci_ahmed",
+    "tarih_yil_min": 1605,
+    "tarih_yil_max": 1617,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": false,
+    "gerekli_bayrak": null,
+    "metin": "Sultan'ın gözdesi olan Kösem Sultan, sarayda giderek daha etkili bir konuma yükseliyor. Hayır işleriyle ve zekasıyla tanınan bu kadın, ileride onlarca yıl Osmanlı siyasetinde belirleyici bir rol oynayacak — ama bunu henüz kimse tam olarak öngöremiyor.",
+    "secenekler": [
+      {
+        "metin": "Kösem Sultan'ın hayır kurumlarından faydalan",
+        "etki": { "mutluluk": 3, "para": 1 },
+        "sonuc": "Hürrem Sultan'dan bu yana sarayda bu denli etkili bir kadın görülmemişti. Adı hayırla anılıyordu."
+      },
+      {
+        "metin": "Sarayın bu yeni dengesini merakla izle",
+        "etki": { "zeka": 1 },
+        "sonuc": "Onun etkisinin gelecekte ne kadar büyüyeceğini kimse tam olarak tahmin edemiyordu."
+      }
+    ]
+  },
+  {
+    "id": "ahmed1_010_ramazanogullari_ilhaki",
+    "donem": "duraklama",
+    "alt_donem": "birinci_ahmed",
+    "tarih_yil_min": 1608,
+    "tarih_yil_max": 1608,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "Yavuz Sultan Selim döneminden beri vasal olarak varlığını sürdüren Ramazanoğulları Beyliği'ne (Adana bölgesi) tamamen son verildi — Anadolu'daki son yarı-bağımsız beylik de tarihe karıştı.",
+    "secenekler": [
+      {
+        "metin": "Bu son ilhakı not al",
+        "etki": { "zeka": 1 },
+        "sonuc": "Anadolu'daki merkezi otorite artık tartışmasız hale gelmişti."
+      },
+      {
+        "metin": "Günlük hayatına devam et",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Bu idari değişiklik, bölge halkının gündelik hayatını büyük ölçüde değiştirmedi."
+      }
+    ]
+  },
+  {
+    "id": "ahmed1_011_kazak_akinlari",
+    "donem": "duraklama",
+    "alt_donem": "birinci_ahmed",
+    "tarih_yil_min": 1613,
+    "tarih_yil_max": 1617,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": false,
+    "gerekli_bayrak": null,
+    "metin": "Karadeniz kıyılarındaki sakin köyler, kuzeyden gelen Kazak akıncılarının ani baskınlarıyla tanışıyor — bu, daha önce hiç karşılaşılmamış yeni bir tehdit türü. Kıyı köylerinde tedirginlik büyüyor.",
+    "secenekler": [
+      {
+        "metin": "Kıyı savunmasına destek ol",
+        "etki": { "para": -2, "saglik": -1 },
+        "sonuc": "Karadeniz'in eskiden güvenli sayılan sularında artık yeni bir tehlike vardı."
+      },
+      {
+        "metin": "İç bölgelere çekilmeyi düşün",
+        "etki": { "para": -1, "mutluluk": 1 },
+        "sonuc": "Kıyıdan uzaklaşmak, bazı aileler için daha güvenli görünüyordu."
+      }
+    ]
+  },
+  {
+    "id": "ahmed1_012_ahmed_vefati",
+    "donem": "duraklama",
+    "alt_donem": "birinci_ahmed",
+    "tarih_yil_min": 1617,
+    "tarih_yil_max": 1617,
+    "yas_min": 5,
+    "yas_max": 70,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "Henüz yeni tamamlanmış görkemli camisinin (Sultanahmet) yanı başında, Sultan I. Ahmed tifüs hastalığına yakalanıp sadece 27 yaşında vefat etti. Ekber-Erşed sistemi ilk kez işleyecek: yerine oğlu değil, kardeşi Mustafa geçiyor.",
+    "secenekler": [
+      {
+        "metin": "Bu genç yaştaki kaybı üzüntüyle karşıla",
+        "etki": { "mutluluk": -4, "itibar": 1 },
+        "sonuc": "Kardeş katlini kaldıran, büyük bir cami bırakan genç sultan, erken yaşta aramızdan ayrılmıştı. Yerine geçen I. Mustafa'nın nasıl bir hükümdar olacağı büyük bir merak konusuydu."
+      },
+      {
+        "metin": "Yeni sistemin ilk sınavını merakla bekle",
+        "etki": { "zeka": 2 },
+        "sonuc": "Ekber-Erşed sisteminin ilk uygulaması, herkesin dikkatle izlediği bir andı."
+      }
+    ]
   }
 ]
