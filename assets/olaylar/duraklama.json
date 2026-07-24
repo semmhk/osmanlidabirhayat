@@ -2510,5 +2510,317 @@
         "sonuc": "Yeni bir dönem başlıyordu, kimse ne getireceğini henüz bilmiyordu."
       }
     ]
+  },
+  {
+    "id": "suleyman2_001_kafeste_40_yil",
+    "donem": "duraklama",
+    "alt_donem": "suleyman2_ahmed2_mustafa2_kapanis",
+    "tarih_yil_min": 1687,
+    "tarih_yil_max": 1687,
+    "yas_min": 5,
+    "yas_max": 70,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "IV. Mehmed'in tahttan indirilmesiyle, hayatının kırk yılını kafeste geçirmiş olan Şehzade Süleyman tahta çıkarıldı. Muhafızlar onu almaya geldiğinde, kendisini öldürmeye geldiklerini sanıp direnmiş — tarihin en uzun süre veliaht bekleyen şehzadesiydi bu.",
+    "secenekler": [
+      {
+        "metin": "Bu trajik ve tuhaf başlangıcı endişeyle karşıla",
+        "etki": { "mutluluk": -2, "zeka": 1 },
+        "sonuc": "Kırk yıl kafeste geçirmiş bir adamın, artık gerçek dünyayı ne kadar yönetebileceği büyük bir soru işaretiydi."
+      },
+      {
+        "metin": "Yeni sultana umutla bak",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Devlet, art arda krizlerle boğuşurken yeni bir başlangıca ihtiyaç duyuyordu."
+      }
+    ]
+  },
+  {
+    "id": "suleyman2_002_belgrad_kaybi",
+    "donem": "duraklama",
+    "alt_donem": "suleyman2_ahmed2_mustafa2_kapanis",
+    "tarih_yil_min": 1688,
+    "tarih_yil_max": 1688,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "Eylül 1688'de Belgrad da Avusturya kuvvetlerinin eline geçti — Macaristan ve Balkanlar'daki toprak kayıpları giderek büyüyordu. Sadrazamlar sık sık değişiyor, hiçbiri kalıcı bir çözüm getiremiyordu.",
+    "secenekler": [
+      {
+        "metin": "Bu kaybı büyük bir üzüntüyle karşıla",
+        "etki": { "mutluluk": -5 },
+        "sonuc": "Devletin sınırları her geçen ay biraz daha küçülüyordu. Bu, tam bir kriz dönemiydi."
+      },
+      {
+        "metin": "Bir dönüm noktası bekle",
+        "etki": { "zeka": 1, "mutluluk": -2 },
+        "sonuc": "Herkes, güçlü bir elin devreye girmesini umuyordu."
+      }
+    ]
+  },
+  {
+    "id": "suleyman2_003_fazil_mustafa_atanma",
+    "donem": "duraklama",
+    "alt_donem": "suleyman2_ahmed2_mustafa2_kapanis",
+    "tarih_yil_min": 1689,
+    "tarih_yil_max": 1689,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "Şeyhülislam'ın tavsiyesiyle, Köprülü ailesinin üçüncü büyük ismi Fazıl Mustafa Paşa, 'saray ağaları işlere karışmayacak' şartıyla sadrazamlığa getirildi. İlk işi, halkı ezen bazı haksız vergileri kaldırmak oldu.",
+    "secenekler": [
+      {
+        "metin": "Bu vergi kaldırmalarından memnun ol",
+        "etki": { "para": 3, "mutluluk": 4 },
+        "sonuc": "Köprülü ailesi, üçüncü kez devletin imdadına yetişiyordu. Halkın yükü bir nebze hafifledi."
+      },
+      {
+        "metin": "Bu yeni sadrazamdan büyük umutlar besle",
+        "etki": { "zeka": 2, "mutluluk": 2 },
+        "sonuc": "Köprülü ismi, artık kendi başına bir güven kaynağıydı."
+      }
+    ]
+  },
+  {
+    "id": "suleyman2_004_belgrad_geri_alinisi",
+    "donem": "duraklama",
+    "alt_donem": "suleyman2_ahmed2_mustafa2_kapanis",
+    "tarih_yil_min": 1690,
+    "tarih_yil_max": 1690,
+    "yas_min": 16,
+    "yas_max": 50,
+    "tek_seferlik": true,
+    "gerekli_bayrak": "meslek_seyfiye",
+    "metin": "Fazıl Mustafa Paşa bizzat cepheye gitti — Semendire'yi ve ardından Ekim 1690'da Belgrad'ı geri aldı. İstanbul'a döndüğünde Padişah onu bizzat karşıladı, büyük bir sevinç yaşandı.",
+    "secenekler": [
+      {
+        "metin": "Bu büyük geri alım seferine katıl",
+        "etki": { "para": 6, "itibar": 4, "saglik": -4, "sans_gerekli": true },
+        "sonuc": "Kaybedilen Belgrad'ın geri alınması, uzun zamandır ilk kez gerçek bir zafer hissi vermişti."
+      },
+      {
+        "metin": "Bu zaferi büyük bir gururla kutla",
+        "etki": { "mutluluk": 6, "itibar": 2 },
+        "sonuc": "Şehirlerde günlerce şenlik yapıldı — Köprülüler yine devleti toparlamayı başarmıştı."
+      }
+    ]
+  },
+  {
+    "id": "suleyman2_005_suleyman_vefati",
+    "donem": "duraklama",
+    "alt_donem": "suleyman2_ahmed2_mustafa2_kapanis",
+    "tarih_yil_min": 1691,
+    "tarih_yil_max": 1691,
+    "yas_min": 10,
+    "yas_max": 60,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "Ağır hastalığına rağmen orduya moral vermek için Edirne'ye kadar giden II. Süleyman, orada vefat etti — 4 yıllık kısa ama toparlanma dönemi olarak hatırlanacak bir saltanattı. Yerine kardeşi II. Ahmed geçti.",
+    "secenekler": [
+      {
+        "metin": "Bu kısa ama toparlanma sağlayan saltanatı takdir et",
+        "etki": { "zeka": 2, "mutluluk": -1 },
+        "sonuc": "Kırk yıl kafeste geçen bir adam, son dört yılını devletin toparlanmasına adamıştı."
+      },
+      {
+        "metin": "Yeni sultanın döneminden umutlan",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Fazıl Mustafa Paşa'nın hâlâ sadrazam olması, bir süreklilik umudu veriyordu."
+      }
+    ]
+  },
+  {
+    "id": "suleyman2_006_salankamen_fazil_mustafa_sehadeti",
+    "donem": "duraklama",
+    "alt_donem": "suleyman2_ahmed2_mustafa2_kapanis",
+    "tarih_yil_min": 1691,
+    "tarih_yil_max": 1691,
+    "yas_min": 16,
+    "yas_max": 50,
+    "tek_seferlik": true,
+    "gerekli_bayrak": "meslek_seyfiye",
+    "metin": "Salankamen'de Avusturya ordusuyla büyük bir savaş yapıldı. Kırım Hanı'nın yeterince gayret göstermemesi yüzünden savaş kaybedildi — ama en acısı, değerli sadrazam Fazıl Mustafa Paşa'nın bu savaşta şehit düşmesiydi.",
+    "secenekler": [
+      {
+        "metin": "Bu ağır kaybı derin bir üzüntüyle karşıla",
+        "etki": { "mutluluk": -7, "saglik": -3, "sans_gerekli": true },
+        "sonuc": "Köprülü ailesinin üçüncü büyük devlet adamı da artık yoktu. Onun başlattığı reformlar, kaybıyla birlikte yarım kaldı."
+      },
+      {
+        "metin": "Bu kaybın devlet için ne anlama geldiğini düşün",
+        "etki": { "zeka": 3, "mutluluk": -5 },
+        "sonuc": "Böylesine yetenekli bir devlet adamının kaybı, sadece bir savaş kaybından çok daha ağırdı."
+      }
+    ]
+  },
+  {
+    "id": "suleyman2_007_mankur_enflasyon",
+    "donem": "duraklama",
+    "alt_donem": "suleyman2_ahmed2_mustafa2_kapanis",
+    "tarih_yil_min": 1688,
+    "tarih_yil_max": 1691,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": false,
+    "gerekli_bayrak": null,
+    "metin": "Hazine sıkıntısını gidermek için itibari değeri gerçek değerinden yüksek 'mankur' adında yeni bir para bastırıldı — ama bu, enflasyonu daha da körükledi. Birkaç yıl sonra bu uygulamadan vazgeçilmek zorunda kalındı.",
+    "secenekler": [
+      {
+        "metin": "Bu yeni parayla ilgili sıkıntıları yaşa",
+        "etki": { "para": -4, "mutluluk": -2 },
+        "sonuc": "Piyasadaki güvensizlik, gündelik alışverişi bile zorlaştırıyordu."
+      },
+      {
+        "metin": "Bu ekonomik deneyin başarısız olacağını sezinlemiş ol",
+        "etki": { "zeka": 2 },
+        "sonuc": "Nitekim birkaç yıl içinde bu uygulamadan vazgeçildi."
+      }
+    ]
+  },
+  {
+    "id": "suleyman2_008_ahmed_vefati_mustafa_cikisi",
+    "donem": "duraklama",
+    "alt_donem": "suleyman2_ahmed2_mustafa2_kapanis",
+    "tarih_yil_min": 1695,
+    "tarih_yil_max": 1695,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "II. Ahmed'in kısa saltanatının ardından vefatıyla, yeğeni II. Mustafa tahta çıktı. Yeni sultan, atalarının aksine devlet işlerine bizzat el atma kararlılığında.",
+    "secenekler": [
+      {
+        "metin": "Bu kararlı yeni sultana umutla bak",
+        "etki": { "mutluluk": 2, "zeka": 1 },
+        "sonuc": "IV. Mehmed'den beri ilk kez, bizzat sefere çıkmayı düşünen bir padişah göreve gelmişti."
+      },
+      {
+        "metin": "Temkinli bir bekleyiş içinde ol",
+        "etki": { "zeka": 1 },
+        "sonuc": "Kararlılık iyiydi ama sonuçlar zamanla görülecekti."
+      }
+    ]
+  },
+  {
+    "id": "suleyman2_009_malikane_sistemi",
+    "donem": "duraklama",
+    "alt_donem": "suleyman2_ahmed2_mustafa2_kapanis",
+    "tarih_yil_min": 1695,
+    "tarih_yil_max": 1695,
+    "yas_min": 15,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "Hazineyi güçlendirmek için 'Malikane' adı verilen yeni bir vergi toplama sistemi uygulanmaya başladı — devlet gelirleri, ömür boyu kullanım hakkıyla belirli kişilere devrediliyor.",
+    "secenekler": [
+      {
+        "metin": "Bu yeni sistemden bir pay almaya çalış",
+        "etki": { "para": 3, "zeka": 2 },
+        "sonuc": "Bu sistem, kısa vadede hazineye nakit akışı sağlasa da, uzun vadeli sonuçları henüz belli değildi."
+      },
+      {
+        "metin": "Bu değişimi uzaktan izle",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Mali düzenlemeler, devlet kademesinde yeni bir dönemin işaretiydi."
+      }
+    ]
+  },
+  {
+    "id": "suleyman2_010_mustafa_bizzat_sefer",
+    "donem": "duraklama",
+    "alt_donem": "suleyman2_ahmed2_mustafa2_kapanis",
+    "tarih_yil_min": 1695,
+    "tarih_yil_max": 1697,
+    "yas_min": 16,
+    "yas_max": 50,
+    "tek_seferlik": true,
+    "gerekli_bayrak": "meslek_seyfiye",
+    "metin": "II. Mustafa, atalarının çoğunun aksine bizzat ordunun başında sefere çıktı — Avusturya cephesinde bazı başarılar kazandı, bu onu askerlerin gözünde sevdirdi.",
+    "secenekler": [
+      {
+        "metin": "Bu seferlere katıl",
+        "etki": { "para": 4, "itibar": 3, "saglik": -3, "sans_gerekli": true },
+        "sonuc": "Padişahın bizzat cephede olması, askerin moralini yükseltiyordu — IV. Mehmed'den beri unutulan bir gelenekti bu."
+      },
+      {
+        "metin": "Bu seferlere katılmadın",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Sultan'ın kararlılığı, herkesin dikkatini çekiyordu."
+      }
+    ]
+  },
+  {
+    "id": "suleyman2_011_zenta_bozgunu",
+    "donem": "duraklama",
+    "alt_donem": "suleyman2_ahmed2_mustafa2_kapanis",
+    "tarih_yil_min": 1697,
+    "tarih_yil_max": 1697,
+    "yas_min": 16,
+    "yas_max": 50,
+    "tek_seferlik": true,
+    "gerekli_bayrak": "meslek_seyfiye",
+    "metin": "Zenta'da, Avusturyalı komutan Prens Eugene liderliğindeki kuvvetler, Tuna Nehri'ni geçmekte olan Osmanlı ordusuna ani bir baskın düzenledi — bu, savaşın gidişatını kesin olarak değiştiren feci bir bozgun oldu.",
+    "secenekler": [
+      {
+        "metin": "Bu ani ve feci baskında bulun",
+        "etki": { "saglik": -6, "mutluluk": -8, "sans_gerekli": true },
+        "sonuc": "Nehri geçerken yakalanmak, ordunun en savunmasız anıydı. Bu bozgun, artık barışın kaçınılmaz olduğunu herkese gösterdi."
+      },
+      {
+        "metin": "Bu dehşet verici haberi İstanbul'da bekleyerek karşıla",
+        "etki": { "mutluluk": -6 },
+        "sonuc": "Zenta'nın haberi, artık savaşın sürdürülemez olduğunu kesinleştirdi."
+      }
+    ]
+  },
+  {
+    "id": "suleyman2_012_karlofca_antlasmasi",
+    "donem": "duraklama",
+    "alt_donem": "suleyman2_ahmed2_mustafa2_kapanis",
+    "tarih_yil_min": 1699,
+    "tarih_yil_max": 1699,
+    "yas_min": 5,
+    "yas_max": 80,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "1699'da Karlofça'da imzalanan antlaşmayla 16 yıldır süren Kutsal İttifak Savaşları sona erdi. Macaristan'ın büyük bölümü Avusturya'ya, Mora Venedik'e, Podolya da Lehistan'a bırakıldı — Osmanlı tarihinde ilk kez bu denli büyük bir toprak kaybı, tek bir antlaşmayla resmen kabul edilmiş oldu.",
+    "secenekler": [
+      {
+        "metin": "Bu antlaşmayı acı ama gerekli bir gerçeklik olarak kabul et",
+        "etki": { "mutluluk": -6, "zeka": 3 },
+        "sonuc": "Yükselme çağının fetihleri, şimdi birer birer imzayla geri veriliyordu. Bu antlaşma, koca bir çağın ('Duraklama Dönemi'nin) sembolik olarak kapandığının ilanıydı."
+      },
+      {
+        "metin": "Savaşların bitmesinin getirdiği huzuru hisset",
+        "etki": { "mutluluk": 3 },
+        "sonuc": "16 yıllık kesintisiz savaş yorgunluğu için, her ne şartla olursa olsun barış bir rahatlamaydı."
+      }
+    ]
+  },
+  {
+    "id": "suleyman2_013_edirne_vakasi",
+    "donem": "duraklama",
+    "alt_donem": "suleyman2_ahmed2_mustafa2_kapanis",
+    "tarih_yil_min": 1703,
+    "tarih_yil_max": 1703,
+    "yas_min": 10,
+    "yas_max": 60,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "II. Mustafa, İstanbul yerine Edirne'de uzun süre kalıp devlet işlerini oradan yürütünce, ve etkili Şeyhülislam Feyzullah Efendi'nin akrabalarını üst kademelere yerleştirmesi tepki toplayınca, büyük bir yeniçeri/halk isyanı ('Edirne Vakası') patlak verdi. II. Mustafa tahttan indirildi, kardeşi III. Ahmed tahta çıktı.",
+    "secenekler": [
+      {
+        "metin": "Bu isyanı devletin merkezi otoriteyi yeniden İstanbul'da istemesinin bir işareti say",
+        "etki": { "zeka": 2, "mutluluk": -1 },
+        "sonuc": "Karlofça'nın acı barışının ardından gelen bu iç kriz, Duraklama Dönemi'nin gerçek anlamda kapandığını ve yeni, daha da zorlu bir çağın (Gerileme Dönemi) başladığını gösteriyordu."
+      },
+      {
+        "metin": "Bu değişimi endişeyle izle",
+        "etki": { "mutluluk": -1 },
+        "sonuc": "Yeni bir padişah, yeni bir dönem — ama devletin karşı karşıya olduğu zorluklar hiç azalmamıştı."
+      }
+    ]
   }
 ]

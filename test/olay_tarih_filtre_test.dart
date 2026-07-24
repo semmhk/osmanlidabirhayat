@@ -26,12 +26,12 @@ void main() {
       tumOlaylar = [...o1, ...o2, ...o3];
     });
 
-    test('1. kurulus.json (138) + yukselme.json (101) + duraklama.json (105) = 344 olay eksiksiz, benzersiz ID ve alt_donem alanlarıyla yüklenmeli', () {
-      expect(tumOlaylar.length, equals(344));
+    test('1. kurulus.json (138) + yukselme.json (101) + duraklama.json (118) = 357 olay eksiksiz, benzersiz ID ve alt_donem alanlarıyla yüklenmeli', () {
+      expect(tumOlaylar.length, equals(357));
       
       // Benzersiz ID kontrolü
       final idSet = tumOlaylar.map((o) => o.id).toSet();
-      expect(idSet.length, equals(344));
+      expect(idSet.length, equals(357));
 
       final ahilikOlayi = tumOlaylar.firstWhere((o) => o.id == 'kurulus_001');
       expect(ahilikOlayi.tarihYilMin, equals(1299));
@@ -125,6 +125,11 @@ void main() {
       final budinDususu = tumOlaylar.firstWhere((o) => o.id == 'mehmed4_3_005_budin_dususu');
       expect(budinDususu.donem, equals('duraklama'));
       expect(budinDususu.altDonem, equals('dorduncu_mehmed_3_cokus'));
+
+      // II. Süleyman / II. Ahmed / II. Mustafa Duraklama Kapanış dönemi olayları kontrolü
+      final karlofcaAntlasmasi = tumOlaylar.firstWhere((o) => o.id == 'suleyman2_012_karlofca_antlasmasi');
+      expect(karlofcaAntlasmasi.donem, equals('duraklama'));
+      expect(karlofcaAntlasmasi.altDonem, equals('suleyman2_ahmed2_mustafa2_kapanis'));
     });
 
     test('2. Şema doğrulayıcı hatalı tarih_yil_min > tarih_yil_max durumunu yakalamalı', () {

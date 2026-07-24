@@ -4,7 +4,7 @@
 
 ## MEVCUT DURUM
 
-**Aktif Faz:** Adım 1 & Adım 4 (Proje İskeleti + 138 Olaylık Kuruluş Dönemi [7/7 TAMAMLANDI] + 101 Olaylık Yükselme Dönemi [5/5 TAMAMLANDI] + **DURAKLAMA DÖNEMİ DEVAM EDİYOR [8/10 Alt-Dönem: III. Murad 13 + III. Mehmed 12 + I. Ahmed 12 + I. Mustafa & Genç Osman 11 + IV. Murad 12 + Sultan İbrahim 11 + IV. Mehmed 3 Parça 34 = 105 Duraklama Olayı]** + 344 Toplam Olay + 14 Başarım Sistemi + Kalemiye & Boşanma Zincirleri + Birim Testleri + GitHub Entegrasyonu) ✅
+**Aktif Faz:** Adım 1 & Adım 4 (Proje İskeleti + 138 Olaylık Kuruluş Dönemi [7/7 TAMAMLANDI] + 101 Olaylık Yükselme Dönemi [5/5 TAMAMLANDI] + **DURAKLAMA DÖNEMİ TAMAMEN TAMAMLANDI [10/10 Alt-Dönem - 118 Duraklama Olayı]** + 357 Toplam Olay + 14 Başarım Sistemi + Kalemiye & Boşanma Zincirleri + Birim Testleri + GitHub Entegrasyonu) ✅
 **Son güncelleme:** 24 Temmuz 2026
 
 ---
@@ -32,29 +32,30 @@
   - Osman Gazi (17 Olay), Orhan Gazi (20 Olay), I. Murad (18 Olay), Yıldırım Bayezid (19 Olay), Fetret Devri (12 Olay), Çelebi Mehmed (13 Olay), II. Murad (17 Olay).
 - [x] **Yükselme Dönemi (5/5 Padişah/Alt-Dönem TAM TAMAMLANDI - 101 Olay)**:
   - Fatih Sultan Mehmed (18 Olay), II. Bayezid (14 Olay), Yavuz Sultan Selim (13 Olay), Kanuni Sultan Süleyman (42 Olay), II. Selim (14 Olay).
-- [x] **Duraklama Dönemi (8/10 Alt-Dönem - 105 Olay 🎉)**:
+- [x] **Duraklama Dönemi (10/10 Alt-Dönem TAM TAMAMLANDI - 118 Olay 🎉)**:
   - **III. Murad (1574-1595)**: 13 Olay TAMAMLANDI.
   - **III. Mehmed (1595-1603)**: 12 Olay TAMAMLANDI.
   - **I. Ahmed (1603-1617)**: 12 Olay TAMAMLANDI.
   - **I. Mustafa & Genç Osman (1617-1623)**: 11 Olay TAMAMLANDI.
   - **IV. Murad (1623-1640)**: 12 Olay TAMAMLANDI.
   - **Sultan İbrahim (1640-1648)**: 11 Olay TAMAMLANDI.
-  - **IV. Mehmed III (Çöküş, 1683-1687)**: 10 Olay TAMAMLANDI (`assets/olaylar/duraklama.json`, `alt_donem: "dorduncu_mehmed_3_cokus"` — **IV. MEHMED'İN 39 YILLIK SALTANATI TAMAMEN TAMAMLANDI [I: Kaos 10 + II: Köprülüler 14 + III: Çöküş 10 = Toplam 34 Olay]**. Papa XI. Innocentius liderliğinde Kutsal İttifak'ın kurulması [Avusturya, Venedik, Lehistan, Rusya; 1684], Venediklilerin Mora ve Dalmaçya kıyı kalelerini ele geçirmesi, Uyvar Kalesi'nin kaybı [1685], Budin Kalesi'nin kahramanca direnişi ve Kara Murat Paşa'nın şehadeti, Eylül 1686'da 150 yıllık Osmanlı şehri Budin'in düşüşü & Macaristan hakimiyetinin sona ermesi, Eğri Kalesi'nin kaybı, 12 Ağustos 1687 2. Mohaç Bozgunu [161 yıl önceki zaferin acı simetriyle tersine dönmesi], Ordunun Avcı Mehmed'i av tutkusuyla devleti ihmal etmekle suçlayarak İstanbul'a yürümesi, 8 Kasım 1687'de IV. Mehmed'in tahttan indirilip Edirne Sarayı'na kapatılması & 39 yıllık saltanatın genel değerlendirmesi).
+  - **IV. Mehmed (1648-1687)**: 34 Olay (3 Parça: Kaos 10 + Köprülüler 14 + Çöküş 10) TAMAMLANDI.
+  - **II. Süleyman / II. Ahmed / II. Mustafa (1687-1703)**: 13 Olay TAMAMLANDI (`assets/olaylar/duraklama.json`, `alt_donem: "suleyman2_ahmed2_mustafa2_kapanis"` — Hayatının 40 yılını kafeste geçiren Şehzade II. Süleyman'ın tahta çıkarılışı [1687], Belgrad'ın Avusturyalılara kaybı [1688], Köprülü ailesinin 3. büyük ismi Fazıl Mustafa Paşa'nın sadrazamlığa getirilmesi ve haksız vergileri kaldırması [1689], Fazıl Mustafa Paşa'nın bizzat cepheye giderek Belgrad'ı geri alması [1690], II. Süleyman'ın vefatı & II. Ahmed'in cülusu [1691], 1691 Salankamen Bozgunu ve Fazıl Mustafa Paşa'nın şehit düşmesi, Mankur parasının bastırılması ve enflasyon krizleri, II. Ahmed'in vefatı & II. Mustafa'nın tahta çıkışı [1695], Hazine için Malikane vergi sistemine geçilmesi [1695], II. Mustafa'nın bizzat ordunun başında seferlere çıkması, 1697 Zenta Bozgunu [Prens Eugene baskını], **26 Ocak 1699 KARLOFÇA ANTLAŞMASI** [Macaristan, Mora ve Podolya'nın kaybı — Osmanlı tarihinde ilk kez büyük toprak kaybının kabulü & Duraklama Döneminin resmen kapanması], 1703 Edirne Vakası [II. Mustafa'nın tahttan indirilmesi ve III. Ahmed'in cülusu]).
 - [x] **Sistem boşlukları kapatıldı: kalemiye, 14 başarım, boşanma/nesil içeriği**:
   - 14 Osmanlı-uyumlu Başarım sistemi eklendi (`assets/basarimlar.json`, `lib/modeller/basarim.dart`, `lib/motor/basarim_kontrolcusu.dart`).
   - Kalemiye Meslek Zinciri eklendi (`kurulus_073`).
   - Boşanma / Eşin Vefatı / İkinci Nikah Zinciri eklendi (`kurulus_074`, `kurulus_075`, `kurulus_076`).
   - UI Ekranları: `BasarimlarEkrani` ve `OlumEkrani` eklendi (`lib/ekranlar/`).
-- [x] **TOPLAM OLAY SAYISI: 344 OLAY** (Kuruluş 138 + Yükselme 101 + Duraklama 105).
-- [x] Birim testleri yazıldı (`test/sistem_bosluklari_test.dart` & `test/olay_tarih_filtre_test.dart` — 344 olay, üç dosyanın paralel yüklenmesi, Kalemiye ataması, 14 başarım koşulu ve boşanma/ikinci nikah zinciri). Toplam **11/11 test YEŞİL ✅**. `flutter analyze` **0 hata / 0 uyarı ✅**.
+- [x] **TOPLAM OLAY SAYISI: 357 OLAY** (Kuruluş 138 + Yükselme 101 + Duraklama 118).
+- [x] Birim testleri yazıldı (`test/sistem_bosluklari_test.dart` & `test/olay_tarih_filtre_test.dart` — 357 olay, üç dosyanın paralel yüklenmesi, Kalemiye ataması, 14 başarım koşulu ve boşanma/ikinci nikah zinciri). Toplam **11/11 test YEŞİL ✅**. `flutter analyze` **0 hata / 0 uyarı ✅**.
 - [x] GitHub Reposu: `https://github.com/semmhk/osmanlidabirhayat.git` (main branch).
 
 ---
 
 ## KALAN İŞLER / SONRAKİ ADIMLAR
 
-- [ ] **DURAKLAMA DÖNEMİ SON ALT-DÖNEMLERİ (2/10 Kalan)**:
-  - **Sırada:** II. Süleyman / II. Ahmed (1687-1695) — Fazıl Mustafa Paşa reformları, Belgrad'ın geri alınması, Salankamen Bozgunu ve Fazıl Mustafa Paşa'nın şehadeti
-  - II. Mustafa (1695-1703) — Son bizzat sefere çıkan padişah, Zenta Bozgunu (1697), Karlofça Antlaşması (1699, Duraklama Döneminin Sonu) & Edirne Vak'ası (1703)
+- [ ] **GERİLEME DÖNEMİ (1699-1792)**:
+  - **Sırada:** III. Ahmed / Lale Devri (1703-1730) — Prut Savaşı (1711, Baltacı Mehmed Paşa), Pasarofça Antlaşması (1718), Nevşehirli Damat İbrahim Paşa, İbrahim Müteferrika ve İlk Matbaa, Lale Devri sefahatı ve Patrona Halil İsyanı (1730)
+  - I. Mahmud & I. Osman & III. Mustafa & I. Abdülhamid & III. Selim grubu
 - [ ] UI Ekranlarının (Ana Menü, Oyun Ekranı) ferman estetiğiyle entegrasyonunun tamamlanması.
 - [ ] Hive entegrasyonu ve geçmiş hayatlar kaydı.
