@@ -960,5 +960,342 @@
         "sonuc": "Devletin geleceği, artık Abdülaziz'in ellerindeydi."
       }
     ]
+  },
+  {
+    "id": "abdulaziz_001_tahta_cikis_donanma",
+    "donem": "dagilma",
+    "alt_donem": "abdulaziz",
+    "tarih_yil_min": 1861,
+    "tarih_yil_max": 1875,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": false,
+    "gerekli_bayrak": null,
+    "metin": "25 Haziran 1861'de tahta çıkan Abdülaziz, ordunun ve özellikle donanmanın modernleşmesine büyük önem verdi — tersaneler yenilendi, zırhlı gemiler sipariş edildi. 1875'e gelindiğinde donanmamız dünyanın (İngiltere ve Fransa'dan sonra) üçüncü büyük zırhlı donanması haline gelmişti.",
+    "secenekler": [
+      {
+        "metin": "Tersanede bu büyük donanma projesinde çalış",
+        "etki": { "para": 6, "zeka": 3, "itibar": 2 },
+        "meslek_atama": "ahilik",
+        "sonuc": "21 zırhlı gemi, yüzlerce top — devletin denizlerdeki gücü, yıllar sonra ilk kez bu denli etkileyiciydi."
+      },
+      {
+        "metin": "Bu görkemli donanmadan gurur duy",
+        "etki": { "mutluluk": 4, "itibar": 1 },
+        "sonuc": "Denizlerdeki bu güç, imparatorluğun hâlâ büyük bir devlet olduğunun somut kanıtıydı."
+      }
+    ]
+  },
+  {
+    "id": "abdulaziz_002_avrupa_seyahati",
+    "donem": "dagilma",
+    "alt_donem": "abdulaziz",
+    "tarih_yil_min": 1867,
+    "tarih_yil_max": 1867,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "1867 Paris Sergisi vesilesiyle Abdülaziz, Fransa, İngiltere, Belçika, Almanya, Avusturya ve Macaristan'ı ziyaret etti — bir Osmanlı padişahının savaş dışı, dostane bir amaçla Batı Avrupa'ya yaptığı ilk ve tek seyahatti bu. III. Napolyon ve Kraliçe Viktorya tarafından büyük bir ihtişamla karşılandı.",
+    "secenekler": [
+      {
+        "metin": "Bu tarihi seyahatin haberlerini merakla takip et",
+        "etki": { "zeka": 3, "mutluluk": 3 },
+        "sonuc": "Bir Osmanlı padişahının Avrupa'nın en güçlü krallarıyla bu şekilde ağırlanması, herkesi gururlandırdı ve şaşırttı."
+      },
+      {
+        "metin": "Bu seyahatin devlete getirdiği maliyeti düşün",
+        "etki": { "zeka": 1, "mutluluk": -1 },
+        "sonuc": "Görkemli bir seyahatti ama masrafları da az değildi."
+      }
+    ]
+  },
+  {
+    "id": "abdulaziz_003_balkan_isyanlari",
+    "donem": "dagilma",
+    "alt_donem": "abdulaziz",
+    "tarih_yil_min": 1861,
+    "tarih_yil_max": 1868,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": false,
+    "gerekli_bayrak": null,
+    "metin": "Karadağ, Eflak-Boğdan (Romanya) ve Sırbistan'da art arda isyanlar/ayrılıkçı hareketler yaşandı — Sırbistan'daki Türk askerleri kalelerden çekilmek zorunda kaldı, Sırp Prensi fiilen daha geniş bir özerklik kazandı.",
+    "secenekler": [
+      {
+        "metin": "Bu kayıpları endişeyle izle",
+        "etki": { "zeka": 2, "mutluluk": -3 },
+        "sonuc": "Balkanlar'daki milliyetçi hareketler, bir türlü durdurulamıyordu."
+      },
+      {
+        "metin": "Bu değişimlerin doğal bir süreç olduğunu kabullen",
+        "etki": { "mutluluk": -1 },
+        "sonuc": "Çok uluslu bir imparatorluğu bir arada tutmak, her geçen yıl daha da zorlaşıyordu."
+      }
+    ]
+  },
+  {
+    "id": "abdulaziz_004_girit_isyani",
+    "donem": "dagilma",
+    "alt_donem": "abdulaziz",
+    "tarih_yil_min": 1866,
+    "tarih_yil_max": 1868,
+    "yas_min": 15,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": "meslek_seyfiye",
+    "metin": "Girit'te büyük bir isyan patlak verdi — Sadrazam Mehmed Emin Ali Paşa'nın hazırladığı 'Girit Nizamnamesi' ile geçici bir çözüm bulundu, ama adanın kaybına giden süreç fiilen başlamıştı.",
+    "secenekler": [
+      {
+        "metin": "Bu isyanı bastırma çabalarına katıl",
+        "etki": { "para": 3, "saglik": -3, "sans_gerekli": true },
+        "sonuc": "Girit'teki huzursuzluk bastırıldı ama tam olarak sona ermedi — bu, yıllar sürecek bir meselenin sadece bir perdesiydi."
+      },
+      {
+        "metin": "Bu meseleyi uzaktan endişeyle takip et",
+        "etki": { "zeka": 1, "mutluluk": -1 },
+        "sonuc": "Girit'in geleceği, giderek daha belirsiz görünüyordu."
+      }
+    ]
+  },
+  {
+    "id": "abdulaziz_005_suveys_kanali",
+    "donem": "dagilma",
+    "alt_donem": "abdulaziz",
+    "tarih_yil_min": 1869,
+    "tarih_yil_max": 1869,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "Osmanlı'ya bağlı Mısır Hidivliği topraklarında Süveyş Kanalı açıldı — bu kanal, dünya ticaret yollarını yüzlerce yıl sonra yeniden Akdeniz-Kızıldeniz güzergahına, yani Osmanlı-Mısır coğrafyasına çekecek stratejik bir gelişmeydi.",
+    "secenekler": [
+      {
+        "metin": "Bu büyük mühendislik başarısını hayranlıkla izle",
+        "etki": { "zeka": 3, "mutluluk": 2 },
+        "sonuc": "İki denizi birleştiren bu kanal, dünya ticaretini kökten değiştirecek bir projeydi."
+      },
+      {
+        "metin": "Bu kanalın stratejik önemini düşün",
+        "etki": { "zeka": 2 },
+        "sonuc": "Avrupa devletleri, bu yeni ticaret yoluna büyük bir ilgiyle bakıyordu — bu ilgi ileride yeni sorunlar da doğurabilirdi."
+      }
+    ]
+  },
+  {
+    "id": "abdulaziz_006_surekli_dis_borclanma",
+    "donem": "dagilma",
+    "alt_donem": "abdulaziz",
+    "tarih_yil_min": 1861,
+    "tarih_yil_max": 1875,
+    "yas_min": 15,
+    "yas_max": 55,
+    "tek_seferlik": false,
+    "gerekli_bayrak": null,
+    "metin": "Donanma inşası, saray masrafları ve savaş harcamaları için devlet sürekli dış borçlanmaya gidiyor — 20 yılda tam 15 ayrı borçlanma yapıldı, ama alınan paralar çoğunlukla verimli yatırımlara değil, gösterişli harcamalara gitti.",
+    "secenekler": [
+      {
+        "metin": "Bu borçlanma sarmalından endişelen",
+        "etki": { "para": -3, "zeka": 2, "mutluluk": -2 },
+        "sonuc": "Her yeni borç, bir öncekini kapatmak için alınıyordu — bu, sürdürülemez bir döngüydü."
+      },
+      {
+        "metin": "Devletin görkeminin bu şekilde sürdürüldüğünü gözlemle",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Görkemli saraylar ve büyük donanma, aslında borç üzerine borçla ayakta duruyordu."
+      }
+    ]
+  },
+  {
+    "id": "abdulaziz_007_ramazan_kararnamesi",
+    "donem": "dagilma",
+    "alt_donem": "abdulaziz",
+    "tarih_yil_min": 1875,
+    "tarih_yil_max": 1875,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "1875'e gelindiğinde borç 239 milyona ulaşmış, yıllık 11 milyonluk taksit ödemesi gerekirken devletin toplam yıllık geliri sadece 18 milyondu. Sadrazam Mahmud Nedim Paşa, 'Ramazan Kararnamesi' ile devletin borç faizlerini artık ödeyemeyeceğini açıkladı — fiilen bir iflas ilanıydı bu.",
+    "secenekler": [
+      {
+        "metin": "Bu iflas haberini büyük bir endişeyle karşıla",
+        "etki": { "mutluluk": -7, "para": -3 },
+        "sonuc": "Devletin kendi iflasını ilan etmesi, hem içeride hem dışarıda büyük bir güven kaybına yol açtı."
+      },
+      {
+        "metin": "Bu durumun kaçınılmaz olduğunu kabullen",
+        "etki": { "zeka": 3, "mutluluk": -5 },
+        "sonuc": "Yıllarca süren sorumsuz borçlanmanın faturası, sonunda ödenmek zorunda kalmıştı."
+      }
+    ]
+  },
+  {
+    "id": "abdulaziz_008_hersek_bulgar_isyanlari",
+    "donem": "dagilma",
+    "alt_donem": "abdulaziz",
+    "tarih_yil_min": 1875,
+    "tarih_yil_max": 1876,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": false,
+    "gerekli_bayrak": null,
+    "metin": "1875'te Hersek'te başlayan isyan hızla Sırbistan ve Karadağ'a yayıldı. 1876'da ise Bulgaristan'da büyük bir isyan patlak verdi — karşılıklı katliamlar yaşandı, Avrupa kamuoyu bu olayları tek taraflı olarak yorumlayıp Osmanlı aleyhine büyük bir tepki gösterdi.",
+    "secenekler": [
+      {
+        "metin": "Bu kargaşadan derin bir endişe duy",
+        "etki": { "mutluluk": -6, "zeka": 1 },
+        "sonuc": "Balkanlar'daki huzursuzluk, artık kontrol edilemez bir noktaya gelmişti — hem içeride hem Avrupa'da devletin itibarı ciddi zarar görüyordu."
+      },
+      {
+        "metin": "Bu karmaşık durumun adil bir şekilde ele alınmasını umut et",
+        "etki": { "zeka": 2, "mutluluk": -3 },
+        "sonuc": "Karşılıklı acılar yaşanıyordu ama uluslararası kamuoyu, meseleyi tek taraflı görüyordu."
+      }
+    ]
+  },
+  {
+    "id": "abdulaziz_009_genc_osmanlilar_mesrutiyet",
+    "donem": "dagilma",
+    "alt_donem": "abdulaziz",
+    "tarih_yil_min": 1865,
+    "tarih_yil_max": 1876,
+    "yas_min": 15,
+    "yas_max": 55,
+    "tek_seferlik": false,
+    "gerekli_bayrak": null,
+    "metin": "İbrahim Şinasi, Namık Kemal ve Ziya Paşa gibi 'Genç Osmanlılar', anayasal bir meşrutiyet yönetimi talep ediyor — başta bu fikirlere sıcak bakan Abdülaziz, zamanla bu düşünceye karşı çıkıp bazı aydınları sürgüne gönderdi.",
+    "secenekler": [
+      {
+        "metin": "Bu yeni fikirleri merakla tart",
+        "etki": { "zeka": 3, "mutluluk": 1 },
+        "sonuc": "Anayasa, meclis, sınırlı monarşi — bu kavramlar, imparatorlukta hiç görülmemiş bir tartışma başlatıyordu."
+      },
+      {
+        "metin": "Bu fikirlerin devlet için riskli olabileceğini düşün",
+        "etki": { "zeka": 1, "mutluluk": -1 },
+        "sonuc": "Sultan'ın gücünün sınırlandırılması fikri, sarayda büyük huzursuzluk yaratıyordu."
+      }
+    ]
+  },
+  {
+    "id": "abdulaziz_010_darbe_1876",
+    "donem": "dagilma",
+    "alt_donem": "abdulaziz",
+    "tarih_yil_min": 1876,
+    "tarih_yil_max": 1876,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "30 Mayıs 1876 sabahı erken saatlerde, Hüseyin Avni Paşa ve Mithat Paşa önderliğindeki askeri birlikler Dolmabahçe Sarayı'nı kuşattı. Abdülaziz, akli dengesizlik gerekçesiyle şeyhülislamın verdiği bir fetvayla tahttan indirildi — yerine yeğeni V. Murad geçirildi.",
+    "secenekler": [
+      {
+        "metin": "Bu ani darbeyi büyük bir şokla karşıla",
+        "etki": { "mutluluk": -6, "zeka": 1 },
+        "sonuc": "15 yıllık, hem görkemli hem borçlu bir saltanat, bir sabah baskınıyla sona ermişti."
+      },
+      {
+        "metin": "Bu köklü değişimin devlet için ne anlama geldiğini düşün",
+        "etki": { "zeka": 3, "mutluluk": -3 },
+        "sonuc": "Genç Osmanlılar'ın meşrutiyet hayali, artık daha yakın görünüyordu — ama bunun bedeli ağır olmuştu."
+      }
+    ]
+  },
+  {
+    "id": "abdulaziz_011_supheli_olum",
+    "donem": "dagilma",
+    "alt_donem": "abdulaziz",
+    "tarih_yil_min": 1876,
+    "tarih_yil_max": 1876,
+    "yas_min": 5,
+    "yas_max": 80,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "Tahttan indirilişinin ardından önce Topkapı Sarayı'na, sonra kendi isteğiyle Feriye Sarayı'na nakledilen Abdülaziz, sadece birkaç gün sonra, 4 Haziran 1876 sabahı odasında bilekleri kesilmiş halde ölü bulundu. Resmi açıklama intihardı, ama bu ölümün gerçek sebebi bugün bile tartışmalı.",
+    "secenekler": [
+      {
+        "metin": "Bu şüpheli ölümü derin bir üzüntü ve şüpheyle karşıla",
+        "etki": { "mutluluk": -8, "zeka": 2 },
+        "sonuc": "Dünyanın üçüncü büyük donanmasını kuran, Avrupa'yı gezen bir padişahın bu şekilde son bulması, herkesin zihninde soru işaretleri bırakıyordu."
+      },
+      {
+        "metin": "Bu trajik sonu sessizce yasla karşıla",
+        "etki": { "mutluluk": -6 },
+        "sonuc": "Gerçek ne olursa olsun, bir hükümdarın bu şekilde ölmesi, devletin ne kadar kırılgan bir döneme girdiğinin acı bir göstergesiydi."
+      }
+    ]
+  },
+  {
+    "id": "abdulaziz_012_v_murad_kisa_saltanat",
+    "donem": "dagilma",
+    "alt_donem": "abdulaziz",
+    "tarih_yil_min": 1876,
+    "tarih_yil_max": 1876,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "V. Murad tahta çıktı ama sağlığının (özellikle akli dengesinin) yerinde olmadığı kısa sürede anlaşıldı — Genç Osmanlılar'ın umut bağladığı bu meşrutiyet yanlısı sultan, sadece birkaç ay sonra kendisi de tahttan indirilecek.",
+    "secenekler": [
+      {
+        "metin": "Bu belirsiz ve kısa saltanatı endişeyle izle",
+        "etki": { "zeka": 2, "mutluluk": -2 },
+        "sonuc": "Devletin başındaki bu sürekli değişim, herkesi derinden yoruyordu."
+      },
+      {
+        "metin": "Bir sonraki sultanın döneminden umutlan",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Belki bir sonraki değişiklik, nihayet bir istikrar getirebilirdi."
+      }
+    ]
+  },
+  {
+    "id": "abdulaziz_013_gunluk_hayat_gorkem_borc_golgesi",
+    "donem": "dagilma",
+    "alt_donem": "abdulaziz",
+    "tarih_yil_min": 1861,
+    "tarih_yil_max": 1876,
+    "yas_min": 15,
+    "yas_max": 55,
+    "tek_seferlik": false,
+    "gerekli_bayrak": null,
+    "metin": "Bu dönemde İstanbul'da görkemli saraylar (Çırağan, Beylerbeyi), yeni asker üniformaları, ilk posta pulları gibi modernleşme sembolleri gündelik hayata giriyor — ama bu görkemin altında, giderek büyüyen bir borç yükü ve mali kırılganlık var.",
+    "secenekler": [
+      {
+        "metin": "Bu modernleşme sembollerinden etkilenmiş bir şekilde yaşa",
+        "etki": { "zeka": 2, "mutluluk": 3 },
+        "sonuc": "Şehir, görünürde hiç bu kadar parlak olmamıştı — ama bu parlaklığın bedeli, gelecek nesillere kalacaktı."
+      },
+      {
+        "metin": "Bu gösterişin altındaki mali gerçekliği sezinle",
+        "etki": { "zeka": 3, "mutluluk": -1 },
+        "sonuc": "Görkemli saraylar ve büyük donanma, giderek artan bir borç üzerine inşa ediliyordu."
+      }
+    ]
+  },
+  {
+    "id": "abdulaziz_014_donem_kapanis",
+    "donem": "dagilma",
+    "alt_donem": "abdulaziz",
+    "tarih_yil_min": 1876,
+    "tarih_yil_max": 1876,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "Abdülaziz'in trajik sonu ve V. Murad'ın kısa süreli saltanatının ardından, devletin geleceği artık meşrutiyet yanlısı devlet adamlarının ve genç bir sultanın (II. Abdülhamid) ellerine geçmek üzere — imparatorluk, en büyük anayasal deneyine hazırlanıyor.",
+    "secenekler": [
+      {
+        "metin": "Bu belirsiz ama önemli geçiş dönemini merakla bekle",
+        "etki": { "zeka": 2, "mutluluk": 1 },
+        "sonuc": "Devlet, hem büyük bir krizin hem de büyük bir dönüşümün eşiğindeydi."
+      },
+      {
+        "metin": "Gündelik hayatına devam et",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Büyük tarihi değişimler ne olursa olsun, hayat kendi akışında sürüyordu."
+      }
+    ]
   }
 ]
