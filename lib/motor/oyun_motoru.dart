@@ -241,19 +241,23 @@ class OyunMotoru {
     }).toList();
   }
 
+  final List<String> sonGosterilenOlaylar = [];
+
   /// Olay Havuzu Sayısal Ağırlıklandırması (Weighted Pool Selector)
-  /// - Standart olaylar: weight = 1
-  /// - Standart kilometre taşı olayları (10-14 meslek, 16-22 evlilik): weight = 10
-  /// - Telafi / geç kalmış kilometre taşları (18+ mesleksiz, 28+ bekar): weight = 25
-  /// - Terfi bekleme dönemindeki olaylar: weight = 15
+  /// - Son 10 turda gösterilen olaylar havuzdan öncelikle elenerek çeşitlilik sağlanır.
+  /// - Tarihsel dönem ve gündelik olay çeşitliliği artırılmıştır.
   Olay? agirlikliOlaySec(List<Olay> uygunlar) {
     if (uygunlar.isEmpty) return null;
+
+    // Son gösterilen olayları süzerek çeşitlilik sağla
+    final tazeOlaylar = uygunlar.where((o) => !sonGosterilenOlaylar.contains(o.id)).toList();
+    final secimHavuzu = tazeOlaylar.isNotEmpty ? tazeOlaylar : uygunlar;
 
     final List<int> agirliklar = [];
     int toplamAgirlik = 0;
 
-    for (final o in uygunlar) {
-      int agirlik = 1;
+    for (final o in secimHavuzu) {
+      int agirlik = 2; // Temel olay ağırlığı
 
       if (o.oncelikli) {
         // Telafi durumu kontrolü
@@ -261,19 +265,19 @@ class OyunMotoru {
         final bool evlilikTelafi = (karakter.yas >= 28 && karakter.esAdi == null);
 
         if (meslekTelafi || evlilikTelafi) {
-          agirlik = 25; // Telafi kilometre taşı ağırlığı
+          agirlik = 8; // Telafi ağırlığı
         } else {
-          agirlik = 10; // Standart kilometre taşı ağırlığı (10-14 & 16-22)
+          agirlik = 4; // Kilometre taşı ağırlığı
         }
       }
 
-      // Terfi dönemi olaylarına 15x ağırlık verilmesi
+      // Terfi dönemi olayları
       if (karakter.meslekZincirId != null) {
         final zincir = MeslekDeposu.zincirGetir(karakter.meslekZincirId);
         if (zincir != null && karakter.meslekKademesi < zincir.kademeler.length - 1) {
           final mevcukKademe = zincir.kademeler[karakter.meslekKademesi];
           if (karakter.kademedekiYil >= mevcukKademe.minYil) {
-            agirlik = max(agirlik, 15);
+            agirlik = max(agirlik, 5);
           }
         }
       }
@@ -283,14 +287,21 @@ class OyunMotoru {
     }
 
     int zar = _random.nextInt(toplamAgirlik);
-    for (var i = 0; i < uygunlar.length; i++) {
+    Olay secilen = secimHavuzu.last;
+    for (var i = 0; i < secimHavuzu.length; i++) {
       if (zar < agirliklar[i]) {
-        return uygunlar[i];
+        secilen = secimHavuzu[i];
+        break;
       }
       zar -= agirliklar[i];
     }
 
-    return uygunlar.last;
+    sonGosterilenOlaylar.add(secilen.id);
+    if (sonGosterilenOlaylar.length > 10) {
+      sonGosterilenOlaylar.removeAt(0);
+    }
+
+    return secilen;
   }
 
   /// Bir yıl yaşama fonksiyonu

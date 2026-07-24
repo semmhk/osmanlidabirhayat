@@ -11,7 +11,17 @@ class SesServisi {
 
   AudioPlayer? get bgmPlayer {
     try {
-      _bgmPlayer ??= AudioPlayer();
+      if (_bgmPlayer == null) {
+        _bgmPlayer = AudioPlayer();
+        _bgmPlayer!.setAudioContext(AudioContext(
+          android: AudioContextAndroid(
+            stayAwake: true,
+            contentType: AndroidContentType.music,
+            usageType: AndroidUsageType.media,
+            audioFocus: AndroidAudioFocus.gain,
+          ),
+        ));
+      }
       return _bgmPlayer;
     } catch (e) {
       debugPrint('AudioPlayer init error: $e');
@@ -21,7 +31,18 @@ class SesServisi {
 
   AudioPlayer? get sfxPlayer {
     try {
-      _sfxPlayer ??= AudioPlayer();
+      if (_sfxPlayer == null) {
+        _sfxPlayer = AudioPlayer();
+        // SFX'in BGM müziğini kesmesini engellemek için audioFocus: none ayarlanır
+        _sfxPlayer!.setAudioContext(AudioContext(
+          android: AudioContextAndroid(
+            stayAwake: false,
+            contentType: AndroidContentType.sonification,
+            usageType: AndroidUsageType.assistanceSonification,
+            audioFocus: AndroidAudioFocus.none,
+          ),
+        ));
+      }
       return _sfxPlayer;
     } catch (e) {
       debugPrint('AudioPlayer init error: $e');
@@ -45,7 +66,7 @@ class SesServisi {
   /// Dönemsel müziği başlatır veya dönem değiştiğinde yumuşak geçiş (soft cross-fade) yapar
   Future<void> donemMuzigiCal(String donemId) async {
     if (!sesAcik || _isTransitioning) return;
-    if (_mevcutDonemId == donemId) return; // Aynı dönem müziği çalıyorsa devam et
+    if (_mevcutDonemId == donemId && bgmPlayer?.state == PlayerState.playing) return;
 
     final dosyaYolu = donemMuzikleri[donemId];
     if (dosyaYolu == null) return;
@@ -61,23 +82,20 @@ class SesServisi {
 
     try {
       // 1. Mevcut parça çalıyorsa sesini kısarak kapat (fade-out)
-      for (double v = 1.0; v >= 0.0; v -= 0.2) {
-        await player.setVolume(v.clamp(0.0, 1.0));
-        await Future.delayed(const Duration(milliseconds: 50));
+      if (player.state == PlayerState.playing) {
+        for (double v = 1.0; v >= 0.0; v -= 0.2) {
+          await player.setVolume(v.clamp(0.0, 1.0));
+          await Future.delayed(const Duration(milliseconds: 30));
+        }
+        await player.stop();
       }
-      await player.stop();
 
       // 2. Yeni dönem parçasına geç
       await player.setReleaseMode(ReleaseMode.loop);
+      await player.setVolume(1.0);
       await player.play(AssetSource(dosyaYolu));
-
-      // 3. Sesi kademeli olarak aç (fade-in)
-      for (double v = 0.0; v <= 1.0; v += 0.2) {
-        await player.setVolume(v.clamp(0.0, 1.0));
-        await Future.delayed(const Duration(milliseconds: 50));
-      }
     } catch (_) {
-      // Platform channel hatasında sessizce devam et (unit test ortamlarında)
+      // Platform channel hatasında sessizce devam et
     } finally {
       _isTransitioning = false;
     }
@@ -89,6 +107,7 @@ class SesServisi {
     final player = sfxPlayer;
     if (player == null) return;
     try {
+      await player.stop();
       await player.play(AssetSource('sesler/muhur_damga.wav'));
     } catch (_) {}
   }
@@ -99,6 +118,7 @@ class SesServisi {
     final player = sfxPlayer;
     if (player == null) return;
     try {
+      await player.stop();
       await player.play(AssetSource('sesler/kagit_hisirtisi.wav'));
     } catch (_) {}
   }
@@ -109,6 +129,7 @@ class SesServisi {
     final player = sfxPlayer;
     if (player == null) return;
     try {
+      await player.stop();
       await player.play(AssetSource('sesler/vefat_davul.wav'));
     } catch (_) {}
   }
