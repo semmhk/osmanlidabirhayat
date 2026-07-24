@@ -4,7 +4,7 @@
 
 ## MEVCUT DURUM
 
-**Aktif Faz:** Adım 1 & Adım 4 (Proje İskeleti + 138 Olaylık Kuruluş Dönemi [7/7 TAMAMLANDI] + 101 Olaylık Yükselme Dönemi [5/5 TAMAMLANDI] + 118 Olaylık Duraklama Dönemi [10/10 TAMAMLANDI] + **GERİLEME DÖNEMİ (4/6 Alt-Dönem - 53 Gerileme Olayı)** + 410 Toplam Olay + 14 Başarım Sistemi + Kalemiye & Boşanma Zincirleri + Birim Testleri + GitHub Entegrasyonu) ✅
+**Aktif Faz:** Adım 1 & Adım 4 (Proje İskeleti + 138 Olaylık Kuruluş Dönemi [7/7 TAMAMLANDI] + 101 Olaylık Yükselme Dönemi [5/5 TAMAMLANDI] + 118 Olaylık Duraklama Dönemi [10/10 TAMAMLANDI] + **GERİLEME DÖNEMİ TAMAMEN TAMAMLANDI [5/5 Alt-Dönem - 68 Gerileme Olayı]** + 425 Toplam Olay + 14 Başarım Sistemi + Kalemiye & Boşanma Zincirleri + Birim Testleri + GitHub Entegrasyonu) ✅
 **Son güncelleme:** 24 Temmuz 2026
 
 ---
@@ -34,25 +34,27 @@
   - Fatih Sultan Mehmed (18 Olay), II. Bayezid (14 Olay), Yavuz Sultan Selim (13 Olay), Kanuni Sultan Süleyman (42 Olay), II. Selim (14 Olay).
 - [x] **Duraklama Dönemi (10/10 Alt-Dönem TAM TAMAMLANDI - 118 Olay)**:
   - III. Murad (13), III. Mehmed (12), I. Ahmed (12), I. Mustafa & Genç Osman (11), IV. Murad (12), Sultan İbrahim (11), IV. Mehmed (34 - Kaos/Köprülüler/Çöküş), II. Süleyman/II. Ahmed/II. Mustafa (13).
-- [x] **Gerileme Dönemi (4/6 Alt-Dönem TAMAMLANDI - 53 Olay 🎉)**:
+- [x] **Gerileme Dönemi (5/5 Alt-Dönem TAM TAMAMLANDI - 68 Olay 🎉)**:
   - **III. Ahmed / Lale Devri (1703-1730)**: 15 Olay TAMAMLANDI.
   - **I. Mahmud (1730-1754)**: 13 Olay TAMAMLANDI.
   - **III. Osman & III. Mustafa (1754-1774)**: 12 Olay TAMAMLANDI.
-  - **I. Abdülhamid (1774-1789)**: 13 Olay TAMAMLANDI (`assets/olaylar/gerileme.json`, `alt_donem: "birinci_abdulhamid"` — 49 yaşında kafesten çıkıp tahta geçiş, **21 Temmuz 1774 KÜÇÜK KAYNARCA ANTLAŞMASI** [Kırım'ın sözde bağımsızlığı & Halifeliğe sembolik bağlılık], Avusturya'nın savaşsız Bukovina'yı ilhakı [1775], 1780-82 büyük İstanbul yangınları, Sadrazam Halil Hamid Paşa'nın yeniçeri/donanma reformları, Halil Hamid Paşa'ya kurulan komplo ve idamı [1785], **8 Ocak 1784 KIRIM'IN RUSYA TARAFINDAN RESMEN İLHAKI** [310 yıllık Osmanlı hakimiyetinin sona ermesi & ilk büyük Müslüman toprağı kaybı], Çariçe II. Katerina'nın Kırım ziyareti tahriki [1787], 1787 Rusya & Avusturya ile yeni savaş ilanı, **1788 Özi Kalesi faciası**, cephedeki acı haberlerle kederinden ölen I. Abdülhamid'in vefatı & III. Selim'in cülusu [1789], kriz gölgesinde gündelik hayat dayanışması, Mühendishane-i Bahri destekli donanma yenilenme çabaları).
+  - **I. Abdülhamid (1774-1789)**: 13 Olay TAMAMLANDI.
+  - **III. Selim (1789-1807)**: 15 Olay TAMAMLANDI (`assets/olaylar/gerileme.json`, `alt_donem: "ucuncu_selim"` — 28 yaşında ağır savaş mirasıyla tahta geçiş [1789], Avusturya ile **1791 Ziştovi Antlaşması** [Avusturya ile son savaş], Rusya ile **1792 Yaş Antlaşması** [Kırım'ın kaybının resmen kesinleşmesi], **Nizam-ı Cedid (Yeni Düzen)** ordusunun kurulması & Fransızca askeri okullar [1793], **İrad-ı Cedid** bağımsız reform hazinesi [1793], 1798 Napolyon Bonapart'ın Mısır'ı işgali, **1799 AKKA ZAFERİ** [Cezzar Ahmed Paşa & Nizam-ı Cedid birliklerinin Napolyon'u ilk kez durdurması], 1801 El-Ariş Antlaşması ile Fransızların Mısır'dan çekilmesi, Nizam-ı Cedid birliklerinin Rumeli'ye yayılması [1801-05], 1804 Kara Yorgi Sırp İsyanı [Fransız İhtilali milliyetçiliği], 1806 Rus Savaşı & boğazların kapatılması, yeniçeriler ve ulema muhalefetinin büyümesi, **25-29 Mayıs 1807 Kabakçı Mustafa İsyanı**, III. Selim'in tahttan indirilmesi ve IV. Mustafa'nın tahta geçişi, Karlofça'dan Kabakçı İsyanı'na bir asırlık **GERİLEME DÖNEMİ KAPANIS RETROSPEKTİFİ**).
 - [x] **Sistem boşlukları kapatıldı: kalemiye, 14 başarım, boşanma/nesil içeriği**:
   - 14 Osmanlı-uyumlu Başarım sistemi eklendi (`assets/basarimlar.json`, `lib/modeller/basarim.dart`, `lib/motor/basarim_kontrolcusu.dart`).
   - Kalemiye Meslek Zinciri eklendi (`kurulus_073`).
   - Boşanma / Eşin Vefatı / İkinci Nikah Zinciri eklendi (`kurulus_074`, `kurulus_075`, `kurulus_076`).
   - UI Ekranları: `BasarimlarEkrani` ve `OlumEkrani` eklendi (`lib/ekranlar/`).
-- [x] **TOPLAM OLAY SAYISI: 410 OLAY** (Kuruluş 138 + Yükselme 101 + Duraklama 118 + Gerileme 53).
-- [x] Birim testleri yazıldı (`test/sistem_bosluklari_test.dart` & `test/olay_tarih_filtre_test.dart` — 410 olay, 4 JSON dosyasının paralel yüklenmesi, Kalemiye ataması, 14 başarım koşulu ve boşanma/ikinci nikah zinciri). Toplam **11/11 test YEŞİL ✅**. `flutter analyze` **0 hata / 0 uyarı ✅**.
+- [x] **TOPLAM OLAY SAYISI: 425 OLAY** (Kuruluş 138 + Yükselme 101 + Duraklama 118 + Gerileme 68).
+- [x] Birim testleri yazıldı (`test/sistem_bosluklari_test.dart` & `test/olay_tarih_filtre_test.dart` — 425 olay, 4 JSON dosyasının paralel yüklenmesi, Kalemiye ataması, 14 başarım koşulu ve boşanma/ikinci nikah zinciri). Toplam **11/11 test YEŞİL ✅**. `flutter analyze` **0 hata / 0 uyarı ✅**.
 - [x] GitHub Reposu: `https://github.com/semmhk/osmanlidabirhayat.git` (main branch).
 
 ---
 
 ## KALAN İŞLER / SONRAKİ ADIMLAR
 
-- [ ] **GERİLEME DÖNEMİ SON ALT-DÖNEMİ (5/6 & 6/6 Kalan)**:
-  - **Sırada:** III. Selim (1789-1807, GERİLEME DÖNEMİ'NİN SON ALT-DÖNEMİ) — Nizam-ı Cedid ordusu ve reformları, İrad-ı Cedid hazinesi, Ziştovi (1791) ve Yaş (1792) Antlaşmaları, Napolyon'un Mısır Seferi (1798, Cezzar Ahmed Paşa & Akka Zaferi), Kabakçı Mustafa İsyanı (1807) ve III. Selim'in tahttan indirilmesi
+- [ ] **DAĞILMA DÖNEMİ (1807-1922)** — SON ANA DÖNEM:
+  - **Sırada:** II. Mahmud (1808-1839) — Kabakçı İsyanı sonrası III. Selim'in katli, Alemdar Mustafa Paşa, IV. Mustafa'nın devrilmesi, Sened-i İttifak (1808), 1826 **Vaka-i Hayriye** (Yeniçeri Ocağı'nın kaldırılması), Yunan İsyanı & Navarin Bozgunu (1827), Edirne Antlaşması (1829, Yunanistan'ın bağımsızlığı), Kavalalı Mehmed Ali Paşa İsyanı & Mısır Krizleri, 1838 Baltalimanı Ticaret Antlaşması, Tanzimat'a hazırlık.
+  - Abdülmecid & Abdülaziz & V. Murad & II. Abdülhamid & V. Mehmed Reşad & VI. Mehmed Vahdeddin grupları (Tanzimat Fermanı 1839, Islahat Fermanı 1856, I. Meşrutiyet 1876, 93 Harbi, II. Meşrutiyet 1908, Trablusgarp & Balkan Savaşları, I. Dünya Savaşı, Kurtuluş Savaşı ve Saltanatın Kaldırılması 1922)
 - [ ] UI Ekranlarının (Ana Menü, Oyun Ekranı) ferman estetiğiyle entegrasyonunun tamamlanması.
 - [ ] Hive entegrasyonu ve geçmiş hayatlar kaydı.

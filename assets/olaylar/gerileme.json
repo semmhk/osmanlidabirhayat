@@ -1274,5 +1274,366 @@
         "sonuc": "Devletin bu zorlu dönemde bile modernleşme gayretini sürdürmesi, bir umut kırıntısıydı."
       }
     ]
+  },
+  {
+    "id": "selim3_001_tahta_cikis_savas_mirasi",
+    "donem": "gerileme",
+    "alt_donem": "ucuncu_selim",
+    "tarih_yil_min": 1789,
+    "tarih_yil_max": 1789,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "28 yaşındaki III. Selim, amcası I. Abdülhamid'in vefatıyla tahta çıktı — ama devraldığı miras ağırdı: hem Rusya hem Avusturya ile devam eden bir savaş, hem de Kırım'ın kaybının verdiği acı.",
+    "secenekler": [
+      {
+        "metin": "Genç ve enerjik sultana umutla bak",
+        "etki": { "mutluluk": 2, "zeka": 1 },
+        "sonuc": "III. Selim, şehzadeliğinde bile reform fikirleriyle tanınıyordu — belki gerçekten bir değişim getirebilirdi."
+      },
+      {
+        "metin": "Devraldığı ağır mirası düşün",
+        "etki": { "zeka": 2, "mutluluk": -1 },
+        "sonuc": "İki cephede savaşan, toprak kaybetmiş bir devleti yönetmek, en yetenekli hükümdar için bile zor bir sınavdı."
+      }
+    ]
+  },
+  {
+    "id": "selim3_002_zistovi_antlasmasi",
+    "donem": "gerileme",
+    "alt_donem": "ucuncu_selim",
+    "tarih_yil_min": 1791,
+    "tarih_yil_max": 1791,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "Avusturya ile 4 yıldır süren savaş, Ziştovi Antlaşması ile sona erdi — sınırlar savaş öncesi haline döndü. Bu, Osmanlı ile Avusturya arasındaki son savaş olarak tarihe geçecek.",
+    "secenekler": [
+      {
+        "metin": "Bu barışı bir rahatlama say",
+        "etki": { "mutluluk": 3 },
+        "sonuc": "En azından bir cephede savaş bitmiş, toprak kaybı da yaşanmamıştı — küçük ama değerli bir başarıydı."
+      },
+      {
+        "metin": "Rusya cephesinin hâlâ sürdüğünü hatırla",
+        "etki": { "zeka": 1, "mutluluk": -1 },
+        "sonuc": "Bir cephe kapanmıştı ama diğeri hâlâ açıktı."
+      }
+    ]
+  },
+  {
+    "id": "selim3_003_yas_antlasmasi",
+    "donem": "gerileme",
+    "alt_donem": "ucuncu_selim",
+    "tarih_yil_min": 1792,
+    "tarih_yil_max": 1792,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "Rusya ile de Yaş Antlaşması imzalandı — Kırım'ın kaybı bu antlaşmayla resmen ve kesin olarak teyit edildi. Küçük Kaynarca'nın acı mirası artık geri döndürülemez hale gelmişti.",
+    "secenekler": [
+      {
+        "metin": "Bu kesinleşen kaybı üzüntüyle kabul et",
+        "etki": { "mutluluk": -5, "zeka": 1 },
+        "sonuc": "En azından iki savaş da bitmişti — artık devletin kendini toparlamaya, reform yapmaya odaklanma zamanıydı."
+      },
+      {
+        "metin": "Bu antlaşmaların devlete kazandırdığı zamanı değerlendir",
+        "etki": { "zeka": 2, "mutluluk": -2 },
+        "sonuc": "Barış, acı olsa da, gerekli reformlar için bir soluklanma fırsatı sunuyordu."
+      }
+    ]
+  },
+  {
+    "id": "selim3_004_nizam_i_cedid_ordusu",
+    "donem": "gerileme",
+    "alt_donem": "ucuncu_selim",
+    "tarih_yil_min": 1793,
+    "tarih_yil_max": 1798,
+    "yas_min": 15,
+    "yas_max": 40,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "III. Selim, 'Nizam-ı Cedid' (Yeni Düzen) adında Avrupa tarzında eğitilmiş, disiplinli yeni bir ordu kurmaya başladı — Fransızca eğitim veren askeri okullar açıldı, Avrupa'dan kitaplar Türkçeye çevrildi.",
+    "secenekler": [
+      {
+        "metin": "Bu yeni orduya katıl",
+        "etki": { "zeka": 6, "itibar": 2 },
+        "meslek_atama": "seyfiye",
+        "sonuc": "Geleneksel yeniçerilikten çok farklı bir eğitimdi — düzenli talim, modern silahlar, Avrupa tarzı disiplin."
+      },
+      {
+        "metin": "Bu reformları uzaktan merakla takip et",
+        "etki": { "zeka": 1 },
+        "sonuc": "Bu köklü değişimin nasıl karşılanacağı, özellikle yeniçeriler arasında merak konusuydu."
+      }
+    ]
+  },
+  {
+    "id": "selim3_005_irad_i_cedid_hazinesi",
+    "donem": "gerileme",
+    "alt_donem": "ucuncu_selim",
+    "tarih_yil_min": 1793,
+    "tarih_yil_max": 1793,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "Yeni ordunun masraflarını karşılamak için 'İrad-ı Cedid' adında ayrı bir hazine kuruldu — mevcut yozlaşmış mali sistemden bağımsız, doğrudan reformlara ayrılan bir kaynak.",
+    "secenekler": [
+      {
+        "metin": "Bu yeni mali düzenlemeyi destekle",
+        "etki": { "zeka": 2, "itibar": 1 },
+        "sonuc": "Reformların gerçekten yürüyebilmesi için, eski sistemin yozlaşmasından bağımsız bir kaynak akıllıcaydı."
+      },
+      {
+        "metin": "Bu yeni vergilerden rahatsız ol",
+        "etki": { "para": -2, "mutluluk": -1 },
+        "sonuc": "Her yeni hazine, sonunda halkın cebinden bir şekilde karşılanıyordu."
+      }
+    ]
+  },
+  {
+    "id": "selim3_006_napolyon_misir_isgali",
+    "donem": "gerileme",
+    "alt_donem": "ucuncu_selim",
+    "tarih_yil_min": 1798,
+    "tarih_yil_max": 1798,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "Şok edici bir haber: Fransız General Napolyon Bonapart, İngiltere'nin sömürge yolunu kesmek amacıyla Osmanlı toprağı olan Mısır'ı işgal etti. Bu, Fransız İhtilali sonrası Avrupa'nın yayılmacılığının Osmanlı topraklarına ilk büyük saldırısıydı.",
+    "secenekler": [
+      {
+        "metin": "Bu işgali büyük bir öfke ve dehşetle karşıla",
+        "etki": { "mutluluk": -6, "zeka": 2 },
+        "sonuc": "Avrupa'nın en güçlü komutanlarından biri, doğrudan Osmanlı toprağına ayak basmıştı — bu, yeni bir tehdit çağının başlangıcıydı."
+      },
+      {
+        "metin": "Devletin bu tehdide nasıl karşılık vereceğini merak et",
+        "etki": { "zeka": 2, "mutluluk": -3 },
+        "sonuc": "Nizam-ı Cedid ordusunun ilk gerçek sınavı gelmişti."
+      }
+    ]
+  },
+  {
+    "id": "selim3_007_akka_zaferi",
+    "donem": "gerileme",
+    "alt_donem": "ucuncu_selim",
+    "tarih_yil_min": 1799,
+    "tarih_yil_max": 1799,
+    "yas_min": 16,
+    "yas_max": 50,
+    "tek_seferlik": true,
+    "gerekli_bayrak": "meslek_seyfiye",
+    "metin": "Akka Kalesi önlerinde, henüz çok yeni olan Nizam-ı Cedid birlikleri, dönemin en ünlü komutanı Napolyon'a karşı büyük bir zafer kazandı — bu, Napolyon'un aldığı ilk yenilgilerden biriydi ve reformların gerçekten işe yaradığının kanıtıydı.",
+    "secenekler": [
+      {
+        "metin": "Bu tarihi zafere katıl",
+        "etki": { "para": 6, "itibar": 5, "saglik": -3, "sans_gerekli": true },
+        "sonuc": "Avrupa'nın en korkulan generalini durdurmuş olmak, hem askeri hem de moral açıdan büyük bir başarıydı. Nizam-ı Cedid'in en parlak anıydı bu."
+      },
+      {
+        "metin": "Bu zaferi büyük bir gururla uzaktan kutla",
+        "etki": { "mutluluk": 6, "itibar": 2 },
+        "sonuc": "Sultan'ın reform vizyonu, en somut ve gururlu kanıtını almıştı."
+      }
+    ]
+  },
+  {
+    "id": "selim3_008_el_aris_antlasmasi",
+    "donem": "gerileme",
+    "alt_donem": "ucuncu_selim",
+    "tarih_yil_min": 1801,
+    "tarih_yil_max": 1801,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "El-Ariş Antlaşması ile Fransızlar Mısır'dan tamamen çekildi — Nizam-ı Cedid ordusunun Akka'daki başarısı, sonunda bu bölgesel zaferle taçlanmıştı.",
+    "secenekler": [
+      {
+        "metin": "Bu zaferi büyük bir gururla kutla",
+        "etki": { "mutluluk": 5, "itibar": 2 },
+        "sonuc": "Mısır'ın geri alınması, reformların gücünün en somut kanıtıydı."
+      },
+      {
+        "metin": "Gündelik hayatına devam et",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Uzak Mısır'daki bu başarı, İstanbul'da büyük bir gururla karşılandı."
+      }
+    ]
+  },
+  {
+    "id": "selim3_009_reformlarin_rumeliye_yayilmasi",
+    "donem": "gerileme",
+    "alt_donem": "ucuncu_selim",
+    "tarih_yil_min": 1801,
+    "tarih_yil_max": 1805,
+    "yas_min": 15,
+    "yas_max": 55,
+    "tek_seferlik": false,
+    "gerekli_bayrak": null,
+    "metin": "Mısır'daki başarının ardından Sultan, reformları genişletmeye karar verdi — Nizam-ı Cedid birlikleri Rumeli'ye de geçirildi. Ayanların endişelenmemesi için bu birliklerin resmi görevi 'Sırp isyanlarını bastırmak' olarak açıklandı.",
+    "secenekler": [
+      {
+        "metin": "Bu genişleyen reform hareketini destekle",
+        "etki": { "zeka": 3, "itibar": 1 },
+        "sonuc": "Reformların tüm imparatorluğa yayılması, uzun vadeli bir dönüşüm vaat ediyordu."
+      },
+      {
+        "metin": "Yerel güçlerin (ayanların) bu değişime nasıl tepki vereceğini merak et",
+        "etki": { "zeka": 2 },
+        "sonuc": "Taşradaki güçlü aileler, kendi otoritelerini tehdit eden bu yeni orduyu şüpheyle izliyordu."
+      }
+    ]
+  },
+  {
+    "id": "selim3_010_sirp_isyani",
+    "donem": "gerileme",
+    "alt_donem": "ucuncu_selim",
+    "tarih_yil_min": 1804,
+    "tarih_yil_max": 1804,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "Kara Yorgi önderliğinde Sırbistan'da büyük bir isyan başladı — Fransız İhtilali'nin yaydığı milliyetçilik dalgası, imparatorluğun Balkan topraklarına da ulaşmıştı.",
+    "secenekler": [
+      {
+        "metin": "Bu isyanı endişeyle izle",
+        "etki": { "zeka": 2, "mutluluk": -2 },
+        "sonuc": "Milliyetçilik fikirleri, imparatorluğun çok uluslu yapısı için ciddi bir tehdit oluşturmaya başlamıştı."
+      },
+      {
+        "metin": "Devlet kuvvetlerinin bunu bastıracağına güven",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Bu, sadece bir isyan değil, gelecekteki daha büyük sorunların habercisiydi."
+      }
+    ]
+  },
+  {
+    "id": "selim3_011_1806_rus_savasi",
+    "donem": "gerileme",
+    "alt_donem": "ucuncu_selim",
+    "tarih_yil_min": 1806,
+    "tarih_yil_max": 1806,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "Rusya, Eflak ve Boğdan'ı işgal edince yeni bir savaş başladı. Osmanlı da boğazları Rus gemilerine kapattı — devlet yeniden savaşın içindeydi, tam da reformların en kritik döneminde.",
+    "secenekler": [
+      {
+        "metin": "Bu yeni savaş yükünden endişelen",
+        "etki": { "mutluluk": -3, "zeka": 1 },
+        "sonuc": "Reformlara ayrılması gereken enerji, yeniden savaşa kayıyordu."
+      },
+      {
+        "metin": "Nizam-ı Cedid ordusunun bu sınavı da geçeceğine güven",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Akka'daki başarı, umut vericiydi."
+      }
+    ]
+  },
+  {
+    "id": "selim3_012_muhalefet_buyume",
+    "donem": "gerileme",
+    "alt_donem": "ucuncu_selim",
+    "tarih_yil_min": 1805,
+    "tarih_yil_max": 1807,
+    "yas_min": 15,
+    "yas_max": 55,
+    "tek_seferlik": false,
+    "gerekli_bayrak": null,
+    "metin": "Nizam-ı Cedid'in yayılması, çıkarları tehdit edilen yeniçeriler, bazı ulema mensupları ve esnaf arasında giderek büyüyen bir öfke yaratıyor — özellikle yeniçerilere yeni düzen kıyafeti giydirilmek istenmesi büyük tepki topluyor.",
+    "secenekler": [
+      {
+        "metin": "Bu muhalefetin ciddiyetini kavra",
+        "etki": { "zeka": 3, "mutluluk": -2 },
+        "sonuc": "Reformların en büyük düşmanı, dışarıdaki savaşlardan çok, içerideki bu direnç olabilirdi."
+      },
+      {
+        "metin": "Reformların er ya da geç kabul göreceğine inan",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Değişim her zaman direnç görürdü, ama zamanla kabul edilebilirdi — umulan buydu."
+      }
+    ]
+  },
+  {
+    "id": "selim3_013_kabakci_mustafa_isyani",
+    "donem": "gerileme",
+    "alt_donem": "ucuncu_selim",
+    "tarih_yil_min": 1807,
+    "tarih_yil_max": 1807,
+    "yas_min": 10,
+    "yas_max": 60,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "25-29 Mayıs 1807'de Kabakçı Mustafa önderliğinde büyük bir yeniçeri isyanı patlak verdi. Reformlara duyulan öfke had safhaya varmıştı — III. Selim, isyanın büyümesini durdurmak için Nizam-ı Cedid'i kaldırmak zorunda kaldı, ama bu bile yeterli olmadı.",
+    "secenekler": [
+      {
+        "metin": "Bu isyanı büyük bir üzüntüyle karşıla",
+        "etki": { "mutluluk": -6, "zeka": 1 },
+        "sonuc": "18 yıllık reform çabası, bir isyanla bir anda tehlikeye giriyordu."
+      },
+      {
+        "metin": "Bu direncin köklerinin ne kadar derin olduğunu anla",
+        "etki": { "zeka": 3, "mutluluk": -4 },
+        "sonuc": "Yeniçeri Ocağı'nın gücü, tek bir padişahın reform iradesinden çok daha büyüktü."
+      }
+    ]
+  },
+  {
+    "id": "selim3_014_selim_tahttan_indirilisi",
+    "donem": "gerileme",
+    "alt_donem": "ucuncu_selim",
+    "tarih_yil_min": 1807,
+    "tarih_yil_max": 1807,
+    "yas_min": 5,
+    "yas_max": 80,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "III. Selim, isyanın baskısı altında tahttan indirildi, yerine kuzeni IV. Mustafa geçirildi. 18 yıllık, reformlarla dolu bir saltanat böylece sona erdi — 'Vaka-i Selimiye' olarak tarihe geçen bu isyan, Nizam-ı Cedid döneminin de kapanışıydı.",
+    "secenekler": [
+      {
+        "metin": "Bu üzücü sonu derin bir kaygıyla değerlendir",
+        "etki": { "mutluluk": -7, "zeka": 3 },
+        "sonuc": "III. Selim, imparatorluğu gerçekten modernleştirebilecek bir vizyona sahipti — ama eski düzenin direnci, bu vizyonu yarım bıraktı. Devletin geleceği artık daha da belirsizdi."
+      },
+      {
+        "metin": "Bu reform mirasının bir gün geri döneceğini umut et",
+        "etki": { "zeka": 2, "mutluluk": -3 },
+        "sonuc": "Nizam-ı Cedid'in fikirleri kaybolmamıştı — bir gün, başka bir hükümdar tarafından yeniden canlandırılabilirdi."
+      }
+    ]
+  },
+  {
+    "id": "selim3_015_gerileme_donemi_kapanis",
+    "donem": "gerileme",
+    "alt_donem": "ucuncu_selim",
+    "tarih_yil_min": 1699,
+    "tarih_yil_max": 1807,
+    "yas_min": 15,
+    "yas_max": 70,
+    "tek_seferlik": false,
+    "gerekli_bayrak": null,
+    "metin": "Karlofça'dan Kabakçı Mustafa İsyanı'na uzanan bu bir asırlık dönemde, imparatorluk hem büyük toprak kayıpları yaşadı hem de ilk ciddi modernleşme adımlarını attı — Lale Devri'nin matbaası, Köprülü ıslahatlarının mirası, ve şimdi Nizam-ı Cedid'in yarım kalan vizyonu. Bir sonraki hükümdarların önünde, hem bu mirası devralmak hem de yeni bir çağa (Gerileme'den sonraki Dağılma Dönemi'ne) hazırlanmak gibi zorlu bir görev duruyor.",
+    "secenekler": [
+      {
+        "metin": "Bu karmaşık ve çelişkili yüzyılı anlamaya çalış",
+        "etki": { "zeka": 3, "mutluluk": -1 },
+        "sonuc": "Kayıplar ve yenilikler iç içe geçmişti — devlet küçülüyordu ama aynı zamanda kendini yeniden düşünmeye de başlamıştı."
+      },
+      {
+        "metin": "Geleceğe umutla bak",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Her çağın kendi zorlukları ve fırsatları vardı — yeni bir dönem başlıyordu."
+      }
+    ]
   }
 ]
