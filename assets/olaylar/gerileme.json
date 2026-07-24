@@ -961,5 +961,318 @@
         "sonuc": "Devletin geleceği, artık I. Abdülhamid'in ellerindeydi."
       }
     ]
+  },
+  {
+    "id": "abdulhamid1_001_gec_tahta_cikis",
+    "donem": "gerileme",
+    "alt_donem": "birinci_abdulhamid",
+    "tarih_yil_min": 1774,
+    "tarih_yil_max": 1774,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "Patrona Halil İsyanı'nda babası III. Ahmed tahttan indirildiğinde henüz çocuk olan Şehzade Abdülhamid, kardeşi III. Mustafa'nın 17 yıllık saltanatı boyunca da sarayda göz hapsinde tutuldu. Kardeşinin vefatıyla, 49 yaşında, ilk kez gerçek dünyayla yüzleşerek tahta çıktı.",
+    "secenekler": [
+      {
+        "metin": "Bu geç ve zorlu tahta çıkışı endişeyle karşıla",
+        "etki": { "zeka": 2, "mutluluk": -2 },
+        "sonuc": "49 yaşına kadar dış dünyadan izole büyümüş bir adamın, bu ağır krizler döneminde devleti yönetmesi büyük bir sınavdı."
+      },
+      {
+        "metin": "Yeni sultana umutla bak",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Devlet, hızla el atacak kararlı bir lidere ihtiyaç duyuyordu."
+      }
+    ]
+  },
+  {
+    "id": "abdulhamid1_002_kucuk_kaynarca",
+    "donem": "gerileme",
+    "alt_donem": "birinci_abdulhamid",
+    "tarih_yil_min": 1774,
+    "tarih_yil_max": 1774,
+    "yas_min": 5,
+    "yas_max": 80,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "Tahta çıktığı yıl, savaşı bir an önce bitirmek zorunda kalan I. Abdülhamid, 21 Temmuz 1774'te Küçük Kaynarca Antlaşması'nı imzaladı. En ağır madde: Kırım Hanlığı artık 'bağımsız' sayılıyor — sadece dini bakımdan halifeye bağlı kalacak. Bu, Kırım'ın kaybının ilk adımıydı.",
+    "secenekler": [
+      {
+        "metin": "Bu ağır antlaşmayı derin bir üzüntüyle karşıla",
+        "etki": { "mutluluk": -7, "zeka": 2 },
+        "sonuc": "300 yıldır Osmanlı toprağı sayılan Kırım'ın bu şekilde elden çıkması, herkesi derinden sarstı. Sözde 'bağımsızlık', gerçekte Rusya'nın ilhak için attığı ilk adımdı."
+      },
+      {
+        "metin": "Savaşın bitmesinin zorunluluğunu kabul et",
+        "etki": { "zeka": 1, "mutluluk": -4 },
+        "sonuc": "Ordu dağılmış, devam etme gücü kalmamıştı — bu acı antlaşma, daha kötü bir sonucu önlemek için kabul edilmişti."
+      }
+    ]
+  },
+  {
+    "id": "abdulhamid1_003_bukovina_kaybi",
+    "donem": "gerileme",
+    "alt_donem": "birinci_abdulhamid",
+    "tarih_yil_min": 1775,
+    "tarih_yil_max": 1775,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "Avusturya, Rusya'nın kazanımlarından kendine de pay çıkarmak isteyip Boğdan'ın kuzeyindeki Bukovina bölgesini işgal etti — hiç savaşmadan, sadece fırsatçılıkla bir toprak daha kaybedilmişti.",
+    "secenekler": [
+      {
+        "metin": "Bu haksız kaybı öfkeyle karşıla",
+        "etki": { "mutluluk": -4 },
+        "sonuc": "Zayıflık gösterildiği anda, herkesin pay kapmaya çalıştığı acı bir gerçekti bu."
+      },
+      {
+        "metin": "Devletin zor durumunu kabullen",
+        "etki": { "zeka": 1, "mutluluk": -2 },
+        "sonuc": "Savaşamayacak durumdaki bir devlet, böylesi fırsatçılıklara karşı savunmasız kalıyordu."
+      }
+    ]
+  },
+  {
+    "id": "abdulhamid1_004_istanbul_yanginlari",
+    "donem": "gerileme",
+    "alt_donem": "birinci_abdulhamid",
+    "tarih_yil_min": 1780,
+    "tarih_yil_max": 1782,
+    "yas_min": 10,
+    "yas_max": 60,
+    "tek_seferlik": false,
+    "gerekli_bayrak": null,
+    "metin": "İstanbul, 1780'de iki kez, 1782'de bir kez olmak üzere büyük yangınlarla sarsıldı — dış tehditlerin yanında, şehrin kendisi de doğal/insani felaketlerle mücadele ediyor.",
+    "secenekler": [
+      {
+        "metin": "Yangın söndürme çabalarına katkıda bulun",
+        "etki": { "para": -3, "saglik": -1, "mutluluk": -2 },
+        "sonuc": "Ahşap yapılı şehir, yangınlara karşı hep kırılgandı — bu üç büyük yangın, çok sayıda evi kül etti."
+      },
+      {
+        "metin": "Ailenin ve evinin güvenliğine odaklan",
+        "etki": { "para": -2 },
+        "sonuc": "Herkes bu zor dönemde birbirine destek olmaya çalışıyordu."
+      }
+    ]
+  },
+  {
+    "id": "abdulhamid1_005_halil_hamid_pasa_reformlari",
+    "donem": "gerileme",
+    "alt_donem": "birinci_abdulhamid",
+    "tarih_yil_min": 1782,
+    "tarih_yil_max": 1785,
+    "yas_min": 15,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": "meslek_kalemiye",
+    "metin": "Sadrazam Halil Hamid Paşa, yeniçeri ocağının ve donanmanın yeniden düzenlenmesi için sert reformlara girişti — yeniçeri sayımı yaptırıp, haksız yere fazla maaş alanları tespit etti.",
+    "secenekler": [
+      {
+        "metin": "Bu reform çabalarını destekle",
+        "etki": { "zeka": 3, "itibar": 2 },
+        "sonuc": "Devletin kaynaklarının doğru kullanılması, uzun vadede hayati önem taşıyordu — ama bu reformlar, çıkarı bozulan pek çok kişiyi de öfkelendiriyordu."
+      },
+      {
+        "metin": "Bu reformların risklerini düşün",
+        "etki": { "zeka": 2 },
+        "sonuc": "Menfaati zedelenen güçlü çevrelerin bu reformlara sessiz kalmayacağı hissediliyordu."
+      }
+    ]
+  },
+  {
+    "id": "abdulhamid1_006_halil_hamid_komplo_idam",
+    "donem": "gerileme",
+    "alt_donem": "birinci_abdulhamid",
+    "tarih_yil_min": 1785,
+    "tarih_yil_max": 1785,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "Şaşırtıcı bir haber: menfaati bozulan çevreler, Halil Hamid Paşa'yı padişahı devirip yeğeni Şehzade Selim'i tahta çıkarmakla suçladı. Denizci Gazi Hasan Paşa'nın bu komployu ihbar etmesiyle plan engellendi — Halil Hamid Paşa görevden alınıp idam edildi.",
+    "secenekler": [
+      {
+        "metin": "Bu saray dramını dehşetle karşıla",
+        "etki": { "mutluluk": -4, "zeka": 1 },
+        "sonuc": "Yetenekli bir reformcu sadrazamın, bir komplo suçlamasıyla can vermesi, devletin ne kadar kırılgan bir dengede olduğunu bir kez daha gösterdi."
+      },
+      {
+        "metin": "Bu komplonun gerçek olup olmadığını sorgula",
+        "etki": { "zeka": 2, "mutluluk": -2 },
+        "sonuc": "Saray entrikalarında gerçekle iftiranın sınırı çoğu zaman belirsizdi."
+      }
+    ]
+  },
+  {
+    "id": "abdulhamid1_007_kirim_ilhaki",
+    "donem": "gerileme",
+    "alt_donem": "birinci_abdulhamid",
+    "tarih_yil_min": 1783,
+    "tarih_yil_max": 1784,
+    "yas_min": 5,
+    "yas_max": 80,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "Rusya, Temmuz 1783'te Kırım'ı resmen kendi eyaleti ilan etti — 'bağımsızlık' sözde kalmış, gerçek amaç ortaya çıkmıştı. Osmanlı Devleti, savaşa hazır olmadığı için 8 Ocak 1784'te bu ilhakı kabul etmek zorunda kaldı. 310 yıllık Osmanlı hakimiyeti sona ermişti — bu, devletin kaybettiği ilk büyük Müslüman toprağıydı.",
+    "secenekler": [
+      {
+        "metin": "Bu tarihi kaybı derin bir yasla karşıla",
+        "etki": { "mutluluk": -9, "itibar": -1 },
+        "sonuc": "Fatih'in fethinden beri Osmanlı toprağı olan Kırım, artık kayıptı. Bu, sadece bir toprak kaybı değil, imparatorluğun geleceği için çok kötü bir işaretti."
+      },
+      {
+        "metin": "Devletin bu acı gerçekle yüzleşmek zorunda kaldığını düşün",
+        "etki": { "zeka": 3, "mutluluk": -6 },
+        "sonuc": "Savaşamayacak durumdaki bir devlet için, bu ilhakı 'kabul etmek' bile en az kötü seçenekti."
+      }
+    ]
+  },
+  {
+    "id": "abdulhamid1_008_caricenin_kirim_ziyareti",
+    "donem": "gerileme",
+    "alt_donem": "birinci_abdulhamid",
+    "tarih_yil_min": 1787,
+    "tarih_yil_max": 1787,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "Çariçe II. Katerina, 60 bin askerle birlikte Kırım'a gelip zaferini gösterişli bir şekilde kutladı — bu tahrik edici hareket, Osmanlı'yı derinden öfkelendirdi.",
+    "secenekler": [
+      {
+        "metin": "Bu açık tahrikten büyük bir öfke duy",
+        "etki": { "mutluluk": -5, "itibar": 1 },
+        "sonuc": "Kaybedilen toprakların üzerinde bu şekilde zafer kutlaması, hakarete varan bir tavırdı."
+      },
+      {
+        "metin": "Bunun yeni bir savaşın habercisi olduğunu sezinle",
+        "etki": { "zeka": 2, "mutluluk": -3 },
+        "sonuc": "Herkes, bu tahrikin karşılıksız kalmayacağını hissediyordu."
+      }
+    ]
+  },
+  {
+    "id": "abdulhamid1_009_yeni_savas_ilani",
+    "donem": "gerileme",
+    "alt_donem": "birinci_abdulhamid",
+    "tarih_yil_min": 1787,
+    "tarih_yil_max": 1787,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "Ağustos 1787'de Kırım'ı geri almak amacıyla Rusya'ya yeniden savaş ilan edildi. Kısa süre sonra Avusturya da Rusya'nın yanında bu savaşa katıldı — yine iki cepheli, zorlu bir mücadele başlıyordu.",
+    "secenekler": [
+      {
+        "metin": "Bu intikam savaşını destekle",
+        "etki": { "itibar": 2, "mutluluk": -1 },
+        "sonuc": "Kırım'ı geri alma umudu, halkın bu savaşa desteğini artırıyordu."
+      },
+      {
+        "metin": "Bu yeni ve zorlu savaştan endişelen",
+        "etki": { "zeka": 2, "mutluluk": -2 },
+        "sonuc": "İki büyük güce karşı aynı anda savaşmak, devletin sınırlarını zorlayacaktı."
+      }
+    ]
+  },
+  {
+    "id": "abdulhamid1_010_ozi_kalesi_faciasi",
+    "donem": "gerileme",
+    "alt_donem": "birinci_abdulhamid",
+    "tarih_yil_min": 1788,
+    "tarih_yil_max": 1788,
+    "yas_min": 16,
+    "yas_max": 50,
+    "tek_seferlik": true,
+    "gerekli_bayrak": "meslek_seyfiye",
+    "metin": "Karadeniz kıyısındaki stratejik Özi Kalesi, uzun bir kuşatmanın ardından Rus kuvvetlerine düştü — savunmasının çöküşü, savaşın gidişatını iyice Osmanlı aleyhine çevirdi.",
+    "secenekler": [
+      {
+        "metin": "Bu kalenin savunmasında bulun",
+        "etki": { "saglik": -6, "mutluluk": -6, "sans_gerekli": true },
+        "sonuc": "Özi'nin düşüşü, savaşın artık kaybedilme yolunda olduğunun acı bir işaretiydi."
+      },
+      {
+        "metin": "Bu kayıp haberini İstanbul'da dehşetle karşıla",
+        "etki": { "mutluluk": -5 },
+        "sonuc": "Özi Kalesi'nin kaybı, devletin savunma hattının ciddi şekilde zayıfladığını gösteriyordu."
+      }
+    ]
+  },
+  {
+    "id": "abdulhamid1_011_abdulhamid_vefati",
+    "donem": "gerileme",
+    "alt_donem": "birinci_abdulhamid",
+    "tarih_yil_min": 1789,
+    "tarih_yil_max": 1789,
+    "yas_min": 5,
+    "yas_max": 80,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "7 Nisan 1789'da I. Abdülhamid, cephedeki kötü haberlerin (Özi'nin kaybı ve devam eden yenilgiler) verdiği acıyla vefat etti — kardeşi III. Mustafa gibi, savaşın yükü onu da içten tüketmişti. Yerine yeğeni III. Selim geçti, bitmemiş bir savaşın ve kaybedilmiş Kırım'ın ağır mirasıyla.",
+    "secenekler": [
+      {
+        "metin": "Bu üzücü ve ağır mirası derin bir kaygıyla değerlendir",
+        "etki": { "mutluluk": -6, "zeka": 2 },
+        "sonuc": "15 yıllık saltanat, Kırım'ın kaybı, Halil Hamid Paşa'nın idamı ve şimdi de devam eden bir savaşla anılacaktı. Genç ve enerjik III. Selim'in bu ağır yükü nasıl taşıyacağı büyük bir merak konusuydu."
+      },
+      {
+        "metin": "Yeni sultanın reformcu ruhundan umutlan",
+        "etki": { "zeka": 2, "mutluluk": 1 },
+        "sonuc": "III. Selim'in daha genç ve değişime açık olduğu biliniyordu — belki devletin kaderini değiştirebilirdi."
+      }
+    ]
+  },
+  {
+    "id": "abdulhamid1_012_gunluk_hayat_kriz_golgesi",
+    "donem": "gerileme",
+    "alt_donem": "birinci_abdulhamid",
+    "tarih_yil_min": 1774,
+    "tarih_yil_max": 1789,
+    "yas_min": 15,
+    "yas_max": 55,
+    "tek_seferlik": false,
+    "gerekli_bayrak": null,
+    "metin": "15 yıllık bu dönemde, art arda gelen toprak kayıpları, yangınlar ve savaşlar arasında halkın gündelik hayatı zorlaşıyor — vergiler ağırlaşıyor, güvensizlik büyüyor, ama hayat yine de bir şekilde devam ediyor.",
+    "secenekler": [
+      {
+        "metin": "Bu zor dönemde ailenle dayanışma içinde ol",
+        "etki": { "mutluluk": 3, "para": -2 },
+        "sonuc": "Zor zamanlar, komşuluk ve aile bağlarının önemini bir kez daha hatırlatıyordu."
+      },
+      {
+        "metin": "İşine/ticaretine sıkı sıkıya sarıl",
+        "etki": { "para": 2, "mutluluk": -1 },
+        "sonuc": "Belirsizlik içinde bile, hayatını sürdürmenin yolları bulunabiliyordu."
+      }
+    ]
+  },
+  {
+    "id": "abdulhamid1_013_donanma_yenilenme_cabasi",
+    "donem": "gerileme",
+    "alt_donem": "birinci_abdulhamid",
+    "tarih_yil_min": 1784,
+    "tarih_yil_max": 1789,
+    "yas_min": 15,
+    "yas_max": 50,
+    "tek_seferlik": false,
+    "gerekli_bayrak": null,
+    "metin": "Kırım'ın kaybının ardından, I. Abdülhamid donanmayı yenilemek için çaba gösterdi — Mühendishane-i Bahri'de yetişen mühendisler, yeni gemi tasarımlarıyla deniz gücünü toparlamaya çalışıyor.",
+    "secenekler": [
+      {
+        "metin": "Tersanede bu yenilenme çabasına katıl",
+        "etki": { "para": 4, "zeka": 3 },
+        "meslek_atama": "ahilik",
+        "sonuc": "Kayıpların ardından bile, devlet kendini toparlama çabasından vazgeçmiyordu."
+      },
+      {
+        "metin": "Bu çabaları uzaktan takip et",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Devletin bu zorlu dönemde bile modernleşme gayretini sürdürmesi, bir umut kırıntısıydı."
+      }
+    ]
   }
 ]
