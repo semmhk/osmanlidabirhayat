@@ -97,6 +97,8 @@ void main() {
       expect(k.hikayesiTamamlandi, isTrue);
       expect(k.olu, isTrue);
       expect(k.olumNedeni, contains('1922'));
+      final kayit = HayatKaydi.karakterden(k);
+      expect(kayit.hikayesiTamamlandi, isTrue);
       expect(motor.nesilDevamEdebilirMi(), isFalse);
     });
   });

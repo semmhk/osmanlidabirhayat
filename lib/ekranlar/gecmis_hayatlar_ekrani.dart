@@ -146,7 +146,7 @@ class _GecmisHayatlarEkraniState extends State<GecmisHayatlarEkrani> {
                           ),
                           const SizedBox(height: 6),
                           Text(
-                            k.olumNedeni.contains('1922')
+                            k.hikayesiTamamlandi
                                 ? '📅 Yaşam Dönemi: ${k.dogumYili} - ${k.olumYili} (${k.yas} Yaşında • Osmanlı Dönemi Sonu)'
                                 : '📅 Yaşam Dönemi: ${k.dogumYili} - ${k.olumYili} (${k.yas} Yaşında Vefat)',
                             style: const TextStyle(fontSize: 12, color: Renkler.murekkep),
@@ -171,13 +171,13 @@ class _GecmisHayatlarEkraniState extends State<GecmisHayatlarEkrani> {
                           ),
                           const SizedBox(height: 4),
                           Text(
-                            k.olumNedeni.contains('1922')
+                            k.hikayesiTamamlandi
                                 ? '🏛️ ${k.olumNedeni}'
                                 : '⚰️ Ölüm Nedeni: ${k.olumNedeni}',
                             style: TextStyle(
                               fontSize: 11,
                               fontStyle: FontStyle.italic,
-                              color: k.olumNedeni.contains('1922') ? Renkler.murekkep : Renkler.damga,
+                              color: k.hikayesiTamamlandi ? Renkler.murekkep : Renkler.damga,
                             ),
                           ),
                           if (k.kazanilanBasarimlar.isNotEmpty) ...[

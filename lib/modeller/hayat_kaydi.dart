@@ -11,6 +11,7 @@ class HayatKaydi {
   final String unvan;
   final double bakiye;
   final String olumNedeni;
+  final bool hikayesiTamamlandi;
   final int nesil;
   final String padisahDonemleri;
   final List<String> kazanilanBasarimlar;
@@ -26,6 +27,7 @@ class HayatKaydi {
     required this.unvan,
     required this.bakiye,
     required this.olumNedeni,
+    this.hikayesiTamamlandi = false,
     required this.nesil,
     required this.padisahDonemleri,
     required this.kazanilanBasarimlar,
@@ -44,6 +46,7 @@ class HayatKaydi {
       unvan: k.meslekUnvaniGetir(),
       bakiye: k.bakiye,
       olumNedeni: olumNedeniOverride ?? k.olumNedeni ?? (k.saglik <= 0 ? 'Hastalık ve Zayıflık' : 'Yaşlılığa Bağlı Doğal Ölüm'),
+      hikayesiTamamlandi: k.hikayesiTamamlandi || k.takvimYili >= 1922,
       nesil: k.nesil,
       padisahDonemleri: '📅 ${k.dogumYili} - ${k.takvimYili}',
       kazanilanBasarimlar: List<String>.from(k.kazanilanBasarimlar),
@@ -62,6 +65,7 @@ class HayatKaydi {
       'unvan': unvan,
       'bakiye': bakiye,
       'olumNedeni': olumNedeni,
+      'hikayesiTamamlandi': hikayesiTamamlandi,
       'nesil': nesil,
       'padisahDonemleri': padisahDonemleri,
       'kazanilanBasarimlar': kazanilanBasarimlar,
@@ -80,6 +84,7 @@ class HayatKaydi {
       unvan: map['unvan'] ?? 'Vasıfsız',
       bakiye: (map['bakiye'] as num?)?.toDouble() ?? 0.0,
       olumNedeni: map['olumNedeni'] ?? 'Eceliyle Vefat',
+      hikayesiTamamlandi: map['hikayesiTamamlandi'] as bool? ?? (map['olumNedeni']?.toString().contains('1922') ?? false),
       nesil: map['nesil'] ?? 1,
       padisahDonemleri: map['padisahDonemleri'] ?? '',
       kazanilanBasarimlar: List<String>.from(map['kazanilanBasarimlar'] ?? []),
