@@ -1,4 +1,5 @@
 import 'dart:math';
+import '../modeller/cocuk.dart';
 import '../modeller/karakter.dart';
 import '../modeller/olay.dart';
 import '../modeller/meslek.dart';
@@ -380,5 +381,62 @@ class OyunMotoru {
     }
 
     bekleyenOlay = null;
+  }
+
+  /// Seçilen evlat ile oyuna devam etme (Nesil Devamı)
+  Karakter nesilDevamEt(Cocuk secilenCocuk) {
+    final int baslangicYasi = secilenCocuk.guncelYasGetir(karakter.yas);
+    final int cocukDogumYili = (karakter.dogumYili + secilenCocuk.ebeveynYasiDogum).toInt();
+    final cocukCinsiyet = secilenCocuk.erkekMi ? Cinsiyet.erkek : Cinsiyet.kadin;
+
+    // Miras Hesabı: Pozitif bakiyenin %40'ı çocuk sayısına eşit bölünür
+    final double mirasMiktari;
+    if (karakter.bakiye > 0 && karakter.cocuklar.isNotEmpty) {
+      mirasMiktari = (karakter.bakiye * 0.40) / karakter.cocuklar.length;
+    } else {
+      mirasMiktari = 0.0;
+    }
+
+    // Yaşa Göre Başlangıç Sağlığı Formülü
+    final int baslangicSaglik = (80 - ((baslangicYasi - 18).clamp(0, 50) * 0.4)).round().clamp(40, 80);
+
+    final yeniKarakter = Karakter(
+      ad: secilenCocuk.ad,
+      soyad: karakter.soyad,
+      yas: baslangicYasi,
+      dogumYili: cocukDogumYili,
+      nesil: karakter.nesil + 1,
+      saglik: baslangicSaglik,
+      mutluluk: 65,
+      zeka: 50,
+      itibar: 50,
+      bakiye: mirasMiktari,
+      cinsiyet: cocukCinsiyet,
+      genler: AvatarGenleri.rastgele(_random, cocukCinsiyet),
+    );
+
+    // Temiz sayfa: Meslek ve bayrakları sıfırla
+    yeniKarakter.meslekZincirId = null;
+    yeniKarakter.meslekKademesi = 0;
+    yeniKarakter.kademedekiYil = 0;
+    yeniKarakter.meslek = 'Vasıfsız İşçi';
+    yeniKarakter.bayraklar.clear();
+
+    // Çocuğun başlangıç yaşının altındaki tek seferlik olayları egzoz et
+    for (final o in tumOlaylar) {
+      if (o.tekSeferlik && o.yasMax < baslangicYasi) {
+        yeniKarakter.kullanilanOlaylar.add(o.id);
+      }
+    }
+
+    yeniKarakter.gunluk.insert(
+      0,
+      '$baslangicYasi yaş (${yeniKarakter.takvimYili}) — 📜 NESİL DEVAMI: ${karakter.isim} ailesinin ${yeniKarakter.nesil}. nesli olarak yaşam bayrağını devraldın. (Devrolan Akçe Mirası: ${Karakter.paraFormatla(mirasMiktari)})',
+    );
+
+    karakter = yeniKarakter;
+    bekleyenOlay = null;
+    sonIslemTerfiMi = false;
+    return yeniKarakter;
   }
 }
