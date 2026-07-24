@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
+import 'package:hive_flutter/hive_flutter.dart';
 import 'package:osmanli_da_bir_hayat/ekranlar/olum_ekrani.dart';
 import 'package:osmanli_da_bir_hayat/modeller/cocuk.dart';
 import 'package:osmanli_da_bir_hayat/modeller/karakter.dart';
@@ -7,6 +8,16 @@ import 'package:osmanli_da_bir_hayat/modeller/olay.dart';
 import 'package:osmanli_da_bir_hayat/motor/oyun_motoru.dart';
 
 void main() {
+  TestWidgetsFlutterBinding.ensureInitialized();
+
+  setUpAll(() async {
+    Hive.init('./test_hive_cache');
+  });
+
+  tearDownAll(() async {
+    await Hive.deleteFromDisk();
+  });
+
   group('📜 Nesil Devamı & Ölüm Ekranı Entegrasyon Testleri', () {
     testWidgets('Karakter vefat ettiğinde OlumEkrani görünmeli, çocuk seçildiğinde %40 miras ve temiz sayfa ile nesil devam etmeli', (WidgetTester tester) async {
       // 1. Birinci Nesil Karakter Kurulumu (1300 doğumlu, 40 yaşında -> 1340 takvim yılı)

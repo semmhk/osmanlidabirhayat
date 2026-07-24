@@ -4,11 +4,13 @@ import '../modeller/cocuk.dart';
 import '../modeller/karakter.dart';
 import '../motor/ozet_uretici.dart';
 import '../sabitler/renkler.dart';
+import '../servisler/hayat_kaydi_servisi.dart';
 
 class OlumEkrani extends StatelessWidget {
   final Karakter karakter;
   final VoidCallback onYeniHayat;
   final Function(Cocuk)? onNesilDevamEt;
+  final VoidCallback? onAnaMenu;
   final List<Basarim> yeniBasarimlar;
 
   const OlumEkrani({
@@ -16,8 +18,13 @@ class OlumEkrani extends StatelessWidget {
     required this.karakter,
     required this.onYeniHayat,
     this.onNesilDevamEt,
+    this.onAnaMenu,
     this.yeniBasarimlar = const [],
   });
+
+  void _hayatiKaydet() {
+    HayatKaydiServisi().hayatKaydet(karakter);
+  }
 
   void _nesilSecimModalGoster(BuildContext context) {
     if (karakter.cocuklar.isEmpty || onNesilDevamEt == null) return;
@@ -71,6 +78,7 @@ class OlumEkrani extends StatelessWidget {
                       side: const BorderSide(color: Renkler.damga, width: 1.5),
                     ),
                     onPressed: () {
+                      _hayatiKaydet();
                       Navigator.pop(ctx);
                       onNesilDevamEt!(c);
                     },
@@ -218,8 +226,28 @@ class OlumEkrani extends StatelessWidget {
               foregroundColor: Colors.white,
               minimumSize: const Size.fromHeight(44),
             ),
-            onPressed: onYeniHayat,
+            onPressed: () {
+              _hayatiKaydet();
+              onYeniHayat();
+            },
             child: const Text('YENİ HAYATA BAŞLA 🕌'),
+          ),
+          const SizedBox(height: 10),
+          OutlinedButton(
+            style: OutlinedButton.styleFrom(
+              foregroundColor: Renkler.murekkep,
+              side: const BorderSide(color: Renkler.altin, width: 1.5),
+              minimumSize: const Size.fromHeight(44),
+            ),
+            onPressed: () {
+              _hayatiKaydet();
+              if (onAnaMenu != null) {
+                onAnaMenu!();
+              } else {
+                Navigator.popUntil(context, (route) => route.isFirst);
+              }
+            },
+            child: const Text('🏛️ ANA MENÜYE DÖN'),
           ),
         ],
       ),

@@ -1,28 +1,20 @@
 import 'package:flutter/material.dart';
-import 'ekranlar/oyun_ekrani.dart';
-import 'modeller/olay.dart';
-import 'motor/olay_yukleyici.dart';
-import 'motor/oyun_motoru.dart';
+import 'package:hive_flutter/hive_flutter.dart';
+import 'ekranlar/ana_menu_ekrani.dart';
 import 'sabitler/renkler.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  final yukleyici = OlayYukleyici();
-  final tumOlaylar = await yukleyici.tumunuYukle();
+  await Hive.initFlutter();
 
-  runApp(OsmanlidaBirHayatApp(tumOlaylar: tumOlaylar));
+  runApp(const OsmanlidaBirHayatApp());
 }
 
 class OsmanlidaBirHayatApp extends StatelessWidget {
-  final List<Olay> tumOlaylar;
-
-  const OsmanlidaBirHayatApp({super.key, required this.tumOlaylar});
+  const OsmanlidaBirHayatApp({super.key});
 
   @override
   Widget build(BuildContext context) {
-    final motor = OyunMotoru(tumOlaylar: tumOlaylar);
-    motor.yilYasa(); // İlk yılı başlat
-
     return MaterialApp(
       title: 'Osmanlı\'da Bir Hayat',
       debugShowCheckedModeBanner: false,
@@ -31,7 +23,7 @@ class OsmanlidaBirHayatApp extends StatelessWidget {
         primaryColor: Renkler.damga,
         fontFamily: 'Roboto',
       ),
-      home: OyunEkrani(motor: motor),
+      home: const AnaMenuEkrani(),
     );
   }
 }

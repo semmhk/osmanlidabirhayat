@@ -171,6 +171,7 @@ class Karakter {
   int kademedekiYil;
 
   final Set<String> bayraklar;
+  final Set<String> kazanilanBasarimlar = {};
 
   String? esAdi;
   final List<Cocuk> cocuklar;

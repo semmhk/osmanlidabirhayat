@@ -5,6 +5,7 @@ import '../modeller/olay.dart';
 import '../modeller/padisah_deposu.dart';
 import '../motor/oyun_motoru.dart';
 import '../sabitler/renkler.dart';
+import '../servisler/hayat_kaydi_servisi.dart';
 import '../servisler/ses_servisi.dart';
 import 'olum_ekrani.dart';
 
@@ -34,11 +35,19 @@ class _OyunEkraniState extends State<OyunEkrani> {
     }
   }
 
+  void _olumKontrolEtVeKaydet() {
+    if (_motor.karakter.olu) {
+      SesServisi().vefatSesiCal();
+      HayatKaydiServisi().hayatKaydet(_motor.karakter);
+    }
+  }
+
   void _yillarIlerle() {
     SesServisi().kagitHisirtisiCal();
     setState(() {
       _motor.yilYasa();
       _donemMuziginiGuncelle();
+      _olumKontrolEtVeKaydet();
     });
   }
 
@@ -48,9 +57,7 @@ class _OyunEkraniState extends State<OyunEkrani> {
       _motor.secenekSec(secenek);
       _motor.yilYasa();
       _donemMuziginiGuncelle();
-      if (_motor.karakter.olu) {
-        SesServisi().vefatSesiCal();
-      }
+      _olumKontrolEtVeKaydet();
     });
   }
 
@@ -70,6 +77,13 @@ class _OyunEkraniState extends State<OyunEkrani> {
     });
   }
 
+  void _anaMenuyeDon() {
+    if (_motor.karakter.olu) {
+      HayatKaydiServisi().hayatKaydet(_motor.karakter);
+    }
+    Navigator.popUntil(context, (route) => route.isFirst);
+  }
+
   @override
   Widget build(BuildContext context) {
     final k = _motor.karakter;
@@ -86,7 +100,7 @@ class _OyunEkraniState extends State<OyunEkrani> {
             padding: const EdgeInsets.all(16),
             decoration: BoxDecoration(
               color: Renkler.kagit,
-              border: Border.all(color: Renkler.damga, width: 2),
+              border: Border.all(color: Renkler.altin, width: 2),
               borderRadius: BorderRadius.circular(8),
             ),
             child: k.olu
@@ -94,28 +108,44 @@ class _OyunEkraniState extends State<OyunEkrani> {
                     karakter: k,
                     onYeniHayat: _yeniHayatBaslat,
                     onNesilDevamEt: _nesilDevamEt,
+                    onAnaMenu: _anaMenuyeDon,
                   )
                 : Column(
                     crossAxisAlignment: CrossAxisAlignment.stretch,
                     children: [
-                      // Üst Bilgi Barı: Takvim Yılı, Padişah, Nesil ve Ses Butonu
+                      // Üst Bilgi Barı: Takvim Yılı, Padişah, Nesil, Ses ve Ana Menü Butonu
                       Container(
                         padding: const EdgeInsets.symmetric(vertical: 6, horizontal: 10),
                         decoration: BoxDecoration(
-                          color: Renkler.kagitKoyu,
+                          color: Renkler.kagitKoyu.withAlpha(40),
                           border: Border.all(color: Renkler.cizgi),
                           borderRadius: BorderRadius.circular(6),
                         ),
                         child: Row(
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
-                            Text(
-                              '📅 ${k.takvimYili} (${k.yas} Yaş)',
-                              style: const TextStyle(
-                                fontSize: 13,
-                                fontWeight: FontWeight.bold,
-                                color: Renkler.murekkep,
-                              ),
+                            Row(
+                              children: [
+                                GestureDetector(
+                                  onTap: _anaMenuyeDon,
+                                  child: const Padding(
+                                    padding: EdgeInsets.only(right: 6),
+                                    child: Icon(
+                                      Icons.home_outlined,
+                                      size: 20,
+                                      color: Renkler.damga,
+                                    ),
+                                  ),
+                                ),
+                                Text(
+                                  '📅 ${k.takvimYili} (${k.yas} Yaş)',
+                                  style: const TextStyle(
+                                    fontSize: 12,
+                                    fontWeight: FontWeight.bold,
+                                    color: Renkler.murekkep,
+                                  ),
+                                ),
+                              ],
                             ),
                             if (padisah != null)
                               Row(
@@ -124,7 +154,7 @@ class _OyunEkraniState extends State<OyunEkrani> {
                                   if (padisah.tugraGorsel != null) ...[
                                     Image.asset(
                                       padisah.tugraGorsel!,
-                                      height: 40,
+                                      height: 38,
                                       fit: BoxFit.contain,
                                       errorBuilder: (context, error, stackTrace) => const SizedBox.shrink(),
                                     ),
@@ -133,7 +163,7 @@ class _OyunEkraniState extends State<OyunEkrani> {
                                   Text(
                                     '👑 ${padisah.isim}',
                                     style: const TextStyle(
-                                      fontSize: 12,
+                                      fontSize: 11,
                                       fontWeight: FontWeight.w600,
                                       color: Renkler.damga,
                                     ),
@@ -150,7 +180,7 @@ class _OyunEkraniState extends State<OyunEkrani> {
                                     color: Renkler.murekkep,
                                   ),
                                 ),
-                                const SizedBox(width: 4),
+                                const SizedBox(width: 6),
                                 GestureDetector(
                                   onTap: () {
                                     setState(() {
@@ -189,7 +219,7 @@ class _OyunEkraniState extends State<OyunEkrani> {
                                 '💼 ${k.meslekUnvaniGetir()}',
                                 style: TextStyle(
                                   fontSize: 12,
-                                  color: Renkler.murekkep.withAlpha(180),
+                                  color: Renkler.murekkepSoluk,
                                 ),
                               ),
                             ],
@@ -215,10 +245,10 @@ class _OyunEkraniState extends State<OyunEkrani> {
                       const SizedBox(height: 12),
 
                       // Stat Barları (Sağlık, Mutluluk, Zeka, İtibar)
-                      _statBar('Sağlık', k.saglik, Colors.red.shade700),
-                      _statBar('Mutluluk', k.mutluluk, Colors.amber.shade800),
-                      _statBar('Zeka', k.zeka, Colors.blue.shade800),
-                      _statBar('İtibar', k.itibar, Colors.purple.shade800),
+                      _statBar('Sağlık', k.saglik, Colors.red.shade800),
+                      _statBar('Mutluluk', k.mutluluk, Colors.amber.shade900),
+                      _statBar('Zeka', k.zeka, Colors.blue.shade900),
+                      _statBar('İtibar', k.itibar, Colors.purple.shade900),
                       const SizedBox(height: 16),
 
                       // Olay Alanı veya Sakin Geçen Yıl
