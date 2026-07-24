@@ -287,5 +287,342 @@
         "sonuc": "Herkes, sultan'ın ne zaman harekete geçeceğini merak ediyordu — ama kimse tam olarak bilmiyordu."
       }
     ]
+  },
+  {
+    "id": "mahmud2_2_001_vaka_i_hayriye",
+    "donem": "dagilma",
+    "alt_donem": "ikinci_mahmud_2",
+    "tarih_yil_min": 1826,
+    "tarih_yil_max": 1826,
+    "yas_min": 10,
+    "yas_max": 60,
+    "tek_seferlik": true,
+    "gerekli_bayrak": "meslek_seyfiye",
+    "metin": "Yıllarca sabırla hazırlanan II. Mahmud, nihayet harekete geçti. Yeniçerilerin yeni düzenlemelere isyan etmesi üzerine, ulemanın da desteğiyle Sancak-ı Şerif çıkarıldı ve halk yeniçerilere karşı çağrıldı. Et Meydanı'ndaki kışlalar top ateşine tutuldu — 6.000'den fazla yeniçeri öldürüldü, 16 Haziran 1826'da Yeniçeri Ocağı resmen kaldırıldı. Bu olay tarihe 'Vaka-i Hayriye' (Hayırlı Olay) olarak geçti.",
+    "secenekler": [
+      {
+        "metin": "Bu tarihi ve şiddetli olayda bulun",
+        "etki": { "saglik": -6, "mutluluk": -4, "sans_gerekli": true },
+        "sonuc": "500 yıllık bir kurum, bir günde tarihe karışmıştı. Bu, kanlı ama devletin modernleşme yolunda attığı en köklü adımdı."
+      },
+      {
+        "metin": "Bu köklü değişimi İstanbul'da bekleyerek karşıla",
+        "etki": { "mutluluk": -2, "zeka": 2 },
+        "sonuc": "Sultanın yıllarca sürdürdüğü sabırlı planlama, sonunda meyvesini vermişti — artık reform yolunun önündeki en büyük engel kalkmıştı."
+      }
+    ]
+  },
+  {
+    "id": "mahmud2_2_002_asakir_i_mansure",
+    "donem": "dagilma",
+    "alt_donem": "ikinci_mahmud_2",
+    "tarih_yil_min": 1826,
+    "tarih_yil_max": 1826,
+    "yas_min": 15,
+    "yas_max": 40,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "Yeniçeri Ocağı'nın yerine 'Asakir-i Mansure-i Muhammediye' (Muhammed'in Zafer Kazanmış Orduları) adında tamamen yeni, Avrupa tarzında eğitilmiş bir ordu kuruldu.",
+    "secenekler": [
+      {
+        "metin": "Bu yeni orduya katıl",
+        "etki": { "zeka": 5, "itibar": 2 },
+        "meslek_atama": "seyfiye",
+        "sonuc": "Artık geçmişin gölgesinde değil, gerçekten yeni bir askeri gelenek başlıyordu."
+      },
+      {
+        "metin": "Bu yeniliği umutla izle",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Yıllardır beklenen köklü ordu reformu artık gerçek oluyordu."
+      }
+    ]
+  },
+  {
+    "id": "mahmud2_2_003_navarin_bozgunu",
+    "donem": "dagilma",
+    "alt_donem": "ikinci_mahmud_2",
+    "tarih_yil_min": 1827,
+    "tarih_yil_max": 1827,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "İngiltere, Fransa ve Rusya, Yunanistan'a bağımsızlık verilmesi için ültimatom verdi — reddedilince, üç devletin birleşik donanması Navarin Limanı'nda demirli Osmanlı-Mısır donanmasını tamamen yaktı.",
+    "secenekler": [
+      {
+        "metin": "Bu ani ve haksız saldırıyı büyük bir öfkeyle karşıla",
+        "etki": { "mutluluk": -7, "itibar": -1 },
+        "sonuc": "Savaş ilanı bile yapılmadan donanmanın yakılması, uluslararası hukukun ne kadar güçlünün çıkarına göre işlediğini gösteriyordu."
+      },
+      {
+        "metin": "Bu felaketin diplomatik sonuçlarını düşün",
+        "etki": { "zeka": 2, "mutluluk": -5 },
+        "sonuc": "Bu olaydan sonra üç büyük Avrupa devletiyle ilişkiler tamamen kesildi."
+      }
+    ]
+  },
+  {
+    "id": "mahmud2_2_004_edirne_antlasmasi_yunan_bagimsizlik",
+    "donem": "dagilma",
+    "alt_donem": "ikinci_mahmud_2",
+    "tarih_yil_min": 1829,
+    "tarih_yil_max": 1829,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "Navarin'in ardından yeni bir Rus savaşı da yaşandı, Edirne Antlaşması ile sona erdi — bu antlaşmayla Yunanistan resmen bağımsızlığını kazandı. Fatih'in fethinden beri Osmanlı toprağı olan bu topraklar artık kaybedilmişti.",
+    "secenekler": [
+      {
+        "metin": "Bu tarihi kaybı derin bir üzüntüyle karşıla",
+        "etki": { "mutluluk": -6, "zeka": 1 },
+        "sonuc": "Bir milliyetçi ayaklanma, sonunda tam bağımsızlığa dönüşmüştü — bu, gelecekteki diğer milletlerin de cesaretini artıracak bir emsaldi."
+      },
+      {
+        "metin": "Bu kaybın imparatorluğun geleceği için endişe verici olduğunu düşün",
+        "etki": { "zeka": 3, "mutluluk": -4 },
+        "sonuc": "Çok uluslu bir imparatorluk için, bu bağımsızlık emsali tehlikeli bir kapı aralıyordu."
+      }
+    ]
+  },
+  {
+    "id": "mahmud2_2_005_mehmed_ali_isyani",
+    "donem": "dagilma",
+    "alt_donem": "ikinci_mahmud_2",
+    "tarih_yil_min": 1831,
+    "tarih_yil_max": 1831,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "Yunan isyanında yardım ettiği için beklediği ödülü alamadığını düşünen güçlü Mısır Valisi Kavalalı Mehmed Ali Paşa, oğlu İbrahim Paşa komutasındaki modern ordusuyla merkezi otoriteye karşı açıkça isyan etti.",
+    "secenekler": [
+      {
+        "metin": "Bu ciddi isyanı büyük bir endişeyle karşıla",
+        "etki": { "mutluluk": -4, "zeka": 2 },
+        "sonuc": "Kendi valimizin, kendi yetiştirdiği modern bir orduyla merkeze karşı gelmesi, imparatorluğun içindeki en ciddi tehditlerden biriydi."
+      },
+      {
+        "metin": "Devlet kuvvetlerinin bu isyanı bastıracağına güven",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Ama İbrahim Paşa'nın ordusu, merkezi Osmanlı ordusundan çok daha modern ve disiplinliydi."
+      }
+    ]
+  },
+  {
+    "id": "mahmud2_2_006_konya_yenilgisi",
+    "donem": "dagilma",
+    "alt_donem": "ikinci_mahmud_2",
+    "tarih_yil_min": 1832,
+    "tarih_yil_max": 1832,
+    "yas_min": 16,
+    "yas_max": 50,
+    "tek_seferlik": true,
+    "gerekli_bayrak": "meslek_seyfiye",
+    "metin": "Konya'da İbrahim Paşa'nın kuvvetleriyle merkezi ordu karşılaştı — Mısır ordusu ağır bir yenilgi verdi, İbrahim Paşa Anadolu içlerine kadar ilerleyerek İstanbul'u bile tehdit eder hale geldi.",
+    "secenekler": [
+      {
+        "metin": "Bu yenilgide bulun",
+        "etki": { "saglik": -5, "mutluluk": -6, "sans_gerekli": true },
+        "sonuc": "Kendi valimizin ordusuna bu şekilde yenilmek, devletin ne kadar zayıfladığının acı bir kanıtıydı."
+      },
+      {
+        "metin": "Bu tehlikeli durumdan derin bir endişe duy",
+        "etki": { "mutluluk": -5 },
+        "sonuc": "Bir vali, başkente bu kadar yaklaşabiliyorsa, devletin geleceği gerçekten tehlikedeydi."
+      }
+    ]
+  },
+  {
+    "id": "mahmud2_2_007_hunkar_iskelesi_antlasmasi",
+    "donem": "dagilma",
+    "alt_donem": "ikinci_mahmud_2",
+    "tarih_yil_min": 1833,
+    "tarih_yil_max": 1833,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "Çaresiz kalan II. Mahmud, düşman bildiği Rusya'dan yardım istemek zorunda kaldı — Hünkar İskelesi Antlaşması ile Rus donanması İstanbul'a demirledi. Bu antlaşma, Boğazlar meselesinin ilk kez uluslararası bir sorun haline gelmesine yol açtı.",
+    "secenekler": [
+      {
+        "metin": "Bu zorunlu ittifakı acı bir gerçeklik olarak kabul et",
+        "etki": { "mutluluk": -5, "zeka": 2 },
+        "sonuc": "Eski düşmandan yardım istemek zorunda kalmak, ne kadar çaresiz kalındığının en açık göstergesiydi."
+      },
+      {
+        "metin": "Bu ittifakın tehlikeli bir bağımlılık yaratabileceğini düşün",
+        "etki": { "zeka": 3, "mutluluk": -3 },
+        "sonuc": "Rusya'ya bu denli yaklaşmak, İngiltere ve Fransa'yı da endişelendirmişti — yeni diplomatik dengeler doğuyordu."
+      }
+    ]
+  },
+  {
+    "id": "mahmud2_2_008_kutahya_antlasmasi",
+    "donem": "dagilma",
+    "alt_donem": "ikinci_mahmud_2",
+    "tarih_yil_min": 1833,
+    "tarih_yil_max": 1833,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "İngiltere ve Fransa'nın araya girmesiyle Kütahya Antlaşması imzalandı — Mısır, Girit ve Şam valilikleri Mehmed Ali Paşa'ya, Cidde ve Adana da oğlu İbrahim Paşa'ya bırakıldı. Bu, isyancıyı ödüllendiren bir antlaşmaydı, kimseyi tam olarak memnun etmedi.",
+    "secenekler": [
+      {
+        "metin": "Bu geçici çözümü kabul et",
+        "etki": { "zeka": 1, "mutluluk": -2 },
+        "sonuc": "Bu, gerçek bir çözüm değil, sadece bir soluklanma fırsatıydı — mesele henüz kapanmamıştı."
+      },
+      {
+        "metin": "Bu antlaşmanın uzun sürmeyeceğini sezinle",
+        "etki": { "zeka": 2 },
+        "sonuc": "İki taraf da bu antlaşmadan hoşnut değildi, yeni bir çatışmanın kaçınılmaz olduğu hissediliyordu."
+      }
+    ]
+  },
+  {
+    "id": "mahmud2_2_009_baltalimani_antlasmasi",
+    "donem": "dagilma",
+    "alt_donem": "ikinci_mahmud_2",
+    "tarih_yil_min": 1838,
+    "tarih_yil_max": 1838,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "İngiltere'yle Baltalimanı Ticaret Sözleşmesi imzalandı — bu antlaşma, İngiliz mallarına büyük ayrıcalıklar tanıyordu. Bir yandan Mehmed Ali'ye karşı İngiliz desteği kazanılırken, öte yandan yerli üretim ciddi bir darbe alıyordu.",
+    "secenekler": [
+      {
+        "metin": "Bu antlaşmanın ticari fırsatlarından faydalanmaya çalış",
+        "etki": { "para": 2, "zeka": 1 },
+        "sonuc": "İngiliz malları pazarları doldurmaya başlamıştı — bazıları için fırsat, bazıları için tehditti."
+      },
+      {
+        "metin": "Yerli esnaf/üretici olarak bu antlaşmadan endişelen",
+        "etki": { "para": -3, "mutluluk": -2 },
+        "sonuc": "Ucuz İngiliz malları karşısında, geleneksel zanaatların rekabet etmesi giderek zorlaşıyordu."
+      }
+    ]
+  },
+  {
+    "id": "mahmud2_2_010_nizip_savasi",
+    "donem": "dagilma",
+    "alt_donem": "ikinci_mahmud_2",
+    "tarih_yil_min": 1839,
+    "tarih_yil_max": 1839,
+    "yas_min": 16,
+    "yas_max": 50,
+    "tek_seferlik": true,
+    "gerekli_bayrak": "meslek_seyfiye",
+    "metin": "Kütahya Antlaşması'nın çözemediği sorun yeniden patlak verdi — 24 Haziran 1839'da Nizip'te (Gaziantep) merkezi ordu ile İbrahim Paşa'nın kuvvetleri yeniden karşılaştı. Bu kez de merkezi ordu ağır bir yenilgi aldı.",
+    "secenekler": [
+      {
+        "metin": "Bu ikinci ağır yenilgide bulun",
+        "etki": { "saglik": -6, "mutluluk": -7, "sans_gerekli": true },
+        "sonuc": "Konya'dan sonra ikinci kez aynı düşmana yenilmek, devletin askeri zaafını bir kez daha ortaya koyuyordu."
+      },
+      {
+        "metin": "Bu kötü haberi İstanbul'da bekleyerek karşıla",
+        "etki": { "mutluluk": -6 },
+        "sonuc": "Nizip'in kaybı, devletin en zor günlerinden birini işaret ediyordu."
+      }
+    ]
+  },
+  {
+    "id": "mahmud2_2_011_mahmud_vefati",
+    "donem": "dagilma",
+    "alt_donem": "ikinci_mahmud_2",
+    "tarih_yil_min": 1839,
+    "tarih_yil_max": 1839,
+    "yas_min": 5,
+    "yas_max": 80,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "Nizip'teki yenilginin acı haberi İstanbul'a ulaşmadan, 1 Temmuz 1839'da II. Mahmud, uzun süredir devam eden hastalığından vefat etti — 31 yıllık, Vaka-i Hayriye gibi köklü bir devrimle anılacak saltanatı sona erdi. Yerine 16 yaşındaki oğlu Abdülmecid geçti.",
+    "secenekler": [
+      {
+        "metin": "Bu uzun ve dönüştürücü saltanatı hem başarılarıyla hem zorluklarıyla değerlendir",
+        "etki": { "zeka": 3, "mutluluk": -3 },
+        "sonuc": "III. Selim'in yarım kalan reform vizyonunu, kanlı ama kararlı bir şekilde tamamlayan bir hükümdardı II. Mahmud. Ama Mehmed Ali krizi çözülmeden, savaş kaybedilmiş halde bırakıp gitmişti. Bu ağır mirası, henüz 16 yaşındaki genç Abdülmecid devralacaktı."
+      },
+      {
+        "metin": "Genç yeni sultanın bu krizle nasıl başa çıkacağını merak et",
+        "etki": { "zeka": 2, "mutluluk": -2 },
+        "sonuc": "Devletin geleceği, bir kez daha çok genç bir hükümdarın ellerine bırakılmıştı."
+      }
+    ]
+  },
+  {
+    "id": "mahmud2_2_012_donanmanin_teslimi",
+    "donem": "dagilma",
+    "alt_donem": "ikinci_mahmud_2",
+    "tarih_yil_min": 1839,
+    "tarih_yil_max": 1839,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "II. Mahmud'un vefatından sadece birkaç gün sonra, şaşırtıcı bir olay yaşandı: Kaptan-ı Derya, elindeki Osmanlı donanmasını Mısır'a götürüp Mehmed Ali Paşa'ya teslim etti — devletin en zor anında yaşanan bir ihanetti bu.",
+    "secenekler": [
+      {
+        "metin": "Bu ihaneti büyük bir dehşetle karşıla",
+        "etki": { "mutluluk": -8, "itibar": -2 },
+        "sonuc": "Yeni tahta çıkan genç sultan için bundan daha kötü bir başlangıç olamazdı — devlet artık ordusuz, donanmasız, kaybedilmiş bir savaşla baş başaydı."
+      },
+      {
+        "metin": "Bu krizin ne şekilde çözüleceğini merak et",
+        "etki": { "zeka": 2, "mutluluk": -5 },
+        "sonuc": "Avrupa büyük devletlerinin araya girmesi, artık kaçınılmaz görünüyordu."
+      }
+    ]
+  },
+  {
+    "id": "mahmud2_2_013_reform_mirasinin_genel_degerlendirmesi",
+    "donem": "dagilma",
+    "alt_donem": "ikinci_mahmud_2",
+    "tarih_yil_min": 1826,
+    "tarih_yil_max": 1839,
+    "yas_min": 10,
+    "yas_max": 60,
+    "tek_seferlik": false,
+    "gerekli_bayrak": null,
+    "metin": "II. Mahmud döneminde Divan-ı Hümayun kaldırılıp yerine Heyet-i Vükela (bir tür Bakanlar Kurulu) getirildi, tımar sistemine son verildi, kılık kıyafette ve idari yapıda Avrupa tarzı yenilikler yapıldı — devlet, köklü bir dönüşümün eşiğindeydi.",
+    "secenekler": [
+      {
+        "metin": "Bu köklü idari reformları takdirle değerlendir",
+        "etki": { "zeka": 3, "itibar": 1 },
+        "sonuc": "Devletin yönetim biçimi, yüzlerce yıllık gelenekten kopup Avrupa tarzı bir modernleşmeye doğru evriliyordu."
+      },
+      {
+        "metin": "Bu değişimlerin hayatına nasıl yansıdığını düşün",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Gündelik hayat, bu büyük değişimlerin gölgesinde yavaş yavaş kendini yeniden şekillendiriyordu."
+      }
+    ]
+  },
+  {
+    "id": "mahmud2_2_014_dagilma_donemi_devam",
+    "donem": "dagilma",
+    "alt_donem": "ikinci_mahmud_2",
+    "tarih_yil_min": 1839,
+    "tarih_yil_max": 1839,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "16 yaşındaki Abdülmecid'in tahta çıkışıyla, imparatorluk hem çözülmemiş Mısır krizini hem de köklü reform ihtiyacını devralıyor. Kısa süre içinde, devletin geleceğini şekillendirecek yeni bir reform çağının (Tanzimat) kapıları aralanacak.",
+    "secenekler": [
+      {
+        "metin": "Bu belirsiz ama umut vaat eden yeni dönemi merakla bekle",
+        "etki": { "zeka": 2, "mutluluk": 1 },
+        "sonuc": "Devlet, hem büyük kayıplar hem de büyük dönüşümlerle dolu bir yüzyıla giriyordu."
+      },
+      {
+        "metin": "Gündelik hayatına devam et",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Büyük tarihi dönüşümler ne olursa olsun, hayat kendi akışında sürüyordu."
+      }
+    ]
   }
 ]

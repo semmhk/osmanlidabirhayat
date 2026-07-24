@@ -27,12 +27,12 @@ void main() {
       tumOlaylar = [...o1, ...o2, ...o3, ...o4, ...o5];
     });
 
-    test('1. kurulus (138) + yukselme (101) + duraklama (118) + gerileme (68) + dagilma (12) = 437 olay eksiksiz, benzersiz ID ve alt_donem alanlarıyla yüklenmeli', () {
-      expect(tumOlaylar.length, equals(437));
+    test('1. kurulus (138) + yukselme (101) + duraklama (118) + gerileme (68) + dagilma (26) = 451 olay eksiksiz, benzersiz ID ve alt_donem alanlarıyla yüklenmeli', () {
+      expect(tumOlaylar.length, equals(451));
       
       // Benzersiz ID kontrolü
       final idSet = tumOlaylar.map((o) => o.id).toSet();
-      expect(idSet.length, equals(437));
+      expect(idSet.length, equals(451));
 
       final ahilikOlayi = tumOlaylar.firstWhere((o) => o.id == 'kurulus_001');
       expect(ahilikOlayi.tarihYilMin, equals(1299));
@@ -161,6 +161,11 @@ void main() {
       final senedIIttifak = tumOlaylar.firstWhere((o) => o.id == 'mahmud2_1_004_sened_i_ittifak');
       expect(senedIIttifak.donem, equals('dagilma'));
       expect(senedIIttifak.altDonem, equals('ikinci_mahmud_1'));
+
+      // II. Mahmud II Dağılma dönemi olayları kontrolü
+      final vakaIHayriye = tumOlaylar.firstWhere((o) => o.id == 'mahmud2_2_001_vaka_i_hayriye');
+      expect(vakaIHayriye.donem, equals('dagilma'));
+      expect(vakaIHayriye.altDonem, equals('ikinci_mahmud_2'));
     });
 
     test('2. Şema doğrulayıcı hatalı tarih_yil_min > tarih_yil_max durumunu yakalamalı', () {
