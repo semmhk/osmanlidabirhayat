@@ -151,6 +151,7 @@ class Karakter {
   int get takvimYili => dogumYili + yas;
 
   bool olu;
+  bool hikayesiTamamlandi;
   int saglik;
   int mutluluk;
   int zeka;
@@ -199,6 +200,7 @@ class Karakter {
     this.yas = 0,
     int? dogumYili,
     this.olu = false,
+    this.hikayesiTamamlandi = false,
     this.olumNedeni,
     this.saglik = 80,
     this.mutluluk = 60,

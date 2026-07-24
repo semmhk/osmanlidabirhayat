@@ -128,6 +128,7 @@ class OlumEkrani extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final bool son1922 = karakter.hikayesiTamamlandi || karakter.takvimYili >= 1922;
     final ozetMetni = OzetUretici.olumOzetiUret(karakter);
 
     return SingleChildScrollView(
@@ -138,20 +139,55 @@ class OlumEkrani extends StatelessWidget {
             width: double.infinity,
             padding: const EdgeInsets.all(12),
             decoration: BoxDecoration(
-              border: Border.all(color: Renkler.damga, width: 3),
+              border: Border.all(color: son1922 ? Renkler.altin : Renkler.damga, width: 3),
               color: Renkler.kagit,
             ),
-            child: const Text(
-              'FERMAN-I VEFAT (RUHUNA FATİHA)',
+            child: Text(
+              son1922 ? "HİKAYENİN SONU (1922 - OSMANLI DEVLETİ'NİN SONU)" : 'FERMAN-I VEFAT (RUHUNA FATİHA)',
               textAlign: TextAlign.center,
               style: TextStyle(
-                fontSize: 15,
-                letterSpacing: 2,
+                fontSize: 14,
+                letterSpacing: 1.5,
                 fontWeight: FontWeight.bold,
-                color: Renkler.damga,
+                color: son1922 ? Renkler.murekkep : Renkler.damga,
               ),
             ),
           ),
+          if (son1922) ...[
+            const SizedBox(height: 12),
+            Container(
+              width: double.infinity,
+              padding: const EdgeInsets.all(12),
+              decoration: BoxDecoration(
+                border: Border.all(color: Renkler.altin, width: 2),
+                color: Renkler.kagitKoyu.withAlpha(20),
+                borderRadius: BorderRadius.circular(6),
+              ),
+              child: Column(
+                children: [
+                  const Text(
+                    '🏛️ OSMANLI DÖNEMİ TAMAMLANDI',
+                    style: TextStyle(
+                      fontSize: 13,
+                      fontWeight: FontWeight.bold,
+                      color: Renkler.damga,
+                    ),
+                  ),
+                  const SizedBox(height: 6),
+                  Text(
+                    '1922\'de Osmanlı Devleti\'nin sona ermesiyle, ${karakter.isim}\'in bu topraklardaki Osmanlı dönemi hikayesi burada tamamlanıyor. Hayatı Cumhuriyet Türkiyesi\'nde devam etti.',
+                    textAlign: TextAlign.center,
+                    style: const TextStyle(
+                      fontSize: 12,
+                      height: 1.5,
+                      fontStyle: FontStyle.italic,
+                      color: Renkler.murekkep,
+                    ),
+                  ),
+                ],
+              ),
+            ),
+          ],
           if (yeniBasarimlar.isNotEmpty) ...[
             const SizedBox(height: 12),
             Container(
@@ -208,7 +244,7 @@ class OlumEkrani extends StatelessWidget {
             ),
           ),
           const SizedBox(height: 16),
-          if (karakter.cocuklar.isNotEmpty && onNesilDevamEt != null) ...[
+          if (!son1922 && karakter.cocuklar.isNotEmpty && onNesilDevamEt != null) ...[
             ElevatedButton(
               style: ElevatedButton.styleFrom(
                 backgroundColor: Renkler.damga,
@@ -219,6 +255,25 @@ class OlumEkrani extends StatelessWidget {
               child: const Text('SOYUNU DEVAM ETTİR 📜'),
             ),
             const SizedBox(height: 10),
+          ] else if (son1922) ...[
+            Container(
+              padding: const EdgeInsets.all(10),
+              margin: const EdgeInsets.only(bottom: 10),
+              decoration: BoxDecoration(
+                color: Renkler.kagitKoyu.withAlpha(15),
+                border: Border.all(color: Renkler.cizgi),
+                borderRadius: BorderRadius.circular(6),
+              ),
+              child: const Text(
+                '📜 1922 Saltanatın kaldırılmasıyla Osmanlı Devleti dönemi tamamlanmış olup yeni nesil devredilemez.',
+                textAlign: TextAlign.center,
+                style: TextStyle(
+                  fontSize: 11,
+                  color: Renkler.murekkepSoluk,
+                  fontWeight: FontWeight.w600,
+                ),
+              ),
+            ),
           ],
           ElevatedButton(
             style: ElevatedButton.styleFrom(

@@ -6,6 +6,7 @@ import 'package:osmanli_da_bir_hayat/ekranlar/basarimlar_ekrani.dart';
 import 'package:osmanli_da_bir_hayat/ekranlar/gecmis_hayatlar_ekrani.dart';
 import 'package:osmanli_da_bir_hayat/modeller/hayat_kaydi.dart';
 import 'package:osmanli_da_bir_hayat/modeller/karakter.dart';
+import 'package:osmanli_da_bir_hayat/motor/oyun_motoru.dart';
 
 void main() {
   TestWidgetsFlutterBinding.ensureInitialized();
@@ -79,6 +80,24 @@ void main() {
       );
 
       expect(find.text('NİŞAN VE BAŞARIMLAR'), findsOneWidget);
+    });
+
+    test('5. 1922 yılına ulaşıldığında karakterin hikayesi tamamlanmalı ve olumNedeni 1922 olarak kaydedilmeli', () {
+      final k = Karakter(
+        ad: 'Mehmed',
+        soyad: 'Efendi',
+        dogumYili: 1860,
+        yas: 62, // 1860 + 62 = 1922
+        saglik: 80,
+      );
+      final motor = OyunMotoru(tumOlaylar: [], karakter: k);
+
+      final devamEdebilir = motor.yilYasa();
+      expect(devamEdebilir, isFalse);
+      expect(k.hikayesiTamamlandi, isTrue);
+      expect(k.olu, isTrue);
+      expect(k.olumNedeni, contains('1922'));
+      expect(motor.nesilDevamEdebilirMi(), isFalse);
     });
   });
 }

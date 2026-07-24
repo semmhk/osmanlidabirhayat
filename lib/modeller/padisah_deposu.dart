@@ -31,6 +31,8 @@ class Donem {
 }
 
 class PadisahDeposu {
+  static const int imparatorlukSonYili = 1922;
+
   static const Map<String, Donem> donemler = {
     'kurulus': Donem(
       id: 'kurulus',

@@ -3,6 +3,7 @@ import '../modeller/cocuk.dart';
 import '../modeller/karakter.dart';
 import '../modeller/olay.dart';
 import '../modeller/meslek.dart';
+import '../modeller/padisah_deposu.dart';
 
 class OyunMotoru {
   final Random _random;
@@ -296,6 +297,17 @@ class OyunMotoru {
   bool yilYasa() {
     if (karakter.olu) return false;
 
+    if (karakter.takvimYili >= PadisahDeposu.imparatorlukSonYili) {
+      karakter.hikayesiTamamlandi = true;
+      karakter.olu = true;
+      karakter.olumNedeni = "Sonuç: Osmanlı Dönemi Hikayesi Tamamlandı (1922)";
+      karakter.gunluk.insert(
+        0,
+        '${karakter.yas} yaş (${karakter.takvimYili}) — 🏛️ HİKAYENİN SONU: 1922\'de Osmanlı Devleti\'nin sona ermesiyle, ${karakter.isim}\'in bu topraklardaki Osmanlı dönemi hikayesi burada tamamlandı. Hayatı Cumhuriyet Türkiyesi\'nde devam etti.',
+      );
+      return false;
+    }
+
     karakter.yas++;
     sonIslemTerfiMi = terfiKontrolEt();
 
@@ -381,6 +393,11 @@ class OyunMotoru {
     }
 
     bekleyenOlay = null;
+  }
+
+  /// Nesil devamının 1922 tarihi sınırına takılıp takılmadığını kontrol eder
+  bool nesilDevamEdebilirMi() {
+    return karakter.takvimYili < PadisahDeposu.imparatorlukSonYili;
   }
 
   /// Seçilen evlat ile oyuna devam etme (Nesil Devamı)
