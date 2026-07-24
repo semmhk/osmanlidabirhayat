@@ -1,0 +1,2238 @@
+[
+  {
+    "id": "gundelik_001_gorucu_usulu_evlilik_1",
+    "donem": "gundelik",
+    "alt_donem": "gundelik",
+    "yas_min": 18,
+    "yas_max": 26,
+    "tek_seferlik": true,
+    "oncelikli": true,
+    "engel_bayrak": "evli",
+    "metin": "Aile büyüklerin ve mahalle kethüdası sana uygun, köklü bir esnaf ailesinin evladını görücü usulüyle denk gördü — düğün ve nikah hazırlıkları için kapını çalıyorlar.",
+    "secenekler": [
+      {
+        "metin": "Aile büyüklerinin rızasına uy ve teklifi kabul et",
+        "etki": { "mutluluk": 5, "itibar": 3, "para": -3 },
+        "bayrak_ekle": "evli",
+        "sonuc": "Davul zurna eşliğinde, mahalle eşrafının katıldığı mütevazı bir düğünle evlendin. Artık evli bir insansın."
+      },
+      {
+        "metin": "Henüz evliliğe hazır olmadığını söyleyerek reddet",
+        "etki": { "mutluluk": -2, "itibar": -1 },
+        "sonuc": "Aile büyükleri biraz kırıldı ama kararını saygıyla karşıladılar. Bekar kalmaya devam ediyorsun."
+      }
+    ]
+  },
+  {
+    "id": "gundelik_002_cesme_basi_ikinci_gorus",
+    "donem": "gundelik",
+    "alt_donem": "gundelik",
+    "yas_min": 19,
+    "yas_max": 28,
+    "tek_seferlik": true,
+    "oncelikli": true,
+    "engel_bayrak": "evli",
+    "metin": "Mahalle çeşmesinde su doldururken uzun süredir göz göze geldiğin o terbiyeli kimseyle aileler vasıtasıyla nihayet iletişim kuruldu — niyetler ciddi, nikah kıyılmak isteniyor.",
+    "secenekler": [
+      {
+        "metin": "Gönlünün meylettiği bu izdivacı kabul et",
+        "etki": { "mutluluk": 8, "itibar": 2, "para": -2 },
+        "bayrak_ekle": "evli",
+        "sonuc": "Dualar ve şerbet ikramları eşliğinde nikahınız kıyıldı. Sevdiğin kişiyle bir yuvaya kavuştun."
+      },
+      {
+        "metin": "Karar vermek için zamana ihtiyacın olduğunu belirt",
+        "etki": { "zeka": 1, "mutluluk": -2 },
+        "sonuc": "Fırsat şimdilik kaçtı ama aklın onda kaldı."
+      }
+    ]
+  },
+  {
+    "id": "gundelik_003_lonca_ustasi_kizi_izdivac",
+    "donem": "gundelik",
+    "alt_donem": "gundelik",
+    "yas_min": 20,
+    "yas_max": 32,
+    "tek_seferlik": true,
+    "oncelikli": true,
+    "engel_bayrak": "evli",
+    "metin": "Çarşıdaki saygın lonca ustası senin dürüstlüğünü ve ahlakını beğenip sana ailesinden hayırlı bir adayı damat/gelin olarak düşündüğünü çırakları vasıtasıyla haber gönderdi.",
+    "secenekler": [
+      {
+        "metin": "Bu itibar dolu evlilik teklifini sevinçle karşıla",
+        "etki": { "itibar": 6, "para": 4, "mutluluk": 5 },
+        "bayrak_ekle": "evli",
+        "sonuc": "Loncanın da desteğiyle görkemli bir nikah yapıldı. Hem evlendin hem de esnaf içinde saygınlığın arttı."
+      },
+      {
+        "metin": "Kendi yolunu çizmek istediğini söyleyerek nazikçe reddet",
+        "etki": { "itibar": -2, "zeka": 2 },
+        "sonuc": "Usta kararına saygı duydu ama bir daha bu konuyu açmadı."
+      }
+    ]
+  },
+  {
+    "id": "gundelik_004_akraba_tavsiyesi_nikah",
+    "donem": "gundelik",
+    "alt_donem": "gundelik",
+    "yas_min": 18,
+    "yas_max": 30,
+    "tek_seferlik": true,
+    "oncelikli": true,
+    "engel_bayrak": "evli",
+    "metin": "Uzak memleketten gelen tecrübeli akrabaların, terbiyesi ve iffetiyle bilinen bir adayı seninle baş göz etmek istiyor.",
+    "secenekler": [
+      {
+        "metin": "Akrabaların tavsiyesine güvenip nikaha rıza göster",
+        "etki": { "mutluluk": 6, "itibar": 2, "para": -2 },
+        "bayrak_ekle": "evli",
+        "sonuc": "Kısa sürede hazırlıklar tamamlandı ve nikahınız kıyıldı. Sıcak bir yuva kurdun."
+      },
+      {
+        "metin": "Acele etmemeyi tercih et",
+        "etki": { "mutluluk": -1 },
+        "sonuc": "Akrabalar biraz sitem etti ama ısrar etmediler."
+      }
+    ]
+  },
+  {
+    "id": "gundelik_005_mahalle_kethudasi_araciligi",
+    "donem": "gundelik",
+    "alt_donem": "gundelik",
+    "yas_min": 21,
+    "yas_max": 35,
+    "tek_seferlik": true,
+    "oncelikli": true,
+    "engel_bayrak": "evli",
+    "metin": "Mahalle kethüdası ve imamı, artık yaşın kemale erdiğini belirterek sana dindar ve iffetli bir eş adayı önerdi.",
+    "secenekler": [
+      {
+        "metin": "Mahalle büyüklerinin sözünü dinle ve evlen",
+        "etki": { "mutluluk": 5, "itibar": 4, "para": -3 },
+        "bayrak_ekle": "evli",
+        "sonuc": "Mahalle halkının dualarıyla nikahınız kıyıldı. Evli bir mahalle sakini oldun."
+      },
+      {
+        "metin": "Kendi bütçeni toparlayana kadar beklemek istediğini söyle",
+        "etki": { "para": 2, "mutluluk": -2 },
+        "sonuc": "Bütçeni düşünerek teklifi erteledin."
+      }
+    ]
+  },
+  {
+    "id": "gundelik_006_ikinci_nikah_dul_bosanmis_1",
+    "donem": "gundelik",
+    "alt_donem": "gundelik",
+    "yas_min": 22,
+    "yas_max": 55,
+    "tek_seferlik": false,
+    "oncelikli": true,
+    "gerekli_bayrak": "dul_bosanmis",
+    "metin": "Eşinden ayrıldıktan/vefatından sonra geçen yalnız günlerin ardından, mahalle büyükleri senin yeniden bir yuva kurman için hayırlı bir eş adayı buldu.",
+    "secenekler": [
+      {
+        "metin": "Yeniden bir yuva kurmayı kabul et",
+        "etki": { "mutluluk": 7, "itibar": 3, "para": -2 },
+        "bayrak_ekle": "evli",
+        "bayraklar_ekle": ["evli", "ikinci_evlilik"],
+        "bayrak_kaldir": "dul_bosanmis",
+        "sonuc": "Sade bir nikahla yeniden evlendin. Yalnızlık geride kaldı, yuvana huzur geldi."
+      },
+      {
+        "metin": "Yalnız yaşamaya devam etmek istediğini söyle",
+        "etki": { "mutluluk": -2, "zeka": 1 },
+        "sonuc": "Yalnız hayatına devam etme kararı aldın."
+      }
+    ]
+  },
+  {
+    "id": "gundelik_007_ikinci_nikah_esnaf_kizi",
+    "donem": "gundelik",
+    "alt_donem": "gundelik",
+    "yas_min": 25,
+    "yas_max": 55,
+    "tek_seferlik": false,
+    "oncelikli": true,
+    "gerekli_bayrak": "dul_bosanmis",
+    "metin": "Çarşı esnafından hürmet gören biri, yalnızlığına üzülüp kendi dengin olan dul/yalnız bir kimseyle nikahlanmanı teklif etti.",
+    "secenekler": [
+      {
+        "metin": "Bu ikinci nikah teklifini kabul et",
+        "etki": { "mutluluk": 6, "itibar": 3 },
+        "bayrak_ekle": "evli",
+        "bayrak_kaldir": "dul_bosanmis",
+        "sonuc": "Yeniden bir yuvaya sahip oldun. Evliliğin getirdiği bereketi hissettin."
+      },
+      {
+        "metin": "Şimdilik hazır hissetmediğini söyle",
+        "etki": { "mutluluk": -1 },
+        "sonuc": "Teklifi nazikçe geri çevirdin."
+      }
+    ]
+  },
+  {
+    "id": "gundelik_008_ikinci_nikah_komsu_tavsiyesi",
+    "donem": "gundelik",
+    "alt_donem": "gundelik",
+    "yas_min": 24,
+    "yas_max": 55,
+    "tek_seferlik": false,
+    "oncelikli": true,
+    "gerekli_bayrak": "dul_bosanmis",
+    "metin": "Komşuların, evindeki yalnızlığın sona ermesi için ahlaklı ve olgun bir eş adayıyla görüşmeni sağladı.",
+    "secenekler": [
+      {
+        "metin": "Görüşmeyi olumlu değerlendirip nikah kıy",
+        "etki": { "mutluluk": 6, "itibar": 2 },
+        "bayrak_ekle": "evli",
+        "bayrak_kaldir": "dul_bosanmis",
+        "sonuc": "Yeniden evlendin, evinin kapısı yine neşeyle açılmaya başladı."
+      },
+      {
+        "metin": "Yalnız kalmayı yeğle",
+        "etki": { "mutluluk": -2 },
+        "sonuc": "Yalnızlığına sadık kaldın."
+      }
+    ]
+  },
+  {
+    "id": "gundelik_009_ikinci_nikah_olgun_izdivac",
+    "donem": "gundelik",
+    "alt_donem": "gundelik",
+    "yas_min": 30,
+    "yas_max": 60,
+    "tek_seferlik": false,
+    "oncelikli": true,
+    "gerekli_bayrak": "dul_bosanmis",
+    "metin": "Olgunluk çağında yalnız kalmanın zorluklarını gören aile dostların, seninle hayatı paylaşacak olgun bir adayla nikah önerdi.",
+    "secenekler": [
+      {
+        "metin": "Hayatın bu döneminde yoldaş edin",
+        "etki": { "mutluluk": 7, "itibar": 2, "saglik": 2 },
+        "bayrak_ekle": "evli",
+        "bayrak_kaldir": "dul_bosanmis",
+        "sonuc": "Karşılıklı saygı ve huzur dolu bir ikinci evlilik gerçekleştirdin."
+      },
+      {
+        "metin": "İstemediğini belirterek reddet",
+        "etki": { "mutluluk": -1 },
+        "sonuc": "Teklifi geri çevirdin."
+      }
+    ]
+  },
+  {
+    "id": "gundelik_010_dugun_masraflari_ceyiz",
+    "donem": "gundelik",
+    "alt_donem": "gundelik",
+    "yas_min": 18,
+    "yas_max": 40,
+    "tek_seferlik": false,
+    "gerekli_bayrak": "evli",
+    "metin": "Evliliğin ilk aylarında çeyiz tamamlama, eşya alma ve akraba ağırlama masrafları Kapalıçarşı hesabını kabarttı.",
+    "secenekler": [
+      {
+        "metin": "Cömert davranıp kaliteli eşyalar al",
+        "etki": { "para": -5, "mutluluk": 4, "itibar": 3 },
+        "sonuc": "Evin pırıl pırıl oldu, eşin ve dünürlerin bu cömertliği takdir etti."
+      },
+      {
+        "metin": "Tasarruflu davranıp masrafları kıs",
+        "etki": { "para": 2, "mutluluk": -2 },
+        "sonuc": "Paranı korudun ama evde ufak bir sitem duyuldu."
+      }
+    ]
+  },
+  {
+    "id": "gundelik_011_baslik_parasi_mehri_muaccel",
+    "donem": "gundelik",
+    "alt_donem": "gundelik",
+    "yas_min": 18,
+    "yas_max": 35,
+    "tek_seferlik": false,
+    "gerekli_bayrak": "evli",
+    "metin": "Nikah akdi sırasında Kadı Efendi huzurunda kararlaştırılan Mehr-i Muaccel (peşin altın/para) ödemesi vakti geldi.",
+    "secenekler": [
+      {
+        "metin": "Mehir hakkını eksiksiz teslim et",
+        "etki": { "para": -4, "itibar": 4, "mutluluk": 4 },
+        "sonuc": "Eşinin dini hakkını teslim ettin, ailevi bağlarınız güçlendi."
+      },
+      {
+        "metin": "Eşinden biraz süre iste",
+        "etki": { "mutluluk": -2, "zeka": 1 },
+        "sonuc": "Eşin anlayış gösterdi ama borcunu aklında tuttu."
+      }
+    ]
+  },
+  {
+    "id": "gundelik_012_gelin_damat_uyumu_muhabbet",
+    "donem": "gundelik",
+    "alt_donem": "gundelik",
+    "yas_min": 20,
+    "yas_max": 45,
+    "tek_seferlik": false,
+    "gerekli_bayrak": "evli",
+    "metin": "Akşamları evde eşinle geçirdiğin vakitlerde derin sohbetler ediyor, yuvadaki huzuru artırmaya çalışıyorsun.",
+    "secenekler": [
+      {
+        "metin": "Eşine küçük bir hediye alıp sevgini göster",
+        "etki": { "para": -2, "mutluluk": 5 },
+        "sonuc": "Evdeki neşe ve muhabbet katlanarak arttı."
+      },
+      {
+        "metin": "Günün yorgunluğuyla dinlenmeyi tercih et",
+        "etki": { "saglik": 1, "mutluluk": 1 },
+        "sonuc": "Sessiz ama huzurlu bir akşam geçirdiniz."
+      }
+    ]
+  },
+  {
+    "id": "gundelik_013_dunur_ziyareti_sosyal_baglar",
+    "donem": "gundelik",
+    "alt_donem": "gundelik",
+    "yas_min": 20,
+    "yas_max": 50,
+    "tek_seferlik": false,
+    "gerekli_bayrak": "evli",
+    "metin": "Dünürleriniz hafta sonu ikramlı sohbet için evinize konuk olmaya geliyor.",
+    "secenekler": [
+      {
+        "metin": "Zengin sofralar kurup en iyi şekilde ağırla",
+        "etki": { "para": -3, "itibar": 4, "mutluluk": 3 },
+        "sonuc": "Dünürlerin memnun ayrıldı, akrabalık bağları güçlendi."
+      },
+      {
+        "metin": "Mütevazı bir çay/kahve sohbetiyle yetin",
+        "etki": { "para": -1, "mutluluk": 1 },
+        "sonuc": "Sıcak bir aile sohbeti yapıldı."
+      }
+    ]
+  },
+  {
+    "id": "gundelik_014_evlilik_yildonumu_hediyesi",
+    "donem": "gundelik",
+    "alt_donem": "gundelik",
+    "yas_min": 22,
+    "yas_max": 55,
+    "tek_seferlik": false,
+    "gerekli_bayrak": "evli",
+    "metin": "Evliliğinizin sene-i devriyesinde eşine sürpriz bir takı veya değerli bir kumaş alma fikri doğdu.",
+    "secenekler": [
+      {
+        "metin": "Gümüş gerdanlık / kumaş alıp hediye et",
+        "etki": { "para": -4, "mutluluk": 6 },
+        "sonuc": "Eşin bu incelik karşısında çok mutlu oldu."
+      },
+      {
+        "metin": "Sadece tatlı bir söz ve dua ile kutla",
+        "etki": { "mutluluk": 2 },
+        "sonuc": "Samimi bir tebessümle gün geçirildi."
+      }
+    ]
+  },
+  {
+    "id": "gundelik_015_kaynana_kayinpeder_anlasma",
+    "donem": "gundelik",
+    "alt_donem": "gundelik",
+    "yas_min": 20,
+    "yas_max": 45,
+    "tek_seferlik": false,
+    "gerekli_bayrak": "evli",
+    "metin": "Eşinin ailesi ev düzeni ve alışkanlıklar konusunda bazı tavsiyelerde bulundu.",
+    "secenekler": [
+      {
+        "metin": "Hürmet gösterip tavsiyelerini dinle",
+        "etki": { "itibar": 3, "mutluluk": 2 },
+        "sonuc": "Büyüklere gösterdiğin saygı takdir topladı."
+      },
+      {
+        "metin": "Kendi evinizin düzenini savunan bir dille cevap ver",
+        "etki": { "mutluluk": -2, "zeka": 1 },
+        "sonuc": "Ufak bir soğukluk yaşandı ama tatlıya bağlandı."
+      }
+    ]
+  },
+  {
+    "id": "gundelik_016_evli_butcesi_harcama_tartisma",
+    "donem": "gundelik",
+    "alt_donem": "gundelik",
+    "yas_min": 22,
+    "yas_max": 50,
+    "tek_seferlik": false,
+    "gerekli_bayrak": "evli",
+    "metin": "Evin mutfak harcamaları ve pazarlık bütçesi üzerine eşinle bir değerlendirme yapıyorsunuz.",
+    "secenekler": [
+      {
+        "metin": "Bütçeyi genişletip mutfağa bolluk getir",
+        "etki": { "para": -3, "mutluluk": 3 },
+        "sonuc": "Evde bereket hissi arttı."
+      },
+      {
+        "metin": "Tasarruf tedbirleri uygulayalım de",
+        "etki": { "para": 2, "mutluluk": -1 },
+        "sonuc": "Akçeleri korudun."
+      }
+    ]
+  },
+  {
+    "id": "gundelik_017_evlilik_huzuru_ve_dua",
+    "donem": "gundelik",
+    "alt_donem": "gundelik",
+    "yas_min": 25,
+    "yas_max": 60,
+    "tek_seferlik": false,
+    "gerekli_bayrak": "evli",
+    "metin": "Yıllar geçtikçe evliliğindeki sadakat ve huzur mahallede örnek gösterilmeye başlandı.",
+    "secenekler": [
+      {
+        "metin": "Şükredip mahalleye helva dağıt",
+        "etki": { "para": -2, "itibar": 3, "mutluluk": 4 },
+        "sonuc": "Komşularının hayır duasını aldın."
+      },
+      {
+        "metin": "Huzurlu hayatına mütevazıca devam et",
+        "etki": { "mutluluk": 2 },
+        "sonuc": "Sessiz ve mutlu bir yaşam sürüyorsun."
+      }
+    ]
+  },
+  {
+    "id": "gundelik_018_genc_kiz_izdivac_karsilasma",
+    "donem": "gundelik",
+    "alt_donem": "gundelik",
+    "yas_min": 18,
+    "yas_max": 26,
+    "tek_seferlik": true,
+    "oncelikli": true,
+    "engel_bayrak": "evli",
+    "metin": "Mahalledeki düğün ve cemiyet vesilesiyle haber gönderen iffetli bir aile, sana hayırlı bir evlilik adayı öneriyor.",
+    "secenekler": [
+      {
+        "metin": "Niyeti ciddileştirip nikah kıyılmasını iste",
+        "etki": { "mutluluk": 7, "itibar": 2, "para": -3 },
+        "bayrak_ekle": "evli",
+        "sonuc": "Hayırlı bir izdivaçla yuva kurdun."
+      },
+      {
+        "metin": "Henüz hazır olmadığını bildir",
+        "etki": { "mutluluk": -1 },
+        "sonuc": "Fırsatı kaçırdın."
+      }
+    ]
+  },
+
+  {
+    "id": "gundelik_019_ilk_cocuk_mujdesi",
+    "donem": "gundelik",
+    "alt_donem": "gundelik",
+    "yas_min": 20,
+    "yas_max": 35,
+    "tek_seferlik": true,
+    "oncelikli": true,
+    "gerekli_bayrak": "evli",
+    "engel_bayrak": "cocuklu",
+    "metin": "Evinize müjdeli bir haber ulaştı — eşiniz gebe ve ilk evladınız dünyaya gelmek üzere! Ebelerin ve komşuların duaları yükseliyor.",
+    "secenekler": [
+      {
+        "metin": "Şükür kurbanı kesip ebe ve komşulara ikram et",
+        "etki": { "para": -3, "mutluluk": 9, "itibar": 3 },
+        "bayrak_ekle": "cocuklu",
+        "sonuc": "İlk evladın dünyaya sağlıklı bir şekilde gözlerini açtı! Baba/Anne oldun, kucağın neşeyle doldu."
+      },
+      {
+        "metin": "Dualarla mütevazı bir şekilde doğumu bekle",
+        "etki": { "mutluluk": 7 },
+        "bayrak_ekle": "cocuklu",
+        "sonuc": "Sağlıklı bir evlat sahibi oldun. Ailen genişledi."
+      }
+    ]
+  },
+  {
+    "id": "gundelik_020_ikinci_cocuk_dogumu",
+    "donem": "gundelik",
+    "alt_donem": "gundelik",
+    "yas_min": 22,
+    "yas_max": 40,
+    "tek_seferlik": false,
+    "oncelikli": true,
+    "gerekli_bayraklar": ["evli", "cocuklu"],
+    "metin": "Yuvana ikinci bir evlat müjdesi geldi — beşik yeniden sallanıyor, abisi/ablası kardeş heyecanı yaşıyor.",
+    "secenekler": [
+      {
+        "metin": "İkinci evladın için ziyafet ver",
+        "etki": { "para": -3, "mutluluk": 7, "itibar": 2 },
+        "sonuc": "İkinci evladın da neşeyle kucağına geldi. Evin bereketi arttı."
+      },
+      {
+        "metin": "Şükredip aile arasında kutla",
+        "etki": { "mutluluk": 5 },
+        "sonuc": "Ailen bir fert daha kazandı."
+      }
+    ]
+  },
+  {
+    "id": "gundelik_021_ucuncu_cocuk_sevinci",
+    "donem": "gundelik",
+    "alt_donem": "gundelik",
+    "yas_min": 25,
+    "yas_max": 45,
+    "tek_seferlik": false,
+    "gerekli_bayraklar": ["evli", "cocuklu"],
+    "metin": "Eviniz cıvıl cıvıl çocuk sesleriyle doldu — bir evladınız daha dünyaya gelerek aileyi daha da kenetledi.",
+    "secenekler": [
+      {
+        "metin": "Genişleyen ailen için şükret",
+        "etki": { "mutluluk": 6, "para": -2 },
+        "sonuc": "Kalabalık ve neşeli bir Osmanlı ailesi oldunuz."
+      },
+      {
+        "metin": "Masrafları düşünüp daha sıkı çalış",
+        "etki": { "zeka": 2, "mutluluk": 3 },
+        "sonuc": "Evlatlarının rızkı için gayretini artırdın."
+      }
+    ]
+  },
+  {
+    "id": "gundelik_022_cocuk_sibyan_mektebi",
+    "donem": "gundelik",
+    "alt_donem": "gundelik",
+    "yas_min": 28,
+    "yas_max": 50,
+    "tek_seferlik": false,
+    "gerekli_bayrak": "cocuklu",
+    "metin": "Evladın okul çağına geldi — mahalledeki Sıbyan Mektebi'ne verilip Elifba öğrenmesi ve ilim yoluna girmesi için tören ('Amin Alayı') zamanı.",
+    "secenekler": [
+      {
+        "metin": "Görkemli bir Amin Alayı ile mektebe kaydet",
+        "etki": { "para": -3, "itibar": 4, "mutluluk": 5 },
+        "sonuc": "Çocuğun dualarla mektebe başladı. İlim yolundaki ilk adımı gururla izledin."
+      },
+      {
+        "metin": "Sade bir şekilde hocaya teslim et",
+        "etki": { "para": -1, "mutluluk": 3 },
+        "sonuc": "Çocuğun mektebe başladı."
+      }
+    ]
+  },
+  {
+    "id": "gundelik_023_cocuk_sunnet_cemiyeti",
+    "donem": "gundelik",
+    "alt_donem": "gundelik",
+    "yas_min": 26,
+    "yas_max": 48,
+    "tek_seferlik": false,
+    "gerekli_bayrak": "cocuklu",
+    "metin": "Erkek evladının sünnet çağı geldi — geleneksel sünnet cemiyeti ve mahalle çocuklarına ikram için hazırlık yapılıyor.",
+    "secenekler": [
+      {
+        "metin": "Mahalleden yetim çocukları da giydirip cemiyet yap",
+        "etki": { "para": -4, "itibar": 5, "mutluluk": 6 },
+        "sonuc": "Dualar ve hayırlarla büyük bir sünnet düğünü gerçekleştirdin."
+      },
+      {
+        "metin": "Mütevazı bir aile içi sünnet yaptır",
+        "etki": { "para": -2, "mutluluk": 3 },
+        "sonuc": "Sünnet merasimi kazasız belasız tamamlandı."
+      }
+    ]
+  },
+  {
+    "id": "gundelik_024_cocuk_bebeklik_hastaligi_sifa",
+    "donem": "gundelik",
+    "alt_donem": "gundelik",
+    "yas_min": 21,
+    "yas_max": 42,
+    "tek_seferlik": false,
+    "gerekli_bayrak": "cocuklu",
+    "metin": "Küçük evladın yüksek ateşle hastalandı — ebe kadınlar ve hekim başı dükkanından şifalı otlar getirildi.",
+    "secenekler": [
+      {
+        "metin": "En tecrübeli hekimi çağırıp ilaçları al",
+        "etki": { "para": -3, "mutluluk": 4, "saglik": 1 },
+        "sonuc": "Hekimin kürü sayesinde çocuğun iyileşip gülümsedi. Derin bir nefes aldın."
+      },
+      {
+        "metin": "Evdeki kocakarı ilaçları ve dualarla bekle",
+        "etki": { "mutluluk": 1, "saglik": -1 },
+        "sonuc": "Çocuğun yavaş yavaş toparlandı."
+      }
+    ]
+  },
+  {
+    "id": "gundelik_025_cocuk_zanaat_ciraklik",
+    "donem": "gundelik",
+    "alt_donem": "gundelik",
+    "yas_min": 32,
+    "yas_max": 55,
+    "tek_seferlik": false,
+    "gerekli_bayrak": "cocuklu",
+    "metin": "Büyüyen evladının bir zanaat sahibi olması için Ahiler çarşısındaki usta bir esnafın yanına çırak verme vakti geldi.",
+    "secenekler": [
+      {
+        "metin": "Saygın bir usta ustanın yanına çırak ver",
+        "etki": { "itibar": 3, "mutluluk": 4, "para": 1 },
+        "sonuc": "Evladın usta yanında meslek öğrenmeye başladı, geleceği emniyete alındı."
+      },
+      {
+        "metin": "Okuyup katip veya molla olmasını teşvik et",
+        "etki": { "zeka": 2, "mutluluk": 3 },
+        "sonuc": "Evladın ilim ve yazı yolunu seçti."
+      }
+    ]
+  },
+  {
+    "id": "gundelik_026_evladin_evlendirilmesi",
+    "donem": "gundelik",
+    "alt_donem": "gundelik",
+    "yas_min": 40,
+    "yas_max": 65,
+    "tek_seferlik": false,
+    "gerekli_bayrak": "cocuklu",
+    "metin": "Büyüyüp serpilmiş evladın için mürüvvet vakti geldi — ona hayırlı bir kısmet bulunup düğün yapılması gündemde.",
+    "secenekler": [
+      {
+        "metin": "Tüm birikiminle evladına şanlı bir düğün yap",
+        "etki": { "para": -6, "itibar": 5, "mutluluk": 8 },
+        "sonuc": "Evladının mürüvvetini gördün! Gözlerinden sevinç gözyaşları döküldü."
+      },
+      {
+        "metin": "Mütevazı bir evlilikle onları yuva sahibi yap",
+        "etki": { "para": -3, "mutluluk": 5 },
+        "sonuc": "Evladın kendi yuvasını kurdu."
+      }
+    ]
+  },
+  {
+    "id": "gundelik_027_kiz_evladin_ceyiz_hazirligi",
+    "donem": "gundelik",
+    "alt_donem": "gundelik",
+    "yas_min": 35,
+    "yas_max": 60,
+    "tek_seferlik": false,
+    "gerekli_bayrak": "cocuklu",
+    "metin": "Evlilik çağına yaklaşan kız evladın için nakışlar, halılar ve bakır kap kacaklardan oluşan çeyiz sandığı hazırlanıyor.",
+    "secenekler": [
+      {
+        "metin": "Eksiksiz ve kaliteli bir çeyiz düz",
+        "etki": { "para": -4, "itibar": 3, "mutluluk": 5 },
+        "sonuc": "Çeyiz sandığı gururla dolduruldu."
+      },
+      {
+        "metin": "Eldeki imkanlarla sade bir çeyiz hazırla",
+        "etki": { "para": -2, "mutluluk": 2 },
+        "sonuc": "Mütevazı çeyiz tamamlandı."
+      }
+    ]
+  },
+  {
+    "id": "gundelik_028_ogul_askerlik_besleme",
+    "donem": "gundelik",
+    "alt_donem": "gundelik",
+    "yas_min": 38,
+    "yas_max": 62,
+    "tek_seferlik": false,
+    "gerekli_bayrak": "cocuklu",
+    "metin": "Yiğit oğlun vatan hizmeti veya ocak eğitimi için yola çıkmaya hazırlanıyor — hayır dualarla uğurlama vakti.",
+    "secenekler": [
+      {
+        "metin": "Cebine harçlık koyup dualarla kucakla",
+        "etki": { "para": -2, "mutluluk": 3, "itibar": 3 },
+        "sonuc": "Oğlunu gururla uğurladın."
+      },
+      {
+        "metin": "Gözyaşları içinde Allah'a emanet et",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Oğlun vatan hizmetine gitti."
+      }
+    ]
+  },
+  {
+    "id": "gundelik_029_cocuklarin_kavgasi_terbiye",
+    "donem": "gundelik",
+    "alt_donem": "gundelik",
+    "yas_min": 25,
+    "yas_max": 48,
+    "tek_seferlik": false,
+    "gerekli_bayrak": "cocuklu",
+    "metin": "Evin içindeki kardeş kavgası gürültüye yol açtı — ebeveyn olarak araya girip terbiye ve nasihat etmen gerekiyor.",
+    "secenekler": [
+      {
+        "metin": "Tatlı dille ve adaletle aralarını bul",
+        "etki": { "zeka": 2, "mutluluk": 3 },
+        "sonuc": "Kardeşler sarılıp barıştı, evde huzur yeniden sağlandı."
+      },
+      {
+        "metin": "Sert bir edayla ikisini de uyar",
+        "etki": { "mutluluk": -1, "zeka": 1 },
+        "sonuc": "Kavga bitti ama sessizlik hakim oldu."
+      }
+    ]
+  },
+  {
+    "id": "gundelik_030_evlat_gururu_basari",
+    "donem": "gundelik",
+    "alt_donem": "gundelik",
+    "yas_min": 30,
+    "yas_max": 58,
+    "tek_seferlik": false,
+    "gerekli_bayrak": "cocuklu",
+    "metin": "Evladının mektepteki veya dükkandaki başarısı ustalardan/ hocalardan takdir gördü — sana hayırlı evlat yetiştirdiğin için tebrik geliyor.",
+    "secenekler": [
+      {
+        "metin": "Evladına hediye alıp gururlan",
+        "etki": { "para": -2, "mutluluk": 6, "itibar": 3 },
+        "sonuc": "Evladının başarısı göğsünü kabarttı."
+      },
+      {
+        "metin": "Nazar değmesin diye sessizce şükret",
+        "etki": { "mutluluk": 4 },
+        "sonuc": "Huzurla şükrettin."
+      }
+    ]
+  },
+  {
+    "id": "gundelik_031_bebek_besik_hazirligi",
+    "donem": "gundelik",
+    "alt_donem": "gundelik",
+    "yas_min": 20,
+    "yas_max": 36,
+    "tek_seferlik": true,
+    "oncelikli": true,
+    "gerekli_bayrak": "evli",
+    "engel_bayrak": "cocuklu",
+    "metin": "Doğacak bebeğin için ahşap bir beşik yapılması ve kundak bezlerinin hazırlanması heyecanı evi sardı.",
+    "secenekler": [
+      {
+        "metin": "Sedef kakmalı güzel bir beşik marangoza ısmarla",
+        "etki": { "para": -3, "mutluluk": 6 },
+        "bayrak_ekle": "cocuklu",
+        "sonuc": "Beşik eve geldi ve kısa süre sonra sağlıklı bir evladın oldu!"
+      },
+      {
+        "metin": "Aileden kalma eski beşiği yenileyip kullan",
+        "etki": { "para": -1, "mutluluk": 4 },
+        "bayrak_ekle": "cocuklu",
+        "sonuc": "Bebek dünyaya geldi ve beşiğine yatırıldı."
+      }
+    ]
+  },
+  {
+    "id": "gundelik_032_ikiz_bebek_surprizi",
+    "donem": "gundelik",
+    "alt_donem": "gundelik",
+    "yas_min": 21,
+    "yas_max": 38,
+    "tek_seferlik": true,
+    "gerekli_bayrak": "evli",
+    "metin": "Ebelerin büyük şaşkınlığı ve sevinciyle eşin ikiz bebek dünyaya getirdi — çifte kısmet ve çifte neşe!",
+    "secenekler": [
+      {
+        "metin": "Çifte şükür kurbanı kes",
+        "etki": { "para": -4, "mutluluk": 9, "itibar": 4 },
+        "bayrak_ekle": "cocuklu",
+        "sonuc": "İki evlat birden kucağına geldi. Eviniz şenlendi!"
+      },
+      {
+        "metin": "Büyük sevinçle dualar et",
+        "etki": { "mutluluk": 8 },
+        "bayrak_ekle": "cocuklu",
+        "sonuc": "İkiz evlatlarınla aile nizamanız berekete kavuştu."
+      }
+    ]
+  },
+
+  {
+    "id": "gundelik_033_seriyye_mahkemesi_bosanma_1",
+    "donem": "gundelik",
+    "alt_donem": "gundelik",
+    "yas_min": 22,
+    "yas_max": 48,
+    "tek_seferlik": false,
+    "gerekli_bayrak": "evli",
+    "metin": "Eşinle aranızdaki şiddetli geçimsizlik ve mizaç uyuşmazlığı çözülemez boyuta geldi — Şer'iyye Mahkemesi'nde Kadı Efendi huzurunda boşanma (talak/muhulasa) davası gündemde.",
+    "secenekler": [
+      {
+        "metin": "Anlaşarak boşanmayı kabul et ve hakları öde",
+        "etki": { "mutluluk": -4, "para": -3, "itibar": -1 },
+        "bayrak_kaldir": "evli",
+        "bayrak_ekle": "dul_bosanmis",
+        "sonuc": "Kadı Efendi huzurunda nikah feshedildi. Yollarınız ayrıldı, artık bekarsın."
+      },
+      {
+        "metin": "Son bir şans verip mahalle büyüklerini araya sok",
+        "etki": { "mutluluk": 2, "zeka": 1 },
+        "sonuc": "Araya girenler sayesinde barıştınız, evliliğe devam kararı aldınız."
+      }
+    ]
+  },
+  {
+    "id": "gundelik_034_mizac_uyumsuzlugu_ayrilik",
+    "donem": "gundelik",
+    "alt_donem": "gundelik",
+    "yas_min": 24,
+    "yas_max": 50,
+    "tek_seferlik": false,
+    "gerekli_bayrak": "evli",
+    "metin": "Yıllardır süren fikir ayrılıkları ve huzursuzluk nedeniyle evlilik bağı çekilmez bir hal aldı.",
+    "secenekler": [
+      {
+        "metin": "Karşılıklı rızayla boşanma kararı al",
+        "etki": { "mutluluk": -3, "para": -2 },
+        "bayrak_kaldir": "evli",
+        "bayrak_ekle": "dul_bosanmis",
+        "sonuc": "Nikah sonlandı. İki taraf da kendi yoluna gitti."
+      },
+      {
+        "metin": "Huzursuzluğa katlanıp evliliği sürdür",
+        "etki": { "mutluluk": -3, "saglik": -1 },
+        "sonuc": "Evlilik devam ediyor ama soğukluk sürüyor."
+      }
+    ]
+  },
+  {
+    "id": "gundelik_035_esin_amansiz_hastalikla_vefati",
+    "donem": "gundelik",
+    "alt_donem": "gundelik",
+    "yas_min": 25,
+    "yas_max": 70,
+    "tek_seferlik": false,
+    "gerekli_bayrak": "evli",
+    "metin": "Eşin yakalandığı amansız yakıcı hastalık sebebiyle hekimlerin tüm müdahalelerine rağmen Hakk'ın rahmetine kavuştu.",
+    "secenekler": [
+      {
+        "metin": "Derin bir yas tutup dualarla uğurla",
+        "etki": { "mutluluk": -9, "saglik": -2 },
+        "bayrak_kaldir": "evli",
+        "bayrak_ekle": "dul_bosanmis",
+        "sonuc": "Hayat arkadaşını kaybettin. Evin sessizliğe büründü, yalnız kaldın."
+      },
+      {
+        "metin": "Evlatların ve dostların tesellisine sığın",
+        "etki": { "mutluluk": -7 },
+        "bayrak_kaldir": "evli",
+        "bayrak_ekle": "dul_bosanmis",
+        "sonuc": "Acını bağrına basıp hayata tutunmaya çalıştın."
+      }
+    ]
+  },
+  {
+    "id": "gundelik_036_esin_ecel_vefati_huzn",
+    "donem": "gundelik",
+    "alt_donem": "gundelik",
+    "yas_min": 45,
+    "yas_max": 80,
+    "tek_seferlik": false,
+    "gerekli_bayrak": "evli",
+    "metin": "Yıllardır aynı yastığa baş koyduğun emektar eşin eceliyle vefat etti.",
+    "secenekler": [
+      {
+        "metin": "Helallik verip cenaze namazını kıldır",
+        "etki": { "mutluluk": -8, "itibar": 2 },
+        "bayrak_kaldir": "evli",
+        "bayrak_ekle": "dul_bosanmis",
+        "sonuc": "Yıllık yoldaşını toprağa verdin. Yalnız bir yaşlılık dönemi başladı."
+      },
+      {
+        "metin": "Şükür ve sabırla dua et",
+        "etki": { "mutluluk": -6 },
+        "bayrak_kaldir": "evli",
+        "bayrak_ekle": "dul_bosanmis",
+        "sonuc": "Eşine dualar gönderdin."
+      }
+    ]
+  },
+  {
+    "id": "gundelik_037_dul_kalan_hayat_kavgasi",
+    "donem": "gundelik",
+    "alt_donem": "gundelik",
+    "yas_min": 25,
+    "yas_max": 65,
+    "tek_seferlik": false,
+    "gerekli_bayrak": "dul_bosanmis",
+    "metin": "Yalnız yaşamanın getirdiği maddi ve manevi yükler günlük hayatında hissediliyor.",
+    "secenekler": [
+      {
+        "metin": "El emeği ve gayretle rızkını kazan",
+        "etki": { "para": 3, "itibar": 2, "mutluluk": 2 },
+        "sonuc": "Kimseye muhtaç olmadan hayatını sürdürüyorsun."
+      },
+      {
+        "metin": "Akrabaların desteğini kabul et",
+        "etki": { "para": 2, "mutluluk": 1 },
+        "sonuc": "Ailenin yardımıyla geçimini sağladın."
+      }
+    ]
+  },
+  {
+    "id": "gundelik_038_akraba_miras_anlasmazligi",
+    "donem": "gundelik",
+    "alt_donem": "gundelik",
+    "yas_min": 25,
+    "yas_max": 65,
+    "tek_seferlik": false,
+    "metin": "Vefat eden aile büyüklerinden kalan tarla ve dükkan hissalamasında akrabalar arasında anlaşmazlık baş gösterdi.",
+    "secenekler": [
+      {
+        "metin": "Kadı mahkemesine başvurup şer'i hisseni iste",
+        "etki": { "para": 5, "mutluluk": -2, "itibar": -1 },
+        "sonuc": "Kadı kararıyla hakkın olan parayı/toprağı aldın ama akrabalarla aran açıldı."
+      },
+      {
+        "metin": "Hakkından feragat edip huzuru seç",
+        "etki": { "itibar": 4, "mutluluk": 3, "para": -2 },
+        "sonuc": "Akrabalar parayı paylaştı, sen gönül huzurunu kazandın."
+      }
+    ]
+  },
+  {
+    "id": "gundelik_039_kadi_mahkemesi_miras_payi",
+    "donem": "gundelik",
+    "alt_donem": "gundelik",
+    "yas_min": 28,
+    "yas_max": 70,
+    "tek_seferlik": false,
+    "metin": "Mahalle Kadısı miras kalan gayrimenkulün taksimi için tarafları mahkemeye çağırdı.",
+    "secenekler": [
+      {
+        "metin": "Şer'i taksimata razı ol",
+        "etki": { "para": 4, "zeka": 1 },
+        "sonuc": "Adil bir şekilde miras payın akçeye dönüştü."
+      },
+      {
+        "metin": "Mülkü satmayıp kiraya verelim de",
+        "etki": { "para": 2, "itibar": 2 },
+        "sonuc": "Düzenli kira geliri elde etmeye başladın."
+      }
+    ]
+  },
+  {
+    "id": "gundelik_040_esle_helallik_tartisma",
+    "donem": "gundelik",
+    "alt_donem": "gundelik",
+    "yas_min": 22,
+    "yas_max": 55,
+    "tek_seferlik": false,
+    "gerekli_bayrak": "evli",
+    "metin": "Evdeki ufak bir anlaşmazlık büyüyüp tatsız bir sözlü tartışmaya dönüştü.",
+    "secenekler": [
+      {
+        "metin": "Alttan alıp eşinden özür dile ve helallik iste",
+        "etki": { "mutluluk": 4, "zeka": 2 },
+        "sonuc": "Olgunluğun sayesinde tartışma tatlıya bağlandı."
+      },
+      {
+        "metin": "İnat edip odayı terk et",
+        "etki": { "mutluluk": -3 },
+        "sonuc": "Birkaç gün evde soğuk rüzgarlar esti."
+      }
+    ]
+  },
+  {
+    "id": "gundelik_041_bosanma_sonrasi_mehri_mueccel",
+    "donem": "gundelik",
+    "alt_donem": "gundelik",
+    "yas_min": 24,
+    "yas_max": 50,
+    "tek_seferlik": false,
+    "gerekli_bayrak": "dul_bosanmis",
+    "metin": "Boşanma sonrasında kararlaştırılan borç/mehir ödemesi işlemleri mahkeme siciline işlendi.",
+    "secenekler": [
+      {
+        "metin": "Ödemeyi/tahsili tam yap",
+        "etki": { "para": 2, "zeka": 1 },
+        "sonuc": "Hukuki süreç tamamen kapandı."
+      },
+      {
+        "metin": "Hakkını helal et gitsin de",
+        "etki": { "itibar": 3, "mutluluk": 2 },
+        "sonuc": "Cömertliğin takdir edildi."
+      }
+    ]
+  },
+  {
+    "id": "gundelik_042_kayinpeder_miras_baski",
+    "donem": "gundelik",
+    "alt_donem": "gundelik",
+    "yas_min": 25,
+    "yas_max": 55,
+    "tek_seferlik": false,
+    "metin": "Akrabalar miras kalan dükkanın işletmesi konusunda senden borç veya hisse devri talep ediyor.",
+    "secenekler": [
+      {
+        "metin": "Makul bir senetle yardım et",
+        "etki": { "para": -3, "itibar": 3 },
+        "sonuc": "Akrabaların minnettar kaldı."
+      },
+      {
+        "metin": "Kendi bütçeni korumak için reddet",
+        "etki": { "para": 1, "mutluluk": -1 },
+        "sonuc": "Paranı korudun."
+      }
+    ]
+  },
+  {
+    "id": "gundelik_043_vasiyetname_hazirligi_kriz",
+    "donem": "gundelik",
+    "alt_donem": "gundelik",
+    "yas_min": 50,
+    "yas_max": 80,
+    "tek_seferlik": false,
+    "metin": "İlerleyen yaşın sebebiyle mal varlığını evlatların ve vakıflar arasında paylaştırmak için vasiyetname hazırlama vakti geldi.",
+    "secenekler": [
+      {
+        "metin": "Kadı kâtibine şer'i vasiyet yazdır",
+        "etki": { "zeka": 3, "itibar": 4, "mutluluk": 3 },
+        "sonuc": "Adil bir vasiyetname hazırlatıp mühürlettin."
+      },
+      {
+        "metin": "Evlatları toplayıp sözlü vasiyet et",
+        "etki": { "mutluluk": 2 },
+        "sonuc": "Evlatlarına nasihatlerini bildirdin."
+      }
+    ]
+  },
+  {
+    "id": "gundelik_044_vefat_eden_esin_hayrati",
+    "donem": "gundelik",
+    "alt_donem": "gundelik",
+    "yas_min": 35,
+    "yas_max": 75,
+    "tek_seferlik": false,
+    "gerekli_bayrak": "dul_bosanmis",
+    "metin": "Vefat eden eski eşinin ruhu için mahalleye tatlı ikram etme veya hayrat yaptırma arzusu doğdu.",
+    "secenekler": [
+      {
+        "metin": "Cuma namazı çıkışı lokma/helva dağıt",
+        "etki": { "para": -2, "itibar": 3, "mutluluk": 4 },
+        "sonuc": "Komşular merhuma/merhumeye dualar okudu."
+      },
+      {
+        "metin": "Evde kuran okutup dua et",
+        "etki": { "mutluluk": 2 },
+        "sonuc": "Sessizce yad ettin."
+      }
+    ]
+  },
+
+  {
+    "id": "gundelik_045_ahi_ocagi_ciraklik_teklifi",
+    "donem": "gundelik",
+    "alt_donem": "gundelik",
+    "yas_min": 14,
+    "yas_max": 22,
+    "tek_seferlik": true,
+    "oncelikli": true,
+    "metin": "Çarşıdaki Ahi Evran Ahi Ocağı yiğitbaşı, senin çalışkanlığını görüp seni usta bir marangoz/derici/bakırcının yanına çırak olarak alma teklifinde bulundu.",
+    "secenekler": [
+      {
+        "metin": "Ahi Ocağı'na katılıp çıraklığa başla",
+        "etki": { "para": 2, "itibar": 2, "zeka": 2 },
+        "meslek_atama": "ahilik",
+        "sonuc": "Ahi ocağına çırak olarak kaydoldun! Zanaat ve esnaflık yolunda ilk adımını attın."
+      },
+      {
+        "metin": "Başka bir alan seçmek istediğini bildir",
+        "etki": { "mutluluk": -1 },
+        "sonuc": "Teklifi erteledin."
+      }
+    ]
+  },
+  {
+    "id": "gundelik_046_medrese_mollalik_teklifi",
+    "donem": "gundelik",
+    "alt_donem": "gundelik",
+    "yas_min": 12,
+    "yas_max": 22,
+    "tek_seferlik": true,
+    "oncelikli": true,
+    "metin": "Mahalle imamı ve müderris efendi, senin zekanı ve okuma kabiliyetini fark ederek seni medreseye talebe (suhte/molla) olarak yetiştirmek istiyor.",
+    "secenekler": [
+      {
+        "metin": "Medreseye girip ilim tahsiline başla",
+        "etki": { "zeka": 5, "itibar": 3, "para": -1 },
+        "meslek_atama": "ilmiye",
+        "bayrak_ekle": "medrese_mezunu",
+        "sonuc": "Medreseye talebe olarak yazıldın! İlim, fıkıh ve kadılık yoluna adım attın."
+      },
+      {
+        "metin": "İlim yolunun ağır olduğunu düşünüp reddet",
+        "etki": { "mutluluk": -1 },
+        "sonuc": "Medrese yolunu seçmedin."
+      }
+    ]
+  },
+  {
+    "id": "gundelik_047_seyfiye_orduya_yazilma_teklifi",
+    "donem": "gundelik",
+    "alt_donem": "gundelik",
+    "yas_min": 15,
+    "yas_max": 25,
+    "tek_seferlik": true,
+    "oncelikli": true,
+    "metin": "Devletin sipahi ve askeri ocağına yiğit gençler aranıyor — subaşı ve serdengeçti ağaları seni cesur görüp askerlik sınıfına davet ediyor.",
+    "secenekler": [
+      {
+        "metin": "Davete uyup askeri ocağa (Seyfiye) yazıl",
+        "etki": { "para": 3, "itibar": 4, "saglik": 2 },
+        "meslek_atama": "seyfiye",
+        "sonuc": "Savaşçı ve askerlik sınıfına kabul edildin! Kılıç ve kalkan kuşanma yolun başladı."
+      },
+      {
+        "metin": "Sivil kalmayı tercih et",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Askerlik yolunu seçmedin."
+      }
+    ]
+  },
+  {
+    "id": "gundelik_048_kalemiye_sakirdlik_teklifi",
+    "donem": "gundelik",
+    "alt_donem": "gundelik",
+    "yas_min": 14,
+    "yas_max": 25,
+    "tek_seferlik": true,
+    "oncelikli": true,
+    "metin": "Divan ve eyalet kâtipleri, güzel yazın ve hesap bilgini görüp seni bürokrasiye (Kalemiye) kâtip şakirdi (çırağı) olarak davet etti.",
+    "secenekler": [
+      {
+        "metin": "Kalem dairesine şakird olarak gir",
+        "etki": { "zeka": 4, "itibar": 3, "para": 2 },
+        "meslek_atama": "kalemiye",
+        "sonuc": "Devlet kâtipliği ve bürokrasi yoluna adım attın! Divan evraklarını kaleme almaya başladın."
+      },
+      {
+        "metin": "Devlet kapısını tercih etme",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Kâtiplik yolunu seçmedin."
+      }
+    ]
+  },
+  {
+    "id": "gundelik_049_ahi_pestemal_kusanma_toreni",
+    "donem": "gundelik",
+    "alt_donem": "gundelik",
+    "yas_min": 16,
+    "yas_max": 24,
+    "tek_seferlik": true,
+    "oncelikli": true,
+    "metin": "Esnaf loncası, çıraklık dönemini başarıyla tamamlayan gençleri kalfalığa yükseltmek için Peştemal Kuşanma Töreni düzenliyor.",
+    "secenekler": [
+      {
+        "metin": "Törene katılıp ahi kalfası ol",
+        "etki": { "itibar": 4, "para": 3, "zeka": 2 },
+        "meslek_atama": "ahilik",
+        "sonuc": "Ahi loncasında resmen kalfalık unvanı aldın."
+      },
+      {
+        "metin": "Töreni ertelet",
+        "etki": { "mutluluk": -1 },
+        "sonuc": "Kalfalık gecikti."
+      }
+    ]
+  },
+  {
+    "id": "gundelik_050_ilmiye_talebe_kayit",
+    "donem": "gundelik",
+    "alt_donem": "gundelik",
+    "yas_min": 13,
+    "yas_max": 22,
+    "tek_seferlik": true,
+    "oncelikli": true,
+    "metin": "Şehrin saygın medreselerinden birinde boşalan suhte hücresine kaydolma fırsatı doğdu.",
+    "secenekler": [
+      {
+        "metin": "Medreseye kaydolup ilim hücresine yerleş",
+        "etki": { "zeka": 5, "itibar": 3 },
+        "meslek_atama": "ilmiye",
+        "bayrak_ekle": "medrese_mezunu",
+        "sonuc": "İlmiye sınıfına kaydoldun, gece gündüz ders çalışmaya başladın."
+      },
+      {
+        "metin": "Ticaretle uğraşmayı seç",
+        "etki": { "para": 2 },
+        "sonuc": "Medreseye girmedin."
+      }
+    ]
+  },
+  {
+    "id": "gundelik_051_seyfiye_yigitbasi_egitimi",
+    "donem": "gundelik",
+    "alt_donem": "gundelik",
+    "yas_min": 16,
+    "yas_max": 26,
+    "tek_seferlik": true,
+    "oncelikli": true,
+    "metin": "Mahalle ve sancak güvenlik birliklerinde ok, yay ve kılıç eğitimi alacak genç babayiğitler seçiliyor.",
+    "secenekler": [
+      {
+        "metin": "Eğitimlere katılıp asker sınıfına dahil ol",
+        "etki": { "saglik": 3, "itibar": 4, "para": 2 },
+        "meslek_atama": "seyfiye",
+        "sonuc": "Seyfiye ordusuna nefer olarak kaydoldun."
+      },
+      {
+        "metin": "Sivil kalmayı yeğle",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Askerlik teklifini pas geçtin."
+      }
+    ]
+  },
+  {
+    "id": "gundelik_052_kalemiye_hattatlik_ciraklik",
+    "donem": "gundelik",
+    "alt_donem": "gundelik",
+    "yas_min": 15,
+    "yas_max": 25,
+    "tek_seferlik": true,
+    "oncelikli": true,
+    "metin": "Büyük bir hattat ve divan kâtibi usta, senin hokka ve kamış kalem kullanma becerini sınayıp yanına kaleme almak istedi.",
+    "secenekler": [
+      {
+        "metin": "Hattat kâtibin yanında mesleğe başla",
+        "etki": { "zeka": 4, "itibar": 3, "para": 2 },
+        "meslek_atama": "kalemiye",
+        "sonuc": "Kalemiye sınıfına çırak yazıldın."
+      },
+      {
+        "metin": "Teklifi reddet",
+        "etki": { "mutluluk": -1 },
+        "sonuc": "Kâtipliğe başlamadın."
+      }
+    ]
+  },
+  {
+    "id": "gundelik_053_vasifsiz_iscilikten_kendi_dukkani",
+    "donem": "gundelik",
+    "alt_donem": "gundelik",
+    "yas_min": 22,
+    "yas_max": 45,
+    "tek_seferlik": false,
+    "metin": "Yıllardır vasıfsız işçi olarak döktüğün alın terinin ardından biriktirdiğin akçelerle çarşıda küçük bir tegah/dükkan kiralama imkanı doğdu.",
+    "secenekler": [
+      {
+        "metin": "Birikimini yatırıp Ahiler çarşısında dükkan aç",
+        "etki": { "para": -4, "itibar": 4, "mutluluk": 5 },
+        "meslek_atama": "ahilik",
+        "sonuc": "Kendi dükkanının sahibi oldun! Vasıfsız işçilikten esnaflığa terfi ettin."
+      },
+      {
+        "metin": "Gündelik işçi kalıp birikimini sakla",
+        "etki": { "para": 1 },
+        "sonuc": "Gündelik işlerde çalışmaya devam ettin."
+      }
+    ]
+  },
+  {
+    "id": "gundelik_054_seyfiye_subasi_yavuz_teklifi",
+    "donem": "gundelik",
+    "alt_donem": "gundelik",
+    "yas_min": 18,
+    "yas_max": 28,
+    "tek_seferlik": true,
+    "oncelikli": true,
+    "metin": "Sancak subaşısı bölgedeki asayişi korumak üzere devriye nöbetlerine katılacak cengaver gençler arıyor.",
+    "secenekler": [
+      {
+        "metin": "Asayiş devriyesine katılıp askeri sınıfa geç",
+        "etki": { "itibar": 4, "para": 3, "saglik": 1 },
+        "meslek_atama": "seyfiye",
+        "sonuc": "Seyfiye sınıfına nefer yazıldın."
+      },
+      {
+        "metin": "Riske girmeyip reddet",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Sivil kaldın."
+      }
+    ]
+  },
+  {
+    "id": "gundelik_055_kalemiye_defterdar_kalemi",
+    "donem": "gundelik",
+    "alt_donem": "gundelik",
+    "yas_min": 16,
+    "yas_max": 26,
+    "tek_seferlik": true,
+    "oncelikli": true,
+    "metin": "Defterdarlık kaleminde hesap tutacak, siyakat yazısını öğrenecek zeki kâtipler aranıyor.",
+    "secenekler": [
+      {
+        "metin": "Defterdarlık kalemine müracaat et",
+        "etki": { "zeka": 5, "para": 3, "itibar": 3 },
+        "meslek_atama": "kalemiye",
+        "sonuc": "Defterdar kâtibi olarak devlet hizmetine girdin."
+      },
+      {
+        "metin": "Başka işte çalış",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Kâtip olmadın."
+      }
+    ]
+  },
+  {
+    "id": "gundelik_056_ilmiye_kadi_yanina_mulazim",
+    "donem": "gundelik",
+    "alt_donem": "gundelik",
+    "yas_min": 16,
+    "yas_max": 26,
+    "tek_seferlik": true,
+    "oncelikli": true,
+    "metin": "Sancak Kadısının yanında mahkeme kayıtlarını tutacak mülazım (kadı yardımcısı) aranıyor.",
+    "secenekler": [
+      {
+        "metin": "Kadı yanına mülazım gir",
+        "etki": { "zeka": 5, "itibar": 4 },
+        "meslek_atama": "ilmiye",
+        "bayrak_ekle": "medrese_mezunu",
+        "sonuc": "İlmiye sınıfında kadı yardımcısı oldun."
+      },
+      {
+        "metin": "Girmemeyi seç",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Kabul etmedin."
+      }
+    ]
+  },
+  {
+    "id": "gundelik_057_esnaf_pestemal_kalfa",
+    "donem": "gundelik",
+    "alt_donem": "gundelik",
+    "yas_min": 18,
+    "yas_max": 28,
+    "tek_seferlik": false,
+    "metin": "Çarşıda ustanın yanında geçen yılların ardından lonca heyeti seni kalfalığa layık gördü.",
+    "secenekler": [
+      {
+        "metin": "Kalfalık payesini kabul et",
+        "etki": { "itibar": 3, "para": 2 },
+        "sonuc": "Lonca kalfası olarak itibarın arttı."
+      },
+      {
+        "metin": "Çalışmaya devam et",
+        "etki": { "para": 1 },
+        "sonuc": "İşine devam ettin."
+      }
+    ]
+  },
+  {
+    "id": "gundelik_058_lonca_sandigi_kredi_destek",
+    "donem": "gundelik",
+    "alt_donem": "gundelik",
+    "yas_min": 22,
+    "yas_max": 55,
+    "tek_seferlik": false,
+    "gerekli_bayrak": "meslek_ahilik",
+    "metin": "Ahi esnaf sandığından (Orta Sandığı) dükkanını büyütmen veya yeni aletler alman için faizsiz sermaye desteği veriliyor.",
+    "secenekler": [
+      {
+        "metin": "Lonca sandığından sermaye alıp işini büyüt",
+        "etki": { "para": 5, "itibar": 2 },
+        "sonuc": "Dükkanının kazancı arttı."
+      },
+      {
+        "metin": "Borçlanmak istemediğini söyle",
+        "etki": { "zeka": 1 },
+        "sonuc": "Mevcut düzenini korudun."
+      }
+    ]
+  },
+  {
+    "id": "gundelik_059_medrese_icazetname_sinavi",
+    "donem": "gundelik",
+    "alt_donem": "gundelik",
+    "yas_min": 18,
+    "yas_max": 30,
+    "tek_seferlik": false,
+    "gerekli_bayrak": "meslek_ilmiye",
+    "metin": "Medresedeki başmüderris huzurunda icazetname (diploma) almak için çetin bir ilim sınavına giriyorsun.",
+    "secenekler": [
+      {
+        "metin": "Gündüz gece çalışıp sınava gir",
+        "etki": { "zeka": 5, "itibar": 4, "saglik": -1 },
+        "sonuc": "İcazetnameni alıp alimler arasına girdin!"
+      },
+      {
+        "metin": "Biraz daha hazırlanmak için ertele",
+        "etki": { "zeka": 2 },
+        "sonuc": "Ders çalışmaya devam ettin."
+      }
+    ]
+  },
+  {
+    "id": "gundelik_060_sipahi_tarihli_timar_tahsisi",
+    "donem": "gundelik",
+    "alt_donem": "gundelik",
+    "yas_min": 20,
+    "yas_max": 40,
+    "tek_seferlik": false,
+    "gerekli_bayrak": "meslek_seyfiye",
+    "metin": "Ordudaki yararlılıkların ve disiplinin sebebiyle sana küçük bir köyün dirlik/tımar geliri tahsis edilmesi teklif ediliyor.",
+    "secenekler": [
+      {
+        "metin": "Tımar dirliğini kabul edip atlı sipahi ol",
+        "etki": { "para": 6, "itibar": 5 },
+        "sonuc": "Tımar sahibi oldun! Gelirin ve askeri itibarın katlandı."
+      },
+      {
+        "metin": "Kışlada kalmayı tercih et",
+        "etki": { "itibar": 2 },
+        "sonuc": "Kışlada kaldın."
+      }
+    ]
+  },
+  {
+    "id": "gundelik_061_kalemiye_divan_ruus_terfi",
+    "donem": "gundelik",
+    "alt_donem": "gundelik",
+    "yas_min": 22,
+    "yas_max": 45,
+    "tek_seferlik": false,
+    "gerekli_bayrak": "meslek_kalemiye",
+    "metin": "Kalemdeki güzel hattın ve düzgün evrak kaydın sebebiyle Divan-ı Hümayun Ruus kalemine terfi ettirilmen gündemde.",
+    "secenekler": [
+      {
+        "metin": "Terfiyi sevinçle kabul et",
+        "etki": { "para": 4, "itibar": 4, "zeka": 2 },
+        "sonuc": "Divan kaleminde üst kademeye terfi ettin."
+      },
+      {
+        "metin": "Mevcut kaleminde kal",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Aynı görevde kaldın."
+      }
+    ]
+  },
+  {
+    "id": "gundelik_062_vasifsiz_isci_hamallik_terch",
+    "donem": "gundelik",
+    "alt_donem": "gundelik",
+    "yas_min": 18,
+    "yas_max": 50,
+    "tek_seferlik": false,
+    "metin": "Liman ve kapan hanlarında günlük yük taşıma ve hamallık işleri var.",
+    "secenekler": [
+      {
+        "metin": "Sırtına küfeyi alıp akçe kazan",
+        "etki": { "para": 3, "saglik": -2, "mutluluk": -1 },
+        "sonuc": "Alın teriyle günlük ekmeğini çıkardın."
+      },
+      {
+        "metin": "Daha hafif bir iş ara",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Dinlenmeyi seçtin."
+      }
+    ]
+  },
+  {
+    "id": "gundelik_063_sanatkarlik_sedefkar_teklifi",
+    "donem": "gundelik",
+    "alt_donem": "gundelik",
+    "yas_min": 15,
+    "yas_max": 26,
+    "tek_seferlik": true,
+    "oncelikli": true,
+    "metin": "Saray sanatkarları ustası, senin ince el becerini görüp sedefkakma ve oymacılık atölyesine talebe olarak davet ediyor.",
+    "secenekler": [
+      {
+        "metin": "Atölyeye katılıp zanaatkar ol",
+        "etki": { "zeka": 4, "itibar": 3, "para": 2 },
+        "meslek_atama": "ahilik",
+        "sonuc": "Zanaatkar esnafı yoluna adım attın."
+      },
+      {
+        "metin": "Reddet",
+        "etki": { "mutluluk": -1 },
+        "sonuc": "Kabul etmedin."
+      }
+    ]
+  },
+  {
+    "id": "gundelik_064_mustesna_zabit_sakirdlik",
+    "donem": "gundelik",
+    "alt_donem": "gundelik",
+    "yas_min": 16,
+    "yas_max": 25,
+    "tek_seferlik": true,
+    "oncelikli": true,
+    "metin": "Eyalet defterhanesinde hesap kâtipleri yetiştiren kaleme kaydolma imkanı çıktı.",
+    "secenekler": [
+      {
+        "metin": "Kâtiplik kalemine yazıl",
+        "etki": { "zeka": 4, "para": 2, "itibar": 2 },
+        "meslek_atama": "kalemiye",
+        "sonuc": "Kalemiye kâtibi oldun."
+      },
+      {
+        "metin": "Kararsız kalıp vazgeç",
+        "etki": { "mutluluk": -1 },
+        "sonuc": "Yazılmadın."
+      }
+    ]
+  },
+
+  {
+    "id": "gundelik_065_kis_sogugu_zaturre",
+    "donem": "gundelik",
+    "alt_donem": "gundelik",
+    "yas_min": 5,
+    "yas_max": 80,
+    "tek_seferlik": false,
+    "metin": "Balkanlar'dan gelen sert kış soğuğu mahalledeki evleri dondurdu — yataktan kalkamayacak kadar sert öksürük ve ateşle yatağa düştün.",
+    "secenekler": [
+      {
+        "metin": "Hekim getirip sıcacık ıhlamur ve şuruplarla dinlen",
+        "etki": { "para": -2, "saglik": 3, "mutluluk": 1 },
+        "sonuc": "Birkaç hafta içinde toparlandın."
+      },
+      {
+        "metin": "İlaç almayıp soğukta çalışmaya devam et",
+        "etki": { "saglik": -5, "mutluluk": -3 },
+        "sonuc": "Hastalığın zatürreye çevirdi, yatakta uzun süre yattın."
+      }
+    ]
+  },
+  {
+    "id": "gundelik_066_mahallede_veba_salgini",
+    "donem": "gundelik",
+    "alt_donem": "gundelik",
+    "yas_min": 10,
+    "yas_max": 75,
+    "tek_seferlik": false,
+    "metin": "Şehirde ve mahallede amansız veba salgını (taun) baş gösterdi — evlerin kapılarına kırmızı işaretler konuluyor.",
+    "secenekler": [
+      {
+        "metin": "Eve kapanıp temizliğe ve duaya sarıl",
+        "etki": { "saglik": -2, "mutluluk": -4, "zeka": 1 },
+        "bayrak_ekle": "salgin_maruz",
+        "sonuc": "Salgın tehlikesini ucuz atlattın ama mahallede çok kayıp verildi."
+      },
+      {
+        "metin": "Hastalara yardım etmek için sokaklara çık",
+        "etki": { "itibar": 5, "saglik": -6, "sans_gerekli": true },
+        "bayrak_ekle": "salgin_maruz",
+        "sonuc": "Büyük cesaret gösterdin, ağır hastalandın ama hayatta kaldın."
+      }
+    ]
+  },
+  {
+    "id": "gundelik_067_kolera_vakasi_karantina",
+    "donem": "gundelik",
+    "alt_donem": "gundelik",
+    "yas_min": 12,
+    "yas_max": 75,
+    "tek_seferlik": false,
+    "metin": "Kirli içme sularından yayılan kolera salgını sebebiyle mahalle karantinaya alındı.",
+    "secenekler": [
+      {
+        "metin": "Sirke ve kaynatılmış suyla tedbir al",
+        "etki": { "saglik": -1, "zeka": 2, "mutluluk": -2 },
+        "bayrak_ekle": "salgin_maruz",
+        "sonuc": "Karantina günlerini kazasız atlattın."
+      },
+      {
+        "metin": "Tedbirlere uymayı ihmal et",
+        "etki": { "saglik": -6, "mutluluk": -4 },
+        "bayrak_ekle": "salgin_maruz",
+        "sonuc": "Kolera mikrobunu kapıp günlerce yattın."
+      }
+    ]
+  },
+  {
+    "id": "gundelik_068_darussifa_hekim_tedavisi",
+    "donem": "gundelik",
+    "alt_donem": "gundelik",
+    "yas_min": 10,
+    "yas_max": 80,
+    "tek_seferlik": false,
+    "metin": "Nükseden kronik ağrıların sebebiyle vakıf Darüşşifası'na başvurup hekimbaşına muayene oluyorsun.",
+    "secenekler": [
+      {
+        "metin": "Hekimin macun ve perhiz reçetesine harfiyen uy",
+        "etki": { "para": -2, "saglik": 5, "mutluluk": 3 },
+        "sonuc": "Darüşşifa tedavisi sayesinde vücuduna sıhhat geldi."
+      },
+      {
+        "metin": "Perhizi bozup kendi bildiğini yap",
+        "etki": { "saglik": -2 },
+        "sonuc": "Ağrıların tam geçmedi."
+      }
+    ]
+  },
+  {
+    "id": "gundelik_069_aktar_macunu_sifa_kuru",
+    "donem": "gundelik",
+    "alt_donem": "gundelik",
+    "yas_min": 15,
+    "yas_max": 75,
+    "tek_seferlik": false,
+    "metin": "Çarşıdaki tecrübeli aktar, halsizliğin için zencefil, bal ve kudret narı karışımı özel bir macun hazırladı.",
+    "secenekler": [
+      {
+        "metin": "Şifalı macunu satın alıp düzenli kullan",
+        "etki": { "para": -2, "saglik": 4, "mutluluk": 2 },
+        "sonuc": "Vücudun kuvvetlendi, halsizliğin bitti."
+      },
+      {
+        "metin": "Pahalı bulup vazgeç",
+        "etki": { "para": 1 },
+        "sonuc": "Halsizliğin bir süre daha sürdü."
+      }
+    ]
+  },
+  {
+    "id": "gundelik_070_hamam_kaza_sakarlanma",
+    "donem": "gundelik",
+    "alt_donem": "gundelik",
+    "yas_min": 15,
+    "yas_max": 70,
+    "tek_seferlik": false,
+    "metin": "Mahalle hamamında mermer kurnalarda ayağın kayıp sertçe yere düştün.",
+    "secenekler": [
+      {
+        "metin": "Sınıkçı/Çıkıkçı ustasına gidip ayağını bağlat",
+        "etki": { "para": -1, "saglik": -2, "mutluluk": -2 },
+        "sonuc": "Ayağın sarıldı, birkaç hafta sekerek yürüdün."
+      },
+      {
+        "metin": "Evde kendi imkanlarınla buz ve zeytinyağı sür",
+        "etki": { "saglik": -3 },
+        "sonuc": "Ağrın uzun süre geçmedi."
+      }
+    ]
+  },
+  {
+    "id": "gundelik_071_sari_humma_salgini",
+    "donem": "gundelik",
+    "alt_donem": "gundelik",
+    "yas_min": 10,
+    "yas_max": 70,
+    "tek_seferlik": false,
+    "metin": "Yaz sıcaklarında sivrisineklerden yayılan humma hastalığı mahallede yayıldı.",
+    "secenekler": [
+      {
+        "metin": "Hekimin verdiği sirke kürüyle korun",
+        "etki": { "saglik": -1, "zeka": 1 },
+        "bayrak_ekle": "salgin_maruz",
+        "sonuc": "Hafif at atlattın."
+      },
+      {
+        "metin": "Dikkat etmeyip hastalan",
+        "etki": { "saglik": -5, "mutluluk": -3 },
+        "bayrak_ekle": "salgin_maruz",
+        "sonuc": "Yüksek ateşle yatağa düştün."
+      }
+    ]
+  },
+  {
+    "id": "gundelik_072_goz_agrisi_kehhaller",
+    "donem": "gundelik",
+    "alt_donem": "gundelik",
+    "yas_min": 20,
+    "yas_max": 80,
+    "tek_seferlik": false,
+    "metin": "Gözlerinde oluşan yanma ve kararma sebebiyle çarşıdaki Kehhal (göz hekimi) dükkanına gittin.",
+    "secenekler": [
+      {
+        "metin": "Kehhalin mil ile sürdüğü tutya ilacını kullan",
+        "etki": { "para": -2, "saglik": 3 },
+        "sonuc": "Gözlerinin feri yerine geldi, görüşün netleşti."
+      },
+      {
+        "metin": "Gözünü dinlendirerek bekle",
+        "etki": { "saglik": 1 },
+        "sonuc": "Ağrı yavaşça azaldı."
+      }
+    ]
+  },
+  {
+    "id": "gundelik_073_dis_agrisi_berber_cekimi",
+    "donem": "gundelik",
+    "alt_donem": "gundelik",
+    "yas_min": 15,
+    "yas_max": 75,
+    "tek_seferlik": false,
+    "metin": "Gece boyu uyutmayan şiddetli çürük diş ağrısı sebebiyle mahalle berberine (diş çeken berber) gitmek zorundasın.",
+    "secenekler": [
+      {
+        "metin": "Berberin pensesine çeneni teslim edip dişi çektir",
+        "etki": { "para": -1, "saglik": 2, "mutluluk": -2 },
+        "sonuc": "Canın çok yandı ama dayanılmaz ağrıdan kurtuldun!"
+      },
+      {
+        "metin": "Karanfil yağı sürüp katlanmaya çalış",
+        "etki": { "saglik": -2, "mutluluk": -3 },
+        "sonuc": "Ağrı günlerce sürmeye devam etti."
+      }
+    ]
+  },
+  {
+    "id": "gundelik_074_kirik_cikik_sanki_otamaci",
+    "donem": "gundelik",
+    "alt_donem": "gundelik",
+    "yas_min": 12,
+    "yas_max": 70,
+    "tek_seferlik": false,
+    "metin": "Yolda yürürken veya işte çalışırken bileğin burkulup şişti.",
+    "secenekler": [
+      {
+        "metin": "Mahalledeki tecrübeli sınıkçıya bileğini oturt",
+        "etki": { "para": -1, "saglik": 2 },
+        "sonuc": "Bileğin çekilip bağlandı, kısa sürede iyileştin."
+      },
+      {
+        "metin": "Sadece sıcak bez koy",
+        "etki": { "saglik": -1 },
+        "sonuc": "Şişlik yavaş indi."
+      }
+    ]
+  },
+  {
+    "id": "gundelik_075_kaplica_sifali_su_kuru",
+    "donem": "gundelik",
+    "alt_donem": "gundelik",
+    "yas_min": 30,
+    "yas_max": 80,
+    "tek_seferlik": false,
+    "metin": "Romatizma ve eklem ağrılarına iyi gelen Bursa/Yalova kaplıcalarına şifa aramaya gitme fikri doğdu.",
+    "secenekler": [
+      {
+        "metin": "Kaplıcaya gidip şifalı sularda yıkan",
+        "etki": { "para": -4, "saglik": 6, "mutluluk": 5 },
+        "sonuc": "Kaplıca suyu eklem ağrılarına ilaç gibi geldi, kuş gibi hafifledin!"
+      },
+      {
+        "metin": "Yolculuk masrafından kaçın",
+        "etki": { "para": 1 },
+        "sonuc": "Ağrıların devam etti."
+      }
+    ]
+  },
+  {
+    "id": "gundelik_076_humma_sonrasi_iyilesme",
+    "donem": "gundelik",
+    "alt_donem": "gundelik",
+    "yas_min": 10,
+    "yas_max": 75,
+    "tek_seferlik": false,
+    "gerekli_bayrak": "salgin_maruz",
+    "metin": "Geçirdiğin ağır salgın hastalığın ardından iştahın açıldı ve yataktan ayağa kalkmaya başladın.",
+    "secenekler": [
+      {
+        "metin": "Şifa çorbaları içip iyice dinlen",
+        "etki": { "saglik": 4, "mutluluk": 3 },
+        "sonuc": "Eski sağlığına ve neşene kavuştun."
+      },
+      {
+        "metin": "Hemen işe koşup kendini yor",
+        "etki": { "saglik": -2 },
+        "sonuc": "Halsizliğin tekrarladı."
+      }
+    ]
+  },
+  {
+    "id": "gundelik_077_ruhsatli_attar_merhemi",
+    "donem": "gundelik",
+    "alt_donem": "gundelik",
+    "yas_min": 20,
+    "yas_max": 75,
+    "tek_seferlik": false,
+    "metin": "Cildindeki veya yara yerlerindeki sızı için attarın hazırladığı balmumu ve zeytinyağlı merhem kullanılıyor.",
+    "secenekler": [
+      {
+        "metin": "Merhemi sür ve sar",
+        "etki": { "para": -1, "saglik": 3 },
+        "sonuc": "Yaran çabucak kapandı."
+      },
+      {
+        "metin": "Kendi haline bırak",
+        "etki": { "saglik": -1 },
+        "sonuc": "Yara yavaş iyileşti."
+      }
+    ]
+  },
+  {
+    "id": "gundelik_078_tavsiye_edilen_hacamat",
+    "donem": "gundelik",
+    "alt_donem": "gundelik",
+    "yas_min": 25,
+    "yas_max": 80,
+    "tek_seferlik": false,
+    "metin": "Bahar aylarında vücuttaki kirli kanı almak için hekimler hacamat yaptırmanı tavsiye etti.",
+    "secenekler": [
+      {
+        "metin": "Sünnete uyup tecrübeli berbere hacamat yaptır",
+        "etki": { "para": -1, "saglik": 4, "mutluluk": 2 },
+        "sonuc": "Vücuduna zindelik ve hafiflik geldi."
+      },
+      {
+        "metin": "Korkup vazgeç",
+        "etki": { "mutluluk": -1 },
+        "sonuc": "Hacamat yaptırmadın."
+      }
+    ]
+  },
+
+  {
+    "id": "gundelik_079_ahsap_ev_mahalle_yangini",
+    "donem": "gundelik",
+    "alt_donem": "gundelik",
+    "yas_min": 10,
+    "yas_max": 75,
+    "tek_seferlik": false,
+    "metin": "Gece yarısı mahallede bir ahşap konaktan yükselen 'Yangın Var!' çığlıklarıyla sokaklar hareketlendi — tulumbacılar ve mahalleli kovalara sarıldı.",
+    "secenekler": [
+      {
+        "metin": "Su kovasını kapıp yangın söndürme imecesine koş",
+        "etki": { "itibar": 5, "mutluluk": 3, "saglik": -1 },
+        "sonuc": "Komşularının evlerini alevlerden kurtardınız! Mahallede kahraman gibi karşılandın."
+      },
+      {
+        "metin": "Kendi evinin emniyetini alıp bekle",
+        "etki": { "zeka": 1 },
+        "sonuc": "Yangın sizin sokağa sıçramadan söndürüldü."
+      }
+    ]
+  },
+  {
+    "id": "gundelik_080_ramazan_bozcaz_zimmet_defteri",
+    "donem": "gundelik",
+    "alt_donem": "gundelik",
+    "yas_min": 18,
+    "yas_max": 80,
+    "tek_seferlik": false,
+    "metin": "Mübarek Ramazan ayında mahalle bakkalının veresiye (zimmet) defterindeki fakir borçlarını kapatma ('Zimmet Defteri Satın Alma') hayrı yapmak istiyorsun.",
+    "secenekler": [
+      {
+        "metin": "Bakkala varıp rastgele birkaç borçlu sayfasını satın alıp yırt",
+        "etki": { "para": -5, "itibar": 6, "mutluluk": 8 },
+        "sonuc": "Kimsenin ruhu duymadan garibanların borcunu sildirdin. İçin huzurla doldu!"
+      },
+      {
+        "metin": "Mahalle iftarına bir çuval pirinç bağışla",
+        "etki": { "para": -2, "itibar": 3, "mutluluk": 4 },
+        "sonuc": "İftar sofrasına katkıda bulundun."
+      }
+    ]
+  },
+  {
+    "id": "gundelik_081_kahvehane_meddah_sohbeti",
+    "donem": "gundelik",
+    "alt_donem": "gundelik",
+    "yas_min": 15,
+    "yas_max": 75,
+    "tek_seferlik": false,
+    "metin": "Semt kahvehanesinde meşhur bir meddah, mendili ve değneğiyle tarihi cenk hikayeleri anlatıp cemaati kahkahaya boğuyor.",
+    "secenekler": [
+      {
+        "metin": "Ön sıraya oturup okumuş meddahın hikayesini dinle",
+        "etki": { "mutluluk": 5, "zeka": 2, "para": -1 },
+        "sonuc": "Keyifli bir akşam geçirdin, zihnin açıldı."
+      },
+      {
+        "metin": "Kahvehanede dostlarla tavla ve çay sohbeti yap",
+        "etki": { "mutluluk": 3 },
+        "sonuc": "Dostlarınla stres attın."
+      }
+    ]
+  },
+  {
+    "id": "gundelik_082_karagoz_hacivat_bayram_seyri",
+    "donem": "gundelik",
+    "alt_donem": "gundelik",
+    "yas_min": 5,
+    "yas_max": 80,
+    "tek_seferlik": false,
+    "metin": "Bayram yerinde kurulan perdede Karagöz ile Hacivat perde oyunu oynatılıyor — mahalle çocukları ve halk şenlik içinde.",
+    "secenekler": [
+      {
+        "metin": "Çocukları toplayıp Karagöz seyretmeye götür",
+        "etki": { "para": -1, "mutluluk": 6 },
+        "sonuc": "Kahkahalar içinde neşeli bir bayram günü geçirdiniz."
+      },
+      {
+        "metin": "Bayram yerinde lokum yiyip gez",
+        "etki": { "mutluluk": 3 },
+        "sonuc": "Bayramın tadını çıkardın."
+      }
+    ]
+  },
+  {
+    "id": "gundelik_083_carsi_pazar_narh_pahali",
+    "donem": "gundelik",
+    "alt_donem": "gundelik",
+    "yas_min": 18,
+    "yas_max": 70,
+    "tek_seferlik": false,
+    "metin": "Çarşı-pazarda un ve yağ fiyatları artınca Kadı Efendi narh (tavan fiyat) uygulaması başlattı — muhtesip dükkanları denetliyor.",
+    "secenekler": [
+      {
+        "metin": "Narh fiyatına uyup dürüst alışveriş yap",
+        "etki": { "itibar": 3, "zeka": 1 },
+        "sonuc": "Adaletli alışveriş anlayışın takdir topladı."
+      },
+      {
+        "metin": "Pahalılık sebebiyle alımlarını kısıtla",
+        "etki": { "para": 2, "mutluluk": -1 },
+        "sonuc": "Bütçeni korudun."
+      }
+    ]
+  },
+  {
+    "id": "gundelik_084_komsu_arazi_duvar_anlasmazligi",
+    "donem": "gundelik",
+    "alt_donem": "gundelik",
+    "yas_min": 22,
+    "yas_max": 75,
+    "tek_seferlik": false,
+    "metin": "Yan komşun bahçe duvarını senin arazinden bir arşın içeri ördüğü iddiasıyla kapına geldi.",
+    "secenekler": [
+      {
+        "metin": "Mahalle kethüdası ve bilirkişi getirip adaletle ölçtür",
+        "etki": { "zeka": 2, "itibar": 2 },
+        "sonuc": "Ölçüm yapıldı, sınır adaletle çizildi."
+      },
+      {
+        "metin": "Gönlün hoş olsun deyip bir arşın toprağı komşuna bağışla",
+        "etki": { "itibar": 5, "mutluluk": 4, "para": -1 },
+        "sonuc": "Cömertliğin komşuyu utandırdı, en yakın dostun oldu!"
+      }
+    ]
+  },
+  {
+    "id": "gundelik_085_mahalle_cesmesi_su_sirasi",
+    "donem": "gundelik",
+    "alt_donem": "gundelik",
+    "yas_min": 10,
+    "yas_max": 70,
+    "tek_seferlik": false,
+    "metin": "Yaz sıcağında mahalle çeşmesinde testilere su doldurma sırasından ufak bir tartışma çıktı.",
+    "secenekler": [
+      {
+        "metin": "Sıranı yaşlı bir komşuya verip öncelik tanı",
+        "etki": { "itibar": 3, "mutluluk": 3 },
+        "sonuc": "Hürmetin herkesin takdirini kazandı."
+      },
+      {
+        "metin": "Sıranı bekleyip suyunu al",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Suyunu alıp eve döndün."
+      }
+    ]
+  },
+  {
+    "id": "gundelik_086_bayramlasma_ve_harclik",
+    "donem": "gundelik",
+    "alt_donem": "gundelik",
+    "yas_min": 5,
+    "yas_max": 85,
+    "tek_seferlik": false,
+    "metin": "Mübarek bayram sabahı el öpmeye gelen mahalle çocukları ve akrabalar kapıyı aşındırıyor.",
+    "secenekler": [
+      {
+        "metin": "Mendil içinde Akçe ve akide şekeri ikram et",
+        "etki": { "para": -3, "itibar": 4, "mutluluk": 6 },
+        "sonuc": "Çocukların yüzündeki tebessüm sana en büyük bayram hediyesi oldu."
+      },
+      {
+        "metin": "Sadece şeker verip ellerini öptür",
+        "etki": { "para": -1, "mutluluk": 3 },
+        "sonuc": "Gelenek yaşatıldı."
+      }
+    ]
+  },
+  {
+    "id": "gundelik_087_mesire_yeri_piknik_sohbet",
+    "donem": "gundelik",
+    "alt_donem": "gundelik",
+    "yas_min": 15,
+    "yas_max": 70,
+    "tek_seferlik": false,
+    "metin": "Bahar ayında Göksu/Kâğıthane mesire yerine çay semaveri ve kilimlerle kır sohbetine gidildi.",
+    "secenekler": [
+      {
+        "metin": "Ailen ve dostlarınla çay içip açık havanın tadını çıkar",
+        "etki": { "para": -2, "mutluluk": 6, "saglik": 2 },
+        "sonuc": "Bütün haftanın yorgunluğu ve stresi uçup gitti."
+      },
+      {
+        "metin": "Ağaç altında uyuklayıp dinlen",
+        "etki": { "saglik": 2, "mutluluk": 3 },
+        "sonuc": "Huzur buldun."
+      }
+    ]
+  },
+  {
+    "id": "gundelik_088_boza_ve_salep_saticisi",
+    "donem": "gundelik",
+    "alt_donem": "gundelik",
+    "yas_min": 10,
+    "yas_max": 80,
+    "tek_seferlik": false,
+    "metin": "Kış gecesinde sokaktan 'Veeee Sıcak Saleeep! Ekşi Bozaaa!' çığlığı yükseliyor.",
+    "secenekler": [
+      {
+        "metin": "Sokaktaki bozacıdan taraflara taze boza/salep ıısmarla",
+        "etki": { "para": -1, "mutluluk": 4 },
+        "sonuc": "Sıcak salep içimizi ısıttı."
+      },
+      {
+        "metin": "Pencereden dinleyip yatağına gir",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Sessizce uyudun."
+      }
+    ]
+  },
+  {
+    "id": "gundelik_089_mahalle_bakkali_veresiye",
+    "donem": "gundelik",
+    "alt_donem": "gundelik",
+    "yas_min": 18,
+    "yas_max": 70,
+    "tek_seferlik": false,
+    "metin": "Mahalle bakkalı veresiye defterindeki hesabını toparlamak istediğini belirtti.",
+    "secenekler": [
+      {
+        "metin": "Borcunu kuruşu kuruşuna öde",
+        "etki": { "para": -3, "itibar": 3, "mutluluk": 2 },
+        "sonuc": "Bakkalın minnettarlığını kazandın."
+      },
+      {
+        "metin": "Gelecek aya ertelemesini rica et",
+        "etki": { "mutluluk": -1 },
+        "sonuc": "Gelecek aya kaldı."
+      }
+    ]
+  },
+  {
+    "id": "gundelik_090_kaybolan_esya_tellal",
+    "donem": "gundelik",
+    "alt_donem": "gundelik",
+    "yas_min": 15,
+    "yas_max": 70,
+    "tek_seferlik": false,
+    "metin": "Çarşıda gümüş kese veya kıymetli bir eşyanı düşürdün — çarşı tellalına bağırttırma vakti.",
+    "secenekler": [
+      {
+        "metin": "Tellala Akçe verip bağırttır",
+        "etki": { "para": -2, "itibar": 2, "sans_gerekli": true },
+        "sonuc": "Dürüst bir esnaf eşyanı bulup tellala teslim etmiş! Eşyanı geri aldın."
+      },
+      {
+        "metin": "Nasip değilmiş deyip arama",
+        "etki": { "para": -3, "mutluluk": -2 },
+        "sonuc": "Eşyadan ümidi kestin."
+      }
+    ]
+  },
+  {
+    "id": "gundelik_091_sadaka_tasi_hayir",
+    "donem": "gundelik",
+    "alt_donem": "gundelik",
+    "yas_min": 15,
+    "yas_max": 85,
+    "tek_seferlik": false,
+    "metin": "Cami köşesindeki Sadaka Taşı'nın yanından geçerken kimseye görünmeden taşın oyuğuna Akçe bırakmak istiyorsun.",
+    "secenekler": [
+      {
+        "metin": "Gece karanlığında sadaka taşına Akçe koy",
+        "etki": { "para": -2, "mutluluk": 6, "itibar": 2 },
+        "sonuc": "Veren el alan eli görmedi. Ruhuna büyük bir huzur kapladı."
+      },
+      {
+        "metin": "Dua edip geç",
+        "etki": { "mutluluk": 2 },
+        "sonuc": "Dua ile geçip gittin."
+      }
+    ]
+  },
+  {
+    "id": "gundelik_092_esnaf_gedik_hakki",
+    "donem": "gundelik",
+    "alt_donem": "gundelik",
+    "yas_min": 22,
+    "yas_max": 65,
+    "tek_seferlik": false,
+    "gerekli_bayrak": "meslek_ahilik",
+    "metin": "Çarşıda boşalan bir gedik (dükkan açma ruhsatı) hakkı için adaylar değerlendiriliyor.",
+    "secenekler": [
+      {
+        "metin": "Gedik hakkını devralmak için başvur",
+        "etki": { "para": -4, "itibar": 4, "zeka": 2 },
+        "sonuc": "Gedik hakkını elde edip dükkanının yerini sağlamlaştırdın."
+      },
+      {
+        "metin": "Mevcut dükkanınla devam et",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Aynı dükkanda kaldın."
+      }
+    ]
+  },
+
+  {
+    "id": "gundelik_093_torun_sevgisi_masallar",
+    "donem": "gundelik",
+    "alt_donem": "gundelik",
+    "yas_min": 55,
+    "yas_max": 85,
+    "tek_seferlik": false,
+    "metin": "Dizine oturan cıvıl cıvıl torunların senden kış gecesinde Battal Gazi ve Dede Korkut masalları anlatmanı istiyor.",
+    "secenekler": [
+      {
+        "metin": "Soba başında torunlarına heyecanlı masallar anlat",
+        "etki": { "mutluluk": 7, "itibar": 2, "saglik": 1 },
+        "sonuc": "Torunlarının gözlerindeki hayranlık ve sevgi yaşlılık günlerine neşe kattı!"
+      },
+      {
+        "metin": "Onlara şeker ikram edip dinlen",
+        "etki": { "mutluluk": 4 },
+        "sonuc": "Torunlarınla huzurlu bir akşam geçirdin."
+      }
+    ]
+  },
+  {
+    "id": "gundelik_094_cami_avlusu_eski_gunler",
+    "donem": "gundelik",
+    "alt_donem": "gundelik",
+    "yas_min": 60,
+    "yas_max": 85,
+    "tek_seferlik": false,
+    "metin": "İkindi namazı sonrası çınar altındaki cami avlusunda emektar dostlarla oturup eski seferleri ve gençlik yıllarını yad ediyorsunuz.",
+    "secenekler": [
+      {
+        "metin": "Dostlara çay ı ısmarla ve eski hatıraları anlat",
+        "etki": { "para": -1, "mutluluk": 6, "itibar": 3 },
+        "sonuc": "Tatlı bir nostalji ve dostluk havası yaşandı."
+      },
+      {
+        "metin": "Sessizce sohbeti dinleyip tesbih çek",
+        "etki": { "mutluluk": 4, "saglik": 1 },
+        "sonuc": "Günün huzurunu yaşadın."
+      }
+    ]
+  },
+  {
+    "id": "gundelik_095_hayrat_cesmesi_yaptirma",
+    "donem": "gundelik",
+    "alt_donem": "gundelik",
+    "yas_min": 50,
+    "yas_max": 85,
+    "tek_seferlik": false,
+    "metin": "Biriktirdiğin akçelerle mahallenin susuz bir sokağına kendi adınla hayrat çeşmesi yaptırma kararı alma imkanın var.",
+    "secenekler": [
+      {
+        "metin": "Mimar getirip hayrat çeşmesini inşa ettir",
+        "etki": { "para": -6, "itibar": 7, "mutluluk": 8 },
+        "sonuc": "Çeşmeden sular akmaya başladı! İnsanlar ve hayvanlar su içtikçe sana dualar ediyor."
+      },
+      {
+        "metin": "Kuş evi yaptırıp cami duvarına koydur",
+        "etki": { "para": -2, "itibar": 3, "mutluluk": 5 },
+        "sonuc": "Zarif bir kuş evi yaptırdın."
+      }
+    ]
+  },
+  {
+    "id": "gundelik_096_vasiyetname_hazirlama_dua",
+    "donem": "gundelik",
+    "alt_donem": "gundelik",
+    "yas_min": 60,
+    "yas_max": 85,
+    "tek_seferlik": false,
+    "metin": "Son günlerini huzurla geçirmek, borçsuz ve helalleşmiş olarak ecele hazırlanmak için vasiyetini tazeliyorsun.",
+    "secenekler": [
+      {
+        "metin": "Evlatlarına ve komşularına helallik ver, nasihat et",
+        "etki": { "mutluluk": 6, "itibar": 4, "zeka": 2 },
+        "sonuc": "Gönlün mühür gibi huzurla doldu."
+      },
+      {
+        "metin": "Sessizce ibadetine devam et",
+        "etki": { "mutluluk": 4 },
+        "sonuc": "Huzurla vaktini bekliyorsun."
+      }
+    ]
+  },
+  {
+    "id": "gundelik_097_yaslilik_kemik_agrilari",
+    "donem": "gundelik",
+    "alt_donem": "gundelik",
+    "yas_min": 60,
+    "yas_max": 85,
+    "tek_seferlik": false,
+    "metin": "İlerleyen yaş sebebiyle dillerde 'romato' denen diz ve kemik sızıları kış günlerinde artıyor.",
+    "secenekler": [
+      {
+        "metin": "Sıcak zeytinyağı ve havlu kapatıp sobaya yakın otur",
+        "etki": { "saglik": 2, "mutluluk": 2 },
+        "sonuc": "Ağrıların biraz hafifledi."
+      },
+      {
+        "metin": "Bastona dayanıp ibadetine aksatmadan git",
+        "etki": { "itibar": 3, "saglik": -1 },
+        "sonuc": "Azmin takdir topladı."
+      }
+    ]
+  },
+  {
+    "id": "gundelik_098_lonca_emeklilik_sevdasi",
+    "donem": "gundelik",
+    "alt_donem": "gundelik",
+    "yas_min": 55,
+    "yas_max": 80,
+    "tek_seferlik": false,
+    "metin": "Loncadaki aktif dükkan idaresini genç kalfalara ve evlatlarına devredip pirlik/danışmanlık makamına çekiliyorsun.",
+    "secenekler": [
+      {
+        "metin": "Dükkanı evlatlarına devredip pirlik et",
+        "etki": { "itibar": 4, "mutluluk": 5, "zeka": 2 },
+        "sonuc": "Genç esnafa tecrübe aktaran saygın bir pir oldun."
+      },
+      {
+        "metin": "Dükkanın başında kalmaya devam et",
+        "etki": { "para": 2, "saglik": -1 },
+        "sonuc": "Çalışmayı bırakmadın."
+      }
+    ]
+  },
+  {
+    "id": "gundelik_099_dergah_ve_tasavvuf_sohbeti",
+    "donem": "gundelik",
+    "alt_donem": "gundelik",
+    "yas_min": 45,
+    "yas_max": 85,
+    "tek_seferlik": false,
+    "metin": "Hafta sonları mahalledeki tekkede ney ve kudüm sesleri eşliğinde ilahi ve tasavvuf sohbetlerine katılıyorsun.",
+    "secenekler": [
+      {
+        "metin": "Sohbete katılıp ney sesini dinle",
+        "etki": { "mutluluk": 7, "zeka": 3, "itibar": 2 },
+        "sonuc": "Ruhun dinlendi, kalbin sevinçle doldu."
+      },
+      {
+        "metin": "Evinde kütüphanende kitap oku",
+        "etki": { "zeka": 3, "mutluluk": 3 },
+        "sonuc": "Ufkunu genişlettin."
+      }
+    ]
+  },
+  {
+    "id": "gundelik_100_huzurlu_yaslilik_ve_dua",
+    "donem": "gundelik",
+    "alt_donem": "gundelik",
+    "yas_min": 65,
+    "yas_max": 85,
+    "tek_seferlik": false,
+    "metin": "Ömrün son demlerinde arkanda bıraktığın dürüst hayatın, hayırlı evlatlarının ve dostlarının şükranı eşliğinde huzur dolu bir gün geçiriyorsun.",
+    "secenekler": [
+      {
+        "metin": "Bütün geçmiş ömrüne ve vatanına hayır dualar et",
+        "etki": { "mutluluk": 8, "itibar": 4, "zeka": 3 },
+        "sonuc": "Tam bir teslimiyet ve gönül huzuru içindesin. Ne mutlu hayırlı bir ömrü geride bırakanlara!"
+      },
+      {
+        "metin": "Evlatlarına son nasihatlerini ver",
+        "etki": { "mutluluk": 6, "itibar": 3 },
+        "sonuc": "Evlatların elini öpüp dualarını aldı."
+      }
+    ]
+  }
+]

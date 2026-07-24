@@ -17,22 +17,24 @@ void main() {
       final fileDuraklama = File('assets/olaylar/duraklama.json');
       final fileGerileme = File('assets/olaylar/gerileme.json');
       final fileDagilma = File('assets/olaylar/dagilma.json');
+      final fileGundelik = File('assets/olaylar/gundelik_hayat.json');
 
       final o1 = yukleyici.jsonMetnindenYukle(fileKurulus.readAsStringSync(), 'kurulus.json');
       final o2 = yukleyici.jsonMetnindenYukle(fileYukselme.readAsStringSync(), 'yukselme.json');
       final o3 = yukleyici.jsonMetnindenYukle(fileDuraklama.readAsStringSync(), 'duraklama.json');
       final o4 = yukleyici.jsonMetnindenYukle(fileGerileme.readAsStringSync(), 'gerileme.json');
       final o5 = yukleyici.jsonMetnindenYukle(fileDagilma.readAsStringSync(), 'dagilma.json');
+      final o6 = yukleyici.jsonMetnindenYukle(fileGundelik.readAsStringSync(), 'gundelik_hayat.json');
 
-      tumOlaylar = [...o1, ...o2, ...o3, ...o4, ...o5];
+      tumOlaylar = [...o1, ...o2, ...o3, ...o4, ...o5, ...o6];
     });
 
-    test('1. kurulus (138) + yukselme (101) + duraklama (118) + gerileme (68) + dagilma (107) = 532 olay eksiksiz, benzersiz ID ve alt_donem alanlarıyla yüklenmeli', () {
-      expect(tumOlaylar.length, equals(532));
+    test('1. kurulus (138) + yukselme (101) + duraklama (118) + gerileme (68) + dagilma (107) + gundelik (100) = 632 olay eksiksiz, benzersiz ID ve alt_donem alanlarıyla yüklenmeli', () {
+      expect(tumOlaylar.length, equals(632));
       
       // Benzersiz ID kontrolü
       final idSet = tumOlaylar.map((o) => o.id).toSet();
-      expect(idSet.length, equals(532));
+      expect(idSet.length, equals(632));
 
       final ahilikOlayi = tumOlaylar.firstWhere((o) => o.id == 'kurulus_001');
       expect(ahilikOlayi.tarihYilMin, equals(1299));
@@ -196,6 +198,11 @@ void main() {
       final saltanatinKaldirilmasi = tumOlaylar.firstWhere((o) => o.id == 'son_donem_014_saltanatin_kaldirilmasi');
       expect(saltanatinKaldirilmasi.donem, equals('dagilma'));
       expect(saltanatinKaldirilmasi.altDonem, equals('resad_vahdettin_son_donem'));
+
+      // Dönem-Nötr Genel Gündelik Hayat olayları kontrolü
+      final gorucuEvlilik = tumOlaylar.firstWhere((o) => o.id == 'gundelik_001_gorucu_usulu_evlilik_1');
+      expect(gorucuEvlilik.donem, equals('gundelik'));
+      expect(gorucuEvlilik.oncelikli, isTrue);
     });
 
     test('2. Şema doğrulayıcı hatalı tarih_yil_min > tarih_yil_max durumunu yakalamalı', () {

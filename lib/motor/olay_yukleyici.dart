@@ -10,6 +10,7 @@ class OlayYukleyici {
     'assets/olaylar/duraklama.json',
     'assets/olaylar/gerileme.json',
     'assets/olaylar/dagilma.json',
+    'assets/olaylar/gundelik_hayat.json',
   ];
 
   static const Set<String> gecerliStatlar = {
