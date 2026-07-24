@@ -1147,5 +1147,293 @@
         "sonuc": "Zaman gösterecekti — bu genç sultan, yıllar içinde beklenmedik bir sertlikle devleti yeniden toparlayacaktı."
       }
     ]
+  },
+  {
+    "id": "murad4_001_tahta_cikis_kosem_naipligi",
+    "donem": "duraklama",
+    "alt_donem": "dorduncu_murad",
+    "tarih_yil_min": 1623,
+    "tarih_yil_max": 1632,
+    "yas_min": 5,
+    "yas_max": 60,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "11 yaşındaki Şehzade Murad tahta çıktı. Bu genç yaştaki devleti yönetemeyeceği açık olduğundan, annesi Kösem Sultan fiilen naip (vekil) olarak devlet işlerini yürütüyor.",
+    "secenekler": [
+      {
+        "metin": "Bu kadın naipliğini olağan bir yönetim biçimi say",
+        "etki": { "zeka": 2 },
+        "sonuc": "Kösem Sultan'ın deneyimi, kaotik geçen son yılların ardından bir denge unsuru sağlıyordu."
+      },
+      {
+        "metin": "Genç sultanın büyümesini merakla bekle",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Herkes, bu genç sultanın büyüyünce nasıl bir hükümdar olacağını merak ediyordu."
+      }
+    ]
+  },
+  {
+    "id": "murad4_002_istanbul_yangini_yasaklar",
+    "donem": "duraklama",
+    "alt_donem": "dorduncu_murad",
+    "tarih_yil_min": 1631,
+    "tarih_yil_max": 1633,
+    "yas_min": 10,
+    "yas_max": 60,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "1631'de İstanbul'da büyük bir yangın çıktı, şehrin geniş bir kısmı kül oldu. Yapılan soruşturmada yangının sarhoş, tütün içen yeniçerilerden çıktığı iddia edildi. Genç Sultan bunun üzerine tütün, kahve ve içkiyi tamamen yasakladı.",
+    "secenekler": [
+      {
+        "metin": "Yangının acısını yaşayıp yasağı destekle",
+        "etki": { "para": -3, "mutluluk": -2 },
+        "sonuc": "Evini/dükkanını kaybedenler için bu sert önlem anlaşılır bir tepkiydi."
+      },
+      {
+        "metin": "Bu yasağın çok sert olduğunu düşün",
+        "etki": { "mutluluk": -1 },
+        "sonuc": "Kahvehaneler kapatıldı, meyhaneler yıkıldı — gündelik alışkanlıklar bir gecede yasa dışı hale geldi."
+      }
+    ]
+  },
+  {
+    "id": "murad4_003_gizli_devriye_idamlar",
+    "donem": "duraklama",
+    "alt_donem": "dorduncu_murad",
+    "tarih_yil_min": 1633,
+    "tarih_yil_max": 1640,
+    "yas_min": 15,
+    "yas_max": 60,
+    "tek_seferlik": false,
+    "gerekli_bayrak": null,
+    "metin": "Sultan'ın kendisinin bile geceleri kılık değiştirip sokaklarda dolaştığı, yasağı çiğneyeni yakalarsa oracıkta idam ettirdiği rivayet ediliyor. Casus/haberci ağı her köşede tetikte.",
+    "secenekler": [
+      {
+        "metin": "Bu sert denetime tedirginlikle uyum sağla, yasağa uy",
+        "etki": { "mutluluk": -3, "saglik": 1 },
+        "sonuc": "Korku, itaati sağlıyordu — ama bu denli bir baskı altında yaşamak yorucuydu."
+      },
+      {
+        "metin": "Yasağa gizlice karşı gelmeyi dene",
+        "etki": { "mutluluk": 2, "sans_gerekli": true },
+        "sonuc": "Ya şansın yaver gitti ve yakalanmadın, ya da cezası ağır bir dersle karşılaştın."
+      }
+    ]
+  },
+  {
+    "id": "murad4_004_mutlak_iktidar",
+    "donem": "duraklama",
+    "alt_donem": "dorduncu_murad",
+    "tarih_yil_min": 1632,
+    "tarih_yil_max": 1632,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "20 yaşına gelen IV. Murad, artık annesinin naipliğine son verip devletin tam yönetimini bizzat eline aldı. Rüşvet ve iltimasa karşı sert bir mücadele başlattı.",
+    "secenekler": [
+      {
+        "metin": "Bu yeni sert yönetim tarzını destekle",
+        "etki": { "itibar": 2, "mutluluk": -1 },
+        "sonuc": "Uzun süredir sarsılan devlet otoritesi, nihayet güçlü bir elde toplanıyordu."
+      },
+      {
+        "metin": "Bu sertlikten çekin",
+        "etki": { "mutluluk": -2 },
+        "sonuc": "Rüşvetçi ve tembel memurlar için zor günler başlıyordu."
+      }
+    ]
+  },
+  {
+    "id": "murad4_005_seyhulislam_idami",
+    "donem": "duraklama",
+    "alt_donem": "dorduncu_murad",
+    "tarih_yil_min": 1634,
+    "tarih_yil_max": 1634,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "Şaşırtıcı bir haber: Şeyhülislam Ahizade Hüseyin Efendi önce sürgüne gönderildi, sonra yolda idam edildi — tarihte ilk kez bir şeyhülislam bu şekilde can verdi. Bu, dini otoritenin bile artık sultan'ın mutlak gücüne boyun eğdiğinin göstergesiydi.",
+    "secenekler": [
+      {
+        "metin": "Bu benzeri görülmemiş kararı dehşetle karşıla",
+        "etki": { "mutluluk": -4, "zeka": 1 },
+        "sonuc": "Dini otoritenin en üst makamının bile böyle bir sona uğraması, herkesi derinden şaşırttı."
+      },
+      {
+        "metin": "Sultan'ın hiçbir gücü üstün tutmadığını düşün",
+        "etki": { "zeka": 2, "mutluluk": -2 },
+        "sonuc": "Bu, mutlak otoritenin sınırlarının artık ne kadar genişlediğinin acı bir kanıtıydı."
+      }
+    ]
+  },
+  {
+    "id": "murad4_006_revan_seferi",
+    "donem": "duraklama",
+    "alt_donem": "dorduncu_murad",
+    "tarih_yil_min": 1635,
+    "tarih_yil_max": 1635,
+    "yas_min": 16,
+    "yas_max": 50,
+    "tek_seferlik": true,
+    "gerekli_bayrak": "meslek_seyfiye",
+    "metin": "Sultan bizzat ordunun başında Safeviler üzerine sefere çıktı, Revan (Erivan) alındı — ama sonradan geri kaybedildi. Sultan'ın sefer sırasında bacağında bir rahatsızlık (gut hastalığının başlangıcı) baş gösterdi.",
+    "secenekler": [
+      {
+        "metin": "Bu sefere katıl",
+        "etki": { "para": 5, "itibar": 3, "saglik": -3, "sans_gerekli": true },
+        "sonuc": "Revan alındı, kısa süreli bir zaferdi ama Osmanlı ordusunun hâlâ güçlü olduğunu göstermeye yetmişti."
+      },
+      {
+        "metin": "Sefere katılmadın",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Zafer haberi geldiğinde memnuniyet yaşandı."
+      }
+    ]
+  },
+  {
+    "id": "murad4_007_kasim_kardes_katli",
+    "donem": "duraklama",
+    "alt_donem": "dorduncu_murad",
+    "tarih_yil_min": 1638,
+    "tarih_yil_max": 1638,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "Ekber-Erşed sistemi kurulmuş olsa da, IV. Murad Bağdat seferine çıkmadan önce kardeşi Şehzade Kasım'ı öldürtmüştü — kardeş katli geleneği, resmen kaldırılmış olmasına rağmen fiilen geri döndü.",
+    "secenekler": [
+      {
+        "metin": "Bu kararı devlet güvenliği için gerekli say",
+        "etki": { "zeka": 1, "mutluluk": -3 },
+        "sonuc": "Sultan, sefer sırasında geride bir taht iddiacısı bırakmak istemiyordu — ama bu, Ekber-Erşed sisteminin ne kadar kırılgan olduğunu da gösteriyordu."
+      },
+      {
+        "metin": "Bu geleneğin geri dönmesinden derin üzüntü duy",
+        "etki": { "mutluluk": -5 },
+        "sonuc": "Genç Ahmed'in kaldırdığı acı gelenek, bir kuşak sonra yeniden hortlamıştı."
+      }
+    ]
+  },
+  {
+    "id": "murad4_008_bagdat_fethi",
+    "donem": "duraklama",
+    "alt_donem": "dorduncu_murad",
+    "tarih_yil_min": 1638,
+    "tarih_yil_max": 1638,
+    "yas_min": 16,
+    "yas_max": 50,
+    "tek_seferlik": true,
+    "gerekli_bayrak": "meslek_seyfiye",
+    "metin": "Sultan bizzat büyük bir orduyla Bağdat'a yürüdü. Uzun ve zorlu bir kuşatmanın ardından şehir düştü — 'Bağdat Fatihi' unvanı kazanıldı. İmam-ı Azam ve Abdülkadir Geylani türbeleri onarıldı.",
+    "secenekler": [
+      {
+        "metin": "Bu büyük zafere katıl",
+        "etki": { "para": 8, "itibar": 5, "saglik": -4, "sans_gerekli": true },
+        "sonuc": "Bağdat'ın kesin olarak alınması, Osmanlı'nın hâlâ dünya çapında bir askeri güç olduğunu kanıtladı. Yıllardır ilk kez böylesine büyük ve kesin bir zafer kazanılmıştı."
+      },
+      {
+        "metin": "Bu sefere katılmadın",
+        "etki": { "mutluluk": 2 },
+        "sonuc": "Zafer haberi tüm ülkede büyük bir coşkuyla karşılandı."
+      }
+    ]
+  },
+  {
+    "id": "murad4_009_kasri_sirin_antlasmasi",
+    "donem": "duraklama",
+    "alt_donem": "dorduncu_murad",
+    "tarih_yil_min": 1639,
+    "tarih_yil_max": 1639,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "Bağdat'ın alınmasının ardından imzalanan Kasr-ı Şirin Antlaşması, Osmanlı-İran sınırını kalıcı olarak belirledi — bu sınır, gelecek yüzyıllarda büyük ölçüde değişmeden kalacak.",
+    "secenekler": [
+      {
+        "metin": "Bu kalıcı barışın önemini takdir et",
+        "etki": { "zeka": 2, "mutluluk": 3 },
+        "sonuc": "Yüzyıllardır süren doğu cephesi savaşları, nihayet net ve kalıcı bir çözüme kavuşmuştu."
+      },
+      {
+        "metin": "Gündelik hayatına devam et",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Doğu sınırındaki huzur, ticaret yollarının yeniden canlanmasını sağladı."
+      }
+    ]
+  },
+  {
+    "id": "murad4_010_kulturel_canlanma",
+    "donem": "duraklama",
+    "alt_donem": "dorduncu_murad",
+    "tarih_yil_min": 1630,
+    "tarih_yil_max": 1640,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": false,
+    "gerekli_bayrak": null,
+    "metin": "Sert yönetimine rağmen, IV. Murad döneminde şairler ve müzisyenler sarayın himayesinde yetişiyor. Ünlü gezgin Evliya Çelebi de bu dönemde seyahatlerine başlayıp gördüklerini yazmaya başlıyor.",
+    "secenekler": [
+      {
+        "metin": "Bu kültürel canlanmadan faydalanmaya çalış",
+        "etki": { "zeka": 3, "mutluluk": 2 },
+        "sonuc": "Sert yasakların gölgesinde bile, sanat ve edebiyat kendine yaşam alanı buluyordu."
+      },
+      {
+        "metin": "Kendi işine devam et",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Sarayın himaye ettiği sanatçıların eserleri, yıllar sonra bile okunacak/dinlenecekti."
+      }
+    ]
+  },
+  {
+    "id": "murad4_011_ibrahim_koruma",
+    "donem": "duraklama",
+    "alt_donem": "dorduncu_murad",
+    "tarih_yil_min": 1639,
+    "tarih_yil_max": 1640,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "Kendi sağlığı iyice bozulan IV. Murad, geriye tek erkek kardeşi kalan Şehzade İbrahim'i de öldürtmek istedi — hanedanın sonu gelmesin diye. Ama annesi Kösem Sultan bu kez araya girip oğlunu bu karardan vazgeçirdi.",
+    "secenekler": [
+      {
+        "metin": "Kösem Sultan'ın bu müdahalesini doğru bul",
+        "etki": { "mutluluk": 3, "zeka": 1 },
+        "sonuc": "Eğer İbrahim de öldürülseydi, Osmanlı hanedanı tamamen sona erebilirdi — Kösem'in kararlılığı belki de hanedanı kurtardı."
+      },
+      {
+        "metin": "Bu son anki kararın devlet için riskli olabileceğini düşün",
+        "etki": { "zeka": 2 },
+        "sonuc": "İbrahim'in akli durumu hakkında da endişe verici söylentiler dolaşıyordu."
+      }
+    ]
+  },
+  {
+    "id": "murad4_012_murad_vefati_siroz",
+    "donem": "duraklama",
+    "alt_donem": "dorduncu_murad",
+    "tarih_yil_min": 1640,
+    "tarih_yil_max": 1640,
+    "yas_min": 5,
+    "yas_max": 70,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "8 Şubat 1640'ta IV. Murad, henüz 27 yaşındayken vefat etti — ölüm sebebi olarak siroz gösteriliyor, aşırı içki tüketiminin sonucu olduğu rivayet ediliyor. Tütün ve içkiyi ölümle cezalandıran padişah, ironik bir şekilde bu alışkanlığının kurbanı olmuştu.",
+    "secenekler": [
+      {
+        "metin": "Bu ironik sonu düşünüp devletin bıraktığı mirası değerlendir",
+        "etki": { "zeka": 2, "mutluluk": -2 },
+        "sonuc": "17 yıllık sert ama etkili bir saltanattı — Bağdat'ın fethi, Kasr-ı Şirin'in kalıcı barışı geride kalacaktı. Ama yerine geçen İbrahim'in nasıl bir dönem açacağı büyük bir endişe konusuydu."
+      },
+      {
+        "metin": "Yeni sultanın döneminden endişelen",
+        "etki": { "mutluluk": -3 },
+        "sonuc": "IV. Murad'ın demir yumruğu olmadan, kazanılan istikrarın ne kadar süreceği büyük bir soru işaretiydi."
+      }
+    ]
   }
 ]
