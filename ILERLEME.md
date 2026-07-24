@@ -39,7 +39,7 @@
   - **💍 Evlilik & Aile Kurma (18 Olay)**: Görücü usulü, çeşme başı tanışma, lonca ustası izdivacı, 2. nikah teklifleri, düğün masrafları. (`"oncelikli": true` ile 8x ağırlıklandırma).
   - **👶 Çocuk Sahibi Olma & Nesil (14 Olay)**: İlk çocuk müjdesi, 2-3. çocuk gelişimi, Sıbyan mektebi Amin Alayı, sünnet cemiyeti, kız çeyizi. (`"oncelikli": true` ile 8x ağırlıklandırma).
   - **💔 Boşanma, Eşin Vefatı & Krizler (12 Olay)**: Şer'iyye mahkemesi boşanmaları, eş vefatı/yas, miras taksimi.
-  - **⚒️ Meslek Zincirlerine Giriş (20 Olay)**: `ahilik`, `ilmiye`, `seyfiye` ve `kalemiye` varsayılan giriş olayları ve vasıfsız işçilikten kendi dükkanını açma. (`"oncelikli": true` ile 8x ağırlıklandırma).
+  - **⚒️ Meslek Zincirlerine Giriş (20 Olay)**: `ahilik`, `ilmiye`, `seyfiye` ve `kalemiye` varsayılan giriş olayları ve vasıfsız işçilikten kendi dükkanını açma. (`"oncelikli": true` ile 8x ağırlıklandırma ve `"engel_bayrak": "calisaniyor"` ile mesleği olanların istemsizce sıfırdan meslek değiştirmesi engellendi).
   - **🏥 Hastalık & Sağlık (14 Olay)**: Kış soğuğu, veba/kolera/humma salgınları, Darüşşifa ve aktar macunları.
   - **🏘️ Mahalle & Çarşı Sosyal Hayatı (14 Olay)**: Mahalle yangını imecesi, Ramazan zimmet defteri kapatma, meddah/Karagöz sohbetleri, narh.
   - **👴 Yaşlılık & Emeklilik (8 Olay)**: Torun masalları, cami avlusu sohbetleri, hayrat çeşmesi.

@@ -12,13 +12,20 @@
     "secenekler": [
       {
         "metin": "Aile büyüklerinin rızasına uy ve teklifi kabul et",
-        "etki": { "mutluluk": 5, "itibar": 3, "para": -3 },
+        "etki": {
+          "mutluluk": 5,
+          "itibar": 3,
+          "para": -3
+        },
         "bayrak_ekle": "evli",
         "sonuc": "Davul zurna eşliğinde, mahalle eşrafının katıldığı mütevazı bir düğünle evlendin. Artık evli bir insansın."
       },
       {
         "metin": "Henüz evliliğe hazır olmadığını söyleyerek reddet",
-        "etki": { "mutluluk": -2, "itibar": -1 },
+        "etki": {
+          "mutluluk": -2,
+          "itibar": -1
+        },
         "sonuc": "Aile büyükleri biraz kırıldı ama kararını saygıyla karşıladılar. Bekar kalmaya devam ediyorsun."
       }
     ]
@@ -36,13 +43,20 @@
     "secenekler": [
       {
         "metin": "Gönlünün meylettiği bu izdivacı kabul et",
-        "etki": { "mutluluk": 8, "itibar": 2, "para": -2 },
+        "etki": {
+          "mutluluk": 8,
+          "itibar": 2,
+          "para": -2
+        },
         "bayrak_ekle": "evli",
         "sonuc": "Dualar ve şerbet ikramları eşliğinde nikahınız kıyıldı. Sevdiğin kişiyle bir yuvaya kavuştun."
       },
       {
         "metin": "Karar vermek için zamana ihtiyacın olduğunu belirt",
-        "etki": { "zeka": 1, "mutluluk": -2 },
+        "etki": {
+          "zeka": 1,
+          "mutluluk": -2
+        },
         "sonuc": "Fırsat şimdilik kaçtı ama aklın onda kaldı."
       }
     ]
@@ -60,13 +74,20 @@
     "secenekler": [
       {
         "metin": "Bu itibar dolu evlilik teklifini sevinçle karşıla",
-        "etki": { "itibar": 6, "para": 4, "mutluluk": 5 },
+        "etki": {
+          "itibar": 6,
+          "para": 4,
+          "mutluluk": 5
+        },
         "bayrak_ekle": "evli",
         "sonuc": "Loncanın da desteğiyle görkemli bir nikah yapıldı. Hem evlendin hem de esnaf içinde saygınlığın arttı."
       },
       {
         "metin": "Kendi yolunu çizmek istediğini söyleyerek nazikçe reddet",
-        "etki": { "itibar": -2, "zeka": 2 },
+        "etki": {
+          "itibar": -2,
+          "zeka": 2
+        },
         "sonuc": "Usta kararına saygı duydu ama bir daha bu konuyu açmadı."
       }
     ]
@@ -84,13 +105,19 @@
     "secenekler": [
       {
         "metin": "Akrabaların tavsiyesine güvenip nikaha rıza göster",
-        "etki": { "mutluluk": 6, "itibar": 2, "para": -2 },
+        "etki": {
+          "mutluluk": 6,
+          "itibar": 2,
+          "para": -2
+        },
         "bayrak_ekle": "evli",
         "sonuc": "Kısa sürede hazırlıklar tamamlandı ve nikahınız kıyıldı. Sıcak bir yuva kurdun."
       },
       {
         "metin": "Acele etmemeyi tercih et",
-        "etki": { "mutluluk": -1 },
+        "etki": {
+          "mutluluk": -1
+        },
         "sonuc": "Akrabalar biraz sitem etti ama ısrar etmediler."
       }
     ]
@@ -108,13 +135,20 @@
     "secenekler": [
       {
         "metin": "Mahalle büyüklerinin sözünü dinle ve evlen",
-        "etki": { "mutluluk": 5, "itibar": 4, "para": -3 },
+        "etki": {
+          "mutluluk": 5,
+          "itibar": 4,
+          "para": -3
+        },
         "bayrak_ekle": "evli",
         "sonuc": "Mahalle halkının dualarıyla nikahınız kıyıldı. Evli bir mahalle sakini oldun."
       },
       {
         "metin": "Kendi bütçeni toparlayana kadar beklemek istediğini söyle",
-        "etki": { "para": 2, "mutluluk": -2 },
+        "etki": {
+          "para": 2,
+          "mutluluk": -2
+        },
         "sonuc": "Bütçeni düşünerek teklifi erteledin."
       }
     ]
@@ -132,15 +166,25 @@
     "secenekler": [
       {
         "metin": "Yeniden bir yuva kurmayı kabul et",
-        "etki": { "mutluluk": 7, "itibar": 3, "para": -2 },
+        "etki": {
+          "mutluluk": 7,
+          "itibar": 3,
+          "para": -2
+        },
         "bayrak_ekle": "evli",
-        "bayraklar_ekle": ["evli", "ikinci_evlilik"],
+        "bayraklar_ekle": [
+          "evli",
+          "ikinci_evlilik"
+        ],
         "bayrak_kaldir": "dul_bosanmis",
         "sonuc": "Sade bir nikahla yeniden evlendin. Yalnızlık geride kaldı, yuvana huzur geldi."
       },
       {
         "metin": "Yalnız yaşamaya devam etmek istediğini söyle",
-        "etki": { "mutluluk": -2, "zeka": 1 },
+        "etki": {
+          "mutluluk": -2,
+          "zeka": 1
+        },
         "sonuc": "Yalnız hayatına devam etme kararı aldın."
       }
     ]
@@ -158,14 +202,19 @@
     "secenekler": [
       {
         "metin": "Bu ikinci nikah teklifini kabul et",
-        "etki": { "mutluluk": 6, "itibar": 3 },
+        "etki": {
+          "mutluluk": 6,
+          "itibar": 3
+        },
         "bayrak_ekle": "evli",
         "bayrak_kaldir": "dul_bosanmis",
         "sonuc": "Yeniden bir yuvaya sahip oldun. Evliliğin getirdiği bereketi hissettin."
       },
       {
         "metin": "Şimdilik hazır hissetmediğini söyle",
-        "etki": { "mutluluk": -1 },
+        "etki": {
+          "mutluluk": -1
+        },
         "sonuc": "Teklifi nazikçe geri çevirdin."
       }
     ]
@@ -183,14 +232,19 @@
     "secenekler": [
       {
         "metin": "Görüşmeyi olumlu değerlendirip nikah kıy",
-        "etki": { "mutluluk": 6, "itibar": 2 },
+        "etki": {
+          "mutluluk": 6,
+          "itibar": 2
+        },
         "bayrak_ekle": "evli",
         "bayrak_kaldir": "dul_bosanmis",
         "sonuc": "Yeniden evlendin, evinin kapısı yine neşeyle açılmaya başladı."
       },
       {
         "metin": "Yalnız kalmayı yeğle",
-        "etki": { "mutluluk": -2 },
+        "etki": {
+          "mutluluk": -2
+        },
         "sonuc": "Yalnızlığına sadık kaldın."
       }
     ]
@@ -208,14 +262,20 @@
     "secenekler": [
       {
         "metin": "Hayatın bu döneminde yoldaş edin",
-        "etki": { "mutluluk": 7, "itibar": 2, "saglik": 2 },
+        "etki": {
+          "mutluluk": 7,
+          "itibar": 2,
+          "saglik": 2
+        },
         "bayrak_ekle": "evli",
         "bayrak_kaldir": "dul_bosanmis",
         "sonuc": "Karşılıklı saygı ve huzur dolu bir ikinci evlilik gerçekleştirdin."
       },
       {
         "metin": "İstemediğini belirterek reddet",
-        "etki": { "mutluluk": -1 },
+        "etki": {
+          "mutluluk": -1
+        },
         "sonuc": "Teklifi geri çevirdin."
       }
     ]
@@ -232,12 +292,19 @@
     "secenekler": [
       {
         "metin": "Cömert davranıp kaliteli eşyalar al",
-        "etki": { "para": -5, "mutluluk": 4, "itibar": 3 },
+        "etki": {
+          "para": -5,
+          "mutluluk": 4,
+          "itibar": 3
+        },
         "sonuc": "Evin pırıl pırıl oldu, eşin ve dünürlerin bu cömertliği takdir etti."
       },
       {
         "metin": "Tasarruflu davranıp masrafları kıs",
-        "etki": { "para": 2, "mutluluk": -2 },
+        "etki": {
+          "para": 2,
+          "mutluluk": -2
+        },
         "sonuc": "Paranı korudun ama evde ufak bir sitem duyuldu."
       }
     ]
@@ -254,12 +321,19 @@
     "secenekler": [
       {
         "metin": "Mehir hakkını eksiksiz teslim et",
-        "etki": { "para": -4, "itibar": 4, "mutluluk": 4 },
+        "etki": {
+          "para": -4,
+          "itibar": 4,
+          "mutluluk": 4
+        },
         "sonuc": "Eşinin dini hakkını teslim ettin, ailevi bağlarınız güçlendi."
       },
       {
         "metin": "Eşinden biraz süre iste",
-        "etki": { "mutluluk": -2, "zeka": 1 },
+        "etki": {
+          "mutluluk": -2,
+          "zeka": 1
+        },
         "sonuc": "Eşin anlayış gösterdi ama borcunu aklında tuttu."
       }
     ]
@@ -276,12 +350,18 @@
     "secenekler": [
       {
         "metin": "Eşine küçük bir hediye alıp sevgini göster",
-        "etki": { "para": -2, "mutluluk": 5 },
+        "etki": {
+          "para": -2,
+          "mutluluk": 5
+        },
         "sonuc": "Evdeki neşe ve muhabbet katlanarak arttı."
       },
       {
         "metin": "Günün yorgunluğuyla dinlenmeyi tercih et",
-        "etki": { "saglik": 1, "mutluluk": 1 },
+        "etki": {
+          "saglik": 1,
+          "mutluluk": 1
+        },
         "sonuc": "Sessiz ama huzurlu bir akşam geçirdiniz."
       }
     ]
@@ -298,12 +378,19 @@
     "secenekler": [
       {
         "metin": "Zengin sofralar kurup en iyi şekilde ağırla",
-        "etki": { "para": -3, "itibar": 4, "mutluluk": 3 },
+        "etki": {
+          "para": -3,
+          "itibar": 4,
+          "mutluluk": 3
+        },
         "sonuc": "Dünürlerin memnun ayrıldı, akrabalık bağları güçlendi."
       },
       {
         "metin": "Mütevazı bir çay/kahve sohbetiyle yetin",
-        "etki": { "para": -1, "mutluluk": 1 },
+        "etki": {
+          "para": -1,
+          "mutluluk": 1
+        },
         "sonuc": "Sıcak bir aile sohbeti yapıldı."
       }
     ]
@@ -320,12 +407,17 @@
     "secenekler": [
       {
         "metin": "Gümüş gerdanlık / kumaş alıp hediye et",
-        "etki": { "para": -4, "mutluluk": 6 },
+        "etki": {
+          "para": -4,
+          "mutluluk": 6
+        },
         "sonuc": "Eşin bu incelik karşısında çok mutlu oldu."
       },
       {
         "metin": "Sadece tatlı bir söz ve dua ile kutla",
-        "etki": { "mutluluk": 2 },
+        "etki": {
+          "mutluluk": 2
+        },
         "sonuc": "Samimi bir tebessümle gün geçirildi."
       }
     ]
@@ -342,12 +434,18 @@
     "secenekler": [
       {
         "metin": "Hürmet gösterip tavsiyelerini dinle",
-        "etki": { "itibar": 3, "mutluluk": 2 },
+        "etki": {
+          "itibar": 3,
+          "mutluluk": 2
+        },
         "sonuc": "Büyüklere gösterdiğin saygı takdir topladı."
       },
       {
         "metin": "Kendi evinizin düzenini savunan bir dille cevap ver",
-        "etki": { "mutluluk": -2, "zeka": 1 },
+        "etki": {
+          "mutluluk": -2,
+          "zeka": 1
+        },
         "sonuc": "Ufak bir soğukluk yaşandı ama tatlıya bağlandı."
       }
     ]
@@ -364,12 +462,18 @@
     "secenekler": [
       {
         "metin": "Bütçeyi genişletip mutfağa bolluk getir",
-        "etki": { "para": -3, "mutluluk": 3 },
+        "etki": {
+          "para": -3,
+          "mutluluk": 3
+        },
         "sonuc": "Evde bereket hissi arttı."
       },
       {
         "metin": "Tasarruf tedbirleri uygulayalım de",
-        "etki": { "para": 2, "mutluluk": -1 },
+        "etki": {
+          "para": 2,
+          "mutluluk": -1
+        },
         "sonuc": "Akçeleri korudun."
       }
     ]
@@ -386,12 +490,18 @@
     "secenekler": [
       {
         "metin": "Şükredip mahalleye helva dağıt",
-        "etki": { "para": -2, "itibar": 3, "mutluluk": 4 },
+        "etki": {
+          "para": -2,
+          "itibar": 3,
+          "mutluluk": 4
+        },
         "sonuc": "Komşularının hayır duasını aldın."
       },
       {
         "metin": "Huzurlu hayatına mütevazıca devam et",
-        "etki": { "mutluluk": 2 },
+        "etki": {
+          "mutluluk": 2
+        },
         "sonuc": "Sessiz ve mutlu bir yaşam sürüyorsun."
       }
     ]
@@ -409,18 +519,23 @@
     "secenekler": [
       {
         "metin": "Niyeti ciddileştirip nikah kıyılmasını iste",
-        "etki": { "mutluluk": 7, "itibar": 2, "para": -3 },
+        "etki": {
+          "mutluluk": 7,
+          "itibar": 2,
+          "para": -3
+        },
         "bayrak_ekle": "evli",
         "sonuc": "Hayırlı bir izdivaçla yuva kurdun."
       },
       {
         "metin": "Henüz hazır olmadığını bildir",
-        "etki": { "mutluluk": -1 },
+        "etki": {
+          "mutluluk": -1
+        },
         "sonuc": "Fırsatı kaçırdın."
       }
     ]
   },
-
   {
     "id": "gundelik_019_ilk_cocuk_mujdesi",
     "donem": "gundelik",
@@ -435,13 +550,19 @@
     "secenekler": [
       {
         "metin": "Şükür kurbanı kesip ebe ve komşulara ikram et",
-        "etki": { "para": -3, "mutluluk": 9, "itibar": 3 },
+        "etki": {
+          "para": -3,
+          "mutluluk": 9,
+          "itibar": 3
+        },
         "bayrak_ekle": "cocuklu",
         "sonuc": "İlk evladın dünyaya sağlıklı bir şekilde gözlerini açtı! Baba/Anne oldun, kucağın neşeyle doldu."
       },
       {
         "metin": "Dualarla mütevazı bir şekilde doğumu bekle",
-        "etki": { "mutluluk": 7 },
+        "etki": {
+          "mutluluk": 7
+        },
         "bayrak_ekle": "cocuklu",
         "sonuc": "Sağlıklı bir evlat sahibi oldun. Ailen genişledi."
       }
@@ -455,17 +576,26 @@
     "yas_max": 40,
     "tek_seferlik": false,
     "oncelikli": true,
-    "gerekli_bayraklar": ["evli", "cocuklu"],
+    "gerekli_bayraklar": [
+      "evli",
+      "cocuklu"
+    ],
     "metin": "Yuvana ikinci bir evlat müjdesi geldi — beşik yeniden sallanıyor, abisi/ablası kardeş heyecanı yaşıyor.",
     "secenekler": [
       {
         "metin": "İkinci evladın için ziyafet ver",
-        "etki": { "para": -3, "mutluluk": 7, "itibar": 2 },
+        "etki": {
+          "para": -3,
+          "mutluluk": 7,
+          "itibar": 2
+        },
         "sonuc": "İkinci evladın da neşeyle kucağına geldi. Evin bereketi arttı."
       },
       {
         "metin": "Şükredip aile arasında kutla",
-        "etki": { "mutluluk": 5 },
+        "etki": {
+          "mutluluk": 5
+        },
         "sonuc": "Ailen bir fert daha kazandı."
       }
     ]
@@ -477,17 +607,26 @@
     "yas_min": 25,
     "yas_max": 45,
     "tek_seferlik": false,
-    "gerekli_bayraklar": ["evli", "cocuklu"],
+    "gerekli_bayraklar": [
+      "evli",
+      "cocuklu"
+    ],
     "metin": "Eviniz cıvıl cıvıl çocuk sesleriyle doldu — bir evladınız daha dünyaya gelerek aileyi daha da kenetledi.",
     "secenekler": [
       {
         "metin": "Genişleyen ailen için şükret",
-        "etki": { "mutluluk": 6, "para": -2 },
+        "etki": {
+          "mutluluk": 6,
+          "para": -2
+        },
         "sonuc": "Kalabalık ve neşeli bir Osmanlı ailesi oldunuz."
       },
       {
         "metin": "Masrafları düşünüp daha sıkı çalış",
-        "etki": { "zeka": 2, "mutluluk": 3 },
+        "etki": {
+          "zeka": 2,
+          "mutluluk": 3
+        },
         "sonuc": "Evlatlarının rızkı için gayretini artırdın."
       }
     ]
@@ -504,12 +643,19 @@
     "secenekler": [
       {
         "metin": "Görkemli bir Amin Alayı ile mektebe kaydet",
-        "etki": { "para": -3, "itibar": 4, "mutluluk": 5 },
+        "etki": {
+          "para": -3,
+          "itibar": 4,
+          "mutluluk": 5
+        },
         "sonuc": "Çocuğun dualarla mektebe başladı. İlim yolundaki ilk adımı gururla izledin."
       },
       {
         "metin": "Sade bir şekilde hocaya teslim et",
-        "etki": { "para": -1, "mutluluk": 3 },
+        "etki": {
+          "para": -1,
+          "mutluluk": 3
+        },
         "sonuc": "Çocuğun mektebe başladı."
       }
     ]
@@ -526,12 +672,19 @@
     "secenekler": [
       {
         "metin": "Mahalleden yetim çocukları da giydirip cemiyet yap",
-        "etki": { "para": -4, "itibar": 5, "mutluluk": 6 },
+        "etki": {
+          "para": -4,
+          "itibar": 5,
+          "mutluluk": 6
+        },
         "sonuc": "Dualar ve hayırlarla büyük bir sünnet düğünü gerçekleştirdin."
       },
       {
         "metin": "Mütevazı bir aile içi sünnet yaptır",
-        "etki": { "para": -2, "mutluluk": 3 },
+        "etki": {
+          "para": -2,
+          "mutluluk": 3
+        },
         "sonuc": "Sünnet merasimi kazasız belasız tamamlandı."
       }
     ]
@@ -548,12 +701,19 @@
     "secenekler": [
       {
         "metin": "En tecrübeli hekimi çağırıp ilaçları al",
-        "etki": { "para": -3, "mutluluk": 4, "saglik": 1 },
+        "etki": {
+          "para": -3,
+          "mutluluk": 4,
+          "saglik": 1
+        },
         "sonuc": "Hekimin kürü sayesinde çocuğun iyileşip gülümsedi. Derin bir nefes aldın."
       },
       {
         "metin": "Evdeki kocakarı ilaçları ve dualarla bekle",
-        "etki": { "mutluluk": 1, "saglik": -1 },
+        "etki": {
+          "mutluluk": 1,
+          "saglik": -1
+        },
         "sonuc": "Çocuğun yavaş yavaş toparlandı."
       }
     ]
@@ -570,12 +730,19 @@
     "secenekler": [
       {
         "metin": "Saygın bir usta ustanın yanına çırak ver",
-        "etki": { "itibar": 3, "mutluluk": 4, "para": 1 },
+        "etki": {
+          "itibar": 3,
+          "mutluluk": 4,
+          "para": 1
+        },
         "sonuc": "Evladın usta yanında meslek öğrenmeye başladı, geleceği emniyete alındı."
       },
       {
         "metin": "Okuyup katip veya molla olmasını teşvik et",
-        "etki": { "zeka": 2, "mutluluk": 3 },
+        "etki": {
+          "zeka": 2,
+          "mutluluk": 3
+        },
         "sonuc": "Evladın ilim ve yazı yolunu seçti."
       }
     ]
@@ -592,12 +759,19 @@
     "secenekler": [
       {
         "metin": "Tüm birikiminle evladına şanlı bir düğün yap",
-        "etki": { "para": -6, "itibar": 5, "mutluluk": 8 },
+        "etki": {
+          "para": -6,
+          "itibar": 5,
+          "mutluluk": 8
+        },
         "sonuc": "Evladının mürüvvetini gördün! Gözlerinden sevinç gözyaşları döküldü."
       },
       {
         "metin": "Mütevazı bir evlilikle onları yuva sahibi yap",
-        "etki": { "para": -3, "mutluluk": 5 },
+        "etki": {
+          "para": -3,
+          "mutluluk": 5
+        },
         "sonuc": "Evladın kendi yuvasını kurdu."
       }
     ]
@@ -614,12 +788,19 @@
     "secenekler": [
       {
         "metin": "Eksiksiz ve kaliteli bir çeyiz düz",
-        "etki": { "para": -4, "itibar": 3, "mutluluk": 5 },
+        "etki": {
+          "para": -4,
+          "itibar": 3,
+          "mutluluk": 5
+        },
         "sonuc": "Çeyiz sandığı gururla dolduruldu."
       },
       {
         "metin": "Eldeki imkanlarla sade bir çeyiz hazırla",
-        "etki": { "para": -2, "mutluluk": 2 },
+        "etki": {
+          "para": -2,
+          "mutluluk": 2
+        },
         "sonuc": "Mütevazı çeyiz tamamlandı."
       }
     ]
@@ -636,12 +817,18 @@
     "secenekler": [
       {
         "metin": "Cebine harçlık koyup dualarla kucakla",
-        "etki": { "para": -2, "mutluluk": 3, "itibar": 3 },
+        "etki": {
+          "para": -2,
+          "mutluluk": 3,
+          "itibar": 3
+        },
         "sonuc": "Oğlunu gururla uğurladın."
       },
       {
         "metin": "Gözyaşları içinde Allah'a emanet et",
-        "etki": { "mutluluk": 1 },
+        "etki": {
+          "mutluluk": 1
+        },
         "sonuc": "Oğlun vatan hizmetine gitti."
       }
     ]
@@ -658,12 +845,18 @@
     "secenekler": [
       {
         "metin": "Tatlı dille ve adaletle aralarını bul",
-        "etki": { "zeka": 2, "mutluluk": 3 },
+        "etki": {
+          "zeka": 2,
+          "mutluluk": 3
+        },
         "sonuc": "Kardeşler sarılıp barıştı, evde huzur yeniden sağlandı."
       },
       {
         "metin": "Sert bir edayla ikisini de uyar",
-        "etki": { "mutluluk": -1, "zeka": 1 },
+        "etki": {
+          "mutluluk": -1,
+          "zeka": 1
+        },
         "sonuc": "Kavga bitti ama sessizlik hakim oldu."
       }
     ]
@@ -680,12 +873,18 @@
     "secenekler": [
       {
         "metin": "Evladına hediye alıp gururlan",
-        "etki": { "para": -2, "mutluluk": 6, "itibar": 3 },
+        "etki": {
+          "para": -2,
+          "mutluluk": 6,
+          "itibar": 3
+        },
         "sonuc": "Evladının başarısı göğsünü kabarttı."
       },
       {
         "metin": "Nazar değmesin diye sessizce şükret",
-        "etki": { "mutluluk": 4 },
+        "etki": {
+          "mutluluk": 4
+        },
         "sonuc": "Huzurla şükrettin."
       }
     ]
@@ -704,13 +903,19 @@
     "secenekler": [
       {
         "metin": "Sedef kakmalı güzel bir beşik marangoza ısmarla",
-        "etki": { "para": -3, "mutluluk": 6 },
+        "etki": {
+          "para": -3,
+          "mutluluk": 6
+        },
         "bayrak_ekle": "cocuklu",
         "sonuc": "Beşik eve geldi ve kısa süre sonra sağlıklı bir evladın oldu!"
       },
       {
         "metin": "Aileden kalma eski beşiği yenileyip kullan",
-        "etki": { "para": -1, "mutluluk": 4 },
+        "etki": {
+          "para": -1,
+          "mutluluk": 4
+        },
         "bayrak_ekle": "cocuklu",
         "sonuc": "Bebek dünyaya geldi ve beşiğine yatırıldı."
       }
@@ -728,19 +933,24 @@
     "secenekler": [
       {
         "metin": "Çifte şükür kurbanı kes",
-        "etki": { "para": -4, "mutluluk": 9, "itibar": 4 },
+        "etki": {
+          "para": -4,
+          "mutluluk": 9,
+          "itibar": 4
+        },
         "bayrak_ekle": "cocuklu",
         "sonuc": "İki evlat birden kucağına geldi. Eviniz şenlendi!"
       },
       {
         "metin": "Büyük sevinçle dualar et",
-        "etki": { "mutluluk": 8 },
+        "etki": {
+          "mutluluk": 8
+        },
         "bayrak_ekle": "cocuklu",
         "sonuc": "İkiz evlatlarınla aile nizamanız berekete kavuştu."
       }
     ]
   },
-
   {
     "id": "gundelik_033_seriyye_mahkemesi_bosanma_1",
     "donem": "gundelik",
@@ -753,14 +963,21 @@
     "secenekler": [
       {
         "metin": "Anlaşarak boşanmayı kabul et ve hakları öde",
-        "etki": { "mutluluk": -4, "para": -3, "itibar": -1 },
+        "etki": {
+          "mutluluk": -4,
+          "para": -3,
+          "itibar": -1
+        },
         "bayrak_kaldir": "evli",
         "bayrak_ekle": "dul_bosanmis",
         "sonuc": "Kadı Efendi huzurunda nikah feshedildi. Yollarınız ayrıldı, artık bekarsın."
       },
       {
         "metin": "Son bir şans verip mahalle büyüklerini araya sok",
-        "etki": { "mutluluk": 2, "zeka": 1 },
+        "etki": {
+          "mutluluk": 2,
+          "zeka": 1
+        },
         "sonuc": "Araya girenler sayesinde barıştınız, evliliğe devam kararı aldınız."
       }
     ]
@@ -777,14 +994,20 @@
     "secenekler": [
       {
         "metin": "Karşılıklı rızayla boşanma kararı al",
-        "etki": { "mutluluk": -3, "para": -2 },
+        "etki": {
+          "mutluluk": -3,
+          "para": -2
+        },
         "bayrak_kaldir": "evli",
         "bayrak_ekle": "dul_bosanmis",
         "sonuc": "Nikah sonlandı. İki taraf da kendi yoluna gitti."
       },
       {
         "metin": "Huzursuzluğa katlanıp evliliği sürdür",
-        "etki": { "mutluluk": -3, "saglik": -1 },
+        "etki": {
+          "mutluluk": -3,
+          "saglik": -1
+        },
         "sonuc": "Evlilik devam ediyor ama soğukluk sürüyor."
       }
     ]
@@ -801,14 +1024,19 @@
     "secenekler": [
       {
         "metin": "Derin bir yas tutup dualarla uğurla",
-        "etki": { "mutluluk": -9, "saglik": -2 },
+        "etki": {
+          "mutluluk": -9,
+          "saglik": -2
+        },
         "bayrak_kaldir": "evli",
         "bayrak_ekle": "dul_bosanmis",
         "sonuc": "Hayat arkadaşını kaybettin. Evin sessizliğe büründü, yalnız kaldın."
       },
       {
         "metin": "Evlatların ve dostların tesellisine sığın",
-        "etki": { "mutluluk": -7 },
+        "etki": {
+          "mutluluk": -7
+        },
         "bayrak_kaldir": "evli",
         "bayrak_ekle": "dul_bosanmis",
         "sonuc": "Acını bağrına basıp hayata tutunmaya çalıştın."
@@ -827,14 +1055,19 @@
     "secenekler": [
       {
         "metin": "Helallik verip cenaze namazını kıldır",
-        "etki": { "mutluluk": -8, "itibar": 2 },
+        "etki": {
+          "mutluluk": -8,
+          "itibar": 2
+        },
         "bayrak_kaldir": "evli",
         "bayrak_ekle": "dul_bosanmis",
         "sonuc": "Yıllık yoldaşını toprağa verdin. Yalnız bir yaşlılık dönemi başladı."
       },
       {
         "metin": "Şükür ve sabırla dua et",
-        "etki": { "mutluluk": -6 },
+        "etki": {
+          "mutluluk": -6
+        },
         "bayrak_kaldir": "evli",
         "bayrak_ekle": "dul_bosanmis",
         "sonuc": "Eşine dualar gönderdin."
@@ -853,12 +1086,19 @@
     "secenekler": [
       {
         "metin": "El emeği ve gayretle rızkını kazan",
-        "etki": { "para": 3, "itibar": 2, "mutluluk": 2 },
+        "etki": {
+          "para": 3,
+          "itibar": 2,
+          "mutluluk": 2
+        },
         "sonuc": "Kimseye muhtaç olmadan hayatını sürdürüyorsun."
       },
       {
         "metin": "Akrabaların desteğini kabul et",
-        "etki": { "para": 2, "mutluluk": 1 },
+        "etki": {
+          "para": 2,
+          "mutluluk": 1
+        },
         "sonuc": "Ailenin yardımıyla geçimini sağladın."
       }
     ]
@@ -874,12 +1114,20 @@
     "secenekler": [
       {
         "metin": "Kadı mahkemesine başvurup şer'i hisseni iste",
-        "etki": { "para": 5, "mutluluk": -2, "itibar": -1 },
+        "etki": {
+          "para": 5,
+          "mutluluk": -2,
+          "itibar": -1
+        },
         "sonuc": "Kadı kararıyla hakkın olan parayı/toprağı aldın ama akrabalarla aran açıldı."
       },
       {
         "metin": "Hakkından feragat edip huzuru seç",
-        "etki": { "itibar": 4, "mutluluk": 3, "para": -2 },
+        "etki": {
+          "itibar": 4,
+          "mutluluk": 3,
+          "para": -2
+        },
         "sonuc": "Akrabalar parayı paylaştı, sen gönül huzurunu kazandın."
       }
     ]
@@ -895,12 +1143,18 @@
     "secenekler": [
       {
         "metin": "Şer'i taksimata razı ol",
-        "etki": { "para": 4, "zeka": 1 },
+        "etki": {
+          "para": 4,
+          "zeka": 1
+        },
         "sonuc": "Adil bir şekilde miras payın akçeye dönüştü."
       },
       {
         "metin": "Mülkü satmayıp kiraya verelim de",
-        "etki": { "para": 2, "itibar": 2 },
+        "etki": {
+          "para": 2,
+          "itibar": 2
+        },
         "sonuc": "Düzenli kira geliri elde etmeye başladın."
       }
     ]
@@ -917,12 +1171,17 @@
     "secenekler": [
       {
         "metin": "Alttan alıp eşinden özür dile ve helallik iste",
-        "etki": { "mutluluk": 4, "zeka": 2 },
+        "etki": {
+          "mutluluk": 4,
+          "zeka": 2
+        },
         "sonuc": "Olgunluğun sayesinde tartışma tatlıya bağlandı."
       },
       {
         "metin": "İnat edip odayı terk et",
-        "etki": { "mutluluk": -3 },
+        "etki": {
+          "mutluluk": -3
+        },
         "sonuc": "Birkaç gün evde soğuk rüzgarlar esti."
       }
     ]
@@ -939,12 +1198,18 @@
     "secenekler": [
       {
         "metin": "Ödemeyi/tahsili tam yap",
-        "etki": { "para": 2, "zeka": 1 },
+        "etki": {
+          "para": 2,
+          "zeka": 1
+        },
         "sonuc": "Hukuki süreç tamamen kapandı."
       },
       {
         "metin": "Hakkını helal et gitsin de",
-        "etki": { "itibar": 3, "mutluluk": 2 },
+        "etki": {
+          "itibar": 3,
+          "mutluluk": 2
+        },
         "sonuc": "Cömertliğin takdir edildi."
       }
     ]
@@ -960,12 +1225,18 @@
     "secenekler": [
       {
         "metin": "Makul bir senetle yardım et",
-        "etki": { "para": -3, "itibar": 3 },
+        "etki": {
+          "para": -3,
+          "itibar": 3
+        },
         "sonuc": "Akrabaların minnettar kaldı."
       },
       {
         "metin": "Kendi bütçeni korumak için reddet",
-        "etki": { "para": 1, "mutluluk": -1 },
+        "etki": {
+          "para": 1,
+          "mutluluk": -1
+        },
         "sonuc": "Paranı korudun."
       }
     ]
@@ -981,12 +1252,18 @@
     "secenekler": [
       {
         "metin": "Kadı kâtibine şer'i vasiyet yazdır",
-        "etki": { "zeka": 3, "itibar": 4, "mutluluk": 3 },
+        "etki": {
+          "zeka": 3,
+          "itibar": 4,
+          "mutluluk": 3
+        },
         "sonuc": "Adil bir vasiyetname hazırlatıp mühürlettin."
       },
       {
         "metin": "Evlatları toplayıp sözlü vasiyet et",
-        "etki": { "mutluluk": 2 },
+        "etki": {
+          "mutluluk": 2
+        },
         "sonuc": "Evlatlarına nasihatlerini bildirdin."
       }
     ]
@@ -1003,17 +1280,22 @@
     "secenekler": [
       {
         "metin": "Cuma namazı çıkışı lokma/helva dağıt",
-        "etki": { "para": -2, "itibar": 3, "mutluluk": 4 },
+        "etki": {
+          "para": -2,
+          "itibar": 3,
+          "mutluluk": 4
+        },
         "sonuc": "Komşular merhuma/merhumeye dualar okudu."
       },
       {
         "metin": "Evde kuran okutup dua et",
-        "etki": { "mutluluk": 2 },
+        "etki": {
+          "mutluluk": 2
+        },
         "sonuc": "Sessizce yad ettin."
       }
     ]
   },
-
   {
     "id": "gundelik_045_ahi_ocagi_ciraklik_teklifi",
     "donem": "gundelik",
@@ -1026,16 +1308,23 @@
     "secenekler": [
       {
         "metin": "Ahi Ocağı'na katılıp çıraklığa başla",
-        "etki": { "para": 2, "itibar": 2, "zeka": 2 },
+        "etki": {
+          "para": 2,
+          "itibar": 2,
+          "zeka": 2
+        },
         "meslek_atama": "ahilik",
         "sonuc": "Ahi ocağına çırak olarak kaydoldun! Zanaat ve esnaflık yolunda ilk adımını attın."
       },
       {
         "metin": "Başka bir alan seçmek istediğini bildir",
-        "etki": { "mutluluk": -1 },
+        "etki": {
+          "mutluluk": -1
+        },
         "sonuc": "Teklifi erteledin."
       }
-    ]
+    ],
+    "engel_bayrak": "calisaniyor"
   },
   {
     "id": "gundelik_046_medrese_mollalik_teklifi",
@@ -1049,17 +1338,24 @@
     "secenekler": [
       {
         "metin": "Medreseye girip ilim tahsiline başla",
-        "etki": { "zeka": 5, "itibar": 3, "para": -1 },
+        "etki": {
+          "zeka": 5,
+          "itibar": 3,
+          "para": -1
+        },
         "meslek_atama": "ilmiye",
         "bayrak_ekle": "medrese_mezunu",
         "sonuc": "Medreseye talebe olarak yazıldın! İlim, fıkıh ve kadılık yoluna adım attın."
       },
       {
         "metin": "İlim yolunun ağır olduğunu düşünüp reddet",
-        "etki": { "mutluluk": -1 },
+        "etki": {
+          "mutluluk": -1
+        },
         "sonuc": "Medrese yolunu seçmedin."
       }
-    ]
+    ],
+    "engel_bayrak": "calisaniyor"
   },
   {
     "id": "gundelik_047_seyfiye_orduya_yazilma_teklifi",
@@ -1073,16 +1369,23 @@
     "secenekler": [
       {
         "metin": "Davete uyup askeri ocağa (Seyfiye) yazıl",
-        "etki": { "para": 3, "itibar": 4, "saglik": 2 },
+        "etki": {
+          "para": 3,
+          "itibar": 4,
+          "saglik": 2
+        },
         "meslek_atama": "seyfiye",
         "sonuc": "Savaşçı ve askerlik sınıfına kabul edildin! Kılıç ve kalkan kuşanma yolun başladı."
       },
       {
         "metin": "Sivil kalmayı tercih et",
-        "etki": { "mutluluk": 1 },
+        "etki": {
+          "mutluluk": 1
+        },
         "sonuc": "Askerlik yolunu seçmedin."
       }
-    ]
+    ],
+    "engel_bayrak": "calisaniyor"
   },
   {
     "id": "gundelik_048_kalemiye_sakirdlik_teklifi",
@@ -1096,16 +1399,23 @@
     "secenekler": [
       {
         "metin": "Kalem dairesine şakird olarak gir",
-        "etki": { "zeka": 4, "itibar": 3, "para": 2 },
+        "etki": {
+          "zeka": 4,
+          "itibar": 3,
+          "para": 2
+        },
         "meslek_atama": "kalemiye",
         "sonuc": "Devlet kâtipliği ve bürokrasi yoluna adım attın! Divan evraklarını kaleme almaya başladın."
       },
       {
         "metin": "Devlet kapısını tercih etme",
-        "etki": { "mutluluk": 1 },
+        "etki": {
+          "mutluluk": 1
+        },
         "sonuc": "Kâtiplik yolunu seçmedin."
       }
-    ]
+    ],
+    "engel_bayrak": "calisaniyor"
   },
   {
     "id": "gundelik_049_ahi_pestemal_kusanma_toreni",
@@ -1119,16 +1429,23 @@
     "secenekler": [
       {
         "metin": "Törene katılıp ahi kalfası ol",
-        "etki": { "itibar": 4, "para": 3, "zeka": 2 },
+        "etki": {
+          "itibar": 4,
+          "para": 3,
+          "zeka": 2
+        },
         "meslek_atama": "ahilik",
         "sonuc": "Ahi loncasında resmen kalfalık unvanı aldın."
       },
       {
         "metin": "Töreni ertelet",
-        "etki": { "mutluluk": -1 },
+        "etki": {
+          "mutluluk": -1
+        },
         "sonuc": "Kalfalık gecikti."
       }
-    ]
+    ],
+    "engel_bayrak": "calisaniyor"
   },
   {
     "id": "gundelik_050_ilmiye_talebe_kayit",
@@ -1142,17 +1459,23 @@
     "secenekler": [
       {
         "metin": "Medreseye kaydolup ilim hücresine yerleş",
-        "etki": { "zeka": 5, "itibar": 3 },
+        "etki": {
+          "zeka": 5,
+          "itibar": 3
+        },
         "meslek_atama": "ilmiye",
         "bayrak_ekle": "medrese_mezunu",
         "sonuc": "İlmiye sınıfına kaydoldun, gece gündüz ders çalışmaya başladın."
       },
       {
         "metin": "Ticaretle uğraşmayı seç",
-        "etki": { "para": 2 },
+        "etki": {
+          "para": 2
+        },
         "sonuc": "Medreseye girmedin."
       }
-    ]
+    ],
+    "engel_bayrak": "calisaniyor"
   },
   {
     "id": "gundelik_051_seyfiye_yigitbasi_egitimi",
@@ -1166,16 +1489,23 @@
     "secenekler": [
       {
         "metin": "Eğitimlere katılıp asker sınıfına dahil ol",
-        "etki": { "saglik": 3, "itibar": 4, "para": 2 },
+        "etki": {
+          "saglik": 3,
+          "itibar": 4,
+          "para": 2
+        },
         "meslek_atama": "seyfiye",
         "sonuc": "Seyfiye ordusuna nefer olarak kaydoldun."
       },
       {
         "metin": "Sivil kalmayı yeğle",
-        "etki": { "mutluluk": 1 },
+        "etki": {
+          "mutluluk": 1
+        },
         "sonuc": "Askerlik teklifini pas geçtin."
       }
-    ]
+    ],
+    "engel_bayrak": "calisaniyor"
   },
   {
     "id": "gundelik_052_kalemiye_hattatlik_ciraklik",
@@ -1189,16 +1519,23 @@
     "secenekler": [
       {
         "metin": "Hattat kâtibin yanında mesleğe başla",
-        "etki": { "zeka": 4, "itibar": 3, "para": 2 },
+        "etki": {
+          "zeka": 4,
+          "itibar": 3,
+          "para": 2
+        },
         "meslek_atama": "kalemiye",
         "sonuc": "Kalemiye sınıfına çırak yazıldın."
       },
       {
         "metin": "Teklifi reddet",
-        "etki": { "mutluluk": -1 },
+        "etki": {
+          "mutluluk": -1
+        },
         "sonuc": "Kâtipliğe başlamadın."
       }
-    ]
+    ],
+    "engel_bayrak": "calisaniyor"
   },
   {
     "id": "gundelik_053_vasifsiz_iscilikten_kendi_dukkani",
@@ -1211,16 +1548,23 @@
     "secenekler": [
       {
         "metin": "Birikimini yatırıp Ahiler çarşısında dükkan aç",
-        "etki": { "para": -4, "itibar": 4, "mutluluk": 5 },
+        "etki": {
+          "para": -4,
+          "itibar": 4,
+          "mutluluk": 5
+        },
         "meslek_atama": "ahilik",
         "sonuc": "Kendi dükkanının sahibi oldun! Vasıfsız işçilikten esnaflığa terfi ettin."
       },
       {
         "metin": "Gündelik işçi kalıp birikimini sakla",
-        "etki": { "para": 1 },
+        "etki": {
+          "para": 1
+        },
         "sonuc": "Gündelik işlerde çalışmaya devam ettin."
       }
-    ]
+    ],
+    "engel_bayrak": "calisaniyor"
   },
   {
     "id": "gundelik_054_seyfiye_subasi_yavuz_teklifi",
@@ -1234,16 +1578,23 @@
     "secenekler": [
       {
         "metin": "Asayiş devriyesine katılıp askeri sınıfa geç",
-        "etki": { "itibar": 4, "para": 3, "saglik": 1 },
+        "etki": {
+          "itibar": 4,
+          "para": 3,
+          "saglik": 1
+        },
         "meslek_atama": "seyfiye",
         "sonuc": "Seyfiye sınıfına nefer yazıldın."
       },
       {
         "metin": "Riske girmeyip reddet",
-        "etki": { "mutluluk": 1 },
+        "etki": {
+          "mutluluk": 1
+        },
         "sonuc": "Sivil kaldın."
       }
-    ]
+    ],
+    "engel_bayrak": "calisaniyor"
   },
   {
     "id": "gundelik_055_kalemiye_defterdar_kalemi",
@@ -1257,16 +1608,23 @@
     "secenekler": [
       {
         "metin": "Defterdarlık kalemine müracaat et",
-        "etki": { "zeka": 5, "para": 3, "itibar": 3 },
+        "etki": {
+          "zeka": 5,
+          "para": 3,
+          "itibar": 3
+        },
         "meslek_atama": "kalemiye",
         "sonuc": "Defterdar kâtibi olarak devlet hizmetine girdin."
       },
       {
         "metin": "Başka işte çalış",
-        "etki": { "mutluluk": 1 },
+        "etki": {
+          "mutluluk": 1
+        },
         "sonuc": "Kâtip olmadın."
       }
-    ]
+    ],
+    "engel_bayrak": "calisaniyor"
   },
   {
     "id": "gundelik_056_ilmiye_kadi_yanina_mulazim",
@@ -1280,17 +1638,23 @@
     "secenekler": [
       {
         "metin": "Kadı yanına mülazım gir",
-        "etki": { "zeka": 5, "itibar": 4 },
+        "etki": {
+          "zeka": 5,
+          "itibar": 4
+        },
         "meslek_atama": "ilmiye",
         "bayrak_ekle": "medrese_mezunu",
         "sonuc": "İlmiye sınıfında kadı yardımcısı oldun."
       },
       {
         "metin": "Girmemeyi seç",
-        "etki": { "mutluluk": 1 },
+        "etki": {
+          "mutluluk": 1
+        },
         "sonuc": "Kabul etmedin."
       }
-    ]
+    ],
+    "engel_bayrak": "calisaniyor"
   },
   {
     "id": "gundelik_057_esnaf_pestemal_kalfa",
@@ -1303,12 +1667,17 @@
     "secenekler": [
       {
         "metin": "Kalfalık payesini kabul et",
-        "etki": { "itibar": 3, "para": 2 },
+        "etki": {
+          "itibar": 3,
+          "para": 2
+        },
         "sonuc": "Lonca kalfası olarak itibarın arttı."
       },
       {
         "metin": "Çalışmaya devam et",
-        "etki": { "para": 1 },
+        "etki": {
+          "para": 1
+        },
         "sonuc": "İşine devam ettin."
       }
     ]
@@ -1325,12 +1694,17 @@
     "secenekler": [
       {
         "metin": "Lonca sandığından sermaye alıp işini büyüt",
-        "etki": { "para": 5, "itibar": 2 },
+        "etki": {
+          "para": 5,
+          "itibar": 2
+        },
         "sonuc": "Dükkanının kazancı arttı."
       },
       {
         "metin": "Borçlanmak istemediğini söyle",
-        "etki": { "zeka": 1 },
+        "etki": {
+          "zeka": 1
+        },
         "sonuc": "Mevcut düzenini korudun."
       }
     ]
@@ -1347,12 +1721,18 @@
     "secenekler": [
       {
         "metin": "Gündüz gece çalışıp sınava gir",
-        "etki": { "zeka": 5, "itibar": 4, "saglik": -1 },
+        "etki": {
+          "zeka": 5,
+          "itibar": 4,
+          "saglik": -1
+        },
         "sonuc": "İcazetnameni alıp alimler arasına girdin!"
       },
       {
         "metin": "Biraz daha hazırlanmak için ertele",
-        "etki": { "zeka": 2 },
+        "etki": {
+          "zeka": 2
+        },
         "sonuc": "Ders çalışmaya devam ettin."
       }
     ]
@@ -1369,12 +1749,17 @@
     "secenekler": [
       {
         "metin": "Tımar dirliğini kabul edip atlı sipahi ol",
-        "etki": { "para": 6, "itibar": 5 },
+        "etki": {
+          "para": 6,
+          "itibar": 5
+        },
         "sonuc": "Tımar sahibi oldun! Gelirin ve askeri itibarın katlandı."
       },
       {
         "metin": "Kışlada kalmayı tercih et",
-        "etki": { "itibar": 2 },
+        "etki": {
+          "itibar": 2
+        },
         "sonuc": "Kışlada kaldın."
       }
     ]
@@ -1391,12 +1776,18 @@
     "secenekler": [
       {
         "metin": "Terfiyi sevinçle kabul et",
-        "etki": { "para": 4, "itibar": 4, "zeka": 2 },
+        "etki": {
+          "para": 4,
+          "itibar": 4,
+          "zeka": 2
+        },
         "sonuc": "Divan kaleminde üst kademeye terfi ettin."
       },
       {
         "metin": "Mevcut kaleminde kal",
-        "etki": { "mutluluk": 1 },
+        "etki": {
+          "mutluluk": 1
+        },
         "sonuc": "Aynı görevde kaldın."
       }
     ]
@@ -1412,12 +1803,18 @@
     "secenekler": [
       {
         "metin": "Sırtına küfeyi alıp akçe kazan",
-        "etki": { "para": 3, "saglik": -2, "mutluluk": -1 },
+        "etki": {
+          "para": 3,
+          "saglik": -2,
+          "mutluluk": -1
+        },
         "sonuc": "Alın teriyle günlük ekmeğini çıkardın."
       },
       {
         "metin": "Daha hafif bir iş ara",
-        "etki": { "mutluluk": 1 },
+        "etki": {
+          "mutluluk": 1
+        },
         "sonuc": "Dinlenmeyi seçtin."
       }
     ]
@@ -1434,16 +1831,23 @@
     "secenekler": [
       {
         "metin": "Atölyeye katılıp zanaatkar ol",
-        "etki": { "zeka": 4, "itibar": 3, "para": 2 },
+        "etki": {
+          "zeka": 4,
+          "itibar": 3,
+          "para": 2
+        },
         "meslek_atama": "ahilik",
         "sonuc": "Zanaatkar esnafı yoluna adım attın."
       },
       {
         "metin": "Reddet",
-        "etki": { "mutluluk": -1 },
+        "etki": {
+          "mutluluk": -1
+        },
         "sonuc": "Kabul etmedin."
       }
-    ]
+    ],
+    "engel_bayrak": "calisaniyor"
   },
   {
     "id": "gundelik_064_mustesna_zabit_sakirdlik",
@@ -1457,18 +1861,24 @@
     "secenekler": [
       {
         "metin": "Kâtiplik kalemine yazıl",
-        "etki": { "zeka": 4, "para": 2, "itibar": 2 },
+        "etki": {
+          "zeka": 4,
+          "para": 2,
+          "itibar": 2
+        },
         "meslek_atama": "kalemiye",
         "sonuc": "Kalemiye kâtibi oldun."
       },
       {
         "metin": "Kararsız kalıp vazgeç",
-        "etki": { "mutluluk": -1 },
+        "etki": {
+          "mutluluk": -1
+        },
         "sonuc": "Yazılmadın."
       }
-    ]
+    ],
+    "engel_bayrak": "calisaniyor"
   },
-
   {
     "id": "gundelik_065_kis_sogugu_zaturre",
     "donem": "gundelik",
@@ -1480,12 +1890,19 @@
     "secenekler": [
       {
         "metin": "Hekim getirip sıcacık ıhlamur ve şuruplarla dinlen",
-        "etki": { "para": -2, "saglik": 3, "mutluluk": 1 },
+        "etki": {
+          "para": -2,
+          "saglik": 3,
+          "mutluluk": 1
+        },
         "sonuc": "Birkaç hafta içinde toparlandın."
       },
       {
         "metin": "İlaç almayıp soğukta çalışmaya devam et",
-        "etki": { "saglik": -5, "mutluluk": -3 },
+        "etki": {
+          "saglik": -5,
+          "mutluluk": -3
+        },
         "sonuc": "Hastalığın zatürreye çevirdi, yatakta uzun süre yattın."
       }
     ]
@@ -1501,13 +1918,21 @@
     "secenekler": [
       {
         "metin": "Eve kapanıp temizliğe ve duaya sarıl",
-        "etki": { "saglik": -2, "mutluluk": -4, "zeka": 1 },
+        "etki": {
+          "saglik": -2,
+          "mutluluk": -4,
+          "zeka": 1
+        },
         "bayrak_ekle": "salgin_maruz",
         "sonuc": "Salgın tehlikesini ucuz atlattın ama mahallede çok kayıp verildi."
       },
       {
         "metin": "Hastalara yardım etmek için sokaklara çık",
-        "etki": { "itibar": 5, "saglik": -6, "sans_gerekli": true },
+        "etki": {
+          "itibar": 5,
+          "saglik": -6,
+          "sans_gerekli": true
+        },
         "bayrak_ekle": "salgin_maruz",
         "sonuc": "Büyük cesaret gösterdin, ağır hastalandın ama hayatta kaldın."
       }
@@ -1524,13 +1949,20 @@
     "secenekler": [
       {
         "metin": "Sirke ve kaynatılmış suyla tedbir al",
-        "etki": { "saglik": -1, "zeka": 2, "mutluluk": -2 },
+        "etki": {
+          "saglik": -1,
+          "zeka": 2,
+          "mutluluk": -2
+        },
         "bayrak_ekle": "salgin_maruz",
         "sonuc": "Karantina günlerini kazasız atlattın."
       },
       {
         "metin": "Tedbirlere uymayı ihmal et",
-        "etki": { "saglik": -6, "mutluluk": -4 },
+        "etki": {
+          "saglik": -6,
+          "mutluluk": -4
+        },
         "bayrak_ekle": "salgin_maruz",
         "sonuc": "Kolera mikrobunu kapıp günlerce yattın."
       }
@@ -1547,12 +1979,18 @@
     "secenekler": [
       {
         "metin": "Hekimin macun ve perhiz reçetesine harfiyen uy",
-        "etki": { "para": -2, "saglik": 5, "mutluluk": 3 },
+        "etki": {
+          "para": -2,
+          "saglik": 5,
+          "mutluluk": 3
+        },
         "sonuc": "Darüşşifa tedavisi sayesinde vücuduna sıhhat geldi."
       },
       {
         "metin": "Perhizi bozup kendi bildiğini yap",
-        "etki": { "saglik": -2 },
+        "etki": {
+          "saglik": -2
+        },
         "sonuc": "Ağrıların tam geçmedi."
       }
     ]
@@ -1568,12 +2006,18 @@
     "secenekler": [
       {
         "metin": "Şifalı macunu satın alıp düzenli kullan",
-        "etki": { "para": -2, "saglik": 4, "mutluluk": 2 },
+        "etki": {
+          "para": -2,
+          "saglik": 4,
+          "mutluluk": 2
+        },
         "sonuc": "Vücudun kuvvetlendi, halsizliğin bitti."
       },
       {
         "metin": "Pahalı bulup vazgeç",
-        "etki": { "para": 1 },
+        "etki": {
+          "para": 1
+        },
         "sonuc": "Halsizliğin bir süre daha sürdü."
       }
     ]
@@ -1589,12 +2033,18 @@
     "secenekler": [
       {
         "metin": "Sınıkçı/Çıkıkçı ustasına gidip ayağını bağlat",
-        "etki": { "para": -1, "saglik": -2, "mutluluk": -2 },
+        "etki": {
+          "para": -1,
+          "saglik": -2,
+          "mutluluk": -2
+        },
         "sonuc": "Ayağın sarıldı, birkaç hafta sekerek yürüdün."
       },
       {
         "metin": "Evde kendi imkanlarınla buz ve zeytinyağı sür",
-        "etki": { "saglik": -3 },
+        "etki": {
+          "saglik": -3
+        },
         "sonuc": "Ağrın uzun süre geçmedi."
       }
     ]
@@ -1610,13 +2060,19 @@
     "secenekler": [
       {
         "metin": "Hekimin verdiği sirke kürüyle korun",
-        "etki": { "saglik": -1, "zeka": 1 },
+        "etki": {
+          "saglik": -1,
+          "zeka": 1
+        },
         "bayrak_ekle": "salgin_maruz",
         "sonuc": "Hafif at atlattın."
       },
       {
         "metin": "Dikkat etmeyip hastalan",
-        "etki": { "saglik": -5, "mutluluk": -3 },
+        "etki": {
+          "saglik": -5,
+          "mutluluk": -3
+        },
         "bayrak_ekle": "salgin_maruz",
         "sonuc": "Yüksek ateşle yatağa düştün."
       }
@@ -1633,12 +2089,17 @@
     "secenekler": [
       {
         "metin": "Kehhalin mil ile sürdüğü tutya ilacını kullan",
-        "etki": { "para": -2, "saglik": 3 },
+        "etki": {
+          "para": -2,
+          "saglik": 3
+        },
         "sonuc": "Gözlerinin feri yerine geldi, görüşün netleşti."
       },
       {
         "metin": "Gözünü dinlendirerek bekle",
-        "etki": { "saglik": 1 },
+        "etki": {
+          "saglik": 1
+        },
         "sonuc": "Ağrı yavaşça azaldı."
       }
     ]
@@ -1654,12 +2115,19 @@
     "secenekler": [
       {
         "metin": "Berberin pensesine çeneni teslim edip dişi çektir",
-        "etki": { "para": -1, "saglik": 2, "mutluluk": -2 },
+        "etki": {
+          "para": -1,
+          "saglik": 2,
+          "mutluluk": -2
+        },
         "sonuc": "Canın çok yandı ama dayanılmaz ağrıdan kurtuldun!"
       },
       {
         "metin": "Karanfil yağı sürüp katlanmaya çalış",
-        "etki": { "saglik": -2, "mutluluk": -3 },
+        "etki": {
+          "saglik": -2,
+          "mutluluk": -3
+        },
         "sonuc": "Ağrı günlerce sürmeye devam etti."
       }
     ]
@@ -1675,12 +2143,17 @@
     "secenekler": [
       {
         "metin": "Mahalledeki tecrübeli sınıkçıya bileğini oturt",
-        "etki": { "para": -1, "saglik": 2 },
+        "etki": {
+          "para": -1,
+          "saglik": 2
+        },
         "sonuc": "Bileğin çekilip bağlandı, kısa sürede iyileştin."
       },
       {
         "metin": "Sadece sıcak bez koy",
-        "etki": { "saglik": -1 },
+        "etki": {
+          "saglik": -1
+        },
         "sonuc": "Şişlik yavaş indi."
       }
     ]
@@ -1696,12 +2169,18 @@
     "secenekler": [
       {
         "metin": "Kaplıcaya gidip şifalı sularda yıkan",
-        "etki": { "para": -4, "saglik": 6, "mutluluk": 5 },
+        "etki": {
+          "para": -4,
+          "saglik": 6,
+          "mutluluk": 5
+        },
         "sonuc": "Kaplıca suyu eklem ağrılarına ilaç gibi geldi, kuş gibi hafifledin!"
       },
       {
         "metin": "Yolculuk masrafından kaçın",
-        "etki": { "para": 1 },
+        "etki": {
+          "para": 1
+        },
         "sonuc": "Ağrıların devam etti."
       }
     ]
@@ -1718,12 +2197,17 @@
     "secenekler": [
       {
         "metin": "Şifa çorbaları içip iyice dinlen",
-        "etki": { "saglik": 4, "mutluluk": 3 },
+        "etki": {
+          "saglik": 4,
+          "mutluluk": 3
+        },
         "sonuc": "Eski sağlığına ve neşene kavuştun."
       },
       {
         "metin": "Hemen işe koşup kendini yor",
-        "etki": { "saglik": -2 },
+        "etki": {
+          "saglik": -2
+        },
         "sonuc": "Halsizliğin tekrarladı."
       }
     ]
@@ -1739,12 +2223,17 @@
     "secenekler": [
       {
         "metin": "Merhemi sür ve sar",
-        "etki": { "para": -1, "saglik": 3 },
+        "etki": {
+          "para": -1,
+          "saglik": 3
+        },
         "sonuc": "Yaran çabucak kapandı."
       },
       {
         "metin": "Kendi haline bırak",
-        "etki": { "saglik": -1 },
+        "etki": {
+          "saglik": -1
+        },
         "sonuc": "Yara yavaş iyileşti."
       }
     ]
@@ -1760,17 +2249,22 @@
     "secenekler": [
       {
         "metin": "Sünnete uyup tecrübeli berbere hacamat yaptır",
-        "etki": { "para": -1, "saglik": 4, "mutluluk": 2 },
+        "etki": {
+          "para": -1,
+          "saglik": 4,
+          "mutluluk": 2
+        },
         "sonuc": "Vücuduna zindelik ve hafiflik geldi."
       },
       {
         "metin": "Korkup vazgeç",
-        "etki": { "mutluluk": -1 },
+        "etki": {
+          "mutluluk": -1
+        },
         "sonuc": "Hacamat yaptırmadın."
       }
     ]
   },
-
   {
     "id": "gundelik_079_ahsap_ev_mahalle_yangini",
     "donem": "gundelik",
@@ -1782,12 +2276,18 @@
     "secenekler": [
       {
         "metin": "Su kovasını kapıp yangın söndürme imecesine koş",
-        "etki": { "itibar": 5, "mutluluk": 3, "saglik": -1 },
+        "etki": {
+          "itibar": 5,
+          "mutluluk": 3,
+          "saglik": -1
+        },
         "sonuc": "Komşularının evlerini alevlerden kurtardınız! Mahallede kahraman gibi karşılandın."
       },
       {
         "metin": "Kendi evinin emniyetini alıp bekle",
-        "etki": { "zeka": 1 },
+        "etki": {
+          "zeka": 1
+        },
         "sonuc": "Yangın sizin sokağa sıçramadan söndürüldü."
       }
     ]
@@ -1803,12 +2303,20 @@
     "secenekler": [
       {
         "metin": "Bakkala varıp rastgele birkaç borçlu sayfasını satın alıp yırt",
-        "etki": { "para": -5, "itibar": 6, "mutluluk": 8 },
+        "etki": {
+          "para": -5,
+          "itibar": 6,
+          "mutluluk": 8
+        },
         "sonuc": "Kimsenin ruhu duymadan garibanların borcunu sildirdin. İçin huzurla doldu!"
       },
       {
         "metin": "Mahalle iftarına bir çuval pirinç bağışla",
-        "etki": { "para": -2, "itibar": 3, "mutluluk": 4 },
+        "etki": {
+          "para": -2,
+          "itibar": 3,
+          "mutluluk": 4
+        },
         "sonuc": "İftar sofrasına katkıda bulundun."
       }
     ]
@@ -1824,12 +2332,18 @@
     "secenekler": [
       {
         "metin": "Ön sıraya oturup okumuş meddahın hikayesini dinle",
-        "etki": { "mutluluk": 5, "zeka": 2, "para": -1 },
+        "etki": {
+          "mutluluk": 5,
+          "zeka": 2,
+          "para": -1
+        },
         "sonuc": "Keyifli bir akşam geçirdin, zihnin açıldı."
       },
       {
         "metin": "Kahvehanede dostlarla tavla ve çay sohbeti yap",
-        "etki": { "mutluluk": 3 },
+        "etki": {
+          "mutluluk": 3
+        },
         "sonuc": "Dostlarınla stres attın."
       }
     ]
@@ -1845,12 +2359,17 @@
     "secenekler": [
       {
         "metin": "Çocukları toplayıp Karagöz seyretmeye götür",
-        "etki": { "para": -1, "mutluluk": 6 },
+        "etki": {
+          "para": -1,
+          "mutluluk": 6
+        },
         "sonuc": "Kahkahalar içinde neşeli bir bayram günü geçirdiniz."
       },
       {
         "metin": "Bayram yerinde lokum yiyip gez",
-        "etki": { "mutluluk": 3 },
+        "etki": {
+          "mutluluk": 3
+        },
         "sonuc": "Bayramın tadını çıkardın."
       }
     ]
@@ -1866,12 +2385,18 @@
     "secenekler": [
       {
         "metin": "Narh fiyatına uyup dürüst alışveriş yap",
-        "etki": { "itibar": 3, "zeka": 1 },
+        "etki": {
+          "itibar": 3,
+          "zeka": 1
+        },
         "sonuc": "Adaletli alışveriş anlayışın takdir topladı."
       },
       {
         "metin": "Pahalılık sebebiyle alımlarını kısıtla",
-        "etki": { "para": 2, "mutluluk": -1 },
+        "etki": {
+          "para": 2,
+          "mutluluk": -1
+        },
         "sonuc": "Bütçeni korudun."
       }
     ]
@@ -1887,12 +2412,19 @@
     "secenekler": [
       {
         "metin": "Mahalle kethüdası ve bilirkişi getirip adaletle ölçtür",
-        "etki": { "zeka": 2, "itibar": 2 },
+        "etki": {
+          "zeka": 2,
+          "itibar": 2
+        },
         "sonuc": "Ölçüm yapıldı, sınır adaletle çizildi."
       },
       {
         "metin": "Gönlün hoş olsun deyip bir arşın toprağı komşuna bağışla",
-        "etki": { "itibar": 5, "mutluluk": 4, "para": -1 },
+        "etki": {
+          "itibar": 5,
+          "mutluluk": 4,
+          "para": -1
+        },
         "sonuc": "Cömertliğin komşuyu utandırdı, en yakın dostun oldu!"
       }
     ]
@@ -1908,12 +2440,17 @@
     "secenekler": [
       {
         "metin": "Sıranı yaşlı bir komşuya verip öncelik tanı",
-        "etki": { "itibar": 3, "mutluluk": 3 },
+        "etki": {
+          "itibar": 3,
+          "mutluluk": 3
+        },
         "sonuc": "Hürmetin herkesin takdirini kazandı."
       },
       {
         "metin": "Sıranı bekleyip suyunu al",
-        "etki": { "mutluluk": 1 },
+        "etki": {
+          "mutluluk": 1
+        },
         "sonuc": "Suyunu alıp eve döndün."
       }
     ]
@@ -1929,12 +2466,19 @@
     "secenekler": [
       {
         "metin": "Mendil içinde Akçe ve akide şekeri ikram et",
-        "etki": { "para": -3, "itibar": 4, "mutluluk": 6 },
+        "etki": {
+          "para": -3,
+          "itibar": 4,
+          "mutluluk": 6
+        },
         "sonuc": "Çocukların yüzündeki tebessüm sana en büyük bayram hediyesi oldu."
       },
       {
         "metin": "Sadece şeker verip ellerini öptür",
-        "etki": { "para": -1, "mutluluk": 3 },
+        "etki": {
+          "para": -1,
+          "mutluluk": 3
+        },
         "sonuc": "Gelenek yaşatıldı."
       }
     ]
@@ -1950,12 +2494,19 @@
     "secenekler": [
       {
         "metin": "Ailen ve dostlarınla çay içip açık havanın tadını çıkar",
-        "etki": { "para": -2, "mutluluk": 6, "saglik": 2 },
+        "etki": {
+          "para": -2,
+          "mutluluk": 6,
+          "saglik": 2
+        },
         "sonuc": "Bütün haftanın yorgunluğu ve stresi uçup gitti."
       },
       {
         "metin": "Ağaç altında uyuklayıp dinlen",
-        "etki": { "saglik": 2, "mutluluk": 3 },
+        "etki": {
+          "saglik": 2,
+          "mutluluk": 3
+        },
         "sonuc": "Huzur buldun."
       }
     ]
@@ -1971,12 +2522,17 @@
     "secenekler": [
       {
         "metin": "Sokaktaki bozacıdan taraflara taze boza/salep ıısmarla",
-        "etki": { "para": -1, "mutluluk": 4 },
+        "etki": {
+          "para": -1,
+          "mutluluk": 4
+        },
         "sonuc": "Sıcak salep içimizi ısıttı."
       },
       {
         "metin": "Pencereden dinleyip yatağına gir",
-        "etki": { "mutluluk": 1 },
+        "etki": {
+          "mutluluk": 1
+        },
         "sonuc": "Sessizce uyudun."
       }
     ]
@@ -1992,12 +2548,18 @@
     "secenekler": [
       {
         "metin": "Borcunu kuruşu kuruşuna öde",
-        "etki": { "para": -3, "itibar": 3, "mutluluk": 2 },
+        "etki": {
+          "para": -3,
+          "itibar": 3,
+          "mutluluk": 2
+        },
         "sonuc": "Bakkalın minnettarlığını kazandın."
       },
       {
         "metin": "Gelecek aya ertelemesini rica et",
-        "etki": { "mutluluk": -1 },
+        "etki": {
+          "mutluluk": -1
+        },
         "sonuc": "Gelecek aya kaldı."
       }
     ]
@@ -2013,12 +2575,19 @@
     "secenekler": [
       {
         "metin": "Tellala Akçe verip bağırttır",
-        "etki": { "para": -2, "itibar": 2, "sans_gerekli": true },
+        "etki": {
+          "para": -2,
+          "itibar": 2,
+          "sans_gerekli": true
+        },
         "sonuc": "Dürüst bir esnaf eşyanı bulup tellala teslim etmiş! Eşyanı geri aldın."
       },
       {
         "metin": "Nasip değilmiş deyip arama",
-        "etki": { "para": -3, "mutluluk": -2 },
+        "etki": {
+          "para": -3,
+          "mutluluk": -2
+        },
         "sonuc": "Eşyadan ümidi kestin."
       }
     ]
@@ -2034,12 +2603,18 @@
     "secenekler": [
       {
         "metin": "Gece karanlığında sadaka taşına Akçe koy",
-        "etki": { "para": -2, "mutluluk": 6, "itibar": 2 },
+        "etki": {
+          "para": -2,
+          "mutluluk": 6,
+          "itibar": 2
+        },
         "sonuc": "Veren el alan eli görmedi. Ruhuna büyük bir huzur kapladı."
       },
       {
         "metin": "Dua edip geç",
-        "etki": { "mutluluk": 2 },
+        "etki": {
+          "mutluluk": 2
+        },
         "sonuc": "Dua ile geçip gittin."
       }
     ]
@@ -2056,17 +2631,22 @@
     "secenekler": [
       {
         "metin": "Gedik hakkını devralmak için başvur",
-        "etki": { "para": -4, "itibar": 4, "zeka": 2 },
+        "etki": {
+          "para": -4,
+          "itibar": 4,
+          "zeka": 2
+        },
         "sonuc": "Gedik hakkını elde edip dükkanının yerini sağlamlaştırdın."
       },
       {
         "metin": "Mevcut dükkanınla devam et",
-        "etki": { "mutluluk": 1 },
+        "etki": {
+          "mutluluk": 1
+        },
         "sonuc": "Aynı dükkanda kaldın."
       }
     ]
   },
-
   {
     "id": "gundelik_093_torun_sevgisi_masallar",
     "donem": "gundelik",
@@ -2078,12 +2658,18 @@
     "secenekler": [
       {
         "metin": "Soba başında torunlarına heyecanlı masallar anlat",
-        "etki": { "mutluluk": 7, "itibar": 2, "saglik": 1 },
+        "etki": {
+          "mutluluk": 7,
+          "itibar": 2,
+          "saglik": 1
+        },
         "sonuc": "Torunlarının gözlerindeki hayranlık ve sevgi yaşlılık günlerine neşe kattı!"
       },
       {
         "metin": "Onlara şeker ikram edip dinlen",
-        "etki": { "mutluluk": 4 },
+        "etki": {
+          "mutluluk": 4
+        },
         "sonuc": "Torunlarınla huzurlu bir akşam geçirdin."
       }
     ]
@@ -2099,12 +2685,19 @@
     "secenekler": [
       {
         "metin": "Dostlara çay ı ısmarla ve eski hatıraları anlat",
-        "etki": { "para": -1, "mutluluk": 6, "itibar": 3 },
+        "etki": {
+          "para": -1,
+          "mutluluk": 6,
+          "itibar": 3
+        },
         "sonuc": "Tatlı bir nostalji ve dostluk havası yaşandı."
       },
       {
         "metin": "Sessizce sohbeti dinleyip tesbih çek",
-        "etki": { "mutluluk": 4, "saglik": 1 },
+        "etki": {
+          "mutluluk": 4,
+          "saglik": 1
+        },
         "sonuc": "Günün huzurunu yaşadın."
       }
     ]
@@ -2120,12 +2713,20 @@
     "secenekler": [
       {
         "metin": "Mimar getirip hayrat çeşmesini inşa ettir",
-        "etki": { "para": -6, "itibar": 7, "mutluluk": 8 },
+        "etki": {
+          "para": -6,
+          "itibar": 7,
+          "mutluluk": 8
+        },
         "sonuc": "Çeşmeden sular akmaya başladı! İnsanlar ve hayvanlar su içtikçe sana dualar ediyor."
       },
       {
         "metin": "Kuş evi yaptırıp cami duvarına koydur",
-        "etki": { "para": -2, "itibar": 3, "mutluluk": 5 },
+        "etki": {
+          "para": -2,
+          "itibar": 3,
+          "mutluluk": 5
+        },
         "sonuc": "Zarif bir kuş evi yaptırdın."
       }
     ]
@@ -2141,12 +2742,18 @@
     "secenekler": [
       {
         "metin": "Evlatlarına ve komşularına helallik ver, nasihat et",
-        "etki": { "mutluluk": 6, "itibar": 4, "zeka": 2 },
+        "etki": {
+          "mutluluk": 6,
+          "itibar": 4,
+          "zeka": 2
+        },
         "sonuc": "Gönlün mühür gibi huzurla doldu."
       },
       {
         "metin": "Sessizce ibadetine devam et",
-        "etki": { "mutluluk": 4 },
+        "etki": {
+          "mutluluk": 4
+        },
         "sonuc": "Huzurla vaktini bekliyorsun."
       }
     ]
@@ -2162,12 +2769,18 @@
     "secenekler": [
       {
         "metin": "Sıcak zeytinyağı ve havlu kapatıp sobaya yakın otur",
-        "etki": { "saglik": 2, "mutluluk": 2 },
+        "etki": {
+          "saglik": 2,
+          "mutluluk": 2
+        },
         "sonuc": "Ağrıların biraz hafifledi."
       },
       {
         "metin": "Bastona dayanıp ibadetine aksatmadan git",
-        "etki": { "itibar": 3, "saglik": -1 },
+        "etki": {
+          "itibar": 3,
+          "saglik": -1
+        },
         "sonuc": "Azmin takdir topladı."
       }
     ]
@@ -2183,12 +2796,19 @@
     "secenekler": [
       {
         "metin": "Dükkanı evlatlarına devredip pirlik et",
-        "etki": { "itibar": 4, "mutluluk": 5, "zeka": 2 },
+        "etki": {
+          "itibar": 4,
+          "mutluluk": 5,
+          "zeka": 2
+        },
         "sonuc": "Genç esnafa tecrübe aktaran saygın bir pir oldun."
       },
       {
         "metin": "Dükkanın başında kalmaya devam et",
-        "etki": { "para": 2, "saglik": -1 },
+        "etki": {
+          "para": 2,
+          "saglik": -1
+        },
         "sonuc": "Çalışmayı bırakmadın."
       }
     ]
@@ -2204,12 +2824,19 @@
     "secenekler": [
       {
         "metin": "Sohbete katılıp ney sesini dinle",
-        "etki": { "mutluluk": 7, "zeka": 3, "itibar": 2 },
+        "etki": {
+          "mutluluk": 7,
+          "zeka": 3,
+          "itibar": 2
+        },
         "sonuc": "Ruhun dinlendi, kalbin sevinçle doldu."
       },
       {
         "metin": "Evinde kütüphanende kitap oku",
-        "etki": { "zeka": 3, "mutluluk": 3 },
+        "etki": {
+          "zeka": 3,
+          "mutluluk": 3
+        },
         "sonuc": "Ufkunu genişlettin."
       }
     ]
@@ -2225,12 +2852,19 @@
     "secenekler": [
       {
         "metin": "Bütün geçmiş ömrüne ve vatanına hayır dualar et",
-        "etki": { "mutluluk": 8, "itibar": 4, "zeka": 3 },
+        "etki": {
+          "mutluluk": 8,
+          "itibar": 4,
+          "zeka": 3
+        },
         "sonuc": "Tam bir teslimiyet ve gönül huzuru içindesin. Ne mutlu hayırlı bir ömrü geride bırakanlara!"
       },
       {
         "metin": "Evlatlarına son nasihatlerini ver",
-        "etki": { "mutluluk": 6, "itibar": 3 },
+        "etki": {
+          "mutluluk": 6,
+          "itibar": 3
+        },
         "sonuc": "Evlatların elini öpüp dualarını aldı."
       }
     ]
