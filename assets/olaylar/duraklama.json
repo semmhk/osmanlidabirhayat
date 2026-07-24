@@ -2270,5 +2270,245 @@
         "sonuc": "Böylesine büyük bir yenilginin bir sorumlusu olması gerekiyordu — ama bu, geleceğe dair derin bir endişe de bırakıyordu."
       }
     ]
+  },
+  {
+    "id": "mehmed4_3_001_kutsal_ittifak",
+    "donem": "duraklama",
+    "alt_donem": "dorduncu_mehmed_3_cokus",
+    "tarih_yil_min": 1684,
+    "tarih_yil_max": 1684,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "Viyana bozgunundan cesaret alan Papa XI. Innocentius'un önderliğinde Avusturya, Lehistan ve Venedik bir araya gelip 'Kutsal İttifak' kurdu — amaç, Osmanlı'yı Avrupa'dan tamamen sürmek. Kısa süre sonra Rusya da bu ittifaka katılacak.",
+    "secenekler": [
+      {
+        "metin": "Bu yeni tehdidin ciddiyetini kavra",
+        "etki": { "zeka": 3, "mutluluk": -2 },
+        "sonuc": "Tek bir devletle değil, koca bir Avrupa koalisyonuyla karşı karşıya kalmak, çok daha zorlu bir mücadele demekti."
+      },
+      {
+        "metin": "İmparatorluğun bu zorluğu da aşacağına güven",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Geçmişte de zor günler atlatılmıştı, ama bu sefer tehdit gerçekten büyüktü."
+      }
+    ]
+  },
+  {
+    "id": "mehmed4_3_002_venedik_mora_dalmacya",
+    "donem": "duraklama",
+    "alt_donem": "dorduncu_mehmed_3_cokus",
+    "tarih_yil_min": 1684,
+    "tarih_yil_max": 1684,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "Venedik, Osmanlı'ya savaş ilan etti. Mora (Peloponnesos) ve Dalmaçya kıyılarındaki birçok kale birbiri ardına Venediklilerin eline geçti.",
+    "secenekler": [
+      {
+        "metin": "Bu kayıpları endişeyle karşıla",
+        "etki": { "mutluluk": -3, "zeka": 1 },
+        "sonuc": "Fatih zamanından beri elde tutulan topraklar, şimdi birer birer kaybediliyordu."
+      },
+      {
+        "metin": "Devletin toparlanacağına güven",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Zor bir dönemdi ama umut hâlâ vardı."
+      }
+    ]
+  },
+  {
+    "id": "mehmed4_3_003_karisik_zaferler_kayiplar",
+    "donem": "duraklama",
+    "alt_donem": "dorduncu_mehmed_3_cokus",
+    "tarih_yil_min": 1685,
+    "tarih_yil_max": 1685,
+    "yas_min": 16,
+    "yas_max": 50,
+    "tek_seferlik": true,
+    "gerekli_bayrak": "meslek_seyfiye",
+    "metin": "Dalmaçya'da Sing Muharebesi'nde Venediklilere karşı bir zafer kazanıldı — ama aynı yıl Avusturya cephesinde Uyvar Kalesi (Fazıl Ahmed Paşa'nın gururla fethettiği o kale) kaybedildi.",
+    "secenekler": [
+      {
+        "metin": "Karışık sonuçlar veren bu döneme katıl",
+        "etki": { "para": 2, "saglik": -3, "mutluluk": -1, "sans_gerekli": true },
+        "sonuc": "Bazı cephelerde direniyorduk, bazılarında geri çekiliyorduk — bu, ne net bir zafer ne net bir yenilgi dönemiydi, sadece belirsizlik."
+      },
+      {
+        "metin": "Bu karışık haberleri sıradan hayatının gölgesinde takip et",
+        "etki": { "mutluluk": -1 },
+        "sonuc": "Savaş haberleri artık her ay değişiyordu, kimse ne olacağını kestiremiyordu."
+      }
+    ]
+  },
+  {
+    "id": "mehmed4_3_004_budin_ilk_direnis",
+    "donem": "duraklama",
+    "alt_donem": "dorduncu_mehmed_3_cokus",
+    "tarih_yil_min": 1684,
+    "tarih_yil_max": 1685,
+    "yas_min": 16,
+    "yas_max": 50,
+    "tek_seferlik": true,
+    "gerekli_bayrak": "meslek_seyfiye",
+    "metin": "Budin Kalesi, Habsburg kuşatmasına karşı kahramanca direndi. Komutan Kara Murat Paşa bu savunmada şehit düştü, ama kale bir süre daha elde tutuldu.",
+    "secenekler": [
+      {
+        "metin": "Bu kahramanca savunmaya katıl",
+        "etki": { "para": 3, "itibar": 3, "saglik": -4, "sans_gerekli": true },
+        "sonuc": "Budin'in savunucuları, kanlarının son damlasına kadar direnmişti. Ama düşman baskısı her geçen ay artıyordu."
+      },
+      {
+        "metin": "Bu zorlu savunmaya katılmadın",
+        "etki": { "mutluluk": -1 },
+        "sonuc": "Budin'in kaderi, tüm imparatorluk için sembolik bir anlam taşıyordu — 150 yıldır bizimdi bu şehir."
+      }
+    ]
+  },
+  {
+    "id": "mehmed4_3_005_budin_dususu",
+    "donem": "duraklama",
+    "alt_donem": "dorduncu_mehmed_3_cokus",
+    "tarih_yil_min": 1686,
+    "tarih_yil_max": 1686,
+    "yas_min": 5,
+    "yas_max": 80,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "Eylül 1686'da, altı farklı cepheden gelen saldırılara dayanamayan Budin Kalesi nihayet düştü. Kanuni'den beri, 150 yıla yakın süredir Osmanlı toprağı olan bu şehir artık kaybedilmişti — Macaristan'daki hakimiyetimiz fiilen sona erdi.",
+    "secenekler": [
+      {
+        "metin": "Bu büyük kaybı derin bir üzüntüyle karşıla",
+        "etki": { "mutluluk": -8, "zeka": 1 },
+        "sonuc": "150 yıllık bir mirasın bu şekilde kaybedilmesi, tüm ülkeyi yasa boğdu. Kanuni'nin fethettiği bu topraklar, şimdi elimizden kayıp gitmişti."
+      },
+      {
+        "metin": "Bu kaybın imparatorluğun geleceği için ne anlama geldiğini düşün",
+        "etki": { "zeka": 3, "mutluluk": -5 },
+        "sonuc": "Bu, sadece bir kale kaybı değildi — Osmanlı'nın Avrupa'daki yükseliş çağının kesin olarak kapandığının ilanıydı."
+      }
+    ]
+  },
+  {
+    "id": "mehmed4_3_006_egri_kaybi",
+    "donem": "duraklama",
+    "alt_donem": "dorduncu_mehmed_3_cokus",
+    "tarih_yil_min": 1686,
+    "tarih_yil_max": 1686,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "III. Mehmed'in 'Eğri Fatihi' unvanı kazanmasına vesile olan Eğri Kalesi de kaybedildi — bir zamanlar büyük gururla anılan zaferler, şimdi birer birer geri alınıyordu.",
+    "secenekler": [
+      {
+        "metin": "Bu kaybın acısını hisset",
+        "etki": { "mutluluk": -3 },
+        "sonuc": "Geçmişin zaferleri, şimdinin acı gerçekleri karşısında sadece birer anıya dönüşüyordu."
+      },
+      {
+        "metin": "Devletin toparlanmasını umutla bekle",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Herkes bir dönüm noktası bekliyordu ama henüz gelmemişti."
+      }
+    ]
+  },
+  {
+    "id": "mehmed4_3_007_ikinci_mohac_bozgunu",
+    "donem": "duraklama",
+    "alt_donem": "dorduncu_mehmed_3_cokus",
+    "tarih_yil_min": 1687,
+    "tarih_yil_max": 1687,
+    "yas_min": 16,
+    "yas_max": 50,
+    "tek_seferlik": true,
+    "gerekli_bayrak": "meslek_seyfiye",
+    "metin": "12 Ağustos 1687'de, tam 161 yıl önce Kanuni'nin büyük zaferini kazandığı aynı Mohaç Ovası'nda, bu kez Osmanlı ordusu Kutsal İttifak kuvvetlerine yenildi — 20 bine yakın asker kaybedildi. Tarih, acı bir simetriyle tersine dönmüştü.",
+    "secenekler": [
+      {
+        "metin": "Bu simgesel yenilgide bulun",
+        "etki": { "saglik": -6, "mutluluk": -8, "sans_gerekli": true },
+        "sonuc": "1526'nın Mohaç'ı bir zafer sembolüyken, şimdi 1687'nin Mohaç'ı bir çöküş sembolü olmuştu. Bu tesadüf, herkesi derinden sarstı."
+      },
+      {
+        "metin": "Bu tarihi tesadüfün ağırlığını hisset",
+        "etki": { "zeka": 3, "mutluluk": -6 },
+        "sonuc": "Aynı toprakların hem zafer hem yenilgiye tanıklık etmesi, bir çağın kapandığının en acı kanıtıydı."
+      }
+    ]
+  },
+  {
+    "id": "mehmed4_3_008_ordu_padisahi_sucluyor",
+    "donem": "duraklama",
+    "alt_donem": "dorduncu_mehmed_3_cokus",
+    "tarih_yil_min": 1687,
+    "tarih_yil_max": 1687,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "Mohaç'taki bozgunun ardından ordu, IV. Mehmed'i devlet işleriyle ilgilenmeyip sürekli av eğlenceleriyle vakit geçirmekle suçladı ('Avcı Mehmed' lakabı işte bu yüzden verilmişti). Cepheyi terk edip İstanbul'a doğru yürümeye başladılar.",
+    "secenekler": [
+      {
+        "metin": "Bu eleştiriyi haklı bul",
+        "etki": { "itibar": 1, "mutluluk": -2 },
+        "sonuc": "39 yıllık bir saltanat boyunca devlet işlerini genellikle vezirlerine bırakan bir padişah, artık bu bedeli ödüyordu."
+      },
+      {
+        "metin": "Bu isyanın sonuçlarından endişelen",
+        "etki": { "mutluluk": -2 },
+        "sonuc": "Ordunun başkente doğru yürümesi, yeni bir taht değişikliğinin habercisiydi."
+      }
+    ]
+  },
+  {
+    "id": "mehmed4_3_009_mehmed_tahttan_indirilme",
+    "donem": "duraklama",
+    "alt_donem": "dorduncu_mehmed_3_cokus",
+    "tarih_yil_min": 1687,
+    "tarih_yil_max": 1687,
+    "yas_min": 5,
+    "yas_max": 80,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "8 Kasım 1687'de IV. Mehmed tahttan indirildi — 39 yıllık, Kanuni'den sonra tarihin en uzun ikinci saltanatı sona erdi. Yerine kardeşi II. Süleyman geçirildi. IV. Mehmed, iki oğluyla birlikte Edirne Sarayı'na kapatılacak.",
+    "secenekler": [
+      {
+        "metin": "Bu uzun ve çalkantılı saltanatı hem başarılarıyla hem çöküşüyle değerlendir",
+        "etki": { "mutluluk": -3, "zeka": 3 },
+        "sonuc": "6 yaşında çocuk padişahken başlayan bu saltanat; Kösem'in katli, Çınar Vakası, Köprülüler'in altın çağı, Girit'in fethi, ve nihayet Viyana'dan Mohaç'a uzanan bir çöküşle son bulmuştu. Osmanlı tarihinin belki de en iniş-çıkışlı tek saltanatıydı bu."
+      },
+      {
+        "metin": "Yeni sultanın döneminden umutlan",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Devletin bu zor dönemden nasıl çıkacağı, artık II. Süleyman'ın omuzlarındaydı."
+      }
+    ]
+  },
+  {
+    "id": "mehmed4_3_010_39_yil_genel_degerlendirme",
+    "donem": "duraklama",
+    "alt_donem": "dorduncu_mehmed_3_cokus",
+    "tarih_yil_min": 1648,
+    "tarih_yil_max": 1687,
+    "yas_min": 15,
+    "yas_max": 70,
+    "tek_seferlik": false,
+    "gerekli_bayrak": null,
+    "metin": "IV. Mehmed'in 39 yıllık saltanatı geride kalırken, sarayda bazı yaşlı kişiler bu dönemi 'devletimizin hem en parlak hem en karanlık yıllarını aynı anda yaşadığı bir çağ' diye tanımlıyor — Köprülüler'in dehası ile Viyana'nın felaketi aynı padişahın saltanatında yaşanmıştı.",
+    "secenekler": [
+      {
+        "metin": "Bu çelişkili mirası anlamaya çalış",
+        "etki": { "zeka": 3 },
+        "sonuc": "Tarih bazen böyle acımasız bir öğretmendi — aynı çatı altında hem en büyük zaferler hem en ağır yenilgiler yaşanabiliyordu."
+      },
+      {
+        "metin": "Geleceğe umutla bak",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Yeni bir dönem başlıyordu, kimse ne getireceğini henüz bilmiyordu."
+      }
+    ]
   }
 ]
