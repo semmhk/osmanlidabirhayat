@@ -68,5 +68,19 @@ void main() {
       expect(content, contains('Dağılma'));
       expect(content, contains('Donizetti'));
     });
+
+    test('5. Temel ses efektleri (mühür, kâğıt, kös) dosyaları diskte var olmalı', () async {
+      final muhurFile = File('assets/sesler/muhur_damga.wav');
+      final kagitFile = File('assets/sesler/kagit_hisirtisi.wav');
+      final vefatFile = File('assets/sesler/vefat_davul.wav');
+
+      expect(muhurFile.existsSync(), isTrue, reason: 'muhur_damga.wav bulunamadı');
+      expect(kagitFile.existsSync(), isTrue, reason: 'kagit_hisirtisi.wav bulunamadı');
+      expect(vefatFile.existsSync(), isTrue, reason: 'vefat_davul.wav bulunamadı');
+
+      expect(muhurFile.lengthSync(), greaterThan(10000));
+      expect(kagitFile.lengthSync(), greaterThan(10000));
+      expect(vefatFile.lengthSync(), greaterThan(10000));
+    });
   });
 }
