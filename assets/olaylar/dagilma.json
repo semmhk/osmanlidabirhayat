@@ -1297,5 +1297,317 @@
         "sonuc": "Büyük tarihi değişimler ne olursa olsun, hayat kendi akışında sürüyordu."
       }
     ]
+  },
+  {
+    "id": "abdulhamid2_1_001_tahta_cikis_bunalim",
+    "donem": "dagilma",
+    "alt_donem": "ikinci_abdulhamid_1",
+    "tarih_yil_min": 1876,
+    "tarih_yil_max": 1876,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "31 Ağustos 1876'da, devletin en bunalımlı günlerinde (Hersek/Bulgar isyanları sürerken, V. Murad'ın kısa saltanatının hemen ardından) II. Abdülhamid tahta çıktı. Mithat Paşa'ya, meşrutiyeti ilan edeceğine dair söz vermişti.",
+    "secenekler": [
+      {
+        "metin": "Bu genç ve verdiği sözle umut vaat eden sultana güven",
+        "etki": { "mutluluk": 2, "zeka": 1 },
+        "sonuc": "Devlet, art arda yaşanan krizlerin ardından bir umut ışığı arıyordu."
+      },
+      {
+        "metin": "Devletin içinde bulunduğu ağır krizden endişelen",
+        "etki": { "zeka": 2, "mutluluk": -2 },
+        "sonuc": "İsyanlar, mali iflas, art arda taht değişimleri — devraldığı miras gerçekten ağırdı."
+      }
+    ]
+  },
+  {
+    "id": "abdulhamid2_1_002_tersane_konferansi",
+    "donem": "dagilma",
+    "alt_donem": "ikinci_abdulhamid_1",
+    "tarih_yil_min": 1876,
+    "tarih_yil_max": 1876,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "İstanbul'da (Tersane'de) toplanan Avrupa devletleri konferansı, Bosna-Hersek ve Bulgaristan'a özerklik verilmesini istedi. Osmanlı bu talepleri reddetti — ama tam o gün, ilginç bir taktikle Meşrutiyet'in ilan edildiği duyuruldu, böylece 'zaten kendi anayasamızı yapıyoruz' mesajı verildi.",
+    "secenekler": [
+      {
+        "metin": "Bu akıllıca diplomatik taktiği takdir et",
+        "etki": { "zeka": 3, "mutluluk": 1 },
+        "sonuc": "Avrupa'nın taleplerini reddederken aynı zamanda kendi reform iradesini göstermek, ustaca bir hamleydi."
+      },
+      {
+        "metin": "Bu red kararının sonuçlarından endişelen",
+        "etki": { "zeka": 2, "mutluluk": -2 },
+        "sonuc": "Rusya'nın bu redde nasıl tepki vereceği büyük bir soru işaretiydi."
+      }
+    ]
+  },
+  {
+    "id": "abdulhamid2_1_003_kanun_i_esasi",
+    "donem": "dagilma",
+    "alt_donem": "ikinci_abdulhamid_1",
+    "tarih_yil_min": 1876,
+    "tarih_yil_max": 1876,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "23 Aralık 1876'da II. Abdülhamid, Mithat ve Sait Paşaların hazırladığı Kanun-ı Esasi'yi (ilk Osmanlı anayasası) ilan etti — imparatorluk tarihinde ilk kez, padişahın yanında bir meclis ve yazılı bir anayasa olacaktı.",
+    "secenekler": [
+      {
+        "metin": "Bu tarihi anı büyük bir heyecanla karşıla",
+        "etki": { "zeka": 4, "mutluluk": 4 },
+        "sonuc": "Yüzyıllardır süren mutlak monarşi, artık kağıt üzerinde de olsa sınırlanıyordu — bu, imparatorluk tarihinde eşi görülmemiş bir andı."
+      },
+      {
+        "metin": "Bu değişimin gerçekte ne kadar kalıcı olacağını merak et",
+        "etki": { "zeka": 2 },
+        "sonuc": "Sözler güzeldi, ama uygulamanın nasıl olacağı zamanla görülecekti."
+      }
+    ]
+  },
+  {
+    "id": "abdulhamid2_1_004_meclis_i_mebusan_acilis",
+    "donem": "dagilma",
+    "alt_donem": "ikinci_abdulhamid_1",
+    "tarih_yil_min": 1877,
+    "tarih_yil_max": 1877,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "19 Mart 1877'de Meclis-i Mebusan ve Ayan Meclisi'nden oluşan ilk Osmanlı parlamentosu resmen açıldı — I. Meşrutiyet dönemi böylece fiilen başlamış oldu.",
+    "secenekler": [
+      {
+        "metin": "Bu meclisin açılışına tanıklık et",
+        "etki": { "zeka": 3, "mutluluk": 3 },
+        "sonuc": "Farklı milletlerden, farklı dinlerden temsilcilerin aynı mecliste bir araya gelmesi, görülmemiş bir manzaraydı."
+      },
+      {
+        "metin": "Bu yeni sistemin nasıl işleyeceğini merakla izle",
+        "etki": { "zeka": 2 },
+        "sonuc": "Meclis'in padişahla nasıl bir denge kuracağı henüz belirsizdi."
+      }
+    ]
+  },
+  {
+    "id": "abdulhamid2_1_005_mithat_pasa_surgun",
+    "donem": "dagilma",
+    "alt_donem": "ikinci_abdulhamid_1",
+    "tarih_yil_min": 1877,
+    "tarih_yil_max": 1877,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "Şaşırtıcı bir gelişme: Meclis daha toplanmadan önce, II. Abdülhamid Kanun-ı Esasi'nin kendisine tanıdığı 'sürgün yetkisi'ni kullanarak, Meşrutiyet'in mimarı Mithat Paşa'yı sürgüne gönderdi.",
+    "secenekler": [
+      {
+        "metin": "Bu kararı endişeyle karşıla",
+        "etki": { "zeka": 2, "mutluluk": -3 },
+        "sonuc": "Anayasayı ilan eden padişah, aynı anayasanın verdiği yetkiyle, o anayasanın mimarını sürgüne gönderiyordu — bu, çelişkili bir başlangıçtı."
+      },
+      {
+        "metin": "Bu kararın arkasındaki gerçek nedeni sorgula",
+        "etki": { "zeka": 3, "mutluluk": -2 },
+        "sonuc": "Bu, gelecekteki daha büyük bir güç mücadelesinin ilk işareti gibiydi."
+      }
+    ]
+  },
+  {
+    "id": "abdulhamid2_1_006_93_harbi_baslangic",
+    "donem": "dagilma",
+    "alt_donem": "ikinci_abdulhamid_1",
+    "tarih_yil_min": 1877,
+    "tarih_yil_max": 1877,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "Osmanlı, Tersane Konferansı kararlarını reddedince, 24 Nisan 1877'de Rusya savaş ilan etti — hem Romanya hem Kafkasya üzerinden aynı anda saldırıya geçti. Aynı zamanda Sırbistan ve Karadağ ile de savaş yeniden başladı.",
+    "secenekler": [
+      {
+        "metin": "Bu üç cepheli savaştan büyük bir endişe duy",
+        "etki": { "mutluluk": -4, "zeka": 2 },
+        "sonuc": "Devletin sınırlı kuvvetleri, birden fazla cephede aynı anda savaşmak zorunda kalıyordu."
+      },
+      {
+        "metin": "Devletin bu zorlu savaşı atlatacağına inanmaya çalış",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Herkes, bu savaşın sonucunu büyük bir kaygıyla bekliyordu."
+      }
+    ]
+  },
+  {
+    "id": "abdulhamid2_1_007_plevne_savunmasi",
+    "donem": "dagilma",
+    "alt_donem": "ikinci_abdulhamid_1",
+    "tarih_yil_min": 1877,
+    "tarih_yil_max": 1877,
+    "yas_min": 16,
+    "yas_max": 50,
+    "tek_seferlik": true,
+    "gerekli_bayrak": "meslek_seyfiye",
+    "metin": "Plevne'de (bugünkü Bulgaristan) Osman Paşa komutasındaki Osmanlı kuvvetleri, sayıca çok üstün Rus-Romen ordusuna karşı beş ay boyunca kahramanca direndi — bu direniş, savaşın en gururlu anlarından biri olarak hatırlanacak.",
+    "secenekler": [
+      {
+        "metin": "Bu tarihi savunmada bulun",
+        "etki": { "para": 4, "itibar": 5, "saglik": -5, "sans_gerekli": true },
+        "sonuc": "Beş ay boyunca dayanan bu savunma, sayıca çok üstün bir düşmana karşı gösterilen olağanüstü bir azimdi — sonunda kale düştü ama şeref kaybedilmedi."
+      },
+      {
+        "metin": "Bu kahramanca direnişi uzaktan gururla takip et",
+        "etki": { "mutluluk": 3, "itibar": 1 },
+        "sonuc": "Plevne'nin adı, cesaret ve azmin sembolü olarak halkın hafızasına kazınacaktı."
+      }
+    ]
+  },
+  {
+    "id": "abdulhamid2_1_008_ruslarin_yesilkoye_dayanmasi",
+    "donem": "dagilma",
+    "alt_donem": "ikinci_abdulhamid_1",
+    "tarih_yil_min": 1878,
+    "tarih_yil_max": 1878,
+    "yas_min": 5,
+    "yas_max": 80,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "Plevne'nin düşüşünün ardından Rus orduları hızla ilerleyip İstanbul surlarının hemen dışındaki Ayastefanos'a (bugünkü Yeşilköy) kadar geldi — başkentin düşme tehlikesi, tarihte ender görülen bir dehşeti yaşattı.",
+    "secenekler": [
+      {
+        "metin": "Bu dehşet verici tehdidi yaşa",
+        "etki": { "mutluluk": -8, "saglik": -1 },
+        "sonuc": "Düşman ordusunun şehrin kapılarına bu kadar yaklaşması, herkesin hayatında yaşadığı en korkutucu anlardan biriydi."
+      },
+      {
+        "metin": "Şehrin savunmasına katkıda bulunmaya çalış",
+        "etki": { "para": -2, "mutluluk": -4 },
+        "sonuc": "Herkes elinden geleni yapmaya çalışıyordu — ama düşman, gerçekten çok yakındaydı."
+      }
+    ]
+  },
+  {
+    "id": "abdulhamid2_1_009_ayastefanos_antlasmasi",
+    "donem": "dagilma",
+    "alt_donem": "ikinci_abdulhamid_1",
+    "tarih_yil_min": 1878,
+    "tarih_yil_max": 1878,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "3 Mart 1878'de, Rus kuvvetlerinin dikte ettiği ağır şartlarla Ayastefanos Antlaşması imzalandı — büyük bir Bulgaristan kuruluyor, Sırbistan/Karadağ/Romanya bağımsız oluyor, devlet ağır bir savaş tazminatı ödemeye mecbur bırakılıyordu.",
+    "secenekler": [
+      {
+        "metin": "Bu ağır şartları derin bir acıyla kabul et",
+        "etki": { "mutluluk": -8, "itibar": -2 },
+        "sonuc": "93 Harbi, imparatorluk tarihinin en ağır yenilgilerinden biri olarak kayıtlara geçiyordu."
+      },
+      {
+        "metin": "Bu antlaşmanın diğer Avrupa devletlerince değiştirileceğini umut et",
+        "etki": { "zeka": 2, "mutluluk": -5 },
+        "sonuc": "Bazı büyük devletler, Rusya'nın bu denli güçlenmesinden hoşnut değildi — belki bu antlaşma revize edilebilirdi."
+      }
+    ]
+  },
+  {
+    "id": "abdulhamid2_1_010_berlin_antlasmasi",
+    "donem": "dagilma",
+    "alt_donem": "ikinci_abdulhamid_1",
+    "tarih_yil_min": 1878,
+    "tarih_yil_max": 1878,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "Diğer Avrupa devletleri (özellikle İngiltere ve Avusturya), Rusya'nın Ayastefanos ile aşırı güçlenmesinden endişe edip Berlin'de yeni bir konferans düzenledi. Berlin Antlaşması ile Bulgaristan küçültüldü, ama Sırbistan/Karadağ/Romanya'nın bağımsızlığı, Bosna-Hersek'in Avusturya'ya, Kıbrıs'ın da İngilizlere (askeri üs olarak) verilmesi kesinleşti.",
+    "secenekler": [
+      {
+        "metin": "Bu revizyonu kısmi bir rahatlama say",
+        "etki": { "mutluluk": -3, "zeka": 2 },
+        "sonuc": "Ayastefanos'a göre biraz daha az ağırdı ama yine de büyük toprak kayıpları kesinleşmişti."
+      },
+      {
+        "metin": "Büyük devletlerin kendi çıkarları için pazarlık yaptığını gözlemle",
+        "etki": { "zeka": 3, "mutluluk": -2 },
+        "sonuc": "Osmanlı toprakları, büyük devletlerin masasında bir pazarlık konusu haline gelmişti."
+      }
+    ]
+  },
+  {
+    "id": "abdulhamid2_1_011_meclisin_kapatilmasi",
+    "donem": "dagilma",
+    "alt_donem": "ikinci_abdulhamid_1",
+    "tarih_yil_min": 1878,
+    "tarih_yil_max": 1878,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "93 Harbi'nin ağır sonuçlarını gerekçe gösteren II. Abdülhamid, Meclis-i Mebusan'ı süresiz olarak kapattı — Kanun-ı Esasi kağıt üzerinde kalmaya devam etse de, meclis 30 yıl boyunca bir daha toplanmayacak. I. Meşrutiyet dönemi böylece sona erdi.",
+    "secenekler": [
+      {
+        "metin": "Bu kararı devletin bekası için gerekli bir tedbir say",
+        "etki": { "zeka": 1, "mutluluk": -2 },
+        "sonuc": "Kriz döneminde tek elden yönetimin daha etkili olacağı düşünülüyordu — ama bu, demokrasi deneyiminin de sonu demekti."
+      },
+      {
+        "metin": "Bu kararı büyük bir hayal kırıklığıyla karşıla",
+        "etki": { "mutluluk": -5, "zeka": 2 },
+        "sonuc": "Kısa süren bu meşrutiyet deneyimi, artık uzun bir bekleyişe dönüşüyordu."
+      }
+    ]
+  },
+  {
+    "id": "abdulhamid2_1_012_kibris_ingilizlere",
+    "donem": "dagilma",
+    "alt_donem": "ikinci_abdulhamid_1",
+    "tarih_yil_min": 1878,
+    "tarih_yil_max": 1878,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "İngiltere ile yapılan ayrı bir antlaşma sonucu Kıbrıs, resmi olarak Osmanlı toprağı sayılmaya devam etse de, İngiliz idaresine ve askeri üssüne bırakıldı — Rusya'ya karşı İngiliz desteğinin bir bedeliydi bu.",
+    "secenekler": [
+      {
+        "metin": "Bu düzenlemeyi acı bir zorunluluk olarak kabul et",
+        "etki": { "mutluluk": -3, "zeka": 1 },
+        "sonuc": "Rus tehdidine karşı İngiliz desteği önemliydi, ama bunun bedeli de ağırdı."
+      },
+      {
+        "metin": "Bu kaybı gelecekteki daha büyük kayıpların habercisi say",
+        "etki": { "zeka": 2, "mutluluk": -2 },
+        "sonuc": "Toprak toprak, devlet küçülüyordu — bu eğilim durdurulamıyordu."
+      }
+    ]
+  },
+  {
+    "id": "abdulhamid2_1_013_donem_kapanis_istibdada_gecis",
+    "donem": "dagilma",
+    "alt_donem": "ikinci_abdulhamid_1",
+    "tarih_yil_min": 1878,
+    "tarih_yil_max": 1878,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "93 Harbi'nin ardından, II. Abdülhamid devletin bekası için tek elden, sıkı bir yönetim gerektiğine iyice ikna oldu — önümüzdeki 30 yıl, tarihe 'İstibdat Dönemi' olarak geçecek, sıkı bir merkezi otorite ve gözetim çağı olacak.",
+    "secenekler": [
+      {
+        "metin": "Bu yeni dönemin nasıl şekilleneceğini merakla bekle",
+        "etki": { "zeka": 2, "mutluluk": -1 },
+        "sonuc": "Meşrutiyet deneyimi kısa sürmüştü, şimdi çok daha uzun ve farklı bir dönem başlıyordu."
+      },
+      {
+        "metin": "Devletin toparlanma ihtiyacını anlayışla karşıla",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "93 Harbi'nin acısı, herkesin bir tür istikrar aramasına yol açmıştı."
+      }
+    ]
   }
 ]

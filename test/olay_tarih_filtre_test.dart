@@ -27,12 +27,12 @@ void main() {
       tumOlaylar = [...o1, ...o2, ...o3, ...o4, ...o5];
     });
 
-    test('1. kurulus (138) + yukselme (101) + duraklama (118) + gerileme (68) + dagilma (54) = 479 olay eksiksiz, benzersiz ID ve alt_donem alanlarıyla yüklenmeli', () {
-      expect(tumOlaylar.length, equals(479));
+    test('1. kurulus (138) + yukselme (101) + duraklama (118) + gerileme (68) + dagilma (67) = 492 olay eksiksiz, benzersiz ID ve alt_donem alanlarıyla yüklenmeli', () {
+      expect(tumOlaylar.length, equals(492));
       
       // Benzersiz ID kontrolü
       final idSet = tumOlaylar.map((o) => o.id).toSet();
-      expect(idSet.length, equals(479));
+      expect(idSet.length, equals(492));
 
       final ahilikOlayi = tumOlaylar.firstWhere((o) => o.id == 'kurulus_001');
       expect(ahilikOlayi.tarihYilMin, equals(1299));
@@ -176,6 +176,11 @@ void main() {
       final avrupaSeyahati = tumOlaylar.firstWhere((o) => o.id == 'abdulaziz_002_avrupa_seyahati');
       expect(avrupaSeyahati.donem, equals('dagilma'));
       expect(avrupaSeyahati.altDonem, equals('abdulaziz'));
+
+      // II. Abdülhamid I Dağılma dönemi olayları kontrolü
+      final kanunIEsasi = tumOlaylar.firstWhere((o) => o.id == 'abdulhamid2_1_003_kanun_i_esasi');
+      expect(kanunIEsasi.donem, equals('dagilma'));
+      expect(kanunIEsasi.altDonem, equals('ikinci_abdulhamid_1'));
     });
 
     test('2. Şema doğrulayıcı hatalı tarih_yil_min > tarih_yil_max durumunu yakalamalı', () {
