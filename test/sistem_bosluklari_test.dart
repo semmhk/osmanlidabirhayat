@@ -25,7 +25,7 @@ void main() {
       kurulusOlaylari = yukleyici.jsonMetnindenYukle(jsonString, 'kurulus.json');
     });
 
-    test('1. Toplam 451 olay (Kuruluş 138 + Yükselme 101 + Duraklama 118 + Gerileme 68 + Dağılma 26) yüklenmeli ve benzersiz ID\'lere sahip olmalı', () {
+    test('1. Toplam 465 olay (Kuruluş 138 + Yükselme 101 + Duraklama 118 + Gerileme 68 + Dağılma 40) yüklenmeli ve benzersiz ID\'lere sahip olmalı', () {
       final fileKurulus = File('assets/olaylar/kurulus.json');
       final fileYukselme = File('assets/olaylar/yukselme.json');
       final fileDuraklama = File('assets/olaylar/duraklama.json');
@@ -37,8 +37,8 @@ void main() {
       final o3 = yukleyici.jsonMetnindenYukle(fileDuraklama.readAsStringSync(), 'duraklama.json', idSet);
       final o4 = yukleyici.jsonMetnindenYukle(fileGerileme.readAsStringSync(), 'gerileme.json', idSet);
       final o5 = yukleyici.jsonMetnindenYukle(fileDagilma.readAsStringSync(), 'dagilma.json', idSet);
-      expect(o1.length + o2.length + o3.length + o4.length + o5.length, equals(451));
-      expect(idSet.length, equals(451));
+      expect(o1.length + o2.length + o3.length + o4.length + o5.length, equals(465));
+      expect(idSet.length, equals(465));
     });
 
     test('2. Kalemiye meslek atama olayı (kurulus_073) doğru çalışmalı', () {

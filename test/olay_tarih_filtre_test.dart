@@ -27,12 +27,12 @@ void main() {
       tumOlaylar = [...o1, ...o2, ...o3, ...o4, ...o5];
     });
 
-    test('1. kurulus (138) + yukselme (101) + duraklama (118) + gerileme (68) + dagilma (26) = 451 olay eksiksiz, benzersiz ID ve alt_donem alanlarıyla yüklenmeli', () {
-      expect(tumOlaylar.length, equals(451));
+    test('1. kurulus (138) + yukselme (101) + duraklama (118) + gerileme (68) + dagilma (40) = 465 olay eksiksiz, benzersiz ID ve alt_donem alanlarıyla yüklenmeli', () {
+      expect(tumOlaylar.length, equals(465));
       
       // Benzersiz ID kontrolü
       final idSet = tumOlaylar.map((o) => o.id).toSet();
-      expect(idSet.length, equals(451));
+      expect(idSet.length, equals(465));
 
       final ahilikOlayi = tumOlaylar.firstWhere((o) => o.id == 'kurulus_001');
       expect(ahilikOlayi.tarihYilMin, equals(1299));
@@ -166,6 +166,11 @@ void main() {
       final vakaIHayriye = tumOlaylar.firstWhere((o) => o.id == 'mahmud2_2_001_vaka_i_hayriye');
       expect(vakaIHayriye.donem, equals('dagilma'));
       expect(vakaIHayriye.altDonem, equals('ikinci_mahmud_2'));
+
+      // Abdülmecid Dağılma dönemi olayları kontrolü
+      final tanzimatFermani = tumOlaylar.firstWhere((o) => o.id == 'abdulmecid_002_tanzimat_fermani');
+      expect(tanzimatFermani.donem, equals('dagilma'));
+      expect(tanzimatFermani.altDonem, equals('abdulmecid'));
     });
 
     test('2. Şema doğrulayıcı hatalı tarih_yil_min > tarih_yil_max durumunu yakalamalı', () {

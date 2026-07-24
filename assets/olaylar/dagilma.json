@@ -624,5 +624,341 @@
         "sonuc": "Büyük tarihi dönüşümler ne olursa olsun, hayat kendi akışında sürüyordu."
       }
     ]
+  },
+  {
+    "id": "abdulmecid_001_avrupa_vesayeti",
+    "donem": "dagilma",
+    "alt_donem": "abdulmecid",
+    "tarih_yil_min": 1839,
+    "tarih_yil_max": 1839,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "16 yaşındaki Abdülmecid tahta çıkar çıkmaz, İngiltere, Fransa, Rusya, Avusturya ve Prusya ortak bir nota verip Mısır meselesinin kendilerine danışılmadan çözülemeyeceğini bildirdi — Osmanlı Devleti artık bir bakıma Avrupa'nın vesayeti altındaydı.",
+    "secenekler": [
+      {
+        "metin": "Bu durumu acı bir gerçeklik olarak kabul et",
+        "etki": { "mutluluk": -4, "zeka": 2 },
+        "sonuc": "Bağımsız kararlar alabilme gücümüz, artık büyük ölçüde Avrupa'nın onayına bağlıydı."
+      },
+      {
+        "metin": "Bunun devletin kurtuluşu için gerekli bir denge olduğunu düşün",
+        "etki": { "zeka": 2, "mutluluk": -2 },
+        "sonuc": "Avrupa'nın desteği olmadan Mehmed Ali krizinden çıkmak mümkün görünmüyordu."
+      }
+    ]
+  },
+  {
+    "id": "abdulmecid_002_tanzimat_fermani",
+    "donem": "dagilma",
+    "alt_donem": "abdulmecid",
+    "tarih_yil_min": 1839,
+    "tarih_yil_max": 1839,
+    "yas_min": 5,
+    "yas_max": 80,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "3 Kasım 1839'da Hariciye Nazırı Mustafa Reşid Paşa, Gülhane Parkı'nda tüm cemaat liderleri ve yabancı elçilerin huzurunda 'Tanzimat Fermanı'nı (Gülhane Hatt-ı Hümayunu) okudu — din farkı gözetmeksizin herkesin can, mal, ırz güvenliği, vergi adaleti ve mülkiyet hakkı güvence altına alınıyordu.",
+    "secenekler": [
+      {
+        "metin": "Bu tarihi fermanı büyük bir ilgiyle dinle",
+        "etki": { "zeka": 4, "mutluluk": 3 },
+        "sonuc": "Bu, devletin yönetim anlayışında köklü bir dönüşümün resmi ilanıydı — artık herkes kanun önünde eşit sayılacaktı, en azından kağıt üzerinde."
+      },
+      {
+        "metin": "Bu değişimin gerçekte ne kadar uygulanacağını merak et",
+        "etki": { "zeka": 2 },
+        "sonuc": "Güzel sözlerin gerçek hayata ne kadar yansıyacağı, zamanla görülecekti."
+      }
+    ]
+  },
+  {
+    "id": "abdulmecid_003_londra_antlasmasi",
+    "donem": "dagilma",
+    "alt_donem": "abdulmecid",
+    "tarih_yil_min": 1840,
+    "tarih_yil_max": 1840,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "15 Temmuz 1840'ta Londra'da imzalanan antlaşmayla Mısır meselesi nihayet çözüldü — Mehmed Ali Paşa'ya sadece Mısır valiliği babadan oğula geçecek şekilde bırakıldı, diğer tüm topraklardan (Suriye, Girit, Hicaz) çekilmesi istendi.",
+    "secenekler": [
+      {
+        "metin": "Bu çözümü bir denge olarak kabul et",
+        "etki": { "zeka": 2, "mutluluk": 3 },
+        "sonuc": "Yıllarca süren kriz nihayet çözüme kavuşmuştu — Mısır resmen elden çıkmasa da, fiilen özerk bir yapıya dönüşüyordu."
+      },
+      {
+        "metin": "Bu antlaşmayı Avrupa'nın müdahalesinin bir sonucu say",
+        "etki": { "zeka": 1, "mutluluk": -1 },
+        "sonuc": "Devletin kendi iç meselesi, artık büyük Avrupa devletlerinin masasında çözülüyordu."
+      }
+    ]
+  },
+  {
+    "id": "abdulmecid_004_bogazlar_sozlesmesi",
+    "donem": "dagilma",
+    "alt_donem": "abdulmecid",
+    "tarih_yil_min": 1841,
+    "tarih_yil_max": 1841,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "1841 Boğazlar Sözleşmesi imzalandı — bu antlaşmayla boğazlar (İstanbul ve Çanakkale) barış zamanında tüm yabancı savaş gemilerine kapatıldı, ama Osmanlı egemenliği altında kalmaya devam etti.",
+    "secenekler": [
+      {
+        "metin": "Bu antlaşmayı devletin egemenliğinin korunması adına olumlu bul",
+        "etki": { "zeka": 2, "mutluluk": 2 },
+        "sonuc": "En azından boğazlar üzerindeki hakimiyetimiz uluslararası olarak tanınmıştı."
+      },
+      {
+        "metin": "Bu meselenin uluslararası bir konu haline gelmesinden endişelen",
+        "etki": { "zeka": 1, "mutluluk": -1 },
+        "sonuc": "Boğazlar artık sadece bizim değil, tüm büyük devletlerin ilgi alanındaydı."
+      }
+    ]
+  },
+  {
+    "id": "abdulmecid_005_kirim_savasi_baslangic",
+    "donem": "dagilma",
+    "alt_donem": "abdulmecid",
+    "tarih_yil_min": 1853,
+    "tarih_yil_max": 1853,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "Rusya'nın sıcak denizlere ulaşma isteği ve imparatorluk içindeki Ortodoksların 'hamiliğine' soyunması, Osmanlı-Rus savaşını başlattı — bu kez İngiltere ve Fransa, Rusya'nın büyümesinden endişelenerek Osmanlı'nın yanında yer aldı.",
+    "secenekler": [
+      {
+        "metin": "Bu büyük ittifakı umutla karşıla",
+        "etki": { "mutluluk": 3, "zeka": 1 },
+        "sonuc": "İlk kez Avrupa'nın iki büyük gücü, Osmanlı'yı savunmak için bizzat savaşa giriyordu."
+      },
+      {
+        "metin": "Bu ittifakın bedelini merak et",
+        "etki": { "zeka": 2 },
+        "sonuc": "Böylesine büyük bir yardımın, karşılığında bir bedeli olacağı aşikardı."
+      }
+    ]
+  },
+  {
+    "id": "abdulmecid_006_ilk_dis_borc",
+    "donem": "dagilma",
+    "alt_donem": "abdulmecid",
+    "tarih_yil_min": 1854,
+    "tarih_yil_max": 1854,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "Savaş masraflarını karşılayabilmek için Osmanlı Devleti, tarihinde ilk kez İngiltere'den dış borç aldı — bu, devletin mali bağımsızlığının sonunun başlangıcı olarak hatırlanacak.",
+    "secenekler": [
+      {
+        "metin": "Bu zorunlu adımı savaşın gereği say",
+        "etki": { "zeka": 1, "mutluluk": -2 },
+        "sonuc": "Savaşı sürdürebilmek için başka çare görünmüyordu — ama bu, tehlikeli bir kapıyı da aralıyordu."
+      },
+      {
+        "metin": "Bu borçlanmanın gelecekteki sonuçlarından endişelen",
+        "etki": { "zeka": 3, "mutluluk": -3 },
+        "sonuc": "İlk borç genelde son borç olmazdı — bu, uzun bir mali bağımlılık zincirinin başlangıcı olabilirdi."
+      }
+    ]
+  },
+  {
+    "id": "abdulmecid_007_kirim_savasi_kazanim",
+    "donem": "dagilma",
+    "alt_donem": "abdulmecid",
+    "tarih_yil_min": 1854,
+    "tarih_yil_max": 1856,
+    "yas_min": 16,
+    "yas_max": 50,
+    "tek_seferlik": true,
+    "gerekli_bayrak": "meslek_seyfiye",
+    "metin": "Kırım'da (Sivastopol çevresinde) yaşanan zorlu ve kanlı savaşta, Osmanlı-İngiliz-Fransız ortak kuvvetleri sonunda Rusya'yı yenmeyi başardı.",
+    "secenekler": [
+      {
+        "metin": "Bu zorlu savaşa katıl",
+        "etki": { "para": 5, "itibar": 4, "saglik": -5, "sans_gerekli": true },
+        "sonuc": "Kırım'daki koşullar çok ağırdı ama sonunda zafer bizimdi — Rusya'nın genişleme hırsı bir kez daha durdurulmuştu."
+      },
+      {
+        "metin": "Bu zaferi uzaktan büyük bir gururla kutla",
+        "etki": { "mutluluk": 5, "itibar": 2 },
+        "sonuc": "Uzun zamandır ilk kez, büyük bir savaşta galip gelen taraftaydık."
+      }
+    ]
+  },
+  {
+    "id": "abdulmecid_008_paris_antlasmasi",
+    "donem": "dagilma",
+    "alt_donem": "abdulmecid",
+    "tarih_yil_min": 1856,
+    "tarih_yil_max": 1856,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "30 Mart 1856'da imzalanan Paris Antlaşması ile savaş sona erdi — antlaşmada çok önemli bir madde vardı: Osmanlı Devleti resmen bir 'Avrupa devleti' olarak tanınıyordu.",
+    "secenekler": [
+      {
+        "metin": "Bu tanınmayı büyük bir gururla karşıla",
+        "etki": { "mutluluk": 6, "itibar": 3 },
+        "sonuc": "Yüzyıllardır 'öteki' sayılan bir imparatorluk, artık resmen Avrupa devletler ailesinin bir parçasıydı."
+      },
+      {
+        "metin": "Bu tanınmanın gerçek eşitlik anlamına gelip gelmediğini sorgula",
+        "etki": { "zeka": 2, "mutluluk": 2 },
+        "sonuc": "Kağıt üzerindeki eşitlik ile fiili güç dengesi arasında hâlâ büyük bir fark vardı."
+      }
+    ]
+  },
+  {
+    "id": "abdulmecid_009_islahat_fermani",
+    "donem": "dagilma",
+    "alt_donem": "abdulmecid",
+    "tarih_yil_min": 1856,
+    "tarih_yil_max": 1856,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "Paris Konferansı sırasında Islahat Fermanı da ilan edildi — gayrimüslimlere mülk edinme, kanun önünde tam eşitlik gibi yeni haklar tanındı. Bu, Tanzimat'ın gayrimüslimler için genişletilmiş versiyonuydu.",
+    "secenekler": [
+      {
+        "metin": "Bu genişletilmiş hakları memnuniyetle karşıla",
+        "etki": { "mutluluk": 3, "zeka": 1 },
+        "sonuc": "İmparatorluk, tüm tebaasını daha eşit bir şekilde kucaklamaya çalışıyordu — en azından niyet böyleydi."
+      },
+      {
+        "metin": "Bu değişimlerin toplumda nasıl karşılanacağını merak et",
+        "etki": { "zeka": 2 },
+        "sonuc": "Böylesine köklü bir değişim, herkes tarafından aynı hızda kabul edilmeyebilirdi."
+      }
+    ]
+  },
+  {
+    "id": "abdulmecid_010_kuleli_vakasi",
+    "donem": "dagilma",
+    "alt_donem": "abdulmecid",
+    "tarih_yil_min": 1859,
+    "tarih_yil_max": 1859,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "Tanzimat'a duyulan hoşnutsuzluk artınca, bazı muhalifler Abdülmecid'i tahttan indirip kardeşi Abdülaziz'i geçirmeyi planladı — ama bu 'Kuleli Vakası' olarak bilinen komplo, 14 Eylül 1859'da daha başlamadan bir ihbar üzerine bastırıldı.",
+    "secenekler": [
+      {
+        "metin": "Bu komplonun ortaya çıkarılmasını olumlu karşıla",
+        "etki": { "itibar": 1, "mutluluk": 1 },
+        "sonuc": "Devletin istikrarı, bu kez erken müdahaleyle korunmuştu."
+      },
+      {
+        "metin": "Bu tür komploların hâlâ gündemde olmasından endişelen",
+        "etki": { "zeka": 2, "mutluluk": -2 },
+        "sonuc": "Tanzimat'ın getirdiği değişimler, herkesi memnun etmiyordu — muhalefet hâlâ güçlüydü."
+      }
+    ]
+  },
+  {
+    "id": "abdulmecid_011_borc_krizi",
+    "donem": "dagilma",
+    "alt_donem": "abdulmecid",
+    "tarih_yil_min": 1859,
+    "tarih_yil_max": 1861,
+    "yas_min": 15,
+    "yas_max": 55,
+    "tek_seferlik": false,
+    "gerekli_bayrak": null,
+    "metin": "Savaş sonrası mali durum iyice kötüleşti — ağır şartlarla alınan dış borçlar hazineye büyük yük getirdi, saray mücevherleri bile rehin verildi. Bu durumu eleştiren Sadrazam Ali Paşa görevden alındı.",
+    "secenekler": [
+      {
+        "metin": "Bu mali krizden endişelen",
+        "etki": { "para": -3, "mutluluk": -3 },
+        "sonuc": "Devlet artık borç sarmalına girmişti — bu, geleceğe dair ciddi bir endişe kaynağıydı."
+      },
+      {
+        "metin": "Devletin bu krizi aşacağına inanmaya çalış",
+        "etki": { "mutluluk": -1 },
+        "sonuc": "Mali sıkıntılar, zaman zaman gündeme gelen bir mesele haline gelmişti."
+      }
+    ]
+  },
+  {
+    "id": "abdulmecid_012_dolmabahce_telgraf",
+    "donem": "dagilma",
+    "alt_donem": "abdulmecid",
+    "tarih_yil_min": 1843,
+    "tarih_yil_max": 1861,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": false,
+    "gerekli_bayrak": null,
+    "metin": "Bu dönemde imparatorluk, modernleşmenin görünür sembollerine kavuştu: Avrupa saraylarına benzeyen görkemli Dolmabahçe Sarayı inşa edildi, ilk telgraf hatları çekilmeye başlandı — teknolojik yenilikler gündelik hayata da yavaş yavaş giriyor.",
+    "secenekler": [
+      {
+        "metin": "Bu yeni teknoloji ve mimariden etkilen",
+        "etki": { "zeka": 3, "mutluluk": 2 },
+        "sonuc": "Telgrafla haberler artık günler değil saatler içinde ulaşabiliyordu — bu, hayal bile edilemeyecek bir hızdı."
+      },
+      {
+        "metin": "Bu görkemli sarayın maliyetinden rahatsız ol",
+        "etki": { "mutluluk": -1 },
+        "sonuc": "Devlet zor günler geçirirken bu denli gösterişli bir saray inşası, bazılarının canını sıkıyordu."
+      }
+    ]
+  },
+  {
+    "id": "abdulmecid_013_gayrimuslim_haklari_gunluk_hayat",
+    "donem": "dagilma",
+    "alt_donem": "abdulmecid",
+    "tarih_yil_min": 1839,
+    "tarih_yil_max": 1861,
+    "yas_min": 15,
+    "yas_max": 55,
+    "tek_seferlik": false,
+    "gerekli_bayrak": null,
+    "metin": "Tanzimat ve Islahat fermanlarının etkisiyle, farklı din ve milletlerden insanların gündelik hayatı yavaş yavaş değişiyor — artık kanun önünde eşitlik iddiası vardı, ama bunun gerçek hayatta ne kadar uygulandığı bölgeden bölgeye farklılık gösteriyordu.",
+    "secenekler": [
+      {
+        "metin": "Bu değişimin adil bir şekilde uygulanmasını destekle",
+        "etki": { "itibar": 2, "mutluluk": 2 },
+        "sonuc": "Eşitlik iddiasının gerçek hayata yansıması, yavaş ama gözle görülür bir süreçti."
+      },
+      {
+        "metin": "Bu değişimlerin bazı çevrelerde direnişle karşılaştığını gözlemle",
+        "etki": { "zeka": 2 },
+        "sonuc": "Köklü değişimler, her zaman bazı kesimlerde hoşnutsuzluk yaratırdı."
+      }
+    ]
+  },
+  {
+    "id": "abdulmecid_014_abdulmecid_vefati",
+    "donem": "dagilma",
+    "alt_donem": "abdulmecid",
+    "tarih_yil_min": 1861,
+    "tarih_yil_max": 1861,
+    "yas_min": 5,
+    "yas_max": 80,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "1861'de, uzun süredir hastalık çeken Abdülmecid vefat etti — 22 yıllık saltanatı, Tanzimat'ın başlangıcı, Kırım Savaşı'ndaki zafer, ve Avrupa devletleri arasına resmen kabul edilmenin gururuyla anılacak. Yerine kardeşi Abdülaziz geçti.",
+    "secenekler": [
+      {
+        "metin": "Bu dönüşüm dolu saltanatı takdirle değerlendir",
+        "etki": { "zeka": 2, "mutluluk": -2 },
+        "sonuc": "İmparatorluk artık eskisinden çok farklı bir yapıya bürünmüştü — hem daha modern hem de daha borçlu, hem daha 'eşit' hem de eskisinden daha kırılgan."
+      },
+      {
+        "metin": "Yeni sultanın döneminden merak et",
+        "etki": { "zeka": 1 },
+        "sonuc": "Devletin geleceği, artık Abdülaziz'in ellerindeydi."
+      }
+    ]
   }
 ]
