@@ -36,7 +36,7 @@ void main() {
       // 1750 Gerileme dönemi
       final donem1750 = PadisahDeposu.donemBul(1750);
       expect(donem1750?.id, equals('gerileme'));
-      expect(SesServisi.donemMuzikleri[donem1750!.id], equals('muzikler/gerileme.ogg'));
+      expect(SesServisi.donemMuzikleri[donem1750!.id], equals('muzikler/gerileme.wav'));
 
       // 1900 Dağılma dönemi
       final donem1900 = PadisahDeposu.donemBul(1900);

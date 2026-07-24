@@ -38,7 +38,7 @@ class SesServisi {
     'kurulus': 'muzikler/kurulus.wav',
     'yukselme': 'muzikler/yukselme.wav',
     'duraklama': 'muzikler/duraklama.ogg',
-    'gerileme': 'muzikler/gerileme.ogg',
+    'gerileme': 'muzikler/gerileme.wav',
     'dagilma': 'muzikler/dagilma.ogg',
   };
 
