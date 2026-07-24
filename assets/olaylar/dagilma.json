@@ -1924,5 +1924,293 @@
         "sonuc": "Büyük bir değişimin yaklaştığı hissediliyordu, ama sonucunun ne olacağı belirsizdi."
       }
     ]
+  },
+  {
+    "id": "abdulhamid2_3_001_niyazi_bey_dagac_cikma",
+    "donem": "dagilma",
+    "alt_donem": "ikinci_abdulhamid_3",
+    "tarih_yil_min": 1908,
+    "tarih_yil_max": 1908,
+    "yas_min": 15,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": "meslek_seyfiye",
+    "metin": "Avrupa devletlerinin Makedonya'yı Osmanlı kontrolünden çıkaracağı söylentisi üzerine, Resneli Niyazi Bey ve Enver Bey önderliğindeki subaylar dağa çıkıp açıkça isyan bayrağı kaldırdı — bu, hem meşrutiyet hem de toprak bütünlüğü talebiyle yükselen bir askeri hareketti.",
+    "secenekler": [
+      {
+        "metin": "Bu harekete katıl",
+        "etki": { "para": 3, "itibar": 3, "mutluluk": 2, "sans_gerekli": true },
+        "sonuc": "Rumeli'de heyecan büyüyordu — bu hareketin sonucu ne olursa olsun, bir şeylerin değişmek üzere olduğu hissediliyordu."
+      },
+      {
+        "metin": "Bu gelişmeleri merakla ve umutla takip et",
+        "etki": { "zeka": 2, "mutluluk": 2 },
+        "sonuc": "Yıllardır bastırılan özgürlük talebi, artık açık bir isyana dönüşmüştü."
+      }
+    ]
+  },
+  {
+    "id": "abdulhamid2_3_002_mesrutiyetin_ilani",
+    "donem": "dagilma",
+    "alt_donem": "ikinci_abdulhamid_3",
+    "tarih_yil_min": 1908,
+    "tarih_yil_max": 1908,
+    "yas_min": 5,
+    "yas_max": 80,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "23-24 Temmuz 1908'de, İstanbul'a doğru yürüme tehdidi karşısında geri adım atan II. Abdülhamid, 30 yıl önce askıya aldığı Kanun-ı Esasi'yi yeniden yürürlüğe koyup Meşrutiyet'i ilan etti. Ertesi gün gazete sahipleri sansür memurlarını kapıdan çevirdi — bir gecede İstanbul'da yüzlerce yeni gazete yayına başladı.",
+    "secenekler": [
+      {
+        "metin": "Bu özgürlük patlamasını büyük bir sevinçle yaşa",
+        "etki": { "mutluluk": 9, "zeka": 3 },
+        "sonuc": "30 yıllık sessizliğin ardından, sokaklar birden bire kelimelerle, fikirlerle, umutla doldu. Bu, hayatının unutamayacağı bir andı."
+      },
+      {
+        "metin": "Bu değişimin kalıcı olup olmayacağını merakla izle",
+        "etki": { "zeka": 2, "mutluluk": 5 },
+        "sonuc": "İlk kez bu kadar özgürce konuşulabiliyordu — ama bu özgürlüğün ne kadar süreceği belirsizdi."
+      }
+    ]
+  },
+  {
+    "id": "abdulhamid2_3_003_cok_partili_hayat",
+    "donem": "dagilma",
+    "alt_donem": "ikinci_abdulhamid_3",
+    "tarih_yil_min": 1908,
+    "tarih_yil_max": 1908,
+    "yas_min": 15,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "Türk tarihinde ilk kez gerçek siyasi partiler kuruldu — İttihat ve Terakki Fırkası, Ahrar Fırkası gibi yapılar meclis seçimleri için yarışıyor. Fikirlerin bu denli özgürce çarpışması, imparatorlukta hiç görülmemiş bir manzaraydı.",
+    "secenekler": [
+      {
+        "metin": "Bir partiye üye ol ya da seçimleri yakından takip et",
+        "etki": { "zeka": 3, "mutluluk": 3 },
+        "sonuc": "Kimin nasıl oy kullanacağı, hangi fikrin galip geleceği — bunlar artık meydanlarda tartışılan, herkesin merakla izlediği konulardı."
+      },
+      {
+        "metin": "Bu yeni siyasi hayatı merakla gözlemle",
+        "etki": { "zeka": 2 },
+        "sonuc": "Demokrasi deneyimi, imparatorluk için tamamen yeni bir kavramdı."
+      }
+    ]
+  },
+  {
+    "id": "abdulhamid2_3_004_bulgaristan_bosna_girit_kayiplari",
+    "donem": "dagilma",
+    "alt_donem": "ikinci_abdulhamid_3",
+    "tarih_yil_min": 1908,
+    "tarih_yil_max": 1908,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "Devrimin yarattığı iç karışıklığı fırsat bilen komşu güçler harekete geçti: Bulgaristan tam bağımsızlığını ilan etti, Avusturya-Macaristan Bosna-Hersek'i resmen ilhak etti, Girit de kendini Yunanistan'a bağladığını açıkladı — özgürlüğün sevinci, acı toprak kayıplarıyla gölgelendi.",
+    "secenekler": [
+      {
+        "metin": "Bu ardı ardına gelen kayıpları büyük bir üzüntüyle karşıla",
+        "etki": { "mutluluk": -7, "zeka": 2 },
+        "sonuc": "İç değişimin verdiği coşku, dış dünyanın fırsatçılığıyla acı bir şekilde dengeleniyordu."
+      },
+      {
+        "metin": "Bu kayıpların bedelini devletin zayıflığına bağla",
+        "etki": { "zeka": 3, "mutluluk": -4 },
+        "sonuc": "Her kriz anı, bir başkasının fırsatına dönüşüyordu — bu, imparatorluğun kırılganlığının acı bir kanıtıydı."
+      }
+    ]
+  },
+  {
+    "id": "abdulhamid2_3_005_31_mart_isyani",
+    "donem": "dagilma",
+    "alt_donem": "ikinci_abdulhamid_3",
+    "tarih_yil_min": 1909,
+    "tarih_yil_max": 1909,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "13 Nisan 1909'da (Rumi takvimle 31 Mart) İstanbul'da Taşkışla'daki Avcı Taburları, subaylarına karşı isyan başlattı — kısa sürede dini söylemler de karışan bu ayaklanma, İttihat ve Terakki karşıtı geniş bir harekete dönüştü. Hükümet istifa etti, isyancılar yedi gün boyunca şehre hakim oldu.",
+    "secenekler": [
+      {
+        "metin": "Bu kaotik günleri endişe içinde yaşa",
+        "etki": { "mutluluk": -6, "saglik": -1, "sans_gerekli": true },
+        "sonuc": "Şehir günlerce belirsizlik içindeydi — kimse bu ayaklanmanın nasıl sonuçlanacağını bilmiyordu."
+      },
+      {
+        "metin": "Bu kargaşadan uzak durup evinde/işinde kal",
+        "etki": { "mutluluk": -4 },
+        "sonuc": "Sokaklardaki gerginlik, herkesin gündelik hayatını sekteye uğratıyordu."
+      }
+    ]
+  },
+  {
+    "id": "abdulhamid2_3_006_hareket_ordusu",
+    "donem": "dagilma",
+    "alt_donem": "ikinci_abdulhamid_3",
+    "tarih_yil_min": 1909,
+    "tarih_yil_max": 1909,
+    "yas_min": 15,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": "meslek_seyfiye",
+    "metin": "Selanik'teki 3. Ordu ve Edirne'deki 2. Ordu'dan oluşan, Mahmud Şevket Paşa komutasında (kurmay başkanı Kolağası Mustafa Kemal) 'Hareket Ordusu' İstanbul'a doğru yürüdü. Üç günlük çarpışmanın ardından isyan bastırıldı, şehirde sıkıyönetim ilan edildi.",
+    "secenekler": [
+      {
+        "metin": "Bu düzeni yeniden tesis eden orduya katıl",
+        "etki": { "para": 4, "itibar": 3, "saglik": -3, "sans_gerekli": true },
+        "sonuc": "Meşrutiyeti korumak için Rumeli'den gelen bu ordu, tarihi bir görev üstlenmişti."
+      },
+      {
+        "metin": "Bu düzenin yeniden sağlanmasını rahatlamayla karşıla",
+        "etki": { "mutluluk": 4 },
+        "sonuc": "Yedi günlük kaosun ardından, şehre yeniden bir düzen geliyordu."
+      }
+    ]
+  },
+  {
+    "id": "abdulhamid2_3_007_abdulhamid_tahttan_indirilme",
+    "donem": "dagilma",
+    "alt_donem": "ikinci_abdulhamid_3",
+    "tarih_yil_min": 1909,
+    "tarih_yil_max": 1909,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "27 Nisan 1909'da, isyanı desteklediği veya en azından teşvik ettiği iddiasıyla II. Abdülhamid tahttan indirildi — 33 yıllık, imparatorluğun en uzun son dönem saltanatlarından biri böylece sona erdi. Yerine kardeşi V. Mehmed Reşad tahta çıkarıldı.",
+    "secenekler": [
+      {
+        "metin": "Bu tarihi kararı büyük bir şaşkınlıkla karşıla",
+        "etki": { "mutluluk": -3, "zeka": 3 },
+        "sonuc": "I. Meşrutiyet'i ilan eden, sonra kapatan, sonra yeniden ilan etmek zorunda kalan bir padişah, artık tahtından da oluyordu — devrin çelişkili bir simgesiydi bu."
+      },
+      {
+        "metin": "Bu 33 yıllık saltanatı hem başarıları hem baskısıyla değerlendir",
+        "etki": { "zeka": 3, "mutluluk": -2 },
+        "sonuc": "Eğitim, demiryolları, telgraf ağı gibi büyük modernleşme adımları ile Hafiye teşkilatı ve sansürün baskısı, aynı saltanatta iç içe geçmişti."
+      }
+    ]
+  },
+  {
+    "id": "abdulhamid2_3_008_selanik_surgun",
+    "donem": "dagilma",
+    "alt_donem": "ikinci_abdulhamid_3",
+    "tarih_yil_min": 1909,
+    "tarih_yil_max": 1909,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "Tahttan indirilen II. Abdülhamid, Selanik'e (Alatini Köşkü'ne) sürgün edildi — otuz yılını Yıldız Sarayı'nda geçirmiş bir hükümdar, artık bambaşka bir hayata alışmak zorundaydı.",
+    "secenekler": [
+      {
+        "metin": "Bu sürgünü devletin bekası için gerekli bir tedbir say",
+        "etki": { "zeka": 2, "mutluluk": -1 },
+        "sonuc": "Yeni yönetim, eski sultan'ın herhangi bir geri dönüş girişimini önlemek istiyordu."
+      },
+      {
+        "metin": "Bu düşüşü insani bir trajedi olarak da gör",
+        "etki": { "mutluluk": -2 },
+        "sonuc": "Ne kadar tartışmalı olursa olsun, bir insanın bu denli hızlı bir düşüş yaşaması herkesi düşündürdü."
+      }
+    ]
+  },
+  {
+    "id": "abdulhamid2_3_009_v_mehmed_resad_cikis",
+    "donem": "dagilma",
+    "alt_donem": "ikinci_abdulhamid_3",
+    "tarih_yil_min": 1909,
+    "tarih_yil_max": 1909,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "V. Mehmed Reşad, 65 yaşında tahta çıktı — ama artık gerçek güç, İttihat ve Terakki Cemiyeti'nin elindeydi. Padişahlık, giderek daha çok sembolik bir makama dönüşüyordu.",
+    "secenekler": [
+      {
+        "metin": "Bu yeni yönetim dengesini merakla izle",
+        "etki": { "zeka": 2, "mutluluk": 1 },
+        "sonuc": "Artık gerçek kararlar, sarayda değil, İttihat ve Terakki'nin toplantılarında alınıyordu."
+      },
+      {
+        "metin": "Gündelik hayatına devam et",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Devletin yönetim şekli değişse de, hayat kendi akışında sürüyordu."
+      }
+    ]
+  },
+  {
+    "id": "abdulhamid2_3_010_mahmut_sevket_pasa_sikiyonetim",
+    "donem": "dagilma",
+    "alt_donem": "ikinci_abdulhamid_3",
+    "tarih_yil_min": 1909,
+    "tarih_yil_max": 1911,
+    "yas_min": 15,
+    "yas_max": 55,
+    "tek_seferlik": false,
+    "gerekli_bayrak": null,
+    "metin": "31 Mart Vakası'nın bastırılmasının ardından ilan edilen sıkıyönetim, 1911'e kadar sürdü — bu süreçte Mahmud Şevket Paşa'nın nüfuzu giderek arttı, meşrutiyet fiilen onun kişisel otoritesine dönüşmeye başladı.",
+    "secenekler": [
+      {
+        "metin": "Bu uzun sıkıyönetim döneminden yorulmuş hisset",
+        "etki": { "mutluluk": -3, "zeka": 2 },
+        "sonuc": "Meşrutiyet umuduyla başlayan bu süreç, garip bir şekilde yine tek bir kişinin gücüne dönüşüyordu."
+      },
+      {
+        "metin": "Devletin istikrara ihtiyacı olduğunu düşün",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Kargaşa döneminden sonra güçlü bir el, bazıları için gerekli görünüyordu."
+      }
+    ]
+  },
+  {
+    "id": "abdulhamid2_3_011_33_yil_genel_degerlendirme",
+    "donem": "dagilma",
+    "alt_donem": "ikinci_abdulhamid_3",
+    "tarih_yil_min": 1876,
+    "tarih_yil_max": 1909,
+    "yas_min": 15,
+    "yas_max": 70,
+    "tek_seferlik": false,
+    "gerekli_bayrak": null,
+    "metin": "II. Abdülhamid'in 33 yıllık saltanatı geride kalırken, tarih bu dönemi hem büyük bir modernleşme (eğitim, demiryolları, telgraf) hem de büyük bir baskı (Hafiye, sansür) dönemi olarak hatırlayacak — imparatorluğun 'dağılma' çağının en uzun ve en çelişkili tek saltanatıydı bu.",
+    "secenekler": [
+      {
+        "metin": "Bu çelişkili mirası anlamaya çalış",
+        "etki": { "zeka": 3 },
+        "sonuc": "İyi ile kötü, ilerleme ile baskı, aynı saltanatta bu kadar iç içe geçmiş nadiren görülmüştü."
+      },
+      {
+        "metin": "Meşrutiyet döneminin yeni umutlarına odaklan",
+        "etki": { "mutluluk": 2 },
+        "sonuc": "Geçmiş ne olursa olsun, yeni bir çağ başlıyordu — devletin geleceği artık farklı ellerdeydi."
+      }
+    ]
+  },
+  {
+    "id": "abdulhamid2_3_012_dagilma_donemi_devam",
+    "donem": "dagilma",
+    "alt_donem": "ikinci_abdulhamid_3",
+    "tarih_yil_min": 1909,
+    "tarih_yil_max": 1909,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "V. Mehmed Reşad'ın saltanatıyla birlikte imparatorluk, Trablusgarp Savaşı, Balkan Savaşları ve nihayet I. Dünya Savaşı'na uzanan, devletin sonunu getirecek çok daha büyük fırtınalara doğru ilerliyor.",
+    "secenekler": [
+      {
+        "metin": "Bu belirsiz ve fırtınalı geleceği endişeyle bekle",
+        "etki": { "zeka": 2, "mutluluk": -1 },
+        "sonuc": "Meşrutiyet'in getirdiği umut, önündeki çok daha büyük sınavlarla test edilecekti."
+      },
+      {
+        "metin": "Gündelik hayatına devam et",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Tarihin büyük çarkı dönmeye devam ederken, hayat kendi akışında sürüyordu."
+      }
+    ]
   }
 ]
