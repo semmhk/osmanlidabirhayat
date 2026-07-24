@@ -5,6 +5,7 @@ import '../modeller/olay.dart';
 import '../modeller/padisah_deposu.dart';
 import '../motor/oyun_motoru.dart';
 import '../sabitler/renkler.dart';
+import '../servisler/ses_servisi.dart';
 import 'olum_ekrani.dart';
 
 class OyunEkrani extends StatefulWidget {
@@ -23,18 +24,33 @@ class _OyunEkraniState extends State<OyunEkrani> {
   void initState() {
     super.initState();
     _motor = widget.motor;
+    _donemMuziginiGuncelle();
+  }
+
+  void _donemMuziginiGuncelle() {
+    final donem = PadisahDeposu.donemBul(_motor.karakter.takvimYili);
+    if (donem != null) {
+      SesServisi().donemMuzigiCal(donem.id);
+    }
   }
 
   void _yillarIlerle() {
+    SesServisi().kagitHisirtisiCal();
     setState(() {
       _motor.yilYasa();
+      _donemMuziginiGuncelle();
     });
   }
 
   void _secenekSec(Secenek secenek) {
+    SesServisi().muhurSesiCal();
     setState(() {
       _motor.secenekSec(secenek);
       _motor.yilYasa();
+      _donemMuziginiGuncelle();
+      if (_motor.karakter.olu) {
+        SesServisi().vefatSesiCal();
+      }
     });
   }
 
@@ -42,6 +58,7 @@ class _OyunEkraniState extends State<OyunEkrani> {
     setState(() {
       _motor.yeniHayatBaslat();
       _motor.yilYasa();
+      _donemMuziginiGuncelle();
     });
   }
 
@@ -49,6 +66,7 @@ class _OyunEkraniState extends State<OyunEkrani> {
     setState(() {
       _motor.nesilDevamEt(cocuk);
       _motor.yilYasa();
+      _donemMuziginiGuncelle();
     });
   }
 
@@ -80,9 +98,9 @@ class _OyunEkraniState extends State<OyunEkrani> {
                 : Column(
                     crossAxisAlignment: CrossAxisAlignment.stretch,
                     children: [
-                      // Üst Bilgi Barı: Takvim Yılı, Padişah ve Nesil
+                      // Üst Bilgi Barı: Takvim Yılı, Padişah, Nesil ve Ses Butonu
                       Container(
-                        padding: const EdgeInsets.symmetric(vertical: 8, horizontal: 12),
+                        padding: const EdgeInsets.symmetric(vertical: 6, horizontal: 10),
                         decoration: BoxDecoration(
                           color: Renkler.kagitKoyu,
                           border: Border.all(color: Renkler.cizgi),
@@ -106,11 +124,11 @@ class _OyunEkraniState extends State<OyunEkrani> {
                                   if (padisah.tugraGorsel != null) ...[
                                     Image.asset(
                                       padisah.tugraGorsel!,
-                                      height: 42,
+                                      height: 40,
                                       fit: BoxFit.contain,
                                       errorBuilder: (context, error, stackTrace) => const SizedBox.shrink(),
                                     ),
-                                    const SizedBox(width: 6),
+                                    const SizedBox(width: 4),
                                   ],
                                   Text(
                                     '👑 ${padisah.isim}',
@@ -122,12 +140,30 @@ class _OyunEkraniState extends State<OyunEkrani> {
                                   ),
                                 ],
                               ),
-                            Text(
-                              '📜 Nesil: ${k.nesil}',
-                              style: const TextStyle(
-                                fontSize: 12,
-                                color: Renkler.murekkep,
-                              ),
+                            Row(
+                              mainAxisSize: MainAxisSize.min,
+                              children: [
+                                Text(
+                                  '📜 N:${k.nesil}',
+                                  style: const TextStyle(
+                                    fontSize: 11,
+                                    color: Renkler.murekkep,
+                                  ),
+                                ),
+                                const SizedBox(width: 4),
+                                GestureDetector(
+                                  onTap: () {
+                                    setState(() {
+                                      SesServisi().sesDurumunuDegistir();
+                                    });
+                                  },
+                                  child: Icon(
+                                    SesServisi().sesAcik ? Icons.volume_up : Icons.volume_off,
+                                    size: 18,
+                                    color: Renkler.murekkep,
+                                  ),
+                                ),
+                              ],
                             ),
                           ],
                         ),

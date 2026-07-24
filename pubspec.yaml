@@ -31,4 +31,6 @@ flutter:
   assets:
     - assets/olaylar/
     - assets/tugralar/
+    - assets/muzikler/
+    - assets/sesler/
     - assets/basarimlar.json
