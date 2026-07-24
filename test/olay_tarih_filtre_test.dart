@@ -26,12 +26,12 @@ void main() {
       tumOlaylar = [...o1, ...o2, ...o3];
     });
 
-    test('1. kurulus.json (138) + yukselme.json (101) + duraklama.json (37) = 276 olay eksiksiz, benzersiz ID ve alt_donem alanlarıyla yüklenmeli', () {
-      expect(tumOlaylar.length, equals(276));
+    test('1. kurulus.json (138) + yukselme.json (101) + duraklama.json (48) = 287 olay eksiksiz, benzersiz ID ve alt_donem alanlarıyla yüklenmeli', () {
+      expect(tumOlaylar.length, equals(287));
       
       // Benzersiz ID kontrolü
       final idSet = tumOlaylar.map((o) => o.id).toSet();
-      expect(idSet.length, equals(276));
+      expect(idSet.length, equals(287));
 
       final ahilikOlayi = tumOlaylar.firstWhere((o) => o.id == 'kurulus_001');
       expect(ahilikOlayi.tarihYilMin, equals(1299));
@@ -95,6 +95,11 @@ void main() {
       final sultanahmetTemel = tumOlaylar.firstWhere((o) => o.id == 'ahmed1_007_sultanahmet_camii_temel');
       expect(sultanahmetTemel.donem, equals('duraklama'));
       expect(sultanahmetTemel.altDonem, equals('birinci_ahmed'));
+
+      // I. Mustafa & Genç Osman Duraklama dönemi olayları kontrolü
+      final gencOsmanYedikule = tumOlaylar.firstWhere((o) => o.id == 'mustafa1_008_yenicheri_isyani_yedikule');
+      expect(gencOsmanYedikule.donem, equals('duraklama'));
+      expect(gencOsmanYedikule.altDonem, equals('mustafa1_genc_osman'));
     });
 
     test('2. Şema doğrulayıcı hatalı tarih_yil_min > tarih_yil_max durumunu yakalamalı', () {

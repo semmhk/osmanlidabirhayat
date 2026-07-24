@@ -883,5 +883,269 @@
         "sonuc": "Ekber-Erşed sisteminin ilk uygulaması, herkesin dikkatle izlediği bir andı."
       }
     ]
+  },
+  {
+    "id": "mustafa1_001_ilk_tahta_cikis",
+    "donem": "duraklama",
+    "alt_donem": "mustafa1_genc_osman",
+    "tarih_yil_min": 1617,
+    "tarih_yil_max": 1617,
+    "yas_min": 5,
+    "yas_max": 70,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "I. Ahmed'in vefatının ardından, Ekber-Erşed sisteminin ilk uygulaması gerçekleşti: tahta oğlu değil, kardeşi Şehzade Mustafa çıktı. Ama Mustafa, yıllarca 'kafes'te geçirdiği izole hayat yüzünden dengesiz bir ruh haline sahip.",
+    "secenekler": [
+      {
+        "metin": "Yeni sistemin bu ilk sınavını endişeyle izle",
+        "etki": { "zeka": 2, "mutluluk": -2 },
+        "sonuc": "Kafes hayatının şehzadeler üzerindeki yıkıcı etkisi, ilk kez bu kadar açık görülüyordu."
+      },
+      {
+        "metin": "Sultana bağlılığını göster",
+        "etki": { "itibar": 1 },
+        "sonuc": "Devlet erkanı, sultanın durumunu yakından izliyordu."
+      }
+    ]
+  },
+  {
+    "id": "mustafa1_002_ilk_azil",
+    "donem": "duraklama",
+    "alt_donem": "mustafa1_genc_osman",
+    "tarih_yil_min": 1618,
+    "tarih_yil_max": 1618,
+    "yas_min": 5,
+    "yas_max": 70,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "Sultan'ın dengesiz davranışları (sarıklı sakalsız kimseleri divana kabul etmemesi, sokaklarda tuhaf sorular sorması gibi rivayetler) devam edince, ulema ve devlet erkanı onu tahttan indirmeye karar verdi — bir padişah ilk kez akli dengesizlik nedeniyle görevden alınıyor. Yerine 14 yaşındaki yeğeni Şehzade Osman geçti.",
+    "secenekler": [
+      {
+        "metin": "Bu olağanüstü kararı devletin bekası için gerekli say",
+        "etki": { "zeka": 2, "mutluluk": -1 },
+        "sonuc": "Kafes sisteminin ilk büyük krizi, yeni ve genç bir hükümdarla aşılmaya çalışılıyordu."
+      },
+      {
+        "metin": "Bu değişimi endişeyle karşıla",
+        "etki": { "mutluluk": -1 },
+        "sonuc": "Bu denli hızlı taht değişimleri, halkın içini rahatlatmıyordu."
+      }
+    ]
+  },
+  {
+    "id": "mustafa1_003_serav_antlasmasi",
+    "donem": "duraklama",
+    "alt_donem": "mustafa1_genc_osman",
+    "tarih_yil_min": 1618,
+    "tarih_yil_max": 1618,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "Genç Osman'ın tahta çıkışının hemen ardından Safevilerle Serav Antlaşması imzalandı — sınırlar Kanuni zamanındaki Amasya Antlaşması seviyesine geri döndü.",
+    "secenekler": [
+      {
+        "metin": "Bu barışın huzurunu hisset",
+        "etki": { "mutluluk": 2 },
+        "sonuc": "Doğu sınırında bir süreliğine sükunet sağlandı."
+      },
+      {
+        "metin": "Günlük hayatına devam et",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Diplomatik gelişmeler halkın gündelik hayatını hemen etkilemiyordu."
+      }
+    ]
+  },
+  {
+    "id": "mustafa1_004_genc_osman_evlilik",
+    "donem": "duraklama",
+    "alt_donem": "mustafa1_genc_osman",
+    "tarih_yil_min": 1618,
+    "tarih_yil_max": 1621,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "Genç Osman, geleneklere aykırı bir karar aldı: harem cariyeleriyle değil, Şeyhülislam'ın kızı Akile Hanım ile evlendi — Osman Gazi'den beri neredeyse hiçbir padişahın yapmadığı bir şey.",
+    "secenekler": [
+      {
+        "metin": "Bu geleneği kıran kararı ilginç bul",
+        "etki": { "zeka": 2, "mutluluk": 1 },
+        "sonuc": "Genç sultan, birçok konuda alışılmışın dışına çıkmaya niyetli görünüyordu."
+      },
+      {
+        "metin": "Bu değişimi tuhaf karşıla",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Saray gelenekleri sarsılmaya başlamıştı, bunu herkes fark ediyordu."
+      }
+    ]
+  },
+  {
+    "id": "mustafa1_005_hotin_seferi",
+    "donem": "duraklama",
+    "alt_donem": "mustafa1_genc_osman",
+    "tarih_yil_min": 1621,
+    "tarih_yil_max": 1621,
+    "yas_min": 16,
+    "yas_max": 50,
+    "tek_seferlik": true,
+    "gerekli_bayrak": "meslek_seyfiye",
+    "metin": "Lehistan'a (Polonya) karşı büyük bir sefer düzenlendi, Genç Osman bizzat ordunun başına geçti. Hotin Kalesi önlerinde ordular karşılaştı — ama yeniçerilerin disiplinsizliği ve isteksizliği, beklenen kesin zaferi engelledi.",
+    "secenekler": [
+      {
+        "metin": "Bu sefere katıl ama yeniçerilerin isteksizliğine tanık ol",
+        "etki": { "para": 2, "saglik": -3, "mutluluk": -2, "sans_gerekli": true },
+        "sonuc": "Padişah kendi askerinin itaatsizliğine öfkelenmişti. Bu, genç sultanın gözünde yeniçeri ocağının artık bir sorun olduğunu netleştiren bir andı."
+      },
+      {
+        "metin": "Bu sefere katılmadın",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Sefer, kesin bir zafer olmadan, tartışmalı bir antlaşmayla sonuçlandı."
+      }
+    ]
+  },
+  {
+    "id": "mustafa1_006_reform_plani",
+    "donem": "duraklama",
+    "alt_donem": "mustafa1_genc_osman",
+    "tarih_yil_min": 1621,
+    "tarih_yil_max": 1622,
+    "yas_min": 15,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "Hotin'deki hayal kırıklığının ardından Genç Osman, çok cesur (ve çok tehlikeli) planlar kurmaya başladı: Yeniçeri Ocağı'nı tamamen kaldırıp yerine Anadolu gençlerinden yeni bir ordu kurmak, başkenti Anadolu'ya taşımak, ulemanın gücünü kısıtlamak.",
+    "secenekler": [
+      {
+        "metin": "Bu vizyoner ama riskli planları destekle",
+        "etki": { "zeka": 3, "mutluluk": -1 },
+        "sonuc": "Genç sultanın cesareti takdire şayandı ama bu denli köklü değişiklikleri bu kadar hızlı yapmaya kalkışmak, çok güçlü düşmanlar edinmek demekti."
+      },
+      {
+        "metin": "Bu planların çok tehlikeli olduğunu düşün",
+        "etki": { "zeka": 2, "mutluluk": -2 },
+        "sonuc": "Yeniçeri Ocağı'na dokunmak, kendi hayatını tehlikeye atmak anlamına gelebilirdi."
+      }
+    ]
+  },
+  {
+    "id": "mustafa1_007_hac_bahanesi",
+    "donem": "duraklama",
+    "alt_donem": "mustafa1_genc_osman",
+    "tarih_yil_min": 1622,
+    "tarih_yil_max": 1622,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "Genç Osman, hacca gitme bahanesiyle İstanbul'dan ayrılıp reform planını Anadolu'dan başlatmak istedi. Ama yeniçeriler ve saray çevresi bunu bir kaçış/tuzak girişimi olarak algıladı — güvensizlik iyice arttı.",
+    "secenekler": [
+      {
+        "metin": "Sultan'ın niyetini iyi anla, ona güven",
+        "etki": { "zeka": 1, "mutluluk": -1 },
+        "sonuc": "Ama şehirde yayılan söylentiler çok daha karanlıktı — 'padişah bizi terk edip yeni bir ordu kuracak' diye fısıldanıyordu."
+      },
+      {
+        "metin": "Bu söylentilerden endişelen",
+        "etki": { "mutluluk": -2 },
+        "sonuc": "Şehirde gerilim tırmanıyordu, kötü bir şeylerin olacağı hissediliyordu."
+      }
+    ]
+  },
+  {
+    "id": "mustafa1_008_yenicheri_isyani_yedikule",
+    "donem": "duraklama",
+    "alt_donem": "mustafa1_genc_osman",
+    "tarih_yil_min": 1622,
+    "tarih_yil_max": 1622,
+    "yas_min": 5,
+    "yas_max": 80,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "19 Mayıs 1622: Yeniçeriler büyük bir isyan başlattı. Genç Osman önce yeniçeri ağasının konağına sığındı ama bulundu, aşağılanarak Aksaray'daki bir camiye götürüldü — orada eski padişah I. Mustafa yeniden tahta çıkarıldı. Genç Osman, Yedikule zindanlarına götürülüp burada acımasızca boğularak öldürüldü — Osmanlı tarihinde bir padişahın kendi askerleri tarafından katledildiği ilk (ve tek) olay.",
+    "secenekler": [
+      {
+        "metin": "Bu duyulmamış dehşeti derin bir şokla karşıla",
+        "etki": { "mutluluk": -10, "saglik": -1 },
+        "sonuc": "17 yaşında, reform hayalleriyle dolu bir padişahın bu şekilde ölmesi, tüm ülkeyi derinden sarstı. Bu, devlet otoritesinin ne kadar sarsıldığının en acı kanıtıydı."
+      },
+      {
+        "metin": "Bu olayı devletin geleceği için çok kötü bir işaret say",
+        "etki": { "zeka": 3, "mutluluk": -8 },
+        "sonuc": "Eğer bir padişah bile kendi askerince öldürülebiliyorsa, artık hiçbir otorite güvende değildi."
+      }
+    ]
+  },
+  {
+    "id": "mustafa1_009_ikinci_tahta_cikis",
+    "donem": "duraklama",
+    "alt_donem": "mustafa1_genc_osman",
+    "tarih_yil_min": 1622,
+    "tarih_yil_max": 1622,
+    "yas_min": 10,
+    "yas_max": 60,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "I. Mustafa ikinci kez tahta çıkarıldı — ama akli durumu ilk saltanatından da kötüydü artık. Devlet işleri fiilen sadrazam ve saray çevresince yürütülüyor.",
+    "secenekler": [
+      {
+        "metin": "Bu belirsiz dönemde temkinli ol",
+        "etki": { "zeka": 1, "mutluluk": -1 },
+        "sonuc": "Devletin başında fiilen bir otorite boşluğu vardı, bu herkesi tedirgin ediyordu."
+      },
+      {
+        "metin": "Gündelik hayatına devam et",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Saray içi kargaşa, halkın kendi mücadelesini değiştirmiyordu."
+      }
+    ]
+  },
+  {
+    "id": "mustafa1_010_abaza_mehmed_isyani",
+    "donem": "duraklama",
+    "alt_donem": "mustafa1_genc_osman",
+    "tarih_yil_min": 1622,
+    "tarih_yil_max": 1624,
+    "yas_min": 15,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "Erzurum Beylerbeyi Abaza Mehmed Paşa, 'Genç Osman'ın kanının davacısıyım' diyerek isyan bayrağı açtı — bulduğu her yeniçeriyi katlediyor. Anadolu, yeni bir iç kargaşaya sürükleniyor.",
+    "secenekler": [
+      {
+        "metin": "Bu intikam isyanını anlayışla karşıla",
+        "etki": { "mutluluk": -1, "zeka": 1 },
+        "sonuc": "Genç Osman'ın acı ölümü, uzun süre gündemden düşmeyecek bir öfke bırakmıştı."
+      },
+      {
+        "metin": "Bu yeni kargaşadan endişelen",
+        "etki": { "mutluluk": -2 },
+        "sonuc": "Bir kargaşa bir diğerini doğuruyordu, devletin toparlanması giderek zorlaşıyordu."
+      }
+    ]
+  },
+  {
+    "id": "mustafa1_011_kesin_azil_murad_tahta",
+    "donem": "duraklama",
+    "alt_donem": "mustafa1_genc_osman",
+    "tarih_yil_min": 1623,
+    "tarih_yil_max": 1623,
+    "yas_min": 5,
+    "yas_max": 70,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "Bir buçuk yıl daha sürdürdüğü bu ikinci ve tamamen etkisiz saltanatın ardından I. Mustafa kesin olarak tahttan indirildi — bu kez sağ kalarak Eski Saray'a yerleştirildi. Yerine, henüz 11 yaşındaki Şehzade Murad, IV. Murad unvanıyla tahta çıktı.",
+    "secenekler": [
+      {
+        "metin": "Yeni ve genç bir dönemin başlangıcını umutla karşıla",
+        "etki": { "mutluluk": 3, "zeka": 1 },
+        "sonuc": "9 yıl içinde 4 kez taht değiştirmiş olması (Ahmed-Mustafa-Osman-Mustafa-Murad), devletin ne kadar sarsıldığını gösteriyordu. Belki genç Murad, kaybedilen istikrarı geri getirebilirdi."
+      },
+      {
+        "metin": "Bu kadar genç bir sultandan çok şey bekleme",
+        "etki": { "mutluluk": -1 },
+        "sonuc": "Zaman gösterecekti — bu genç sultan, yıllar içinde beklenmedik bir sertlikle devleti yeniden toparlayacaktı."
+      }
+    ]
   }
 ]
