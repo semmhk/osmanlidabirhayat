@@ -7,6 +7,7 @@ class OlayYukleyici {
   static const List<String> olayDosyalari = [
     'assets/olaylar/kurulus.json',
     'assets/olaylar/yukselme.json',
+    'assets/olaylar/duraklama.json',
   ];
 
   static const Set<String> gecerliStatlar = {

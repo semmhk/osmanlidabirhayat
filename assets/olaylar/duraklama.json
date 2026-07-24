@@ -1,0 +1,314 @@
+[
+  {
+    "id": "murad3_001_tahta_cikis",
+    "donem": "duraklama",
+    "alt_donem": "ucuncu_murad",
+    "tarih_yil_min": 1574,
+    "tarih_yil_max": 1574,
+    "yas_min": 5,
+    "yas_max": 70,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "II. Selim'in vefatının ardından oğlu Murad tahta çıktı. Kanunname gereği beş küçük kardeşi de idam edildi — tarihimizde birçok kez tekrarlanan acı bir gelenek.",
+    "secenekler": [
+      {
+        "metin": "Bu geleneği devlet bekası adına kabullen",
+        "etki": { "zeka": 1, "mutluluk": -2 },
+        "sonuc": "Her taht değişiminde tekrarlanan bu acı, artık halkın da kanıksadığı bir gerçekti."
+      },
+      {
+        "metin": "Bu kaybı vicdanen sorgula",
+        "etki": { "mutluluk": -3 },
+        "sonuc": "Beş küçük şehzadenin canı, bir tahtın bedeliydi."
+      }
+    ]
+  },
+  {
+    "id": "murad3_002_sokullu_suikasti",
+    "donem": "duraklama",
+    "alt_donem": "ucuncu_murad",
+    "tarih_yil_min": 1579,
+    "tarih_yil_max": 1579,
+    "yas_min": 10,
+    "yas_max": 60,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "Şok edici bir haber: Üç padişah döneminde (Kanuni, II. Selim, III. Murad) sadrazamlık yapan, devletin gerçek yöneticisi sayılan yaşlı Sokullu Mehmed Paşa, divan çıkışında bir suikastçı tarafından hançerlenerek öldürüldü — tarihte ilk kez bir sadrazam böyle can verdi.",
+    "secenekler": [
+      {
+        "metin": "Bu büyük devlet adamının kaybını derin bir üzüntüyle karşıla",
+        "etki": { "mutluluk": -5, "zeka": 1 },
+        "sonuc": "Sokullu'nun ölümüyle bir çağ daha kapanmıştı. Onun tecrübesiz yerine gelenler aynı yetkinliği gösteremeyecekti."
+      },
+      {
+        "metin": "Bu olayın devletin geleceği için kötü bir işaret olduğunu düşün",
+        "etki": { "zeka": 2, "mutluluk": -3 },
+        "sonuc": "Sokullu'dan sonra sadrazamlar sık sık değişmeye başlayacak, devlet o eski istikrarını bir daha tam olarak bulamayacaktı."
+      }
+    ]
+  },
+  {
+    "id": "murad3_003_harem_rekabeti",
+    "donem": "duraklama",
+    "alt_donem": "ucuncu_murad",
+    "tarih_yil_min": 1574,
+    "tarih_yil_max": 1595,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": false,
+    "gerekli_bayrak": null,
+    "metin": "Sarayda, Sultan'ın annesi Nurbanu Sultan ile en gözde cariyesi (sonradan Haseki) Safiye Sultan arasında bir nüfuz mücadelesi yaşanıyor. Devlet işlerine harem kadınlarının bu denli karışması, dedikodu konusu.",
+    "secenekler": [
+      {
+        "metin": "Bu saray dedikodularını merakla dinle",
+        "etki": { "zeka": 1 },
+        "sonuc": "Sarayın iç işleri her zaman halkın merakını çekerdi. Ama bu rekabetin devlet işlerine yansıması endişe vericiydi."
+      },
+      {
+        "metin": "Bu meselelere kulak asma, kendi işine bak",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Saray içi entrikalar, sıradan halkın gündelik derdinden uzaktı — ya da öyle görünüyordu."
+      }
+    ]
+  },
+  {
+    "id": "murad3_004_fas_vasal",
+    "donem": "duraklama",
+    "alt_donem": "ucuncu_murad",
+    "tarih_yil_min": 1578,
+    "tarih_yil_max": 1578,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "Kuzey Afrika'da Fas (Fez), Portekizlilerden geri alınarak Osmanlı himayesine bağlandı — imparatorluğun etkisi Atlas Okyanusu kıyılarına kadar uzanıyor.",
+    "secenekler": [
+      {
+        "metin": "Bu uzak fethin haberini gururla dinle",
+        "etki": { "mutluluk": 2 },
+        "sonuc": "İmparatorluğun ulaştığı sınırlar, hayal bile edilemeyecek kadar genişti."
+      },
+      {
+        "metin": "Günlük hayatına devam et",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Uzak diyarlardaki gelişmeler halkın gündelik hayatını hemen değiştirmiyordu."
+      }
+    ]
+  },
+  {
+    "id": "murad3_005_cildir_zaferi",
+    "donem": "duraklama",
+    "alt_donem": "ucuncu_murad",
+    "tarih_yil_min": 1578,
+    "tarih_yil_max": 1578,
+    "yas_min": 16,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": "meslek_seyfiye",
+    "metin": "Safevilerle yeniden başlayan savaşın ilk büyük çarpışması Çıldır'da yapıldı ve zaferle sonuçlandı. Uzun ve yorucu bir doğu seferi başlıyor.",
+    "secenekler": [
+      {
+        "metin": "Bu sefere katıl",
+        "etki": { "para": 5, "itibar": 3, "saglik": -3, "sans_gerekli": true },
+        "sonuc": "Zafer kazanıldı ama bu, on iki yıl sürecek yorucu bir savaşın sadece başlangıcıydı."
+      },
+      {
+        "metin": "Sefere katılmadın",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Doğudaki savaş haberleri uzun aralıklarla İstanbul'a ulaşıyordu."
+      }
+    ]
+  },
+  {
+    "id": "murad3_006_tiflis_sirvan_fethi",
+    "donem": "duraklama",
+    "alt_donem": "ucuncu_murad",
+    "tarih_yil_min": 1578,
+    "tarih_yil_max": 1590,
+    "yas_min": 16,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": "meslek_seyfiye",
+    "metin": "On iki yıl süren zorlu doğu seferleri sırasında Tiflis, Şirvan ve Dağıstan bölgeleri fethedildi. Kafkasya'daki hakimiyetimiz büyük ölçüde genişledi.",
+    "secenekler": [
+      {
+        "metin": "Bu uzun seferler boyunca cephede bulun",
+        "etki": { "para": 6, "itibar": 3, "saglik": -5, "sans_gerekli": true },
+        "sonuc": "On iki yıl uzak diyarlarda savaşmak büyük bir bedeldi ama Kafkasya'daki sınırlarımız hiç bu kadar geniş olmamıştı."
+      },
+      {
+        "metin": "Bu uzun seferlere katılmadın",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Doğu seferlerinin uzunluğu, herkesin gündelik hayatına bir şekilde dokunuyordu — vergi, asker talebi gibi."
+      }
+    ]
+  },
+  {
+    "id": "murad3_007_ferhat_pasa_antlasmasi",
+    "donem": "duraklama",
+    "alt_donem": "ucuncu_murad",
+    "tarih_yil_min": 1590,
+    "tarih_yil_max": 1590,
+    "yas_min": 10,
+    "yas_max": 60,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "Ferhat Paşa Antlaşması imzalandı: Tebriz, Karabağ, Gürcistan ve Azerbaycan toprakları Osmanlı'ya bırakıldı. İmparatorluk artık tarihinin en geniş sınırlarına (yaklaşık 10 milyon kilometrekare) ulaşmıştı.",
+    "secenekler": [
+      {
+        "metin": "Bu en geniş sınırlara ulaşmaktan gurur duy",
+        "etki": { "mutluluk": 4, "itibar": 2 },
+        "sonuc": "Üç kıtaya yayılan, tarihin gördüğü en büyük imparatorluklardan biriydik artık. Ama bu genişlik, aynı zamanda yönetim zorluklarını da beraberinde getiriyordu."
+      },
+      {
+        "metin": "Bu genişlemenin sürdürülebilirliğini merak et",
+        "etki": { "zeka": 2 },
+        "sonuc": "Bazı akıllı kişiler, bu denli geniş bir toprağı yönetmenin giderek zorlaşacağını fısıldıyordu."
+      }
+    ]
+  },
+  {
+    "id": "murad3_008_akce_tagsisi_enflasyon",
+    "donem": "duraklama",
+    "alt_donem": "ucuncu_murad",
+    "tarih_yil_min": 1584,
+    "tarih_yil_max": 1595,
+    "yas_min": 10,
+    "yas_max": 60,
+    "tek_seferlik": false,
+    "gerekli_bayrak": null,
+    "metin": "Yeni Dünya'dan (Amerika) Avrupa'ya akan gümüşün etkisiyle akçenin değeri hızla düşüyor. Pazarda fiyatlar artıyor, ekmek ve temel gıda pahalanıyor — halk arasında bu, ilk büyük ekonomik sıkıntı olarak konuşuluyor.",
+    "secenekler": [
+      {
+        "metin": "Artan fiyatlarla baş etmeye çalış, tutumlu ol",
+        "etki": { "para": -3, "mutluluk": -2 },
+        "sonuc": "Eskiden aynı parayla alınan şeyler artık daha pahalıydı. Herkes bütçesini yeniden gözden geçiriyordu."
+      },
+      {
+        "metin": "Bu ekonomik sıkıntıyı devletin gündemine taşı",
+        "etki": { "zeka": 2, "mutluluk": -1 },
+        "sonuc": "Kahvehanelerde artık en çok bu konuşuluyordu: akçenin eski değerini kaybetmesi."
+      }
+    ]
+  },
+  {
+    "id": "murad3_009_beylerbeyi_vakasi",
+    "donem": "duraklama",
+    "alt_donem": "ucuncu_murad",
+    "tarih_yil_min": 1589,
+    "tarih_yil_max": 1589,
+    "yas_min": 15,
+    "yas_max": 45,
+    "tek_seferlik": true,
+    "gerekli_bayrak": "meslek_seyfiye",
+    "metin": "Yeniçerilere ayarı düşürülmüş (değersiz) akçelerle maaş ödenmesi üzerine büyük bir isyan çıktı — 'Beylerbeyi Vakası' olarak anılacak bu olayda yeniçeriler saraya kadar yürüdü, bazı üst düzey devlet adamlarının başları istendi.",
+    "secenekler": [
+      {
+        "metin": "Bu isyanın haklı bir tepki olduğunu düşün",
+        "etki": { "itibar": 1, "mutluluk": -1 },
+        "sonuc": "Değersiz parayla ödeme yapılması, askerin de halkın da öfkesini haklı çıkarıyordu."
+      },
+      {
+        "metin": "Bu kargaşadan endişelen",
+        "etki": { "mutluluk": -2 },
+        "sonuc": "Yeniçerilerin bu denli güçlü bir şekilde devlete başkaldırması, geleceğe dair endişe verici bir işaretti."
+      }
+    ]
+  },
+  {
+    "id": "murad3_010_avusturya_savasi_baslangic",
+    "donem": "duraklama",
+    "alt_donem": "ucuncu_murad",
+    "tarih_yil_min": 1593,
+    "tarih_yil_max": 1593,
+    "yas_min": 16,
+    "yas_max": 50,
+    "tek_seferlik": true,
+    "gerekli_bayrak": "meslek_seyfiye",
+    "metin": "Batıda Avusturya ile yeni ve uzun bir savaş başladı — bu savaş tam 13 yıl sürecek ve önceki Batı seferlerimizden çok daha zorlu geçecek. Eflak, Boğdan ve Erdel gibi vasal devletler bile Avusturya'yla ittifak kurdu.",
+    "secenekler": [
+      {
+        "metin": "Bu yeni ve zorlu savaşa katıl",
+        "etki": { "para": 3, "saglik": -4, "mutluluk": -1, "sans_gerekli": true },
+        "sonuc": "Bu savaş, önceki Batı seferlerinden farklıydı — artık kolay zaferler beklenmiyordu. Vasal devletlerin bile isyan etmesi, imparatorluğun eski mutlak otoritesinin sarsıldığının işaretiydi."
+      },
+      {
+        "metin": "Bu sefere katılmadın",
+        "etki": { "mutluluk": -1 },
+        "sonuc": "Savaşın uzun süreceği haberi, herkesi tedirgin ediyordu."
+      }
+    ]
+  },
+  {
+    "id": "murad3_011_ingiltere_iliskileri",
+    "donem": "duraklama",
+    "alt_donem": "ucuncu_murad",
+    "tarih_yil_min": 1580,
+    "tarih_yil_max": 1595,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": false,
+    "gerekli_bayrak": null,
+    "metin": "Kraliçe Elizabeth yönetimindeki İngiltere ile ticari ilişkiler gelişiyor — ortak düşmanımız İspanya bizi yakınlaştırıyor. İngiliz tüccarlarının kurduğu Levant Kumpanyası'na ticari ayrıcalıklar tanındı.",
+    "secenekler": [
+      {
+        "metin": "İngiliz tüccarlarla ticaret yapmayı dene",
+        "etki": { "para": 3, "zeka": 2 },
+        "sonuc": "Limanlarda yeni bir dil, yeni mallar görülmeye başlandı. Avrupa ile ticari bağlarımız çeşitleniyordu."
+      },
+      {
+        "metin": "Kendi çevrende ticaretine devam et",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Uzak diyarlarla kurulan bu yeni ilişkiler, zamanla herkese dokunacaktı."
+      }
+    ]
+  },
+  {
+    "id": "murad3_012_dogu_afrika_nufuzu",
+    "donem": "duraklama",
+    "alt_donem": "ucuncu_murad",
+    "tarih_yil_min": 1585,
+    "tarih_yil_max": 1589,
+    "yas_min": 15,
+    "yas_max": 50,
+    "tek_seferlik": true,
+    "gerekli_bayrak": "meslek_seyfiye",
+    "metin": "Amiral Mir Ali Bey komutasındaki donanma, Doğu Afrika kıyılarında (bugünkü Somali/Kenya bölgesi) Portekizlilere karşı seferler düzenleyip nüfuzumuzu genişletti.",
+    "secenekler": [
+      {
+        "metin": "Bu uzak ve egzotik sefere katıl",
+        "etki": { "para": 4, "saglik": -3, "zeka": 2, "sans_gerekli": true },
+        "sonuc": "Dünyanın öbür ucundaki bu seferler, imparatorluğun hâlâ ne kadar geniş bir etki alanına sahip olduğunu gösteriyordu."
+      },
+      {
+        "metin": "Bu uzak sefere katılmadın",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Afrika kıyılarındaki bu seferlerin hikayeleri İstanbul'da merakla dinlendi."
+      }
+    ]
+  },
+  {
+    "id": "murad3_013_murad_vefati_19_sehzade",
+    "donem": "duraklama",
+    "alt_donem": "ucuncu_murad",
+    "tarih_yil_min": 1595,
+    "tarih_yil_max": 1595,
+    "yas_min": 5,
+    "yas_max": 80,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "III. Murad, 21 yıllık saltanatının ardından vefat etti — çok sayıda çocuğu olduğu için (100'den fazla olduğu rivayet edilir), oğlu III. Mehmed tahta çıktığında kanunname gereği tam 19 küçük kardeşi birden idam edildi. Bu, tarihimizde tek seferde yaşanan en kalabalık kardeş katliydi.",
+    "secenekler": [
+      {
+        "metin": "Bu benzeri görülmemiş acıyı derin bir dehşetle karşıla",
+        "etki": { "mutluluk": -8 },
+        "sonuc": "19 küçük şehzadenin aynı anda kaybedilmesi, en sert devlet mantığını savunanları bile derinden sarstı. Halk arasında bu geleneğin artık sorgulanması gerektiği fısıldanmaya başlandı."
+      },
+      {
+        "metin": "Devletin bekası adına bu geleneği anlamaya çalış",
+        "etki": { "zeka": 1, "mutluluk": -6 },
+        "sonuc": "Fetret Devri korkusu hâlâ derin izler bırakıyordu, ama bu ölçekte bir kayıp, geleneğin kendisini sorgulatmaya başlamıştı."
+      }
+    ]
+  }
+]

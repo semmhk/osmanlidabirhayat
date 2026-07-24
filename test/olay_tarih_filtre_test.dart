@@ -16,19 +16,22 @@ void main() {
       final jsonKurulus = fileKurulus.readAsStringSync();
       final fileYukselme = File('assets/olaylar/yukselme.json');
       final jsonYukselme = fileYukselme.readAsStringSync();
+      final fileDuraklama = File('assets/olaylar/duraklama.json');
+      final jsonDuraklama = fileDuraklama.readAsStringSync();
 
       final gorulenIdler = <String>{};
       final o1 = yukleyici.jsonMetnindenYukle(jsonKurulus, 'kurulus.json', gorulenIdler);
       final o2 = yukleyici.jsonMetnindenYukle(jsonYukselme, 'yukselme.json', gorulenIdler);
-      tumOlaylar = [...o1, ...o2];
+      final o3 = yukleyici.jsonMetnindenYukle(jsonDuraklama, 'duraklama.json', gorulenIdler);
+      tumOlaylar = [...o1, ...o2, ...o3];
     });
 
-    test('1. kurulus.json (138) + yukselme.json (101) = 239 olay eksiksiz, benzersiz ID ve alt_donem alanlarıyla yüklenmeli', () {
-      expect(tumOlaylar.length, equals(239));
+    test('1. kurulus.json (138) + yukselme.json (101) + duraklama.json (13) = 252 olay eksiksiz, benzersiz ID ve alt_donem alanlarıyla yüklenmeli', () {
+      expect(tumOlaylar.length, equals(252));
       
       // Benzersiz ID kontrolü
       final idSet = tumOlaylar.map((o) => o.id).toSet();
-      expect(idSet.length, equals(239));
+      expect(idSet.length, equals(252));
 
       final ahilikOlayi = tumOlaylar.firstWhere((o) => o.id == 'kurulus_001');
       expect(ahilikOlayi.tarihYilMin, equals(1299));
@@ -77,6 +80,11 @@ void main() {
       final kibrisFethi = tumOlaylar.firstWhere((o) => o.id == 'selim2_007_kibris_fethi');
       expect(kibrisFethi.donem, equals('yukselme'));
       expect(kibrisFethi.altDonem, equals('ikinci_selim'));
+
+      // III. Murad Duraklama dönemi olayları kontrolü
+      final ferhatPasa = tumOlaylar.firstWhere((o) => o.id == 'murad3_007_ferhat_pasa_antlasmasi');
+      expect(ferhatPasa.donem, equals('duraklama'));
+      expect(ferhatPasa.altDonem, equals('ucuncu_murad'));
     });
 
     test('2. Şema doğrulayıcı hatalı tarih_yil_min > tarih_yil_max durumunu yakalamalı', () {
