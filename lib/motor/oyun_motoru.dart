@@ -103,11 +103,8 @@ class OyunMotoru {
     sonIslemTerfiMi = false;
   }
 
-  bool olumKontrolu() {
-    if (karakter.saglik <= 0) {
-      karakter.olumNedeni ??= 'Ağır hastalık ve şifa bulunamaması';
-      return true;
-    }
+  static double toplamOlumRiskiHesapla(Karakter karakter) {
+    if (karakter.saglik <= 0) return 1.0;
 
     double yasRiski = 0.0;
     if (karakter.yas <= 2) {
@@ -134,12 +131,40 @@ class OyunMotoru {
       donemselRisk = 0.15;
     }
 
-    final double toplamRisk = min(1.0, yasRiski + saglikRiski + donemselRisk);
+    double donemselSaglikCarpani = 1.0;
+    if (karakter.takvimYili < 1703) {
+      donemselSaglikCarpani = 1.30;
+    } else if (karakter.takvimYili < 1807) {
+      donemselSaglikCarpani = 1.15;
+    } else if (karakter.takvimYili < 1850) {
+      donemselSaglikCarpani = 1.00;
+    } else {
+      donemselSaglikCarpani = 0.80;
+    }
+
+    double tarihselSalginRiski = 0.0;
+    final yil = karakter.takvimYili;
+    if ((yil >= 1347 && yil <= 1351) || (yil >= 1812 && yil <= 1813) || (yil >= 1918 && yil <= 1919)) {
+      tarihselSalginRiski = 0.15;
+    } else if ((yil >= 1511 && yil <= 1512) || yil == 1778 || yil == 1831 || yil == 1847 || yil == 1848) {
+      tarihselSalginRiski = 0.12;
+    }
+
+    return min(1.0, (yasRiski * donemselSaglikCarpani) + saglikRiski + donemselRisk + tarihselSalginRiski);
+  }
+
+  bool olumKontrolu() {
+    if (karakter.saglik <= 0) {
+      karakter.olumNedeni ??= 'Ağır hastalık ve şifa bulunamaması';
+      return true;
+    }
+
+    final double toplamRisk = toplamOlumRiskiHesapla(karakter);
 
     if (toplamRisk > 0 && _random.nextDouble() < toplamRisk) {
-      if (donemselRisk > 0) {
+      if (karakter.bayraklar.contains('salgin_maruz') || karakter.bayraklar.contains('savas_cebhe')) {
         karakter.olumNedeni ??= 'Salgın hastalık veya harp zaiyatı';
-      } else if (saglikRiski > yasRiski) {
+      } else if (karakter.saglik < 20) {
         karakter.olumNedeni ??= 'Ağır amansız hastalık';
       } else {
         karakter.olumNedeni ??= 'Ecel / Doğal vefat';

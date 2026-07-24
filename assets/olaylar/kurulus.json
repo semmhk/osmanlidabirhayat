@@ -11,17 +11,24 @@
     "secenekler": [
       {
         "metin": "Ahi ocağına katılarak çıraklığa başla",
-        "etki": { "zeka": 10, "itibar": 10, "para": 5 },
+        "etki": {
+          "zeka": 10,
+          "itibar": 10,
+          "para": 5
+        },
         "meslek_atama": "ahilik",
         "bayrak_ekle": "meslek_ahilik",
         "sonuc": "Ahi ocağına kabul edildin! Ustanın tezgahında edep ve zanaat öğreniyorsun."
       },
       {
         "metin": "Fırsatı geri çevir, sokakta oynamaya devam et",
-        "etki": { "mutluluk": 5 },
+        "etki": {
+          "mutluluk": 5
+        },
         "sonuc": "Ahi ocağına katılmadın. Çocukluğun tadını çıkarmaya devam ediyorsun."
       }
-    ]
+    ],
+    "engel_bayrak": "calisaniyor"
   },
   {
     "id": "kurulus_002",
@@ -35,17 +42,23 @@
     "secenekler": [
       {
         "metin": "Medreseye kaydol ve ilim yolunu seç",
-        "etki": { "zeka": 15, "itibar": 5 },
+        "etki": {
+          "zeka": 15,
+          "itibar": 5
+        },
         "meslek_atama": "ilmiye",
         "bayrak_ekle": "meslek_ilmiye",
         "sonuc": "Medresede Talebe olarak derslere başladın. Rahle başında kitap okuyorsun."
       },
       {
         "metin": "Tarlada ve ev işlerinde aileye yardım et",
-        "etki": { "saglik": 5 },
+        "etki": {
+          "saglik": 5
+        },
         "sonuc": "İlim yolunu seçmeyip ailenin yanında çalışmaya devam ettin."
       }
-    ]
+    ],
+    "engel_bayrak": "calisaniyor"
   },
   {
     "id": "kurulus_003",
@@ -58,17 +71,25 @@
     "secenekler": [
       {
         "metin": "Atına atla ve gaza ordusuna yazıl",
-        "etki": { "itibar": 15, "para": 10, "saglik": -5 },
+        "etki": {
+          "itibar": 15,
+          "para": 10,
+          "saglik": -5
+        },
         "meslek_atama": "seyfiye",
         "bayrak_ekle": "meslek_seyfiye",
         "sonuc": "Gaza sancağı altında yiğitçe savaştın ve gaziler arasında adın anıldı."
       },
       {
         "metin": "Köyde kalıp tarım ve hayvancılık yap",
-        "etki": { "saglik": 5, "mutluluk": 5 },
+        "etki": {
+          "saglik": 5,
+          "mutluluk": 5
+        },
         "sonuc": "Savaşa katılmadın, emniyet içinde köyünde kaldın."
       }
-    ]
+    ],
+    "engel_bayrak": "calisaniyor"
   },
   {
     "id": "kurulus_004",
@@ -81,7 +102,10 @@
     "secenekler": [
       {
         "metin": "Fetih şenliklerine katıl ve hayır duası et",
-        "etki": { "mutluluk": 15, "itibar": 5 },
+        "etki": {
+          "mutluluk": 15,
+          "itibar": 5
+        },
         "sonuc": "Bursa'nın fethi münasebetiyle yapılan pilav ve şerbet ikramına katıldın."
       }
     ]
@@ -97,12 +121,17 @@
     "secenekler": [
       {
         "metin": "İmarethanede gönüllü olarak çorba dağıt",
-        "etki": { "itibar": 10, "mutluluk": 10 },
+        "etki": {
+          "itibar": 10,
+          "mutluluk": 10
+        },
         "sonuc": "Yoksullara yardım ederek halkın ve ulamanın takdirini kazandın."
       },
       {
         "metin": "İmarethaneden nasiplen ve yoluna devam et",
-        "etki": { "saglik": 5 },
+        "etki": {
+          "saglik": 5
+        },
         "sonuc": "Sıcak çorbanı içip kuvvet topladın."
       }
     ]
@@ -119,12 +148,17 @@
     "secenekler": [
       {
         "metin": "Rumeli akıncılarına katılarak sınır boyuna yerleş",
-        "etki": { "itibar": 20, "para": 15 },
+        "etki": {
+          "itibar": 20,
+          "para": 15
+        },
         "sonuc": "Rumeli topraklarında yeni birliklere katıldın ve gaza ganimetinden pay aldın."
       },
       {
         "metin": "Anadolu garnizonunda görevine devam et",
-        "etki": { "saglik": 5 },
+        "etki": {
+          "saglik": 5
+        },
         "sonuc": "Anadolu'da kalıp daha güvenli bir devriye görevi sürdürdün."
       }
     ]
@@ -141,14 +175,20 @@
     "secenekler": [
       {
         "metin": "Ön saflarda cesurca çarpış",
-        "etki": { "itibar": 25, "para": 20, "saglik": -15 },
+        "etki": {
+          "itibar": 25,
+          "para": 20,
+          "saglik": -15
+        },
         "olumcul_sans": 10,
         "olum_nedeni": "Kosova Meydan Muharebesi'nde şehit düştü",
         "sonuc": "Kosova Zaferi galibiyetle sonuçlandı. Savaş meydanında büyük yararlılık gösterdin."
       },
       {
         "metin": "Lojistik ve ihtiyat birliklerinde kal",
-        "etki": { "itibar": 5 },
+        "etki": {
+          "itibar": 5
+        },
         "sonuc": "Muharebe zaferle bitti, ordu lahit ve ganimetleri emniyete aldı."
       }
     ]
@@ -166,13 +206,19 @@
     "secenekler": [
       {
         "metin": "Nasibini kabul et ve hayırlı bir izdivaç yap",
-        "etki": { "mutluluk": 20, "itibar": 10, "para": -10 },
+        "etki": {
+          "mutluluk": 20,
+          "itibar": 10,
+          "para": -10
+        },
         "bayrak_ekle": "evli",
         "sonuc": "Mahallede dualarla düğünün yapıldı. Yeni bir yuva kurdun."
       },
       {
         "metin": "Henüz evliliğe hazır olmadığını söyle",
-        "etki": { "mutluluk": -5 },
+        "etki": {
+          "mutluluk": -5
+        },
         "sonuc": "Evlilik teklifini erteledin."
       }
     ]
@@ -188,12 +234,18 @@
     "secenekler": [
       {
         "metin": "Dükkanın kapılarını kapatıp tarafsız kal, sükuneti bekle",
-        "etki": { "mutluluk": -10, "para": -5 },
+        "etki": {
+          "mutluluk": -10,
+          "para": -5
+        },
         "sonuc": "Fetret kargaşasından zarar görmeden sıyrılmayı başardın."
       },
       {
         "metin": "Çelebi Mehmed'in birliği sağlama gayretine destek ol",
-        "etki": { "itibar": 15, "zeka": 5 },
+        "etki": {
+          "itibar": 15,
+          "zeka": 5
+        },
         "sonuc": "Birlik sağlama çabalarına katılarak itibar kazandın."
       }
     ]
@@ -209,7 +261,10 @@
     "secenekler": [
       {
         "metin": "Çarşıda ticarete sarıl ve işini büyüt",
-        "etki": { "para": 15, "mutluluk": 10 },
+        "etki": {
+          "para": 15,
+          "mutluluk": 10
+        },
         "sonuc": "Huzur ortamında kazancın bereketi arttı."
       }
     ]
@@ -226,7 +281,11 @@
     "secenekler": [
       {
         "metin": "Sağ kanat sipahileriyle hücuma kalk",
-        "etki": { "itibar": 20, "para": 15, "saglik": -10 },
+        "etki": {
+          "itibar": 20,
+          "para": 15,
+          "saglik": -10
+        },
         "olumcul_sans": 5,
         "olum_nedeni": "Varna Meydan Savaşı'nda vefat etti",
         "sonuc": "Varna Zaferi ile balkanlardaki Türk hakimiyeti pekişti."
@@ -245,7 +304,10 @@
     "secenekler": [
       {
         "metin": "Şed kuşatılıp icazet al ve ustalık kademesine ilerle",
-        "etki": { "itibar": 15, "para": 10 },
+        "etki": {
+          "itibar": 15,
+          "para": 10
+        },
         "sonuc": "Dualarla şed kuşandın, kalfalıktan ustalığa terfi ettin."
       }
     ]
@@ -261,7 +323,10 @@
     "secenekler": [
       {
         "metin": "Evine kapan ve sirke/otlar ile korunmaya çalış",
-        "etki": { "saglik": -10, "mutluluk": -15 },
+        "etki": {
+          "saglik": -10,
+          "mutluluk": -15
+        },
         "bayrak_ekle": "salgin_maruz",
         "olumcul_sans": 15,
         "olum_nedeni": "Kara Veba salgınında vefat etti",
@@ -269,7 +334,10 @@
       },
       {
         "metin": "Hastalanan komşulara yardım etmeye git",
-        "etki": { "itibar": 20, "saglik": -25 },
+        "etki": {
+          "itibar": 20,
+          "saglik": -25
+        },
         "bayrak_ekle": "salgin_maruz",
         "olumcul_sans": 30,
         "olum_nedeni": "Veba hastalarına bakarken salğına yakalanıp öldü",
@@ -289,7 +357,10 @@
     "secenekler": [
       {
         "metin": "Gece gündüz ders çalışıp imtihana gir",
-        "etki": { "zeka": 15, "itibar": 10 },
+        "etki": {
+          "zeka": 15,
+          "itibar": 10
+        },
         "sonuc": "İmtihanı başarıyla geçip müderris yardımcısı (Danişmend) oldun."
       }
     ]
@@ -305,7 +376,11 @@
     "secenekler": [
       {
         "metin": "Top dökümhanesinde veya ordu hazırlığında görev al",
-        "etki": { "itibar": 25, "para": 15, "zeka": 10 },
+        "etki": {
+          "itibar": 25,
+          "para": 15,
+          "zeka": 10
+        },
         "sonuc": "Şahi toplarının ve fetih hazırlıklarının önemli bir parçası oldun."
       }
     ]
@@ -321,12 +396,18 @@
     "secenekler": [
       {
         "metin": "Camide/mescitte toplu dua için köylülerle bir araya gel",
-        "etki": { "mutluluk": -3, "itibar": 3 },
+        "etki": {
+          "mutluluk": -3,
+          "itibar": 3
+        },
         "sonuc": "Köy meydanında uzun bir sessizlik oldu. Herkes yeni sultanın ne getireceğini merak ediyordu."
       },
       {
         "metin": "İşine devam et, büyük siyaset senin harcın değil",
-        "etki": { "mutluluk": -1, "zeka": 1 },
+        "etki": {
+          "mutluluk": -1,
+          "zeka": 1
+        },
         "sonuc": "Tarla sürülmeye devam etti. Devlet işleri devletlinindir, dendi."
       }
     ]
@@ -342,17 +423,23 @@
     "secenekler": [
       {
         "metin": "Zaviyeye katıl, ahilik yoluna gir",
-        "etki": { "zeka": 4, "itibar": 3 },
+        "etki": {
+          "zeka": 4,
+          "itibar": 3
+        },
         "meslek_atama": "ahilik",
         "bayrak_ekle": "meslek_ahilik",
         "sonuc": "Artık bir ahi çırağısın — hem meslek öğreneceksin hem fütüvvet erdemlerini."
       },
       {
         "metin": "Babanın tarlasında kalmayı tercih et",
-        "etki": { "mutluluk": 1 },
+        "etki": {
+          "mutluluk": 1
+        },
         "sonuc": "Toprak babadan kalma, onu bırakmaya gönlün razı olmadı."
       }
-    ]
+    ],
+    "engel_bayrak": "calisaniyor"
   },
   {
     "id": "kurulus_018",
@@ -365,12 +452,17 @@
     "secenekler": [
       {
         "metin": "Şehre gidip bahşişten payını almaya çalış",
-        "etki": { "para": 3, "sans_gerekli": true },
+        "etki": {
+          "para": 3,
+          "sans_gerekli": true
+        },
         "sonuc": "Yollar kalabalıktı. Ya elin boş dönmedin ya da izdihamda geri çekilmek zorunda kaldın."
       },
       {
         "metin": "Köyde kal, boşuna yorulma",
-        "etki": { "mutluluk": 1 },
+        "etki": {
+          "mutluluk": 1
+        },
         "sonuc": "Şehre gidenlerin bir kısmı boş döndü, sen bari yorulmadın."
       }
     ]
@@ -387,12 +479,19 @@
     "secenekler": [
       {
         "metin": "Sefere katıl, kuşatmaya git",
-        "etki": { "para": 4, "saglik": -3, "sans_gerekli": true },
+        "etki": {
+          "para": 4,
+          "saglik": -3,
+          "sans_gerekli": true
+        },
         "sonuc": "Kuşatma uzun sürdü. Ya ganimetle döndün ya da yaralı, hangisi olursa olsun bir daha eskisi gibi olmadın."
       },
       {
         "metin": "Erzak vererek sefer yükümlülüğünü öde",
-        "etki": { "para": -3, "itibar": 1 },
+        "etki": {
+          "para": -3,
+          "itibar": 1
+        },
         "sonuc": "Tahılının bir kısmı sefer için alındı. Yerinde kaldın, ambar biraz boşaldı."
       }
     ]
@@ -408,12 +507,18 @@
     "secenekler": [
       {
         "metin": "Şehre inip doğru haber almaya çalış",
-        "etki": { "zeka": 3, "mutluluk": -4 },
+        "etki": {
+          "zeka": 3,
+          "mutluluk": -4
+        },
         "sonuc": "Haberler karışıktı ama gerçek acıydı: sultan gerçekten esir düşmüştü. Devletin geleceği belirsizdi."
       },
       {
         "metin": "Ailenle köyde sakin kalıp bekle",
-        "etki": { "mutluluk": -2, "saglik": 1 },
+        "etki": {
+          "mutluluk": -2,
+          "saglik": 1
+        },
         "sonuc": "Kargaşa zamanında dışarı çıkmamak akıllıcaydı. Yine de içindeki tedirginlik geçmedi."
       }
     ]
@@ -429,12 +534,18 @@
     "secenekler": [
       {
         "metin": "Hangi şehzade güçlüyse ona bağlılık göster",
-        "etki": { "para": -2, "zeka": 2 },
+        "etki": {
+          "para": -2,
+          "zeka": 2
+        },
         "sonuc": "Pragmatik bir tercihti. Fetret Devri'nde ayakta kalmanın yolu buydu."
       },
       {
         "metin": "Hiçbirine karışma, tarafsız kal",
-        "etki": { "itibar": -2, "mutluluk": 1 },
+        "etki": {
+          "itibar": -2,
+          "mutluluk": 1
+        },
         "sonuc": "Tarafsızlığın bazılarınca 'sadakatsizlik' sayıldı ama en azından kimseye düşman olmadın."
       }
     ]
@@ -450,12 +561,17 @@
     "secenekler": [
       {
         "metin": "Rahatlayıp bereketli bir hasat için dua et",
-        "etki": { "mutluluk": 6, "saglik": 1 },
+        "etki": {
+          "mutluluk": 6,
+          "saglik": 1
+        },
         "sonuc": "Yıllardır ilk kez tek bir otorite vardı. Köy meydanında bayram havası esti."
       },
       {
         "metin": "Temkinli ol, yeni düzenin ne getireceğini bekle",
-        "etki": { "zeka": 2 },
+        "etki": {
+          "zeka": 2
+        },
         "sonuc": "Geçmiş yıllar sana temkin öğretmişti. Sevinmek için erken olabilirdi."
       }
     ]
@@ -471,19 +587,26 @@
     "secenekler": [
       {
         "metin": "Medreseye gitmek istediğini söyle",
-        "etki": { "zeka": 5, "para": -1 },
+        "etki": {
+          "zeka": 5,
+          "para": -1
+        },
         "meslek_atama": "ilmiye",
         "bayrak_ekle": "meslek_ilmiye",
         "sonuc": "Kur'an ve fıkıh dersleri başladı. Belki bir gün kadı ya da müderris olursun."
       },
       {
         "metin": "Bir ahi ustasının yanında sanat öğrenmek istediğini söyle",
-        "etki": { "zeka": 2, "para": 1 },
+        "etki": {
+          "zeka": 2,
+          "para": 1
+        },
         "meslek_atama": "ahilik",
         "bayrak_ekle": "meslek_ahilik",
         "sonuc": "Elinle iş yapmayı, hem de bir loncanın parçası olmayı seçtin."
       }
-    ]
+    ],
+    "engel_bayrak": "calisaniyor"
   },
   {
     "id": "kurulus_024",
@@ -496,12 +619,18 @@
     "secenekler": [
       {
         "metin": "Yaylaya çık, göçebe hayatı bir süre daha yaşa",
-        "etki": { "mutluluk": 5, "saglik": 2 },
+        "etki": {
+          "mutluluk": 5,
+          "saglik": 2
+        },
         "sonuc": "Otlaklar bereketliydi, sürüler semirdi. Ama tımar defterine adın yine de yazılmadı."
       },
       {
         "metin": "Köyde kalıp toprağa bağlan",
-        "etki": { "para": 2, "itibar": 1 },
+        "etki": {
+          "para": 2,
+          "itibar": 1
+        },
         "sonuc": "Vergi kaydına girdin. Artık 'yeri belli' bir reayasın, devletin gözünde daha güvenilirsin."
       }
     ]
@@ -517,12 +646,17 @@
     "secenekler": [
       {
         "metin": "Yeni sultana bağlılığını göster",
-        "etki": { "itibar": 2, "mutluluk": -2 },
+        "etki": {
+          "itibar": 2,
+          "mutluluk": -2
+        },
         "sonuc": "Bazı komşuların Mustafa'yı desteklediği söyleniyordu. Sofrada bu yüzden tartışmalar oldu."
       },
       {
         "metin": "Kimden yana olduğunu belli etme",
-        "etki": { "mutluluk": 1 },
+        "etki": {
+          "mutluluk": 1
+        },
         "sonuc": "Ortalık netleşene kadar sessiz kalman akıllıcaydı."
       }
     ]
@@ -539,7 +673,10 @@
     "secenekler": [
       {
         "metin": "Kalfalığa terfi et, yemin et",
-        "etki": { "itibar": 5, "zeka": 3 },
+        "etki": {
+          "itibar": 5,
+          "zeka": 3
+        },
         "sonuc": "Artık bir kalfasın. Sırtına yeni bir sorumluluk, ama gururlu bir sorumluluk bindi."
       }
     ]
@@ -555,12 +692,17 @@
     "secenekler": [
       {
         "metin": "Bildiğin doğruyu söyle, komşunu kırma pahasına",
-        "etki": { "itibar": 4, "mutluluk": -2 },
+        "etki": {
+          "itibar": 4,
+          "mutluluk": -2
+        },
         "sonuc": "Doğruyu söylemek kolay değildi ama kadı huzurunda yalan yeminin vebali ağırdı."
       },
       {
         "metin": "Tanıklıktan kaçınmaya çalış",
-        "etki": { "itibar": -2 },
+        "etki": {
+          "itibar": -2
+        },
         "sonuc": "Kaçamak cevapların kadıyı tatmin etmedi. Mahallede biraz laf oldu."
       }
     ]
@@ -576,13 +718,18 @@
     "secenekler": [
       {
         "metin": "Teklife olumlu bak, nikaha razı ol",
-        "etki": { "mutluluk": 6, "para": -2 },
+        "etki": {
+          "mutluluk": 6,
+          "para": -2
+        },
         "bayrak_ekle": "evli",
         "sonuc": "Mahalle imamı nikahı kıydı. İki ailenin de yüzü güldü."
       },
       {
         "metin": "Şimdilik acele etme, düşünmek istediğini söyle",
-        "etki": { "mutluluk": -1 },
+        "etki": {
+          "mutluluk": -1
+        },
         "sonuc": "Aile biraz şaşırdı ama kararına saygı gösterdi."
       }
     ]
@@ -599,7 +746,10 @@
     "secenekler": [
       {
         "metin": "Şükürle karşıla, komşulara helva dağıt",
-        "etki": { "mutluluk": 8, "para": -1 },
+        "etki": {
+          "mutluluk": 8,
+          "para": -1
+        },
         "bayrak_ekle": "cocuklu",
         "sonuc": "Doğum sağlıklı geçti. Köyde yeni bir can, yeni bir umut demekti."
       }
@@ -616,12 +766,17 @@
     "secenekler": [
       {
         "metin": "Söylentilere kulak ver, gelecek için umutlan",
-        "etki": { "mutluluk": 3, "zeka": 1 },
+        "etki": {
+          "mutluluk": 3,
+          "zeka": 1
+        },
         "sonuc": "Kimse henüz bilmiyordu ama bu şehzade birkaç yıl sonra İstanbul'u fethedecekti."
       },
       {
         "metin": "Söylentilere aldırma, günlük işine bak",
-        "etki": { "mutluluk": 1 },
+        "etki": {
+          "mutluluk": 1
+        },
         "sonuc": "Büyük siyaset kendi mecrasında akarken, sen kendi hayatını yaşamaya devam ettin."
       }
     ]
@@ -637,12 +792,17 @@
     "secenekler": [
       {
         "metin": "Rumeli'deki yeni topraklara göç etmeyi düşün",
-        "etki": { "mutluluk": 3, "para": -2 },
+        "etki": {
+          "mutluluk": 3,
+          "para": -2
+        },
         "sonuc": "Yeni fethedilen topraklarda toprak dağıtımı yapılıyordu. Riskli ama cazip bir fırsattı."
       },
       {
         "metin": "Bursa'da/Anadolu'da kalmayı tercih et",
-        "etki": { "mutluluk": 1 },
+        "etki": {
+          "mutluluk": 1
+        },
         "sonuc": "Bilinen topraklarda kalmak güvenliydi. Bazı komşuların Rumeli'ye gittiğini duydun."
       }
     ]
@@ -658,12 +818,17 @@
     "secenekler": [
       {
         "metin": "Zaferi kutlayan köy şenliğine katıl",
-        "etki": { "mutluluk": 4, "itibar": 1 },
+        "etki": {
+          "mutluluk": 4,
+          "itibar": 1
+        },
         "sonuc": "Meydanda davul zurna çalındı. Rumeli'deki varlığımız bir kez daha perçinlendi."
       },
       {
         "metin": "Sıradan bir haber gibi geç, işine devam et",
-        "etki": { "mutluluk": 1 },
+        "etki": {
+          "mutluluk": 1
+        },
         "sonuc": "Savaş haberleri sık geliyordu artık. Herkes kendi telaşındaydı."
       }
     ]
@@ -679,12 +844,19 @@
     "secenekler": [
       {
         "metin": "Sefere katıl, Niğbolu'ya git",
-        "etki": { "para": 5, "saglik": -3, "itibar": 3, "sans_gerekli": true },
+        "etki": {
+          "para": 5,
+          "saglik": -3,
+          "itibar": 3,
+          "sans_gerekli": true
+        },
         "sonuc": "25 Eylül günü meydanda büyük bir zafer kazanıldı. Haçlı ordusu dağıtıldı."
       },
       {
         "metin": "Sefere katılmayıp köyde kal, dua et",
-        "etki": { "mutluluk": -2 },
+        "etki": {
+          "mutluluk": -2
+        },
         "sonuc": "Zaferin haberi köye ulaştığında büyük bir sevinç yaşandı."
       }
     ]
@@ -700,12 +872,19 @@
     "secenekler": [
       {
         "metin": "İsyancıların vaazlarını dinlemeye git",
-        "etki": { "zeka": 3, "itibar": -3, "sans_gerekli": true },
+        "etki": {
+          "zeka": 3,
+          "itibar": -3,
+          "sans_gerekli": true
+        },
         "sonuc": "Fikirleri ilgi çekiciydi ama tehlikeliydi."
       },
       {
         "metin": "Karışma, devlete sadık kal",
-        "etki": { "itibar": 2, "mutluluk": -1 },
+        "etki": {
+          "itibar": 2,
+          "mutluluk": -1
+        },
         "sonuc": "İsyan bastırıldı. Bazı komşuların bu olaydan etkilendiğini duydun."
       }
     ]
@@ -721,12 +900,20 @@
     "secenekler": [
       {
         "metin": "Sefere katıl",
-        "etki": { "para": 4, "saglik": -3, "itibar": 3, "sans_gerekli": true },
+        "etki": {
+          "para": 4,
+          "saglik": -3,
+          "itibar": 3,
+          "sans_gerekli": true
+        },
         "sonuc": "Üç gün süren çetin savaşın ardından zafer yine Osmanlı'nındı. Balkanlar'daki Osmanlı hakimiyeti pekişti."
       },
       {
         "metin": "Erzak/vergi desteğiyle katkıda bulun",
-        "etki": { "para": -3, "itibar": 1 },
+        "etki": {
+          "para": -3,
+          "itibar": 1
+        },
         "sonuc": "Ambarından bir kısmı sefer için alındı. Zafer haberi geldiğinde gurur duydun."
       }
     ]
@@ -742,12 +929,19 @@
     "secenekler": [
       {
         "metin": "Hisar inşaatında ya da top dökümünde çalış",
-        "etki": { "para": 3, "saglik": -2, "zeka": 2 },
+        "etki": {
+          "para": 3,
+          "saglik": -2,
+          "zeka": 2
+        },
         "sonuc": "Ellerin nasırlaştı ama tarihi bir işin parçası olduğunu hissettin."
       },
       {
         "metin": "Kendi işine devam et",
-        "etki": { "mutluluk": 1, "itibar": -1 },
+        "etki": {
+          "mutluluk": 1,
+          "itibar": -1
+        },
         "sonuc": "Herkesin bu büyük hazırlığa koştuğu bir dönemde geride durmak seni biraz rahatsız etti."
       }
     ]
@@ -763,12 +957,18 @@
     "secenekler": [
       {
         "metin": "Zaferi büyük bir coşkuyla kutla",
-        "etki": { "mutluluk": 10, "itibar": 3 },
+        "etki": {
+          "mutluluk": 10,
+          "itibar": 3
+        },
         "sonuc": "Nesillerdir hayal edilen bir fetih gerçekleşmişti. Köy meydanında bayram havası günlerce sürdü."
       },
       {
         "metin": "Şehre gidip yeni başkenti görmeyi düşün",
-        "etki": { "zeka": 4, "para": -3 },
+        "etki": {
+          "zeka": 4,
+          "para": -3
+        },
         "sonuc": "İstanbul'a doğru yola çıkanlar arasındaydın."
       }
     ]
@@ -784,12 +984,18 @@
     "secenekler": [
       {
         "metin": "Gönüllü olarak İstanbul'a yerleş",
-        "etki": { "mutluluk": 5, "para": -2, "itibar": 2 },
+        "etki": {
+          "mutluluk": 5,
+          "para": -2,
+          "itibar": 2
+        },
         "sonuc": "Yeni başkentte bir dükkan/ev sahibi oldun. Şehir yavaş yavaş yeniden hayat buluyordu."
       },
       {
         "metin": "Bulunduğun yerde kalmayı tercih et",
-        "etki": { "mutluluk": 2 },
+        "etki": {
+          "mutluluk": 2
+        },
         "sonuc": "Köklerini bırakmak istemedin. İstanbul'un hikayelerini uzaktan dinlemekle yetindin."
       }
     ]
@@ -805,12 +1011,16 @@
     "secenekler": [
       {
         "metin": "Haberi hayırla karşıla",
-        "etki": { "mutluluk": 4 },
+        "etki": {
+          "mutluluk": 4
+        },
         "sonuc": "Büyük bir günün parçası olduğunuzu hissettiniz."
       },
       {
         "metin": "Günlük işine dönerek haberi sakin karşıla",
-        "etki": { "mutluluk": 1 },
+        "etki": {
+          "mutluluk": 1
+        },
         "sonuc": "Büyük olaylar oluyordu ama hayat dükkanda devam ediyordu."
       }
     ]
@@ -827,7 +1037,10 @@
     "secenekler": [
       {
         "metin": "Unvanı gururla kabul et",
-        "etki": { "itibar": 6, "mutluluk": 4 },
+        "etki": {
+          "itibar": 6,
+          "mutluluk": 4
+        },
         "sonuc": "Artık mahallede sana 'gazi' diye hitap ediliyor. Bu, kolay kazanılmayan bir şerefti."
       }
     ]
@@ -845,12 +1058,17 @@
     "secenekler": [
       {
         "metin": "Bu haberi bir işaret sayıp Osman Bey'in yanına yaklaşmaya çalış",
-        "etki": { "itibar": 3, "mutluluk": 2 },
+        "etki": {
+          "itibar": 3,
+          "mutluluk": 2
+        },
         "sonuc": "Tekkedeki dervişler arasında bu rüyanın konuşulması seni de heyecanlandırdı."
       },
       {
         "metin": "Söylentiye kulak asma, günlük işine bak",
-        "etki": { "mutluluk": 1 },
+        "etki": {
+          "mutluluk": 1
+        },
         "sonuc": "Rüya hikayeleri sık anlatılırdı. Kaçı gerçek kaçı efsane, kimse tam bilemezdi."
       }
     ]
@@ -868,12 +1086,17 @@
     "secenekler": [
       {
         "metin": "Yeni merkeze taşınmayı düşün",
-        "etki": { "para": -2, "mutluluk": 3 },
+        "etki": {
+          "para": -2,
+          "mutluluk": 3
+        },
         "sonuc": "Karacahisar canlı bir pazar yeri olmaya başlamıştı. Fırsat kokusu vardı."
       },
       {
         "metin": "Bulunduğun yerde kal",
-        "etki": { "mutluluk": 1 },
+        "etki": {
+          "mutluluk": 1
+        },
         "sonuc": "Değişim herkese göre değildi. Sen bildiğin topraklarda kalmayı seçtin."
       }
     ]
@@ -891,17 +1114,23 @@
     "secenekler": [
       {
         "metin": "Zaviyeye katıl, ahilik yoluna gir",
-        "etki": { "zeka": 4, "itibar": 3 },
+        "etki": {
+          "zeka": 4,
+          "itibar": 3
+        },
         "meslek_atama": "ahilik",
         "bayrak_ekle": "meslek_ahilik",
         "sonuc": "Ahilik yalnızca bir meslek değil, bir yaşam biçimiydi. Fütüvvet erdemlerini öğrenmeye başladın."
       },
       {
         "metin": "Kendi işinle/tarlanla ilgilenmeye devam et",
-        "etki": { "mutluluk": 1 },
+        "etki": {
+          "mutluluk": 1
+        },
         "sonuc": "Herkesin bir yolu vardı. Sen kendi bildiğin yoldan devam ettin."
       }
-    ]
+    ],
+    "engel_bayrak": "calisaniyor"
   },
   {
     "id": "kurulus_044",
@@ -917,12 +1146,19 @@
     "secenekler": [
       {
         "metin": "Baskına katıl",
-        "etki": { "para": 4, "itibar": 5, "saglik": -2, "sans_gerekli": true },
+        "etki": {
+          "para": 4,
+          "itibar": 5,
+          "saglik": -2,
+          "sans_gerekli": true
+        },
         "sonuc": "Kale nöbetçiler dışında boştu, hile işe yaradı. Bilecik artık Osmanlı toprağıydı."
       },
       {
         "metin": "Bu riskli işe karışma",
-        "etki": { "mutluluk": 1 },
+        "etki": {
+          "mutluluk": 1
+        },
         "sonuc": "Baskının başarıyla sonuçlandığını sonradan duydun."
       }
     ]
@@ -941,12 +1177,18 @@
     "secenekler": [
       {
         "metin": "Sefere katıl",
-        "etki": { "para": 3, "saglik": -2, "sans_gerekli": true },
+        "etki": {
+          "para": 3,
+          "saglik": -2,
+          "sans_gerekli": true
+        },
         "sonuc": "İnegöl alındı. Yorucu ama gururlu bir seferdi."
       },
       {
         "metin": "Bu sefer köyünde kal",
-        "etki": { "mutluluk": 1 },
+        "etki": {
+          "mutluluk": 1
+        },
         "sonuc": "Zafer haberi köye ulaştığında herkes sevindi."
       }
     ]
@@ -964,12 +1206,19 @@
     "secenekler": [
       {
         "metin": "Sefere katılıp savaşa gir",
-        "etki": { "para": 4, "itibar": 4, "saglik": -3, "sans_gerekli": true },
+        "etki": {
+          "para": 4,
+          "itibar": 4,
+          "saglik": -3,
+          "sans_gerekli": true
+        },
         "sonuc": "Zafer Osmanlı'nındı. Bu, ilk kez Bizans'la açık meydanda kazanılan büyük bir zaferdi."
       },
       {
         "metin": "Köyde kal, tarlanı koru",
-        "etki": { "mutluluk": -1 },
+        "etki": {
+          "mutluluk": -1
+        },
         "sonuc": "Zafer haberi geldiğinde sevindin ama savaşa katılan komşularını uzaktan dinledin."
       }
     ]
@@ -987,12 +1236,17 @@
     "secenekler": [
       {
         "metin": "Yeni yerleşime katıl",
-        "etki": { "para": 2, "mutluluk": 2 },
+        "etki": {
+          "para": 2,
+          "mutluluk": 2
+        },
         "sonuc": "Yeni kurulan yerleşimde bir ev/dükkan sahibi oldun."
       },
       {
         "metin": "Köklerini bırakma, eski yerinde kal",
-        "etki": { "mutluluk": 1 },
+        "etki": {
+          "mutluluk": 1
+        },
         "sonuc": "Bilinen topraklar güven veriyordu."
       }
     ]
@@ -1011,12 +1265,18 @@
     "secenekler": [
       {
         "metin": "Sefere katıl",
-        "etki": { "para": 4, "saglik": -2, "sans_gerekli": true },
+        "etki": {
+          "para": 4,
+          "saglik": -2,
+          "sans_gerekli": true
+        },
         "sonuc": "Bir bir kaleler düştü. Bölge Osmanlı topraklarına katılıyordu."
       },
       {
         "metin": "Bu sefer katılma",
-        "etki": { "mutluluk": 1 },
+        "etki": {
+          "mutluluk": 1
+        },
         "sonuc": "Fetih haberleri arka arkaya geldi, sen köyde kaldın."
       }
     ]
@@ -1034,12 +1294,18 @@
     "secenekler": [
       {
         "metin": "Yerleşik hayata geç, toprağa bağlan",
-        "etki": { "para": 3, "itibar": 1 },
+        "etki": {
+          "para": 3,
+          "itibar": 1
+        },
         "sonuc": "Artık sabit bir toprağın vardı. Güvenlik kazandın."
       },
       {
         "metin": "Göçebe geleneği sürdür",
-        "etki": { "mutluluk": 4, "saglik": 1 },
+        "etki": {
+          "mutluluk": 4,
+          "saglik": 1
+        },
         "sonuc": "Yaylanın temiz havası ve özgürlüğü hâlâ cazipti."
       }
     ]
@@ -1057,12 +1323,17 @@
     "secenekler": [
       {
         "metin": "Kuşatmaya erzak/destek gönder",
-        "etki": { "para": -2, "itibar": 2 },
+        "etki": {
+          "para": -2,
+          "itibar": 2
+        },
         "sonuc": "Uzun bir kuşatma için erzak nakliyesi kesintisiz sürdü."
       },
       {
         "metin": "Günlük hayatına devam et",
-        "etki": { "mutluluk": 1 },
+        "etki": {
+          "mutluluk": 1
+        },
         "sonuc": "Kuşatma yıllarca sürecekti, herkes kendi hayatına bakmalıydı."
       }
     ]
@@ -1080,12 +1351,16 @@
     "secenekler": [
       {
         "metin": "Yeni komutana bağlılığını göster",
-        "etki": { "itibar": 2 },
+        "etki": {
+          "itibar": 2
+        },
         "sonuc": "Orhan Bey kararlı görünüyordu. Halk ona güven duydu."
       },
       {
         "metin": "Değişimi endişeyle izle",
-        "etki": { "mutluluk": -1 },
+        "etki": {
+          "mutluluk": -1
+        },
         "sonuc": "Liderlik değişimi tedirginlik getirdi."
       }
     ]
@@ -1104,7 +1379,10 @@
     "secenekler": [
       {
         "metin": "Terfiyi kabul et, yemin et",
-        "etki": { "itibar": 5, "zeka": 3 },
+        "etki": {
+          "itibar": 5,
+          "zeka": 3
+        },
         "sonuc": "Artık bir ahi kalfasısın. Fütüvvet erdemlerine bağlı kalacağına söz verdin."
       }
     ]
@@ -1122,12 +1400,17 @@
     "secenekler": [
       {
         "metin": "Hem zaferi kutla hem yasını tut",
-        "etki": { "mutluluk": 2, "itibar": 2 },
+        "etki": {
+          "mutluluk": 2,
+          "itibar": 2
+        },
         "sonuc": "Büyük bir zafer ile büyük bir kayıp aynı anda yaşandı."
       },
       {
         "metin": "Sessizce yasını tut",
-        "etki": { "mutluluk": -2 },
+        "etki": {
+          "mutluluk": -2
+        },
         "sonuc": "Kurucu beyin ölümü herkesi derinden etkiledi."
       }
     ]
@@ -1145,12 +1428,18 @@
     "secenekler": [
       {
         "metin": "Vergini zamanında öde",
-        "etki": { "para": -2, "itibar": 1 },
+        "etki": {
+          "para": -2,
+          "itibar": 1
+        },
         "sonuc": "Düzenli ödeme yapman beyliğin gözünde güvenilir olmanı sağladı."
       },
       {
         "metin": "Ödemeyi geciktirmeye çalış",
-        "etki": { "para": 1, "itibar": -2 },
+        "etki": {
+          "para": 1,
+          "itibar": -2
+        },
         "sonuc": "Kısa vadede para kaldı cebinde ama risk arttı."
       }
     ]
@@ -1168,12 +1457,17 @@
     "secenekler": [
       {
         "metin": "Farklı kökenden gelen bu komutanlara saygıyla yaklaş",
-        "etki": { "zeka": 2, "itibar": 2 },
+        "etki": {
+          "zeka": 2,
+          "itibar": 2
+        },
         "sonuc": "Beyliğin gücü, farklı kökenlerden gelenleri bir arada tutabilmesindeydi."
       },
       {
         "metin": "Mesafeli dur, alışkın olduğun çevrende kal",
-        "etki": { "mutluluk": 1 },
+        "etki": {
+          "mutluluk": 1
+        },
         "sonuc": "Herkesin kendi çevresinde rahat ettiği bir dönemdi."
       }
     ]
@@ -1191,12 +1485,17 @@
     "secenekler": [
       {
         "metin": "Cuma namazına katıl, tarihi ana tanık ol",
-        "etki": { "mutluluk": 6, "itibar": 3 },
+        "etki": {
+          "mutluluk": 6,
+          "itibar": 3
+        },
         "sonuc": "Hutbede ilk kez 'Osman Bey' adı anıldı. O gün orada bulunanlar, bunun sıradan bir Cuma olmadığını hissetti — artık kimsenin emri altında değildik."
       },
       {
         "metin": "Duyduğun kadarıyla yetin, günlük işine devam et",
-        "etki": { "mutluluk": 1 },
+        "etki": {
+          "mutluluk": 1
+        },
         "sonuc": "Haberi sonradan duydun. Yine de bu hutbenin önemini herkes konuşuyordu — bağımsızlığın ilk işaretiydi."
       }
     ]
@@ -1214,12 +1513,17 @@
     "secenekler": [
       {
         "metin": "Bir anlaşmazlığını yeni kadıya götür",
-        "etki": { "itibar": 2, "zeka": 2 },
+        "etki": {
+          "itibar": 2,
+          "zeka": 2
+        },
         "sonuc": "Yeni düzenin ilk davalarından biri seninkiydi. Kadı adil bir karar verdi, herkes memnun ayrıldı."
       },
       {
         "metin": "Şimdilik bir davan yok, sadece haberi dinle",
-        "etki": { "mutluluk": 1 },
+        "etki": {
+          "mutluluk": 1
+        },
         "sonuc": "Kendi kadımızın olması güven vericiydi. Artık adalet uzakta değildi."
       }
     ]
@@ -1237,12 +1541,17 @@
     "secenekler": [
       {
         "metin": "Bu haberi devletin olgunlaştığının işareti say",
-        "etki": { "zeka": 3, "mutluluk": 2 },
+        "etki": {
+          "zeka": 3,
+          "mutluluk": 2
+        },
         "sonuc": "Küçük bir beylikten düzenli bir devlete geçişin işaretleriydi bunlar. Herkes bu yeniliği konuşuyordu."
       },
       {
         "metin": "Günlük hayatına devam et, pek önemseme",
-        "etki": { "mutluluk": 1 },
+        "etki": {
+          "mutluluk": 1
+        },
         "sonuc": "Sarayda olanlar sıradan halkın gündelik hayatını hemen değiştirmezdi. Yine de bir şeylerin değiştiği hissediliyordu."
       }
     ]
@@ -1260,17 +1569,23 @@
     "secenekler": [
       {
         "metin": "Yaya ordusuna kaydol",
-        "etki": { "para": 3, "saglik": -1 },
+        "etki": {
+          "para": 3,
+          "saglik": -1
+        },
         "meslek_atama": "seyfiye",
         "bayrak_ekle": "meslek_seyfiye",
         "sonuc": "Artık düzenli maaş alan bir askersin — gönüllü akıncılık günlerinden farklı, daha istikrarlı bir hayat."
       },
       {
         "metin": "Sivil hayatında kalmayı tercih et",
-        "etki": { "mutluluk": 1 },
+        "etki": {
+          "mutluluk": 1
+        },
         "sonuc": "Askerlik herkese göre değildi. Sen kendi işinle ilgilenmeye devam ettin."
       }
-    ]
+    ],
+    "engel_bayrak": "calisaniyor"
   },
   {
     "id": "kurulus_060",
@@ -1285,12 +1600,17 @@
     "secenekler": [
       {
         "metin": "Yeni akçelerle bir alışveriş yap, merakını gider",
-        "etki": { "mutluluk": 3, "zeka": 1 },
+        "etki": {
+          "mutluluk": 3,
+          "zeka": 1
+        },
         "sonuc": "Elinde kendi devletinin bastığı ilk parayı tutmak tuhaf bir gurur vericiydi."
       },
       {
         "metin": "Eski alışkanlığınla eski paraları kullanmaya devam et",
-        "etki": { "mutluluk": 1 },
+        "etki": {
+          "mutluluk": 1
+        },
         "sonuc": "Yeni sikkeler yaygınlaşana kadar eski paralar da bir süre daha geçerliydi."
       }
     ]
@@ -1308,17 +1628,23 @@
     "secenekler": [
       {
         "metin": "Medreseye başvur, talebe ol",
-        "etki": { "zeka": 6, "para": -1 },
+        "etki": {
+          "zeka": 6,
+          "para": -1
+        },
         "meslek_atama": "ilmiye",
         "bayrak_ekle": "meslek_ilmiye",
         "sonuc": "Davud-u Kayseri'nin derslerine katılmak büyük bir şerefti. Felsefe ve mantık dersleri zihnini genişletti."
       },
       {
         "metin": "Kendi işinde/tarlanda kalmayı tercih et",
-        "etki": { "mutluluk": 1 },
+        "etki": {
+          "mutluluk": 1
+        },
         "sonuc": "Medrese herkese göre değildi. Sen kendi yolunda ilerlemeye devam ettin."
       }
-    ]
+    ],
+    "engel_bayrak": "calisaniyor"
   },
   {
     "id": "kurulus_062",
@@ -1333,12 +1659,17 @@
     "secenekler": [
       {
         "metin": "Açılışa katıl, ilk namazı orada kıl",
-        "etki": { "mutluluk": 5, "itibar": 2 },
+        "etki": {
+          "mutluluk": 5,
+          "itibar": 2
+        },
         "sonuc": "Yeni caminin taze taş kokusu, kalabalığın uğultusu unutulmazdı. Küçük ama gurur verici bir eser."
       },
       {
         "metin": "Kendi mahalle camine gitmeye devam et",
-        "etki": { "mutluluk": 1 },
+        "etki": {
+          "mutluluk": 1
+        },
         "sonuc": "Yeni caminin haberini duydun ama uzak olduğu için gitmedin."
       }
     ]
@@ -1357,12 +1688,19 @@
     "secenekler": [
       {
         "metin": "Savaşa katıl",
-        "etki": { "para": 4, "itibar": 3, "saglik": -2, "sans_gerekli": true },
+        "etki": {
+          "para": 4,
+          "itibar": 3,
+          "saglik": -2,
+          "sans_gerekli": true
+        },
         "sonuc": "Bizans ordusu bozguna uğratıldı, imparator bile yaralandı. Bu, Bizans'ın Anadolu'daki son ciddi direnişiydi."
       },
       {
         "metin": "Kuşatma hattında destek/erzak görevinde kal",
-        "etki": { "para": 2 },
+        "etki": {
+          "para": 2
+        },
         "sonuc": "Ön saflarda değildin ama kuşatmanın sürmesine katkın oldu."
       }
     ]
@@ -1380,12 +1718,17 @@
     "secenekler": [
       {
         "metin": "Zaferi kutla",
-        "etki": { "mutluluk": 5, "itibar": 1 },
+        "etki": {
+          "mutluluk": 5,
+          "itibar": 1
+        },
         "sonuc": "İznik'in alınması büyük bir moral kaynağı oldu. Şehir kısa sürede yeniden şenlendi."
       },
       {
         "metin": "Sakin bir şekilde günlük işine devam et",
-        "etki": { "mutluluk": 2 },
+        "etki": {
+          "mutluluk": 2
+        },
         "sonuc": "Zafer haberi elbette memnuniyet vericiydi, ama hayat her zamanki akışında sürdü."
       }
     ]
@@ -1403,12 +1746,17 @@
     "secenekler": [
       {
         "metin": "Yeni fethedilen bölgeye yerleşmeyi düşün",
-        "etki": { "para": 2, "mutluluk": 3 },
+        "etki": {
+          "para": 2,
+          "mutluluk": 3
+        },
         "sonuc": "Kıyı bölgesi ticaret için elverişliydi. Yeni bir hayat kurma fırsatı doğdu."
       },
       {
         "metin": "Bulunduğun yerde kal",
-        "etki": { "mutluluk": 1 },
+        "etki": {
+          "mutluluk": 1
+        },
         "sonuc": "Herkes taşınmak istemezdi. Sen bildiğin topraklarda kalmayı tercih ettin."
       }
     ]
@@ -1426,12 +1774,17 @@
     "secenekler": [
       {
         "metin": "Yeni katılan denizci/askerlerle tanışmaya çalış",
-        "etki": { "zeka": 2, "itibar": 1 },
+        "etki": {
+          "zeka": 2,
+          "itibar": 1
+        },
         "sonuc": "Karesili denizciler deniz bilgisiyle övünüyordu. Bu bilgi birikimi ileride Rumeli'ye geçişte işe yarayacaktı."
       },
       {
         "metin": "Kendi işine devam et",
-        "etki": { "mutluluk": 1 },
+        "etki": {
+          "mutluluk": 1
+        },
         "sonuc": "Siyasi gelişmeler kendi mecrasında akarken, gündelik hayat sürdü."
       }
     ]
@@ -1449,12 +1802,17 @@
     "secenekler": [
       {
         "metin": "Bu evliliği hoşgörüyle karşıla",
-        "etki": { "zeka": 2, "mutluluk": 2 },
+        "etki": {
+          "zeka": 2,
+          "mutluluk": 2
+        },
         "sonuc": "Farklı kökenlerin bir araya gelmesi, beyliğin gücünün bir parçasıydı. Bu evlilikten doğacak çocuk bir gün padişah olacaktı."
       },
       {
         "metin": "Alışılmadık bulup mesafeli yaklaş",
-        "etki": { "mutluluk": -1 },
+        "etki": {
+          "mutluluk": -1
+        },
         "sonuc": "Herkes bu türden birleşmelere aynı sıcaklıkla bakmıyordu. Zamanla bu da kabullenildi."
       }
     ]
@@ -1472,12 +1830,17 @@
     "secenekler": [
       {
         "metin": "Tersanede çalışmaya başla",
-        "etki": { "para": 4, "zeka": 2 },
+        "etki": {
+          "para": 4,
+          "zeka": 2
+        },
         "sonuc": "Tahta işleme ve gemi yapımı yeni bir zanaat öğrenme fırsatıydı. Deniz gücümüz büyüyordu."
       },
       {
         "metin": "Kendi mesleğinde kalmayı tercih et",
-        "etki": { "mutluluk": 1 },
+        "etki": {
+          "mutluluk": 1
+        },
         "sonuc": "Herkes kendi bildiği işte kalmak isterdi. Tersanenin gelişimini uzaktan izledin."
       }
     ]
@@ -1495,12 +1858,18 @@
     "secenekler": [
       {
         "metin": "Kalabalık yerlerden uzak dur, evde kal",
-        "etki": { "saglik": 3, "mutluluk": -2 },
+        "etki": {
+          "saglik": 3,
+          "mutluluk": -2
+        },
         "sonuc": "Temkinli davranman seni korudu, ama uzun süre kapalı kalmak yıprattı."
       },
       {
         "metin": "Normal hayatına devam et",
-        "etki": { "saglik": -3, "sans_gerekli": true },
+        "etki": {
+          "saglik": -3,
+          "sans_gerekli": true
+        },
         "sonuc": "Ya hastalıktan uzak kaldın ya da hafif belirtiler yaşadın. Salgın herkesi eşit tehdit etmiyordu."
       }
     ]
@@ -1518,12 +1887,17 @@
     "secenekler": [
       {
         "metin": "Yeni idareye uyum sağla",
-        "etki": { "itibar": 1, "zeka": 1 },
+        "etki": {
+          "itibar": 1,
+          "zeka": 1
+        },
         "sonuc": "Yönetim değişse de ahilerin şehir üzerindeki manevi etkisi uzun süre devam etti."
       },
       {
         "metin": "Eski ahi yönetimini özleyerek anlat",
-        "etki": { "mutluluk": -1 },
+        "etki": {
+          "mutluluk": -1
+        },
         "sonuc": "Değişim herkes için kolay değildi. Ahilik geleneği yine de yaşamaya devam etti, sadece siyasi güç el değiştirmişti."
       }
     ]
@@ -1541,12 +1915,17 @@
     "secenekler": [
       {
         "metin": "Şehzadenin başarıları için dua et",
-        "etki": { "mutluluk": -2, "itibar": 1 },
+        "etki": {
+          "mutluluk": -2,
+          "itibar": 1
+        },
         "sonuc": "Rumeli fetihlerinin öncüsü genç yaşta gitmişti. Onun açtığı yoldan yürümeye devam edildi."
       },
       {
         "metin": "Haberi sessizce karşıla",
-        "etki": { "mutluluk": -1 },
+        "etki": {
+          "mutluluk": -1
+        },
         "sonuc": "Büyük kayıplar bazen sessizce yaşanır. Hayat, acıyla birlikte devam etti."
       }
     ]
@@ -1564,12 +1943,17 @@
     "secenekler": [
       {
         "metin": "Rumeli'ye göç et, yeni toprak sahibi ol",
-        "etki": { "para": 3, "mutluluk": 2 },
+        "etki": {
+          "para": 3,
+          "mutluluk": 2
+        },
         "sonuc": "Yeni topraklar bereketliydi. Zorlu bir yolculuktu ama yeni bir hayatın başlangıcıydı."
       },
       {
         "metin": "Anadolu'da kalmayı tercih et",
-        "etki": { "mutluluk": 1 },
+        "etki": {
+          "mutluluk": 1
+        },
         "sonuc": "Köklerini bırakmak istemedin. Rumeli'ye gidenlerin hikayelerini uzaktan dinledin."
       }
     ]
@@ -1587,17 +1971,23 @@
     "secenekler": [
       {
         "metin": "Kâtiplik yoluna gir",
-        "etki": { "zeka": 5, "itibar": 2 },
+        "etki": {
+          "zeka": 5,
+          "itibar": 2
+        },
         "meslek_atama": "kalemiye",
         "bayrak_ekle": "meslek_kalemiye",
         "sonuc": "Divan'ın yazı işlerinde ilk adımını attın. Kalem tutmak, kılıç tutmaktan farklı ama bir o kadar değerli bir hünerdi."
       },
       {
         "metin": "Bu işi düşünmediğini söyle",
-        "etki": { "mutluluk": 1 },
+        "etki": {
+          "mutluluk": 1
+        },
         "sonuc": "Herkesin bir yeteneği vardı. Kalem işleri sana göre değildi belki de."
       }
-    ]
+    ],
+    "engel_bayrak": "calisaniyor"
   },
   {
     "id": "kurulus_074",
@@ -1612,14 +2002,19 @@
     "secenekler": [
       {
         "metin": "Boşanmayı kabul et",
-        "etki": { "mutluluk": -6, "para": -1 },
+        "etki": {
+          "mutluluk": -6,
+          "para": -1
+        },
         "bayrak_ekle": "dul_bosanmis",
         "bayrak_kaldir": "evli",
         "sonuc": "Kadı huzurunda ayrılık gerçekleşti. Zor bir dönemdi ama hayat devam etti."
       },
       {
         "metin": "Aile büyüklerinin arabuluculuğuyla barışmayı dene",
-        "etki": { "mutluluk": 4 },
+        "etki": {
+          "mutluluk": 4
+        },
         "sonuc": "Mahalle imamı ve aile büyükleri araya girdi. Bu sefer ilişki kurtarıldı."
       }
     ]
@@ -1637,14 +2032,19 @@
     "secenekler": [
       {
         "metin": "Yasını mahalle ile birlikte tut",
-        "etki": { "mutluluk": -8, "itibar": 2 },
+        "etki": {
+          "mutluluk": -8,
+          "itibar": 2
+        },
         "bayrak_ekle": "dul_bosanmis",
         "bayrak_kaldir": "evli",
         "sonuc": "Kırk gün yas tutuldu. Komşuların desteği, acıyı biraz olsun hafifletti."
       },
       {
         "metin": "Sabırla, sessizce yasını tut",
-        "etki": { "mutluluk": -5 },
+        "etki": {
+          "mutluluk": -5
+        },
         "bayrak_ekle": "dul_bosanmis",
         "bayrak_kaldir": "evli",
         "sonuc": "Herkesin yas tutma biçimi farklıdır. Sen sessizliği seçtin."
@@ -1664,14 +2064,22 @@
     "secenekler": [
       {
         "metin": "Yeniden evlenmeyi kabul et",
-        "etki": { "mutluluk": 7, "para": -1 },
-        "bayraklar_ekle": ["evli", "ikinci_evlilik"],
+        "etki": {
+          "mutluluk": 7,
+          "para": -1
+        },
+        "bayraklar_ekle": [
+          "evli",
+          "ikinci_evlilik"
+        ],
         "bayrak_kaldir": "dul_bosanmis",
         "sonuc": "Yeni bir nikah, yeni bir başlangıçtı. Hayat, kayıpların ardından da devam edebiliyordu."
       },
       {
         "metin": "Şimdilik yalnız kalmayı tercih et",
-        "etki": { "mutluluk": 1 },
+        "etki": {
+          "mutluluk": 1
+        },
         "sonuc": "Herkesin kendi zamanı vardı. Sen henüz hazır hissetmiyordun."
       }
     ]
@@ -1689,12 +2097,18 @@
     "secenekler": [
       {
         "metin": "Orhan Bey'in ardından hayırla yad et",
-        "etki": { "mutluluk": -3, "itibar": 2 },
+        "etki": {
+          "mutluluk": -3,
+          "itibar": 2
+        },
         "sonuc": "Halkın çok sevdiği, aralarına karışıp dertlerini dinleyen bir beydi. Onun kurduğu düzen, ardından da yaşamaya devam edecekti."
       },
       {
         "metin": "Yeni beyin (Murad Bey) döneminde neler olacağını merak et",
-        "etki": { "zeka": 2, "mutluluk": -1 },
+        "etki": {
+          "zeka": 2,
+          "mutluluk": -1
+        },
         "sonuc": "Murad Bey, Rumeli fetihleriyle zaten adından söz ettirmişti. Onun döneminde neler olacağı merak konusuydu."
       }
     ]
@@ -1712,12 +2126,17 @@
     "secenekler": [
       {
         "metin": "Yeni başkente göç etmeyi düşün",
-        "etki": { "para": -2, "mutluluk": 3 },
+        "etki": {
+          "para": -2,
+          "mutluluk": 3
+        },
         "sonuc": "Edirne, Rumeli fetihlerinin merkezi olacak gibi görünüyordu. Yeni bir hayat kurmak cazipti."
       },
       {
         "metin": "Bursa'da/Anadolu'da kalmayı tercih et",
-        "etki": { "mutluluk": 1 },
+        "etki": {
+          "mutluluk": 1
+        },
         "sonuc": "Bursa hâlâ önemli bir şehirdi, hemen boşalmayacaktı. Sen köklerinde kalmayı seçtin."
       }
     ]
@@ -1735,12 +2154,16 @@
     "secenekler": [
       {
         "metin": "Bu yeni sistemin nasıl işlediğini merak edip öğrenmeye çalış",
-        "etki": { "zeka": 3 },
+        "etki": {
+          "zeka": 3
+        },
         "sonuc": "Devletin savaş esirlerinden düzenli asker yetiştirmesi, gücünün sürekliliğini sağlayacak yeni bir yöntemdi."
       },
       {
         "metin": "Kendi işine devam et, ilgilenme",
-        "etki": { "mutluluk": 1 },
+        "etki": {
+          "mutluluk": 1
+        },
         "sonuc": "Bu, daha çok saray ve ordu işiydi. Sıradan halkın gündelik hayatı aynı akışta sürdü."
       }
     ]
@@ -1758,17 +2181,24 @@
     "secenekler": [
       {
         "metin": "Bu yeni askeri düzene katılmayı dene",
-        "etki": { "para": 4, "saglik": -2, "itibar": 2 },
+        "etki": {
+          "para": 4,
+          "saglik": -2,
+          "itibar": 2
+        },
         "meslek_atama": "seyfiye",
         "bayrak_ekle": "meslek_seyfiye",
         "sonuc": "Kapıkulu askeri olmak, aşiret/gönüllü askerlikten çok farklı bir disiplin gerektiriyordu — ama karşılığında istikrarlı bir maaş vardı."
       },
       {
         "metin": "Eski usul gönüllü akıncılığı tercih et",
-        "etki": { "mutluluk": 1 },
+        "etki": {
+          "mutluluk": 1
+        },
         "sonuc": "Yeni sistem henüz herkes için cazip değildi. Sen bildiğin yoldan devam ettin."
       }
-    ]
+    ],
+    "engel_bayrak": "calisaniyor"
   },
   {
     "id": "kurulus_081",
@@ -1783,12 +2213,17 @@
     "secenekler": [
       {
         "metin": "Yeni idari düzeni memnuniyetle karşıla",
-        "etki": { "zeka": 2, "itibar": 1 },
+        "etki": {
+          "zeka": 2,
+          "itibar": 1
+        },
         "sonuc": "Genişleyen topraklar artık daha düzenli yönetiliyordu. Devlet olgunlaşıyordu."
       },
       {
         "metin": "Değişikliği fazla önemsemeden günlük işine bak",
-        "etki": { "mutluluk": 1 },
+        "etki": {
+          "mutluluk": 1
+        },
         "sonuc": "İdari düzenlemeler üst kademede kalıyordu, senin gündelik hayatını hemen etkilemedi."
       }
     ]
@@ -1807,7 +2242,10 @@
     "secenekler": [
       {
         "metin": "Tımarı kabul et, sipahi ol",
-        "etki": { "para": 5, "itibar": 3 },
+        "etki": {
+          "para": 5,
+          "itibar": 3
+        },
         "sonuc": "Artık bir tımarlı sipahisin. Bu sistem, hem orduyu hem toprağı bir arada tutan akıllı bir düzendi."
       }
     ]
@@ -1825,17 +2263,23 @@
     "secenekler": [
       {
         "metin": "Bu okula girme fırsatını değerlendir",
-        "etki": { "zeka": 6, "itibar": 3 },
+        "etki": {
+          "zeka": 6,
+          "itibar": 3
+        },
         "meslek_atama": "kalemiye",
         "bayrak_ekle": "meslek_kalemiye",
         "sonuc": "Enderun'un disiplini zorluydu ama sana devlet kademelerinde ilerleme kapısı açtı."
       },
       {
         "metin": "Bu fırsat sana uygun değil, kendi yolunda devam et",
-        "etki": { "mutluluk": 1 },
+        "etki": {
+          "mutluluk": 1
+        },
         "sonuc": "Herkes bu sıkı disipline dayanamazdı. Sen kendi bildiğin hayatı sürdürdün."
       }
-    ]
+    ],
+    "engel_bayrak": "calisaniyor"
   },
   {
     "id": "kurulus_084",
@@ -1850,12 +2294,17 @@
     "secenekler": [
       {
         "metin": "Bu barışçıl kazanımı takdir et",
-        "etki": { "zeka": 2, "mutluluk": 2 },
+        "etki": {
+          "zeka": 2,
+          "mutluluk": 2
+        },
         "sonuc": "Kılıç kullanmadan da toprak kazanılabileceğini gösteren akıllıca bir siyasetti."
       },
       {
         "metin": "Sıradan bir haber gibi geç",
-        "etki": { "mutluluk": 1 },
+        "etki": {
+          "mutluluk": 1
+        },
         "sonuc": "Saray evlilikleri sıkça konuşulurdu. Sen günlük işine devam ettin."
       }
     ]
@@ -1874,12 +2323,19 @@
     "secenekler": [
       {
         "metin": "Sefere katıl",
-        "etki": { "para": 5, "itibar": 4, "saglik": -2, "sans_gerekli": true },
+        "etki": {
+          "para": 5,
+          "itibar": 4,
+          "saglik": -2,
+          "sans_gerekli": true
+        },
         "sonuc": "Zafer bir kez daha bizimdi. Makedonya'nın yolu artık açılmıştı, Sırp Krallığı hakimiyetimizi tanımak zorunda kaldı."
       },
       {
         "metin": "Bu sefere katılma",
-        "etki": { "mutluluk": 1 },
+        "etki": {
+          "mutluluk": 1
+        },
         "sonuc": "Zafer haberi geldiğinde köyde büyük sevinç yaşandı."
       }
     ]
@@ -1897,12 +2353,16 @@
     "secenekler": [
       {
         "metin": "Bu değişimin sonuçlarını merak et",
-        "etki": { "zeka": 2 },
+        "etki": {
+          "zeka": 2
+        },
         "sonuc": "Devlet işleri karmaşıklaşıyordu. Bazı yaşlılar bunun ileride sorun yaratabileceğini söylüyordu."
       },
       {
         "metin": "Büyük siyasetle ilgilenme",
-        "etki": { "mutluluk": 1 },
+        "etki": {
+          "mutluluk": 1
+        },
         "sonuc": "Saray içi düzenlemeler senin gündelik hayatını doğrudan etkilemiyordu."
       }
     ]
@@ -1920,12 +2380,17 @@
     "secenekler": [
       {
         "metin": "Bu acı haberi mahalle ile birlikte konuş",
-        "etki": { "mutluluk": -3, "zeka": 1 },
+        "etki": {
+          "mutluluk": -3,
+          "zeka": 1
+        },
         "sonuc": "Bir babanın kendi oğlunu bu şekilde kaybetmesi herkesi derinden sarstı. Devletin bekası için alınan zor bir karardı."
       },
       {
         "metin": "Bu konuda konuşmaktan kaçın, tehlikeli bir mesele",
-        "etki": { "itibar": 1 },
+        "etki": {
+          "itibar": 1
+        },
         "sonuc": "Saray içi meseleler hakkında konuşmak risk taşıyordu. Sen temkinli davrandın."
       }
     ]
@@ -1944,7 +2409,10 @@
     "secenekler": [
       {
         "metin": "Yeni hiyerarşiye uyum sağla, öğrenmeye devam et",
-        "etki": { "zeka": 4, "itibar": 2 },
+        "etki": {
+          "zeka": 4,
+          "itibar": 2
+        },
         "sonuc": "Devlet teşkilatı her geçen yıl biraz daha karmaşıklaşıyor, biraz daha olgunlaşıyordu."
       }
     ]
@@ -1963,12 +2431,18 @@
     "secenekler": [
       {
         "metin": "Sefere katıl",
-        "etki": { "para": 4, "saglik": -2, "sans_gerekli": true },
+        "etki": {
+          "para": 4,
+          "saglik": -2,
+          "sans_gerekli": true
+        },
         "sonuc": "Makedonya'daki hakimiyetimiz genişledi. Uzun ve yorucu bir seferdi."
       },
       {
         "metin": "Bu sefere katılma",
-        "etki": { "mutluluk": 1 },
+        "etki": {
+          "mutluluk": 1
+        },
         "sonuc": "Fetih haberleri arka arkaya geliyordu. Sen bu sefer evde kaldın."
       }
     ]
@@ -1986,12 +2460,17 @@
     "secenekler": [
       {
         "metin": "Genişlemekte olan devletin gücünden gurur duy",
-        "etki": { "mutluluk": 3, "itibar": 1 },
+        "etki": {
+          "mutluluk": 3,
+          "itibar": 1
+        },
         "sonuc": "Küçük bir beylikten bu denli büyük bir güce ulaşmak, herkesi gururlandırıyordu."
       },
       {
         "metin": "Haberi sakin karşıla",
-        "etki": { "mutluluk": 1 },
+        "etki": {
+          "mutluluk": 1
+        },
         "sonuc": "Fetih ve tabiiyet haberleri artık sık geliyordu, herkes kendi hayatına devam ediyordu."
       }
     ]
@@ -2009,12 +2488,17 @@
     "secenekler": [
       {
         "metin": "Bu diplomatik başarıyı takdir et",
-        "etki": { "zeka": 2, "mutluluk": 2 },
+        "etki": {
+          "zeka": 2,
+          "mutluluk": 2
+        },
         "sonuc": "Kılıçla olduğu kadar akılla da toprak/nüfuz kazanılabiliyordu."
       },
       {
         "metin": "Günlük hayatına devam et",
-        "etki": { "mutluluk": 1 },
+        "etki": {
+          "mutluluk": 1
+        },
         "sonuc": "Diplomatik gelişmeler saray çevresinde konuşulurdu, halkın gündelik hayatı aynı akışta sürdü."
       }
     ]
@@ -2032,12 +2516,16 @@
     "secenekler": [
       {
         "metin": "Bu yeni geleneğin devletin geleceği için iyi olduğunu düşün",
-        "etki": { "zeka": 3 },
+        "etki": {
+          "zeka": 3
+        },
         "sonuc": "Genç yaşta yönetim tecrübesi kazanan şehzadeler, tahta çıktıklarında daha hazırlıklı olacaklardı."
       },
       {
         "metin": "Saray işleri seni ilgilendirmiyor, kendi işine bak",
-        "etki": { "mutluluk": 1 },
+        "etki": {
+          "mutluluk": 1
+        },
         "sonuc": "Şehzade eğitimi elbette önemliydi ama senin gündelik hayatın kendi mecrasında sürdü."
       }
     ]
@@ -2055,12 +2543,17 @@
     "secenekler": [
       {
         "metin": "Hem zaferi hem şehadeti birlikte anlamlandırmaya çalış",
-        "etki": { "mutluluk": -4, "itibar": 2 },
+        "etki": {
+          "mutluluk": -4,
+          "itibar": 2
+        },
         "sonuc": "37 savaşın galibi bir hükümdar, en büyük zaferinin ardından şehit düşmüştü. Yerine oğlu Yıldırım Bayezid geçti."
       },
       {
         "metin": "Sessizce yasını tut",
-        "etki": { "mutluluk": -3 },
+        "etki": {
+          "mutluluk": -3
+        },
         "sonuc": "Hüdavendigar'ın adı halk arasında saygıyla anılmaya devam edecekti."
       }
     ]
@@ -2078,12 +2571,18 @@
     "secenekler": [
       {
         "metin": "Bu hızlı genişlemeden gurur duy",
-        "etki": { "mutluluk": 4, "itibar": 1 },
+        "etki": {
+          "mutluluk": 4,
+          "itibar": 1
+        },
         "sonuc": "'Yıldırım' lakabının nedenini şimdi daha iyi anlıyordun — bu denli hızlı sefer yapan bir hükümdar görülmemişti."
       },
       {
         "metin": "Bu denli hızlı genişlemenin risklerini düşün",
-        "etki": { "zeka": 2, "mutluluk": -1 },
+        "etki": {
+          "zeka": 2,
+          "mutluluk": -1
+        },
         "sonuc": "Bazı yaşlılar 'çok hızlı büyüyen bir ağacın kökleri zayıf olur' diye endişelerini dile getiriyordu."
       }
     ]
@@ -2101,12 +2600,16 @@
     "secenekler": [
       {
         "metin": "Yeni idari düzeni takdir et",
-        "etki": { "zeka": 2 },
+        "etki": {
+          "zeka": 2
+        },
         "sonuc": "Artık Rumeli gibi Anadolu da kendi beylerbeyiyle yönetiliyordu. Devlet olgunlaşmaya devam ediyordu."
       },
       {
         "metin": "Günlük işine devam et",
-        "etki": { "mutluluk": 1 },
+        "etki": {
+          "mutluluk": 1
+        },
         "sonuc": "İdari düzenlemeler üst kademede kalıyordu."
       }
     ]
@@ -2125,12 +2628,18 @@
     "secenekler": [
       {
         "metin": "Bu sefere katılmıştın, yaralı da olsa döndün",
-        "etki": { "saglik": -4, "mutluluk": -3, "sans_gerekli": true },
+        "etki": {
+          "saglik": -4,
+          "mutluluk": -3,
+          "sans_gerekli": true
+        },
         "sonuc": "Yenilgi acı vericiydi ama devlet bundan ders çıkarıp toparlandı. Her zafer kadar her yenilgi de bir şeyler öğretiyordu."
       },
       {
         "metin": "Bu sefere katılmamıştın, haberi uzaktan aldın",
-        "etki": { "mutluluk": -2 },
+        "etki": {
+          "mutluluk": -2
+        },
         "sonuc": "Şehzadenin şehadeti tüm orduyu ve halkı derinden üzdü."
       }
     ]
@@ -2149,12 +2658,19 @@
     "secenekler": [
       {
         "metin": "Sefere katıl",
-        "etki": { "para": 4, "itibar": 3, "saglik": -2, "sans_gerekli": true },
+        "etki": {
+          "para": 4,
+          "itibar": 3,
+          "saglik": -2,
+          "sans_gerekli": true
+        },
         "sonuc": "Karamanoğulları toprakları da Osmanlı'ya katıldı. Kırkdilim'in acısı bir nebze çıkarılmıştı."
       },
       {
         "metin": "Sefere katılmadın, evde haberi bekledin",
-        "etki": { "mutluluk": 1 },
+        "etki": {
+          "mutluluk": 1
+        },
         "sonuc": "Zafer haberi geldiğinde köyde sevinç yaşandı."
       }
     ]
@@ -2172,12 +2688,17 @@
     "secenekler": [
       {
         "metin": "Bu unvanı devletin büyüklüğünün bir kanıtı say",
-        "etki": { "mutluluk": 3, "itibar": 1 },
+        "etki": {
+          "mutluluk": 3,
+          "itibar": 1
+        },
         "sonuc": "Uzak Mısır'dan gelen bu tanıma, Osmanlı'nın artık küçük bir uç beyliği olmadığının kanıtıydı."
       },
       {
         "metin": "Unvanlar seni pek ilgilendirmiyor",
-        "etki": { "mutluluk": 1 },
+        "etki": {
+          "mutluluk": 1
+        },
         "sonuc": "Saray unvanları senin gündelik hayatını değiştirmiyordu."
       }
     ]
@@ -2195,12 +2716,17 @@
     "secenekler": [
       {
         "metin": "Tersanede gemi yapımında çalışmaya başla",
-        "etki": { "para": 4, "zeka": 2 },
+        "etki": {
+          "para": 4,
+          "zeka": 2
+        },
         "sonuc": "Deniz gücümüz artık daha organize bir şekilde büyüyordu. Karesili denizcilerin bilgisi burada işe yarıyordu."
       },
       {
         "metin": "Kendi işinde kalmayı tercih et",
-        "etki": { "mutluluk": 1 },
+        "etki": {
+          "mutluluk": 1
+        },
         "sonuc": "Herkes kendi bildiği zanaatta kalmak isterdi."
       }
     ]
@@ -2218,12 +2744,17 @@
     "secenekler": [
       {
         "metin": "Bu barışçıl ittifakı takdir et",
-        "etki": { "zeka": 2, "mutluluk": 2 },
+        "etki": {
+          "zeka": 2,
+          "mutluluk": 2
+        },
         "sonuc": "Kosova'nın acı hatırasından sonra bu evlilik, iki taraf arasında bir köprü kurdu."
       },
       {
         "metin": "Sıradan bir saray haberi gibi geç",
-        "etki": { "mutluluk": 1 },
+        "etki": {
+          "mutluluk": 1
+        },
         "sonuc": "Saray evlilikleri sıkça konuşulurdu."
       }
     ]
@@ -2241,12 +2772,16 @@
     "secenekler": [
       {
         "metin": "Balkanlar'daki genişlemeyi memnuniyetle karşıla",
-        "etki": { "mutluluk": 2 },
+        "etki": {
+          "mutluluk": 2
+        },
         "sonuc": "Sınırlarımız her geçen yıl biraz daha genişliyordu."
       },
       {
         "metin": "Günlük hayatına devam et",
-        "etki": { "mutluluk": 1 },
+        "etki": {
+          "mutluluk": 1
+        },
         "sonuc": "Uzak diyarlardaki gelişmeler halkın gündelik hayatını hemen etkilemiyordu."
       }
     ]
@@ -2264,12 +2799,17 @@
     "secenekler": [
       {
         "metin": "Gerginliği endişeyle takip et",
-        "etki": { "mutluluk": -2, "zeka": 2 },
+        "etki": {
+          "mutluluk": -2,
+          "zeka": 2
+        },
         "sonuc": "İki dev güç arasında sıkışan Anadolu, zor bir döneme giriyordu."
       },
       {
         "metin": "Bu meseleyi büyütmeden günlük hayatına devam et",
-        "etki": { "mutluluk": 1 },
+        "etki": {
+          "mutluluk": 1
+        },
         "sonuc": "Siyaset büyüktü ama gündelik ekmek kavgası da devam ediyordu."
       }
     ]
@@ -2287,12 +2827,17 @@
     "secenekler": [
       {
         "metin": "Bu haberi dehşetle karşıla, ailenle güvenlik önlemi al",
-        "etki": { "mutluluk": -6, "saglik": -1 },
+        "etki": {
+          "mutluluk": -6,
+          "saglik": -1
+        },
         "sonuc": "Timur'un acımasızlığı herkesi dehşete düşürdü. Doğudan gelen tehlike artık gerçekti."
       },
       {
         "metin": "Haberin abartılı olduğunu umarak sakin kalmaya çalış",
-        "etki": { "mutluluk": -3 },
+        "etki": {
+          "mutluluk": -3
+        },
         "sonuc": "Ne yazık ki haberler doğruydu. Endişe tüm Anadolu'yu sarmıştı."
       }
     ]
@@ -2310,12 +2855,17 @@
     "secenekler": [
       {
         "metin": "Kuşatma seferine katkıda bulun",
-        "etki": { "para": -2, "itibar": 1 },
+        "etki": {
+          "para": -2,
+          "itibar": 1
+        },
         "sonuc": "İmparator sonunda istekleri kabul etti, kuşatma bu sefer kaldırıldı. Ama mesele bitmiş değildi."
       },
       {
         "metin": "Uzak bir meseleymiş gibi izle",
-        "etki": { "mutluluk": 1 },
+        "etki": {
+          "mutluluk": 1
+        },
         "sonuc": "İstanbul'un fethi bir gün gerçekleşecekti ama bu, henüz o gün değildi."
       }
     ]
@@ -2333,12 +2883,18 @@
     "secenekler": [
       {
         "metin": "Sefere hazırlığa katkıda bulun",
-        "etki": { "para": -3, "mutluluk": -1 },
+        "etki": {
+          "para": -3,
+          "mutluluk": -1
+        },
         "sonuc": "Herkes elinden geleni verdi. Büyük bir çatışmanın yaklaştığı hissediliyordu."
       },
       {
         "metin": "Ailenle birlikte güvenli bir yere çekilmeyi düşün",
-        "etki": { "para": -2, "saglik": 1 },
+        "etki": {
+          "para": -2,
+          "saglik": 1
+        },
         "sonuc": "Tedirginlik büyüyordu. Bazı aileler şimdiden daha güvenli bölgelere göç etmeye başlamıştı."
       }
     ]
@@ -2356,12 +2912,18 @@
     "secenekler": [
       {
         "metin": "Bulunduğun bölgedeki şehzadeye bağlılığını sürdür",
-        "etki": { "para": -1, "itibar": 1 },
+        "etki": {
+          "para": -1,
+          "itibar": 1
+        },
         "sonuc": "Ülke parçalanmış gibiydi. Herkes kendi bölgesindeki hükümdara vergisini veriyordu."
       },
       {
         "metin": "Bu kargaşadan uzak, sakin bir bölgeye taşınmayı düşün",
-        "etki": { "para": -2, "mutluluk": 1 },
+        "etki": {
+          "para": -2,
+          "mutluluk": 1
+        },
         "sonuc": "Kargaşa zamanında güvenli bir köşe bulmak akıllıcaydı."
       }
     ]
@@ -2379,12 +2941,17 @@
     "secenekler": [
       {
         "metin": "Bu dağılmayı üzüntüyle karşıla",
-        "etki": { "mutluluk": -3, "zeka": 1 },
+        "etki": {
+          "mutluluk": -3,
+          "zeka": 1
+        },
         "sonuc": "Yıllarca süren fetihlerin bir çırpıda geri alınması acı vericiydi. Yeniden toparlanmak zaman alacaktı."
       },
       {
         "metin": "Kendi bölgende olan bitene odaklan",
-        "etki": { "mutluluk": 1 },
+        "etki": {
+          "mutluluk": 1
+        },
         "sonuc": "Büyük siyasetin inişli çıkışlı olduğunu, halkın kendi gündelik derdiyle uğraştığını bir kez daha gördün."
       }
     ]
@@ -2402,12 +2969,17 @@
     "secenekler": [
       {
         "metin": "Bu eleştirileri sessizce dinle, kendi işine bak",
-        "etki": { "mutluluk": 1 },
+        "etki": {
+          "mutluluk": 1
+        },
         "sonuc": "Hükümdarları eleştirmek risksiz değildi. Sen ihtiyatlı davrandın."
       },
       {
         "metin": "Sen de bu yönetimden memnuniyetsizliğini dile getir",
-        "etki": { "itibar": -1, "mutluluk": 1 },
+        "etki": {
+          "itibar": -1,
+          "mutluluk": 1
+        },
         "sonuc": "Halkın memnuniyetsizliği git gide büyüyordu. Bu, ileride önemli sonuçlar doğuracaktı."
       }
     ]
@@ -2425,12 +2997,17 @@
     "secenekler": [
       {
         "metin": "Bu ani değişimi dehşetle karşıla",
-        "etki": { "mutluluk": -4 },
+        "etki": {
+          "mutluluk": -4
+        },
         "sonuc": "Kardeş kanı dökülmesi herkesi derinden etkiledi. Yeni hükümdarın nasıl biri olacağı merak konusuydu."
       },
       {
         "metin": "Yeni duruma hızla uyum sağla",
-        "etki": { "zeka": 2, "itibar": 1 },
+        "etki": {
+          "zeka": 2,
+          "itibar": 1
+        },
         "sonuc": "Kargaşa zamanında ayakta kalmanın yolu, hızlı uyum sağlamaktan geçiyordu."
       }
     ]
@@ -2448,12 +3025,17 @@
     "secenekler": [
       {
         "metin": "Bir davanı Kazasker Şeyh Bedreddin'e götür",
-        "etki": { "itibar": 3, "zeka": 2 },
+        "etki": {
+          "itibar": 3,
+          "zeka": 2
+        },
         "sonuc": "Adil ve hızlı bir karar aldın. Onun adaletine olan güven her geçen gün artıyordu."
       },
       {
         "metin": "Şimdilik bir davan yok, sadece haberi dinle",
-        "etki": { "mutluluk": 1 },
+        "etki": {
+          "mutluluk": 1
+        },
         "sonuc": "Yeni kazaskerin ismi mahallede sıkça anılıyordu."
       }
     ]
@@ -2471,12 +3053,17 @@
     "secenekler": [
       {
         "metin": "Bu sert siyasetin sonuçlarını endişeyle izle",
-        "etki": { "zeka": 2, "mutluluk": -1 },
+        "etki": {
+          "zeka": 2,
+          "mutluluk": -1
+        },
         "sonuc": "Sertlik bazılarını memnun ediyor bazılarını uzaklaştırıyordu. Kardeşi Mehmed Çelebi'nin bu memnuniyetsizlikten yararlanacağı konuşuluyordu."
       },
       {
         "metin": "Bu siyasetten memnuniyetini dile getir",
-        "etki": { "itibar": 1 },
+        "etki": {
+          "itibar": 1
+        },
         "sonuc": "Bazı çevreler bu güçlü duruşu takdir ediyordu."
       }
     ]
@@ -2494,12 +3081,16 @@
     "secenekler": [
       {
         "metin": "Mehmed Çelebi'ye desteğini sürdür",
-        "etki": { "itibar": 2 },
+        "etki": {
+          "itibar": 2
+        },
         "sonuc": "Halkın tercihleri bazen savaş meydanlarından daha belirleyici oluyordu."
       },
       {
         "metin": "Bu kargaşadan uzak dur",
-        "etki": { "mutluluk": 1 },
+        "etki": {
+          "mutluluk": 1
+        },
         "sonuc": "Taht kavgaları uzadıkça, sıradan halk bir an önce istikrar istiyordu."
       }
     ]
@@ -2517,12 +3108,17 @@
     "secenekler": [
       {
         "metin": "Camide bu yeni eserin okunduğu bir meclise katıl",
-        "etki": { "mutluluk": 6, "zeka": 2 },
+        "etki": {
+          "mutluluk": 6,
+          "zeka": 2
+        },
         "sonuc": "Dizeler öyle içten ve güzeldi ki, gözyaşı döken çok oldu. Bu eser nesillerce okunacaktı."
       },
       {
         "metin": "Haberini duy ama katılma fırsatın olmadı",
-        "etki": { "mutluluk": 1 },
+        "etki": {
+          "mutluluk": 1
+        },
         "sonuc": "Kargaşa zamanında böylesine güzel bir eserin doğması, halkın moralini bir nebze yükseltiyordu."
       }
     ]
@@ -2541,12 +3137,19 @@
     "secenekler": [
       {
         "metin": "Bu son sefere katıl",
-        "etki": { "para": 5, "itibar": 3, "saglik": -2, "sans_gerekli": true },
+        "etki": {
+          "para": 5,
+          "itibar": 3,
+          "saglik": -2,
+          "sans_gerekli": true
+        },
         "sonuc": "Farklı beyliklerden gelen güçlerin birleşmesi, Mehmed Çelebi'nin zaferini kolaylaştırdı."
       },
       {
         "metin": "Bu sefere katılmadın",
-        "etki": { "mutluluk": 1 },
+        "etki": {
+          "mutluluk": 1
+        },
         "sonuc": "Uzun süredir beklenen bir sonucun yaklaştığı hissediliyordu."
       }
     ]
@@ -2564,12 +3167,18 @@
     "secenekler": [
       {
         "metin": "Sabırla bu dönemin geçmesini bekle",
-        "etki": { "mutluluk": -2, "zeka": 1 },
+        "etki": {
+          "mutluluk": -2,
+          "zeka": 1
+        },
         "sonuc": "Herkes bir an önce istikrarın gelmesini diliyordu. Uzun kargaşalar sabrı zorluyordu."
       },
       {
         "metin": "Elindeki imkanlarla ticaretini/işini sürdürmeye çalış",
-        "etki": { "para": -1, "zeka": 2 },
+        "etki": {
+          "para": -1,
+          "zeka": 2
+        },
         "sonuc": "Belirsizlik ortamında iş yapmak zordu ama hayat, ne olursa olsun devam etmek zorundaydı."
       }
     ]
@@ -2587,12 +3196,17 @@
     "secenekler": [
       {
         "metin": "Bu kararı devletin istikrarı için gerekli say",
-        "etki": { "itibar": 1, "zeka": 2 },
+        "etki": {
+          "itibar": 1,
+          "zeka": 2
+        },
         "sonuc": "Yeni hükümdar, önceki dönemin izlerini siliyordu. Bedreddin'in ne yapacağı merak konusuydu."
       },
       {
         "metin": "Bu bilge kişinin görevden alınmasına üzül",
-        "etki": { "mutluluk": -2 },
+        "etki": {
+          "mutluluk": -2
+        },
         "sonuc": "Bazıları onun adaletini özlüyordu. Bu hoşnutsuzluğun ileride büyüyeceğini kimse henüz bilmiyordu."
       }
     ]
@@ -2611,12 +3225,19 @@
     "secenekler": [
       {
         "metin": "Sefere katıl",
-        "etki": { "para": 5, "itibar": 3, "saglik": -2, "sans_gerekli": true },
+        "etki": {
+          "para": 5,
+          "itibar": 3,
+          "saglik": -2,
+          "sans_gerekli": true
+        },
         "sonuc": "Konya alındı, Karamanoğlu Mehmed Bey ve oğlu esir düştü ama affedildi. Mehmed Çelebi'nin merhametiyle de tanındığı bir andı."
       },
       {
         "metin": "Sefere katılmadın",
-        "etki": { "mutluluk": 1 },
+        "etki": {
+          "mutluluk": 1
+        },
         "sonuc": "Zafer haberi geldiğinde köyde sevinç yaşandı."
       }
     ]
@@ -2634,12 +3255,17 @@
     "secenekler": [
       {
         "metin": "Bu affı hükümdarın hoşgörüsüne yor",
-        "etki": { "zeka": 1, "mutluluk": 1 },
+        "etki": {
+          "zeka": 1,
+          "mutluluk": 1
+        },
         "sonuc": "Çelebi Mehmed, gücünü göstermek kadar affetmeyi de biliyordu. İzmir dışında tüm Aydın bölgesi artık Osmanlı toprağıydı."
       },
       {
         "metin": "Bu affı zayıflık işareti say",
-        "etki": { "itibar": -1 },
+        "etki": {
+          "itibar": -1
+        },
         "sonuc": "Bazıları sertlik isterken, hükümdar diplomasiyi tercih etti."
       }
     ]
@@ -2657,12 +3283,17 @@
     "secenekler": [
       {
         "metin": "Deniz gücümüzün genişlediğini takdir et",
-        "etki": { "zeka": 1, "mutluluk": 1 },
+        "etki": {
+          "zeka": 1,
+          "mutluluk": 1
+        },
         "sonuc": "Ege'deki nüfuzumuz her geçen yıl artıyordu."
       },
       {
         "metin": "Bu haberi sıradan bir gelişme gibi geç",
-        "etki": { "mutluluk": 1 },
+        "etki": {
+          "mutluluk": 1
+        },
         "sonuc": "Uzak adaların hikayeleri, gündelik hayatın akışını değiştirmiyordu."
       }
     ]
@@ -2681,12 +3312,18 @@
     "secenekler": [
       {
         "metin": "Donanmada bu sefere katıl",
-        "etki": { "para": 2, "saglik": -3, "sans_gerekli": true },
+        "etki": {
+          "para": 2,
+          "saglik": -3,
+          "sans_gerekli": true
+        },
         "sonuc": "Ne yazık ki bu savaşı kaybettik, donanma komutanı Çalı Bey şehit düştü. Denizde henüz Venedik kadar güçlü değildik — ama bu bir ders oldu."
       },
       {
         "metin": "Karada kal, denize açılma",
-        "etki": { "mutluluk": 1 },
+        "etki": {
+          "mutluluk": 1
+        },
         "sonuc": "Yenilgi haberi acı oldu. Herkes deniz gücümüzün gelişmesi gerektiğini konuşuyordu."
       }
     ]
@@ -2704,12 +3341,16 @@
     "secenekler": [
       {
         "metin": "Genişleyen sınırlardan gurur duy",
-        "etki": { "mutluluk": 2 },
+        "etki": {
+          "mutluluk": 2
+        },
         "sonuc": "11 yıllık kargaşadan sonra devletin yeniden büyümesi umut vericiydi."
       },
       {
         "metin": "Günlük işine devam et",
-        "etki": { "mutluluk": 1 },
+        "etki": {
+          "mutluluk": 1
+        },
         "sonuc": "Uzak sınırlardaki gelişmeler halkın gündelik derdini değiştirmiyordu."
       }
     ]
@@ -2727,12 +3368,17 @@
     "secenekler": [
       {
         "metin": "Bu ilhakı memnuniyetle karşıla",
-        "etki": { "mutluluk": 2, "itibar": 1 },
+        "etki": {
+          "mutluluk": 2,
+          "itibar": 1
+        },
         "sonuc": "Fetret Devri'nde dağılan birlik, Çelebi Mehmed'in sabırlı siyasetiyle yeniden toparlanıyordu."
       },
       {
         "metin": "Kendi işine odaklan",
-        "etki": { "mutluluk": 1 },
+        "etki": {
+          "mutluluk": 1
+        },
         "sonuc": "Siyasi gelişmeler kendi mecrasında akarken, gündelik hayat sürdü."
       }
     ]
@@ -2750,12 +3396,17 @@
     "secenekler": [
       {
         "metin": "Bu gelişmeyi endişeyle takip et",
-        "etki": { "zeka": 2, "mutluluk": -1 },
+        "etki": {
+          "zeka": 2,
+          "mutluluk": -1
+        },
         "sonuc": "11 yıllık kargaşadan yeni çıkmışken, yeni bir taht iddiacısı endişe vericiydi."
       },
       {
         "metin": "Onun gerçek olup olmadığını merak et",
-        "etki": { "zeka": 1 },
+        "etki": {
+          "zeka": 1
+        },
         "sonuc": "Kimliği tartışmalıydı ama iddiası ciddiye alınıyordu. Bu meselenin nasıl sonuçlanacağı zamanla görülecekti."
       }
     ]
@@ -2773,12 +3424,17 @@
     "secenekler": [
       {
         "metin": "Bu unvanı hak ettiğini düşün",
-        "etki": { "mutluluk": 3, "itibar": 1 },
+        "etki": {
+          "mutluluk": 3,
+          "itibar": 1
+        },
         "sonuc": "11 yıllık kargaşadan sonra istikrarın gelmesi, herkes için büyük bir rahatlamaydı."
       },
       {
         "metin": "Zamanın gösterecebileceğini düşün, temkinli ol",
-        "etki": { "zeka": 1 },
+        "etki": {
+          "zeka": 1
+        },
         "sonuc": "Tarih henüz bu hükümdarı tam olarak değerlendirmemişti, ama şimdilik istikrar iyiye işaretti."
       }
     ]
@@ -2796,12 +3452,17 @@
     "secenekler": [
       {
         "metin": "Yeniden canlanan ticaretten faydalanmaya çalış",
-        "etki": { "para": 3, "mutluluk": 2 },
+        "etki": {
+          "para": 3,
+          "mutluluk": 2
+        },
         "sonuc": "İstikrar, ekonomik hayata da yansımıştı. İşler yeniden yoluna girmeye başlamıştı."
       },
       {
         "metin": "Temkinli ol, kargaşanın tekrar başlamasından çekin",
-        "etki": { "mutluluk": 1 },
+        "etki": {
+          "mutluluk": 1
+        },
         "sonuc": "Yıllarca süren belirsizlik, insanlarda temkinli bir alışkanlık bırakmıştı."
       }
     ]
@@ -2819,12 +3480,17 @@
     "secenekler": [
       {
         "metin": "Genç sultana bağlılığını göster",
-        "etki": { "itibar": 2, "mutluluk": -1 },
+        "etki": {
+          "itibar": 2,
+          "mutluluk": -1
+        },
         "sonuc": "Genç bir hükümdar başa geçmişti. İç ve dış düşmanlar bu geçiş dönemini fırsat bilebilirdi."
       },
       {
         "metin": "Endişeyle bekle, gelişmeleri izle",
-        "etki": { "zeka": 1 },
+        "etki": {
+          "zeka": 1
+        },
         "sonuc": "Taht değişimleri her zaman belirsizlik getirirdi. Sabırla beklemek gerekiyordu."
       }
     ]
@@ -2843,12 +3509,19 @@
     "secenekler": [
       {
         "metin": "Sefere katıl",
-        "etki": { "para": 4, "itibar": 3, "saglik": -2, "sans_gerekli": true },
+        "etki": {
+          "para": 4,
+          "itibar": 3,
+          "saglik": -2,
+          "sans_gerekli": true
+        },
         "sonuc": "Düzmece Mustafa yakalanıp Edirne'de idam edildi. Genç sultan ilk büyük sınavını başarıyla geçmişti."
       },
       {
         "metin": "Sefere katılmadın, gelişmeleri bekledin",
-        "etki": { "mutluluk": 1 },
+        "etki": {
+          "mutluluk": 1
+        },
         "sonuc": "İsyanın bastırıldığı haberi geldiğinde köyde rahat bir nefes alındı."
       }
     ]
@@ -2867,12 +3540,17 @@
     "secenekler": [
       {
         "metin": "Kuşatmaya katıl",
-        "etki": { "para": 2, "saglik": -2 },
+        "etki": {
+          "para": 2,
+          "saglik": -2
+        },
         "sonuc": "Şehir yine alınamadı. İstanbul'un fethi gelecek bir nesle nasip olacaktı."
       },
       {
         "metin": "Kuşatmaya katılmadın",
-        "etki": { "mutluluk": 1 },
+        "etki": {
+          "mutluluk": 1
+        },
         "sonuc": "Dördüncü başarısız kuşatma haberi, herkeste bir tür alışkanlık yaratmıştı artık."
       }
     ]
@@ -2890,12 +3568,16 @@
     "secenekler": [
       {
         "metin": "Bu kardeş kavgasını üzüntüyle karşıla",
-        "etki": { "mutluluk": -3 },
+        "etki": {
+          "mutluluk": -3
+        },
         "sonuc": "Taht kavgaları bir türlü bitmiyordu. Bursa'nın kuşatılması herkesi tedirgin etti."
       },
       {
         "metin": "Devletin bekası için gerekli bir mücadele say",
-        "etki": { "itibar": 1 },
+        "etki": {
+          "itibar": 1
+        },
         "sonuc": "İsyan bastırıldı, birlik yeniden sağlandı."
       }
     ]
@@ -2913,12 +3595,17 @@
     "secenekler": [
       {
         "metin": "Bu birliğin sağlanmasından gurur duy",
-        "etki": { "mutluluk": 3, "itibar": 1 },
+        "etki": {
+          "mutluluk": 3,
+          "itibar": 1
+        },
         "sonuc": "Osman Gazi'den beri süren rüya, adım adım gerçeğe dönüşüyordu."
       },
       {
         "metin": "Günlük hayatına devam et",
-        "etki": { "mutluluk": 1 },
+        "etki": {
+          "mutluluk": 1
+        },
         "sonuc": "Büyük siyasi gelişmeler kendi mecrasında akarken, halkın gündelik hayatı sürdü."
       }
     ]
@@ -2937,12 +3624,18 @@
     "secenekler": [
       {
         "metin": "Bu seferde bulundun, yenilgiyi yaşadın",
-        "etki": { "saglik": -4, "mutluluk": -4, "sans_gerekli": true },
+        "etki": {
+          "saglik": -4,
+          "mutluluk": -4,
+          "sans_gerekli": true
+        },
         "sonuc": "Üst üste gelen yenilgiler moralleri bozdu. Balkanlar'daki hakimiyetimiz ilk kez ciddi bir tehdit altındaydı."
       },
       {
         "metin": "Bu sefere katılmadın",
-        "etki": { "mutluluk": -1 },
+        "etki": {
+          "mutluluk": -1
+        },
         "sonuc": "Kötü haberler köye ulaştıkça endişe büyüdü."
       }
     ]
@@ -2960,12 +3653,16 @@
     "secenekler": [
       {
         "metin": "Barışın getirdiği huzuru hisset",
-        "etki": { "mutluluk": 4 },
+        "etki": {
+          "mutluluk": 4
+        },
         "sonuc": "Savaş yorgunu halk için barış haberi büyük bir rahatlamaydı."
       },
       {
         "metin": "Bu antlaşmanın uzun sürmeyeceğinden şüphelen",
-        "etki": { "zeka": 2 },
+        "etki": {
+          "zeka": 2
+        },
         "sonuc": "Bazı tecrübeli kişiler, Haçlıların bu antlaşmaya sadık kalmayabileceğini konuşuyordu — haklı çıkacaklardı."
       }
     ]
@@ -2983,12 +3680,16 @@
     "secenekler": [
       {
         "metin": "Bu acı haberi mahalle ile birlikte konuş",
-        "etki": { "mutluluk": -3 },
+        "etki": {
+          "mutluluk": -3
+        },
         "sonuc": "Bir babanın acısı, halkın da yüreğini burktu. Sultan'ın ruh hali devletin geleceğini de etkileyecekti."
       },
       {
         "metin": "Sessizce yasını tut",
-        "etki": { "mutluluk": -2 },
+        "etki": {
+          "mutluluk": -2
+        },
         "sonuc": "Herkesin yası kendi içindeydi."
       }
     ]
@@ -3006,12 +3707,18 @@
     "secenekler": [
       {
         "metin": "Bu kararı manevi bir işaret olarak yorumla",
-        "etki": { "zeka": 2, "mutluluk": 1 },
+        "etki": {
+          "zeka": 2,
+          "mutluluk": 1
+        },
         "sonuc": "Genç Mehmed'in geleceği merak konusuydu. Hacı Bayram-ı Veli'nin sözleri halk arasında dilden dile dolaşıyordu."
       },
       {
         "metin": "12 yaşında bir çocuğun padişah olmasından endişelen",
-        "etki": { "mutluluk": -2, "zeka": 1 },
+        "etki": {
+          "mutluluk": -2,
+          "zeka": 1
+        },
         "sonuc": "Bu denli genç bir hükümdar, dış düşmanlar için bir fırsat olabilirdi. Endişeler haksız çıkmayacaktı."
       }
     ]
@@ -3030,12 +3737,17 @@
     "secenekler": [
       {
         "metin": "Bu ayaklanmayı endişeyle izle",
-        "etki": { "zeka": 2, "mutluluk": -1 },
+        "etki": {
+          "zeka": 2,
+          "mutluluk": -1
+        },
         "sonuc": "İsyan, maaşlara zam yapılarak yatıştırıldı. Ama kapıkulu askerinin bu denli güçlü olduğu ilk kez böyle açıkça görülmüştü."
       },
       {
         "metin": "Kendi işine devam et, saraya karışma",
-        "etki": { "mutluluk": 1 },
+        "etki": {
+          "mutluluk": 1
+        },
         "sonuc": "Saray içi kargaşalar, sıradan halkın gündelik hayatını fazla etkilemedi."
       }
     ]
@@ -3053,12 +3765,17 @@
     "secenekler": [
       {
         "metin": "Tecrübeli sultanın geri dönüşünü rahatlatıcı bul",
-        "etki": { "mutluluk": 3, "itibar": 1 },
+        "etki": {
+          "mutluluk": 3,
+          "itibar": 1
+        },
         "sonuc": "Genç Mehmed'in yönetimindeki belirsizlikten sonra, tecrübeli bir elin yeniden dümende olması güven verdi."
       },
       {
         "metin": "Bu ikili yönetim değişimini karışık bul",
-        "etki": { "zeka": 1 },
+        "etki": {
+          "zeka": 1
+        },
         "sonuc": "Devlet işleri sıradan halk için bazen anlaşılması güç bir karmaşa gibi görünüyordu."
       }
     ]
@@ -3077,12 +3794,18 @@
     "secenekler": [
       {
         "metin": "Sefere katıl",
-        "etki": { "para": 3, "saglik": -1, "sans_gerekli": true },
+        "etki": {
+          "para": 3,
+          "saglik": -1,
+          "sans_gerekli": true
+        },
         "sonuc": "Karamanoğlu affedildi, beyliği tamamen ortadan kaldırılmadı. Diplomatik bir denge kuruldu."
       },
       {
         "metin": "Sefere katılmadın",
-        "etki": { "mutluluk": 1 },
+        "etki": {
+          "mutluluk": 1
+        },
         "sonuc": "Kısa süren bir gerginlik, savaşmadan çözülmüştü."
       }
     ]
@@ -3100,12 +3823,17 @@
     "secenekler": [
       {
         "metin": "Bu istikrar döneminden faydalanmaya çalış",
-        "etki": { "para": 3, "mutluluk": 2 },
+        "etki": {
+          "para": 3,
+          "mutluluk": 2
+        },
         "sonuc": "Yıllardır süren savaşların ardından bu görece huzur dönemi, ticaret ve gündelik hayat için nefes alma fırsatıydı."
       },
       {
         "metin": "Genç şehzadenin geleceğini merak et",
-        "etki": { "zeka": 2 },
+        "etki": {
+          "zeka": 2
+        },
         "sonuc": "Hacı Bayram-ı Veli'nin sözleri hâlâ hatırlanıyordu — genç Mehmed'in büyük işler yapacağı bekleniyordu."
       }
     ]

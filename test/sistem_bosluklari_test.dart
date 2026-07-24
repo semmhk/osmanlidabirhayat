@@ -139,5 +139,19 @@ void main() {
       expect(bOlum.any((b) => b.id == 'zengin_olum'), isTrue);
       expect(bOlum.any((b) => b.id == 'emektar'), isTrue);
     });
+
+    test('5. Tarihsel Ölüm Riski ve Dönemsel Sağlık Çarpanı testi (1350 vs 1900 doğumlu/yaşayan karakterler)', () {
+      final kKurulus = Karakter(yas: 70, saglik: 50, dogumYili: 1280); // takvimYili = 1350 (1280+70): 1.30x çarpan + Kara Veba (1347-1351) +0.15 riski
+      final kModern = Karakter(yas: 70, saglik: 50, dogumYili: 1830);  // takvimYili = 1900 (1830+70): 0.80x çarpan, salgın yok
+
+      final riskKurulus = OyunMotoru.toplamOlumRiskiHesapla(kKurulus);
+      final riskModern = OyunMotoru.toplamOlumRiskiHesapla(kModern);
+
+      // 1350 yılındaki 70 yaşındaki karakterin ölüm riski (0.20 * 1.30 + 0.15 = 0.41)
+      // 1900 yılındaki 70 yaşındaki karakterin ölüm riski (0.20 * 0.80 = 0.16)
+      expect(riskKurulus, greaterThan(riskModern));
+      expect(riskKurulus, closeTo(0.41, 0.01));
+      expect(riskModern, closeTo(0.16, 0.01));
+    });
   });
 }

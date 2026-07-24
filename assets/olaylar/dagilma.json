@@ -13,12 +13,17 @@
     "secenekler": [
       {
         "metin": "Bu belirsiz ve gergin dönemi endişeyle izle",
-        "etki": { "zeka": 2, "mutluluk": -2 },
+        "etki": {
+          "zeka": 2,
+          "mutluluk": -2
+        },
         "sonuc": "İstanbul, yeni bir kriz beklentisiyle gerilim içindeydi."
       },
       {
         "metin": "Devlet işlerine karışmadan hayatına devam et",
-        "etki": { "mutluluk": 1 },
+        "etki": {
+          "mutluluk": 1
+        },
         "sonuc": "Saray içi çekişmeler, sıradan halkın gündelik derdinden uzaktı — ya da öyle görünüyordu."
       }
     ]
@@ -37,12 +42,18 @@
     "secenekler": [
       {
         "metin": "Bu dramatik anı derin bir şokla karşıla",
-        "etki": { "mutluluk": -6, "zeka": 1 },
+        "etki": {
+          "mutluluk": -6,
+          "zeka": 1
+        },
         "sonuc": "Reformcu Sultan Selim'in ölümü büyük bir üzüntüydü — ama en azından hanedanın son erkek üyesi Mahmud sağ kurtulmuştu."
       },
       {
         "metin": "Bu olayı hanedanın kıl payı kurtuluşu olarak yorumla",
-        "etki": { "zeka": 2, "mutluluk": -3 },
+        "etki": {
+          "zeka": 2,
+          "mutluluk": -3
+        },
         "sonuc": "Eğer Mahmud da o gün ölseydi, 500 yıllık Osmanlı hanedanı sona erebilirdi."
       }
     ]
@@ -61,12 +72,18 @@
     "secenekler": [
       {
         "metin": "Bu yeni yönetimden umutlan",
-        "etki": { "mutluluk": 2, "zeka": 1 },
+        "etki": {
+          "mutluluk": 2,
+          "zeka": 1
+        },
         "sonuc": "Alemdar, iyi niyetli ve kararlı bir devlet adamı olarak tanınıyordu."
       },
       {
         "metin": "Devletin geleceğinden endişelen",
-        "etki": { "zeka": 1, "mutluluk": -1 },
+        "etki": {
+          "zeka": 1,
+          "mutluluk": -1
+        },
         "sonuc": "Son yıllardaki kargaşa, herkesi temkinli kılmıştı."
       }
     ]
@@ -85,12 +102,18 @@
     "secenekler": [
       {
         "metin": "Bu tarihi belgeyi merakla değerlendir",
-        "etki": { "zeka": 3, "mutluluk": 1 },
+        "etki": {
+          "zeka": 3,
+          "mutluluk": 1
+        },
         "sonuc": "Merkezi otoritenin taşra güçleriyle bu şekilde bir anlaşmaya varması, benzeri görülmemiş bir gelişmeydi — devlet, gücünün sınırlarını kabul ediyordu."
       },
       {
         "metin": "Bu ödünlerin devleti zayıflatacağından endişelen",
-        "etki": { "zeka": 2, "mutluluk": -1 },
+        "etki": {
+          "zeka": 2,
+          "mutluluk": -1
+        },
         "sonuc": "Merkezi gücün taşrayla paylaşılması, hem bir çözüm hem de yeni bir belirsizlik kaynağıydı."
       }
     ]
@@ -109,16 +132,22 @@
     "secenekler": [
       {
         "metin": "Bu yeniden canlanan reforma katıl",
-        "etki": { "zeka": 4, "itibar": 2 },
+        "etki": {
+          "zeka": 4,
+          "itibar": 2
+        },
         "meslek_atama": "seyfiye",
         "sonuc": "Selim'in vizyonu, farklı bir isimle de olsa, yeniden hayat buluyordu."
       },
       {
         "metin": "Yeniçerilerin bu yeniliğe nasıl tepki vereceğini merak et",
-        "etki": { "zeka": 2 },
+        "etki": {
+          "zeka": 2
+        },
         "sonuc": "Herkes, bu hassas dengeyle ne kadar sürdürülebileceğini merak ediyordu."
       }
-    ]
+    ],
+    "engel_bayrak": "calisaniyor"
   },
   {
     "id": "mahmud2_1_006_kale_i_sultaniye_vakasi",
@@ -134,12 +163,18 @@
     "secenekler": [
       {
         "metin": "Bu dramatik ve trajik sonu derin bir şokla karşıla",
-        "etki": { "mutluluk": -6, "zeka": 1 },
+        "etki": {
+          "mutluluk": -6,
+          "zeka": 1
+        },
         "sonuc": "Devletin fiili yöneticisi olan bir adamın bu şekilde son bulması, herkesi derinden sarstı — reformların en büyük destekçisi artık yoktu."
       },
       {
         "metin": "Bu olayı devletin ne kadar kırılgan olduğunun kanıtı say",
-        "etki": { "zeka": 3, "mutluluk": -4 },
+        "etki": {
+          "zeka": 3,
+          "mutluluk": -4
+        },
         "sonuc": "Bir sadrazamın kendini havaya uçurmak zorunda kalması, yeniçerilerin gücünün hâlâ ne kadar tehlikeli olduğunu gösteriyordu."
       }
     ]
@@ -158,12 +193,17 @@
     "secenekler": [
       {
         "metin": "Bu ağır kararı devlet güvenliği için gerekli say",
-        "etki": { "zeka": 1, "mutluluk": -3 },
+        "etki": {
+          "zeka": 1,
+          "mutluluk": -3
+        },
         "sonuc": "Hanedanın sürekliliği artık tamamen tek bir kişiye, II. Mahmud'a bağlıydı."
       },
       {
         "metin": "Bu kanlı geçişten derin bir üzüntü duy",
-        "etki": { "mutluluk": -4 },
+        "etki": {
+          "mutluluk": -4
+        },
         "sonuc": "Son yıllarda üst üste yaşanan bu taht kavgaları, halkın da yüreğini yormuştu."
       }
     ]
@@ -182,12 +222,17 @@
     "secenekler": [
       {
         "metin": "Bu geri adımı hayal kırıklığıyla karşıla",
-        "etki": { "mutluluk": -3, "zeka": 2 },
+        "etki": {
+          "mutluluk": -3,
+          "zeka": 2
+        },
         "sonuc": "Reformlar bir kez daha geri alınmıştı — ama genç sultan, bu dersi unutmayacaktı."
       },
       {
         "metin": "Sultan'ın sabırla yeni bir plan kuracağını sezinle",
-        "etki": { "zeka": 2 },
+        "etki": {
+          "zeka": 2
+        },
         "sonuc": "II. Mahmud, artık aceleci davranmanın bedelini biliyordu — bu sefer daha uzun vadeli düşünecekti."
       }
     ]
@@ -206,12 +251,17 @@
     "secenekler": [
       {
         "metin": "Bu özerklik kararını endişeyle izle",
-        "etki": { "zeka": 2, "mutluluk": -1 },
+        "etki": {
+          "zeka": 2,
+          "mutluluk": -1
+        },
         "sonuc": "Bu, gelecekteki daha büyük toprak kayıplarının ilk işareti olabilirdi."
       },
       {
         "metin": "Bunu bölgede huzur sağlayan bir uzlaşma say",
-        "etki": { "mutluluk": 1 },
+        "etki": {
+          "mutluluk": 1
+        },
         "sonuc": "En azından yıllarca süren kanlı çatışma bir süreliğine duruyordu."
       }
     ]
@@ -230,12 +280,17 @@
     "secenekler": [
       {
         "metin": "Bu isyanı büyük bir endişeyle karşıla",
-        "etki": { "mutluluk": -4, "zeka": 2 },
+        "etki": {
+          "mutluluk": -4,
+          "zeka": 2
+        },
         "sonuc": "Bu isyan, sadece bir bölgesel kargaşa değil, Avrupa'nın da dahil olacağı büyük bir kriz olma potansiyeli taşıyordu."
       },
       {
         "metin": "Devlet kuvvetlerinin isyanı bastıracağına güven",
-        "etki": { "mutluluk": 1 },
+        "etki": {
+          "mutluluk": 1
+        },
         "sonuc": "Ama bu isyan, önceki Balkan ayaklanmalarından çok daha ciddiye alınmalıydı."
       }
     ]
@@ -254,12 +309,18 @@
     "secenekler": [
       {
         "metin": "Bu yardımı bir rahatlama say",
-        "etki": { "mutluluk": 2, "zeka": 1 },
+        "etki": {
+          "mutluluk": 2,
+          "zeka": 1
+        },
         "sonuc": "Mısır'ın modern ordusu, merkezi Osmanlı ordusunun yetersizliğini bir nebze telafi ediyordu — ama bu bağımlılık kendi başına bir risk taşıyordu."
       },
       {
         "metin": "Bu bağımlılığın gelecekte sorun yaratabileceğini düşün",
-        "etki": { "zeka": 3, "mutluluk": -1 },
+        "etki": {
+          "zeka": 3,
+          "mutluluk": -1
+        },
         "sonuc": "Merkezi otoritenin kendi ordusuna güvenememesi, endişe verici bir durumdu."
       }
     ]
@@ -278,12 +339,17 @@
     "secenekler": [
       {
         "metin": "Bu sabırlı stratejiyi takdir et",
-        "etki": { "zeka": 3, "itibar": 1 },
+        "etki": {
+          "zeka": 3,
+          "itibar": 1
+        },
         "sonuc": "Sultan'ın yıllarca süren sabırlı planlaması, büyük bir fırtınanın öncesindeki sessizlik gibiydi."
       },
       {
         "metin": "Bu bekleyişin ne zaman sona ereceğini merak et",
-        "etki": { "zeka": 1 },
+        "etki": {
+          "zeka": 1
+        },
         "sonuc": "Herkes, sultan'ın ne zaman harekete geçeceğini merak ediyordu — ama kimse tam olarak bilmiyordu."
       }
     ]
@@ -302,12 +368,19 @@
     "secenekler": [
       {
         "metin": "Bu tarihi ve şiddetli olayda bulun",
-        "etki": { "saglik": -6, "mutluluk": -4, "sans_gerekli": true },
+        "etki": {
+          "saglik": -6,
+          "mutluluk": -4,
+          "sans_gerekli": true
+        },
         "sonuc": "500 yıllık bir kurum, bir günde tarihe karışmıştı. Bu, kanlı ama devletin modernleşme yolunda attığı en köklü adımdı."
       },
       {
         "metin": "Bu köklü değişimi İstanbul'da bekleyerek karşıla",
-        "etki": { "mutluluk": -2, "zeka": 2 },
+        "etki": {
+          "mutluluk": -2,
+          "zeka": 2
+        },
         "sonuc": "Sultanın yıllarca sürdürdüğü sabırlı planlama, sonunda meyvesini vermişti — artık reform yolunun önündeki en büyük engel kalkmıştı."
       }
     ]
@@ -326,16 +399,22 @@
     "secenekler": [
       {
         "metin": "Bu yeni orduya katıl",
-        "etki": { "zeka": 5, "itibar": 2 },
+        "etki": {
+          "zeka": 5,
+          "itibar": 2
+        },
         "meslek_atama": "seyfiye",
         "sonuc": "Artık geçmişin gölgesinde değil, gerçekten yeni bir askeri gelenek başlıyordu."
       },
       {
         "metin": "Bu yeniliği umutla izle",
-        "etki": { "mutluluk": 1 },
+        "etki": {
+          "mutluluk": 1
+        },
         "sonuc": "Yıllardır beklenen köklü ordu reformu artık gerçek oluyordu."
       }
-    ]
+    ],
+    "engel_bayrak": "calisaniyor"
   },
   {
     "id": "mahmud2_2_003_navarin_bozgunu",
@@ -351,12 +430,18 @@
     "secenekler": [
       {
         "metin": "Bu ani ve haksız saldırıyı büyük bir öfkeyle karşıla",
-        "etki": { "mutluluk": -7, "itibar": -1 },
+        "etki": {
+          "mutluluk": -7,
+          "itibar": -1
+        },
         "sonuc": "Savaş ilanı bile yapılmadan donanmanın yakılması, uluslararası hukukun ne kadar güçlünün çıkarına göre işlediğini gösteriyordu."
       },
       {
         "metin": "Bu felaketin diplomatik sonuçlarını düşün",
-        "etki": { "zeka": 2, "mutluluk": -5 },
+        "etki": {
+          "zeka": 2,
+          "mutluluk": -5
+        },
         "sonuc": "Bu olaydan sonra üç büyük Avrupa devletiyle ilişkiler tamamen kesildi."
       }
     ]
@@ -375,12 +460,18 @@
     "secenekler": [
       {
         "metin": "Bu tarihi kaybı derin bir üzüntüyle karşıla",
-        "etki": { "mutluluk": -6, "zeka": 1 },
+        "etki": {
+          "mutluluk": -6,
+          "zeka": 1
+        },
         "sonuc": "Bir milliyetçi ayaklanma, sonunda tam bağımsızlığa dönüşmüştü — bu, gelecekteki diğer milletlerin de cesaretini artıracak bir emsaldi."
       },
       {
         "metin": "Bu kaybın imparatorluğun geleceği için endişe verici olduğunu düşün",
-        "etki": { "zeka": 3, "mutluluk": -4 },
+        "etki": {
+          "zeka": 3,
+          "mutluluk": -4
+        },
         "sonuc": "Çok uluslu bir imparatorluk için, bu bağımsızlık emsali tehlikeli bir kapı aralıyordu."
       }
     ]
@@ -399,12 +490,17 @@
     "secenekler": [
       {
         "metin": "Bu ciddi isyanı büyük bir endişeyle karşıla",
-        "etki": { "mutluluk": -4, "zeka": 2 },
+        "etki": {
+          "mutluluk": -4,
+          "zeka": 2
+        },
         "sonuc": "Kendi valimizin, kendi yetiştirdiği modern bir orduyla merkeze karşı gelmesi, imparatorluğun içindeki en ciddi tehditlerden biriydi."
       },
       {
         "metin": "Devlet kuvvetlerinin bu isyanı bastıracağına güven",
-        "etki": { "mutluluk": 1 },
+        "etki": {
+          "mutluluk": 1
+        },
         "sonuc": "Ama İbrahim Paşa'nın ordusu, merkezi Osmanlı ordusundan çok daha modern ve disiplinliydi."
       }
     ]
@@ -423,12 +519,18 @@
     "secenekler": [
       {
         "metin": "Bu yenilgide bulun",
-        "etki": { "saglik": -5, "mutluluk": -6, "sans_gerekli": true },
+        "etki": {
+          "saglik": -5,
+          "mutluluk": -6,
+          "sans_gerekli": true
+        },
         "sonuc": "Kendi valimizin ordusuna bu şekilde yenilmek, devletin ne kadar zayıfladığının acı bir kanıtıydı."
       },
       {
         "metin": "Bu tehlikeli durumdan derin bir endişe duy",
-        "etki": { "mutluluk": -5 },
+        "etki": {
+          "mutluluk": -5
+        },
         "sonuc": "Bir vali, başkente bu kadar yaklaşabiliyorsa, devletin geleceği gerçekten tehlikedeydi."
       }
     ]
@@ -447,12 +549,18 @@
     "secenekler": [
       {
         "metin": "Bu zorunlu ittifakı acı bir gerçeklik olarak kabul et",
-        "etki": { "mutluluk": -5, "zeka": 2 },
+        "etki": {
+          "mutluluk": -5,
+          "zeka": 2
+        },
         "sonuc": "Eski düşmandan yardım istemek zorunda kalmak, ne kadar çaresiz kalındığının en açık göstergesiydi."
       },
       {
         "metin": "Bu ittifakın tehlikeli bir bağımlılık yaratabileceğini düşün",
-        "etki": { "zeka": 3, "mutluluk": -3 },
+        "etki": {
+          "zeka": 3,
+          "mutluluk": -3
+        },
         "sonuc": "Rusya'ya bu denli yaklaşmak, İngiltere ve Fransa'yı da endişelendirmişti — yeni diplomatik dengeler doğuyordu."
       }
     ]
@@ -471,12 +579,17 @@
     "secenekler": [
       {
         "metin": "Bu geçici çözümü kabul et",
-        "etki": { "zeka": 1, "mutluluk": -2 },
+        "etki": {
+          "zeka": 1,
+          "mutluluk": -2
+        },
         "sonuc": "Bu, gerçek bir çözüm değil, sadece bir soluklanma fırsatıydı — mesele henüz kapanmamıştı."
       },
       {
         "metin": "Bu antlaşmanın uzun sürmeyeceğini sezinle",
-        "etki": { "zeka": 2 },
+        "etki": {
+          "zeka": 2
+        },
         "sonuc": "İki taraf da bu antlaşmadan hoşnut değildi, yeni bir çatışmanın kaçınılmaz olduğu hissediliyordu."
       }
     ]
@@ -495,12 +608,18 @@
     "secenekler": [
       {
         "metin": "Bu antlaşmanın ticari fırsatlarından faydalanmaya çalış",
-        "etki": { "para": 2, "zeka": 1 },
+        "etki": {
+          "para": 2,
+          "zeka": 1
+        },
         "sonuc": "İngiliz malları pazarları doldurmaya başlamıştı — bazıları için fırsat, bazıları için tehditti."
       },
       {
         "metin": "Yerli esnaf/üretici olarak bu antlaşmadan endişelen",
-        "etki": { "para": -3, "mutluluk": -2 },
+        "etki": {
+          "para": -3,
+          "mutluluk": -2
+        },
         "sonuc": "Ucuz İngiliz malları karşısında, geleneksel zanaatların rekabet etmesi giderek zorlaşıyordu."
       }
     ]
@@ -519,12 +638,18 @@
     "secenekler": [
       {
         "metin": "Bu ikinci ağır yenilgide bulun",
-        "etki": { "saglik": -6, "mutluluk": -7, "sans_gerekli": true },
+        "etki": {
+          "saglik": -6,
+          "mutluluk": -7,
+          "sans_gerekli": true
+        },
         "sonuc": "Konya'dan sonra ikinci kez aynı düşmana yenilmek, devletin askeri zaafını bir kez daha ortaya koyuyordu."
       },
       {
         "metin": "Bu kötü haberi İstanbul'da bekleyerek karşıla",
-        "etki": { "mutluluk": -6 },
+        "etki": {
+          "mutluluk": -6
+        },
         "sonuc": "Nizip'in kaybı, devletin en zor günlerinden birini işaret ediyordu."
       }
     ]
@@ -543,12 +668,18 @@
     "secenekler": [
       {
         "metin": "Bu uzun ve dönüştürücü saltanatı hem başarılarıyla hem zorluklarıyla değerlendir",
-        "etki": { "zeka": 3, "mutluluk": -3 },
+        "etki": {
+          "zeka": 3,
+          "mutluluk": -3
+        },
         "sonuc": "III. Selim'in yarım kalan reform vizyonunu, kanlı ama kararlı bir şekilde tamamlayan bir hükümdardı II. Mahmud. Ama Mehmed Ali krizi çözülmeden, savaş kaybedilmiş halde bırakıp gitmişti. Bu ağır mirası, henüz 16 yaşındaki genç Abdülmecid devralacaktı."
       },
       {
         "metin": "Genç yeni sultanın bu krizle nasıl başa çıkacağını merak et",
-        "etki": { "zeka": 2, "mutluluk": -2 },
+        "etki": {
+          "zeka": 2,
+          "mutluluk": -2
+        },
         "sonuc": "Devletin geleceği, bir kez daha çok genç bir hükümdarın ellerine bırakılmıştı."
       }
     ]
@@ -567,12 +698,18 @@
     "secenekler": [
       {
         "metin": "Bu ihaneti büyük bir dehşetle karşıla",
-        "etki": { "mutluluk": -8, "itibar": -2 },
+        "etki": {
+          "mutluluk": -8,
+          "itibar": -2
+        },
         "sonuc": "Yeni tahta çıkan genç sultan için bundan daha kötü bir başlangıç olamazdı — devlet artık ordusuz, donanmasız, kaybedilmiş bir savaşla baş başaydı."
       },
       {
         "metin": "Bu krizin ne şekilde çözüleceğini merak et",
-        "etki": { "zeka": 2, "mutluluk": -5 },
+        "etki": {
+          "zeka": 2,
+          "mutluluk": -5
+        },
         "sonuc": "Avrupa büyük devletlerinin araya girmesi, artık kaçınılmaz görünüyordu."
       }
     ]
@@ -591,12 +728,17 @@
     "secenekler": [
       {
         "metin": "Bu köklü idari reformları takdirle değerlendir",
-        "etki": { "zeka": 3, "itibar": 1 },
+        "etki": {
+          "zeka": 3,
+          "itibar": 1
+        },
         "sonuc": "Devletin yönetim biçimi, yüzlerce yıllık gelenekten kopup Avrupa tarzı bir modernleşmeye doğru evriliyordu."
       },
       {
         "metin": "Bu değişimlerin hayatına nasıl yansıdığını düşün",
-        "etki": { "mutluluk": 1 },
+        "etki": {
+          "mutluluk": 1
+        },
         "sonuc": "Gündelik hayat, bu büyük değişimlerin gölgesinde yavaş yavaş kendini yeniden şekillendiriyordu."
       }
     ]
@@ -615,12 +757,17 @@
     "secenekler": [
       {
         "metin": "Bu belirsiz ama umut vaat eden yeni dönemi merakla bekle",
-        "etki": { "zeka": 2, "mutluluk": 1 },
+        "etki": {
+          "zeka": 2,
+          "mutluluk": 1
+        },
         "sonuc": "Devlet, hem büyük kayıplar hem de büyük dönüşümlerle dolu bir yüzyıla giriyordu."
       },
       {
         "metin": "Gündelik hayatına devam et",
-        "etki": { "mutluluk": 1 },
+        "etki": {
+          "mutluluk": 1
+        },
         "sonuc": "Büyük tarihi dönüşümler ne olursa olsun, hayat kendi akışında sürüyordu."
       }
     ]
@@ -639,12 +786,18 @@
     "secenekler": [
       {
         "metin": "Bu durumu acı bir gerçeklik olarak kabul et",
-        "etki": { "mutluluk": -4, "zeka": 2 },
+        "etki": {
+          "mutluluk": -4,
+          "zeka": 2
+        },
         "sonuc": "Bağımsız kararlar alabilme gücümüz, artık büyük ölçüde Avrupa'nın onayına bağlıydı."
       },
       {
         "metin": "Bunun devletin kurtuluşu için gerekli bir denge olduğunu düşün",
-        "etki": { "zeka": 2, "mutluluk": -2 },
+        "etki": {
+          "zeka": 2,
+          "mutluluk": -2
+        },
         "sonuc": "Avrupa'nın desteği olmadan Mehmed Ali krizinden çıkmak mümkün görünmüyordu."
       }
     ]
@@ -663,12 +816,17 @@
     "secenekler": [
       {
         "metin": "Bu tarihi fermanı büyük bir ilgiyle dinle",
-        "etki": { "zeka": 4, "mutluluk": 3 },
+        "etki": {
+          "zeka": 4,
+          "mutluluk": 3
+        },
         "sonuc": "Bu, devletin yönetim anlayışında köklü bir dönüşümün resmi ilanıydı — artık herkes kanun önünde eşit sayılacaktı, en azından kağıt üzerinde."
       },
       {
         "metin": "Bu değişimin gerçekte ne kadar uygulanacağını merak et",
-        "etki": { "zeka": 2 },
+        "etki": {
+          "zeka": 2
+        },
         "sonuc": "Güzel sözlerin gerçek hayata ne kadar yansıyacağı, zamanla görülecekti."
       }
     ]
@@ -687,12 +845,18 @@
     "secenekler": [
       {
         "metin": "Bu çözümü bir denge olarak kabul et",
-        "etki": { "zeka": 2, "mutluluk": 3 },
+        "etki": {
+          "zeka": 2,
+          "mutluluk": 3
+        },
         "sonuc": "Yıllarca süren kriz nihayet çözüme kavuşmuştu — Mısır resmen elden çıkmasa da, fiilen özerk bir yapıya dönüşüyordu."
       },
       {
         "metin": "Bu antlaşmayı Avrupa'nın müdahalesinin bir sonucu say",
-        "etki": { "zeka": 1, "mutluluk": -1 },
+        "etki": {
+          "zeka": 1,
+          "mutluluk": -1
+        },
         "sonuc": "Devletin kendi iç meselesi, artık büyük Avrupa devletlerinin masasında çözülüyordu."
       }
     ]
@@ -711,12 +875,18 @@
     "secenekler": [
       {
         "metin": "Bu antlaşmayı devletin egemenliğinin korunması adına olumlu bul",
-        "etki": { "zeka": 2, "mutluluk": 2 },
+        "etki": {
+          "zeka": 2,
+          "mutluluk": 2
+        },
         "sonuc": "En azından boğazlar üzerindeki hakimiyetimiz uluslararası olarak tanınmıştı."
       },
       {
         "metin": "Bu meselenin uluslararası bir konu haline gelmesinden endişelen",
-        "etki": { "zeka": 1, "mutluluk": -1 },
+        "etki": {
+          "zeka": 1,
+          "mutluluk": -1
+        },
         "sonuc": "Boğazlar artık sadece bizim değil, tüm büyük devletlerin ilgi alanındaydı."
       }
     ]
@@ -735,12 +905,17 @@
     "secenekler": [
       {
         "metin": "Bu büyük ittifakı umutla karşıla",
-        "etki": { "mutluluk": 3, "zeka": 1 },
+        "etki": {
+          "mutluluk": 3,
+          "zeka": 1
+        },
         "sonuc": "İlk kez Avrupa'nın iki büyük gücü, Osmanlı'yı savunmak için bizzat savaşa giriyordu."
       },
       {
         "metin": "Bu ittifakın bedelini merak et",
-        "etki": { "zeka": 2 },
+        "etki": {
+          "zeka": 2
+        },
         "sonuc": "Böylesine büyük bir yardımın, karşılığında bir bedeli olacağı aşikardı."
       }
     ]
@@ -759,12 +934,18 @@
     "secenekler": [
       {
         "metin": "Bu zorunlu adımı savaşın gereği say",
-        "etki": { "zeka": 1, "mutluluk": -2 },
+        "etki": {
+          "zeka": 1,
+          "mutluluk": -2
+        },
         "sonuc": "Savaşı sürdürebilmek için başka çare görünmüyordu — ama bu, tehlikeli bir kapıyı da aralıyordu."
       },
       {
         "metin": "Bu borçlanmanın gelecekteki sonuçlarından endişelen",
-        "etki": { "zeka": 3, "mutluluk": -3 },
+        "etki": {
+          "zeka": 3,
+          "mutluluk": -3
+        },
         "sonuc": "İlk borç genelde son borç olmazdı — bu, uzun bir mali bağımlılık zincirinin başlangıcı olabilirdi."
       }
     ]
@@ -783,12 +964,20 @@
     "secenekler": [
       {
         "metin": "Bu zorlu savaşa katıl",
-        "etki": { "para": 5, "itibar": 4, "saglik": -5, "sans_gerekli": true },
+        "etki": {
+          "para": 5,
+          "itibar": 4,
+          "saglik": -5,
+          "sans_gerekli": true
+        },
         "sonuc": "Kırım'daki koşullar çok ağırdı ama sonunda zafer bizimdi — Rusya'nın genişleme hırsı bir kez daha durdurulmuştu."
       },
       {
         "metin": "Bu zaferi uzaktan büyük bir gururla kutla",
-        "etki": { "mutluluk": 5, "itibar": 2 },
+        "etki": {
+          "mutluluk": 5,
+          "itibar": 2
+        },
         "sonuc": "Uzun zamandır ilk kez, büyük bir savaşta galip gelen taraftaydık."
       }
     ]
@@ -807,12 +996,18 @@
     "secenekler": [
       {
         "metin": "Bu tanınmayı büyük bir gururla karşıla",
-        "etki": { "mutluluk": 6, "itibar": 3 },
+        "etki": {
+          "mutluluk": 6,
+          "itibar": 3
+        },
         "sonuc": "Yüzyıllardır 'öteki' sayılan bir imparatorluk, artık resmen Avrupa devletler ailesinin bir parçasıydı."
       },
       {
         "metin": "Bu tanınmanın gerçek eşitlik anlamına gelip gelmediğini sorgula",
-        "etki": { "zeka": 2, "mutluluk": 2 },
+        "etki": {
+          "zeka": 2,
+          "mutluluk": 2
+        },
         "sonuc": "Kağıt üzerindeki eşitlik ile fiili güç dengesi arasında hâlâ büyük bir fark vardı."
       }
     ]
@@ -831,12 +1026,17 @@
     "secenekler": [
       {
         "metin": "Bu genişletilmiş hakları memnuniyetle karşıla",
-        "etki": { "mutluluk": 3, "zeka": 1 },
+        "etki": {
+          "mutluluk": 3,
+          "zeka": 1
+        },
         "sonuc": "İmparatorluk, tüm tebaasını daha eşit bir şekilde kucaklamaya çalışıyordu — en azından niyet böyleydi."
       },
       {
         "metin": "Bu değişimlerin toplumda nasıl karşılanacağını merak et",
-        "etki": { "zeka": 2 },
+        "etki": {
+          "zeka": 2
+        },
         "sonuc": "Böylesine köklü bir değişim, herkes tarafından aynı hızda kabul edilmeyebilirdi."
       }
     ]
@@ -855,12 +1055,18 @@
     "secenekler": [
       {
         "metin": "Bu komplonun ortaya çıkarılmasını olumlu karşıla",
-        "etki": { "itibar": 1, "mutluluk": 1 },
+        "etki": {
+          "itibar": 1,
+          "mutluluk": 1
+        },
         "sonuc": "Devletin istikrarı, bu kez erken müdahaleyle korunmuştu."
       },
       {
         "metin": "Bu tür komploların hâlâ gündemde olmasından endişelen",
-        "etki": { "zeka": 2, "mutluluk": -2 },
+        "etki": {
+          "zeka": 2,
+          "mutluluk": -2
+        },
         "sonuc": "Tanzimat'ın getirdiği değişimler, herkesi memnun etmiyordu — muhalefet hâlâ güçlüydü."
       }
     ]
@@ -879,12 +1085,17 @@
     "secenekler": [
       {
         "metin": "Bu mali krizden endişelen",
-        "etki": { "para": -3, "mutluluk": -3 },
+        "etki": {
+          "para": -3,
+          "mutluluk": -3
+        },
         "sonuc": "Devlet artık borç sarmalına girmişti — bu, geleceğe dair ciddi bir endişe kaynağıydı."
       },
       {
         "metin": "Devletin bu krizi aşacağına inanmaya çalış",
-        "etki": { "mutluluk": -1 },
+        "etki": {
+          "mutluluk": -1
+        },
         "sonuc": "Mali sıkıntılar, zaman zaman gündeme gelen bir mesele haline gelmişti."
       }
     ]
@@ -903,12 +1114,17 @@
     "secenekler": [
       {
         "metin": "Bu yeni teknoloji ve mimariden etkilen",
-        "etki": { "zeka": 3, "mutluluk": 2 },
+        "etki": {
+          "zeka": 3,
+          "mutluluk": 2
+        },
         "sonuc": "Telgrafla haberler artık günler değil saatler içinde ulaşabiliyordu — bu, hayal bile edilemeyecek bir hızdı."
       },
       {
         "metin": "Bu görkemli sarayın maliyetinden rahatsız ol",
-        "etki": { "mutluluk": -1 },
+        "etki": {
+          "mutluluk": -1
+        },
         "sonuc": "Devlet zor günler geçirirken bu denli gösterişli bir saray inşası, bazılarının canını sıkıyordu."
       }
     ]
@@ -927,12 +1143,17 @@
     "secenekler": [
       {
         "metin": "Bu değişimin adil bir şekilde uygulanmasını destekle",
-        "etki": { "itibar": 2, "mutluluk": 2 },
+        "etki": {
+          "itibar": 2,
+          "mutluluk": 2
+        },
         "sonuc": "Eşitlik iddiasının gerçek hayata yansıması, yavaş ama gözle görülür bir süreçti."
       },
       {
         "metin": "Bu değişimlerin bazı çevrelerde direnişle karşılaştığını gözlemle",
-        "etki": { "zeka": 2 },
+        "etki": {
+          "zeka": 2
+        },
         "sonuc": "Köklü değişimler, her zaman bazı kesimlerde hoşnutsuzluk yaratırdı."
       }
     ]
@@ -951,12 +1172,17 @@
     "secenekler": [
       {
         "metin": "Bu dönüşüm dolu saltanatı takdirle değerlendir",
-        "etki": { "zeka": 2, "mutluluk": -2 },
+        "etki": {
+          "zeka": 2,
+          "mutluluk": -2
+        },
         "sonuc": "İmparatorluk artık eskisinden çok farklı bir yapıya bürünmüştü — hem daha modern hem de daha borçlu, hem daha 'eşit' hem de eskisinden daha kırılgan."
       },
       {
         "metin": "Yeni sultanın döneminden merak et",
-        "etki": { "zeka": 1 },
+        "etki": {
+          "zeka": 1
+        },
         "sonuc": "Devletin geleceği, artık Abdülaziz'in ellerindeydi."
       }
     ]
@@ -975,16 +1201,24 @@
     "secenekler": [
       {
         "metin": "Tersanede bu büyük donanma projesinde çalış",
-        "etki": { "para": 6, "zeka": 3, "itibar": 2 },
+        "etki": {
+          "para": 6,
+          "zeka": 3,
+          "itibar": 2
+        },
         "meslek_atama": "ahilik",
         "sonuc": "21 zırhlı gemi, yüzlerce top — devletin denizlerdeki gücü, yıllar sonra ilk kez bu denli etkileyiciydi."
       },
       {
         "metin": "Bu görkemli donanmadan gurur duy",
-        "etki": { "mutluluk": 4, "itibar": 1 },
+        "etki": {
+          "mutluluk": 4,
+          "itibar": 1
+        },
         "sonuc": "Denizlerdeki bu güç, imparatorluğun hâlâ büyük bir devlet olduğunun somut kanıtıydı."
       }
-    ]
+    ],
+    "engel_bayrak": "calisaniyor"
   },
   {
     "id": "abdulaziz_002_avrupa_seyahati",
@@ -1000,12 +1234,18 @@
     "secenekler": [
       {
         "metin": "Bu tarihi seyahatin haberlerini merakla takip et",
-        "etki": { "zeka": 3, "mutluluk": 3 },
+        "etki": {
+          "zeka": 3,
+          "mutluluk": 3
+        },
         "sonuc": "Bir Osmanlı padişahının Avrupa'nın en güçlü krallarıyla bu şekilde ağırlanması, herkesi gururlandırdı ve şaşırttı."
       },
       {
         "metin": "Bu seyahatin devlete getirdiği maliyeti düşün",
-        "etki": { "zeka": 1, "mutluluk": -1 },
+        "etki": {
+          "zeka": 1,
+          "mutluluk": -1
+        },
         "sonuc": "Görkemli bir seyahatti ama masrafları da az değildi."
       }
     ]
@@ -1024,12 +1264,17 @@
     "secenekler": [
       {
         "metin": "Bu kayıpları endişeyle izle",
-        "etki": { "zeka": 2, "mutluluk": -3 },
+        "etki": {
+          "zeka": 2,
+          "mutluluk": -3
+        },
         "sonuc": "Balkanlar'daki milliyetçi hareketler, bir türlü durdurulamıyordu."
       },
       {
         "metin": "Bu değişimlerin doğal bir süreç olduğunu kabullen",
-        "etki": { "mutluluk": -1 },
+        "etki": {
+          "mutluluk": -1
+        },
         "sonuc": "Çok uluslu bir imparatorluğu bir arada tutmak, her geçen yıl daha da zorlaşıyordu."
       }
     ]
@@ -1048,12 +1293,19 @@
     "secenekler": [
       {
         "metin": "Bu isyanı bastırma çabalarına katıl",
-        "etki": { "para": 3, "saglik": -3, "sans_gerekli": true },
+        "etki": {
+          "para": 3,
+          "saglik": -3,
+          "sans_gerekli": true
+        },
         "sonuc": "Girit'teki huzursuzluk bastırıldı ama tam olarak sona ermedi — bu, yıllar sürecek bir meselenin sadece bir perdesiydi."
       },
       {
         "metin": "Bu meseleyi uzaktan endişeyle takip et",
-        "etki": { "zeka": 1, "mutluluk": -1 },
+        "etki": {
+          "zeka": 1,
+          "mutluluk": -1
+        },
         "sonuc": "Girit'in geleceği, giderek daha belirsiz görünüyordu."
       }
     ]
@@ -1072,12 +1324,17 @@
     "secenekler": [
       {
         "metin": "Bu büyük mühendislik başarısını hayranlıkla izle",
-        "etki": { "zeka": 3, "mutluluk": 2 },
+        "etki": {
+          "zeka": 3,
+          "mutluluk": 2
+        },
         "sonuc": "İki denizi birleştiren bu kanal, dünya ticaretini kökten değiştirecek bir projeydi."
       },
       {
         "metin": "Bu kanalın stratejik önemini düşün",
-        "etki": { "zeka": 2 },
+        "etki": {
+          "zeka": 2
+        },
         "sonuc": "Avrupa devletleri, bu yeni ticaret yoluna büyük bir ilgiyle bakıyordu — bu ilgi ileride yeni sorunlar da doğurabilirdi."
       }
     ]
@@ -1096,12 +1353,18 @@
     "secenekler": [
       {
         "metin": "Bu borçlanma sarmalından endişelen",
-        "etki": { "para": -3, "zeka": 2, "mutluluk": -2 },
+        "etki": {
+          "para": -3,
+          "zeka": 2,
+          "mutluluk": -2
+        },
         "sonuc": "Her yeni borç, bir öncekini kapatmak için alınıyordu — bu, sürdürülemez bir döngüydü."
       },
       {
         "metin": "Devletin görkeminin bu şekilde sürdürüldüğünü gözlemle",
-        "etki": { "mutluluk": 1 },
+        "etki": {
+          "mutluluk": 1
+        },
         "sonuc": "Görkemli saraylar ve büyük donanma, aslında borç üzerine borçla ayakta duruyordu."
       }
     ]
@@ -1120,12 +1383,18 @@
     "secenekler": [
       {
         "metin": "Bu iflas haberini büyük bir endişeyle karşıla",
-        "etki": { "mutluluk": -7, "para": -3 },
+        "etki": {
+          "mutluluk": -7,
+          "para": -3
+        },
         "sonuc": "Devletin kendi iflasını ilan etmesi, hem içeride hem dışarıda büyük bir güven kaybına yol açtı."
       },
       {
         "metin": "Bu durumun kaçınılmaz olduğunu kabullen",
-        "etki": { "zeka": 3, "mutluluk": -5 },
+        "etki": {
+          "zeka": 3,
+          "mutluluk": -5
+        },
         "sonuc": "Yıllarca süren sorumsuz borçlanmanın faturası, sonunda ödenmek zorunda kalmıştı."
       }
     ]
@@ -1144,12 +1413,18 @@
     "secenekler": [
       {
         "metin": "Bu kargaşadan derin bir endişe duy",
-        "etki": { "mutluluk": -6, "zeka": 1 },
+        "etki": {
+          "mutluluk": -6,
+          "zeka": 1
+        },
         "sonuc": "Balkanlar'daki huzursuzluk, artık kontrol edilemez bir noktaya gelmişti — hem içeride hem Avrupa'da devletin itibarı ciddi zarar görüyordu."
       },
       {
         "metin": "Bu karmaşık durumun adil bir şekilde ele alınmasını umut et",
-        "etki": { "zeka": 2, "mutluluk": -3 },
+        "etki": {
+          "zeka": 2,
+          "mutluluk": -3
+        },
         "sonuc": "Karşılıklı acılar yaşanıyordu ama uluslararası kamuoyu, meseleyi tek taraflı görüyordu."
       }
     ]
@@ -1168,12 +1443,18 @@
     "secenekler": [
       {
         "metin": "Bu yeni fikirleri merakla tart",
-        "etki": { "zeka": 3, "mutluluk": 1 },
+        "etki": {
+          "zeka": 3,
+          "mutluluk": 1
+        },
         "sonuc": "Anayasa, meclis, sınırlı monarşi — bu kavramlar, imparatorlukta hiç görülmemiş bir tartışma başlatıyordu."
       },
       {
         "metin": "Bu fikirlerin devlet için riskli olabileceğini düşün",
-        "etki": { "zeka": 1, "mutluluk": -1 },
+        "etki": {
+          "zeka": 1,
+          "mutluluk": -1
+        },
         "sonuc": "Sultan'ın gücünün sınırlandırılması fikri, sarayda büyük huzursuzluk yaratıyordu."
       }
     ]
@@ -1192,12 +1473,18 @@
     "secenekler": [
       {
         "metin": "Bu ani darbeyi büyük bir şokla karşıla",
-        "etki": { "mutluluk": -6, "zeka": 1 },
+        "etki": {
+          "mutluluk": -6,
+          "zeka": 1
+        },
         "sonuc": "15 yıllık, hem görkemli hem borçlu bir saltanat, bir sabah baskınıyla sona ermişti."
       },
       {
         "metin": "Bu köklü değişimin devlet için ne anlama geldiğini düşün",
-        "etki": { "zeka": 3, "mutluluk": -3 },
+        "etki": {
+          "zeka": 3,
+          "mutluluk": -3
+        },
         "sonuc": "Genç Osmanlılar'ın meşrutiyet hayali, artık daha yakın görünüyordu — ama bunun bedeli ağır olmuştu."
       }
     ]
@@ -1216,12 +1503,17 @@
     "secenekler": [
       {
         "metin": "Bu şüpheli ölümü derin bir üzüntü ve şüpheyle karşıla",
-        "etki": { "mutluluk": -8, "zeka": 2 },
+        "etki": {
+          "mutluluk": -8,
+          "zeka": 2
+        },
         "sonuc": "Dünyanın üçüncü büyük donanmasını kuran, Avrupa'yı gezen bir padişahın bu şekilde son bulması, herkesin zihninde soru işaretleri bırakıyordu."
       },
       {
         "metin": "Bu trajik sonu sessizce yasla karşıla",
-        "etki": { "mutluluk": -6 },
+        "etki": {
+          "mutluluk": -6
+        },
         "sonuc": "Gerçek ne olursa olsun, bir hükümdarın bu şekilde ölmesi, devletin ne kadar kırılgan bir döneme girdiğinin acı bir göstergesiydi."
       }
     ]
@@ -1240,12 +1532,17 @@
     "secenekler": [
       {
         "metin": "Bu belirsiz ve kısa saltanatı endişeyle izle",
-        "etki": { "zeka": 2, "mutluluk": -2 },
+        "etki": {
+          "zeka": 2,
+          "mutluluk": -2
+        },
         "sonuc": "Devletin başındaki bu sürekli değişim, herkesi derinden yoruyordu."
       },
       {
         "metin": "Bir sonraki sultanın döneminden umutlan",
-        "etki": { "mutluluk": 1 },
+        "etki": {
+          "mutluluk": 1
+        },
         "sonuc": "Belki bir sonraki değişiklik, nihayet bir istikrar getirebilirdi."
       }
     ]
@@ -1264,12 +1561,18 @@
     "secenekler": [
       {
         "metin": "Bu modernleşme sembollerinden etkilenmiş bir şekilde yaşa",
-        "etki": { "zeka": 2, "mutluluk": 3 },
+        "etki": {
+          "zeka": 2,
+          "mutluluk": 3
+        },
         "sonuc": "Şehir, görünürde hiç bu kadar parlak olmamıştı — ama bu parlaklığın bedeli, gelecek nesillere kalacaktı."
       },
       {
         "metin": "Bu gösterişin altındaki mali gerçekliği sezinle",
-        "etki": { "zeka": 3, "mutluluk": -1 },
+        "etki": {
+          "zeka": 3,
+          "mutluluk": -1
+        },
         "sonuc": "Görkemli saraylar ve büyük donanma, giderek artan bir borç üzerine inşa ediliyordu."
       }
     ]
@@ -1288,12 +1591,17 @@
     "secenekler": [
       {
         "metin": "Bu belirsiz ama önemli geçiş dönemini merakla bekle",
-        "etki": { "zeka": 2, "mutluluk": 1 },
+        "etki": {
+          "zeka": 2,
+          "mutluluk": 1
+        },
         "sonuc": "Devlet, hem büyük bir krizin hem de büyük bir dönüşümün eşiğindeydi."
       },
       {
         "metin": "Gündelik hayatına devam et",
-        "etki": { "mutluluk": 1 },
+        "etki": {
+          "mutluluk": 1
+        },
         "sonuc": "Büyük tarihi değişimler ne olursa olsun, hayat kendi akışında sürüyordu."
       }
     ]
@@ -1312,12 +1620,18 @@
     "secenekler": [
       {
         "metin": "Bu genç ve verdiği sözle umut vaat eden sultana güven",
-        "etki": { "mutluluk": 2, "zeka": 1 },
+        "etki": {
+          "mutluluk": 2,
+          "zeka": 1
+        },
         "sonuc": "Devlet, art arda yaşanan krizlerin ardından bir umut ışığı arıyordu."
       },
       {
         "metin": "Devletin içinde bulunduğu ağır krizden endişelen",
-        "etki": { "zeka": 2, "mutluluk": -2 },
+        "etki": {
+          "zeka": 2,
+          "mutluluk": -2
+        },
         "sonuc": "İsyanlar, mali iflas, art arda taht değişimleri — devraldığı miras gerçekten ağırdı."
       }
     ]
@@ -1336,12 +1650,18 @@
     "secenekler": [
       {
         "metin": "Bu akıllıca diplomatik taktiği takdir et",
-        "etki": { "zeka": 3, "mutluluk": 1 },
+        "etki": {
+          "zeka": 3,
+          "mutluluk": 1
+        },
         "sonuc": "Avrupa'nın taleplerini reddederken aynı zamanda kendi reform iradesini göstermek, ustaca bir hamleydi."
       },
       {
         "metin": "Bu red kararının sonuçlarından endişelen",
-        "etki": { "zeka": 2, "mutluluk": -2 },
+        "etki": {
+          "zeka": 2,
+          "mutluluk": -2
+        },
         "sonuc": "Rusya'nın bu redde nasıl tepki vereceği büyük bir soru işaretiydi."
       }
     ]
@@ -1360,12 +1680,17 @@
     "secenekler": [
       {
         "metin": "Bu tarihi anı büyük bir heyecanla karşıla",
-        "etki": { "zeka": 4, "mutluluk": 4 },
+        "etki": {
+          "zeka": 4,
+          "mutluluk": 4
+        },
         "sonuc": "Yüzyıllardır süren mutlak monarşi, artık kağıt üzerinde de olsa sınırlanıyordu — bu, imparatorluk tarihinde eşi görülmemiş bir andı."
       },
       {
         "metin": "Bu değişimin gerçekte ne kadar kalıcı olacağını merak et",
-        "etki": { "zeka": 2 },
+        "etki": {
+          "zeka": 2
+        },
         "sonuc": "Sözler güzeldi, ama uygulamanın nasıl olacağı zamanla görülecekti."
       }
     ]
@@ -1384,12 +1709,17 @@
     "secenekler": [
       {
         "metin": "Bu meclisin açılışına tanıklık et",
-        "etki": { "zeka": 3, "mutluluk": 3 },
+        "etki": {
+          "zeka": 3,
+          "mutluluk": 3
+        },
         "sonuc": "Farklı milletlerden, farklı dinlerden temsilcilerin aynı mecliste bir araya gelmesi, görülmemiş bir manzaraydı."
       },
       {
         "metin": "Bu yeni sistemin nasıl işleyeceğini merakla izle",
-        "etki": { "zeka": 2 },
+        "etki": {
+          "zeka": 2
+        },
         "sonuc": "Meclis'in padişahla nasıl bir denge kuracağı henüz belirsizdi."
       }
     ]
@@ -1408,12 +1738,18 @@
     "secenekler": [
       {
         "metin": "Bu kararı endişeyle karşıla",
-        "etki": { "zeka": 2, "mutluluk": -3 },
+        "etki": {
+          "zeka": 2,
+          "mutluluk": -3
+        },
         "sonuc": "Anayasayı ilan eden padişah, aynı anayasanın verdiği yetkiyle, o anayasanın mimarını sürgüne gönderiyordu — bu, çelişkili bir başlangıçtı."
       },
       {
         "metin": "Bu kararın arkasındaki gerçek nedeni sorgula",
-        "etki": { "zeka": 3, "mutluluk": -2 },
+        "etki": {
+          "zeka": 3,
+          "mutluluk": -2
+        },
         "sonuc": "Bu, gelecekteki daha büyük bir güç mücadelesinin ilk işareti gibiydi."
       }
     ]
@@ -1432,12 +1768,17 @@
     "secenekler": [
       {
         "metin": "Bu üç cepheli savaştan büyük bir endişe duy",
-        "etki": { "mutluluk": -4, "zeka": 2 },
+        "etki": {
+          "mutluluk": -4,
+          "zeka": 2
+        },
         "sonuc": "Devletin sınırlı kuvvetleri, birden fazla cephede aynı anda savaşmak zorunda kalıyordu."
       },
       {
         "metin": "Devletin bu zorlu savaşı atlatacağına inanmaya çalış",
-        "etki": { "mutluluk": 1 },
+        "etki": {
+          "mutluluk": 1
+        },
         "sonuc": "Herkes, bu savaşın sonucunu büyük bir kaygıyla bekliyordu."
       }
     ]
@@ -1456,12 +1797,20 @@
     "secenekler": [
       {
         "metin": "Bu tarihi savunmada bulun",
-        "etki": { "para": 4, "itibar": 5, "saglik": -5, "sans_gerekli": true },
+        "etki": {
+          "para": 4,
+          "itibar": 5,
+          "saglik": -5,
+          "sans_gerekli": true
+        },
         "sonuc": "Beş ay boyunca dayanan bu savunma, sayıca çok üstün bir düşmana karşı gösterilen olağanüstü bir azimdi — sonunda kale düştü ama şeref kaybedilmedi."
       },
       {
         "metin": "Bu kahramanca direnişi uzaktan gururla takip et",
-        "etki": { "mutluluk": 3, "itibar": 1 },
+        "etki": {
+          "mutluluk": 3,
+          "itibar": 1
+        },
         "sonuc": "Plevne'nin adı, cesaret ve azmin sembolü olarak halkın hafızasına kazınacaktı."
       }
     ]
@@ -1480,12 +1829,18 @@
     "secenekler": [
       {
         "metin": "Bu dehşet verici tehdidi yaşa",
-        "etki": { "mutluluk": -8, "saglik": -1 },
+        "etki": {
+          "mutluluk": -8,
+          "saglik": -1
+        },
         "sonuc": "Düşman ordusunun şehrin kapılarına bu kadar yaklaşması, herkesin hayatında yaşadığı en korkutucu anlardan biriydi."
       },
       {
         "metin": "Şehrin savunmasına katkıda bulunmaya çalış",
-        "etki": { "para": -2, "mutluluk": -4 },
+        "etki": {
+          "para": -2,
+          "mutluluk": -4
+        },
         "sonuc": "Herkes elinden geleni yapmaya çalışıyordu — ama düşman, gerçekten çok yakındaydı."
       }
     ]
@@ -1504,12 +1859,18 @@
     "secenekler": [
       {
         "metin": "Bu ağır şartları derin bir acıyla kabul et",
-        "etki": { "mutluluk": -8, "itibar": -2 },
+        "etki": {
+          "mutluluk": -8,
+          "itibar": -2
+        },
         "sonuc": "93 Harbi, imparatorluk tarihinin en ağır yenilgilerinden biri olarak kayıtlara geçiyordu."
       },
       {
         "metin": "Bu antlaşmanın diğer Avrupa devletlerince değiştirileceğini umut et",
-        "etki": { "zeka": 2, "mutluluk": -5 },
+        "etki": {
+          "zeka": 2,
+          "mutluluk": -5
+        },
         "sonuc": "Bazı büyük devletler, Rusya'nın bu denli güçlenmesinden hoşnut değildi — belki bu antlaşma revize edilebilirdi."
       }
     ]
@@ -1528,12 +1889,18 @@
     "secenekler": [
       {
         "metin": "Bu revizyonu kısmi bir rahatlama say",
-        "etki": { "mutluluk": -3, "zeka": 2 },
+        "etki": {
+          "mutluluk": -3,
+          "zeka": 2
+        },
         "sonuc": "Ayastefanos'a göre biraz daha az ağırdı ama yine de büyük toprak kayıpları kesinleşmişti."
       },
       {
         "metin": "Büyük devletlerin kendi çıkarları için pazarlık yaptığını gözlemle",
-        "etki": { "zeka": 3, "mutluluk": -2 },
+        "etki": {
+          "zeka": 3,
+          "mutluluk": -2
+        },
         "sonuc": "Osmanlı toprakları, büyük devletlerin masasında bir pazarlık konusu haline gelmişti."
       }
     ]
@@ -1552,12 +1919,18 @@
     "secenekler": [
       {
         "metin": "Bu kararı devletin bekası için gerekli bir tedbir say",
-        "etki": { "zeka": 1, "mutluluk": -2 },
+        "etki": {
+          "zeka": 1,
+          "mutluluk": -2
+        },
         "sonuc": "Kriz döneminde tek elden yönetimin daha etkili olacağı düşünülüyordu — ama bu, demokrasi deneyiminin de sonu demekti."
       },
       {
         "metin": "Bu kararı büyük bir hayal kırıklığıyla karşıla",
-        "etki": { "mutluluk": -5, "zeka": 2 },
+        "etki": {
+          "mutluluk": -5,
+          "zeka": 2
+        },
         "sonuc": "Kısa süren bu meşrutiyet deneyimi, artık uzun bir bekleyişe dönüşüyordu."
       }
     ]
@@ -1576,12 +1949,18 @@
     "secenekler": [
       {
         "metin": "Bu düzenlemeyi acı bir zorunluluk olarak kabul et",
-        "etki": { "mutluluk": -3, "zeka": 1 },
+        "etki": {
+          "mutluluk": -3,
+          "zeka": 1
+        },
         "sonuc": "Rus tehdidine karşı İngiliz desteği önemliydi, ama bunun bedeli de ağırdı."
       },
       {
         "metin": "Bu kaybı gelecekteki daha büyük kayıpların habercisi say",
-        "etki": { "zeka": 2, "mutluluk": -2 },
+        "etki": {
+          "zeka": 2,
+          "mutluluk": -2
+        },
         "sonuc": "Toprak toprak, devlet küçülüyordu — bu eğilim durdurulamıyordu."
       }
     ]
@@ -1600,12 +1979,17 @@
     "secenekler": [
       {
         "metin": "Bu yeni dönemin nasıl şekilleneceğini merakla bekle",
-        "etki": { "zeka": 2, "mutluluk": -1 },
+        "etki": {
+          "zeka": 2,
+          "mutluluk": -1
+        },
         "sonuc": "Meşrutiyet deneyimi kısa sürmüştü, şimdi çok daha uzun ve farklı bir dönem başlıyordu."
       },
       {
         "metin": "Devletin toparlanma ihtiyacını anlayışla karşıla",
-        "etki": { "mutluluk": 1 },
+        "etki": {
+          "mutluluk": 1
+        },
         "sonuc": "93 Harbi'nin acısı, herkesin bir tür istikrar aramasına yol açmıştı."
       }
     ]
@@ -1624,12 +2008,18 @@
     "secenekler": [
       {
         "metin": "Bu gözetim ortamında dikkatli konuş",
-        "etki": { "mutluluk": -2, "zeka": 2 },
+        "etki": {
+          "mutluluk": -2,
+          "zeka": 2
+        },
         "sonuc": "Kahvehanelerde bile artık kelimelerini tartarak konuşman gerekiyordu — güvensizlik havası her yere sinmişti."
       },
       {
         "metin": "Bu tedbirleri devletin güvenliği için gerekli say",
-        "etki": { "zeka": 1, "mutluluk": -1 },
+        "etki": {
+          "zeka": 1,
+          "mutluluk": -1
+        },
         "sonuc": "Devlet, iç ve dış tehditlere karşı böyle bir önlemi zorunlu görüyordu."
       }
     ]
@@ -1648,12 +2038,18 @@
     "secenekler": [
       {
         "metin": "Bu düzenlemeyi devletin mali bağımsızlığının sonu say",
-        "etki": { "mutluluk": -6, "zeka": 2 },
+        "etki": {
+          "mutluluk": -6,
+          "zeka": 2
+        },
         "sonuc": "Yabancı devletlerin temsilcilerinin, kendi devletimizin vergi gelirlerini doğrudan topladığını görmek, acı bir gerçeklikti."
       },
       {
         "metin": "Bu düzenlemenin en azından kaosu düzene soktuğunu düşün",
-        "etki": { "zeka": 1, "mutluluk": -3 },
+        "etki": {
+          "zeka": 1,
+          "mutluluk": -3
+        },
         "sonuc": "Kaotik borç yönetiminden, en azından öngörülebilir bir sisteme geçilmişti — ama egemenlik bedeli ağırdı."
       }
     ]
@@ -1672,12 +2068,18 @@
     "secenekler": [
       {
         "metin": "Bu kayıpları derin bir üzüntüyle karşıla",
-        "etki": { "mutluluk": -5, "zeka": 1 },
+        "etki": {
+          "mutluluk": -5,
+          "zeka": 1
+        },
         "sonuc": "Kuzey Afrika'daki nüfuzumuz, artık sadece isim üzerinde kalmıştı."
       },
       {
         "metin": "Devletin bu kayıpları önleyecek gücü olmadığını kabullen",
-        "etki": { "zeka": 2, "mutluluk": -3 },
+        "etki": {
+          "zeka": 2,
+          "mutluluk": -3
+        },
         "sonuc": "Avrupa'nın sömürgeci hırsı karşısında, uzak eyaletleri korumak giderek imkansızlaşıyordu."
       }
     ]
@@ -1696,16 +2098,23 @@
     "secenekler": [
       {
         "metin": "Bu yeni okullardan birine kaydol",
-        "etki": { "zeka": 6, "itibar": 2 },
+        "etki": {
+          "zeka": 6,
+          "itibar": 2
+        },
         "meslek_atama": "kalemiye",
         "sonuc": "Yeni açılan mekteplerde okumak, geleceğin devlet kademelerine giden bir kapıydı."
       },
       {
         "metin": "Bu eğitim seferberliğinden gurur duy",
-        "etki": { "zeka": 2, "mutluluk": 2 },
+        "etki": {
+          "zeka": 2,
+          "mutluluk": 2
+        },
         "sonuc": "Ülkenin dört bir yanında yeni okullar açılıyor, okuma yazma oranı artıyordu."
       }
-    ]
+    ],
+    "engel_bayrak": "calisaniyor"
   },
   {
     "id": "abdulhamid2_2_005_telgraf_agi",
@@ -1721,16 +2130,23 @@
     "secenekler": [
       {
         "metin": "Bu telgraf ağında bir görev al",
-        "etki": { "zeka": 4, "para": 3 },
+        "etki": {
+          "zeka": 4,
+          "para": 3
+        },
         "meslek_atama": "kalemiye",
         "sonuc": "Telgrafçılık, hem prestijli hem de devletin en uzak köşesindeki gelişmelerden anında haberdar olmayı sağlayan yeni bir meslekti."
       },
       {
         "metin": "Bu hızlı haberleşmeden etkilen",
-        "etki": { "zeka": 2, "mutluluk": 2 },
+        "etki": {
+          "zeka": 2,
+          "mutluluk": 2
+        },
         "sonuc": "Haberler artık günler değil, saatler içinde en uzak eyaletlere ulaşabiliyordu."
       }
-    ]
+    ],
+    "engel_bayrak": "calisaniyor"
   },
   {
     "id": "abdulhamid2_2_006_1897_yunan_savasi",
@@ -1746,12 +2162,20 @@
     "secenekler": [
       {
         "metin": "Bu tarihi zafere katıl",
-        "etki": { "para": 6, "itibar": 4, "saglik": -3, "sans_gerekli": true },
+        "etki": {
+          "para": 6,
+          "itibar": 4,
+          "saglik": -3,
+          "sans_gerekli": true
+        },
         "sonuc": "Dömeke'deki zafer, uzun süredir ilk kez kazanılan büyük bir askeri başarıydı — ordu ve halkın morali yükseldi."
       },
       {
         "metin": "Bu zaferi büyük bir gururla uzaktan kutla",
-        "etki": { "mutluluk": 6, "itibar": 2 },
+        "etki": {
+          "mutluluk": 6,
+          "itibar": 2
+        },
         "sonuc": "'93 Harbi'nin acısından sonra bu zafer, milletin özgüvenini bir nebze geri getirdi."
       }
     ]
@@ -1770,12 +2194,18 @@
     "secenekler": [
       {
         "metin": "Bu inşaata bağış yap veya katkıda bulun",
-        "etki": { "para": -2, "mutluluk": 4, "itibar": 2 },
+        "etki": {
+          "para": -2,
+          "mutluluk": 4,
+          "itibar": 2
+        },
         "sonuc": "Tüm İslam dünyasından gelen bağışlarla inşa edilen bu demiryolu, ortak bir gurur kaynağıydı."
       },
       {
         "metin": "Bu projeyi merakla takip et",
-        "etki": { "zeka": 2 },
+        "etki": {
+          "zeka": 2
+        },
         "sonuc": "Çölün ortasından geçen bu demiryolu, mühendislik açısından da büyük bir başarıydı."
       }
     ]
@@ -1794,16 +2224,22 @@
     "secenekler": [
       {
         "metin": "Bu yeni ittifak yönelimini merakla izle",
-        "etki": { "zeka": 2 },
+        "etki": {
+          "zeka": 2
+        },
         "sonuc": "Almanya ile kurulan bu bağlar, ileride devletin kaderini derinden etkileyecekti."
       },
       {
         "metin": "Demiryolu inşaatında çalışmayı dene",
-        "etki": { "para": 4, "zeka": 2 },
+        "etki": {
+          "para": 4,
+          "zeka": 2
+        },
         "meslek_atama": "ahilik",
         "sonuc": "Modern mühendislik teknikleriyle döşenen raylar, ülkenin en ücra köşelerine kadar uzanıyordu."
       }
-    ]
+    ],
+    "engel_bayrak": "calisaniyor"
   },
   {
     "id": "abdulhamid2_2_009_jon_turkler_muhalefet",
@@ -1819,12 +2255,18 @@
     "secenekler": [
       {
         "metin": "Bu gizli muhalefet fikirlerine ilgi duy",
-        "etki": { "zeka": 3, "mutluluk": -1, "sans_gerekli": true },
+        "etki": {
+          "zeka": 3,
+          "mutluluk": -1,
+          "sans_gerekli": true
+        },
         "sonuc": "Bu fikirlere ilgi duymak tehlikeliydi — ya kimse fark etmedi ya da hafiyelerin dikkatini çektin."
       },
       {
         "metin": "Bu meselelerden uzak dur, kendi işine bak",
-        "etki": { "mutluluk": 1 },
+        "etki": {
+          "mutluluk": 1
+        },
         "sonuc": "Siyasi meselelere karışmamak, İstibdat döneminde en güvenli yoldu."
       }
     ]
@@ -1843,12 +2285,17 @@
     "secenekler": [
       {
         "metin": "Bu sansür ortamında dikkatli yaz/konuş",
-        "etki": { "zeka": 2, "mutluluk": -2 },
+        "etki": {
+          "zeka": 2,
+          "mutluluk": -2
+        },
         "sonuc": "Kelimeler bile tehlikeli olabiliyordu — bu, uzun ve yorucu bir sessizlik dönemiydi."
       },
       {
         "metin": "Bu baskıcı ortamdan bunalım hisset",
-        "etki": { "mutluluk": -3 },
+        "etki": {
+          "mutluluk": -3
+        },
         "sonuc": "30 yıl süren bu sıkı denetim, toplumda derin bir hoşnutsuzluk biriktiriyordu."
       }
     ]
@@ -1867,12 +2314,17 @@
     "secenekler": [
       {
         "metin": "Bu sosyal kurumlardan faydalan ya da katkıda bulun",
-        "etki": { "mutluluk": 4, "para": -1 },
+        "etki": {
+          "mutluluk": 4,
+          "para": -1
+        },
         "sonuc": "Zor durumdaki insanlar için bu kurumlar gerçek bir umut kaynağıydı."
       },
       {
         "metin": "Bu gelişmeleri olumlu bul",
-        "etki": { "mutluluk": 2 },
+        "etki": {
+          "mutluluk": 2
+        },
         "sonuc": "Devletin sosyal sorumluluk anlayışı, yavaş da olsa gelişiyordu."
       }
     ]
@@ -1891,12 +2343,17 @@
     "secenekler": [
       {
         "metin": "Bu tabya inşaat ve güçlendirme çalışmalarına katıl",
-        "etki": { "para": 4, "itibar": 2 },
+        "etki": {
+          "para": 4,
+          "itibar": 2
+        },
         "sonuc": "Boğazın savunması, gelecekte devletin hayatta kalması için kritik bir yatırım olacaktı."
       },
       {
         "metin": "Bu hazırlıkları gereksiz bulma",
-        "etki": { "zeka": 1 },
+        "etki": {
+          "zeka": 1
+        },
         "sonuc": "Sultan'ın bu tedbirli yaklaşımının anlamı, ancak yıllar sonra tam olarak anlaşılacaktı."
       }
     ]
@@ -1915,12 +2372,18 @@
     "secenekler": [
       {
         "metin": "Bu değişim rüzgarını hissedip umutlan",
-        "etki": { "zeka": 2, "mutluluk": 2 },
+        "etki": {
+          "zeka": 2,
+          "mutluluk": 2
+        },
         "sonuc": "Uzun süredir bastırılan özgürlük talebi, artık geri çevrilemez bir güce ulaşıyordu."
       },
       {
         "metin": "Bu belirsiz geçiş döneminden endişelen",
-        "etki": { "zeka": 1, "mutluluk": -1 },
+        "etki": {
+          "zeka": 1,
+          "mutluluk": -1
+        },
         "sonuc": "Büyük bir değişimin yaklaştığı hissediliyordu, ama sonucunun ne olacağı belirsizdi."
       }
     ]
@@ -1939,12 +2402,20 @@
     "secenekler": [
       {
         "metin": "Bu harekete katıl",
-        "etki": { "para": 3, "itibar": 3, "mutluluk": 2, "sans_gerekli": true },
+        "etki": {
+          "para": 3,
+          "itibar": 3,
+          "mutluluk": 2,
+          "sans_gerekli": true
+        },
         "sonuc": "Rumeli'de heyecan büyüyordu — bu hareketin sonucu ne olursa olsun, bir şeylerin değişmek üzere olduğu hissediliyordu."
       },
       {
         "metin": "Bu gelişmeleri merakla ve umutla takip et",
-        "etki": { "zeka": 2, "mutluluk": 2 },
+        "etki": {
+          "zeka": 2,
+          "mutluluk": 2
+        },
         "sonuc": "Yıllardır bastırılan özgürlük talebi, artık açık bir isyana dönüşmüştü."
       }
     ]
@@ -1963,12 +2434,18 @@
     "secenekler": [
       {
         "metin": "Bu özgürlük patlamasını büyük bir sevinçle yaşa",
-        "etki": { "mutluluk": 9, "zeka": 3 },
+        "etki": {
+          "mutluluk": 9,
+          "zeka": 3
+        },
         "sonuc": "30 yıllık sessizliğin ardından, sokaklar birden bire kelimelerle, fikirlerle, umutla doldu. Bu, hayatının unutamayacağı bir andı."
       },
       {
         "metin": "Bu değişimin kalıcı olup olmayacağını merakla izle",
-        "etki": { "zeka": 2, "mutluluk": 5 },
+        "etki": {
+          "zeka": 2,
+          "mutluluk": 5
+        },
         "sonuc": "İlk kez bu kadar özgürce konuşulabiliyordu — ama bu özgürlüğün ne kadar süreceği belirsizdi."
       }
     ]
@@ -1987,12 +2464,17 @@
     "secenekler": [
       {
         "metin": "Bir partiye üye ol ya da seçimleri yakından takip et",
-        "etki": { "zeka": 3, "mutluluk": 3 },
+        "etki": {
+          "zeka": 3,
+          "mutluluk": 3
+        },
         "sonuc": "Kimin nasıl oy kullanacağı, hangi fikrin galip geleceği — bunlar artık meydanlarda tartışılan, herkesin merakla izlediği konulardı."
       },
       {
         "metin": "Bu yeni siyasi hayatı merakla gözlemle",
-        "etki": { "zeka": 2 },
+        "etki": {
+          "zeka": 2
+        },
         "sonuc": "Demokrasi deneyimi, imparatorluk için tamamen yeni bir kavramdı."
       }
     ]
@@ -2011,12 +2493,18 @@
     "secenekler": [
       {
         "metin": "Bu ardı ardına gelen kayıpları büyük bir üzüntüyle karşıla",
-        "etki": { "mutluluk": -7, "zeka": 2 },
+        "etki": {
+          "mutluluk": -7,
+          "zeka": 2
+        },
         "sonuc": "İç değişimin verdiği coşku, dış dünyanın fırsatçılığıyla acı bir şekilde dengeleniyordu."
       },
       {
         "metin": "Bu kayıpların bedelini devletin zayıflığına bağla",
-        "etki": { "zeka": 3, "mutluluk": -4 },
+        "etki": {
+          "zeka": 3,
+          "mutluluk": -4
+        },
         "sonuc": "Her kriz anı, bir başkasının fırsatına dönüşüyordu — bu, imparatorluğun kırılganlığının acı bir kanıtıydı."
       }
     ]
@@ -2035,12 +2523,18 @@
     "secenekler": [
       {
         "metin": "Bu kaotik günleri endişe içinde yaşa",
-        "etki": { "mutluluk": -6, "saglik": -1, "sans_gerekli": true },
+        "etki": {
+          "mutluluk": -6,
+          "saglik": -1,
+          "sans_gerekli": true
+        },
         "sonuc": "Şehir günlerce belirsizlik içindeydi — kimse bu ayaklanmanın nasıl sonuçlanacağını bilmiyordu."
       },
       {
         "metin": "Bu kargaşadan uzak durup evinde/işinde kal",
-        "etki": { "mutluluk": -4 },
+        "etki": {
+          "mutluluk": -4
+        },
         "sonuc": "Sokaklardaki gerginlik, herkesin gündelik hayatını sekteye uğratıyordu."
       }
     ]
@@ -2059,12 +2553,19 @@
     "secenekler": [
       {
         "metin": "Bu düzeni yeniden tesis eden orduya katıl",
-        "etki": { "para": 4, "itibar": 3, "saglik": -3, "sans_gerekli": true },
+        "etki": {
+          "para": 4,
+          "itibar": 3,
+          "saglik": -3,
+          "sans_gerekli": true
+        },
         "sonuc": "Meşrutiyeti korumak için Rumeli'den gelen bu ordu, tarihi bir görev üstlenmişti."
       },
       {
         "metin": "Bu düzenin yeniden sağlanmasını rahatlamayla karşıla",
-        "etki": { "mutluluk": 4 },
+        "etki": {
+          "mutluluk": 4
+        },
         "sonuc": "Yedi günlük kaosun ardından, şehre yeniden bir düzen geliyordu."
       }
     ]
@@ -2083,12 +2584,18 @@
     "secenekler": [
       {
         "metin": "Bu tarihi kararı büyük bir şaşkınlıkla karşıla",
-        "etki": { "mutluluk": -3, "zeka": 3 },
+        "etki": {
+          "mutluluk": -3,
+          "zeka": 3
+        },
         "sonuc": "I. Meşrutiyet'i ilan eden, sonra kapatan, sonra yeniden ilan etmek zorunda kalan bir padişah, artık tahtından da oluyordu — devrin çelişkili bir simgesiydi bu."
       },
       {
         "metin": "Bu 33 yıllık saltanatı hem başarıları hem baskısıyla değerlendir",
-        "etki": { "zeka": 3, "mutluluk": -2 },
+        "etki": {
+          "zeka": 3,
+          "mutluluk": -2
+        },
         "sonuc": "Eğitim, demiryolları, telgraf ağı gibi büyük modernleşme adımları ile Hafiye teşkilatı ve sansürün baskısı, aynı saltanatta iç içe geçmişti."
       }
     ]
@@ -2107,12 +2614,17 @@
     "secenekler": [
       {
         "metin": "Bu sürgünü devletin bekası için gerekli bir tedbir say",
-        "etki": { "zeka": 2, "mutluluk": -1 },
+        "etki": {
+          "zeka": 2,
+          "mutluluk": -1
+        },
         "sonuc": "Yeni yönetim, eski sultan'ın herhangi bir geri dönüş girişimini önlemek istiyordu."
       },
       {
         "metin": "Bu düşüşü insani bir trajedi olarak da gör",
-        "etki": { "mutluluk": -2 },
+        "etki": {
+          "mutluluk": -2
+        },
         "sonuc": "Ne kadar tartışmalı olursa olsun, bir insanın bu denli hızlı bir düşüş yaşaması herkesi düşündürdü."
       }
     ]
@@ -2131,12 +2643,17 @@
     "secenekler": [
       {
         "metin": "Bu yeni yönetim dengesini merakla izle",
-        "etki": { "zeka": 2, "mutluluk": 1 },
+        "etki": {
+          "zeka": 2,
+          "mutluluk": 1
+        },
         "sonuc": "Artık gerçek kararlar, sarayda değil, İttihat ve Terakki'nin toplantılarında alınıyordu."
       },
       {
         "metin": "Gündelik hayatına devam et",
-        "etki": { "mutluluk": 1 },
+        "etki": {
+          "mutluluk": 1
+        },
         "sonuc": "Devletin yönetim şekli değişse de, hayat kendi akışında sürüyordu."
       }
     ]
@@ -2155,12 +2672,17 @@
     "secenekler": [
       {
         "metin": "Bu uzun sıkıyönetim döneminden yorulmuş hisset",
-        "etki": { "mutluluk": -3, "zeka": 2 },
+        "etki": {
+          "mutluluk": -3,
+          "zeka": 2
+        },
         "sonuc": "Meşrutiyet umuduyla başlayan bu süreç, garip bir şekilde yine tek bir kişinin gücüne dönüşüyordu."
       },
       {
         "metin": "Devletin istikrara ihtiyacı olduğunu düşün",
-        "etki": { "mutluluk": 1 },
+        "etki": {
+          "mutluluk": 1
+        },
         "sonuc": "Kargaşa döneminden sonra güçlü bir el, bazıları için gerekli görünüyordu."
       }
     ]
@@ -2179,12 +2701,16 @@
     "secenekler": [
       {
         "metin": "Bu çelişkili mirası anlamaya çalış",
-        "etki": { "zeka": 3 },
+        "etki": {
+          "zeka": 3
+        },
         "sonuc": "İyi ile kötü, ilerleme ile baskı, aynı saltanatta bu kadar iç içe geçmiş nadiren görülmüştü."
       },
       {
         "metin": "Meşrutiyet döneminin yeni umutlarına odaklan",
-        "etki": { "mutluluk": 2 },
+        "etki": {
+          "mutluluk": 2
+        },
         "sonuc": "Geçmiş ne olursa olsun, yeni bir çağ başlıyordu — devletin geleceği artık farklı ellerdeydi."
       }
     ]
@@ -2203,12 +2729,17 @@
     "secenekler": [
       {
         "metin": "Bu belirsiz ve fırtınalı geleceği endişeyle bekle",
-        "etki": { "zeka": 2, "mutluluk": -1 },
+        "etki": {
+          "zeka": 2,
+          "mutluluk": -1
+        },
         "sonuc": "Meşrutiyet'in getirdiği umut, önündeki çok daha büyük sınavlarla test edilecekti."
       },
       {
         "metin": "Gündelik hayatına devam et",
-        "etki": { "mutluluk": 1 },
+        "etki": {
+          "mutluluk": 1
+        },
         "sonuc": "Tarihin büyük çarkı dönmeye devam ederken, hayat kendi akışında sürüyordu."
       }
     ]
@@ -2227,12 +2758,17 @@
     "secenekler": [
       {
         "metin": "Bu yeni sembolik padişahlık dönemini merakla izle",
-        "etki": { "zeka": 2, "mutluluk": 1 },
+        "etki": {
+          "zeka": 2,
+          "mutluluk": 1
+        },
         "sonuc": "Artık kararlar sarayda değil, Meclis'te ve İttihat ve Terakki'nin koridorlarında alınıyordu."
       },
       {
         "metin": "Gündelik hayatına devam et",
-        "etki": { "mutluluk": 1 },
+        "etki": {
+          "mutluluk": 1
+        },
         "sonuc": "Yönetim şekli değişiyordu ama gündelik hayatın akışı sürüyordu."
       }
     ]
@@ -2251,12 +2787,20 @@
     "secenekler": [
       {
         "metin": "Bu uzak savunmaya gönüllü olarak katıl",
-        "etki": { "para": 3, "saglik": -4, "itibar": 2, "sans_gerekli": true },
+        "etki": {
+          "para": 3,
+          "saglik": -4,
+          "itibar": 2,
+          "sans_gerekli": true
+        },
         "sonuc": "Enver Bey gibi genç subaylar gönüllü olarak Trablusgarp'a gidip yerel halkla birlikte direniş gösterdi — ama denizden gelen destek olmadan bu savunma sürdürülemezdi."
       },
       {
         "metin": "Bu kaybı büyük bir üzüntüyle karşıla",
-        "etki": { "mutluluk": -5, "zeka": 1 },
+        "etki": {
+          "mutluluk": -5,
+          "zeka": 1
+        },
         "sonuc": "Kuzey Afrika'daki son toprağımız da artık kaybedilmişti."
       }
     ]
@@ -2275,12 +2819,18 @@
     "secenekler": [
       {
         "metin": "Bu felaket derecesindeki savaşta bulun",
-        "etki": { "saglik": -7, "mutluluk": -8, "sans_gerekli": true },
+        "etki": {
+          "saglik": -7,
+          "mutluluk": -8,
+          "sans_gerekli": true
+        },
         "sonuc": "Birkaç ay içinde, yüzyıllardır Osmanlı toprağı olan Balkanlar'ın neredeyse tamamı elden gitmişti — bu, sadece askeri değil, ruhsal bir yıkımdı da."
       },
       {
         "metin": "Bu felaketi İstanbul'da derin bir dehşetle karşıla",
-        "etki": { "mutluluk": -7 },
+        "etki": {
+          "mutluluk": -7
+        },
         "sonuc": "Selanik gibi köklü bir Osmanlı şehrinin kaybı, herkesi derinden sarstı."
       }
     ]
@@ -2299,12 +2849,18 @@
     "secenekler": [
       {
         "metin": "Bu kanlı darbeyi büyük bir şokla karşıla",
-        "etki": { "mutluluk": -5, "zeka": 2 },
+        "etki": {
+          "mutluluk": -5,
+          "zeka": 2
+        },
         "sonuc": "Meşrutiyet, artık üç kişinin fiili diktatörlüğüne dönüşmüş gibiydi."
       },
       {
         "metin": "Bu köklü değişimin devlet için ne anlama geldiğini düşün",
-        "etki": { "zeka": 3, "mutluluk": -3 },
+        "etki": {
+          "zeka": 3,
+          "mutluluk": -3
+        },
         "sonuc": "Devletin kaderi artık tamamen bu üç paşanın kararlarına bağlıydı."
       }
     ]
@@ -2323,12 +2879,19 @@
     "secenekler": [
       {
         "metin": "Bu büyük ve tehlikeli savaşa hazırlan",
-        "etki": { "para": -3, "mutluluk": -3, "zeka": 1 },
+        "etki": {
+          "para": -3,
+          "mutluluk": -3,
+          "zeka": 1
+        },
         "sonuc": "Balkan Savaşları'nın yaraları henüz kapanmamışken, çok daha büyük bir savaşa giriliyordu."
       },
       {
         "metin": "Bu kararın akıbetinden derin bir endişe duy",
-        "etki": { "zeka": 2, "mutluluk": -3 },
+        "etki": {
+          "zeka": 2,
+          "mutluluk": -3
+        },
         "sonuc": "Devletin bu denli büyük bir dünya savaşına ne kadar hazırlıklı olduğu büyük bir soru işaretiydi."
       }
     ]
@@ -2347,12 +2910,20 @@
     "secenekler": [
       {
         "metin": "Bu tarihi ve destansı savunmada bulun",
-        "etki": { "para": 6, "itibar": 5, "saglik": -6, "sans_gerekli": true },
+        "etki": {
+          "para": 6,
+          "itibar": 5,
+          "saglik": -6,
+          "sans_gerekli": true
+        },
         "sonuc": "Çanakkale, imparatorluğun en karanlık yıllarında bile büyük bir zaferin mümkün olduğunu gösterdi — bu direniş, nesillerce anlatılacaktı."
       },
       {
         "metin": "Bu zaferi büyük bir gururla uzaktan takip et",
-        "etki": { "mutluluk": 7, "itibar": 3 },
+        "etki": {
+          "mutluluk": 7,
+          "itibar": 3
+        },
         "sonuc": "Boğazlar geçilemedi — bu, savaşın en gururlu anlarından biriydi."
       }
     ]
@@ -2371,12 +2942,18 @@
     "secenekler": [
       {
         "metin": "Bu zorlu ve uzak cephede bulun",
-        "etki": { "saglik": -6, "mutluluk": -5, "sans_gerekli": true },
+        "etki": {
+          "saglik": -6,
+          "mutluluk": -5,
+          "sans_gerekli": true
+        },
         "sonuc": "Çöl sıcağı, uzun ikmal hatları ve düşman baskısı, bu cepheyi savaşın en zorlu bölümlerinden biri yapıyordu."
       },
       {
         "metin": "Bu uzak cephenin kötü gidişatından endişelen",
-        "etki": { "mutluluk": -4 },
+        "etki": {
+          "mutluluk": -4
+        },
         "sonuc": "Savaşın birden fazla cephede aynı anda kaybedilmesi, devletin geleceği için giderek daha endişe vericiydi."
       }
     ]
@@ -2395,12 +2972,17 @@
     "secenekler": [
       {
         "metin": "Bu geçişi savaşın ağır yükü altında karşıla",
-        "etki": { "mutluluk": -3, "zeka": 1 },
+        "etki": {
+          "mutluluk": -3,
+          "zeka": 1
+        },
         "sonuc": "Yeni sultan, çok daha zorlu bir mirası devralıyordu — savaşın sonu artık çok uzak görünmüyordu, ama iyi bir sonla bitmeyeceği de hissediliyordu."
       },
       {
         "metin": "Yeni sultanın savaşı nasıl yöneteceğini merak et",
-        "etki": { "zeka": 2 },
+        "etki": {
+          "zeka": 2
+        },
         "sonuc": "Devletin kaderi, artık büyük ölçüde savaşın gidişatına bağlıydı."
       }
     ]
@@ -2419,12 +3001,18 @@
     "secenekler": [
       {
         "metin": "Bu yenilgiyi ve ağır şartları derin bir üzüntüyle karşıla",
-        "etki": { "mutluluk": -9, "zeka": 2 },
+        "etki": {
+          "mutluluk": -9,
+          "zeka": 2
+        },
         "sonuc": "Dört yıllık büyük savaşın kaybedilmesi, altı asırlık bir imparatorluğun sonunun geldiğini hissettiriyordu."
       },
       {
         "metin": "Bu ağır sonuçlardan devletin geleceği için endişelen",
-        "etki": { "zeka": 3, "mutluluk": -7 },
+        "etki": {
+          "zeka": 3,
+          "mutluluk": -7
+        },
         "sonuc": "İşgal tehlikesi artık soyut bir kavram değil, somut bir gerçeklikti."
       }
     ]
@@ -2443,12 +3031,18 @@
     "secenekler": [
       {
         "metin": "Bu işgalleri büyük bir öfke ve dehşetle karşıla",
-        "etki": { "mutluluk": -8, "itibar": 1 },
+        "etki": {
+          "mutluluk": -8,
+          "itibar": 1
+        },
         "sonuc": "Yüzyıllardır bağımsız bir devletin toprakları, şimdi yabancı ordular tarafından işgal ediliyordu — bu, tarihin en acı sayfalarından biriydi."
       },
       {
         "metin": "Bu duruma karşı bir direniş umudu ara",
-        "etki": { "zeka": 2, "mutluluk": -5 },
+        "etki": {
+          "zeka": 2,
+          "mutluluk": -5
+        },
         "sonuc": "Bazı bölgelerde halk, kendi imkanlarıyla direniş cepheleri kurmaya başlamıştı."
       }
     ]
@@ -2467,12 +3061,19 @@
     "secenekler": [
       {
         "metin": "Bu örgütlenme hareketine katkıda bulun ya da katıl",
-        "etki": { "para": -2, "itibar": 3, "mutluluk": 4 },
+        "etki": {
+          "para": -2,
+          "itibar": 3,
+          "mutluluk": 4
+        },
         "sonuc": "Anadolu'nun dört bir yanından, işgale karşı bir direniş iradesi yükseliyordu."
       },
       {
         "metin": "Bu hareketi umutla ve dikkatle izle",
-        "etki": { "zeka": 2, "mutluluk": 3 },
+        "etki": {
+          "zeka": 2,
+          "mutluluk": 3
+        },
         "sonuc": "Karanlık günlerin ortasında, yeni bir umut ışığı doğuyordu."
       }
     ]
@@ -2491,12 +3092,18 @@
     "secenekler": [
       {
         "metin": "Bu yeni siyasi merkezi umutla karşıla",
-        "etki": { "zeka": 3, "mutluluk": 4 },
+        "etki": {
+          "zeka": 3,
+          "mutluluk": 4
+        },
         "sonuc": "İstanbul işgal altındayken, Ankara'da yeni bir irade doğuyordu."
       },
       {
         "metin": "Bu gelişmeleri dikkatle takip et",
-        "etki": { "zeka": 2, "mutluluk": 2 },
+        "etki": {
+          "zeka": 2,
+          "mutluluk": 2
+        },
         "sonuc": "Devletin geleceği artık bu yeni meclisin ellerinde şekilleniyordu."
       }
     ]
@@ -2515,12 +3122,20 @@
     "secenekler": [
       {
         "metin": "Bu kurtuluş mücadelesinde bulun",
-        "etki": { "para": 5, "itibar": 5, "saglik": -5, "sans_gerekli": true },
+        "etki": {
+          "para": 5,
+          "itibar": 5,
+          "saglik": -5,
+          "sans_gerekli": true
+        },
         "sonuc": "Yıllarca süren işgal ve umutsuzluğun ardından, bu zafer büyük bir gurur ve rahatlama getirdi."
       },
       {
         "metin": "Bu zaferi büyük bir gururla karşıla",
-        "etki": { "mutluluk": 9, "itibar": 3 },
+        "etki": {
+          "mutluluk": 9,
+          "itibar": 3
+        },
         "sonuc": "Anadolu, işgalden kurtulmuştu — yeni bir çağın kapıları aralanıyordu."
       }
     ]
@@ -2539,12 +3154,18 @@
     "secenekler": [
       {
         "metin": "Bu tarihi dönüşümü derin bir duygusallıkla karşıla",
-        "etki": { "mutluluk": -3, "zeka": 4 },
+        "etki": {
+          "mutluluk": -3,
+          "zeka": 4
+        },
         "sonuc": "Osman Gazi'den beri süregelen bir hanedanın sonu geliyordu — hem bir çağın kapanışı hem yeni bir çağın açılışıydı bu."
       },
       {
         "metin": "Yeni bir döneme, yeni bir devlete umutla bak",
-        "etki": { "mutluluk": 3, "zeka": 2 },
+        "etki": {
+          "mutluluk": 3,
+          "zeka": 2
+        },
         "sonuc": "623 yıllık bir yolculuk sona ermişti — Osman Gazi'nin küçük beyliğinden başlayan bu hikaye, artık yeni bir sayfaya bırakıyordu yerini."
       }
     ]
@@ -2563,12 +3184,18 @@
     "secenekler": [
       {
         "metin": "Bu uzun ve destansı yolculuğu gururla anımsa",
-        "etki": { "mutluluk": 5, "zeka": 3 },
+        "etki": {
+          "mutluluk": 5,
+          "zeka": 3
+        },
         "sonuc": "Yükselişler ve düşüşler, zaferler ve yenilgiler, reformlar ve gelenekler — hepsi bu büyük hikayenin bir parçasıydı. Ve şimdi, yeni bir hikaye başlıyordu."
       },
       {
         "metin": "Geçmişin derslerini geleceğe taşı",
-        "etki": { "zeka": 4, "mutluluk": 3 },
+        "etki": {
+          "zeka": 4,
+          "mutluluk": 3
+        },
         "sonuc": "Altı asırlık bir mirasın üzerine, yeni bir gelecek inşa edilecekti."
       }
     ]
