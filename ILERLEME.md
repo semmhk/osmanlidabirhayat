@@ -4,7 +4,7 @@
 
 ## MEVCUT DURUM
 
-**Aktif Faz:** Adım 1 & Adım 4 (Proje İskeleti + 138 Olaylık Kuruluş Dönemi [7/7 TAMAMLANDI] + 101 Olaylık Yükselme Dönemi [5/5 TAMAMLANDI] + 118 Olaylık Duraklama Dönemi [10/10 TAMAMLANDI] + **GERİLEME DÖNEMİ (2/6 Alt-Dönem - 28 Gerileme Olayı)** + 385 Toplam Olay + 14 Başarım Sistemi + Kalemiye & Boşanma Zincirleri + Birim Testleri + GitHub Entegrasyonu) ✅
+**Aktif Faz:** Adım 1 & Adım 4 (Proje İskeleti + 138 Olaylık Kuruluş Dönemi [7/7 TAMAMLANDI] + 101 Olaylık Yükselme Dönemi [5/5 TAMAMLANDI] + 118 Olaylık Duraklama Dönemi [10/10 TAMAMLANDI] + **GERİLEME DÖNEMİ (3/6 Alt-Dönem - 40 Gerileme Olayı)** + 397 Toplam Olay + 14 Başarım Sistemi + Kalemiye & Boşanma Zincirleri + Birim Testleri + GitHub Entegrasyonu) ✅
 **Son güncelleme:** 24 Temmuz 2026
 
 ---
@@ -34,25 +34,25 @@
   - Fatih Sultan Mehmed (18 Olay), II. Bayezid (14 Olay), Yavuz Sultan Selim (13 Olay), Kanuni Sultan Süleyman (42 Olay), II. Selim (14 Olay).
 - [x] **Duraklama Dönemi (10/10 Alt-Dönem TAM TAMAMLANDI - 118 Olay)**:
   - III. Murad (13), III. Mehmed (12), I. Ahmed (12), I. Mustafa & Genç Osman (11), IV. Murad (12), Sultan İbrahim (11), IV. Mehmed (34 - Kaos/Köprülüler/Çöküş), II. Süleyman/II. Ahmed/II. Mustafa (13).
-- [x] **Gerileme Dönemi (2/6 Alt-Dönem TAMAMLANDI - 28 Olay 🎉)**:
+- [x] **Gerileme Dönemi (3/6 Alt-Dönem TAMAMLANDI - 40 Olay 🎉)**:
   - **III. Ahmed / Lale Devri (1703-1730)**: 15 Olay TAMAMLANDI.
-  - **I. Mahmud (1730-1754)**: 13 Olay TAMAMLANDI (`assets/olaylar/gerileme.json`, `alt_donem: "birinci_mahmud"` — Patrona Halil etkisindeki geçiş dönemi, Patrona Halil ve elebaşlarının kurnaz bir saray toplantısı tuzağıyla idamı [1730], 1731 yeniçeri kalkışmasının bastırılması, I. İran Savaşı & 1732 Ahmed Paşa Antlaşması, Kont de Bonneval'ın (Humbaracı Ahmed Paşa) sığınması ve askeri reformlar [1731], 1734 Üsküdar Hendesehane'nin (ilk modern askeri teknik okul) açılışı, II. İran Savaşı [1735-36], 1735-1739 Avusturya ve Rusya ile iki cepheli savaş ve Kroçka zaferleri, **1739 BELGRAD ANTLAŞMASI** [Belgrad ve Kuzey Sırbistan'ın geri alınması — 18. yüzyılda kazanılan son büyük zafer], kültürel canlılık, Nadir Şah ile III. İran Savaşı [1743-46] & Kasr-ı Şirin sınırlarına dönüş, 1746 sonrası uzun barış dönemi, 1754 I. Mahmud'un vefatı & III. Osman'ın cülusu).
+  - **I. Mahmud (1730-1754)**: 13 Olay TAMAMLANDI.
+  - **III. Osman & III. Mustafa (1754-1774)**: 12 Olay TAMAMLANDI (`assets/olaylar/gerileme.json`, `alt_donem: "osman3_mustafa3"` — III. Osman'ın 3 yıllık sakin taht dönemi [1754-57], III. Mustafa'nın cülusu ve mali tasarruf tedbirleri, Yedi Yıl Savaşları'nda tarafsızlık kararı, Baron de Tott'un davet edilmesi, Sürat Topçuları birliği ve Mühendishane-i Bahri Hümayun'un kurulması [1770], devlet tarihinde ilk kez halktan borç alma [iç borçlanma/esham sistemi], 1768 Rusya'ya savaş ilanı, Kırım Hanı Kırım Giray'ın 100 binlik Rusya akını [1769], **1770 Kartal Bozgunu** [Tuna nehrinde boğulmalar], **5 Temmuz 1770 ÇEŞME DENİZ BOZGUNU** [Baltık'tan gelen Rus donanmasının Çeşme Limanı'nda Osmanlı donanmasını tamamen yakması], Cezayirli Gazi Hasan Bey'in deniz kuvvetlerini toparlama mücadelesi, 1772 Lehistan'ın Rusya-Prusya-Avusturya arasında paylaşılması, 21 Ocak 1774 III. Mustafa'nın kederinden vefatı & I. Abdülhamid'in cülusu).
 - [x] **Sistem boşlukları kapatıldı: kalemiye, 14 başarım, boşanma/nesil içeriği**:
   - 14 Osmanlı-uyumlu Başarım sistemi eklendi (`assets/basarimlar.json`, `lib/modeller/basarim.dart`, `lib/motor/basarim_kontrolcusu.dart`).
   - Kalemiye Meslek Zinciri eklendi (`kurulus_073`).
   - Boşanma / Eşin Vefatı / İkinci Nikah Zinciri eklendi (`kurulus_074`, `kurulus_075`, `kurulus_076`).
   - UI Ekranları: `BasarimlarEkrani` ve `OlumEkrani` eklendi (`lib/ekranlar/`).
-- [x] **TOPLAM OLAY SAYISI: 385 OLAY** (Kuruluş 138 + Yükselme 101 + Duraklama 118 + Gerileme 28).
-- [x] Birim testleri yazıldı (`test/sistem_bosluklari_test.dart` & `test/olay_tarih_filtre_test.dart` — 385 olay, 4 JSON dosyasının paralel yüklenmesi, Kalemiye ataması, 14 başarım koşulu ve boşanma/ikinci nikah zinciri). Toplam **11/11 test YEŞİL ✅**. `flutter analyze` **0 hata / 0 uyarı ✅**.
+- [x] **TOPLAM OLAY SAYISI: 397 OLAY** (Kuruluş 138 + Yükselme 101 + Duraklama 118 + Gerileme 40).
+- [x] Birim testleri yazıldı (`test/sistem_bosluklari_test.dart` & `test/olay_tarih_filtre_test.dart` — 397 olay, 4 JSON dosyasının paralel yüklenmesi, Kalemiye ataması, 14 başarım koşulu ve boşanma/ikinci nikah zinciri). Toplam **11/11 test YEŞİL ✅**. `flutter analyze` **0 hata / 0 uyarı ✅**.
 - [x] GitHub Reposu: `https://github.com/semmhk/osmanlidabirhayat.git` (main branch).
 
 ---
 
 ## KALAN İŞLER / SONRAKİ ADIMLAR
 
-- [ ] **GERİLEME DÖNEMİ KALAN ALT-DÖNEMLERİ (4/6 Kalan)**:
-  - **Sırada:** III. Osman / III. Mustafa (1754-1774) — Sırbistan / 1768-1774 Rus Savaşı, Çeşme Deniz Bozgunu (1770), Küçük Kaynarca Antlaşması dönemi
-  - I. Abdülhamid (1774-1789) — Küçük Kaynarca Antlaşması uygulamaları (Kırım'ın bağımsızlığı/kaybı), Halil Hamid Paşa reformları
-  - III. Selim (1789-1807) — Nizam-ı Cedid reformları, Ziştovi/Yaş Antlaşmaları (1791/1792), Napolyon'un Mısır Seferi (1798), Kabakçı Mustafa İsyanı (1807)
+- [ ] **GERİLEME DÖNEMİ KALAN ALT-DÖNEMLERİ (3/6 Kalan)**:
+  - **Sırada:** I. Abdülhamid (1774-1789) — Küçük Kaynarca Antlaşması (1774, Kırım'ın bağımsızlığı & ilk büyük Müslüman toprak kaybı), Aynalıkavak Tenkihnamesi (1779), 1783 Kırım'ın Rusya tarafından ilhakı, Halil Hamid Paşa reformları, 1787-1792 Rusya-Avusturya Savaşı & Özi Kalesi faciası
+  - III. Selim (1789-1807) — Nizam-ı Cedid reformları, İrad-ı Cedid hazinesi, Ziştovi/Yaş Antlaşmaları (1791/1792), Napolyon'un Mısır Seferi (1798, Cezzar Ahmed Paşa & Akka müdafaası), Kabakçı Mustafa İsyanı (1807)
 - [ ] UI Ekranlarının (Ana Menü, Oyun Ekranı) ferman estetiğiyle entegrasyonunun tamamlanması.
 - [ ] Hive entegrasyonu ve geçmiş hayatlar kaydı.

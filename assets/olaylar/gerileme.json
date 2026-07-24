@@ -672,5 +672,294 @@
         "sonuc": "24 yıllık istikrarın ardından, devletin gidişatı yeni sultanın handsindeydi."
       }
     ]
+  },
+  {
+    "id": "osman3_mustafa3_001_osman_tahta_cikis",
+    "donem": "gerileme",
+    "alt_donem": "osman3_mustafa3",
+    "tarih_yil_min": 1754,
+    "tarih_yil_max": 1754,
+    "yas_min": 10,
+    "yas_max": 60,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "I. Mahmud'un vefatı üzerine kardeşi III. Osman tahta çıktı — yıllarca kafeste yaşamanın izleriyle, dışarıya çıkmaktan hoşlanmayan, sakin ama alışılmadık huylara sahip bir sultan.",
+    "secenekler": [
+      {
+        "metin": "Yeni sultanın sakin döneminden umutlan",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Devletin, savaşsız ve olaysız bir dönem geçirmesi de değerliydi."
+      },
+      {
+        "metin": "Bu tuhaf huylu sultanı merakla izle",
+        "etki": { "zeka": 1 },
+        "sonuc": "Her padişahın kendine has bir mizacı olurdu, halk bu konuda çok konuşmazdı."
+      }
+    ]
+  },
+  {
+    "id": "osman3_mustafa3_002_sakin_uc_yil",
+    "donem": "gerileme",
+    "alt_donem": "osman3_mustafa3",
+    "tarih_yil_min": 1754,
+    "tarih_yil_max": 1757,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": false,
+    "gerekli_bayrak": null,
+    "metin": "III. Osman'ın üç yıllık saltanatı, siyasi açıdan görece sakin ve olaysız geçti — ne büyük bir savaş ne büyük bir reform, sadece devletin kendini toparlamaya devam ettiği bir ara dönem.",
+    "secenekler": [
+      {
+        "metin": "Bu sakin dönemden faydalanmaya çalış",
+        "etki": { "para": 3, "mutluluk": 2 },
+        "sonuc": "Savaşsız geçen yıllar, ticaret ve gündelik hayat için değerli bir soluklanma fırsatıydı."
+      },
+      {
+        "metin": "Gündelik işine devam et",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Bazen 'hiçbir şey olmaması' bile bir başarı sayılabilirdi."
+      }
+    ]
+  },
+  {
+    "id": "osman3_mustafa3_003_mustafa_tasarruf",
+    "donem": "gerileme",
+    "alt_donem": "osman3_mustafa3",
+    "tarih_yil_min": 1757,
+    "tarih_yil_max": 1760,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "III. Osman'ın ardından tahta çıkan III. Mustafa, ilk iş olarak devletin mali durumunu düzeltmeye ve saray giderlerini azaltmaya odaklandı — Avrupa'da süren Yedi Yıl Savaşları'na dair müttefiklik tekliflerini de tarafsızlık ilkesiyle reddetti.",
+    "secenekler": [
+      {
+        "metin": "Bu tasarruf politikasını destekle",
+        "etki": { "zeka": 2, "itibar": 1 },
+        "sonuc": "Mali disiplin, uzun vadede devletin gücünü koruması için gerekliydi."
+      },
+      {
+        "metin": "Tarafsızlık politikasının akıllıca olduğunu düşün",
+        "etki": { "zeka": 1 },
+        "sonuc": "Başka devletlerin savaşına karışmamak, mantıklı bir tercihti."
+      }
+    ]
+  },
+  {
+    "id": "osman3_mustafa3_004_surat_topculari_baron_tott",
+    "donem": "gerileme",
+    "alt_donem": "osman3_mustafa3",
+    "tarih_yil_min": 1770,
+    "tarih_yil_max": 1774,
+    "yas_min": 10,
+    "yas_max": 40,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "Fransız asıllı bir Macar olan Baron de Tott, orduya davet edildi. Onun öncülüğünde 'Sürat Topçuları' adında, daha hafif ve hareketli toplarla donatılmış yeni bir birlik kuruldu. Ayrıca denizcilere mühendislik öğretmek için Mühendishane-i Bahri Hümayun açıldı.",
+    "secenekler": [
+      {
+        "metin": "Bu yeni askeri okula/birliğe katıl",
+        "etki": { "zeka": 5, "itibar": 2 },
+        "meslek_atama": "seyfiye",
+        "sonuc": "Avrupa'nın teknik bilgisi, ordumuza yeni bir hareket kabiliyeti katıyordu."
+      },
+      {
+        "metin": "Bu yeniliği uzaktan takip et",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Askeri reformlar, savaş meydanlarında sınanmayı bekliyordu."
+      }
+    ]
+  },
+  {
+    "id": "osman3_mustafa3_005_ic_borclanma",
+    "donem": "gerileme",
+    "alt_donem": "osman3_mustafa3",
+    "tarih_yil_min": 1768,
+    "tarih_yil_max": 1774,
+    "yas_min": 15,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "Savaş masraflarını karşılamak için devlet tarihinde ilk kez halktan borç alma (iç borçlanma) yöntemine başvuruldu — hazine artık geleneksel vergi toplama dışında yeni yollar aramak zorundaydı.",
+    "secenekler": [
+      {
+        "metin": "Devlete borç ver",
+        "etki": { "para": -3, "itibar": 2 },
+        "sonuc": "Bu yeni bir mali araçtı — devletin ihtiyacına katkıda bulunmak bazıları için gurur vericiydi."
+      },
+      {
+        "metin": "Bu yeni uygulamayı dikkatle izle",
+        "etki": { "zeka": 1 },
+        "sonuc": "Devletin geleneksel gelir kaynaklarının artık yetersiz kaldığı görülüyordu."
+      }
+    ]
+  },
+  {
+    "id": "osman3_mustafa3_006_rus_savasi_baslangic",
+    "donem": "gerileme",
+    "alt_donem": "osman3_mustafa3",
+    "tarih_yil_min": 1768,
+    "tarih_yil_max": 1768,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "Rusya'nın Balta kentinde katliam yapması üzerine, hazırlıksız bir şekilde Rusya'ya savaş ilan edildi — bu, 6 yıl sürecek ve devletin kaderini derinden etkileyecek bir savaşın başlangıcıydı.",
+    "secenekler": [
+      {
+        "metin": "Bu savaş kararını destekle",
+        "etki": { "itibar": 1, "mutluluk": -1 },
+        "sonuc": "Rusya'nın saldırganlığına karşılık vermek gerekliydi, ama hazırlıksız girilen bu savaşın sonuçları belirsizdi."
+      },
+      {
+        "metin": "Bu savaşın sonuçlarından endişelen",
+        "etki": { "zeka": 2, "mutluluk": -2 },
+        "sonuc": "Hazırlıksız bir savaşa girmenin riskleri, tecrübeli kişileri tedirgin ediyordu."
+      }
+    ]
+  },
+  {
+    "id": "osman3_mustafa3_007_kirim_giray_akini",
+    "donem": "gerileme",
+    "alt_donem": "osman3_mustafa3",
+    "tarih_yil_min": 1769,
+    "tarih_yil_max": 1769,
+    "yas_min": 16,
+    "yas_max": 50,
+    "tek_seferlik": true,
+    "gerekli_bayrak": "meslek_seyfiye",
+    "metin": "Kırım Hanı Kırım Giray, 100 bine yakın bir kuvvetle Rus topraklarına akın düzenledi — 20 binden fazla esir ve büyük ganimetle geri döndü. Savaşın ilk yılları umut vericiydi.",
+    "secenekler": [
+      {
+        "metin": "Bu başarılı akına katıl",
+        "etki": { "para": 5, "itibar": 3, "saglik": -2, "sans_gerekli": true },
+        "sonuc": "İlk başarılar, savaşın lehimize gideceği umudunu güçlendirmişti — ama bu umut uzun sürmeyecekti."
+      },
+      {
+        "metin": "Bu sefere katılmadın",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Zafer haberleri İstanbul'da sevinçle karşılandı."
+      }
+    ]
+  },
+  {
+    "id": "osman3_mustafa3_008_kartal_bozgunu",
+    "donem": "gerileme",
+    "alt_donem": "osman3_mustafa3",
+    "tarih_yil_min": 1770,
+    "tarih_yil_max": 1770,
+    "yas_min": 16,
+    "yas_max": 50,
+    "tek_seferlik": true,
+    "gerekli_bayrak": "meslek_seyfiye",
+    "metin": "Kartal Muharebesi'nde Kont Romanzoff komutasındaki daha küçük ama iyi teçhizatlı Rus ordusu, çok daha kalabalık Osmanlı-Kırım ordusunu ağır bir yenilgiye uğrattı. Tuna Nehri üzerinde köprü olmadığı için kaçış büyük bir felakete dönüştü — çok sayıda asker nehirde boğuldu.",
+    "secenekler": [
+      {
+        "metin": "Bu feci bozgunda bulun",
+        "etki": { "saglik": -6, "mutluluk": -8, "sans_gerekli": true },
+        "sonuc": "İlk başarıların ardından gelen bu ağır yenilgi, savaşın gidişatını tersine çevirmişti. Nehirde boğulanların sayısı, savaş meydanındaki kayıplardan bile fazlaydı."
+      },
+      {
+        "metin": "Bu dehşet verici haberi İstanbul'da bekleyerek karşıla",
+        "etki": { "mutluluk": -6 },
+        "sonuc": "Kartal'daki felaket haberi, tüm ülkeyi derinden sarstı."
+      }
+    ]
+  },
+  {
+    "id": "osman3_mustafa3_009_cesme_bozgunu",
+    "donem": "gerileme",
+    "alt_donem": "osman3_mustafa3",
+    "tarih_yil_min": 1770,
+    "tarih_yil_max": 1770,
+    "yas_min": 5,
+    "yas_max": 80,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "5 Temmuz 1770'te Rus donanması (Baltık'tan Akdeniz'e kadar dolaşarak gelmişti) Çeşme açıklarında Osmanlı donanmasıyla karşılaştı. Kaptan-ı Derya, denizci Cezayirli Gazi Hasan Bey'in itirazına rağmen donanmayı manevra imkânı olmayan dar Çeşme Limanı'na soktu. Rus ateşi karşısında donanma tamamen yakılıp yok edildi — Osmanlı tarihinin en büyük deniz felaketlerinden biri.",
+    "secenekler": [
+      {
+        "metin": "Bu tarihi felakette bulun",
+        "etki": { "saglik": -7, "mutluluk": -9, "sans_gerekli": true },
+        "sonuc": "Koca bir donanmanın bir limanda kapana kısılıp yakılması, Preveze'den beri süregelen deniz gücü imajını yerle bir etmişti."
+      },
+      {
+        "metin": "Bu felaket haberini İstanbul'da dehşetle karşıla",
+        "etki": { "mutluluk": -8 },
+        "sonuc": "Çeşme'nin haberi, tüm imparatorluğu yasa boğdu — bu, savaşın kaderini kesin olarak belirleyen bir dönüm noktasıydı."
+      }
+    ]
+  },
+  {
+    "id": "osman3_mustafa3_010_cezayirli_hasan_toparlanma",
+    "donem": "gerileme",
+    "alt_donem": "osman3_mustafa3",
+    "tarih_yil_min": 1770,
+    "tarih_yil_max": 1774,
+    "yas_min": 15,
+    "yas_max": 55,
+    "tek_seferlik": false,
+    "gerekli_bayrak": "meslek_seyfiye",
+    "metin": "Çeşme felaketinden kurtulmayı başaran Cezayirli Gazi Hasan Bey, yılmadan Rus donanmasını Akdeniz'den çıkarmak için mücadele etmeye devam etti — bu, felaketin ortasında bir kararlılık örneğiydi.",
+    "secenekler": [
+      {
+        "metin": "Bu toparlanma çabalarına katıl",
+        "etki": { "para": 3, "itibar": 2, "saglik": -2, "sans_gerekli": true },
+        "sonuc": "Hasan Bey'in kararlılığı, tam bir çöküşün önüne geçmeye çalışıyordu."
+      },
+      {
+        "metin": "Bu çabaları uzaktan takip et",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Felaketin ortasında bile pes etmeyen bir komutan olması, halka moral veriyordu."
+      }
+    ]
+  },
+  {
+    "id": "osman3_mustafa3_011_lehistan_paylasimi",
+    "donem": "gerileme",
+    "alt_donem": "osman3_mustafa3",
+    "tarih_yil_min": 1772,
+    "tarih_yil_max": 1772,
+    "yas_min": 10,
+    "yas_max": 55,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "Rusya, Prusya ve Avusturya, Lehistan'ı (Polonya) kendi aralarında paylaşmaya karar verdiler — Avrupa'daki güç dengelerinin ne kadar hızlı değiştiğinin bir başka göstergesiydi bu.",
+    "secenekler": [
+      {
+        "metin": "Bu Avrupa gelişmesini endişeyle izle",
+        "etki": { "zeka": 2, "mutluluk": -1 },
+        "sonuc": "Koca bir krallığın haritadan silinmesi, kimsenin güvende olmadığını gösteriyordu."
+      },
+      {
+        "metin": "Kendi savaşımıza odaklan",
+        "etki": { "mutluluk": 1 },
+        "sonuc": "Uzak Avrupa'daki gelişmeler, kendi cephemizdeki zorluğun yanında ikinci planda kalıyordu."
+      }
+    ]
+  },
+  {
+    "id": "osman3_mustafa3_012_mustafa_vefati",
+    "donem": "gerileme",
+    "alt_donem": "osman3_mustafa3",
+    "tarih_yil_min": 1774,
+    "tarih_yil_max": 1774,
+    "yas_min": 5,
+    "yas_max": 80,
+    "tek_seferlik": true,
+    "gerekli_bayrak": null,
+    "metin": "III. Mustafa, savaş hâlâ sürerken ve devletin geleceği belirsizken, 21 Ocak 1774'te kederinden vefat etti — bazı tarihçiler, Kartal ve Çeşme felaketlerinin verdiği acının onu içten içe tükettiğini söylüyor. Yerine kardeşi I. Abdülhamid geçti, henüz bitmemiş bir savaşın mirasıyla.",
+    "secenekler": [
+      {
+        "metin": "Bu üzücü mirası derin bir kaygıyla değerlendir",
+        "etki": { "mutluluk": -6, "zeka": 2 },
+        "sonuc": "Kartal'ın ve Çeşme'nin acısı, bir hükümdarı bile tüketebiliyordu. Yeni sultan, devraldığı bu ağır savaşı bitirmek zorunda kalacaktı."
+      },
+      {
+        "metin": "Yeni sultanın bu zor mirası nasıl yöneteceğini merak et",
+        "etki": { "zeka": 1 },
+        "sonuc": "Devletin geleceği, artık I. Abdülhamid'in ellerindeydi."
+      }
+    ]
   }
 ]

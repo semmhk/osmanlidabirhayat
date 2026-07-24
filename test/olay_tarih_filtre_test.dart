@@ -25,12 +25,12 @@ void main() {
       tumOlaylar = [...o1, ...o2, ...o3, ...o4];
     });
 
-    test('1. kurulus.json (138) + yukselme.json (101) + duraklama.json (118) + gerileme.json (28) = 385 olay eksiksiz, benzersiz ID ve alt_donem alanlarıyla yüklenmeli', () {
-      expect(tumOlaylar.length, equals(385));
+    test('1. kurulus.json (138) + yukselme.json (101) + duraklama.json (118) + gerileme.json (40) = 397 olay eksiksiz, benzersiz ID ve alt_donem alanlarıyla yüklenmeli', () {
+      expect(tumOlaylar.length, equals(397));
       
       // Benzersiz ID kontrolü
       final idSet = tumOlaylar.map((o) => o.id).toSet();
-      expect(idSet.length, equals(385));
+      expect(idSet.length, equals(397));
 
       final ahilikOlayi = tumOlaylar.firstWhere((o) => o.id == 'kurulus_001');
       expect(ahilikOlayi.tarihYilMin, equals(1299));
@@ -139,6 +139,11 @@ void main() {
       final belgradAntlasmasi = tumOlaylar.firstWhere((o) => o.id == 'mahmud1_009_belgrad_antlasmasi');
       expect(belgradAntlasmasi.donem, equals('gerileme'));
       expect(belgradAntlasmasi.altDonem, equals('birinci_mahmud'));
+
+      // III. Osman & III. Mustafa Gerileme dönemi olayları kontrolü
+      final cesmeBozgunu = tumOlaylar.firstWhere((o) => o.id == 'osman3_mustafa3_009_cesme_bozgunu');
+      expect(cesmeBozgunu.donem, equals('gerileme'));
+      expect(cesmeBozgunu.altDonem, equals('osman3_mustafa3'));
     });
 
     test('2. Şema doğrulayıcı hatalı tarih_yil_min > tarih_yil_max durumunu yakalamalı', () {
