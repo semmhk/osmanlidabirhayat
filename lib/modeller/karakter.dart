@@ -186,6 +186,7 @@ class Karakter {
   set hicVasifsizIsciOldu(bool val) => hicAsgariUcretliOldu = val;
 
   final Set<String> kullanilanOlaylar;
+  final Map<String, int> olaySonGorulmeYili;
   final List<String> gunluk;
 
   final AvatarGenleri genler;
@@ -223,6 +224,7 @@ class Karakter {
     List<String>? cocukAdlari,
     this.nesil = 1,
     Set<String>? kullanilanOlaylar,
+    Map<String, int>? olaySonGorulmeYili,
     List<String>? gunluk,
     AvatarGenleri? genler,
     Cinsiyet? cinsiyet,
@@ -235,6 +237,7 @@ class Karakter {
         bayraklar = bayraklar ?? {},
         cocuklar = cocuklar ?? _cocukListesiOlustur(cocukAdlari),
         kullanilanOlaylar = kullanilanOlaylar ?? {},
+        olaySonGorulmeYili = olaySonGorulmeYili ?? {},
         gunluk = gunluk ?? [],
         cinsiyet = cinsiyet ?? Cinsiyet.erkek,
         genler = genler ?? AvatarGenleri.rastgele(rnd, cinsiyet);
@@ -374,6 +377,10 @@ class Karakter {
               ?.map((e) => e.toString())
               .toSet() ??
           {},
+      olaySonGorulmeYili: (json['olaySonGorulmeYili'] as Map<String, dynamic>?)?.map(
+            (k, v) => MapEntry(k, (v as num).toInt()),
+          ) ??
+          {},
       gunluk: (json['gunluk'] as List<dynamic>?)
               ?.map((e) => e.toString())
               .toList() ??
@@ -416,6 +423,7 @@ class Karakter {
       'cocuklar': cocuklar.map((c) => c.toJson()).toList(),
       'cocukAdlari': cocukAdlari,
       'kullanilanOlaylar': kullanilanOlaylar.toList(),
+      'olaySonGorulmeYili': olaySonGorulmeYili,
       'gunluk': gunluk,
       'genler': genler.toJson(),
       'cinsiyet': cinsiyet.name,

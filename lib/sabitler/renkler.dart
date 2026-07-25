@@ -11,6 +11,14 @@ abstract class Renkler {
   static const Color cizgi = Color(0xFFB5A07B); // Eskitme parşömen çizgisi
   static const Color beyazKutucuk = Color(0x66FFFFFF);
 
+  // Osmanlı sepya paletiyle uyumlu stat ve gösterge renkleri
+  static const Color saglikRengi = Color(0xFF8B0000); // Koyu bordo / Osmanlı kırmızısı
+  static const Color mutlulukRengi = Color(0xFFC59B27); // Muted eskitme altın / kehribar
+  static const Color zekaRengi = Color(0xFF1A365D); // Koyu saray çiviti / lacivert
+  static const Color itibarRengi = Color(0xFF5A1860); // Osmanlı erguvan moru
+  static const Color pozitifRengi = Color(0xFF2D5A27); // Saray zümrütü / koyu zeytin yeşili
+  static const Color negatifRengi = Color(0xFF7A1212); // Koyu damga bordonu
+
   // Yaşa göre parşömen sararma tonları
   static const Color kagitCocukluk = Color(0xFFFAF5EA);
   static const Color kagitOkul = Color(0xFFF4EBD9);

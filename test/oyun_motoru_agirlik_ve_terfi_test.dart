@@ -34,47 +34,94 @@ void main() {
       expect(karakter.meslek, equals('Kalfa'));
     });
 
-    test('2. Kilometre taşı ağırlıklandırma kuralı: Standart (10x) ve Telafi (25x) ağırlık hesaplaması', () {
-      final standartKarakter = Karakter(yas: 12);
-      final motor1 = OyunMotoru(tumOlaylar: [], karakter: standartKarakter);
+    test('2. Öncelik ve Gündelik Ağırlıklandırması (oncelikli:true 8x, gundelik_ 1x, tarihi 8x)', () {
+      final karakter = Karakter(yas: 20, dogumYili: 1300);
 
-      final standartOlay = Olay(
-        id: 'std_01',
-        yasMin: 10,
-        yasMax: 14,
-        oncelikli: true,
-        metin: 'Standart Kilometre Taşı',
-        secenekler: [Secenek(metin: 'Tamam', etki: Etki(), sonuc: 'Sonuç')],
-      );
-
-      final normalOlay = Olay(
-        id: 'norm_01',
-        yasMin: 10,
-        yasMax: 14,
-        oncelikli: false,
-        metin: 'Normal Olay',
-        secenekler: [Secenek(metin: 'Tamam', etki: Etki(), sonuc: 'Sonuç')],
-      );
-
-      final uygunlar = [standartOlay, normalOlay];
-      final secilen = motor1.agirlikliOlaySec(uygunlar);
-      expect(secilen, isNotNull);
-
-      // Telafi durumu testi (19 yaşında ve mesleksiz karakter)
-      final telafiKarakter = Karakter(yas: 19, meslekZincirId: null);
-      final motor2 = OyunMotoru(tumOlaylar: [], karakter: telafiKarakter);
-
-      final telafiOlay = Olay(
-        id: 'telafi_01',
+      final oncelikliGundelik = Olay(
+        id: 'gundelik_evlilik_01',
         yasMin: 18,
         yasMax: 30,
         oncelikli: true,
-        metin: 'Telafi Olayı',
+        metin: 'Oncelikli Gündelik (Kilometre Taşı Evlilik)',
         secenekler: [Secenek(metin: 'Tamam', etki: Etki(), sonuc: 'Sonuç')],
       );
 
-      final secilenTelafi = motor2.agirlikliOlaySec([telafiOlay, normalOlay]);
-      expect(secilenTelafi, isNotNull);
+      final atmosfeicGundelik = Olay(
+        id: 'gundelik_kahve_01',
+        yasMin: 18,
+        yasMax: 30,
+        oncelikli: false,
+        metin: 'Atmosferik Gündelik Sohbet',
+        secenekler: [Secenek(metin: 'Tamam', etki: Etki(), sonuc: 'Sonuç')],
+      );
+
+      final tarihiOlay = Olay(
+        id: 'kurulus_001',
+        yasMin: 18,
+        yasMax: 30,
+        oncelikli: false,
+        metin: 'Bursa Kuşatması Tarihi Olay',
+        secenekler: [Secenek(metin: 'Tamam', etki: Etki(), sonuc: 'Sonuç')],
+      );
+
+      final motor = OyunMotoru(
+        tumOlaylar: [oncelikliGundelik, atmosfeicGundelik, tarihiOlay],
+        karakter: karakter,
+      );
+
+      final uygunlar = motor.uygunOlaylariGetir();
+      expect(uygunlar.length, equals(3));
+
+      // 1000 kez simüle ederek ağırlık oranlarını test et
+      int oncelikliSayisi = 0;
+      int gundelikSayisi = 0;
+      int tarihiSayisi = 0;
+
+      for (int i = 0; i < 1000; i++) {
+        final secilen = motor.agirlikliOlaySec(uygunlar);
+        if (secilen?.id == 'gundelik_evlilik_01') oncelikliSayisi++;
+        if (secilen?.id == 'gundelik_kahve_01') gundelikSayisi++;
+        if (secilen?.id == 'kurulus_001') tarihiSayisi++;
+      }
+
+      // oncelikliGundelik (8x) ve tarihiOlay (8x) gündelik sohbetten (1x) çok daha sık seçilmeli
+      expect(oncelikliSayisi, greaterThan(gundelikSayisi * 3));
+      expect(tarihiSayisi, greaterThan(gundelikSayisi * 3));
+    });
+
+    test('3. 8-Yıllık Cooldown Mantığı (Tekrarlanabilir olaylar 8 yıl geçmeden aday olamaz)', () {
+      final karakter = Karakter(yas: 20, dogumYili: 1300);
+
+      final tekrarOlay = Olay(
+        id: 'gundelik_pazar_01',
+        yasMin: 18,
+        yasMax: 30,
+        tekSeferlik: false,
+        metin: 'Pazar Gezintisi',
+        secenekler: [Secenek(metin: 'Tamam', etki: Etki(), sonuc: 'Sonuç')],
+      );
+
+      final motor = OyunMotoru(
+        tumOlaylar: [tekrarOlay],
+        karakter: karakter,
+      );
+
+      // 1. İlk yıl olay tetiklenir ve olaySonGorulmeYili haritasına kaydedilir
+      final ilkSecim = motor.agirlikliOlaySec(motor.uygunOlaylariGetir());
+      expect(ilkSecim?.id, equals('gundelik_pazar_01'));
+      expect(karakter.olaySonGorulmeYili['gundelik_pazar_01'], equals(1320));
+
+      // 2. Takip eden 7 yıl içinde (1321-1327) olay cooldown'dadır ve uygunOlaylariGetir() listesinden ELENİR!
+      for (int i = 1; i <= 7; i++) {
+        karakter.yas = 20 + i; // 1321 ... 1327
+        final adaylar = motor.uygunOlaylariGetir();
+        expect(adaylar.contains(tekrarOlay), isFalse, reason: '$i. yılda cooldown ihlal edildi');
+      }
+
+      // 3. 8. yılda (1328) cooldown biter ve olay tekrar aday havuzuna girer!
+      karakter.yas = 28; // 1328
+      final adaylar8 = motor.uygunOlaylariGetir();
+      expect(adaylar8.contains(tekrarOlay), isTrue);
     });
   });
 }

@@ -216,6 +216,14 @@ class OyunMotoru {
     return tumOlaylar.where((o) {
       if (karakter.kullanilanOlaylar.contains(o.id) && o.tekSeferlik) return false;
 
+      // 8 Yıllık Cooldown (Bekleme Süresi) Kontrolü
+      if (!o.tekSeferlik) {
+        final sonGorulme = karakter.olaySonGorulmeYili[o.id];
+        if (sonGorulme != null && (karakter.takvimYili - sonGorulme) < 8) {
+          return false;
+        }
+      }
+
       if (karakter.yas < o.yasMin || karakter.yas > o.yasMax) return false;
 
       if (o.tarihYilMin != null && karakter.takvimYili < o.tarihYilMin!) return false;
@@ -244,8 +252,10 @@ class OyunMotoru {
   final List<String> sonGosterilenOlaylar = [];
 
   /// Olay Havuzu Sayısal Ağırlıklandırması (Weighted Pool Selector)
-  /// - Son 10 turda gösterilen olaylar havuzdan öncelikle elenerek çeşitlilik sağlanır.
-  /// - Tarihsel dönem ve gündelik olay çeşitliliği artırılmıştır.
+  /// Öncelik Sırası:
+  /// 1. o.oncelikli == true  -> ağırlık = 8 (Telafide 12) (Kilometre taşları korunur)
+  /// 2. o.id 'gundelik_' ile başlıyorsa -> ağırlık = 1 (Atmosferik genel olaylar)
+  /// 3. Aksi halde (Tarihi olaylar) -> ağırlık = 8 (Tarihsel dönem olayları)
   Olay? agirlikliOlaySec(List<Olay> uygunlar) {
     if (uygunlar.isEmpty) return null;
 
@@ -257,8 +267,7 @@ class OyunMotoru {
     int toplamAgirlik = 0;
 
     for (final o in secimHavuzu) {
-      bool tarihiOlay = !o.id.startsWith('gundelik');
-      int agirlik = tarihiOlay ? 8 : 2; // Tarihi olaylara 4 kat daha yüksek öncelik
+      int agirlik;
 
       if (o.oncelikli) {
         // Telafi durumu kontrolü
@@ -268,8 +277,12 @@ class OyunMotoru {
         if (meslekTelafi || evlilikTelafi) {
           agirlik = 12; // Telafi ağırlığı
         } else {
-          agirlik = 8; // Kilometre taşı ağırlığı
+          agirlik = 8; // Kilometre taşı ağırlığı (oncelikli events)
         }
+      } else if (o.id.startsWith('gundelik_')) {
+        agirlik = 1; // Atmosferik gündelik olaylar (düşük ağırlık)
+      } else {
+        agirlik = 8; // Tarihi olaylar (yüksek ağırlık)
       }
 
       // Terfi dönemi olayları
@@ -297,6 +310,7 @@ class OyunMotoru {
       zar -= agirliklar[i];
     }
 
+    karakter.olaySonGorulmeYili[secilen.id] = karakter.takvimYili;
     sonGosterilenOlaylar.add(secilen.id);
     if (sonGosterilenOlaylar.length > 10) {
       sonGosterilenOlaylar.removeAt(0);

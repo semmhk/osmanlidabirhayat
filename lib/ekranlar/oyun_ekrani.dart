@@ -153,7 +153,7 @@ class _OyunEkraniState extends State<OyunEkrani> {
     return Container(
       padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
       decoration: BoxDecoration(
-        color: isPos ? Colors.green.shade900 : Colors.red.shade900,
+        color: isPos ? Renkler.pozitifRengi : Renkler.negatifRengi,
         borderRadius: BorderRadius.circular(6),
       ),
       child: Text(
@@ -376,8 +376,8 @@ class _OyunEkraniState extends State<OyunEkrani> {
                         Container(
                           padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 6),
                           decoration: BoxDecoration(
-                            color: Colors.green.shade900.withAlpha(40),
-                            border: Border.all(color: Colors.green.shade800),
+                            color: Renkler.pozitifRengi.withAlpha(40),
+                            border: Border.all(color: Renkler.pozitifRengi),
                             borderRadius: BorderRadius.circular(20),
                           ),
                           child: Row(
@@ -385,9 +385,9 @@ class _OyunEkraniState extends State<OyunEkrani> {
                               const Text('💰 ', style: TextStyle(fontSize: 14)),
                               Text(
                                 Karakter.paraFormatla(k.bakiye),
-                                style: TextStyle(
+                                style: const TextStyle(
                                   fontWeight: FontWeight.bold,
-                                  color: Colors.green.shade900,
+                                  color: Renkler.pozitifRengi,
                                   fontSize: 13,
                                 ),
                               ),
@@ -399,10 +399,10 @@ class _OyunEkraniState extends State<OyunEkrani> {
                     const SizedBox(height: 10),
 
                     // Stat Barları (Sağlık, Mutluluk, Zeka, İtibar)
-                    _statBar('Sağlık', k.saglik, Colors.red.shade800),
-                    _statBar('Mutluluk', k.mutluluk, Colors.amber.shade900),
-                    _statBar('Zeka', k.zeka, Colors.blue.shade900),
-                    _statBar('İtibar', k.itibar, Colors.purple.shade900),
+                    _statBar('Sağlık', k.saglik, Renkler.saglikRengi),
+                    _statBar('Mutluluk', k.mutluluk, Renkler.mutlulukRengi),
+                    _statBar('Zeka', k.zeka, Renkler.zekaRengi),
+                    _statBar('İtibar', k.itibar, Renkler.itibarRengi),
                   ],
                 ),
               ),
