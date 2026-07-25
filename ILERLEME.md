@@ -4,7 +4,7 @@
 
 ## MEVCUT DURUM
 
-**Aktif Faz:** 🎉 **EN SİMÜLE EDİLMİŞ DENGELİ OLAY SEÇİM MOTORU & PADİŞAH PORTRELERİ TAMAMLANDI!** 🎉 (632 Olay + Ağırlıklı Olay Seçici [oncelikli=24/28, tarihi=18, gundelik=1] + Tarihi Olay Oranı %30 + 35 Padişah için 35 Tane Ayrı Görsel Dosyası + 28/28 Yeşillenen Testler) ✅  
+**Aktif Faz:** 🎉 **EKSİKSİZ UYGULAMA RELEASE APK DERLEMESİ & ASSET DOĞRULAMASI TAMAMLANDI!** 🎉 (632 Olay + 54 Tane APK İçi Asset Dosyası + 35 Tane Benzersiz Padişah Portresi + %30 Tarihi Olay Oranı + 28/28 Yeşillenen Testler + 55.2 MB Release APK) ✅  
 **Son güncelleme:** 25 Temmuz 2026
 
 ---
@@ -18,19 +18,18 @@
 - [x] Tarihsel ölüm riski formülü ve öncelikli/kilometre taşı olay seçimi kuralları netleştirildi (2 yıl bekleme sonrası garantili terfi kuralı).
 - [x] Soyut "Akçe" ekonomi birimi modeli uygulandı.
 
-### İçerik, Görsel Portreler, Müzik & Görsel/Ses Cila Turu (24-25 Temmuz 2026 - TAMAMLANDI 🎉)
-- [x] **1) Optimize Edilmiş Olay Seçim Ağırlıkları (`agirlikliOlaySec`)**:
+### İçerik, Görsel Portreler, Müzik, APK Build & Görsel/Ses Cila Turu (24-25 Temmuz 2026 - TAMAMLANDI 🎉)
+- [x] **1) Release APK Derlemesi ve Asset Paketleme Doğrulaması**:
+  - `flutter clean`, `flutter pub get`, `flutter test` (28/28), `flutter analyze` (0 Hata/0 Uyarı) adımları çalıştırıldı.
+  - `flutter build apk --release` ile derleme tamamlandı.
+  - APK zip içerisinden 54 asset dosyasının (632 olaylık 6 JSON, 36 padişah portresi, 8 ses/müzik dosyası, logo ve parşömen dokusu) tamamının eksiksiz paketlendiği doğrulandı.
+  - Üretilen APK `C:\Users\STUDYO\Desktop\osmanhayat2.0.apk` konumuna kopyalandı (55.2 MB).
+- [x] **2) Optimize Edilmiş Olay Seçim Ağırlıkları (`agirlikliOlaySec`)**:
   - `oncelikli == true`: 24x ağırlık (Telafide 28x).
   - `gundelik_` (oncelikli: false): 1x ağırlık.
   - Tarihi Olaylar: 18x ağırlık.
-  - Tarihi olay oranı %24'ten %30'a yükseltildi; evlilik oranı 1.74/hayat ve çocuk oranı 0.86/hayat seviyesine iyileştirildi.
-- [x] **2) %100 Benzersiz Padişah Portreleri**:
-  - 35 Osmanlı padişahının HER BİRİ İÇİN `assets/padisahlar/` klasöründe AYRI VE BENZERSİZ bir `.jpg` dosyası oluşturuldu.
-  - Unit test yazılıp 36 benzersiz görsel dosya varlığı ve sıfır dosya çakışması otomasyonla doğrulandı.
-- [x] **3) Zengin Vesikalık Avatar & Osmanlı Hüviyet Kartı**:
-  - `_VesikalikPainter` tuval çizimi Osmanlı yüz şekli varyasyonları (`oval`, `yuvarlak`, `koseli`), göz iris renkleri (`kahverengi`, `siyah`, `ela`, `yesil`), kavisli Osmanlı kaşları ve kemerli burun çizgileriyle zenginleştirildi.
-  - `OyunEkrani` avatar boyutu `68x84` piksele büyütüldü. `GunlukEkrani` üst kısmına `110x135` dev vesikalık avatar içeren ferman görünümlü "Devlet-i Aliyye Hüviyet Cüzdanı" kimlik kartı yerleştirildi.
-- [x] **4) Geriye Dönük Uyumluluk ve Cinsiyete Uygun Gen Üretimi**: `AvatarGenleri.fromJson` geriye dönük uyumlu duruma getirildi. `AvatarGenleri.rastgele` cinsiyete uygun üretir.
+- [x] **3) %100 Benzersiz Padişah Portreleri**: 35 Osmanlı padişahının HER BİRİ İÇİN `assets/padisahlar/` klasöründe AYRI VE BENZERSİZ bir `.jpg` dosyası oluşturuldu.
+- [x] **4) Zengin Vesikalık Avatar & Osmanlı Hüviyet Kartı**: `OyunEkrani` avatar boyutu `68x84` piksele büyütüldü. `GunlukEkrani` üst kısmına `110x135` dev vesikalık avatar içeren ferman görünümlü "Devlet-i Aliyye Hüviyet Cüzdanı" kimlik kartı yerleştirildi.
 - [x] **5) Hayat Günlüğü Ekranı (`lib/ekranlar/gunluk_ekrani.dart`)**: Karakterin tüm yaşam geçmişini en yeniden en eskiye performanslı `ListView.builder` ile parşömen kartları halinde listeleyen yeni günlük ekranı eklendi.
 - [x] **6) Resmi Logo ve Uygulama İkonları**: 1024x1024 boyutlu Tuğra Amblemi `assets/logo.png` olarak yenilendi. Android Adaptive ve iOS ikonları üretildi.
 - [x] **7) Parşömen Dokusu Arka Plan Bindirmesi**: `assets/arkaplan/parsomen_doku.png` (%12 opaklık) tüm ana ekranlara giydirildi.
@@ -42,4 +41,4 @@
 ## GİT & DEPLOYMENT DURUMU
 
 - **GitHub Reposu**: `https://github.com/semmhk/osmanlidabirhayat.git` (main branch).
-- **Son Commit**: Olay seçim ağırlıkları optimizasyonu (oncelikli=24/28, tarihi=18, gundelik=1) ve unit test güncellemesi.
+- **Masaüstü APK**: `C:\Users\STUDYO\Desktop\osmanhayat2.0.apk` (55.2 MB Release APK).
