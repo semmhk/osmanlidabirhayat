@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import '../bilesenler/vesikalik_avatar.dart';
 import '../modeller/karakter.dart';
 import '../sabitler/renkler.dart';
 
@@ -77,6 +78,95 @@ class GunlukEkrani extends StatelessWidget {
                   ),
                 ),
 
+                // OSMANLI HÜVİYET KARTI (Büyük Dev Vesikalık Avatar & Kimlik Kartı)
+                Container(
+                  margin: const EdgeInsets.all(12),
+                  padding: const EdgeInsets.all(12),
+                  decoration: BoxDecoration(
+                    color: Renkler.kagitGetirYasaGore(karakter.yas),
+                    borderRadius: BorderRadius.circular(10),
+                    border: Border.all(color: Renkler.altin, width: 2),
+                    boxShadow: [
+                      BoxShadow(
+                        color: Colors.black.withAlpha(60),
+                        blurRadius: 6,
+                        offset: const Offset(2, 3),
+                      ),
+                    ],
+                  ),
+                  child: Row(
+                    children: [
+                      // Dev 110x135 Piksel Vesikalık Avatar
+                      VesikalikAvatar(
+                        yas: karakter.yas,
+                        genler: karakter.genler,
+                        genislik: 110,
+                        yukseklik: 135,
+                      ),
+                      const SizedBox(width: 14),
+                      Expanded(
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Container(
+                              padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 2),
+                              decoration: BoxDecoration(
+                                color: Renkler.damga,
+                                borderRadius: BorderRadius.circular(4),
+                              ),
+                              child: const Text(
+                                'DEVLET-İ ALİYYE HÜVİYET CÜZDANI',
+                                style: TextStyle(
+                                  fontSize: 9,
+                                  fontWeight: FontWeight.bold,
+                                  color: Colors.white,
+                                  letterSpacing: 0.5,
+                                ),
+                              ),
+                            ),
+                            const SizedBox(height: 6),
+                            Text(
+                              karakter.isim,
+                              style: const TextStyle(
+                                fontSize: 16,
+                                fontWeight: FontWeight.bold,
+                                color: Renkler.murekkep,
+                              ),
+                            ),
+                            const SizedBox(height: 2),
+                            Text(
+                              '💼 ${karakter.meslekUnvaniGetir()}',
+                              style: const TextStyle(
+                                fontSize: 12,
+                                fontWeight: FontWeight.w600,
+                                color: Renkler.murekkepSoluk,
+                              ),
+                            ),
+                            const Divider(color: Renkler.cizgi, height: 12),
+                            Text(
+                              '📅 Doğum: ${karakter.dogumYili} | Nesil: #${karakter.nesil}',
+                              style: const TextStyle(fontSize: 11, color: Renkler.murekkep),
+                            ),
+                            Text(
+                              '💰 Servet: ${Karakter.paraFormatla(karakter.bakiye)}',
+                              style: const TextStyle(
+                                fontSize: 11,
+                                fontWeight: FontWeight.bold,
+                                color: Renkler.pozitifRengi,
+                              ),
+                            ),
+                            if (karakter.esAdi != null)
+                              Text(
+                                '💍 Eş: ${karakter.esAdi}',
+                                style: const TextStyle(fontSize: 11, color: Renkler.murekkep),
+                              ),
+                          ],
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+
                 // Günlük Listesi
                 Expanded(
                   child: gunlukListesi.isEmpty
@@ -100,7 +190,7 @@ class GunlukEkrani extends StatelessWidget {
                           ),
                         )
                       : ListView.builder(
-                          padding: const EdgeInsets.all(12),
+                          padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 4),
                           itemCount: gunlukListesi.length,
                           itemBuilder: (context, index) {
                             final girdi = gunlukListesi[index];

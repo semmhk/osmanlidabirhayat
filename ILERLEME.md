@@ -4,7 +4,7 @@
 
 ## MEVCUT DURUM
 
-**Aktif Faz:** 🎉 **TÜM İÇERİK, MÜZİK/SES, AMBLEM/İKONLAR, GÜNLÜK EKRANI & OSMANLI RENK PALETİ TAMAMLANDI!** 🎉 (632 Olay + Hayat Günlüğü Ekranı [ListView.builder] + 8-Yıllık Olay Cooldown + Öncelik Sıralı Olay Motoru + Osmanlı Sepya Temalı Stat Renkleri + Resmî Uygulama İkonları [Android Adaptive/iOS] + Parşömen Dokusu Bindirmesi + Audio Ducking %35 BGM / %75 SFX + Ana Menü Müziği + App Lifecycle Observer + 27/27 Yeşillenen Testler) ✅  
+**Aktif Faz:** 🎉 **ZENGİN VESİKALIK AVATAR, GÜNLÜK HÜVİYET KARTI & UYGULAMA CİLASI TAMAMLANDI!** 🎉 (632 Olay + 68x84 Oyun Ekranı Avatarları + 110x135 Günlük Hüviyet Kartı Avatarı + Göz Rengi/Yüz Şekli/Osmanlı Fesi ve Sarığı Tuval Çizimi + Geriye Dönük Uyumlu AvatarGenleri + 29/29 Yeşillenen Testler) ✅  
 **Son güncelleme:** 25 Temmuz 2026
 
 ---
@@ -19,18 +19,24 @@
 - [x] Soyut "Akçe" ekonomi birimi modeli uygulandı.
 
 ### İçerik, Müzik, Görsel, Günlük Ekranı & Görsel/Ses Cila Turu (24-25 Temmuz 2026 - TAMAMLANDI 🎉)
-- [x] **1) Hayat Günlüğü Ekranı (`lib/ekranlar/gunluk_ekrani.dart`)**: Karakterin tüm yaşam geçmişini en yeniden en eskiye performanslı `ListView.builder` ile parşömen kartları halinde listeleyen yeni günlük ekranı eklendi. `OyunEkrani` üst çubuğuna `📖` Günlük butonu ve sakin yıl ferman kutusuna `📖 Tüm Günlüğü Gör (N Kayıt) ➔` yönlendirmesi entegre edildi.
-- [x] **2) Resmi Logo ve Uygulama İkonları**: 1024x1024 boyutlu Tuğra Amblemi `assets/logo.png` olarak yenilendi. `flutter_launcher_icons` paketi entegre edilerek Android Adaptive (koyu sepya arka plan `#2C221B` + logo ön plan) ve iOS gerçek uygulama ikonları üretildi.
-- [x] **3) Parşömen Dokusu Arka Plan Bindirmesi**: `assets/arkaplan/parsomen_doku.png` (303 KB, 100% CC0 Public Domain kağıt dokusu) üretildi. `AnaMenuEkrani`, `OyunEkrani` ve `GunlukEkrani` düz zeminlerinin üzerine %12 opaklıkla bindirildi.
-- [x] **4) Ses Dengesi, Audio Ducking ve Yaşam Döngüsü**: BGM %35, SFX %75 seviyesine dengelendi. Efekt anında müzik %15'e iner, 400ms sonra yumuşakça %35'e döner. Arka plana alındığında duraklar.
-- [x] **5) 8-Yıllık Olay Cooldown (Bekleme Süresi) Sistemi**: `Karakter` modeline `olaySonGorulmeYili` haritası eklendi. Tekrarlanabilir bir olay tetiklendiğinde takvim yılı kaydedilir ve en az 8 yıl geçmeden o olay tekrar aday havuzuna GİREMEZ.
-- [x] **6) Öncelik Sıralı Olay Motoru (`agirlikliOlaySec`)**: `oncelikli: true` -> 8x/12x, `gundelik_` -> 1x, Tarihi olaylar -> 8x.
-- [x] **7) Osmanlı Temalı Stat ve Gösterge Renkleri**: `lib/sabitler/renkler.dart` sınıfına Osmanlı sepya paletiyle uyumlu 6 yeni renk sabiti eklendi.
-- [x] **8) Test & Analiz**: **27/27 test YEŞİL PAS GEÇTİ ✅**, `flutter analyze` **0 HATA / 0 UYARI ✅**.
+- [x] **1) Zengin Vesikalık Avatar & Osmanlı Hüviyet Kartı**:
+  - `_VesikalikPainter` tuval çizimi Osmanlı yüz şekli varyasyonları (`oval`, `yuvarlak`, `koseli`), göz iris renkleri (`kahverengi`, `siyah`, `ela`, `yesil`), kavisli Osmanlı kaşları ve kemerli burun çizgileriyle zenginleştirildi.
+  - Erkekler için kırmızı Osmanlı Fesi ve püskül, beyaz dolama Sarık veya yeşil takke; kadınlar için altın taclı Osmanlı Yaşmak ve Hotoz baş giyimi eklendi.
+  - `OyunEkrani` avatar boyutu `68x84` piksele büyütüldü.
+  - `GunlukEkrani` üst kısmına `110x135` dev vesikalık avatar içeren ferman görünümlü "Devlet-i Aliyye Hüviyet Cüzdanı" kimlik kartı yerleştirildi.
+- [x] **2) Geriye Dönük Uyumluluk ve Cinsiyete Uygun Gen Üretimi**:
+  - `AvatarGenleri.fromJson` metodu eski kayıtlarda eksik alanlar için varsayılan fallback değerleriyle çökmeden çalışır.
+  - `AvatarGenleri.rastgele` fonksiyonu cinsiyete uygun baş giyimi ve gen kombinasyonu üretir.
+- [x] **3) Hayat Günlüğü Ekranı (`lib/ekranlar/gunluk_ekrani.dart`)**: Karakterin tüm yaşam geçmişini en yeniden en eskiye performanslı `ListView.builder` ile parşömen kartları halinde listeleyen yeni günlük ekranı eklendi.
+- [x] **4) Resmi Logo ve Uygulama İkonları**: 1024x1024 boyutlu Tuğra Amblemi `assets/logo.png` olarak yenilendi. Android Adaptive ve iOS ikonları üretildi.
+- [x] **5) Parşömen Dokusu Arka Plan Bindirmesi**: `assets/arkaplan/parsomen_doku.png` (%12 opaklık) tüm ana ekranlara giydirildi.
+- [x] **6) Ses Dengesi, Audio Ducking ve Yaşam Döngüsü**: BGM %35, SFX %75 seviyesine dengelendi. Audio ducking ve app lifecycle observer entegre edildi.
+- [x] **7) 8-Yıllık Olay Cooldown & Öncelikli Olay Seçimi**: `olaySonGorulmeYili` cooldown haritası ve öncelik sıralı ağırlıklandırma tamamlandı.
+- [x] **8) Test & Analiz**: **29/29 test YEŞİL PAS GEÇTİ ✅**, `flutter analyze` **0 HATA / 0 UYARI ✅**.
 
 ---
 
 ## GİT & DEPLOYMENT DURUMU
 
 - **GitHub Reposu**: `https://github.com/semmhk/osmanlidabirhayat.git` (main branch).
-- **Son Commit**: Günlük Ekranı (GunlukEkrani), Parşömen Dokusu ve Görsel/Ses Cila Turu.
+- **Son Commit**: Zengin Vesikalık Avatar çizimleri, 68x84 ve 110x135 boyut büyütmeleri, geriye dönük uyumlu genler ve unit testler.

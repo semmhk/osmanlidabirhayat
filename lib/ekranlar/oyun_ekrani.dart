@@ -376,8 +376,8 @@ class _OyunEkraniState extends State<OyunEkrani> {
                             VesikalikAvatar(
                               yas: k.yas,
                               genler: k.genler,
-                              genislik: 48,
-                              yukseklik: 58,
+                              genislik: 68,
+                              yukseklik: 84,
                             ),
                             const SizedBox(width: 10),
                             Column(

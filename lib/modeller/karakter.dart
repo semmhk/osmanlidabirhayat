@@ -9,6 +9,9 @@ enum SacRengi { siyah, kumral, kahverengi, beyaz }
 enum SacStili { duz, dalgali, kisa, uzun, kel }
 enum YuzSekli { oval, yuvarlak, koseli }
 enum Cinsiyet { erkek, kadin }
+enum GozRengi { kahverengi, siyah, ela, yesil }
+enum BiyikSakalStili { palaBiyik, pasaSakali, cemberSakal, kirliSakal }
+enum BasGiyimi { fes, sarik, takke, yasmakHotoz }
 
 class AvatarGenleri {
   final TenTonu tenTonu;
@@ -18,6 +21,9 @@ class AvatarGenleri {
   final bool gozlukVar;
   final bool biyikSakalVar;
   final Cinsiyet cinsiyet;
+  final GozRengi gozRengi;
+  final BiyikSakalStili biyikSakalStili;
+  final BasGiyimi basGiyimi;
 
   AvatarGenleri({
     required this.tenTonu,
@@ -27,6 +33,9 @@ class AvatarGenleri {
     required this.gozlukVar,
     required this.biyikSakalVar,
     this.cinsiyet = Cinsiyet.erkek,
+    required this.gozRengi,
+    required this.biyikSakalStili,
+    required this.basGiyimi,
   });
 
   factory AvatarGenleri.rastgele([Random? rnd, Cinsiyet? cinsiyet]) {
@@ -80,6 +89,14 @@ class AvatarGenleri {
       yuzSekli = kadinYuzSekilleri[r.nextInt(kadinYuzSekilleri.length)];
     }
 
+    final BasGiyimi basGiyimi;
+    if (erkek) {
+      const erkekBasGiyimleri = [BasGiyimi.fes, BasGiyimi.fes, BasGiyimi.sarik, BasGiyimi.takke];
+      basGiyimi = erkekBasGiyimleri[r.nextInt(erkekBasGiyimleri.length)];
+    } else {
+      basGiyimi = BasGiyimi.yasmakHotoz;
+    }
+
     return AvatarGenleri(
       tenTonu: TenTonu.values[r.nextInt(TenTonu.values.length)],
       sacRengi: SacRengi.values[r.nextInt(SacRengi.values.length)],
@@ -88,10 +105,18 @@ class AvatarGenleri {
       gozlukVar: false, // Osmanlı döneminde gözlük oldukça nadir
       biyikSakalVar: erkek ? r.nextDouble() < 0.70 : false, // Osmanlı erkeklerinde sakal/bıyık yaygın
       cinsiyet: activeCinsiyet,
+      gozRengi: GozRengi.values[r.nextInt(GozRengi.values.length)],
+      biyikSakalStili: BiyikSakalStili.values[r.nextInt(BiyikSakalStili.values.length)],
+      basGiyimi: basGiyimi,
     );
   }
 
   factory AvatarGenleri.fromJson(Map<String, dynamic> json) {
+    final cinsiyet = Cinsiyet.values.firstWhere(
+      (e) => e.name == json['cinsiyet'],
+      orElse: () => Cinsiyet.erkek,
+    );
+
     return AvatarGenleri(
       tenTonu: TenTonu.values.firstWhere(
         (e) => e.name == json['tenTonu'],
@@ -111,9 +136,18 @@ class AvatarGenleri {
       ),
       gozlukVar: json['gozlukVar'] as bool? ?? false,
       biyikSakalVar: json['biyikSakalVar'] as bool? ?? false,
-      cinsiyet: Cinsiyet.values.firstWhere(
-        (e) => e.name == json['cinsiyet'],
-        orElse: () => Cinsiyet.erkek,
+      cinsiyet: cinsiyet,
+      gozRengi: GozRengi.values.firstWhere(
+        (e) => e.name == json['gozRengi'],
+        orElse: () => GozRengi.kahverengi,
+      ),
+      biyikSakalStili: BiyikSakalStili.values.firstWhere(
+        (e) => e.name == json['biyikSakalStili'],
+        orElse: () => BiyikSakalStili.palaBiyik,
+      ),
+      basGiyimi: BasGiyimi.values.firstWhere(
+        (e) => e.name == json['basGiyimi'],
+        orElse: () => (cinsiyet == Cinsiyet.kadin ? BasGiyimi.yasmakHotoz : BasGiyimi.fes),
       ),
     );
   }
@@ -127,6 +161,9 @@ class AvatarGenleri {
       'gozlukVar': gozlukVar,
       'biyikSakalVar': biyikSakalVar,
       'cinsiyet': cinsiyet.name,
+      'gozRengi': gozRengi.name,
+      'biyikSakalStili': biyikSakalStili.name,
+      'basGiyimi': basGiyimi.name,
     };
   }
 }
