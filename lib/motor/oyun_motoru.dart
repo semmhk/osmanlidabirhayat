@@ -275,14 +275,14 @@ class OyunMotoru {
         final bool evlilikTelafi = (karakter.yas >= 28 && karakter.esAdi == null);
 
         if (meslekTelafi || evlilikTelafi) {
-          agirlik = 12; // Telafi ağırlığı
+          agirlik = 28; // Telafi ağırlığı (24 + 4)
         } else {
-          agirlik = 8; // Kilometre taşı ağırlığı (oncelikli events)
+          agirlik = 24; // Kilometre taşı ağırlığı (oncelikli events)
         }
       } else if (o.id.startsWith('gundelik_')) {
         agirlik = 1; // Atmosferik gündelik olaylar (düşük ağırlık)
       } else {
-        agirlik = 8; // Tarihi olaylar (yüksek ağırlık)
+        agirlik = 18; // Tarihi dönem olayları (yüksek ağırlık)
       }
 
       // Terfi dönemi olayları

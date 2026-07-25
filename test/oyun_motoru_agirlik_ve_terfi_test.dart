@@ -34,7 +34,7 @@ void main() {
       expect(karakter.meslek, equals('Kalfa'));
     });
 
-    test('2. Öncelik ve Gündelik Ağırlıklandırması (oncelikli:true 8x, gundelik_ 1x, tarihi 8x)', () {
+    test('2. Öncelik ve Gündelik Ağırlıklandırması (oncelikli:true 24x, gundelik_ 1x, tarihi 18x)', () {
       final karakter = Karakter(yas: 20, dogumYili: 1300);
 
       final oncelikliGundelik = Olay(
