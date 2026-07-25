@@ -1,10 +1,15 @@
 import 'dart:io';
+import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:osmanli_da_bir_hayat/modeller/padisah_deposu.dart';
 import 'package:osmanli_da_bir_hayat/servisler/ses_servisi.dart';
 
 void main() {
   TestWidgetsFlutterBinding.ensureInitialized();
+  TestDefaultBinaryMessengerBinding.instance.defaultBinaryMessenger
+      .setMockMethodCallHandler(const MethodChannel('xyz.luan/audioplayers.global'), (call) async => null);
+  TestDefaultBinaryMessengerBinding.instance.defaultBinaryMessenger
+      .setMockMethodCallHandler(const MethodChannel('xyz.luan/audioplayers'), (call) async => null);
 
   group('🎶 SesServisi & Dönemsel Müzik Haritalama Testleri', () {
     test('1. SesServisi tüm 5 Osmanlı dönemi için tanımlı müzik yollarına sahip olmalı', () {

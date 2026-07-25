@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import '../modeller/hayat_kaydi.dart';
 import '../modeller/karakter.dart';
-import '../sabitler/renkler.dart';
+import '../sabitler/stiller.dart';
 import '../servisler/hayat_kaydi_servisi.dart';
 
 class GecmisHayatlarEkrani extends StatefulWidget {
@@ -29,23 +29,19 @@ class _GecmisHayatlarEkraniState extends State<GecmisHayatlarEkrani> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Renkler.kagitKoyu,
+      backgroundColor: Stiller.sepyaArkaplan,
       appBar: AppBar(
-        backgroundColor: Renkler.kagitKoyu,
-        elevation: 0,
-        centerTitle: true,
+        backgroundColor: Stiller.koyuKahve,
+        elevation: 4,
         leading: IconButton(
-          icon: const Icon(Icons.arrow_back_ios, color: Renkler.altin),
+          icon: const Icon(Icons.arrow_back, color: Stiller.parlakAltin),
           onPressed: () => Navigator.pop(context),
         ),
-        title: const Text(
-          '📜 Geçmiş Hayatlar (Şecere)',
-          style: TextStyle(
-            color: Renkler.altin,
-            fontSize: 18,
-            fontWeight: FontWeight.bold,
-          ),
+        title: Text(
+          'GEÇMİŞ HAYATLAR (ŞECERE)',
+          style: Stiller.baslikStili(fontSize: 16),
         ),
+        centerTitle: true,
       ),
       body: SafeArea(
         child: Center(
@@ -53,17 +49,13 @@ class _GecmisHayatlarEkraniState extends State<GecmisHayatlarEkrani> {
             constraints: const BoxConstraints(maxWidth: 550),
             margin: const EdgeInsets.all(12),
             padding: const EdgeInsets.all(12),
-            decoration: BoxDecoration(
-              color: Renkler.kagit,
-              border: Border.all(color: Renkler.altin, width: 2),
-              borderRadius: BorderRadius.circular(8),
-            ),
+            decoration: Stiller.altinKartStili,
             child: FutureBuilder<List<HayatKaydi>>(
               future: _kayitlarFuture,
               builder: (context, snapshot) {
                 if (snapshot.connectionState == ConnectionState.waiting) {
                   return const Center(
-                    child: CircularProgressIndicator(color: Renkler.damga),
+                    child: CircularProgressIndicator(color: Stiller.parlakAltin),
                   );
                 }
 
@@ -74,27 +66,17 @@ class _GecmisHayatlarEkraniState extends State<GecmisHayatlarEkrani> {
                     child: Column(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
-                        const Text(
-                          '🏛️',
-                          style: TextStyle(fontSize: 48),
-                        ),
+                        const Icon(Icons.auto_stories, size: 54, color: Stiller.parlakAltin),
                         const SizedBox(height: 12),
-                        const Text(
+                        Text(
                           'Henüz Kayıtlı Bir Hayat Yok',
-                          style: TextStyle(
-                            fontSize: 18,
-                            fontWeight: FontWeight.bold,
-                            color: Renkler.murekkep,
-                          ),
+                          style: Stiller.baslikStili(fontSize: 18),
                         ),
                         const SizedBox(height: 8),
-                        const Text(
-                          'Yeni bir hayata başlayıp Osmanlı topraklarında iz bıraktığınızda şecereniz burada listelenecektir.',
+                        Text(
+                          'Yeni bir hayata başlayıp Osmanlı topraklarında iz bıraktığınızda şecereniz burada kütüklenecektir.',
                           textAlign: TextAlign.center,
-                          style: TextStyle(
-                            fontSize: 13,
-                            color: Renkler.murekkepSoluk,
-                          ),
+                          style: Stiller.govdeStili(fontSize: 13, color: Stiller.koyuParsomen),
                         ),
                       ],
                     ),
@@ -109,9 +91,10 @@ class _GecmisHayatlarEkraniState extends State<GecmisHayatlarEkrani> {
                     return Container(
                       padding: const EdgeInsets.all(12),
                       decoration: BoxDecoration(
-                        color: Renkler.kagitKoyu.withAlpha(20),
-                        border: Border.all(color: Renkler.cizgi),
-                        borderRadius: BorderRadius.circular(6),
+                        color: Stiller.koyuKahve,
+                        borderRadius: BorderRadius.circular(8),
+                        border: Border.all(color: Stiller.altinSarisi.withAlpha(100)),
+                        boxShadow: Stiller.kartGolge,
                       ),
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
@@ -119,66 +102,79 @@ class _GecmisHayatlarEkraniState extends State<GecmisHayatlarEkrani> {
                           Row(
                             mainAxisAlignment: MainAxisAlignment.spaceBetween,
                             children: [
-                              Text(
-                                '${k.cinsiyet == Cinsiyet.erkek ? "🧔" : "🧕"} ${k.isim}',
-                                style: const TextStyle(
-                                  fontSize: 16,
-                                  fontWeight: FontWeight.bold,
-                                  color: Renkler.murekkep,
-                                ),
+                              Row(
+                                children: [
+                                  Icon(
+                                    k.cinsiyet == Cinsiyet.erkek ? Icons.face : Icons.face_3,
+                                    color: Stiller.parlakAltin,
+                                    size: 20,
+                                  ),
+                                  const SizedBox(width: 8),
+                                  Text(
+                                    k.isim,
+                                    style: Stiller.baslikStili(fontSize: 16),
+                                  ),
+                                ],
                               ),
                               Container(
                                 padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 2),
                                 decoration: BoxDecoration(
-                                  color: Renkler.damga,
+                                  color: Stiller.bordo,
+                                  border: Border.all(color: Stiller.parlakAltin),
                                   borderRadius: BorderRadius.circular(4),
                                 ),
                                 child: Text(
-                                  '📜 N:${k.nesil}',
-                                  style: const TextStyle(
-                                    fontSize: 11,
-                                    color: Colors.white,
-                                    fontWeight: FontWeight.bold,
-                                  ),
+                                  'Nesil: ${k.nesil}',
+                                  style: Stiller.baslikStili(fontSize: 11, color: Stiller.parsomen),
                                 ),
                               ),
                             ],
                           ),
                           const SizedBox(height: 6),
-                          Text(
-                            k.hikayesiTamamlandi
-                                ? '📅 Yaşam Dönemi: ${k.dogumYili} - ${k.olumYili} (${k.yas} Yaşında • Osmanlı Dönemi Sonu)'
-                                : '📅 Yaşam Dönemi: ${k.dogumYili} - ${k.olumYili} (${k.yas} Yaşında Vefat)',
-                            style: const TextStyle(fontSize: 12, color: Renkler.murekkep),
-                          ),
-                          const SizedBox(height: 4),
                           Row(
                             children: [
-                              Text(
-                                '💼 ${k.unvan}',
-                                style: const TextStyle(fontSize: 12, color: Renkler.murekkepSoluk),
-                              ),
-                              const Spacer(),
-                              Text(
-                                '💰 ${Karakter.paraFormatla(k.bakiye)}',
-                                style: const TextStyle(
-                                  fontSize: 12,
-                                  fontWeight: FontWeight.bold,
-                                  color: Renkler.onay,
+                              const Icon(Icons.calendar_today, color: Stiller.koyuParsomen, size: 14),
+                              const SizedBox(width: 6),
+                              Expanded(
+                                child: Text(
+                                  k.hikayesiTamamlandi
+                                      ? '${k.dogumYili} - ${k.olumYili} (${k.yas} Yaşında • Osmanlı Dönemi Sonu)'
+                                      : '${k.dogumYili} - ${k.olumYili} (${k.yas} Yaşında Vefat)',
+                                  style: Stiller.govdeStili(fontSize: 12, color: Stiller.parsomen),
                                 ),
                               ),
                             ],
                           ),
                           const SizedBox(height: 4),
-                          Text(
-                            k.hikayesiTamamlandi
-                                ? '🏛️ ${k.olumNedeni}'
-                                : '⚰️ Ölüm Nedeni: ${k.olumNedeni}',
-                            style: TextStyle(
-                              fontSize: 11,
-                              fontStyle: FontStyle.italic,
-                              color: k.hikayesiTamamlandi ? Renkler.murekkep : Renkler.damga,
-                            ),
+                          Row(
+                            children: [
+                              const Icon(Icons.work, color: Stiller.koyuParsomen, size: 14),
+                              const SizedBox(width: 6),
+                              Text(
+                                k.unvan,
+                                style: Stiller.altMetinStili(fontSize: 12),
+                              ),
+                              const Spacer(),
+                              const Icon(Icons.monetization_on, color: Stiller.parlakAltin, size: 14),
+                              const SizedBox(width: 4),
+                              Text(
+                                '${k.bakiye.toInt()} Akçe',
+                                style: Stiller.baslikStili(fontSize: 12, color: Stiller.parlakAltin),
+                              ),
+                            ],
+                          ),
+                          const SizedBox(height: 4),
+                          Row(
+                            children: [
+                              const Icon(Icons.history_edu, color: Stiller.bordo, size: 14),
+                              const SizedBox(width: 6),
+                              Expanded(
+                                child: Text(
+                                  k.hikayesiTamamlandi ? k.olumNedeni : 'Ölüm Nedeni: ${k.olumNedeni}',
+                                  style: Stiller.altMetinStili(fontSize: 11, color: Stiller.parlakAltin),
+                                ),
+                              ),
+                            ],
                           ),
                           if (k.kazanilanBasarimlar.isNotEmpty) ...[
                             const SizedBox(height: 6),
@@ -189,13 +185,20 @@ class _GecmisHayatlarEkraniState extends State<GecmisHayatlarEkrani> {
                                 return Container(
                                   padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 2),
                                   decoration: BoxDecoration(
-                                    color: Renkler.altin.withAlpha(50),
-                                    border: Border.all(color: Renkler.altin),
-                                    borderRadius: BorderRadius.circular(3),
+                                    color: Stiller.ortaKahve,
+                                    border: Border.all(color: Stiller.altinSarisi),
+                                    borderRadius: BorderRadius.circular(4),
                                   ),
-                                  child: Text(
-                                    '🏆 $b',
-                                    style: const TextStyle(fontSize: 10, color: Renkler.murekkep),
+                                  child: Row(
+                                    mainAxisSize: MainAxisSize.min,
+                                    children: [
+                                      const Icon(Icons.workspace_premium, color: Stiller.parlakAltin, size: 12),
+                                      const SizedBox(width: 4),
+                                      Text(
+                                        b,
+                                        style: Stiller.govdeStili(fontSize: 10, color: Stiller.parsomen),
+                                      ),
+                                    ],
                                   ),
                                 );
                               }).toList(),

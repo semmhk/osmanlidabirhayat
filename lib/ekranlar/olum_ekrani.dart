@@ -2,8 +2,9 @@ import 'package:flutter/material.dart';
 import '../modeller/basarim.dart';
 import '../modeller/cocuk.dart';
 import '../modeller/karakter.dart';
+import '../motor/oyun_motoru.dart';
 import '../motor/ozet_uretici.dart';
-import '../sabitler/renkler.dart';
+import '../sabitler/stiller.dart';
 import '../servisler/hayat_kaydi_servisi.dart';
 
 class OlumEkrani extends StatelessWidget {
@@ -12,6 +13,7 @@ class OlumEkrani extends StatelessWidget {
   final Function(Cocuk)? onNesilDevamEt;
   final VoidCallback? onAnaMenu;
   final List<Basarim> yeniBasarimlar;
+  final OyunMotoru? motor;
 
   const OlumEkrani({
     super.key,
@@ -20,6 +22,7 @@ class OlumEkrani extends StatelessWidget {
     this.onNesilDevamEt,
     this.onAnaMenu,
     this.yeniBasarimlar = const [],
+    this.motor,
   });
 
   void _hayatiKaydet() {
@@ -29,12 +32,12 @@ class OlumEkrani extends StatelessWidget {
   void _nesilSecimModalGoster(BuildContext context) {
     if (karakter.cocuklar.isEmpty || onNesilDevamEt == null) return;
 
-    final double toplamMiras = karakter.bakiye > 0 ? (karakter.bakiye * 0.40) : 0.0;
+    final double toplamMiras = karakter.para > 0 ? (karakter.para * 0.40) : 0.0;
     final double kisiBasiMiras = karakter.cocuklar.isNotEmpty ? (toplamMiras / karakter.cocuklar.length) : 0.0;
 
     showModalBottomSheet(
       context: context,
-      backgroundColor: Renkler.kagit,
+      backgroundColor: Stiller.sepyaArkaplan,
       shape: const RoundedRectangleBorder(
         borderRadius: BorderRadius.vertical(top: Radius.circular(16)),
       ),
@@ -45,37 +48,36 @@ class OlumEkrani extends StatelessWidget {
             mainAxisSize: MainAxisSize.min,
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
-              const Text(
-                '📜 SOYUNU DEVAM ETTİR',
-                textAlign: TextAlign.center,
-                style: TextStyle(
-                  fontSize: 16,
-                  fontWeight: FontWeight.bold,
-                  letterSpacing: 1.5,
-                  color: Renkler.murekkep,
-                ),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  const Icon(Icons.family_restroom, color: Stiller.parlakAltin, size: 22),
+                  const SizedBox(width: 8),
+                  Text(
+                    'SOYUNU DEVAM ETTİR',
+                    style: Stiller.baslikStili(fontSize: 16),
+                  ),
+                ],
               ),
               const SizedBox(height: 6),
               Text(
                 'Hangi evladınla yaşam bayrağını devralmak istersin?',
                 textAlign: TextAlign.center,
-                style: TextStyle(
-                  fontSize: 12,
-                  color: Renkler.murekkep.withAlpha(180),
-                ),
+                style: Stiller.altMetinStili(fontSize: 12),
               ),
               const SizedBox(height: 16),
               ...karakter.cocuklar.map((c) {
                 final int cocukYasi = c.guncelYasGetir(karakter.yas);
-                final String cinsiyetIcon = c.erkekMi ? '👦' : '👧';
-                final String formattedMiras = Karakter.paraFormatla(kisiBasiMiras);
+                final IconData cinsiyetIcon = c.erkekMi ? Icons.face : Icons.face_3;
 
                 return Padding(
                   padding: const EdgeInsets.only(bottom: 10),
                   child: OutlinedButton(
                     style: OutlinedButton.styleFrom(
+                      backgroundColor: Stiller.koyuKahve,
                       padding: const EdgeInsets.symmetric(vertical: 12, horizontal: 16),
-                      side: const BorderSide(color: Renkler.damga, width: 1.5),
+                      side: const BorderSide(color: Stiller.altinSarisi, width: 1.5),
+                      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(8)),
                     ),
                     onPressed: () {
                       _hayatiKaydet();
@@ -85,34 +87,29 @@ class OlumEkrani extends StatelessWidget {
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
-                        Column(
-                          crossAxisAlignment: CrossAxisAlignment.start,
+                        Row(
                           children: [
-                            Text(
-                              '$cinsiyetIcon ${c.ad} ${karakter.soyad}',
-                              style: const TextStyle(
-                                fontSize: 14,
-                                fontWeight: FontWeight.bold,
-                                color: Renkler.murekkep,
-                              ),
-                            ),
-                            const SizedBox(height: 2),
-                            Text(
-                              '$cocukYasi Yaşında · ${c.erkekMi ? "Oğul" : "Kız"}',
-                              style: TextStyle(
-                                fontSize: 11,
-                                color: Renkler.murekkep.withAlpha(160),
-                              ),
+                            Icon(cinsiyetIcon, color: Stiller.parlakAltin, size: 20),
+                            const SizedBox(width: 8),
+                            Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: [
+                                Text(
+                                  '${c.ad} ${karakter.soyad}',
+                                  style: Stiller.baslikStili(fontSize: 14),
+                                ),
+                                const SizedBox(height: 2),
+                                Text(
+                                  '$cocukYasi Yaşında · ${c.erkekMi ? "Oğul" : "Kız"}',
+                                  style: Stiller.altMetinStili(fontSize: 11),
+                                ),
+                              ],
                             ),
                           ],
                         ),
                         Text(
-                          'Miras: $formattedMiras',
-                          style: const TextStyle(
-                            fontSize: 12,
-                            fontWeight: FontWeight.w600,
-                            color: Renkler.onay,
-                          ),
+                          'Miras: ${kisiBasiMiras.toInt()} Akçe',
+                          style: Stiller.govdeStili(fontSize: 12, color: Stiller.parlakAltin, fontWeight: FontWeight.bold),
                         ),
                       ],
                     ),
@@ -131,180 +128,148 @@ class OlumEkrani extends StatelessWidget {
     final bool son1922 = karakter.hikayesiTamamlandi || karakter.takvimYili >= 1922;
     final ozetMetni = OzetUretici.olumOzetiUret(karakter);
 
-    return SingleChildScrollView(
-      padding: const EdgeInsets.all(16),
-      child: Column(
-        children: [
-          Container(
-            width: double.infinity,
-            padding: const EdgeInsets.all(12),
-            decoration: BoxDecoration(
-              border: Border.all(color: son1922 ? Renkler.altin : Renkler.damga, width: 3),
-              color: Renkler.kagit,
-            ),
-            child: Text(
-              son1922 ? "HİKAYENİN SONU (1922 - OSMANLI DEVLETİ'NİN SONU)" : 'FERMAN-I VEFAT (RUHUNA FATİHA)',
-              textAlign: TextAlign.center,
-              style: TextStyle(
-                fontSize: 14,
-                letterSpacing: 1.5,
-                fontWeight: FontWeight.bold,
-                color: son1922 ? Renkler.murekkep : Renkler.damga,
-              ),
-            ),
-          ),
-          if (son1922) ...[
-            const SizedBox(height: 12),
-            Container(
-              width: double.infinity,
-              padding: const EdgeInsets.all(12),
-              decoration: BoxDecoration(
-                border: Border.all(color: Renkler.altin, width: 2),
-                color: Renkler.kagitKoyu.withAlpha(20),
-                borderRadius: BorderRadius.circular(6),
-              ),
-              child: Column(
-                children: [
-                  const Text(
-                    '🏛️ OSMANLI DÖNEMİ TAMAMLANDI',
-                    style: TextStyle(
-                      fontSize: 13,
-                      fontWeight: FontWeight.bold,
-                      color: Renkler.damga,
+    return Scaffold(
+      backgroundColor: Stiller.sepyaArkaplan,
+      appBar: AppBar(
+        backgroundColor: Stiller.koyuKahve,
+        elevation: 4,
+        title: Text(
+          son1922 ? "HİKAYENİN SONU (1922)" : 'FERMAN-I VEFAT (RUHUNA FATİHA)',
+          style: Stiller.baslikStili(fontSize: 16),
+        ),
+        automaticallyImplyLeading: false,
+      ),
+      body: SafeArea(
+        child: SingleChildScrollView(
+          padding: const EdgeInsets.all(16),
+          child: Column(
+            children: [
+              Container(
+                width: double.infinity,
+                padding: const EdgeInsets.all(16),
+                decoration: Stiller.altinKartStili,
+                child: Column(
+                  children: [
+                    const Icon(Icons.history_edu, color: Stiller.parlakAltin, size: 40),
+                    const SizedBox(height: 8),
+                    Text(
+                      son1922
+                          ? "1922 — OSMANLI DEVLETİ'NİN SONU"
+                          : 'VEFAT İLAMI (RUHUNA FATİHA)',
+                      textAlign: TextAlign.center,
+                      style: Stiller.baslikStili(fontSize: 16),
                     ),
-                  ),
-                  const SizedBox(height: 6),
-                  Text(
-                    '1922\'de Osmanlı Devleti\'nin sona ermesiyle, ${karakter.isim}\'in bu topraklardaki Osmanlı dönemi hikayesi burada tamamlanıyor. Hayatı Cumhuriyet Türkiyesi\'nde devam etti.',
-                    textAlign: TextAlign.center,
-                    style: const TextStyle(
-                      fontSize: 12,
-                      height: 1.5,
-                      fontStyle: FontStyle.italic,
-                      color: Renkler.murekkep,
+                    const Divider(color: Stiller.altinSarisi, thickness: 1, height: 20),
+                    Text(
+                      ozetMetni,
+                      style: Stiller.govdeStili(fontSize: 13, height: 1.6),
                     ),
-                  ),
-                ],
-              ),
-            ),
-          ],
-          if (yeniBasarimlar.isNotEmpty) ...[
-            const SizedBox(height: 12),
-            Container(
-              width: double.infinity,
-              padding: const EdgeInsets.all(10),
-              decoration: BoxDecoration(
-                border: Border.all(color: Renkler.onay, width: 2),
-                color: Renkler.kagit,
-              ),
-              child: Column(
-                children: [
-                  const Text(
-                    '🏅 YENİ BAŞARIM(LAR) KAZANILDI!',
-                    style: TextStyle(
-                      fontSize: 11,
-                      fontWeight: FontWeight.bold,
-                      letterSpacing: 1.2,
-                      color: Renkler.onay,
-                    ),
-                  ),
-                  const SizedBox(height: 6),
-                  ...yeniBasarimlar.map(
-                    (b) => Padding(
-                      padding: const EdgeInsets.symmetric(vertical: 2),
-                      child: Text(
-                        '${b.ikon} ${b.baslik}: ${b.aciklama}',
-                        style: const TextStyle(
-                          fontSize: 11,
-                          fontWeight: FontWeight.w600,
-                          color: Renkler.murekkep,
-                        ),
-                      ),
-                    ),
-                  ),
-                ],
-              ),
-            ),
-          ],
-          const SizedBox(height: 16),
-          Container(
-            width: double.infinity,
-            padding: const EdgeInsets.all(12),
-            decoration: BoxDecoration(
-              border: Border.all(color: Renkler.cizgi),
-              color: Colors.white.withAlpha(102),
-            ),
-            child: Text(
-              ozetMetni,
-              style: const TextStyle(
-                fontSize: 13,
-                height: 1.6,
-                color: Renkler.murekkep,
-              ),
-            ),
-          ),
-          const SizedBox(height: 16),
-          if (!son1922 && karakter.cocuklar.isNotEmpty && onNesilDevamEt != null) ...[
-            ElevatedButton(
-              style: ElevatedButton.styleFrom(
-                backgroundColor: Renkler.damga,
-                foregroundColor: Colors.white,
-                minimumSize: const Size.fromHeight(44),
-              ),
-              onPressed: () => _nesilSecimModalGoster(context),
-              child: const Text('SOYUNU DEVAM ETTİR 📜'),
-            ),
-            const SizedBox(height: 10),
-          ] else if (son1922) ...[
-            Container(
-              padding: const EdgeInsets.all(10),
-              margin: const EdgeInsets.only(bottom: 10),
-              decoration: BoxDecoration(
-                color: Renkler.kagitKoyu.withAlpha(15),
-                border: Border.all(color: Renkler.cizgi),
-                borderRadius: BorderRadius.circular(6),
-              ),
-              child: const Text(
-                '📜 1922 Saltanatın kaldırılmasıyla Osmanlı Devleti dönemi tamamlanmış olup yeni nesil devredilemez.',
-                textAlign: TextAlign.center,
-                style: TextStyle(
-                  fontSize: 11,
-                  color: Renkler.murekkepSoluk,
-                  fontWeight: FontWeight.w600,
+                  ],
                 ),
               ),
-            ),
-          ],
-          ElevatedButton(
-            style: ElevatedButton.styleFrom(
-              backgroundColor: Renkler.murekkep,
-              foregroundColor: Colors.white,
-              minimumSize: const Size.fromHeight(44),
-            ),
-            onPressed: () {
-              _hayatiKaydet();
-              onYeniHayat();
-            },
-            child: const Text('YENİ HAYATA BAŞLA 🕌'),
+              const SizedBox(height: 16),
+
+              if (yeniBasarimlar.isNotEmpty) ...[
+                Container(
+                  width: double.infinity,
+                  padding: const EdgeInsets.all(12),
+                  decoration: BoxDecoration(
+                    color: Stiller.koyuKahve,
+                    borderRadius: BorderRadius.circular(8),
+                    border: Border.all(color: Stiller.parlakAltin, width: 1.5),
+                    boxShadow: Stiller.altinGolge,
+                  ),
+                  child: Column(
+                    children: [
+                      Row(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          const Icon(Icons.workspace_premium, color: Stiller.parlakAltin, size: 20),
+                          const SizedBox(width: 6),
+                          Text('YENİ BAŞARIM KAZANILDI!', style: Stiller.baslikStili(fontSize: 14)),
+                        ],
+                      ),
+                      const SizedBox(height: 6),
+                      ...yeniBasarimlar.map(
+                        (b) => Text(
+                          '${b.baslik}: ${b.aciklama}',
+                          style: Stiller.govdeStili(fontSize: 12, color: Stiller.parsomen),
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+                const SizedBox(height: 16),
+              ],
+
+              if (!son1922 && karakter.cocuklar.isNotEmpty && onNesilDevamEt != null) ...[
+                SizedBox(
+                  width: double.infinity,
+                  height: 48,
+                  child: ElevatedButton.icon(
+                    style: ElevatedButton.styleFrom(
+                      backgroundColor: Stiller.bordo,
+                      foregroundColor: Stiller.parsomen,
+                      shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(8),
+                        side: const BorderSide(color: Stiller.parlakAltin),
+                      ),
+                      elevation: 4,
+                    ),
+                    onPressed: () => _nesilSecimModalGoster(context),
+                    icon: const Icon(Icons.family_restroom, color: Stiller.parlakAltin),
+                    label: Text('SOYUNU DEVAM ETTİR', style: Stiller.baslikStili(fontSize: 14, color: Stiller.parsomen)),
+                  ),
+                ),
+                const SizedBox(height: 12),
+              ],
+
+              SizedBox(
+                width: double.infinity,
+                height: 48,
+                child: ElevatedButton.icon(
+                  style: ElevatedButton.styleFrom(
+                    backgroundColor: Stiller.ortaKahve,
+                    foregroundColor: Stiller.parsomen,
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(8),
+                      side: const BorderSide(color: Stiller.altinSarisi),
+                    ),
+                  ),
+                  onPressed: () {
+                    _hayatiKaydet();
+                    onYeniHayat();
+                  },
+                  icon: const Icon(Icons.refresh, color: Stiller.parlakAltin),
+                  label: Text('YENİ HAYATA BAŞLA', style: Stiller.baslikStili(fontSize: 14, color: Stiller.parsomen)),
+                ),
+              ),
+              const SizedBox(height: 12),
+
+              SizedBox(
+                width: double.infinity,
+                height: 48,
+                child: OutlinedButton.icon(
+                  style: OutlinedButton.styleFrom(
+                    foregroundColor: Stiller.parsomen,
+                    side: const BorderSide(color: Stiller.altinSarisi),
+                    shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(8)),
+                  ),
+                  onPressed: () {
+                    _hayatiKaydet();
+                    if (onAnaMenu != null) {
+                      onAnaMenu!();
+                    } else {
+                      Navigator.popUntil(context, (route) => route.isFirst);
+                    }
+                  },
+                  icon: const Icon(Icons.home, color: Stiller.parlakAltin),
+                  label: Text('ANA MENÜYE DÖN', style: Stiller.baslikStili(fontSize: 14, color: Stiller.parsomen)),
+                ),
+              ),
+            ],
           ),
-          const SizedBox(height: 10),
-          OutlinedButton(
-            style: OutlinedButton.styleFrom(
-              foregroundColor: Renkler.murekkep,
-              side: const BorderSide(color: Renkler.altin, width: 1.5),
-              minimumSize: const Size.fromHeight(44),
-            ),
-            onPressed: () {
-              _hayatiKaydet();
-              if (onAnaMenu != null) {
-                onAnaMenu!();
-              } else {
-                Navigator.popUntil(context, (route) => route.isFirst);
-              }
-            },
-            child: const Text('🏛️ ANA MENÜYE DÖN'),
-          ),
-        ],
+        ),
       ),
     );
   }

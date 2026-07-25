@@ -57,9 +57,9 @@ void main() {
       );
 
       expect(find.text("OSMANLI'DA BİR HAYAT"), findsOneWidget);
-      expect(find.text('📜 YENİ HAYAT BAŞLAT'), findsOneWidget);
-      expect(find.text('🏛️ GEÇMİŞ HAYATLAR (ŞECERE)'), findsOneWidget);
-      expect(find.text('🏆 NİŞAN VE BAŞARIMLAR'), findsOneWidget);
+      expect(find.text('YENİ HAYAT BAŞLAT'), findsOneWidget);
+      expect(find.text('GEÇMİŞ HAYATLAR (ŞECERE)'), findsOneWidget);
+      expect(find.text('NİŞAN VE BAŞARIMLAR'), findsOneWidget);
     });
 
     testWidgets('3. GecmisHayatlarEkrani render edilmeli', (WidgetTester tester) async {
@@ -69,7 +69,7 @@ void main() {
         ),
       );
 
-      expect(find.text('📜 Geçmiş Hayatlar (Şecere)'), findsOneWidget);
+      expect(find.text('GEÇMİŞ HAYATLAR (ŞECERE)'), findsOneWidget);
     });
 
     testWidgets('4. BasarimlarEkrani render edilmeli', (WidgetTester tester) async {

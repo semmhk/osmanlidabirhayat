@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
 import '../modeller/karakter.dart';
 import '../motor/oyun_motoru.dart';
-import '../sabitler/renkler.dart';
+import '../sabitler/stiller.dart';
 
 class IliskilerEkrani extends StatefulWidget {
   final OyunMotoru motor;
-  final VoidCallback onStateChanged;
+  final VoidCallback? onStateChanged;
 
   const IliskilerEkrani({
     super.key,
     required this.motor,
-    required this.onStateChanged,
+    this.onStateChanged,
   });
 
   @override
@@ -32,87 +32,78 @@ class _IliskilerEkraniState extends State<IliskilerEkrani> {
       }
     }
 
-    return Container(
-      height: MediaQuery.of(context).size.height * 0.80,
-      decoration: const BoxDecoration(
-        color: Renkler.kagit,
-        borderRadius: BorderRadius.vertical(top: Radius.circular(20)),
-      ),
-      child: Column(
-        children: [
-          // Header
-          Container(
-            padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
-            decoration: const BoxDecoration(
-              color: Renkler.kagitKoyu,
-              borderRadius: BorderRadius.vertical(top: Radius.circular(20)),
-              border: Border(bottom: BorderSide(color: Renkler.altin, width: 1.5)),
-            ),
-            child: Row(
-              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              children: [
-                const Row(
-                  children: [
-                    Text('👨‍👩‍👧‍👦 ', style: TextStyle(fontSize: 20)),
-                    Text(
-                      'Hane Halkı & İlişkiler',
-                      style: TextStyle(
-                        fontFamily: 'Cinzel',
-                        fontSize: 18,
-                        fontWeight: FontWeight.bold,
-                        color: Renkler.altin,
-                      ),
-                    ),
-                  ],
-                ),
-                Text(
-                  '${k.iliskiler.length} Birey',
-                  style: const TextStyle(fontSize: 13, fontWeight: FontWeight.bold, color: Colors.white),
-                ),
-              ],
+    return Scaffold(
+      backgroundColor: Stiller.sepyaArkaplan,
+      appBar: AppBar(
+        backgroundColor: Stiller.koyuKahve,
+        elevation: 4,
+        leading: IconButton(
+          icon: const Icon(Icons.arrow_back, color: Stiller.parlakAltin),
+          onPressed: () => Navigator.pop(context),
+        ),
+        title: Text(
+          'HANE HALKI VE İLİŞKİLER',
+          style: Stiller.baslikStili(fontSize: 16),
+        ),
+        actions: [
+          Padding(
+            padding: const EdgeInsets.only(right: 16),
+            child: Center(
+              child: Text(
+                '${k.iliskiler.length} Birey',
+                style: Stiller.baslikStili(fontSize: 13, color: Stiller.parlakAltin),
+              ),
             ),
           ),
-
-          // Relation List
-          Expanded(
-            child: k.iliskiler.isEmpty
-                ? const Center(
-                    child: Text(
-                      'Henüz evlenmediniz veya evladınız yok.',
-                      style: TextStyle(fontStyle: FontStyle.italic, color: Renkler.murekkep),
-                    ),
-                  )
-                : ListView.builder(
-                    padding: const EdgeInsets.all(12),
-                    itemCount: k.iliskiler.length,
-                    itemBuilder: (context, index) {
-                      final i = k.iliskiler[index];
-                      final isEs = i.tip == IliskiTipi.es;
-
-                      return Card(
-                        color: Renkler.kagitKoyu,
-                        margin: const EdgeInsets.only(bottom: 10),
-                        shape: RoundedRectangleBorder(
-                          side: BorderSide(color: Renkler.altin.withAlpha(80)),
-                          borderRadius: BorderRadius.circular(10),
+        ],
+      ),
+      body: SafeArea(
+        child: Column(
+          children: [
+            Expanded(
+              child: k.iliskiler.isEmpty
+                  ? Center(
+                      child: Container(
+                        padding: const EdgeInsets.all(20),
+                        margin: const EdgeInsets.all(16),
+                        decoration: Stiller.altinKartStili,
+                        child: Text(
+                          'Henüz evlenmediniz veya evladınız yok.',
+                          style: Stiller.altMetinStili(fontSize: 14),
                         ),
-                        child: Padding(
+                      ),
+                    )
+                  : ListView.builder(
+                      padding: const EdgeInsets.all(12),
+                      itemCount: k.iliskiler.length,
+                      itemBuilder: (context, index) {
+                        final i = k.iliskiler[index];
+                        final isEs = i.tip == IliskiTipi.es;
+
+                        return Container(
+                          margin: const EdgeInsets.only(bottom: 10),
                           padding: const EdgeInsets.all(12),
+                          decoration: BoxDecoration(
+                            color: Stiller.koyuKahve,
+                            borderRadius: BorderRadius.circular(10),
+                            border: Border.all(color: Stiller.altinSarisi.withAlpha(100)),
+                            boxShadow: Stiller.kartGolge,
+                          ),
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               Row(
                                 children: [
-                                  Text(isEs ? '💍 ' : '👶 ', style: const TextStyle(fontSize: 20)),
+                                  Icon(
+                                    isEs ? Icons.favorite : Icons.child_care,
+                                    color: isEs ? Colors.pinkAccent : Stiller.parlakAltin,
+                                    size: 20,
+                                  ),
+                                  const SizedBox(width: 8),
                                   Expanded(
                                     child: Text(
                                       '${i.isim} (${isEs ? "Eş" : "Evlat"})',
-                                      style: const TextStyle(
-                                        fontFamily: 'Cinzel',
-                                        fontSize: 15,
-                                        fontWeight: FontWeight.bold,
-                                        color: Renkler.altin,
-                                      ),
+                                      style: Stiller.baslikStili(fontSize: 15),
                                     ),
                                   ),
                                 ],
@@ -122,17 +113,29 @@ class _IliskilerEkraniState extends State<IliskilerEkrani> {
                               // Yakınlık Puanı
                               Row(
                                 children: [
-                                  const SizedBox(width: 85, child: Text('❤️ Yakınlık:', style: TextStyle(fontSize: 12, fontWeight: FontWeight.bold, color: Colors.white))),
+                                  SizedBox(
+                                    width: 85,
+                                    child: Text(
+                                      'Yakınlık:',
+                                      style: Stiller.govdeStili(fontSize: 12, fontWeight: FontWeight.bold),
+                                    ),
+                                  ),
                                   Expanded(
-                                    child: LinearProgressIndicator(
-                                      value: i.yakinlikPuani / 100.0,
-                                      backgroundColor: Colors.grey.withAlpha(50),
-                                      color: i.yakinlikPuani >= 80 ? Colors.green : (i.yakinlikPuani < 30 ? Colors.red : Renkler.altin),
-                                      minHeight: 8,
+                                    child: ClipRRect(
+                                      borderRadius: BorderRadius.circular(4),
+                                      child: LinearProgressIndicator(
+                                        value: i.yakinlikPuani / 100.0,
+                                        backgroundColor: Stiller.ortaKahve,
+                                        color: i.yakinlikPuani >= 80 ? Colors.green : (i.yakinlikPuani < 30 ? Colors.red : Stiller.parlakAltin),
+                                        minHeight: 8,
+                                      ),
                                     ),
                                   ),
                                   const SizedBox(width: 8),
-                                  Text('${i.yakinlikPuani}/100', style: const TextStyle(fontSize: 12, fontWeight: FontWeight.bold, color: Colors.white)),
+                                  Text(
+                                    '${i.yakinlikPuani}/100',
+                                    style: Stiller.baslikStili(fontSize: 12),
+                                  ),
                                 ],
                               ),
 
@@ -141,28 +144,40 @@ class _IliskilerEkraniState extends State<IliskilerEkrani> {
                                 const SizedBox(height: 6),
                                 Row(
                                   children: [
-                                    const SizedBox(width: 85, child: Text('🎓 Eğitim:', style: TextStyle(fontSize: 12, fontWeight: FontWeight.bold, color: Colors.white))),
+                                    SizedBox(
+                                      width: 85,
+                                      child: Text(
+                                        'Eğitim:',
+                                        style: Stiller.govdeStili(fontSize: 12, fontWeight: FontWeight.bold),
+                                      ),
+                                    ),
                                     Expanded(
-                                      child: LinearProgressIndicator(
-                                        value: i.egitimPuani / 100.0,
-                                        backgroundColor: Colors.grey.withAlpha(50),
-                                        color: Colors.blueAccent,
-                                        minHeight: 8,
+                                      child: ClipRRect(
+                                        borderRadius: BorderRadius.circular(4),
+                                        child: LinearProgressIndicator(
+                                          value: i.egitimPuani / 100.0,
+                                          backgroundColor: Stiller.ortaKahve,
+                                          color: Colors.lightBlueAccent,
+                                          minHeight: 8,
+                                        ),
                                       ),
                                     ),
                                     const SizedBox(width: 8),
-                                    Text('${i.egitimPuani}/100', style: const TextStyle(fontSize: 12, fontWeight: FontWeight.bold, color: Colors.white)),
+                                    Text(
+                                      '${i.egitimPuani}/100',
+                                      style: Stiller.baslikStili(fontSize: 12),
+                                    ),
                                   ],
                                 ),
                               ],
                             ],
                           ),
-                        ),
-                      );
-                    },
-                  ),
-          ),
-        ],
+                        );
+                      },
+                    ),
+            ),
+          ],
+        ),
       ),
     );
   }

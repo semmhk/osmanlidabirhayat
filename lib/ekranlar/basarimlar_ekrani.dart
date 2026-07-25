@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import '../modeller/basarim.dart';
 import '../motor/basarim_kontrolcusu.dart';
-import '../sabitler/renkler.dart';
+import '../sabitler/stiller.dart';
 
 class BasarimlarEkrani extends StatefulWidget {
   const BasarimlarEkrani({super.key});
@@ -35,62 +35,58 @@ class _BasarimlarEkraniState extends State<BasarimlarEkrani> {
     final kazanilanSayisi = _basarimlar.where((b) => b.kazanildi).length;
 
     return Scaffold(
-      backgroundColor: Renkler.kagitKoyu,
+      backgroundColor: Stiller.sepyaArkaplan,
       appBar: AppBar(
-        backgroundColor: Renkler.kagit,
-        elevation: 0,
-        iconTheme: const IconThemeData(color: Renkler.murekkep),
-        title: const Text(
+        backgroundColor: Stiller.koyuKahve,
+        elevation: 4,
+        leading: IconButton(
+          icon: const Icon(Icons.arrow_back, color: Stiller.parlakAltin),
+          onPressed: () => Navigator.of(context).pop(),
+        ),
+        title: Text(
           'NİŞAN VE BAŞARIMLAR',
-          style: TextStyle(
-            color: Renkler.murekkep,
-            fontWeight: FontWeight.bold,
-            letterSpacing: 1.5,
-            fontSize: 16,
-          ),
+          style: Stiller.baslikStili(fontSize: 16),
         ),
         centerTitle: true,
       ),
       body: _yukleniyor
           ? const Center(
-              child: CircularProgressIndicator(color: Renkler.murekkep),
+              child: CircularProgressIndicator(color: Stiller.parlakAltin),
             )
           : Column(
               children: [
                 Container(
-                  padding: const EdgeInsets.symmetric(vertical: 16, horizontal: 20),
-                  color: Renkler.kagit,
+                  padding: const EdgeInsets.symmetric(vertical: 14, horizontal: 20),
+                  color: Stiller.koyuKahve,
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
-                      const Text(
-                        'KAZANILAN MADALYALAR:',
-                        style: TextStyle(
-                          color: Renkler.murekkepSoluk,
-                          fontSize: 12,
-                          fontWeight: FontWeight.bold,
-                          letterSpacing: 1.2,
-                        ),
+                      Row(
+                        children: [
+                          const Icon(Icons.workspace_premium, color: Stiller.parlakAltin, size: 20),
+                          const SizedBox(width: 8),
+                          Text(
+                            'KAZANILAN MADALYALAR:',
+                            style: Stiller.baslikStili(fontSize: 13),
+                          ),
+                        ],
                       ),
                       Container(
                         padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 4),
                         decoration: BoxDecoration(
-                          border: Border.all(color: Renkler.damga, width: 2),
-                          color: Renkler.kagit,
+                          border: Border.all(color: Stiller.parlakAltin, width: 1.5),
+                          borderRadius: BorderRadius.circular(6),
+                          color: Stiller.ortaKahve,
                         ),
                         child: Text(
                           '$kazanilanSayisi / ${_basarimlar.length}',
-                          style: const TextStyle(
-                            color: Renkler.damga,
-                            fontWeight: FontWeight.bold,
-                            fontSize: 14,
-                          ),
+                          style: Stiller.baslikStili(fontSize: 14, color: Stiller.parlakAltin),
                         ),
                       ),
                     ],
                   ),
                 ),
-                const Divider(height: 1, color: Renkler.cizgi),
+                const Divider(height: 1, color: Stiller.altinSarisi),
                 Expanded(
                   child: ListView.builder(
                     padding: const EdgeInsets.all(16),
@@ -113,32 +109,33 @@ class _BasarimlarEkraniState extends State<BasarimlarEkrani> {
       margin: const EdgeInsets.only(bottom: 12),
       padding: const EdgeInsets.all(14),
       decoration: BoxDecoration(
-        color: kazanildi ? Renkler.kagit : Renkler.kagitKoyu.withAlpha(120),
+        color: kazanildi ? Stiller.ortaKahve : Stiller.koyuKahve,
+        borderRadius: BorderRadius.circular(10),
         border: Border.all(
-          color: kazanildi ? Renkler.damga : Renkler.cizgi,
-          width: kazanildi ? 2 : 1,
+          color: kazanildi ? Stiller.parlakAltin : Stiller.altinSarisi.withAlpha(80),
+          width: kazanildi ? 1.8 : 1.0,
         ),
+        boxShadow: kazanildi ? Stiller.altinGolge : Stiller.kartGolge,
       ),
       child: Row(
         children: [
           Container(
-            width: 46,
-            height: 46,
+            width: 48,
+            height: 48,
             alignment: Alignment.center,
             decoration: BoxDecoration(
-              color: kazanildi ? Renkler.damga.withAlpha(30) : Colors.transparent,
+              color: kazanildi ? Stiller.bordo : Stiller.koyuKahve,
               border: Border.all(
-                color: kazanildi ? Renkler.damga : Renkler.cizgi,
+                color: kazanildi ? Stiller.parlakAltin : Colors.grey,
                 width: 1.5,
               ),
               shape: BoxShape.circle,
+              boxShadow: kazanildi ? Stiller.altinGolge : null,
             ),
-            child: Text(
-              b.ikon,
-              style: TextStyle(
-                fontSize: 22,
-                color: kazanildi ? null : Colors.grey,
-              ),
+            child: Icon(
+              kazanildi ? Icons.workspace_premium : Icons.lock,
+              size: 24,
+              color: kazanildi ? Stiller.parlakAltin : Colors.grey.shade600,
             ),
           ),
           const SizedBox(width: 14),
@@ -151,30 +148,25 @@ class _BasarimlarEkraniState extends State<BasarimlarEkrani> {
                     Expanded(
                       child: Text(
                         b.baslik,
-                        style: TextStyle(
+                        style: Stiller.baslikStili(
                           fontSize: 14,
-                          fontWeight: FontWeight.bold,
-                          color: kazanildi ? Renkler.murekkep : Renkler.murekkepSoluk,
+                          color: kazanildi ? Stiller.parlakAltin : Stiller.koyuParsomen,
                         ),
                       ),
                     ),
                     if (kazanildi && b.kazanmaTarihi != null)
                       Text(
                         b.kazanmaTarihi!,
-                        style: const TextStyle(
-                          fontSize: 10,
-                          color: Renkler.damga,
-                          fontWeight: FontWeight.bold,
-                        ),
+                        style: Stiller.altMetinStili(fontSize: 10, color: Stiller.parlakAltin),
                       ),
                   ],
                 ),
                 const SizedBox(height: 4),
                 Text(
                   b.aciklama,
-                  style: TextStyle(
+                  style: Stiller.govdeStili(
                     fontSize: 12,
-                    color: kazanildi ? Renkler.murekkep.withAlpha(200) : Renkler.murekkepSoluk.withAlpha(180),
+                    color: kazanildi ? Stiller.parsomen : Stiller.koyuParsomen.withAlpha(180),
                   ),
                 ),
               ],

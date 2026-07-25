@@ -217,11 +217,16 @@ class OyunMotoru {
     return tumOlaylar.where((o) {
       if (karakter.kullanilanOlaylar.contains(o.id) && o.tekSeferlik) return false;
 
-      // 15 Yıllık Cooldown (Bekleme Süresi) Kontrolü
+      // Cooldown (Bekleme Süresi) Kontrolü (Gündelik: 15/25 yıl, Tarihi: 20 yıl)
       if (!o.tekSeferlik) {
         final sonGorulme = karakter.olaySonGorulmeYili[o.id];
-        if (sonGorulme != null && (karakter.takvimYili - sonGorulme) < 15) {
-          return false;
+        if (sonGorulme != null) {
+          final int cd = o.id.startsWith('gundelik_')
+              ? (karakter.yas >= 40 ? 25 : 15)
+              : 20;
+          if ((karakter.takvimYili - sonGorulme) < cd) {
+            return false;
+          }
         }
       }
 
@@ -281,9 +286,9 @@ class OyunMotoru {
           agirlik = 45; // Kilometre taşı ağırlığı
         }
       } else if (o.id.startsWith('gundelik_')) {
-        agirlik = 1; // Atmosferik gündelik olaylar (düşük ağırlık)
+        agirlik = 1; // Atmosferik gündelik olaylar
       } else {
-        agirlik = 40; // Tarihi dönem olayları (%60+ Tarih Oranı için yüksek ağırlık)
+        agirlik = (karakter.yas >= 40) ? 200 : 80; // 40+ yaşta 200x tarih ağırlığı
       }
 
       // Terfi dönemi olayları
@@ -409,6 +414,15 @@ class OyunMotoru {
     if (secenek.bayrakEkle != null) k.bayraklar.add(secenek.bayrakEkle!);
     if (secenek.bayraklarEkle != null) k.bayraklar.addAll(secenek.bayraklarEkle!);
     if (secenek.bayrakKaldir != null) k.bayraklar.remove(secenek.bayrakKaldir!);
+  }
+
+  static bool secenekUygunMu(Karakter k, Secenek secenek) {
+    if (secenek.gerekliZeka != null && k.zeka < secenek.gerekliZeka!) return false;
+    if (secenek.gerekliItibar != null && k.itibar < secenek.gerekliItibar!) return false;
+    if (secenek.gerekliSaglik != null && k.saglik < secenek.gerekliSaglik!) return false;
+    if (secenek.gerekliMutluluk != null && k.mutluluk < secenek.gerekliMutluluk!) return false;
+    if (secenek.gerekliPara != null && k.bakiye < secenek.gerekliPara!) return false;
+    return true;
   }
 
   void secenekSec(Secenek secenek) {

@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
+import '../bilesenler/ses_ayari_diyalog.dart';
 import '../motor/olay_yukleyici.dart';
 import '../motor/oyun_motoru.dart';
-import '../sabitler/renkler.dart';
+import '../sabitler/stiller.dart';
 import '../servisler/ses_servisi.dart';
 import 'basarimlar_ekrani.dart';
 import 'gecmis_hayatlar_ekrani.dart';
@@ -49,10 +50,9 @@ class _AnaMenuEkraniState extends State<AnaMenuEkrani> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Renkler.kagitKoyu,
+      backgroundColor: Stiller.sepyaArkaplan,
       body: Stack(
         children: [
-          // İnce Parşömen Dokusu Arka Plan Bindirmesi
           Positioned.fill(
             child: Image.asset(
               'assets/arkaplan/parsomen_doku.png',
@@ -68,51 +68,42 @@ class _AnaMenuEkraniState extends State<AnaMenuEkrani> {
                   constraints: const BoxConstraints(maxWidth: 480),
                   margin: const EdgeInsets.all(16),
                   padding: const EdgeInsets.symmetric(vertical: 24, horizontal: 20),
-                  decoration: BoxDecoration(
-                    color: Renkler.kagit,
-                    border: Border.all(color: Renkler.altin, width: 3),
-                    borderRadius: BorderRadius.circular(12),
-                    boxShadow: [
-                      BoxShadow(
-                        color: Colors.black.withAlpha(100),
-                        blurRadius: 10,
-                        offset: const Offset(0, 4),
-                      ),
-                    ],
-                  ),
+                  decoration: Stiller.altinKartStili,
                   child: Column(
                     mainAxisSize: MainAxisSize.min,
                     children: [
+                      // Ayarlar butonu (Sağ üst)
+                      Align(
+                        alignment: Alignment.topRight,
+                        child: IconButton(
+                          icon: const Icon(Icons.tune, color: Stiller.parlakAltin),
+                          tooltip: 'Müzik ve Ses Ayarları',
+                          onPressed: () => SesAyariDiyalog.goster(context),
+                        ),
+                      ),
+
                       // Logo & Tuğra Görseli
                       Image.asset(
                         'assets/logo.png',
                         height: 110,
-                        errorBuilder: (context, error, stackTrace) => const Text(
-                          '👑',
-                          style: TextStyle(fontSize: 64),
+                        errorBuilder: (context, error, stackTrace) => const Icon(
+                          Icons.account_balance,
+                          size: 64,
+                          color: Stiller.parlakAltin,
                         ),
                       ),
                       const SizedBox(height: 12),
 
                       // Başlık ve Alt Başlık
-                      const Text(
+                      Text(
                         "OSMANLI'DA BİR HAYAT",
                         textAlign: TextAlign.center,
-                        style: TextStyle(
-                          fontSize: 22,
-                          fontWeight: FontWeight.w900,
-                          letterSpacing: 1.8,
-                          color: Renkler.murekkep,
-                        ),
+                        style: Stiller.baslikStili(fontSize: 22),
                       ),
                       const SizedBox(height: 4),
-                      const Text(
+                      Text(
                         "Tarihi Hayat Simülasyonu",
-                        style: TextStyle(
-                          fontSize: 13,
-                          fontStyle: FontStyle.italic,
-                          color: Renkler.murekkepSoluk,
-                        ),
+                        style: Stiller.altMetinStili(fontSize: 13),
                       ),
                       const SizedBox(height: 24),
 
@@ -120,26 +111,23 @@ class _AnaMenuEkraniState extends State<AnaMenuEkrani> {
                       SizedBox(
                         width: double.infinity,
                         height: 52,
-                        child: ElevatedButton(
+                        child: ElevatedButton.icon(
                           style: ElevatedButton.styleFrom(
-                            backgroundColor: Renkler.damga,
-                            foregroundColor: Colors.white,
+                            backgroundColor: Stiller.bordo,
+                            foregroundColor: Stiller.parsomen,
                             shape: RoundedRectangleBorder(
                               borderRadius: BorderRadius.circular(8),
-                              side: const BorderSide(color: Renkler.altin, width: 1.5),
+                              side: const BorderSide(color: Stiller.parlakAltin, width: 1.5),
                             ),
-                            elevation: 4,
+                            elevation: 6,
                           ),
                           onPressed: _yukleniyor ? null : _yeniHayatBaslat,
-                          child: _yukleniyor
-                              ? const CircularProgressIndicator(color: Colors.white)
-                              : const Text(
-                                  '📜 YENİ HAYAT BAŞLAT',
-                                  style: TextStyle(
-                                    fontSize: 15,
-                                    fontWeight: FontWeight.bold,
-                                    letterSpacing: 1.1,
-                                  ),
+                          icon: const Icon(Icons.history_edu, color: Stiller.parlakAltin),
+                          label: _yukleniyor
+                              ? const CircularProgressIndicator(color: Stiller.parlakAltin)
+                              : Text(
+                                  'YENİ HAYAT BAŞLAT',
+                                  style: Stiller.baslikStili(fontSize: 15, color: Stiller.parsomen),
                                 ),
                         ),
                       ),
@@ -149,10 +137,10 @@ class _AnaMenuEkraniState extends State<AnaMenuEkrani> {
                       SizedBox(
                         width: double.infinity,
                         height: 48,
-                        child: OutlinedButton(
+                        child: OutlinedButton.icon(
                           style: OutlinedButton.styleFrom(
-                            foregroundColor: Renkler.murekkep,
-                            side: const BorderSide(color: Renkler.damga, width: 1.5),
+                            foregroundColor: Stiller.parsomen,
+                            side: const BorderSide(color: Stiller.altinSarisi, width: 1.5),
                             shape: RoundedRectangleBorder(
                               borderRadius: BorderRadius.circular(8),
                             ),
@@ -165,12 +153,10 @@ class _AnaMenuEkraniState extends State<AnaMenuEkrani> {
                               ),
                             );
                           },
-                          child: const Text(
-                            '🏛️ GEÇMİŞ HAYATLAR (ŞECERE)',
-                            style: TextStyle(
-                              fontSize: 13,
-                              fontWeight: FontWeight.bold,
-                            ),
+                          icon: const Icon(Icons.auto_stories, color: Stiller.parlakAltin, size: 20),
+                          label: Text(
+                            'GEÇMİŞ HAYATLAR (ŞECERE)',
+                            style: Stiller.baslikStili(fontSize: 13, color: Stiller.parsomen),
                           ),
                         ),
                       ),
@@ -180,10 +166,10 @@ class _AnaMenuEkraniState extends State<AnaMenuEkrani> {
                       SizedBox(
                         width: double.infinity,
                         height: 48,
-                        child: OutlinedButton(
+                        child: OutlinedButton.icon(
                           style: OutlinedButton.styleFrom(
-                            foregroundColor: Renkler.murekkep,
-                            side: const BorderSide(color: Renkler.altin, width: 1.5),
+                            foregroundColor: Stiller.parsomen,
+                            side: const BorderSide(color: Stiller.altinSarisi, width: 1.5),
                             shape: RoundedRectangleBorder(
                               borderRadius: BorderRadius.circular(8),
                             ),
@@ -196,24 +182,18 @@ class _AnaMenuEkraniState extends State<AnaMenuEkrani> {
                               ),
                             );
                           },
-                          child: const Text(
-                            '🏆 NİŞAN VE BAŞARIMLAR',
-                            style: TextStyle(
-                              fontSize: 13,
-                              fontWeight: FontWeight.bold,
-                            ),
+                          icon: const Icon(Icons.workspace_premium, color: Stiller.parlakAltin, size: 20),
+                          label: Text(
+                            'NİŞAN VE BAŞARIMLAR',
+                            style: Stiller.baslikStili(fontSize: 13, color: Stiller.parsomen),
                           ),
                         ),
                       ),
                       const SizedBox(height: 20),
 
-                      // Alt Bilgi
-                      const Text(
+                      Text(
                         "© 1299 - 1922 Osmanlı İmparatorluğu Dönemi",
-                        style: TextStyle(
-                          fontSize: 11,
-                          color: Renkler.murekkepSoluk,
-                        ),
+                        style: Stiller.altMetinStili(fontSize: 11),
                       ),
                     ],
                   ),

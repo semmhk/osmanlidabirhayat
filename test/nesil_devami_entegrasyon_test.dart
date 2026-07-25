@@ -73,7 +73,7 @@ void main() {
 
       // FERMAN-I VEFAT ve SOYUNU DEVAM ETTİR butonlarının gösterildiğini kontrol et
       expect(find.text('FERMAN-I VEFAT (RUHUNA FATİHA)'), findsOneWidget);
-      final soyButon = find.text('SOYUNU DEVAM ETTİR 📜');
+      final soyButon = find.text('SOYUNU DEVAM ETTİR');
       expect(soyButon, findsOneWidget);
 
       // 3. SOYUNU DEVAM ETTİR butonuna tıkla
