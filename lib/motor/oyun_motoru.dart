@@ -1,5 +1,6 @@
 import 'dart:math';
 import '../modeller/cocuk.dart';
+import '../modeller/faaliyet.dart';
 import '../modeller/karakter.dart';
 import '../modeller/olay.dart';
 import '../modeller/meslek.dart';
@@ -337,6 +338,18 @@ class OyunMotoru {
     karakter.yas++;
     sonIslemTerfiMi = terfiKontrolEt();
 
+    // Yıllık Aktivite Haklarını Yenile
+    karakter.aktiviteHakki = 2;
+
+    // Yıllık Pasif Mülk Geliri (+10 Akçe/dükkan)
+    karakter.para += karakter.mulkYillikNetGeliri;
+    karakter.bakiye += karakter.mulkYillikNetGeliri;
+
+    // İlişki Aşınması (-1/yıl)
+    for (final iliski in karakter.iliskiler) {
+      iliski.yakinlikPuani = max(0, iliski.yakinlikPuani - 1);
+    }
+
     karakter.yillikGelir = gelirHesapla(karakter, karakter.yas);
     karakter.yillikGider = giderHesapla(karakter, karakter.yas);
     karakter.bakiye += (karakter.yillikGelir - karakter.yillikGider);
@@ -426,21 +439,191 @@ class OyunMotoru {
     return karakter.takvimYili < PadisahDeposu.imparatorlukSonYili;
   }
 
+  /// Stat Azalan Getiri Formülü (Diminishing Returns)
+  static int azalanGetiriKazanimi(int mevcutStat, int tabanKazanim) {
+    if (mevcutStat < 50) return tabanKazanim;
+    if (mevcutStat < 75) return 3;
+    if (mevcutStat < 90) return 1;
+    return 0; // 90 üstü faaliyetlerle artırılamaz
+  }
+
+  /// Aktiviteler menüsünden seçilen faaliyeti icra eder
+  bool faaliyetYurut(Faaliyet faaliyet, {Iliski? hedefIliski}) {
+    if (karakter.olu) return false;
+    if (karakter.aktiviteHakki <= 0) return false;
+    if (karakter.bakiye < faaliyet.akceMaliyeti) return false;
+
+    if (karakter.yas < faaliyet.minYas) return false;
+    if (faaliyet.gerekliMeslek && karakter.meslekZincirId == null) return false;
+    if (faaliyet.gerekliEs && karakter.esAdi == null) return false;
+    if (faaliyet.gerekliCocuk && karakter.cocuklar.isEmpty) return false;
+    if (faaliyet.gerekliAile && karakter.esAdi == null && karakter.cocuklar.isEmpty) return false;
+
+    // Dükkan limiti kontrolü
+    if (faaliyet.id == 'mulk_dukkan' && karakter.mulkler.length >= 2) {
+      return false;
+    }
+
+    karakter.bakiye = max(0.0, karakter.bakiye - faaliyet.akceMaliyeti);
+    karakter.para = max(0, karakter.bakiye.round());
+    karakter.aktiviteHakki--;
+
+    String neticeMetni = '';
+
+    switch (faaliyet.id) {
+      case 'saglik_darussifa':
+        final artis = azalanGetiriKazanimi(karakter.saglik, 8);
+        karakter.saglik += artis;
+        neticeMetni = 'Darüşşifada hekime muayene olundu. (Sağlık +$artis)';
+        break;
+      case 'saglik_mesir':
+        final artisSaglik = azalanGetiriKazanimi(karakter.saglik, 4);
+        final artisMutluluk = azalanGetiriKazanimi(karakter.mutluluk, 3);
+        karakter.saglik += artisSaglik;
+        karakter.mutluluk += artisMutluluk;
+        neticeMetni = 'Şifalı mesir macunu tüketildi. (Sağlık +$artisSaglik, Mutluluk +$artisMutluluk)';
+        break;
+      case 'ilim_medrese':
+        final artis = azalanGetiriKazanimi(karakter.zeka, 8);
+        karakter.zeka += artis;
+        neticeMetni = 'Medresede ders alındı. (Zeka +$artis)';
+        break;
+      case 'ilim_istinsah':
+        final artis = azalanGetiriKazanimi(karakter.zeka, 10);
+        karakter.zeka += artis;
+        neticeMetni = 'Yazma kitap istinsah ettirildi. (Zeka +$artis)';
+        break;
+      case 'ilim_meclis':
+        final artisZeka = azalanGetiriKazanimi(karakter.zeka, 4);
+        final artisItibar = azalanGetiriKazanimi(karakter.itibar, 3);
+        karakter.zeka += artisZeka;
+        karakter.itibar += artisItibar;
+        neticeMetni = 'Âlimler meclisine katılındı. (Zeka +$artisZeka, İtibar +$artisItibar)';
+        break;
+      case 'itibar_imaret':
+        final artisItibar = azalanGetiriKazanimi(karakter.itibar, 10);
+        final artisMutluluk = azalanGetiriKazanimi(karakter.mutluluk, 4);
+        karakter.itibar += artisItibar;
+        karakter.mutluluk += artisMutluluk;
+        neticeMetni = 'İmaret ve çeşme bağışı yapıldı. (İtibar +$artisItibar, Mutluluk +$artisMutluluk)';
+        break;
+      case 'itibar_lonca':
+        final artis = azalanGetiriKazanimi(karakter.itibar, 5);
+        karakter.itibar += artis;
+        neticeMetni = 'Lonca toplantısına katılındı. (İtibar +$artis)';
+        break;
+      case 'itibar_tekke':
+        final artisItibar = azalanGetiriKazanimi(karakter.itibar, 4);
+        final artisMutluluk = azalanGetiriKazanimi(karakter.mutluluk, 4);
+        karakter.itibar += artisItibar;
+        karakter.mutluluk += artisMutluluk;
+        neticeMetni = 'Tekke ve camide hayır dağıtıldı. (İtibar +$artisItibar, Mutluluk +$artisMutluluk)';
+        break;
+      case 'mulk_dukkan':
+        karakter.mulkler.add(Mulk(
+          id: 'dukkan_${karakter.takvimYili}_${karakter.mulkler.length + 1}',
+          ad: '${karakter.mulkler.length + 1}. Çarşı Dükkanı',
+          alinisYili: karakter.takvimYili,
+        ));
+        neticeMetni = 'Çarşıda yeni bir dükkan satın alındı. (Net Pasif Gelir +10 Akçe/yıl)';
+        break;
+      case 'mulk_kervan':
+        if (_random.nextDouble() < 0.70) {
+          karakter.para += 240;
+          karakter.bakiye += 240;
+          neticeMetni = 'İpek yolu kervan ticareti bereketiyle sonuçlandı! (+240 Akçe kazanç)';
+        } else {
+          neticeMetni = 'Kervan haramilerce soyuldu, yatırılan akçeler ziyan oldu. (-150 Akçe kayıp)';
+        }
+        break;
+      case 'sosyal_kahve':
+        final artisMutluluk = azalanGetiriKazanimi(karakter.mutluluk, 6);
+        final artisItibar = azalanGetiriKazanimi(karakter.itibar, 1);
+        karakter.mutluluk += artisMutluluk;
+        karakter.itibar += artisItibar;
+        neticeMetni = 'Semt kahvehanesinde sohbet edildi. (Mutluluk +$artisMutluluk)';
+        break;
+      case 'sosyal_hamam':
+        final artisSaglik = azalanGetiriKazanimi(karakter.saglik, 3);
+        final artisMutluluk = azalanGetiriKazanimi(karakter.mutluluk, 6);
+        karakter.saglik += artisSaglik;
+        karakter.mutluluk += artisMutluluk;
+        neticeMetni = 'Tarihi hamamda sefa sürüldü. (Sağlık +$artisSaglik, Mutluluk +$artisMutluluk)';
+        break;
+      case 'aile_sofrasi':
+        for (final iliski in karakter.iliskiler) {
+          iliski.yakinlikPuani = min(100, iliski.yakinlikPuani + 2);
+        }
+        final artisMutluluk = azalanGetiriKazanimi(karakter.mutluluk, 5);
+        karakter.mutluluk += artisMutluluk;
+        neticeMetni = 'Hane halkıyla zengin aile sofrası kuruldu. (Tüm Aile +2 Yakınlık)';
+        break;
+      case 'aile_gezinti':
+        Iliski? esIliski;
+        for (final i in karakter.iliskiler) {
+          if (i.tip == IliskiTipi.es) {
+            esIliski = i;
+            break;
+          }
+        }
+        if (esIliski == null) {
+          esIliski = Iliski(id: 'es_${karakter.takvimYili}', isim: karakter.esAdi ?? 'Eş', tip: IliskiTipi.es);
+          karakter.iliskiler.add(esIliski);
+        }
+        esIliski.yakinlikPuani = min(100, esIliski.yakinlikPuani + 15);
+        final artisMutluluk = azalanGetiriKazanimi(karakter.mutluluk, 6);
+        karakter.mutluluk += artisMutluluk;
+        neticeMetni = 'Eşle Boğaziçi mesiresinde gezinti yapıldı. (Eş Yakınlığı +15)';
+        break;
+      case 'aile_egitim':
+        final cocukTarget = hedefIliski ?? karakter.iliskiler.firstWhere((i) => i.tip == IliskiTipi.cocuk, orElse: () {
+          final yeni = Iliski(id: 'cocuk_${karakter.takvimYili}', isim: karakter.cocuklar.first.ad, tip: IliskiTipi.cocuk);
+          karakter.iliskiler.add(yeni);
+          return yeni;
+        });
+        cocukTarget.egitimPuani = min(100, cocukTarget.egitimPuani + 20);
+        cocukTarget.yakinlikPuani = min(100, cocukTarget.yakinlikPuani + 10);
+        neticeMetni = '${cocukTarget.isim} için medrese/lonca tahsisatı ödendi. (Çocuk Eğitimi +20, Yakınlık +10)';
+        break;
+    }
+
+    karakter.statSinirla();
+    karakter.gunluk.insert(
+      0,
+      '${karakter.yas} yaş (${karakter.takvimYili}) — 🕌 FAALİYET: $neticeMetni',
+    );
+    return true;
+  }
+
   /// Seçilen evlat ile oyuna devam etme (Nesil Devamı)
   Karakter nesilDevamEt(Cocuk secilenCocuk) {
     final int baslangicYasi = secilenCocuk.guncelYasGetir(karakter.yas);
     final int cocukDogumYili = (karakter.dogumYili + secilenCocuk.ebeveynYasiDogum).toInt();
     final cocukCinsiyet = secilenCocuk.erkekMi ? Cinsiyet.erkek : Cinsiyet.kadin;
 
-    // Miras Hesabı: Pozitif bakiyenin %40'ı çocuk sayısına eşit bölünür
-    final double mirasMiktari;
+    // İlişki verisini bul
+    Iliski? cocukIliski;
+    for (final i in karakter.iliskiler) {
+      if (i.isim == secilenCocuk.ad) {
+        cocukIliski = i;
+        break;
+      }
+    }
+    final int yakinlik = cocukIliski?.yakinlikPuani ?? 70;
+    final int egitim = cocukIliski?.egitimPuani ?? 0;
+
+    // Miras Oranı: Yakınlık >= 80 ise %60 sadakat mirası, aksi halde %40 miras
+    final double mirasOrani = (yakinlik >= 80) ? 0.60 : 0.40;
+    double mirasMiktari = 0.0;
     if (karakter.bakiye > 0 && karakter.cocuklar.isNotEmpty) {
-      mirasMiktari = (karakter.bakiye * 0.40) / karakter.cocuklar.length;
-    } else {
-      mirasMiktari = 0.0;
+      final hamMiras = (karakter.bakiye * mirasOrani) / karakter.cocuklar.length;
+      mirasMiktari = min(1000.0, hamMiras); // Sert Miras Tavanı (Max 1.000 Akçe)
     }
 
-    // Yaşa Göre Başlangıç Sağlığı Formülü
+    // Stat Miras Bonusu
+    final int bonusZeka = (egitim * 0.15).round();
+    final int bonusItibar = (yakinlik * 0.10).round();
+
     final int baslangicSaglik = (80 - ((baslangicYasi - 18).clamp(0, 50) * 0.4)).round().clamp(40, 80);
 
     final yeniKarakter = Karakter(
@@ -451,12 +634,21 @@ class OyunMotoru {
       nesil: karakter.nesil + 1,
       saglik: baslangicSaglik,
       mutluluk: 65,
-      zeka: 50,
-      itibar: 50,
+      zeka: (50 + bonusZeka).clamp(10, 90),
+      itibar: (50 + bonusItibar).clamp(10, 90),
       bakiye: mirasMiktari,
       cinsiyet: cocukCinsiyet,
       genler: AvatarGenleri.rastgele(_random, cocukCinsiyet),
     );
+
+    // Mülk Mirası (En fazla 1 dükkan devredilir)
+    if (karakter.mulkler.isNotEmpty) {
+      yeniKarakter.mulkler.add(Mulk(
+        id: 'miras_mulk_${yeniKarakter.takvimYili}',
+        ad: 'Ata Yadigarı Çarşı Dükkanı',
+        alinisYili: yeniKarakter.takvimYili,
+      ));
+    }
 
     // Temiz sayfa: Meslek ve bayrakları sıfırla
     yeniKarakter.meslekZincirId = null;
@@ -465,7 +657,6 @@ class OyunMotoru {
     yeniKarakter.meslek = 'Vasıfsız İşçi';
     yeniKarakter.bayraklar.clear();
 
-    // Çocuğun başlangıç yaşının altındaki tek seferlik olayları egzoz et
     for (final o in tumOlaylar) {
       if (o.tekSeferlik && o.yasMax < baslangicYasi) {
         yeniKarakter.kullanilanOlaylar.add(o.id);
@@ -474,12 +665,12 @@ class OyunMotoru {
 
     yeniKarakter.gunluk.insert(
       0,
-      '$baslangicYasi yaş (${yeniKarakter.takvimYili}) — 📜 NESİL DEVAMI: ${karakter.isim} ailesinin ${yeniKarakter.nesil}. nesli olarak yaşam bayrağını devraldın. (Devrolan Akçe Mirası: ${Karakter.paraFormatla(mirasMiktari)})',
+      '$baslangicYasi yaş (${yeniKarakter.takvimYili}) — 📜 NESİL DEVAMI: ${karakter.isim} ailesinin ${yeniKarakter.nesil}. nesli olarak yaşam bayrağını devraldın. (Devrolan Miras: ${Karakter.paraFormatla(mirasMiktari)}, Stat Bonus: +$bonusZeka Zeka / +$bonusItibar İtibar)',
     );
 
-    karakter = yeniKarakter;
     bekleyenOlay = null;
     sonIslemTerfiMi = false;
+    karakter = yeniKarakter;
     return yeniKarakter;
   }
 }

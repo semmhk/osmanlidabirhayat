@@ -42,6 +42,7 @@
     "secenekler": [
       {
         "metin": "Medreseye kaydol ve ilim yolunu seç",
+        "gerekli_zeka": 45,
         "etki": {
           "zeka": 15,
           "itibar": 5
@@ -71,6 +72,7 @@
     "secenekler": [
       {
         "metin": "Atına atla ve gaza ordusuna yazıl",
+        "gerekli_itibar": 40,
         "etki": {
           "itibar": 15,
           "para": 10,
@@ -1971,6 +1973,7 @@
     "secenekler": [
       {
         "metin": "Kâtiplik yoluna gir",
+        "gerekli_zeka": 50,
         "etki": {
           "zeka": 5,
           "itibar": 2

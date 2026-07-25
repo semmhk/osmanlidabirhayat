@@ -8,7 +8,9 @@ import '../motor/oyun_motoru.dart';
 import '../sabitler/renkler.dart';
 import '../servisler/hayat_kaydi_servisi.dart';
 import '../servisler/ses_servisi.dart';
+import 'faaliyet_ekrani.dart';
 import 'gunluk_ekrani.dart';
+import 'iliskiler_ekrani.dart';
 import 'olum_ekrani.dart';
 
 class OyunEkrani extends StatefulWidget {
@@ -469,23 +471,49 @@ class _OyunEkraniState extends State<OyunEkrani> {
                               ),
                               const SizedBox(height: 12),
                               ...bekleyenOlay.secenekler.map((secenek) {
+                                final bool zekaYeterli = secenek.gerekliZeka == null || k.zeka >= secenek.gerekliZeka!;
+                                final bool itibarYeterli = secenek.gerekliItibar == null || k.itibar >= secenek.gerekliItibar!;
+                                final bool saglikYeterli = secenek.gerekliSaglik == null || k.saglik >= secenek.gerekliSaglik!;
+                                final bool mutlulukYeterli = secenek.gerekliMutluluk == null || k.mutluluk >= secenek.gerekliMutluluk!;
+                                final bool paraYeterli = secenek.gerekliPara == null || k.para >= secenek.gerekliPara!;
+
+                                final bool kilitli = !(zekaYeterli && itibarYeterli && saglikYeterli && mutlulukYeterli && paraYeterli);
+
+                                String kilitNotu = '';
+                                if (!zekaYeterli) kilitNotu += '${secenek.gerekliZeka} Zeka ';
+                                if (!itibarYeterli) kilitNotu += '${secenek.gerekliItibar} İtibar ';
+                                if (!paraYeterli) kilitNotu += '${secenek.gerekliPara} Akçe ';
+                                if (!saglikYeterli) kilitNotu += '${secenek.gerekliSaglik} Sağlık ';
+                                if (!mutlulukYeterli) kilitNotu += '${secenek.gerekliMutluluk} Mutluluk ';
+
                                 return Padding(
                                   padding: const EdgeInsets.only(bottom: 8),
                                   child: ElevatedButton(
                                     style: ElevatedButton.styleFrom(
-                                      backgroundColor: Renkler.murekkep,
-                                      foregroundColor: Colors.white,
+                                      backgroundColor: kilitli ? Colors.grey.withAlpha(120) : Renkler.murekkep,
+                                      foregroundColor: kilitli ? Colors.black54 : Colors.white,
                                       padding: const EdgeInsets.symmetric(vertical: 12, horizontal: 16),
                                       shape: RoundedRectangleBorder(
                                         borderRadius: BorderRadius.circular(8),
-                                        side: const BorderSide(color: Renkler.altin, width: 1),
+                                        side: BorderSide(color: kilitli ? Colors.grey : Renkler.altin, width: 1),
                                       ),
                                     ),
-                                    onPressed: () => _secenekSec(secenek),
-                                    child: Text(
-                                      secenek.metin,
-                                      textAlign: TextAlign.center,
-                                      style: const TextStyle(fontSize: 13),
+                                    onPressed: kilitli ? null : () => _secenekSec(secenek),
+                                    child: Column(
+                                      children: [
+                                        Text(
+                                          secenek.metin,
+                                          textAlign: TextAlign.center,
+                                          style: TextStyle(fontSize: 13, color: kilitli ? Colors.black87 : Colors.white),
+                                        ),
+                                        if (kilitli) ...[
+                                          const SizedBox(height: 3),
+                                          Text(
+                                            '🔒 Kilitli (Gerekli: ${kilitNotu.trim()})',
+                                            style: const TextStyle(fontSize: 11, fontWeight: FontWeight.bold, color: Colors.redAccent),
+                                          ),
+                                        ],
+                                      ],
                                     ),
                                   ),
                                 );
@@ -537,7 +565,66 @@ class _OyunEkraniState extends State<OyunEkrani> {
                 ),
               ),
 
-              const SizedBox(height: 12),
+              const SizedBox(height: 8),
+
+              // Faaliyetler ve İlişkiler Buton Satırı
+              Row(
+                children: [
+                  Expanded(
+                    child: OutlinedButton.icon(
+                      style: OutlinedButton.styleFrom(
+                        backgroundColor: Renkler.kagitKoyu,
+                        side: const BorderSide(color: Renkler.altin),
+                        padding: const EdgeInsets.symmetric(vertical: 10),
+                      ),
+                      onPressed: () {
+                        showModalBottomSheet(
+                          context: context,
+                          isScrollControlled: true,
+                          backgroundColor: Colors.transparent,
+                          builder: (context) => FaaliyetEkrani(
+                            motor: widget.motor,
+                            onStateChanged: () => setState(() {}),
+                          ),
+                        );
+                      },
+                      icon: const Text('🕌', style: TextStyle(fontSize: 14)),
+                      label: Text(
+                        'Faaliyetler (${k.aktiviteHakki}/2)',
+                        style: const TextStyle(fontSize: 12, fontWeight: FontWeight.bold, color: Colors.white),
+                      ),
+                    ),
+                  ),
+                  const SizedBox(width: 8),
+                  Expanded(
+                    child: OutlinedButton.icon(
+                      style: OutlinedButton.styleFrom(
+                        backgroundColor: Renkler.kagitKoyu,
+                        side: const BorderSide(color: Renkler.altin),
+                        padding: const EdgeInsets.symmetric(vertical: 10),
+                      ),
+                      onPressed: () {
+                        showModalBottomSheet(
+                          context: context,
+                          isScrollControlled: true,
+                          backgroundColor: Colors.transparent,
+                          builder: (context) => IliskilerEkrani(
+                            motor: widget.motor,
+                            onStateChanged: () => setState(() {}),
+                          ),
+                        );
+                      },
+                      icon: const Text('👨‍👩‍👧‍👦', style: TextStyle(fontSize: 14)),
+                      label: const Text(
+                        'Hane & Aile',
+                        style: TextStyle(fontSize: 12, fontWeight: FontWeight.bold, color: Colors.white),
+                      ),
+                    ),
+                  ),
+                ],
+              ),
+
+              const SizedBox(height: 8),
 
               // Yıl İlerlet Butonu
               SizedBox(

@@ -13,6 +13,79 @@ enum GozRengi { kahverengi, siyah, ela, yesil }
 enum BiyikSakalStili { palaBiyik, pasaSakali, cemberSakal, kirliSakal }
 enum BasGiyimi { fes, sarik, takke, yasmakHotoz }
 
+enum IliskiTipi { es, cocuk }
+
+class Iliski {
+  final String id;
+  final String isim;
+  final IliskiTipi tip;
+  int yakinlikPuani; // 0 - 100
+  int egitimPuani;   // 0 - 100 (Çocuklar için)
+  int yas;
+
+  Iliski({
+    required this.id,
+    required this.isim,
+    required this.tip,
+    this.yakinlikPuani = 70,
+    this.egitimPuani = 0,
+    this.yas = 0,
+  });
+
+  Map<String, dynamic> toJson() => {
+        'id': id,
+        'isim': isim,
+        'tip': tip.name,
+        'yakinlikPuani': yakinlikPuani,
+        'egitimPuani': egitimPuani,
+        'yas': yas,
+      };
+
+  factory Iliski.fromJson(Map<String, dynamic> json) => Iliski(
+        id: json['id'] as String? ?? 'iliski_${Random().nextInt(10000)}',
+        isim: json['isim'] as String? ?? 'Bilinmeyen Birey',
+        tip: IliskiTipi.values.firstWhere(
+          (e) => e.name == json['tip'],
+          orElse: () => IliskiTipi.cocuk,
+        ),
+        yakinlikPuani: (json['yakinlikPuani'] as num?)?.toInt() ?? 70,
+        egitimPuani: (json['egitimPuani'] as num?)?.toInt() ?? 0,
+        yas: (json['yas'] as num?)?.toInt() ?? 0,
+      );
+}
+
+class Mulk {
+  final String id;
+  final String ad;
+  final int alinisYili;
+  final int alinisFiyati;
+  final int yillikNetGelir;
+
+  Mulk({
+    required this.id,
+    required this.ad,
+    required this.alinisYili,
+    this.alinisFiyati = 250,
+    this.yillikNetGelir = 10,
+  });
+
+  Map<String, dynamic> toJson() => {
+        'id': id,
+        'ad': ad,
+        'alinisYili': alinisYili,
+        'alinisFiyati': alinisFiyati,
+        'yillikNetGelir': yillikNetGelir,
+      };
+
+  factory Mulk.fromJson(Map<String, dynamic> json) => Mulk(
+        id: json['id'] as String? ?? 'mulk_${Random().nextInt(10000)}',
+        ad: json['ad'] as String? ?? 'Dükkan / Akar',
+        alinisYili: (json['alinisYili'] as num?)?.toInt() ?? 1300,
+        alinisFiyati: (json['alinisFiyati'] as num?)?.toInt() ?? 250,
+        yillikNetGelir: (json['yillikNetGelir'] as num?)?.toInt() ?? 10,
+      );
+}
+
 class AvatarGenleri {
   final TenTonu tenTonu;
   final SacRengi sacRengi;
@@ -231,6 +304,12 @@ class Karakter {
 
   String? olumNedeni;
 
+  int aktiviteHakki;
+  final List<Mulk> mulkler;
+  final List<Iliski> iliskiler;
+
+  int get mulkYillikNetGeliri => mulkler.length * 10;
+
   Karakter({
     String? isim,
     String? ad,
@@ -248,13 +327,16 @@ class Karakter {
     int? zirveZeka,
     int? zirveItibar,
     this.hicAsgariUcretliOldu = false,
-    this.bakiye = 20.0, // Başlangıç serveti 20 Akçe
+    double? bakiye,
     this.yillikGelir = 0.0,
     this.yillikGider = 0.0,
     this.meslek = 'İşsiz',
     this.meslekZincirId,
     this.meslekKademesi = 0,
     this.kademedekiYil = 0,
+    this.aktiviteHakki = 2,
+    List<Mulk>? mulkler,
+    List<Iliski>? iliskiler,
     Set<String>? bayraklar,
     this.esAdi,
     List<Cocuk>? cocuklar,
@@ -269,8 +351,11 @@ class Karakter {
   })  : dogumYili = dogumYili ?? (1299 + (rnd ?? Random()).nextInt(1900 - 1299 + 1)),
         ad = ad ?? (isim != null ? _isimdenAdGetir(isim) : 'Orhan'),
         soyad = soyad ?? (isim != null ? _isimdenSoyadGetir(isim) : 'Efendi'),
+        bakiye = bakiye ?? para.toDouble(),
         zirveZeka = zirveZeka ?? zeka,
         zirveItibar = zirveItibar ?? itibar,
+        mulkler = mulkler ?? [],
+        iliskiler = iliskiler ?? [],
         bayraklar = bayraklar ?? {},
         cocuklar = cocuklar ?? _cocukListesiOlustur(cocukAdlari),
         kullanilanOlaylar = kullanilanOlaylar ?? {},
@@ -328,7 +413,7 @@ class Karakter {
     saglik = saglik.clamp(0, 100);
     mutluluk = mutluluk.clamp(0, 100);
     zeka = zeka.clamp(0, 100);
-    para = para.clamp(0, 100);
+    para = max(0, bakiye.round());
     itibar = itibar.clamp(0, 100);
     zirveGuncelle();
   }
@@ -403,7 +488,15 @@ class Karakter {
       meslek: json['meslek'] as String? ?? 'İşsiz',
       meslekZincirId: json['meslekZincirId'] as String?,
       meslekKademesi: json['meslekKademesi'] as int? ?? 0,
-      kademedekiYil: json['kademedekiYil'] as int? ?? 0,
+      aktiviteHakki: json['aktiviteHakki'] as int? ?? 2,
+      mulkler: (json['mulkler'] as List<dynamic>?)
+              ?.map((e) => Mulk.fromJson(e as Map<String, dynamic>))
+              .toList() ??
+          [],
+      iliskiler: (json['iliskiler'] as List<dynamic>?)
+              ?.map((e) => Iliski.fromJson(e as Map<String, dynamic>))
+              .toList() ??
+          [],
       bayraklar: (json['bayraklar'] as List<dynamic>?)
               ?.map((e) => e.toString())
               .toSet() ??
@@ -439,6 +532,9 @@ class Karakter {
       'nesil': nesil,
       'yas': yas,
       'olu': olu,
+      'aktiviteHakki': aktiviteHakki,
+      'mulkler': mulkler.map((e) => e.toJson()).toList(),
+      'iliskiler': iliskiler.map((e) => e.toJson()).toList(),
       if (olumNedeni != null) 'olumNedeni': olumNedeni,
       'saglik': saglik,
       'mutluluk': mutluluk,

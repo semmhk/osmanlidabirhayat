@@ -79,6 +79,11 @@ class Secenek {
   final String? bayrakKaldir; // Seçildiğinde karakterden kaldırılacak bayrak ("evli" vb.)
   final int olumculSans; // Seçildiğinde ani/doğrudan ölüm ihtimali (%1-100, varsayılan 0)
   final String? olumNedeni; // Ölüm gerçekleştiğinde özete yazılacak spesifik vefat nedeni
+  final int? gerekliZeka;
+  final int? gerekliItibar;
+  final int? gerekliSaglik;
+  final int? gerekliMutluluk;
+  final int? gerekliPara;
 
   const Secenek({
     required this.metin,
@@ -91,6 +96,11 @@ class Secenek {
     this.bayrakKaldir,
     this.olumculSans = 0,
     this.olumNedeni,
+    this.gerekliZeka,
+    this.gerekliItibar,
+    this.gerekliSaglik,
+    this.gerekliMutluluk,
+    this.gerekliPara,
   });
 
   factory Secenek.fromJson(Map<String, dynamic> json) {
@@ -107,6 +117,11 @@ class Secenek {
       bayrakKaldir: json['bayrak_kaldir'] as String?,
       olumculSans: (json['olumcul_sans'] as num?)?.toInt() ?? 0,
       olumNedeni: json['olum_nedeni'] as String?,
+      gerekliZeka: (json['gerekli_zeka'] as num?)?.toInt(),
+      gerekliItibar: (json['gerekli_itibar'] as num?)?.toInt(),
+      gerekliSaglik: (json['gerekli_saglik'] as num?)?.toInt(),
+      gerekliMutluluk: (json['gerekli_mutluluk'] as num?)?.toInt(),
+      gerekliPara: (json['gerekli_para'] as num?)?.toInt(),
     );
   }
 
@@ -123,6 +138,11 @@ class Secenek {
     if (bayrakKaldir != null) map['bayrak_kaldir'] = bayrakKaldir;
     if (olumculSans > 0) map['olumcul_sans'] = olumculSans;
     if (olumNedeni != null) map['olum_nedeni'] = olumNedeni;
+    if (gerekliZeka != null) map['gerekli_zeka'] = gerekliZeka;
+    if (gerekliItibar != null) map['gerekli_itibar'] = gerekliItibar;
+    if (gerekliSaglik != null) map['gerekli_saglik'] = gerekliSaglik;
+    if (gerekliMutluluk != null) map['gerekli_mutluluk'] = gerekliMutluluk;
+    if (gerekliPara != null) map['gerekli_para'] = gerekliPara;
     return map;
   }
 }
