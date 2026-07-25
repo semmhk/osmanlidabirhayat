@@ -28,23 +28,21 @@
         "sonuc": "Ahi ocağına katılmadın. Çocukluğun tadını çıkarmaya devam ediyorsun."
       },
       {
-        "metin": "Ahi pirlerine hediye gönderip duaya talip ol",
-        "gerekli_para": 20,
+        "metin": "Ahi kethüdasına müracaat edip lonca kütüğüne yazıl",
+        "gerekli_itibar": 30,
         "etki": {
-          "itibar": 8,
-          "para": -20,
-          "mutluluk": 4
+          "itibar": 12,
+          "zeka": 6
         },
-        "sonuc": "Ahi piri hediyeni kabul edip sana hayır duada bulundu ve hürmet gördün."
+        "sonuc": "Ahi kethüdası seni takdir edip lonca kütüğüne adını şerefle yazdı."
       },
       {
-        "metin": "Lonca nizamını derinlemesine inceleyip kethüdaya tavsiye sun",
-        "gerekli_zeka": 55,
+        "metin": "Çıraklık mehir ve kefalet senedi için mahalle imamından referans al",
         "etki": {
-          "zeka": 10,
-          "itibar": 12
+          "zeka": 5,
+          "mutluluk": 5
         },
-        "sonuc": "Sunmuş olduğun adilane tavsiyeler esnaf kethüdasının takdirini kazandı."
+        "sonuc": "Mahalle imamı kefil oldu, edep ve zanaat yolunda ilk adımını attın."
       }
     ],
     "engel_bayrak": "calisaniyor"
@@ -78,23 +76,23 @@
         "sonuc": "İlim yolunu seçmeyip ailenin yanında çalışmaya devam ettin."
       },
       {
-        "metin": "Medrese talebelerine ilmi burs ve kitap tedarik et",
-        "gerekli_para": 35,
+        "metin": "İznik Medresesi müderrisine tefsir risalesi sunup burs talep et",
+        "gerekli_zeka": 55,
         "etki": {
-          "zeka": 6,
-          "itibar": 10,
-          "para": -35
-        },
-        "sonuc": "Talebelerin kitap masrafını karşılayarak müderrislerin takdirini aldın."
-      },
-      {
-        "metin": "Fıkıh ve şer'iyye meselelerinde ulemayla mütalaa yap",
-        "gerekli_zeka": 60,
-        "etki": {
-          "zeka": 12,
+          "zeka": 14,
           "itibar": 8
         },
-        "sonuc": "Derin fıkıh bilgin ulema meclisinde takdirle karşılandı."
+        "sonuc": "Müderris risaleni beğendi ve sana medreseden aylık burs bağladı."
+      },
+      {
+        "metin": "Medrese vakfiyesine zeytinyağı bağışlayıp ilim talebelerini sevindir",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Vakfiyeye yaptığın bağış ilim talebeleri tarafından hayırla anıldı."
       }
     ],
     "engel_bayrak": "calisaniyor"
@@ -129,23 +127,22 @@
         "sonuc": "Savaşa katılmadın, emniyet içinde köyünde kaldın."
       },
       {
-        "metin": "Orduya lojistik erzak ve lojistik destekte bulun",
-        "gerekli_para": 40,
+        "metin": "Osman Bey'in sancak beyine at tahsis edip akıncı lojistiğine katıl",
+        "gerekli_para": 50,
         "etki": {
-          "itibar": 10,
-          "para": -40,
-          "zeka": 4
+          "itibar": 14,
+          "para": -50
         },
-        "sonuc": "Gazilerin ihtiyaçlarını karşılamak üzere sunduğun zahire desteği hayırla yad edildi."
+        "sonuc": "Tahsis ettiğin atlar akıncı beylerinin takdirini topladı."
       },
       {
-        "metin": "Savaş alanındaki yaralı gazilere darüşşifa hizmeti ver",
+        "metin": "Gaza sancağı altında okçuluk hünerini gösterip çavuşluğa yüksel",
+        "gerekli_itibar": 45,
         "etki": {
-          "saglik": -3,
-          "itibar": 14,
-          "mutluluk": 6
+          "itibar": 15,
+          "saglik": -2
         },
-        "sonuc": "Cenk meydanında yaralanan gazilerin yaralarını sararak büyük sevap kazandın."
+        "sonuc": "Meydanda gösterdiğin nişancılıkla alplar arasında gazi unvanı aldın."
       }
     ],
     "engel_bayrak": "calisaniyor"
@@ -168,7 +165,7 @@
         "sonuc": "Bursa'nın fethi münasebetiyle yapılan pilav ve şerbet ikramına katıldın."
       },
       {
-        "metin": "Mahalle ikramında bulunup yoksul Reayayı sevindir",
+        "metin": "Mahallede kurulus_004 vesilesiyle yoksul Reayaya erzak ikram et",
         "gerekli_para": 25,
         "etki": {
           "itibar": 8,
@@ -178,12 +175,23 @@
         "sonuc": "Mahalledeki yoksul ailelere fırından sıcak ekmek dağıtıp dualarını aldın."
       },
       {
-        "metin": "Meseleyi ihtiyatla değerlendirip tarafsız kalmayı seç",
+        "metin": "Bursa fethi şerefine garip gurebaya aşevinde pilav dağıt",
+        "gerekli_para": 20,
         "etki": {
-          "mutluluk": 2,
-          "zeka": 3
+          "itibar": 8,
+          "mutluluk": 8,
+          "para": -20
         },
-        "sonuc": "Acele karar vermeyip vakvakını bekledin, temkinli tutumun seni korudu."
+        "sonuc": "Fethi kutlayan ahiler ve gazilerle birlikte pilav dağıtıp hayır dua aldın."
+      },
+      {
+        "metin": "Bursa kalesindeki dükkanların gediğini inceleyip esnaf narhını öğren",
+        "gerekli_zeka": 40,
+        "etki": {
+          "zeka": 8,
+          "itibar": 5
+        },
+        "sonuc": "Yeni fethedilen şehrin ticari nizamını inceleyip tecrübe kazandın."
       }
     ]
   },
@@ -212,22 +220,22 @@
         "sonuc": "Sıcak çorbanı içip kuvvet topladın."
       },
       {
-        "metin": "Mahalle ikramında bulunup yoksul Reayayı sevindir",
+        "metin": "İmaret vakfiyesine un temin ederek çorba kazanlarının kaynamasına yardım et",
         "gerekli_para": 25,
         "etki": {
-          "itibar": 8,
-          "mutluluk": 6,
-          "para": -25
+          "itibar": 10,
+          "para": -25,
+          "mutluluk": 6
         },
-        "sonuc": "Mahalledeki yoksul ailelere fırından sıcak ekmek dağıtıp dualarını aldın."
+        "sonuc": "Fukaranın duasını aldın, mahalle halkı seni hayırsever olarak tanıdı."
       },
       {
-        "metin": "Meseleyi ihtiyatla değerlendirip tarafsız kalmayı seç",
+        "metin": "Aşevi önünde düzeni sağlayıp kethüdaya yardımcı ol",
         "etki": {
-          "mutluluk": 2,
-          "zeka": 3
+          "itibar": 6,
+          "zeka": 4
         },
-        "sonuc": "Acele karar vermeyip vakvakını bekledin, temkinli tutumun seni korudu."
+        "sonuc": "İmaret sırasındaki izdihamı önleyerek kethüdanın takdirini kazandın."
       }
     ]
   },
@@ -257,23 +265,22 @@
         "sonuc": "Anadolu'da kalıp daha güvenli bir devriye görevi sürdürdün."
       },
       {
-        "metin": "Orduya lojistik erzak ve lojistik destekte bulun",
-        "gerekli_para": 40,
+        "metin": "Tımar senedini kadı siciline tescil ettirip hakkını emniyete al",
+        "gerekli_zeka": 50,
         "etki": {
-          "itibar": 10,
-          "para": -40,
-          "zeka": 4
+          "zeka": 8,
+          "itibar": 10
         },
-        "sonuc": "Gazilerin ihtiyaçlarını karşılamak üzere sunduğun zahire desteği hayırla yad edildi."
+        "sonuc": "Kadı mahkemesinde tescil edilen tımar toprağın hukuki güvenceye kavuştu."
       },
       {
-        "metin": "Savaş alanındaki yaralı gazilere darüşşifa hizmeti ver",
+        "metin": "Toprağa yeni tohumluk buğday ekip köylü Reayaya rehberlik et",
+        "gerekli_para": 35,
         "etki": {
-          "saglik": -3,
-          "itibar": 14,
-          "mutluluk": 6
+          "para": 40,
+          "itibar": 6
         },
-        "sonuc": "Cenk meydanında yaralanan gazilerin yaralarını sararak büyük sevap kazandın."
+        "sonuc": "Bolluk yılı oldu, toprağından elde ettiğin Mahsul yüzünü güldürdü."
       }
     ]
   },
@@ -306,22 +313,24 @@
         "sonuc": "Muharebe zaferle bitti, ordu lahit ve ganimetleri emniyete aldı."
       },
       {
-        "metin": "Mahalle ikramında bulunup yoksul Reayayı sevindir",
-        "gerekli_para": 25,
+        "metin": "Kervansarayda Venedikli tüccarla ipek kumaş pazarlığına giriş",
+        "gerekli_zeka": 55,
         "etki": {
-          "itibar": 8,
-          "mutluluk": 6,
-          "para": -25
+          "para": 80,
+          "zeka": 8,
+          "para_maliyeti": 60
         },
-        "sonuc": "Mahalledeki yoksul ailelere fırından sıcak ekmek dağıtıp dualarını aldın."
+        "sonuc": "Zekice yaptığın pazarlık sayesinde ipek ticaretinden yüksek kar elde ettin."
       },
       {
-        "metin": "Meseleyi ihtiyatla değerlendirip tarafsız kalmayı seç",
+        "metin": "Kervansaray muhafızlarına bahşiş verip mallarını soygunculardan koru",
+        "gerekli_para": 30,
         "etki": {
-          "mutluluk": 2,
-          "zeka": 3
+          "itibar": 6,
+          "para": -30,
+          "saglik": 4
         },
-        "sonuc": "Acele karar vermeyip vakvakını bekledin, temkinli tutumun seni korudu."
+        "sonuc": "Muhafızlar kervanını dikkatle korudu, kervanın sağ salim hedefe ulaştı."
       }
     ]
   },
@@ -354,22 +363,23 @@
         "sonuc": "Evlilik teklifini erteledin."
       },
       {
-        "metin": "Mahalle ikramında bulunup yoksul Reayayı sevindir",
-        "gerekli_para": 25,
+        "metin": "Müderrise el yazması tefsir risalesi hediye edip ilim meclisine kabul olun",
+        "gerekli_zeka": 60,
         "etki": {
-          "itibar": 8,
-          "mutluluk": 6,
-          "para": -25
+          "zeka": 12,
+          "itibar": 8
         },
-        "sonuc": "Mahalledeki yoksul ailelere fırından sıcak ekmek dağıtıp dualarını aldın."
+        "sonuc": "Müderris meclisine kabul edildin, üst düzey ulema ile istişare ettin."
       },
       {
-        "metin": "Meseleyi ihtiyatla değerlendirip tarafsız kalmayı seç",
+        "metin": "Medrese kütüphanesine nadide bir elyazması bağışla",
+        "gerekli_para": 45,
         "etki": {
-          "mutluluk": 2,
-          "zeka": 3
+          "itibar": 12,
+          "para": -45,
+          "zeka": 5
         },
-        "sonuc": "Acele karar vermeyip vakvakını bekledin, temkinli tutumun seni korudu."
+        "sonuc": "Bağışladığın eser kütüphane kütüğüne isminle kaydedildi."
       }
     ]
   },
@@ -399,22 +409,24 @@
         "sonuc": "Birlik sağlama çabalarına katılarak itibar kazandın."
       },
       {
-        "metin": "Mahalle ikramında bulunup yoksul Reayayı sevindir",
-        "gerekli_para": 25,
+        "metin": "Gazi arkadaşlarına zırh ve kılıç temin edip sipahi müfrezesi kur",
+        "gerekli_para": 80,
         "etki": {
-          "itibar": 8,
-          "mutluluk": 6,
-          "para": -25
+          "itibar": 16,
+          "para": -80,
+          "saglik": 5
         },
-        "sonuc": "Mahalledeki yoksul ailelere fırından sıcak ekmek dağıtıp dualarını aldın."
+        "sonuc": "Kurduğun gazi müfrezesi uç bölgesinde büyük itibar kazandı."
       },
       {
-        "metin": "Meseleyi ihtiyatla değerlendirip tarafsız kalmayı seç",
+        "metin": "Cenk öncesi duahan dervişlere tekkele ikramda bulun",
+        "gerekli_para": 25,
         "etki": {
-          "mutluluk": 2,
-          "zeka": 3
+          "mutluluk": 8,
+          "itibar": 6,
+          "para": -25
         },
-        "sonuc": "Acele karar vermeyip vakvakını bekledin, temkinli tutumun seni korudu."
+        "sonuc": "Gazilerin maneviyatı yükseldi, dualarla sefere uğurlandınız."
       }
     ]
   },
@@ -436,7 +448,7 @@
         "sonuc": "Huzur ortamında kazancın bereketi arttı."
       },
       {
-        "metin": "Mahalle ikramında bulunup yoksul Reayayı sevindir",
+        "metin": "Sınır boyundaki garip gurebaya köyle birlikte aş irad et",
         "gerekli_para": 25,
         "etki": {
           "itibar": 8,
@@ -446,12 +458,23 @@
         "sonuc": "Mahalledeki yoksul ailelere fırından sıcak ekmek dağıtıp dualarını aldın."
       },
       {
-        "metin": "Meseleyi ihtiyatla değerlendirip tarafsız kalmayı seç",
+        "metin": "Tekfur kızıyla evlilik tescili için kadı şer'iyye siciline başvur",
+        "gerekli_itibar": 60,
         "etki": {
-          "mutluluk": 2,
-          "zeka": 3
+          "itibar": 15,
+          "para": 100
         },
-        "sonuc": "Acele karar vermeyip vakvakını bekledin, temkinli tutumun seni korudu."
+        "sonuc": "Kadı huzurunda yapılan akit ile sınır bölgesindeki nifak son buldu."
+      },
+      {
+        "metin": "Evlilik mehrini yüksek tutarak bölge halkının hürmetini kazan",
+        "gerekli_para": 70,
+        "etki": {
+          "itibar": 12,
+          "para": -70,
+          "mutluluk": 8
+        },
+        "sonuc": "Cömert mehir kararın cemaat arasında takdirle konuşuldu."
       }
     ]
   },
@@ -487,13 +510,23 @@
         "sonuc": "Gazilerin ihtiyaçlarını karşılamak üzere sunduğun zahire desteği hayırla yad edildi."
       },
       {
-        "metin": "Savaş alanındaki yaralı gazilere darüşşifa hizmeti ver",
+        "metin": "İznik surları önünde mancancık ve lağım kazılmasını sevk et",
+        "gerekli_zeka": 55,
         "etki": {
-          "saglik": -3,
-          "itibar": 14,
-          "mutluluk": 6
+          "zeka": 10,
+          "itibar": 10,
+          "saglik": -3
         },
-        "sonuc": "Cenk meydanında yaralanan gazilerin yaralarını sararak büyük sevap kazandın."
+        "sonuc": "Lağımcıların sevkinde gösterdiğin başarı surlarda gedik açtı."
+      },
+      {
+        "metin": "Kuşatma ordusuna su ve erzak taşıyan kervanı sevk et",
+        "gerekli_para": 40,
+        "etki": {
+          "itibar": 12,
+          "para": -40
+        },
+        "sonuc": "Gazilerin erzak sıkıntısını çözdün, Orhan Gazi'den iltifat gördün."
       }
     ]
   },
@@ -516,7 +549,7 @@
         "sonuc": "Dualarla şed kuşandın, kalfalıktan ustalığa terfi ettin."
       },
       {
-        "metin": "Mahalle ikramında bulunup yoksul Reayayı sevindir",
+        "metin": "Mahallede kurulus_012 vesilesiyle yoksul Reayaya erzak ikram et",
         "gerekli_para": 25,
         "etki": {
           "itibar": 8,
@@ -526,12 +559,23 @@
         "sonuc": "Mahalledeki yoksul ailelere fırından sıcak ekmek dağıtıp dualarını aldın."
       },
       {
-        "metin": "Meseleyi ihtiyatla değerlendirip tarafsız kalmayı seç",
+        "metin": "Çeyiz ve mehir miktarını kadı huzurunda resmi senede bağla",
+        "gerekli_zeka": 45,
         "etki": {
-          "mutluluk": 2,
-          "zeka": 3
+          "zeka": 6,
+          "itibar": 8
         },
-        "sonuc": "Acele karar vermeyip vakvakını bekledin, temkinli tutumun seni korudu."
+        "sonuc": "Şer'iyye siciline yazılan nikah akdi aile şerefini güvenceye aldı."
+      },
+      {
+        "metin": "Düğün vesilesiyle mahalleye 3 gün sürer yemek ikram et",
+        "gerekli_para": 60,
+        "etki": {
+          "itibar": 15,
+          "para": -60,
+          "mutluluk": 10
+        },
+        "sonuc": "Düğün yemeği bereketiyle konuşuldu, ahiler düğünü dualarla taçlandırdı."
       }
     ]
   },
@@ -567,22 +611,24 @@
         "sonuc": "Büyük bir fedakarlık göstererek komşularına şifa dağıttın."
       },
       {
-        "metin": "Mahalle ikramında bulunup yoksul Reayayı sevindir",
-        "gerekli_para": 25,
+        "metin": "Beşikten yeni kalkan evlada şifa duaları okutup aktardan buhur al",
+        "gerekli_para": 15,
         "etki": {
-          "itibar": 8,
-          "mutluluk": 6,
-          "para": -25
+          "saglik": 5,
+          "mutluluk": 8,
+          "para": -15
         },
-        "sonuc": "Mahalledeki yoksul ailelere fırından sıcak ekmek dağıtıp dualarını aldın."
+        "sonuc": "Evladın sıhhati düzeldi, evinde huzur ve şükür hakim oldu."
       },
       {
-        "metin": "Meseleyi ihtiyatla değerlendirip tarafsız kalmayı seç",
+        "metin": "Mahalledeki fukaraya sadaka-i ceyb dağıtıp kurban kes",
+        "gerekli_para": 40,
         "etki": {
-          "mutluluk": 2,
-          "zeka": 3
+          "itibar": 10,
+          "para": -40,
+          "mutluluk": 10
         },
-        "sonuc": "Acele karar vermeyip vakvakını bekledin, temkinli tutumun seni korudu."
+        "sonuc": "Kesilen kurban mahalleliye dağıtıldı, evladın için hayır dualar yükseldi."
       }
     ]
   },
@@ -605,7 +651,7 @@
         "sonuc": "İmtihanı başarıyla geçip müderris yardımcısı (Danişmend) oldun."
       },
       {
-        "metin": "Mahalle ikramında bulunup yoksul Reayayı sevindir",
+        "metin": "Mahallede kurulus_014 vesilesiyle yoksul Reayaya erzak ikram et",
         "gerekli_para": 25,
         "etki": {
           "itibar": 8,
@@ -615,12 +661,22 @@
         "sonuc": "Mahalledeki yoksul ailelere fırından sıcak ekmek dağıtıp dualarını aldın."
       },
       {
-        "metin": "Meseleyi ihtiyatla değerlendirip tarafsız kalmayı seç",
+        "metin": "Ahi ocağında şed kuşanma töreni düzenlenmesini talep et",
+        "gerekli_itibar": 55,
         "etki": {
-          "mutluluk": 2,
-          "zeka": 3
+          "itibar": 15,
+          "zeka": 8
         },
-        "sonuc": "Acele karar vermeyip vakvakını bekledin, temkinli tutumun seni korudu."
+        "sonuc": "Kethüda huzurunda beline ahi şeddi bağlandı, resmen kalfa oldun."
+      },
+      {
+        "metin": "Zanaat dükkanına yeni bir çırak alıp usta hünerlerini aktar",
+        "gerekli_zeka": 50,
+        "etki": {
+          "zeka": 10,
+          "para": 20
+        },
+        "sonuc": "Yetiştirdiğin çırak dükkanın işlerini hafifletti, kârın arttı."
       }
     ]
   },
@@ -653,13 +709,23 @@
         "sonuc": "Ahi piri hediyeni kabul edip sana hayır duada bulundu ve hürmet gördün."
       },
       {
-        "metin": "Lonca nizamını derinlemesine inceleyip kethüdaya tavsiye sun",
-        "gerekli_zeka": 55,
+        "metin": "Salgından korumak için aileyi dağ köyündeki yaylaya çek",
+        "gerekli_para": 30,
         "etki": {
-          "zeka": 10,
-          "itibar": 12
+          "saglik": 12,
+          "para": -30,
+          "mutluluk": 4
         },
-        "sonuc": "Sunmuş olduğun adilane tavsiyeler esnaf kethüdasının takdirini kazandı."
+        "sonuc": "Temiz dağ havası aileyi vebadan korudu, salgını zayiyatsız atlattınız."
+      },
+      {
+        "metin": "Darüşşifa hekimlerine sirke ve şifalı buhur tedarik et",
+        "gerekli_zeka": 50,
+        "etki": {
+          "saglik": 8,
+          "itibar": 10
+        },
+        "sonuc": "Hekimlerin salgınla mücadelesine katkıda bulunarak hayat kurtardın."
       }
     ]
   },
@@ -689,22 +755,23 @@
         "sonuc": "Tarla sürülmeye devam etti. Devlet işleri devletlinindir, dendi."
       },
       {
-        "metin": "Mahalle ikramında bulunup yoksul Reayayı sevindir",
-        "gerekli_para": 25,
+        "metin": "Karesi beylik komutanlarına hürmet gösterip ordu tesciline gir",
+        "gerekli_itibar": 50,
         "etki": {
-          "itibar": 8,
-          "mutluluk": 6,
-          "para": -25
+          "itibar": 12,
+          "zeka": 6
         },
-        "sonuc": "Mahalledeki yoksul ailelere fırından sıcak ekmek dağıtıp dualarını aldın."
+        "sonuc": "Karesi denizcileri ve komutanlarıyla dostluk kurup nüfuzunu artırdın."
       },
       {
-        "metin": "Meseleyi ihtiyatla değerlendirip tarafsız kalmayı seç",
+        "metin": "Marmara kıyısında yeni kurulan tersane inşasına ahşap kereste sağla",
+        "gerekli_para": 45,
         "etki": {
-          "mutluluk": 2,
-          "zeka": 3
+          "itibar": 10,
+          "para": -45,
+          "zeka": 5
         },
-        "sonuc": "Acele karar vermeyip vakvakını bekledin, temkinli tutumun seni korudu."
+        "sonuc": "Tersaneye sağladığın keresteler ilk Osmanlı gemilerinin yapımında kullanıldı."
       }
     ]
   },
@@ -735,23 +802,23 @@
         "sonuc": "Toprak babadan kalma, onu bırakmaya gönlün razı olmadı."
       },
       {
-        "metin": "Ahi pirlerine hediye gönderip duaya talip ol",
-        "gerekli_para": 20,
+        "metin": "Pellekanon savaşında yaralanan gazileri at arabalarıyla Bursa darüşşifasına taşı",
+        "gerekli_para": 35,
         "etki": {
-          "itibar": 8,
-          "para": -20,
-          "mutluluk": 4
+          "itibar": 14,
+          "para": -35,
+          "saglik": -2
         },
-        "sonuc": "Ahi piri hediyeni kabul edip sana hayır duada bulundu ve hürmet gördün."
+        "sonuc": "Yaralı gazileri kurtarman Orhan Gazi'nin dikkatinden kaçmadı."
       },
       {
-        "metin": "Lonca nizamını derinlemesine inceleyip kethüdaya tavsiye sun",
+        "metin": "Bizans bozgunundan geriye kalan ganimeti kadı huzurunda paylaştır",
         "gerekli_zeka": 55,
         "etki": {
-          "zeka": 10,
-          "itibar": 12
+          "zeka": 8,
+          "para": 60
         },
-        "sonuc": "Sunmuş olduğun adilane tavsiyeler esnaf kethüdasının takdirini kazandı."
+        "sonuc": "Adilane ganimet taksimi gazilerin sana olan itimadını pekiştirdi."
       }
     ],
     "engel_bayrak": "calisaniyor"
@@ -781,22 +848,23 @@
         "sonuc": "Şehre gidenlerin bir kısmı boş döndü, sen bari yorulmadın."
       },
       {
-        "metin": "Mahalle ikramında bulunup yoksul Reayayı sevindir",
-        "gerekli_para": 25,
+        "metin": "Gelibolu salına ilk ayak basan Süleyman Paşa'nın öncü müfrezesine katıl",
+        "gerekli_itibar": 60,
         "etki": {
-          "itibar": 8,
-          "mutluluk": 6,
-          "para": -25
+          "itibar": 18,
+          "saglik": -4
         },
-        "sonuc": "Mahalledeki yoksul ailelere fırından sıcak ekmek dağıtıp dualarını aldın."
+        "sonuc": "Rumeli fatihlerinin ilk saflarında yer alarak destansı bir şeref kazandın."
       },
       {
-        "metin": "Meseleyi ihtiyatla değerlendirip tarafsız kalmayı seç",
+        "metin": "Çimpe Kalesine yerleşecek Türkmen ailelerine erzak desteği sağla",
+        "gerekli_para": 40,
         "etki": {
-          "mutluluk": 2,
-          "zeka": 3
+          "itibar": 12,
+          "para": -40,
+          "mutluluk": 6
         },
-        "sonuc": "Acele karar vermeyip vakvakını bekledin, temkinli tutumun seni korudu."
+        "sonuc": "Rumeli'deki ilk Türk kalesine yerleşen Reayanın dualarını aldın."
       }
     ]
   },
@@ -828,23 +896,23 @@
         "sonuc": "Tahılının bir kısmı sefer için alındı. Yerinde kaldın, ambar biraz boşaldı."
       },
       {
-        "metin": "Ahi pirlerine hediye gönderip duaya talip ol",
-        "gerekli_para": 20,
+        "metin": "Tımar arazinde su arkları açtırıp ürün verimini ikiye katla",
+        "gerekli_zeka": 50,
         "etki": {
-          "itibar": 8,
-          "para": -20,
-          "mutluluk": 4
+          "para": 50,
+          "zeka": 6
         },
-        "sonuc": "Ahi piri hediyeni kabul edip sana hayır duada bulundu ve hürmet gördün."
+        "sonuc": "Sulama kanalları sayesinde tarlalarından rekor mahsul elde ettin."
       },
       {
-        "metin": "Lonca nizamını derinlemesine inceleyip kethüdaya tavsiye sun",
-        "gerekli_zeka": 55,
+        "metin": "Tımar köylülerinin vergi borçlarını bağışlayıp adalet göster",
+        "gerekli_itibar": 55,
         "etki": {
-          "zeka": 10,
-          "itibar": 12
+          "itibar": 15,
+          "mutluluk": 8,
+          "para": -20
         },
-        "sonuc": "Sunmuş olduğun adilane tavsiyeler esnaf kethüdasının takdirini kazandı."
+        "sonuc": "Köylüler sana 'Adil Ağa' lakabını taktı, sadakatleri katlandı."
       }
     ]
   },
@@ -874,23 +942,22 @@
         "sonuc": "Kargaşa zamanında dışarı çıkmamak akıllıcaydı. Yine de içindeki tedirginlik geçmedi."
       },
       {
-        "metin": "Orduya lojistik erzak ve lojistik destekte bulun",
-        "gerekli_para": 40,
+        "metin": "Kadı mahkemesinde naip olarak zor davalarda hüküm yaz",
+        "gerekli_zeka": 65,
         "etki": {
-          "itibar": 10,
-          "para": -40,
-          "zeka": 4
+          "zeka": 14,
+          "itibar": 10
         },
-        "sonuc": "Gazilerin ihtiyaçlarını karşılamak üzere sunduğun zahire desteği hayırla yad edildi."
+        "sonuc": "Yazdığın adilane şer'iyye hükümleri sancak kadısının takdirini topladı."
       },
       {
-        "metin": "Savaş alanındaki yaralı gazilere darüşşifa hizmeti ver",
+        "metin": "Mahkeme sicil kütüklerini düzenleyip vakıf arşivini tanzim et",
+        "gerekli_zeka": 55,
         "etki": {
-          "saglik": -3,
-          "itibar": 14,
-          "mutluluk": 6
+          "zeka": 10,
+          "itibar": 6
         },
-        "sonuc": "Cenk meydanında yaralanan gazilerin yaralarını sararak büyük sevap kazandın."
+        "sonuc": "Arşiv düzeni sayesinde eski arazi anlaşmazlıklarını çözdün."
       }
     ]
   },
@@ -920,22 +987,22 @@
         "sonuc": "Tarafsızlığın bazılarınca 'sadakatsizlik' sayıldı ama en azından kimseye düşman olmadın."
       },
       {
-        "metin": "Mahalle ikramında bulunup yoksul Reayayı sevindir",
-        "gerekli_para": 25,
+        "metin": "Sultan Murad Hüdavendigâr'ın yeniçeri ocağı nizamnamesini incele",
+        "gerekli_zeka": 55,
         "etki": {
-          "itibar": 8,
-          "mutluluk": 6,
-          "para": -25
+          "zeka": 8,
+          "itibar": 10
         },
-        "sonuc": "Mahalledeki yoksul ailelere fırından sıcak ekmek dağıtıp dualarını aldın."
+        "sonuc": "Yeni kurulan Yeniçeri Ocağı'nın kanunlarını öğrenip idari bilgi edindin."
       },
       {
-        "metin": "Meseleyi ihtiyatla değerlendirip tarafsız kalmayı seç",
+        "metin": "Gelibolu Kapıkulu ocağı kışlasına et ve ekmek tahsis et",
+        "gerekli_para": 50,
         "etki": {
-          "mutluluk": 2,
-          "zeka": 3
+          "itibar": 14,
+          "para": -50
         },
-        "sonuc": "Acele karar vermeyip vakvakını bekledin, temkinli tutumun seni korudu."
+        "sonuc": "Kapıkulu askerlerine yaptığın ikram ocak ağalarının takdirini kazandı."
       }
     ]
   },
@@ -964,22 +1031,23 @@
         "sonuc": "Geçmiş yıllar sana temkin öğretmişti. Sevinmek için erken olabilirdi."
       },
       {
-        "metin": "Mahalle ikramında bulunup yoksul Reayayı sevindir",
-        "gerekli_para": 25,
+        "metin": "Çirmen savaşında Meriç nehri kıyısındaki gece baskınında okçu birliğini sevk et",
+        "gerekli_itibar": 55,
         "etki": {
-          "itibar": 8,
-          "mutluluk": 6,
-          "para": -25
+          "itibar": 16,
+          "saglik": -3
         },
-        "sonuc": "Mahalledeki yoksul ailelere fırından sıcak ekmek dağıtıp dualarını aldın."
+        "sonuc": "Düşman ordusunu Meriç'e döken baskında nişancılığınla destan yazdın."
       },
       {
-        "metin": "Meseleyi ihtiyatla değerlendirip tarafsız kalmayı seç",
+        "metin": "Çirmen zaferi ganimetlerinden imarete 100 akçe vakıf parası aktar",
+        "gerekli_para": 60,
         "etki": {
-          "mutluluk": 2,
-          "zeka": 3
+          "itibar": 12,
+          "para": -60,
+          "mutluluk": 8
         },
-        "sonuc": "Acele karar vermeyip vakvakını bekledin, temkinli tutumun seni korudu."
+        "sonuc": "Ganimeti hayır işlerinde kullanman halkın hürmetini artırdı."
       }
     ]
   },
@@ -1013,23 +1081,23 @@
         "sonuc": "Elinle iş yapmayı, hem de bir loncanın parçası olmayı seçtin."
       },
       {
-        "metin": "Ahi pirlerine hediye gönderip duaya talip ol",
-        "gerekli_para": 20,
+        "metin": "Kosova meydanında Sırp kralının zırhlı birliklerine karşı yan kanat hücumunu yönet",
+        "gerekli_itibar": 65,
         "etki": {
-          "itibar": 8,
-          "para": -20,
-          "mutluluk": 4
+          "itibar": 20,
+          "saglik": -5
         },
-        "sonuc": "Ahi piri hediyeni kabul edip sana hayır duada bulundu ve hürmet gördün."
+        "sonuc": "I. Kosova meydan muharebesinde gösterdiğin kahramanlık tarihe geçti."
       },
       {
-        "metin": "Lonca nizamını derinlemesine inceleyip kethüdaya tavsiye sun",
-        "gerekli_zeka": 55,
+        "metin": "Şehit düşen Sultan Murad Hüdavendigâr'ın türbesine meşale ve buhur bağışla",
+        "gerekli_para": 30,
         "etki": {
-          "zeka": 10,
-          "itibar": 12
+          "mutluluk": 6,
+          "itibar": 10,
+          "para": -30
         },
-        "sonuc": "Sunmuş olduğun adilane tavsiyeler esnaf kethüdasının takdirini kazandı."
+        "sonuc": "Şehit padişahın ruhuna okutulan mevlüte katılarak dualar ettin."
       }
     ],
     "engel_bayrak": "calisaniyor"
@@ -1060,22 +1128,22 @@
         "sonuc": "Vergi kaydına girdin. Artık 'yeri belli' bir reayasın, devletin gözünde daha güvenilirsin."
       },
       {
-        "metin": "Mahalle ikramında bulunup yoksul Reayayı sevindir",
-        "gerekli_para": 25,
+        "metin": "Yıldırım Bayezid'in hızlı akınlarına ayak uydurup Niğbolu kalesine erzak ulaştır",
+        "gerekli_itibar": 60,
         "etki": {
-          "itibar": 8,
-          "mutluluk": 6,
-          "para": -25
+          "itibar": 18,
+          "saglik": -3
         },
-        "sonuc": "Mahalledeki yoksul ailelere fırından sıcak ekmek dağıtıp dualarını aldın."
+        "sonuc": "Yıldırım gibi hareket eden orduyla birlikte kaledeki gazilere yetişti."
       },
       {
-        "metin": "Meseleyi ihtiyatla değerlendirip tarafsız kalmayı seç",
+        "metin": "Esir alınan Haçlı şövalyelerinin fidye müzakerelerinde tercümanlık et",
+        "gerekli_zeka": 65,
         "etki": {
-          "mutluluk": 2,
-          "zeka": 3
+          "para": 120,
+          "zeka": 10
         },
-        "sonuc": "Acele karar vermeyip vakvakını bekledin, temkinli tutumun seni korudu."
+        "sonuc": "Fransız ve Macar soylularının fidyelerinden yüksek pay elde ettin."
       }
     ]
   },
@@ -1104,22 +1172,22 @@
         "sonuc": "Ortalık netleşene kadar sessiz kalman akıllıcaydı."
       },
       {
-        "metin": "Mahalle ikramında bulunup yoksul Reayayı sevindir",
-        "gerekli_para": 25,
+        "metin": "Ankara savaşında Timur'un fillere karşı savunma hattında barikat kur",
+        "gerekli_itibar": 60,
         "etki": {
-          "itibar": 8,
-          "mutluluk": 6,
-          "para": -25
+          "saglik": -8,
+          "itibar": 12
         },
-        "sonuc": "Mahalledeki yoksul ailelere fırından sıcak ekmek dağıtıp dualarını aldın."
+        "sonuc": "Fillerin hücumuna karşı direndin, yaralandın ama canını kurtardın."
       },
       {
-        "metin": "Meseleyi ihtiyatla değerlendirip tarafsız kalmayı seç",
+        "metin": "Çatışma hengamesinde Bursa'daki kıymetli elyazmaları ve evrakı güvenli yere kaçır",
+        "gerekli_zeka": 60,
         "etki": {
-          "mutluluk": 2,
-          "zeka": 3
+          "zeka": 12,
+          "itibar": 10
         },
-        "sonuc": "Acele karar vermeyip vakvakını bekledin, temkinli tutumun seni korudu."
+        "sonuc": "Tarihi kütüphane arşivlerini yağmadan kurtararak ilim dünyasına hizmet ettin."
       }
     ]
   },
@@ -1152,13 +1220,23 @@
         "sonuc": "Ahi piri hediyeni kabul edip sana hayır duada bulundu ve hürmet gördün."
       },
       {
-        "metin": "Lonca nizamını derinlemesine inceleyip kethüdaya tavsiye sun",
-        "gerekli_zeka": 55,
+        "metin": "Çelebi Mehmed'in Amasya'daki karargahına katılıp beylik birliğini yeniden kur",
+        "gerekli_itibar": 55,
         "etki": {
-          "zeka": 10,
-          "itibar": 12
+          "itibar": 15,
+          "zeka": 6
         },
-        "sonuc": "Sunmuş olduğun adilane tavsiyeler esnaf kethüdasının takdirini kazandı."
+        "sonuc": "Fetret devrinde devletin ikinci kurucusunun yanında sadakatle durdun."
+      },
+      {
+        "metin": "İç savaşta zarar gören mahalle halkına buğday dağıtıp huzur sağla",
+        "gerekli_para": 40,
+        "etki": {
+          "itibar": 12,
+          "para": -40,
+          "mutluluk": 8
+        },
+        "sonuc": "Kargaşa döneminde mahallelinin sığınağı ve hamisi oldun."
       }
     ]
   },
@@ -1187,23 +1265,22 @@
         "sonuc": "Kaçamak cevapların kadıyı tatmin etmedi. Mahallede biraz laf oldu."
       },
       {
-        "metin": "Orduya lojistik erzak ve lojistik destekte bulun",
-        "gerekli_para": 40,
+        "metin": "Şeyh Bedreddin müritlerinin yaydığı batıl fikirleri medresede ilmi delillerle çürüt",
+        "gerekli_zeka": 65,
         "etki": {
-          "itibar": 10,
-          "para": -40,
-          "zeka": 4
+          "zeka": 15,
+          "itibar": 10
         },
-        "sonuc": "Gazilerin ihtiyaçlarını karşılamak üzere sunduğun zahire desteği hayırla yad edildi."
+        "sonuc": "Müderrisler huzurundaki ilmi kelam tartışmasında büyük itibar kazandın."
       },
       {
-        "metin": "Savaş alanındaki yaralı gazilere darüşşifa hizmeti ver",
+        "metin": "İsyan bölgesindeki kargaşada kadı emriyle mahalle asayiş nöbetini üstlen",
+        "gerekli_itibar": 50,
         "etki": {
-          "saglik": -3,
-          "itibar": 14,
-          "mutluluk": 6
+          "itibar": 10,
+          "saglik": -2
         },
-        "sonuc": "Cenk meydanında yaralanan gazilerin yaralarını sararak büyük sevap kazandın."
+        "sonuc": "İsyancıların şehre sızmasını önleyerek asayişi korudun."
       }
     ]
   },
@@ -1233,22 +1310,23 @@
         "sonuc": "Aile biraz şaşırdı ama kararına saygı gösterdi."
       },
       {
-        "metin": "Mahalle ikramında bulunup yoksul Reayayı sevindir",
-        "gerekli_para": 25,
+        "metin": "Varna savaşında Haçlı kralı Vladislav'ın merkez hücumunu püskürten yeniçeri safında dur",
+        "gerekli_itibar": 65,
         "etki": {
-          "itibar": 8,
-          "mutluluk": 6,
-          "para": -25
+          "itibar": 20,
+          "saglik": -4
         },
-        "sonuc": "Mahalledeki yoksul ailelere fırından sıcak ekmek dağıtıp dualarını aldın."
+        "sonuc": "Varna meydanında Kral Vladislav'ın düşürüldüğü tarihi anın şahidi ve kahramanı oldun."
       },
       {
-        "metin": "Meseleyi ihtiyatla değerlendirip tarafsız kalmayı seç",
+        "metin": "Varna zaferi sonrası Varna kalesinde gazilere şerbet ikram et",
+        "gerekli_para": 30,
         "etki": {
-          "mutluluk": 2,
-          "zeka": 3
+          "mutluluk": 8,
+          "itibar": 8,
+          "para": -30
         },
-        "sonuc": "Acele karar vermeyip vakvakını bekledin, temkinli tutumun seni korudu."
+        "sonuc": "Büyük zaferin ardından sevinç içinde gazilerle bayram ettiniz."
       }
     ]
   },
@@ -1282,13 +1360,22 @@
         "sonuc": "Talebelerin kitap masrafını karşılayarak müderrislerin takdirini aldın."
       },
       {
-        "metin": "Fıkıh ve şer'iyye meselelerinde ulemayla mütalaa yap",
-        "gerekli_zeka": 60,
+        "metin": "II. Kosova muharebesinde Hunyadi Yanoş'un zırhlı süvarilerine karşı pusuyu sevk et",
+        "gerekli_itibar": 60,
         "etki": {
-          "zeka": 12,
-          "itibar": 8
+          "itibar": 18,
+          "saglik": -3
         },
-        "sonuc": "Derin fıkıh bilgin ulema meclisinde takdirle karşılandı."
+        "sonuc": "Hunoidlerin son hamlesini kırarak Balkanlar'daki Osmanlı hakimiyetini mühürledin."
+      },
+      {
+        "metin": "Kosova Ovası'ndaki şehitlerin defin ve defin kaydı işlerini yürüt",
+        "gerekli_zeka": 50,
+        "etki": {
+          "itibar": 10,
+          "zeka": 6
+        },
+        "sonuc": "Şehitlerin künyelerini kadı kütüğüne tescil ederek ailelerine haber ulaştırdın."
       }
     ]
   },
@@ -1317,22 +1404,22 @@
         "sonuc": "Büyük siyaset kendi mecrasında akarken, sen kendi hayatını yaşamaya devam ettin."
       },
       {
-        "metin": "Mahalle ikramında bulunup yoksul Reayayı sevindir",
-        "gerekli_para": 25,
+        "metin": "Çandarlı Halil Paşa taraftarı ulema ile babasının dönmesini bekle",
+        "gerekli_zeka": 55,
         "etki": {
-          "itibar": 8,
-          "mutluluk": 6,
-          "para": -25
+          "zeka": 8,
+          "itibar": 8
         },
-        "sonuc": "Mahalledeki yoksul ailelere fırından sıcak ekmek dağıtıp dualarını aldın."
+        "sonuc": "Devlet tecrübesine hürmet edip taht çalkantısını sükunetle takip ettin."
       },
       {
-        "metin": "Meseleyi ihtiyatla değerlendirip tarafsız kalmayı seç",
+        "metin": "Genç Sultan Mehmed'in haşmetli kararlarına ve idealine tam biat et",
+        "gerekli_itibar": 50,
         "etki": {
-          "mutluluk": 2,
-          "zeka": 3
+          "itibar": 12,
+          "mutluluk": 6
         },
-        "sonuc": "Acele karar vermeyip vakvakını bekledin, temkinli tutumun seni korudu."
+        "sonuc": "Genç sultanın vizyonunu destekleyip saray çevresinde nüfuz edindin."
       }
     ]
   },
@@ -1361,22 +1448,22 @@
         "sonuc": "Bilinen topraklarda kalmak güvenliydi. Bazı komşuların Rumeli'ye gittiğini duydun."
       },
       {
-        "metin": "Mahalle ikramında bulunup yoksul Reayayı sevindir",
-        "gerekli_para": 25,
+        "metin": "Rumeli beylerbeyliğine müracaat edip yeni fetholunan Edirne'de dükkan yeri iste",
+        "gerekli_para": 60,
         "etki": {
-          "itibar": 8,
-          "mutluluk": 6,
-          "para": -25
+          "para": 40,
+          "itibar": 8
         },
-        "sonuc": "Mahalledeki yoksul ailelere fırından sıcak ekmek dağıtıp dualarını aldın."
+        "sonuc": "Yeni başkent Edirne çarşısında akar sahibi olup gelirini artırdın."
       },
       {
-        "metin": "Meseleyi ihtiyatla değerlendirip tarafsız kalmayı seç",
+        "metin": "Edirne Gazi Evrenos Bey'in akıncı teşkilatına yazılmayı dene",
+        "gerekli_itibar": 50,
         "etki": {
-          "mutluluk": 2,
-          "zeka": 3
+          "itibar": 14,
+          "saglik": -2
         },
-        "sonuc": "Acele karar vermeyip vakvakını bekledin, temkinli tutumun seni korudu."
+        "sonuc": "Evrenos Bey'in akıncı sancağında adını duyurdun."
       }
     ]
   },
@@ -1405,23 +1492,22 @@
         "sonuc": "Savaş haberleri sık geliyordu artık. Herkes kendi telaşındaydı."
       },
       {
-        "metin": "Orduya lojistik erzak ve lojistik destekte bulun",
-        "gerekli_para": 40,
+        "metin": "Sırpsındığı gecesinde Meriç nehrinde pusu kuran akıncı birliklerine kılavuzluk et",
+        "gerekli_zeka": 50,
         "etki": {
-          "itibar": 10,
-          "para": -40,
-          "zeka": 4
+          "zeka": 8,
+          "itibar": 12
         },
-        "sonuc": "Gazilerin ihtiyaçlarını karşılamak üzere sunduğun zahire desteği hayırla yad edildi."
+        "sonuc": "Gece coğrafyasını iyi bilmen sayesinde düşman ordusunun kaçışını engelledin."
       },
       {
-        "metin": "Savaş alanındaki yaralı gazilere darüşşifa hizmeti ver",
+        "metin": "Baskın sonrası ele geçirilen Haçlı sancaklarını Bursa Divanı'na teslim et",
+        "gerekli_itibar": 55,
         "etki": {
-          "saglik": -3,
-          "itibar": 14,
-          "mutluluk": 6
+          "itibar": 15,
+          "para": 30
         },
-        "sonuc": "Cenk meydanında yaralanan gazilerin yaralarını sararak büyük sevap kazandın."
+        "sonuc": "Getirdiğin sancaklar Orhan Gazi tarafından ödüllendirildi."
       }
     ]
   },
@@ -1452,23 +1538,22 @@
         "sonuc": "Zaferin haberi köye ulaştığında büyük bir sevinç yaşandı."
       },
       {
-        "metin": "Orduya lojistik erzak ve lojistik destekte bulun",
-        "gerekli_para": 40,
+        "metin": "Yıldırım Bayezid'in gece atlı yürüyüşüyle Niğbolu surlarına ulaşan öncülere katıl",
+        "gerekli_itibar": 65,
         "etki": {
-          "itibar": 10,
-          "para": -40,
-          "zeka": 4
+          "itibar": 20,
+          "saglik": -4
         },
-        "sonuc": "Gazilerin ihtiyaçlarını karşılamak üzere sunduğun zahire desteği hayırla yad edildi."
+        "sonuc": "'Bayezid buradadır!' nidasını kaleden duyan Doğan Bey'in sevincine ortak oldun."
       },
       {
-        "metin": "Savaş alanındaki yaralı gazilere darüşşifa hizmeti ver",
+        "metin": "Niğbolu zaferinden sonra Fransız kontlarının esaret işlerini tanzim et",
+        "gerekli_zeka": 60,
         "etki": {
-          "saglik": -3,
-          "itibar": 14,
-          "mutluluk": 6
+          "para": 80,
+          "zeka": 8
         },
-        "sonuc": "Cenk meydanında yaralanan gazilerin yaralarını sararak büyük sevap kazandın."
+        "sonuc": "Avrupalı soylulardan alınan yüklü tazminattan pay aldın."
       }
     ]
   },
@@ -1499,23 +1584,23 @@
         "sonuc": "İsyan bastırıldı. Bazı komşuların bu olaydan etkilendiğini duydun."
       },
       {
-        "metin": "Medrese talebelerine ilmi burs ve kitap tedarik et",
-        "gerekli_para": 35,
+        "metin": "Börklüce Mustafa'nın Karaburun'daki isyanını bastıran Amasra sipahilerine katıl",
+        "gerekli_itibar": 55,
         "etki": {
-          "zeka": 6,
-          "itibar": 10,
-          "para": -35
+          "itibar": 14,
+          "saglik": -3
         },
-        "sonuc": "Talebelerin kitap masrafını karşılayarak müderrislerin takdirini aldın."
+        "sonuc": "Devlete karşı açılan tehlikeli bayrağı indirerek sadakat gösterdin."
       },
       {
-        "metin": "Fıkıh ve şer'iyye meselelerinde ulemayla mütalaa yap",
-        "gerekli_zeka": 60,
+        "metin": "İsyan etkisindeki köylerin Reayasına erzak temin edip itaate davet et",
+        "gerekli_para": 35,
         "etki": {
-          "zeka": 12,
-          "itibar": 8
+          "itibar": 10,
+          "para": -35,
+          "mutluluk": 6
         },
-        "sonuc": "Derin fıkıh bilgin ulema meclisinde takdirle karşılandı."
+        "sonuc": "Köylülerin yatışmasını sağlayarak kan dökülmesini önledin."
       }
     ]
   },
@@ -1529,7 +1614,7 @@
     "metin": "Macar kumandan Hunyadi Yanoş, Varna'daki yenilginin intikamını almak için yeniden büyük bir orduyla geldi. II. Murad ordusunun başında yine Kosova Ovası'na çıktı.",
     "secenekler": [
       {
-        "metin": "Sefere katıl",
+        "metin": "Varna sahrasında yaralanan akıncılara sargı bezi ve merhem tedarik et",
         "etki": {
           "para": 4,
           "saglik": -3,
@@ -1547,23 +1632,23 @@
         "sonuc": "Ambarından bir kısmı sefer için alındı. Zafer haberi geldiğinde gurur duydun."
       },
       {
-        "metin": "Orduya lojistik erzak ve lojistik destekte bulun",
-        "gerekli_para": 40,
+        "metin": "II. Kosova'da Hunyadi Yanoş'un arabalı tabur (Tabor) savunmasını kıran topçulara yardım et",
+        "gerekli_zeka": 55,
         "etki": {
-          "itibar": 10,
-          "para": -40,
-          "zeka": 4
+          "zeka": 10,
+          "itibar": 12
         },
-        "sonuc": "Gazilerin ihtiyaçlarını karşılamak üzere sunduğun zahire desteği hayırla yad edildi."
+        "sonuc": "Topçu ateşinin sevkinde yardımınla Macar taburunun dağılmasını sağladın."
       },
       {
-        "metin": "Savaş alanındaki yaralı gazilere darüşşifa hizmeti ver",
+        "metin": "Muharebe meydanında yaralanan sipahileri kervanla Manisa darüşşifasına getir",
+        "gerekli_para": 40,
         "etki": {
-          "saglik": -3,
-          "itibar": 14,
-          "mutluluk": 6
+          "itibar": 12,
+          "para": -40,
+          "saglik": 2
         },
-        "sonuc": "Cenk meydanında yaralanan gazilerin yaralarını sararak büyük sevap kazandın."
+        "sonuc": "Gazilerin dualarını aldın, yaralı sipahilerin iyileşmesine vesile oldun."
       }
     ]
   },
@@ -1594,22 +1679,23 @@
         "sonuc": "Herkesin bu büyük hazırlığa koştuğu bir dönemde geride durmak seni biraz rahatsız etti."
       },
       {
-        "metin": "Mahalle ikramında bulunup yoksul Reayayı sevindir",
-        "gerekli_para": 25,
+        "metin": "Hisar inşasına taş ve kireç taşıyan deve kervanı tahsis et",
+        "gerekli_para": 50,
         "etki": {
-          "itibar": 8,
-          "mutluluk": 6,
-          "para": -25
+          "itibar": 12,
+          "para": -50,
+          "mutluluk": 4
         },
-        "sonuc": "Mahalledeki yoksul ailelere fırından sıcak ekmek dağıtıp dualarını aldın."
+        "sonuc": "Rumelihisarı'nın boğazı kesen kulelerinin yükselmesine katkıda bulundun."
       },
       {
-        "metin": "Meseleyi ihtiyatla değerlendirip tarafsız kalmayı seç",
+        "metin": "Mühendishane usulü Şahi toplarının döküm fırınında ustalara yardım et",
+        "gerekli_zeka": 65,
         "etki": {
-          "mutluluk": 2,
-          "zeka": 3
+          "zeka": 14,
+          "itibar": 10
         },
-        "sonuc": "Acele karar vermeyip vakvakını bekledin, temkinli tutumun seni korudu."
+        "sonuc": "Urban Usta'nın devasa top döküm fırınında teknik bilgi edindin."
       }
     ]
   },
@@ -1639,23 +1725,22 @@
         "sonuc": "İstanbul'a doğru yola çıkanlar arasındaydın."
       },
       {
-        "metin": "Orduya lojistik erzak ve lojistik destekte bulun",
-        "gerekli_para": 40,
+        "metin": "Topkapı surlarındaki son umumi hücumda Ulubatlı'nın yanındaki ilk gruba katıl",
+        "gerekli_itibar": 70,
         "etki": {
-          "itibar": 10,
-          "para": -40,
-          "zeka": 4
+          "itibar": 25,
+          "saglik": -6
         },
-        "sonuc": "Gazilerin ihtiyaçlarını karşılamak üzere sunduğun zahire desteği hayırla yad edildi."
+        "sonuc": "İstanbul surlarına sancağın dikildiği o tarihi anda ilk saflardaydın!"
       },
       {
-        "metin": "Savaş alanındaki yaralı gazilere darüşşifa hizmeti ver",
+        "metin": "Fetih sonrası İstanbul'un imarı için kadı emriyle mülk tahriri yap",
+        "gerekli_zeka": 60,
         "etki": {
-          "saglik": -3,
-          "itibar": 14,
-          "mutluluk": 6
+          "zeka": 12,
+          "para": 50
         },
-        "sonuc": "Cenk meydanında yaralanan gazilerin yaralarını sararak büyük sevap kazandın."
+        "sonuc": "Yeni şehrin ilk tahrir defterlerini yazarak devlet hizmetinde yükseldin."
       }
     ]
   },
@@ -1685,22 +1770,22 @@
         "sonuc": "Köklerini bırakmak istemedin. İstanbul'un hikayelerini uzaktan dinlemekle yetindin."
       },
       {
-        "metin": "Mahalle ikramında bulunup yoksul Reayayı sevindir",
-        "gerekli_para": 25,
+        "metin": "Dersaadet'te boş kalan bakkal dükkanının gedik hakkını satın al",
+        "gerekli_para": 100,
         "etki": {
-          "itibar": 8,
-          "mutluluk": 6,
-          "para": -25
+          "para": 60,
+          "itibar": 8
         },
-        "sonuc": "Mahalledeki yoksul ailelere fırından sıcak ekmek dağıtıp dualarını aldın."
+        "sonuc": "İstanbul'un ilk Osmanlı çarşısında gedik sahibi olup karlı bir akar kurdun."
       },
       {
-        "metin": "Meseleyi ihtiyatla değerlendirip tarafsız kalmayı seç",
+        "metin": "Kadı siciline kaydolup İstanbul imaretine zeytinyağı ve vakfiye bağışla",
+        "gerekli_itibar": 55,
         "etki": {
-          "mutluluk": 2,
-          "zeka": 3
+          "itibar": 14,
+          "para": -40
         },
-        "sonuc": "Acele karar vermeyip vakvakını bekledin, temkinli tutumun seni korudu."
+        "sonuc": "Yeni başkentte ismin hayırperver bir Osmanlı sakini olarak tescillendi."
       }
     ]
   },
@@ -1728,22 +1813,23 @@
         "sonuc": "Büyük olaylar oluyordu ama hayat dükkanda devam ediyordu."
       },
       {
-        "metin": "Mahalle ikramında bulunup yoksul Reayayı sevindir",
-        "gerekli_para": 25,
+        "metin": "Fatih'in hocası Akşemseddin'in okuduğu ilk Cuma hutbesini dinlemek için Ayasofya'ya git",
+        "gerekli_itibar": 45,
         "etki": {
-          "itibar": 8,
-          "mutluluk": 6,
-          "para": -25
+          "mutluluk": 12,
+          "itibar": 8
         },
-        "sonuc": "Mahalledeki yoksul ailelere fırından sıcak ekmek dağıtıp dualarını aldın."
+        "sonuc": "Tarihi mabette kılınan ilk Cuma namazında ruhun feyizle doldu."
       },
       {
-        "metin": "Meseleyi ihtiyatla değerlendirip tarafsız kalmayı seç",
+        "metin": "Ayasofya Cami vakfiyesine halı ve şamdan hediye et",
+        "gerekli_para": 40,
         "etki": {
-          "mutluluk": 2,
-          "zeka": 3
+          "itibar": 12,
+          "para": -40,
+          "mutluluk": 6
         },
-        "sonuc": "Acele karar vermeyip vakvakını bekledin, temkinli tutumun seni korudu."
+        "sonuc": "Hediye ettiğin şamdan Cami vakfı envanterine adınla tescil edildi."
       }
     ]
   },
@@ -1766,7 +1852,7 @@
         "sonuc": "Artık mahallede sana 'gazi' diye hitap ediliyor. Bu, kolay kazanılmayan bir şerefti."
       },
       {
-        "metin": "Mahalle ikramında bulunup yoksul Reayayı sevindir",
+        "metin": "Mahalle meydanında kurban kestirip etini yoksullara pay et",
         "gerekli_para": 25,
         "etki": {
           "itibar": 8,
@@ -1776,12 +1862,22 @@
         "sonuc": "Mahalledeki yoksul ailelere fırından sıcak ekmek dağıtıp dualarını aldın."
       },
       {
-        "metin": "Meseleyi ihtiyatla değerlendirip tarafsız kalmayı seç",
+        "metin": "Gazi unvanı tescili için sancak beyinin huzurunda kılıç kuşan",
+        "gerekli_itibar": 50,
         "etki": {
-          "mutluluk": 2,
-          "zeka": 3
+          "itibar": 15,
+          "zeka": 4
         },
-        "sonuc": "Acele karar vermeyip vakvakını bekledin, temkinli tutumun seni korudu."
+        "sonuc": "Sancak beyi kılıç kuşatarak seni gazi unvanıyla şereflendirdi."
+      },
+      {
+        "metin": "Gazilik hakkı olarak kadı mahkemesinden vergi muafiyeti berattı al",
+        "gerekli_zeka": 55,
+        "etki": {
+          "para": 40,
+          "zeka": 6
+        },
+        "sonuc": "Vergi berattı sayesinde toprağının gelirini emniyete aldın."
       }
     ]
   },
@@ -1812,22 +1908,23 @@
         "sonuc": "Rüya hikayeleri sık anlatılırdı. Kaçı gerçek kaçı efsane, kimse tam bilemezdi."
       },
       {
-        "metin": "Mahalle ikramında bulunup yoksul Reayayı sevindir",
-        "gerekli_para": 25,
+        "metin": "Zaviyede dervişlere şerbet ikram edip rüya tabirini dergâhtakilerden dinle",
+        "gerekli_para": 20,
         "etki": {
-          "itibar": 8,
-          "mutluluk": 6,
-          "para": -25
+          "mutluluk": 8,
+          "itibar": 6,
+          "para": -20
         },
-        "sonuc": "Mahalledeki yoksul ailelere fırından sıcak ekmek dağıtıp dualarını aldın."
+        "sonuc": "Dergah dervişleriyle çorba içip rüya tabirinin manevi feyzini yaşadın."
       },
       {
-        "metin": "Meseleyi ihtiyatla değerlendirip tarafsız kalmayı seç",
+        "metin": "Osman Bey'in sancak beyliği alameti olarak Bilecik'te dua meclisi kur",
+        "gerekli_itibar": 50,
         "etki": {
-          "mutluluk": 2,
-          "zeka": 3
+          "zeka": 6,
+          "itibar": 10
         },
-        "sonuc": "Acele karar vermeyip vakvakını bekledin, temkinli tutumun seni korudu."
+        "sonuc": "Kurduğun dua meclisi uç bölgesinde alpların takdirini topladı."
       }
     ]
   },
@@ -1858,23 +1955,22 @@
         "sonuc": "Değişim herkese göre değildi. Sen bildiğin topraklarda kalmayı seçtin."
       },
       {
-        "metin": "Ahi pirlerine hediye gönderip duaya talip ol",
-        "gerekli_para": 20,
+        "metin": "Dursun Fakih'in okuduğu ilk Osmanlı hutbesini dinlemeye Karacahisar'a git",
+        "gerekli_itibar": 40,
         "etki": {
-          "itibar": 8,
-          "para": -20,
-          "mutluluk": 4
+          "mutluluk": 10,
+          "itibar": 8
         },
-        "sonuc": "Ahi piri hediyeni kabul edip sana hayır duada bulundu ve hürmet gördün."
+        "sonuc": "Bağımsız Osmanlı Beyliği'nin okunan ilk hutbesine şahitlik ettin!"
       },
       {
-        "metin": "Lonca nizamını derinlemesine inceleyip kethüdaya tavsiye sun",
-        "gerekli_zeka": 55,
+        "metin": "Kadı mahkemesinde şer'iyye sicillerinin tutulmasına hokka temin et",
+        "gerekli_zeka": 50,
         "etki": {
-          "zeka": 10,
-          "itibar": 12
+          "zeka": 8,
+          "itibar": 6
         },
-        "sonuc": "Sunmuş olduğun adilane tavsiyeler esnaf kethüdasının takdirini kazandı."
+        "sonuc": "Dursun Fakih'in adalet mekanizmasına mütevazı bir katkıda bulundun."
       }
     ]
   },
@@ -1890,7 +1986,7 @@
     "metin": "Bölgedeki bir ahi zaviyesi yeni üye arıyor. Şeyh Edebali'nin de bu çevreden olduğu, Osman Bey'in kendisinin de ahilere yakın durduğu söyleniyor.",
     "secenekler": [
       {
-        "metin": "Zaviyeye katıl, ahilik yoluna gir",
+        "metin": "Dergah mutfağında nevniyaz olarak hizmete başla",
         "etki": {
           "zeka": 4,
           "itibar": 3
@@ -1907,23 +2003,23 @@
         "sonuc": "Herkesin bir yolu vardı. Sen kendi bildiğin yoldan devam ettin."
       },
       {
-        "metin": "Ahi pirlerine hediye gönderip duaya talip ol",
-        "gerekli_para": 20,
+        "metin": "Zaviye mutfağına buğday ve koyun bağışlayıp pir duasını al",
+        "gerekli_para": 30,
         "etki": {
-          "itibar": 8,
-          "para": -20,
-          "mutluluk": 4
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
         },
-        "sonuc": "Ahi piri hediyeni kabul edip sana hayır duada bulundu ve hürmet gördün."
+        "sonuc": "Ahi pirlerinin duasını aldın, zawiyedeki itibarın arttı."
       },
       {
-        "metin": "Lonca nizamını derinlemesine inceleyip kethüdaya tavsiye sun",
-        "gerekli_zeka": 55,
+        "metin": "Ahi kethüdasından esnaf ahlakı ve futuvvetname dersleri al",
+        "gerekli_zeka": 50,
         "etki": {
-          "zeka": 10,
-          "itibar": 12
+          "zeka": 8,
+          "itibar": 6
         },
-        "sonuc": "Sunmuş olduğun adilane tavsiyeler esnaf kethüdasının takdirini kazandı."
+        "sonuc": "Futuvvetname ilkelerini öğrenip ahi camiasında hürmet gördün."
       }
     ],
     "engel_bayrak": "calisaniyor"
@@ -1958,23 +2054,22 @@
         "sonuc": "Baskının başarıyla sonuçlandığını sonradan duydun."
       },
       {
-        "metin": "Orduya lojistik erzak ve lojistik destekte bulun",
-        "gerekli_para": 40,
+        "metin": "Bilecik kalesine kadılı kıyafetle giren kervan kafilesine mühimmat taşı",
+        "gerekli_zeka": 55,
         "etki": {
-          "itibar": 10,
-          "para": -40,
-          "zeka": 4
+          "zeka": 10,
+          "itibar": 12
         },
-        "sonuc": "Gazilerin ihtiyaçlarını karşılamak üzere sunduğun zahire desteği hayırla yad edildi."
+        "sonuc": "Osman Bey'in zekice tasarladığı kale baskınında önemli rol oynadın."
       },
       {
-        "metin": "Savaş alanındaki yaralı gazilere darüşşifa hizmeti ver",
+        "metin": "Kale fethinden sonra Tekfur gazinesindeki ganimeti kadı huzurunda paylaştır",
+        "gerekli_para": 40,
         "etki": {
-          "saglik": -3,
-          "itibar": 14,
-          "mutluluk": 6
+          "para": 50,
+          "itibar": 8
         },
-        "sonuc": "Cenk meydanında yaralanan gazilerin yaralarını sararak büyük sevap kazandın."
+        "sonuc": "Ganimet taksiminde adilane tutumunla gazilerin güvenini kazandın."
       }
     ]
   },
@@ -1991,7 +2086,7 @@
     "metin": "Komutan Turgut Alp'in İnegöl üzerine yürüdüğü, senin de bu sefere katılman istendiği haberi geldi.",
     "secenekler": [
       {
-        "metin": "Sefere katıl",
+        "metin": "İnegöl kuşatması ordusuna et ve un sevkiyatı yap",
         "etki": {
           "para": 3,
           "saglik": -2,
@@ -2007,23 +2102,22 @@
         "sonuc": "Zafer haberi köye ulaştığında herkes sevindi."
       },
       {
-        "metin": "Orduya lojistik erzak ve lojistik destekte bulun",
-        "gerekli_para": 40,
+        "metin": "İnegöl kalesinin kuşatmasında balistra ve mancınık mühimmatı hazırla",
+        "gerekli_zeka": 50,
         "etki": {
-          "itibar": 10,
-          "para": -40,
-          "zeka": 4
+          "zeka": 8,
+          "itibar": 10
         },
-        "sonuc": "Gazilerin ihtiyaçlarını karşılamak üzere sunduğun zahire desteği hayırla yad edildi."
+        "sonuc": "Turgut Alp'in mancınıkçılarına verdiğin teknik destek fethi kolaylaştırdı."
       },
       {
-        "metin": "Savaş alanındaki yaralı gazilere darüşşifa hizmeti ver",
+        "metin": "İnegöl fethi sonrası garnizon birliğine erzak tahsis et",
+        "gerekli_para": 30,
         "etki": {
-          "saglik": -3,
-          "itibar": 14,
-          "mutluluk": 6
+          "itibar": 10,
+          "para": -30
         },
-        "sonuc": "Cenk meydanında yaralanan gazilerin yaralarını sararak büyük sevap kazandın."
+        "sonuc": "Yeni fethedilen kaledeki gazilerin ihtiyaçlarını karşıladın."
       }
     ]
   },

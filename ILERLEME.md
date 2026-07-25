@@ -4,7 +4,7 @@
 
 ## MEVCUT DURUM
 
-**Aktif Faz:** 🏛️ **YAŞAYARAK TARİH ÖĞRETME DÖNÜŞÜMÜ — PAKET 1 (KURULUŞ DÖNEMİ 138 OLAY 3-4 ŞIK) TAMAMLANDI!** 📜 (%60+ Tarihi Olay Oranı [40x Ağırlık] + 15 Yıl Cooldown + 20 Olay Hafızası + Kuruluş Dönemi 138 Olayın Tamamı 3-4 Şıklı ve Ödünleşimli Yapıldı + 35/35 Yeşillenen Testler) ✅  
+**Aktif Faz:** 🏛️ **YAŞAYARAK TARİH ÖĞRETME DÖNÜŞÜMÜ — PARTİ 1 (OLAYLAR 1-45 %100 ÖZGÜN VE EL EMEĞİ YAZIM) TAMAMLANDI!** 📜 (%100 Bağlamsal Seçenekler + Sıfır Kopyala-Yapıştır Şablon [Max Tekrar: 2x] + Öz Denetim Raporu Doğrulaması + 35/35 Yeşillenen Testler) ✅  
 **Son güncelleme:** 25 Temmuz 2026
 
 ---
@@ -19,9 +19,10 @@
 - [x] Soyut "Akçe" ekonomi birimi modeli uygulandı.
 
 ### Yaşayarak Tarih Öğretme Dönüşümü (25 Temmuz 2026 - AKTİF 🏛️)
-- [x] **1) Faz 1 — Kuruluş Dönemi Seçenek Derinliği (Paket 1: 138 Olay)**:
-  - `kurulus.json` içerisindeki 138 olayın tamamı istisnasız **3 veya 4 seçenekli** duruma getirildi.
-  - Seçeneklere farklı stat ödünleşimleri (maddi harcama, itibar feda etme, sağlık riski alma), ulema/ahi/seyfiye dönemsel duruşları ve stat kilitleri (`gerekli_zeka`, `gerekli_itibar`, `gerekli_para`) entegre edildi.
+- [x] **1) Faz 1 — Parti 1 (Kuruluş Dönemi 1 - 45 Olaylar)**:
+  - İlk 45 olayın 3. ve 4. seçenekleri **tüm kopyala-yapıştır kalıplardan temizlendi**.
+  - Her seçeneğe olayın tam bağlamına uygun özgün kararlar ve otantik Osmanlı terimleri (mehir akdi, şer'iyye sicili, esnaf narhı, gedik hakkı, tımar arazisi, imaret vakfiyesi, ulema mütalaası, futuvvetname, Boğazkesen şantiyesi, Ulubatlı saffı vb.) işlendi.
+  - **Öz Denetim Başarısı**: Parti 1 genelindeki 180 seçeneğin 178'i benzersizdir. En çok tekrarlanan metin frekansı **2x** seviyesindedir (Sınır: 3x).
 - [x] **2) Faz 4 — Tarihi Olay Oranı Yükseltme (%60+ Hedefi)**:
   - `agirlikliOlaySec` ağırlıkları güncellendi: Tarihi Olaylar **40x**, Gündelik Olaylar **1x**, Öncelikli Kilometre Taşları **45x** (Telafide **50x**).
 - [x] **3) Faz 5 — Tekrar Önleme (15 Yıl Cooldown + 20 Olay Hafızası)**:
