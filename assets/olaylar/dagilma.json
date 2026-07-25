@@ -5210,5 +5210,2904 @@
         "sonuc": "Mahalledeki çocukların okuma yazma öğrenmesine destek verdin."
       }
     ]
+  },
+  {
+    "id": "dagilma_1845_polis_teskilati",
+    "yas_min": 18,
+    "yas_max": 65,
+    "tarih_yil_min": 1845,
+    "tarih_yil_max": 1845,
+    "tek_seferlik": true,
+    "donem": "dagilma",
+    "alt_donem": "abdulmecid",
+    "metin": "İstanbul'da asayişi modern usullerle sağlamak üzere Polis Teşkilatı (Polis Nizamnamesi) resmi olarak kuruldu (10 Nisan 1845).",
+    "secenekler": [
+      {
+        "metin": "İlk Polis Komiseri olarak Dersaadet sokaklarında emniyeti sağla",
+        "gerekli_bayrak": "meslek_seyfiye",
+        "etki": {
+          "itibar": 22,
+          "para": 20,
+          "saglik": 5
+        },
+        "sonuc": "İstanbul'da hırsızlık ve haksızlığı önleyip emniyet amiri oldun."
+      },
+      {
+        "metin": "Polis karakollarına bina ve araç gereç malzemesi ikmali yap",
+        "gerekli_para": 35,
+        "etki": {
+          "para": 35,
+          "itibar": 10
+        },
+        "sonuc": "Karakol inşaatlarından kâr elde ettin."
+      },
+      {
+        "metin": "Polis Nizamnamesi hukuk kurallarını kaleme alan kâtip ol",
+        "gerekli_zeka": 45,
+        "etki": {
+          "itibar": 18,
+          "zeka": 10
+        },
+        "sonuc": "Adliye nezaretinde saygınlığın arttı."
+      },
+      {
+        "metin": "Mahallende bekçilerle polis teşkilatına yardımcı ol",
+        "etki": {
+          "itibar": 12,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahalle halkının huzurunu korudun."
+      }
+    ]
+  },
+  {
+    "id": "dagilma_1850_sirket_i_hayriye",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1850,
+    "tarih_yil_max": 1850,
+    "tek_seferlik": true,
+    "donem": "dagilma",
+    "alt_donem": "abdulmecid",
+    "metin": "Cevdet Paşa ve Fuad Paşa'nın nizamnamesiyle ilk anonim şirket olan Şirket-i Hayriye (Boğaziçi Vapur Seferleri) kuruldu.",
+    "secenekler": [
+      {
+        "metin": "Şirket-i Hayriye'nin ilk kurucu hisse senetlerinden satın al",
+        "gerekli_para": 50,
+        "etki": {
+          "para": 60,
+          "itibar": 20,
+          "zeka": 10
+        },
+        "sonuc": "Vapur seferlerinin yüksek kâr payı ile servetini katladın."
+      },
+      {
+        "metin": "İngiltere'den getirilen ilk buharlı vapurların iskelesinde bilet emini ol",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 16,
+          "para": 20
+        },
+        "sonuc": "Boğaziçi ulaşımında intizam sağladın."
+      },
+      {
+        "metin": "Boğaziçi iskelelerine köprü ve kayıkhane malzemesi sağla",
+        "gerekli_para": 30,
+        "etki": {
+          "para": 30,
+          "itibar": 8
+        },
+        "sonuc": "İskele yapımından kazanç sağladın."
+      },
+      {
+        "metin": "Vapur sefer saatlerini gösteren ilk cep takvimini bastır",
+        "etki": {
+          "itibar": 12,
+          "para": 15
+        },
+        "sonuc": "Yolcuların takdirini topladın."
+      }
+    ]
+  },
+  {
+    "id": "dagilma_1874_istanbul_tuneli",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1874,
+    "tarih_yil_max": 1874,
+    "tek_seferlik": true,
+    "donem": "dagilma",
+    "alt_donem": "abdulaziz",
+    "metin": "Karaköy ile Beyoğlu'nu bağlayan Dünyanın en eski 2. metrosu olan İstanbul Tüneli inşaatı tamamlandı.",
+    "secenekler": [
+      {
+        "metin": "İstanbul Tüneli mühendislik ekibinde tünel kazı denetçisi ol",
+        "gerekli_zeka": 50,
+        "etki": {
+          "itibar": 25,
+          "zeka": 15,
+          "para": 25
+        },
+        "sonuc": "Yeraltı demiryolu tekniğinde uzmanlaşıp mühendisbaşılardan takdir aldın."
+      },
+      {
+        "metin": "Tünel vagonlarının makine ve çelik halat aksamını ithal et",
+        "gerekli_para": 45,
+        "etki": {
+          "para": 50,
+          "itibar": 12
+        },
+        "sonuc": "Tünel inşaat ikmalinden kâr sağladın."
+      },
+      {
+        "metin": "Tünel açılış törenine katılarak ilk vagon yolculuğunu yap",
+        "gerekli_itibar": 35,
+        "etki": {
+          "itibar": 18,
+          "mutluluk": 10
+        },
+        "sonuc": "Tarihi anın canlı tanığı oldun."
+      },
+      {
+        "metin": "Tünel Karaköy girişindeki dükkanları kirala",
+        "etki": {
+          "para": 30,
+          "itibar": 8
+        },
+        "sonuc": "Tünel yolcu trafiğinden kazanç sağladın."
+      }
+    ]
+  },
+  {
+    "id": "dagilma_1882_sanayi_i_nefise",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1882,
+    "tarih_yil_max": 1882,
+    "tek_seferlik": true,
+    "donem": "dagilma",
+    "alt_donem": "ikinci_abdulhamid",
+    "metin": "Osman Hamdi Bey tarafından Sanayi-i Nefise Mektebi (Güzel Sanatlar Fakültesi) kuruldu.",
+    "secenekler": [
+      {
+        "metin": "Osman Hamdi Bey'in yanında resim ve heykel öğrencisi olarak kaydol",
+        "gerekli_zeka": 45,
+        "etki": {
+          "itibar": 22,
+          "zeka": 15,
+          "para": 15
+        },
+        "sonuc": "Sanayi-i Nefise'nin ilk mezunlarından biri olup tablo sergisi açtın."
+      },
+      {
+        "metin": "Mektebin resim atölyelerine tuval ve boya malzemesi bağışla",
+        "gerekli_para": 25,
+        "etki": {
+          "itibar": 16,
+          "para": -25,
+          "mutluluk": 8
+        },
+        "sonuc": "Osman Hamdi Bey'den teşekkür Beratı aldın."
+      },
+      {
+        "metin": "Arkeoloji Müzesi kazıları için Osman Hamdi'ye lojistik destek sağla",
+        "gerekli_para": 35,
+        "etki": {
+          "para": 30,
+          "itibar": 12
+        },
+        "sonuc": "Müzecilik faaliyetlerine katkı verdin."
+      },
+      {
+        "metin": "Mektep sergisindeki Türk ressamların tablolarından satın al",
+        "etki": {
+          "itibar": 14,
+          "para": -20,
+          "zeka": 8
+        },
+        "sonuc": "Koleksiyonun değer kazandı."
+      }
+    ]
+  },
+  {
+    "id": "dagilma_1921_sakarya_zaferi",
+    "yas_min": 18,
+    "yas_max": 65,
+    "tarih_yil_min": 1921,
+    "tarih_yil_max": 1921,
+    "tek_seferlik": true,
+    "donem": "dagilma",
+    "alt_donem": "vahdettin",
+    "metin": "Ankara Hükümeti Sakarya Meydan Muharebesi'ni kazandı ve Fransa ile Ankara Antlaşması imzalandı.",
+    "secenekler": [
+      {
+        "metin": "Sakarya Meydan Savaşı'na Kuvayımilliye subayı olarak katıl",
+        "gerekli_bayrak": "meslek_seyfiye",
+        "etki": {
+          "itibar": 25,
+          "saglik": -10,
+          "para": 20
+        },
+        "sonuc": "Sakarya mevzilerinde vatanı savunup istiklal madalyası kazandın."
+      },
+      {
+        "metin": "Anadolu ordusuna Tekalif-i Milliye emirleriyle at ve erzak bağışla",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 22,
+          "para": -30,
+          "mutluluk": 10
+        },
+        "sonuc": "Vatan savunmasına servetinle destek verdin."
+      },
+      {
+        "metin": "Ankara Antlaşması diplomasisinde kâtip olarak görev yap",
+        "gerekli_zeka": 50,
+        "etki": {
+          "itibar": 20,
+          "zeka": 10
+        },
+        "sonuc": "Fransızlarla barış zeminini kaleme aldın."
+      },
+      {
+        "metin": "Yaralı Milli Mücadele gazilerine hastanelerde bakım sağla",
+        "etki": {
+          "itibar": 15,
+          "saglik": 5,
+          "mutluluk": 8
+        },
+        "sonuc": "Gazilerin dualarını aldın."
+      }
+    ]
+  },
+  {
+    "id": "dagilma_1794_tarihi_olay",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1794,
+    "tarih_yil_max": 1794,
+    "tek_seferlik": true,
+    "donem": "dagilma",
+    "alt_donem": "abdulhamid_han",
+    "metin": "1794 yılında Osmanlı mülkünde kamu asayişi, adalet fermanları ve eyalet imar faaliyetleri yürütüldü.",
+    "secenekler": [
+      {
+        "metin": "1794 yılı adalet nizamnamesini divanda kayda geçir",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 10
+        },
+        "sonuc": "Divan kayıtlarını intizamla tutup takdir topladın."
+      },
+      {
+        "metin": "1794 yılı imar çalışmaları için vakıf aşevi aç",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Halkın duasını alıp cömertliğinle tanındın."
+      },
+      {
+        "metin": "1794 yılı eyalet tüccarlarıyla kervan ticareti yap",
+        "etki": {
+          "para": 30,
+          "itibar": 10
+        },
+        "sonuc": "Kervan ticaretinden helal kazanç sağladın."
+      },
+      {
+        "metin": "1794 yılında mahalle asayiş nöbetini tertip et",
+        "etki": {
+          "itibar": 12,
+          "saglik": 5,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahallede güven tesis edip saygı gördün."
+      }
+    ]
+  },
+  {
+    "id": "dagilma_1795_tarihi_olay",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1795,
+    "tarih_yil_max": 1795,
+    "tek_seferlik": true,
+    "donem": "dagilma",
+    "alt_donem": "abdulhamid_han",
+    "metin": "1795 yılında Osmanlı mülkünde kamu asayişi, adalet fermanları ve eyalet imar faaliyetleri yürütüldü.",
+    "secenekler": [
+      {
+        "metin": "1795 yılı adalet nizamnamesini divanda kayda geçir",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 10
+        },
+        "sonuc": "Divan kayıtlarını intizamla tutup takdir topladın."
+      },
+      {
+        "metin": "1795 yılı imar çalışmaları için vakıf aşevi aç",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Halkın duasını alıp cömertliğinle tanındın."
+      },
+      {
+        "metin": "1795 yılı eyalet tüccarlarıyla kervan ticareti yap",
+        "etki": {
+          "para": 30,
+          "itibar": 10
+        },
+        "sonuc": "Kervan ticaretinden helal kazanç sağladın."
+      },
+      {
+        "metin": "1795 yılında mahalle asayiş nöbetini tertip et",
+        "etki": {
+          "itibar": 12,
+          "saglik": 5,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahallede güven tesis edip saygı gördün."
+      }
+    ]
+  },
+  {
+    "id": "dagilma_1796_tarihi_olay",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1796,
+    "tarih_yil_max": 1796,
+    "tek_seferlik": true,
+    "donem": "dagilma",
+    "alt_donem": "abdulhamid_han",
+    "metin": "1796 yılında Osmanlı mülkünde kamu asayişi, adalet fermanları ve eyalet imar faaliyetleri yürütüldü.",
+    "secenekler": [
+      {
+        "metin": "1796 yılı adalet nizamnamesini divanda kayda geçir",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 10
+        },
+        "sonuc": "Divan kayıtlarını intizamla tutup takdir topladın."
+      },
+      {
+        "metin": "1796 yılı imar çalışmaları için vakıf aşevi aç",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Halkın duasını alıp cömertliğinle tanındın."
+      },
+      {
+        "metin": "1796 yılı eyalet tüccarlarıyla kervan ticareti yap",
+        "etki": {
+          "para": 30,
+          "itibar": 10
+        },
+        "sonuc": "Kervan ticaretinden helal kazanç sağladın."
+      },
+      {
+        "metin": "1796 yılında mahalle asayiş nöbetini tertip et",
+        "etki": {
+          "itibar": 12,
+          "saglik": 5,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahallede güven tesis edip saygı gördün."
+      }
+    ]
+  },
+  {
+    "id": "dagilma_1797_tarihi_olay",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1797,
+    "tarih_yil_max": 1797,
+    "tek_seferlik": true,
+    "donem": "dagilma",
+    "alt_donem": "abdulhamid_han",
+    "metin": "1797 yılında Osmanlı mülkünde kamu asayişi, adalet fermanları ve eyalet imar faaliyetleri yürütüldü.",
+    "secenekler": [
+      {
+        "metin": "1797 yılı adalet nizamnamesini divanda kayda geçir",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 10
+        },
+        "sonuc": "Divan kayıtlarını intizamla tutup takdir topladın."
+      },
+      {
+        "metin": "1797 yılı imar çalışmaları için vakıf aşevi aç",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Halkın duasını alıp cömertliğinle tanındın."
+      },
+      {
+        "metin": "1797 yılı eyalet tüccarlarıyla kervan ticareti yap",
+        "etki": {
+          "para": 30,
+          "itibar": 10
+        },
+        "sonuc": "Kervan ticaretinden helal kazanç sağladın."
+      },
+      {
+        "metin": "1797 yılında mahalle asayiş nöbetini tertip et",
+        "etki": {
+          "itibar": 12,
+          "saglik": 5,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahallede güven tesis edip saygı gördün."
+      }
+    ]
+  },
+  {
+    "id": "dagilma_1800_tarihi_olay",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1800,
+    "tarih_yil_max": 1800,
+    "tek_seferlik": true,
+    "donem": "dagilma",
+    "alt_donem": "abdulhamid_han",
+    "metin": "1800 yılında Osmanlı mülkünde kamu asayişi, adalet fermanları ve eyalet imar faaliyetleri yürütüldü.",
+    "secenekler": [
+      {
+        "metin": "1800 yılı adalet nizamnamesini divanda kayda geçir",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 10
+        },
+        "sonuc": "Divan kayıtlarını intizamla tutup takdir topladın."
+      },
+      {
+        "metin": "1800 yılı imar çalışmaları için vakıf aşevi aç",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Halkın duasını alıp cömertliğinle tanındın."
+      },
+      {
+        "metin": "1800 yılı eyalet tüccarlarıyla kervan ticareti yap",
+        "etki": {
+          "para": 30,
+          "itibar": 10
+        },
+        "sonuc": "Kervan ticaretinden helal kazanç sağladın."
+      },
+      {
+        "metin": "1800 yılında mahalle asayiş nöbetini tertip et",
+        "etki": {
+          "itibar": 12,
+          "saglik": 5,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahallede güven tesis edip saygı gördün."
+      }
+    ]
+  },
+  {
+    "id": "dagilma_1802_tarihi_olay",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1802,
+    "tarih_yil_max": 1802,
+    "tek_seferlik": true,
+    "donem": "dagilma",
+    "alt_donem": "abdulhamid_han",
+    "metin": "1802 yılında Osmanlı mülkünde kamu asayişi, adalet fermanları ve eyalet imar faaliyetleri yürütüldü.",
+    "secenekler": [
+      {
+        "metin": "1802 yılı adalet nizamnamesini divanda kayda geçir",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 10
+        },
+        "sonuc": "Divan kayıtlarını intizamla tutup takdir topladın."
+      },
+      {
+        "metin": "1802 yılı imar çalışmaları için vakıf aşevi aç",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Halkın duasını alıp cömertliğinle tanındın."
+      },
+      {
+        "metin": "1802 yılı eyalet tüccarlarıyla kervan ticareti yap",
+        "etki": {
+          "para": 30,
+          "itibar": 10
+        },
+        "sonuc": "Kervan ticaretinden helal kazanç sağladın."
+      },
+      {
+        "metin": "1802 yılında mahalle asayiş nöbetini tertip et",
+        "etki": {
+          "itibar": 12,
+          "saglik": 5,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahallede güven tesis edip saygı gördün."
+      }
+    ]
+  },
+  {
+    "id": "dagilma_1803_tarihi_olay",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1803,
+    "tarih_yil_max": 1803,
+    "tek_seferlik": true,
+    "donem": "dagilma",
+    "alt_donem": "abdulhamid_han",
+    "metin": "1803 yılında Osmanlı mülkünde kamu asayişi, adalet fermanları ve eyalet imar faaliyetleri yürütüldü.",
+    "secenekler": [
+      {
+        "metin": "1803 yılı adalet nizamnamesini divanda kayda geçir",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 10
+        },
+        "sonuc": "Divan kayıtlarını intizamla tutup takdir topladın."
+      },
+      {
+        "metin": "1803 yılı imar çalışmaları için vakıf aşevi aç",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Halkın duasını alıp cömertliğinle tanındın."
+      },
+      {
+        "metin": "1803 yılı eyalet tüccarlarıyla kervan ticareti yap",
+        "etki": {
+          "para": 30,
+          "itibar": 10
+        },
+        "sonuc": "Kervan ticaretinden helal kazanç sağladın."
+      },
+      {
+        "metin": "1803 yılında mahalle asayiş nöbetini tertip et",
+        "etki": {
+          "itibar": 12,
+          "saglik": 5,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahallede güven tesis edip saygı gördün."
+      }
+    ]
+  },
+  {
+    "id": "dagilma_1809_tarihi_olay",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1809,
+    "tarih_yil_max": 1809,
+    "tek_seferlik": true,
+    "donem": "dagilma",
+    "alt_donem": "abdulhamid_han",
+    "metin": "1809 yılında Osmanlı mülkünde kamu asayişi, adalet fermanları ve eyalet imar faaliyetleri yürütüldü.",
+    "secenekler": [
+      {
+        "metin": "1809 yılı adalet nizamnamesini divanda kayda geçir",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 10
+        },
+        "sonuc": "Divan kayıtlarını intizamla tutup takdir topladın."
+      },
+      {
+        "metin": "1809 yılı imar çalışmaları için vakıf aşevi aç",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Halkın duasını alıp cömertliğinle tanındın."
+      },
+      {
+        "metin": "1809 yılı eyalet tüccarlarıyla kervan ticareti yap",
+        "etki": {
+          "para": 30,
+          "itibar": 10
+        },
+        "sonuc": "Kervan ticaretinden helal kazanç sağladın."
+      },
+      {
+        "metin": "1809 yılında mahalle asayiş nöbetini tertip et",
+        "etki": {
+          "itibar": 12,
+          "saglik": 5,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahallede güven tesis edip saygı gördün."
+      }
+    ]
+  },
+  {
+    "id": "dagilma_1811_tarihi_olay",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1811,
+    "tarih_yil_max": 1811,
+    "tek_seferlik": true,
+    "donem": "dagilma",
+    "alt_donem": "abdulhamid_han",
+    "metin": "1811 yılında Osmanlı mülkünde kamu asayişi, adalet fermanları ve eyalet imar faaliyetleri yürütüldü.",
+    "secenekler": [
+      {
+        "metin": "1811 yılı adalet nizamnamesini divanda kayda geçir",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 10
+        },
+        "sonuc": "Divan kayıtlarını intizamla tutup takdir topladın."
+      },
+      {
+        "metin": "1811 yılı imar çalışmaları için vakıf aşevi aç",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Halkın duasını alıp cömertliğinle tanındın."
+      },
+      {
+        "metin": "1811 yılı eyalet tüccarlarıyla kervan ticareti yap",
+        "etki": {
+          "para": 30,
+          "itibar": 10
+        },
+        "sonuc": "Kervan ticaretinden helal kazanç sağladın."
+      },
+      {
+        "metin": "1811 yılında mahalle asayiş nöbetini tertip et",
+        "etki": {
+          "itibar": 12,
+          "saglik": 5,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahallede güven tesis edip saygı gördün."
+      }
+    ]
+  },
+  {
+    "id": "dagilma_1812_tarihi_olay",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1812,
+    "tarih_yil_max": 1812,
+    "tek_seferlik": true,
+    "donem": "dagilma",
+    "alt_donem": "abdulhamid_han",
+    "metin": "1812 yılında Osmanlı mülkünde kamu asayişi, adalet fermanları ve eyalet imar faaliyetleri yürütüldü.",
+    "secenekler": [
+      {
+        "metin": "1812 yılı adalet nizamnamesini divanda kayda geçir",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 10
+        },
+        "sonuc": "Divan kayıtlarını intizamla tutup takdir topladın."
+      },
+      {
+        "metin": "1812 yılı imar çalışmaları için vakıf aşevi aç",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Halkın duasını alıp cömertliğinle tanındın."
+      },
+      {
+        "metin": "1812 yılı eyalet tüccarlarıyla kervan ticareti yap",
+        "etki": {
+          "para": 30,
+          "itibar": 10
+        },
+        "sonuc": "Kervan ticaretinden helal kazanç sağladın."
+      },
+      {
+        "metin": "1812 yılında mahalle asayiş nöbetini tertip et",
+        "etki": {
+          "itibar": 12,
+          "saglik": 5,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahallede güven tesis edip saygı gördün."
+      }
+    ]
+  },
+  {
+    "id": "dagilma_1813_tarihi_olay",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1813,
+    "tarih_yil_max": 1813,
+    "tek_seferlik": true,
+    "donem": "dagilma",
+    "alt_donem": "abdulhamid_han",
+    "metin": "1813 yılında Osmanlı mülkünde kamu asayişi, adalet fermanları ve eyalet imar faaliyetleri yürütüldü.",
+    "secenekler": [
+      {
+        "metin": "1813 yılı adalet nizamnamesini divanda kayda geçir",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 10
+        },
+        "sonuc": "Divan kayıtlarını intizamla tutup takdir topladın."
+      },
+      {
+        "metin": "1813 yılı imar çalışmaları için vakıf aşevi aç",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Halkın duasını alıp cömertliğinle tanındın."
+      },
+      {
+        "metin": "1813 yılı eyalet tüccarlarıyla kervan ticareti yap",
+        "etki": {
+          "para": 30,
+          "itibar": 10
+        },
+        "sonuc": "Kervan ticaretinden helal kazanç sağladın."
+      },
+      {
+        "metin": "1813 yılında mahalle asayiş nöbetini tertip et",
+        "etki": {
+          "itibar": 12,
+          "saglik": 5,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahallede güven tesis edip saygı gördün."
+      }
+    ]
+  },
+  {
+    "id": "dagilma_1814_tarihi_olay",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1814,
+    "tarih_yil_max": 1814,
+    "tek_seferlik": true,
+    "donem": "dagilma",
+    "alt_donem": "abdulhamid_han",
+    "metin": "1814 yılında Osmanlı mülkünde kamu asayişi, adalet fermanları ve eyalet imar faaliyetleri yürütüldü.",
+    "secenekler": [
+      {
+        "metin": "1814 yılı adalet nizamnamesini divanda kayda geçir",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 10
+        },
+        "sonuc": "Divan kayıtlarını intizamla tutup takdir topladın."
+      },
+      {
+        "metin": "1814 yılı imar çalışmaları için vakıf aşevi aç",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Halkın duasını alıp cömertliğinle tanındın."
+      },
+      {
+        "metin": "1814 yılı eyalet tüccarlarıyla kervan ticareti yap",
+        "etki": {
+          "para": 30,
+          "itibar": 10
+        },
+        "sonuc": "Kervan ticaretinden helal kazanç sağladın."
+      },
+      {
+        "metin": "1814 yılında mahalle asayiş nöbetini tertip et",
+        "etki": {
+          "itibar": 12,
+          "saglik": 5,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahallede güven tesis edip saygı gördün."
+      }
+    ]
+  },
+  {
+    "id": "dagilma_1816_tarihi_olay",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1816,
+    "tarih_yil_max": 1816,
+    "tek_seferlik": true,
+    "donem": "dagilma",
+    "alt_donem": "abdulhamid_han",
+    "metin": "1816 yılında Osmanlı mülkünde kamu asayişi, adalet fermanları ve eyalet imar faaliyetleri yürütüldü.",
+    "secenekler": [
+      {
+        "metin": "1816 yılı adalet nizamnamesini divanda kayda geçir",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 10
+        },
+        "sonuc": "Divan kayıtlarını intizamla tutup takdir topladın."
+      },
+      {
+        "metin": "1816 yılı imar çalışmaları için vakıf aşevi aç",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Halkın duasını alıp cömertliğinle tanındın."
+      },
+      {
+        "metin": "1816 yılı eyalet tüccarlarıyla kervan ticareti yap",
+        "etki": {
+          "para": 30,
+          "itibar": 10
+        },
+        "sonuc": "Kervan ticaretinden helal kazanç sağladın."
+      },
+      {
+        "metin": "1816 yılında mahalle asayiş nöbetini tertip et",
+        "etki": {
+          "itibar": 12,
+          "saglik": 5,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahallede güven tesis edip saygı gördün."
+      }
+    ]
+  },
+  {
+    "id": "dagilma_1817_tarihi_olay",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1817,
+    "tarih_yil_max": 1817,
+    "tek_seferlik": true,
+    "donem": "dagilma",
+    "alt_donem": "abdulhamid_han",
+    "metin": "1817 yılında Osmanlı mülkünde kamu asayişi, adalet fermanları ve eyalet imar faaliyetleri yürütüldü.",
+    "secenekler": [
+      {
+        "metin": "1817 yılı adalet nizamnamesini divanda kayda geçir",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 10
+        },
+        "sonuc": "Divan kayıtlarını intizamla tutup takdir topladın."
+      },
+      {
+        "metin": "1817 yılı imar çalışmaları için vakıf aşevi aç",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Halkın duasını alıp cömertliğinle tanındın."
+      },
+      {
+        "metin": "1817 yılı eyalet tüccarlarıyla kervan ticareti yap",
+        "etki": {
+          "para": 30,
+          "itibar": 10
+        },
+        "sonuc": "Kervan ticaretinden helal kazanç sağladın."
+      },
+      {
+        "metin": "1817 yılında mahalle asayiş nöbetini tertip et",
+        "etki": {
+          "itibar": 12,
+          "saglik": 5,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahallede güven tesis edip saygı gördün."
+      }
+    ]
+  },
+  {
+    "id": "dagilma_1818_tarihi_olay",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1818,
+    "tarih_yil_max": 1818,
+    "tek_seferlik": true,
+    "donem": "dagilma",
+    "alt_donem": "abdulhamid_han",
+    "metin": "1818 yılında Osmanlı mülkünde kamu asayişi, adalet fermanları ve eyalet imar faaliyetleri yürütüldü.",
+    "secenekler": [
+      {
+        "metin": "1818 yılı adalet nizamnamesini divanda kayda geçir",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 10
+        },
+        "sonuc": "Divan kayıtlarını intizamla tutup takdir topladın."
+      },
+      {
+        "metin": "1818 yılı imar çalışmaları için vakıf aşevi aç",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Halkın duasını alıp cömertliğinle tanındın."
+      },
+      {
+        "metin": "1818 yılı eyalet tüccarlarıyla kervan ticareti yap",
+        "etki": {
+          "para": 30,
+          "itibar": 10
+        },
+        "sonuc": "Kervan ticaretinden helal kazanç sağladın."
+      },
+      {
+        "metin": "1818 yılında mahalle asayiş nöbetini tertip et",
+        "etki": {
+          "itibar": 12,
+          "saglik": 5,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahallede güven tesis edip saygı gördün."
+      }
+    ]
+  },
+  {
+    "id": "dagilma_1819_tarihi_olay",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1819,
+    "tarih_yil_max": 1819,
+    "tek_seferlik": true,
+    "donem": "dagilma",
+    "alt_donem": "abdulhamid_han",
+    "metin": "1819 yılında Osmanlı mülkünde kamu asayişi, adalet fermanları ve eyalet imar faaliyetleri yürütüldü.",
+    "secenekler": [
+      {
+        "metin": "1819 yılı adalet nizamnamesini divanda kayda geçir",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 10
+        },
+        "sonuc": "Divan kayıtlarını intizamla tutup takdir topladın."
+      },
+      {
+        "metin": "1819 yılı imar çalışmaları için vakıf aşevi aç",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Halkın duasını alıp cömertliğinle tanındın."
+      },
+      {
+        "metin": "1819 yılı eyalet tüccarlarıyla kervan ticareti yap",
+        "etki": {
+          "para": 30,
+          "itibar": 10
+        },
+        "sonuc": "Kervan ticaretinden helal kazanç sağladın."
+      },
+      {
+        "metin": "1819 yılında mahalle asayiş nöbetini tertip et",
+        "etki": {
+          "itibar": 12,
+          "saglik": 5,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahallede güven tesis edip saygı gördün."
+      }
+    ]
+  },
+  {
+    "id": "dagilma_1820_tarihi_olay",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1820,
+    "tarih_yil_max": 1820,
+    "tek_seferlik": true,
+    "donem": "dagilma",
+    "alt_donem": "abdulhamid_han",
+    "metin": "1820 yılında Osmanlı mülkünde kamu asayişi, adalet fermanları ve eyalet imar faaliyetleri yürütüldü.",
+    "secenekler": [
+      {
+        "metin": "1820 yılı adalet nizamnamesini divanda kayda geçir",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 10
+        },
+        "sonuc": "Divan kayıtlarını intizamla tutup takdir topladın."
+      },
+      {
+        "metin": "1820 yılı imar çalışmaları için vakıf aşevi aç",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Halkın duasını alıp cömertliğinle tanındın."
+      },
+      {
+        "metin": "1820 yılı eyalet tüccarlarıyla kervan ticareti yap",
+        "etki": {
+          "para": 30,
+          "itibar": 10
+        },
+        "sonuc": "Kervan ticaretinden helal kazanç sağladın."
+      },
+      {
+        "metin": "1820 yılında mahalle asayiş nöbetini tertip et",
+        "etki": {
+          "itibar": 12,
+          "saglik": 5,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahallede güven tesis edip saygı gördün."
+      }
+    ]
+  },
+  {
+    "id": "dagilma_1822_tarihi_olay",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1822,
+    "tarih_yil_max": 1822,
+    "tek_seferlik": true,
+    "donem": "dagilma",
+    "alt_donem": "abdulhamid_han",
+    "metin": "1822 yılında Osmanlı mülkünde kamu asayişi, adalet fermanları ve eyalet imar faaliyetleri yürütüldü.",
+    "secenekler": [
+      {
+        "metin": "1822 yılı adalet nizamnamesini divanda kayda geçir",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 10
+        },
+        "sonuc": "Divan kayıtlarını intizamla tutup takdir topladın."
+      },
+      {
+        "metin": "1822 yılı imar çalışmaları için vakıf aşevi aç",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Halkın duasını alıp cömertliğinle tanındın."
+      },
+      {
+        "metin": "1822 yılı eyalet tüccarlarıyla kervan ticareti yap",
+        "etki": {
+          "para": 30,
+          "itibar": 10
+        },
+        "sonuc": "Kervan ticaretinden helal kazanç sağladın."
+      },
+      {
+        "metin": "1822 yılında mahalle asayiş nöbetini tertip et",
+        "etki": {
+          "itibar": 12,
+          "saglik": 5,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahallede güven tesis edip saygı gördün."
+      }
+    ]
+  },
+  {
+    "id": "dagilma_1823_tarihi_olay",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1823,
+    "tarih_yil_max": 1823,
+    "tek_seferlik": true,
+    "donem": "dagilma",
+    "alt_donem": "abdulhamid_han",
+    "metin": "1823 yılında Osmanlı mülkünde kamu asayişi, adalet fermanları ve eyalet imar faaliyetleri yürütüldü.",
+    "secenekler": [
+      {
+        "metin": "1823 yılı adalet nizamnamesini divanda kayda geçir",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 10
+        },
+        "sonuc": "Divan kayıtlarını intizamla tutup takdir topladın."
+      },
+      {
+        "metin": "1823 yılı imar çalışmaları için vakıf aşevi aç",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Halkın duasını alıp cömertliğinle tanındın."
+      },
+      {
+        "metin": "1823 yılı eyalet tüccarlarıyla kervan ticareti yap",
+        "etki": {
+          "para": 30,
+          "itibar": 10
+        },
+        "sonuc": "Kervan ticaretinden helal kazanç sağladın."
+      },
+      {
+        "metin": "1823 yılında mahalle asayiş nöbetini tertip et",
+        "etki": {
+          "itibar": 12,
+          "saglik": 5,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahallede güven tesis edip saygı gördün."
+      }
+    ]
+  },
+  {
+    "id": "dagilma_1825_tarihi_olay",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1825,
+    "tarih_yil_max": 1825,
+    "tek_seferlik": true,
+    "donem": "dagilma",
+    "alt_donem": "abdulhamid_han",
+    "metin": "1825 yılında Osmanlı mülkünde kamu asayişi, adalet fermanları ve eyalet imar faaliyetleri yürütüldü.",
+    "secenekler": [
+      {
+        "metin": "1825 yılı adalet nizamnamesini divanda kayda geçir",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 10
+        },
+        "sonuc": "Divan kayıtlarını intizamla tutup takdir topladın."
+      },
+      {
+        "metin": "1825 yılı imar çalışmaları için vakıf aşevi aç",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Halkın duasını alıp cömertliğinle tanındın."
+      },
+      {
+        "metin": "1825 yılı eyalet tüccarlarıyla kervan ticareti yap",
+        "etki": {
+          "para": 30,
+          "itibar": 10
+        },
+        "sonuc": "Kervan ticaretinden helal kazanç sağladın."
+      },
+      {
+        "metin": "1825 yılında mahalle asayiş nöbetini tertip et",
+        "etki": {
+          "itibar": 12,
+          "saglik": 5,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahallede güven tesis edip saygı gördün."
+      }
+    ]
+  },
+  {
+    "id": "dagilma_1828_tarihi_olay",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1828,
+    "tarih_yil_max": 1828,
+    "tek_seferlik": true,
+    "donem": "dagilma",
+    "alt_donem": "abdulhamid_han",
+    "metin": "1828 yılında Osmanlı mülkünde kamu asayişi, adalet fermanları ve eyalet imar faaliyetleri yürütüldü.",
+    "secenekler": [
+      {
+        "metin": "1828 yılı adalet nizamnamesini divanda kayda geçir",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 10
+        },
+        "sonuc": "Divan kayıtlarını intizamla tutup takdir topladın."
+      },
+      {
+        "metin": "1828 yılı imar çalışmaları için vakıf aşevi aç",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Halkın duasını alıp cömertliğinle tanındın."
+      },
+      {
+        "metin": "1828 yılı eyalet tüccarlarıyla kervan ticareti yap",
+        "etki": {
+          "para": 30,
+          "itibar": 10
+        },
+        "sonuc": "Kervan ticaretinden helal kazanç sağladın."
+      },
+      {
+        "metin": "1828 yılında mahalle asayiş nöbetini tertip et",
+        "etki": {
+          "itibar": 12,
+          "saglik": 5,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahallede güven tesis edip saygı gördün."
+      }
+    ]
+  },
+  {
+    "id": "dagilma_1830_tarihi_olay",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1830,
+    "tarih_yil_max": 1830,
+    "tek_seferlik": true,
+    "donem": "dagilma",
+    "alt_donem": "abdulhamid_han",
+    "metin": "1830 yılında Osmanlı mülkünde kamu asayişi, adalet fermanları ve eyalet imar faaliyetleri yürütüldü.",
+    "secenekler": [
+      {
+        "metin": "1830 yılı adalet nizamnamesini divanda kayda geçir",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 10
+        },
+        "sonuc": "Divan kayıtlarını intizamla tutup takdir topladın."
+      },
+      {
+        "metin": "1830 yılı imar çalışmaları için vakıf aşevi aç",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Halkın duasını alıp cömertliğinle tanındın."
+      },
+      {
+        "metin": "1830 yılı eyalet tüccarlarıyla kervan ticareti yap",
+        "etki": {
+          "para": 30,
+          "itibar": 10
+        },
+        "sonuc": "Kervan ticaretinden helal kazanç sağladın."
+      },
+      {
+        "metin": "1830 yılında mahalle asayiş nöbetini tertip et",
+        "etki": {
+          "itibar": 12,
+          "saglik": 5,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahallede güven tesis edip saygı gördün."
+      }
+    ]
+  },
+  {
+    "id": "dagilma_1834_tarihi_olay",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1834,
+    "tarih_yil_max": 1834,
+    "tek_seferlik": true,
+    "donem": "dagilma",
+    "alt_donem": "abdulhamid_han",
+    "metin": "1834 yılında Osmanlı mülkünde kamu asayişi, adalet fermanları ve eyalet imar faaliyetleri yürütüldü.",
+    "secenekler": [
+      {
+        "metin": "1834 yılı adalet nizamnamesini divanda kayda geçir",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 10
+        },
+        "sonuc": "Divan kayıtlarını intizamla tutup takdir topladın."
+      },
+      {
+        "metin": "1834 yılı imar çalışmaları için vakıf aşevi aç",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Halkın duasını alıp cömertliğinle tanındın."
+      },
+      {
+        "metin": "1834 yılı eyalet tüccarlarıyla kervan ticareti yap",
+        "etki": {
+          "para": 30,
+          "itibar": 10
+        },
+        "sonuc": "Kervan ticaretinden helal kazanç sağladın."
+      },
+      {
+        "metin": "1834 yılında mahalle asayiş nöbetini tertip et",
+        "etki": {
+          "itibar": 12,
+          "saglik": 5,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahallede güven tesis edip saygı gördün."
+      }
+    ]
+  },
+  {
+    "id": "dagilma_1835_tarihi_olay",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1835,
+    "tarih_yil_max": 1835,
+    "tek_seferlik": true,
+    "donem": "dagilma",
+    "alt_donem": "abdulhamid_han",
+    "metin": "1835 yılında Osmanlı mülkünde kamu asayişi, adalet fermanları ve eyalet imar faaliyetleri yürütüldü.",
+    "secenekler": [
+      {
+        "metin": "1835 yılı adalet nizamnamesini divanda kayda geçir",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 10
+        },
+        "sonuc": "Divan kayıtlarını intizamla tutup takdir topladın."
+      },
+      {
+        "metin": "1835 yılı imar çalışmaları için vakıf aşevi aç",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Halkın duasını alıp cömertliğinle tanındın."
+      },
+      {
+        "metin": "1835 yılı eyalet tüccarlarıyla kervan ticareti yap",
+        "etki": {
+          "para": 30,
+          "itibar": 10
+        },
+        "sonuc": "Kervan ticaretinden helal kazanç sağladın."
+      },
+      {
+        "metin": "1835 yılında mahalle asayiş nöbetini tertip et",
+        "etki": {
+          "itibar": 12,
+          "saglik": 5,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahallede güven tesis edip saygı gördün."
+      }
+    ]
+  },
+  {
+    "id": "dagilma_1836_tarihi_olay",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1836,
+    "tarih_yil_max": 1836,
+    "tek_seferlik": true,
+    "donem": "dagilma",
+    "alt_donem": "abdulhamid_han",
+    "metin": "1836 yılında Osmanlı mülkünde kamu asayişi, adalet fermanları ve eyalet imar faaliyetleri yürütüldü.",
+    "secenekler": [
+      {
+        "metin": "1836 yılı adalet nizamnamesini divanda kayda geçir",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 10
+        },
+        "sonuc": "Divan kayıtlarını intizamla tutup takdir topladın."
+      },
+      {
+        "metin": "1836 yılı imar çalışmaları için vakıf aşevi aç",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Halkın duasını alıp cömertliğinle tanındın."
+      },
+      {
+        "metin": "1836 yılı eyalet tüccarlarıyla kervan ticareti yap",
+        "etki": {
+          "para": 30,
+          "itibar": 10
+        },
+        "sonuc": "Kervan ticaretinden helal kazanç sağladın."
+      },
+      {
+        "metin": "1836 yılında mahalle asayiş nöbetini tertip et",
+        "etki": {
+          "itibar": 12,
+          "saglik": 5,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahallede güven tesis edip saygı gördün."
+      }
+    ]
+  },
+  {
+    "id": "dagilma_1837_tarihi_olay",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1837,
+    "tarih_yil_max": 1837,
+    "tek_seferlik": true,
+    "donem": "dagilma",
+    "alt_donem": "abdulhamid_han",
+    "metin": "1837 yılında Osmanlı mülkünde kamu asayişi, adalet fermanları ve eyalet imar faaliyetleri yürütüldü.",
+    "secenekler": [
+      {
+        "metin": "1837 yılı adalet nizamnamesini divanda kayda geçir",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 10
+        },
+        "sonuc": "Divan kayıtlarını intizamla tutup takdir topladın."
+      },
+      {
+        "metin": "1837 yılı imar çalışmaları için vakıf aşevi aç",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Halkın duasını alıp cömertliğinle tanındın."
+      },
+      {
+        "metin": "1837 yılı eyalet tüccarlarıyla kervan ticareti yap",
+        "etki": {
+          "para": 30,
+          "itibar": 10
+        },
+        "sonuc": "Kervan ticaretinden helal kazanç sağladın."
+      },
+      {
+        "metin": "1837 yılında mahalle asayiş nöbetini tertip et",
+        "etki": {
+          "itibar": 12,
+          "saglik": 5,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahallede güven tesis edip saygı gördün."
+      }
+    ]
+  },
+  {
+    "id": "dagilma_1842_tarihi_olay",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1842,
+    "tarih_yil_max": 1842,
+    "tek_seferlik": true,
+    "donem": "dagilma",
+    "alt_donem": "abdulhamid_han",
+    "metin": "1842 yılında Osmanlı mülkünde kamu asayişi, adalet fermanları ve eyalet imar faaliyetleri yürütüldü.",
+    "secenekler": [
+      {
+        "metin": "1842 yılı adalet nizamnamesini divanda kayda geçir",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 10
+        },
+        "sonuc": "Divan kayıtlarını intizamla tutup takdir topladın."
+      },
+      {
+        "metin": "1842 yılı imar çalışmaları için vakıf aşevi aç",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Halkın duasını alıp cömertliğinle tanındın."
+      },
+      {
+        "metin": "1842 yılı eyalet tüccarlarıyla kervan ticareti yap",
+        "etki": {
+          "para": 30,
+          "itibar": 10
+        },
+        "sonuc": "Kervan ticaretinden helal kazanç sağladın."
+      },
+      {
+        "metin": "1842 yılında mahalle asayiş nöbetini tertip et",
+        "etki": {
+          "itibar": 12,
+          "saglik": 5,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahallede güven tesis edip saygı gördün."
+      }
+    ]
+  },
+  {
+    "id": "dagilma_1844_tarihi_olay",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1844,
+    "tarih_yil_max": 1844,
+    "tek_seferlik": true,
+    "donem": "dagilma",
+    "alt_donem": "abdulhamid_han",
+    "metin": "1844 yılında Osmanlı mülkünde kamu asayişi, adalet fermanları ve eyalet imar faaliyetleri yürütüldü.",
+    "secenekler": [
+      {
+        "metin": "1844 yılı adalet nizamnamesini divanda kayda geçir",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 10
+        },
+        "sonuc": "Divan kayıtlarını intizamla tutup takdir topladın."
+      },
+      {
+        "metin": "1844 yılı imar çalışmaları için vakıf aşevi aç",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Halkın duasını alıp cömertliğinle tanındın."
+      },
+      {
+        "metin": "1844 yılı eyalet tüccarlarıyla kervan ticareti yap",
+        "etki": {
+          "para": 30,
+          "itibar": 10
+        },
+        "sonuc": "Kervan ticaretinden helal kazanç sağladın."
+      },
+      {
+        "metin": "1844 yılında mahalle asayiş nöbetini tertip et",
+        "etki": {
+          "itibar": 12,
+          "saglik": 5,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahallede güven tesis edip saygı gördün."
+      }
+    ]
+  },
+  {
+    "id": "dagilma_1846_tarihi_olay",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1846,
+    "tarih_yil_max": 1846,
+    "tek_seferlik": true,
+    "donem": "dagilma",
+    "alt_donem": "abdulhamid_han",
+    "metin": "1846 yılında Osmanlı mülkünde kamu asayişi, adalet fermanları ve eyalet imar faaliyetleri yürütüldü.",
+    "secenekler": [
+      {
+        "metin": "1846 yılı adalet nizamnamesini divanda kayda geçir",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 10
+        },
+        "sonuc": "Divan kayıtlarını intizamla tutup takdir topladın."
+      },
+      {
+        "metin": "1846 yılı imar çalışmaları için vakıf aşevi aç",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Halkın duasını alıp cömertliğinle tanındın."
+      },
+      {
+        "metin": "1846 yılı eyalet tüccarlarıyla kervan ticareti yap",
+        "etki": {
+          "para": 30,
+          "itibar": 10
+        },
+        "sonuc": "Kervan ticaretinden helal kazanç sağladın."
+      },
+      {
+        "metin": "1846 yılında mahalle asayiş nöbetini tertip et",
+        "etki": {
+          "itibar": 12,
+          "saglik": 5,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahallede güven tesis edip saygı gördün."
+      }
+    ]
+  },
+  {
+    "id": "dagilma_1847_tarihi_olay",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1847,
+    "tarih_yil_max": 1847,
+    "tek_seferlik": true,
+    "donem": "dagilma",
+    "alt_donem": "abdulhamid_han",
+    "metin": "1847 yılında Osmanlı mülkünde kamu asayişi, adalet fermanları ve eyalet imar faaliyetleri yürütüldü.",
+    "secenekler": [
+      {
+        "metin": "1847 yılı adalet nizamnamesini divanda kayda geçir",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 10
+        },
+        "sonuc": "Divan kayıtlarını intizamla tutup takdir topladın."
+      },
+      {
+        "metin": "1847 yılı imar çalışmaları için vakıf aşevi aç",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Halkın duasını alıp cömertliğinle tanındın."
+      },
+      {
+        "metin": "1847 yılı eyalet tüccarlarıyla kervan ticareti yap",
+        "etki": {
+          "para": 30,
+          "itibar": 10
+        },
+        "sonuc": "Kervan ticaretinden helal kazanç sağladın."
+      },
+      {
+        "metin": "1847 yılında mahalle asayiş nöbetini tertip et",
+        "etki": {
+          "itibar": 12,
+          "saglik": 5,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahallede güven tesis edip saygı gördün."
+      }
+    ]
+  },
+  {
+    "id": "dagilma_1848_tarihi_olay",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1848,
+    "tarih_yil_max": 1848,
+    "tek_seferlik": true,
+    "donem": "dagilma",
+    "alt_donem": "abdulhamid_han",
+    "metin": "1848 yılında Osmanlı mülkünde kamu asayişi, adalet fermanları ve eyalet imar faaliyetleri yürütüldü.",
+    "secenekler": [
+      {
+        "metin": "1848 yılı adalet nizamnamesini divanda kayda geçir",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 10
+        },
+        "sonuc": "Divan kayıtlarını intizamla tutup takdir topladın."
+      },
+      {
+        "metin": "1848 yılı imar çalışmaları için vakıf aşevi aç",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Halkın duasını alıp cömertliğinle tanındın."
+      },
+      {
+        "metin": "1848 yılı eyalet tüccarlarıyla kervan ticareti yap",
+        "etki": {
+          "para": 30,
+          "itibar": 10
+        },
+        "sonuc": "Kervan ticaretinden helal kazanç sağladın."
+      },
+      {
+        "metin": "1848 yılında mahalle asayiş nöbetini tertip et",
+        "etki": {
+          "itibar": 12,
+          "saglik": 5,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahallede güven tesis edip saygı gördün."
+      }
+    ]
+  },
+  {
+    "id": "dagilma_1849_tarihi_olay",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1849,
+    "tarih_yil_max": 1849,
+    "tek_seferlik": true,
+    "donem": "dagilma",
+    "alt_donem": "abdulhamid_han",
+    "metin": "1849 yılında Osmanlı mülkünde kamu asayişi, adalet fermanları ve eyalet imar faaliyetleri yürütüldü.",
+    "secenekler": [
+      {
+        "metin": "1849 yılı adalet nizamnamesini divanda kayda geçir",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 10
+        },
+        "sonuc": "Divan kayıtlarını intizamla tutup takdir topladın."
+      },
+      {
+        "metin": "1849 yılı imar çalışmaları için vakıf aşevi aç",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Halkın duasını alıp cömertliğinle tanındın."
+      },
+      {
+        "metin": "1849 yılı eyalet tüccarlarıyla kervan ticareti yap",
+        "etki": {
+          "para": 30,
+          "itibar": 10
+        },
+        "sonuc": "Kervan ticaretinden helal kazanç sağladın."
+      },
+      {
+        "metin": "1849 yılında mahalle asayiş nöbetini tertip et",
+        "etki": {
+          "itibar": 12,
+          "saglik": 5,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahallede güven tesis edip saygı gördün."
+      }
+    ]
+  },
+  {
+    "id": "dagilma_1851_tarihi_olay",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1851,
+    "tarih_yil_max": 1851,
+    "tek_seferlik": true,
+    "donem": "dagilma",
+    "alt_donem": "abdulhamid_han",
+    "metin": "1851 yılında Osmanlı mülkünde kamu asayişi, adalet fermanları ve eyalet imar faaliyetleri yürütüldü.",
+    "secenekler": [
+      {
+        "metin": "1851 yılı adalet nizamnamesini divanda kayda geçir",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 10
+        },
+        "sonuc": "Divan kayıtlarını intizamla tutup takdir topladın."
+      },
+      {
+        "metin": "1851 yılı imar çalışmaları için vakıf aşevi aç",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Halkın duasını alıp cömertliğinle tanındın."
+      },
+      {
+        "metin": "1851 yılı eyalet tüccarlarıyla kervan ticareti yap",
+        "etki": {
+          "para": 30,
+          "itibar": 10
+        },
+        "sonuc": "Kervan ticaretinden helal kazanç sağladın."
+      },
+      {
+        "metin": "1851 yılında mahalle asayiş nöbetini tertip et",
+        "etki": {
+          "itibar": 12,
+          "saglik": 5,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahallede güven tesis edip saygı gördün."
+      }
+    ]
+  },
+  {
+    "id": "dagilma_1852_tarihi_olay",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1852,
+    "tarih_yil_max": 1852,
+    "tek_seferlik": true,
+    "donem": "dagilma",
+    "alt_donem": "abdulhamid_han",
+    "metin": "1852 yılında Osmanlı mülkünde kamu asayişi, adalet fermanları ve eyalet imar faaliyetleri yürütüldü.",
+    "secenekler": [
+      {
+        "metin": "1852 yılı adalet nizamnamesini divanda kayda geçir",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 10
+        },
+        "sonuc": "Divan kayıtlarını intizamla tutup takdir topladın."
+      },
+      {
+        "metin": "1852 yılı imar çalışmaları için vakıf aşevi aç",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Halkın duasını alıp cömertliğinle tanındın."
+      },
+      {
+        "metin": "1852 yılı eyalet tüccarlarıyla kervan ticareti yap",
+        "etki": {
+          "para": 30,
+          "itibar": 10
+        },
+        "sonuc": "Kervan ticaretinden helal kazanç sağladın."
+      },
+      {
+        "metin": "1852 yılında mahalle asayiş nöbetini tertip et",
+        "etki": {
+          "itibar": 12,
+          "saglik": 5,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahallede güven tesis edip saygı gördün."
+      }
+    ]
+  },
+  {
+    "id": "dagilma_1855_tarihi_olay",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1855,
+    "tarih_yil_max": 1855,
+    "tek_seferlik": true,
+    "donem": "dagilma",
+    "alt_donem": "abdulhamid_han",
+    "metin": "1855 yılında Osmanlı mülkünde kamu asayişi, adalet fermanları ve eyalet imar faaliyetleri yürütüldü.",
+    "secenekler": [
+      {
+        "metin": "1855 yılı adalet nizamnamesini divanda kayda geçir",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 10
+        },
+        "sonuc": "Divan kayıtlarını intizamla tutup takdir topladın."
+      },
+      {
+        "metin": "1855 yılı imar çalışmaları için vakıf aşevi aç",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Halkın duasını alıp cömertliğinle tanındın."
+      },
+      {
+        "metin": "1855 yılı eyalet tüccarlarıyla kervan ticareti yap",
+        "etki": {
+          "para": 30,
+          "itibar": 10
+        },
+        "sonuc": "Kervan ticaretinden helal kazanç sağladın."
+      },
+      {
+        "metin": "1855 yılında mahalle asayiş nöbetini tertip et",
+        "etki": {
+          "itibar": 12,
+          "saglik": 5,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahallede güven tesis edip saygı gördün."
+      }
+    ]
+  },
+  {
+    "id": "dagilma_1857_tarihi_olay",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1857,
+    "tarih_yil_max": 1857,
+    "tek_seferlik": true,
+    "donem": "dagilma",
+    "alt_donem": "abdulhamid_han",
+    "metin": "1857 yılında Osmanlı mülkünde kamu asayişi, adalet fermanları ve eyalet imar faaliyetleri yürütüldü.",
+    "secenekler": [
+      {
+        "metin": "1857 yılı adalet nizamnamesini divanda kayda geçir",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 10
+        },
+        "sonuc": "Divan kayıtlarını intizamla tutup takdir topladın."
+      },
+      {
+        "metin": "1857 yılı imar çalışmaları için vakıf aşevi aç",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Halkın duasını alıp cömertliğinle tanındın."
+      },
+      {
+        "metin": "1857 yılı eyalet tüccarlarıyla kervan ticareti yap",
+        "etki": {
+          "para": 30,
+          "itibar": 10
+        },
+        "sonuc": "Kervan ticaretinden helal kazanç sağladın."
+      },
+      {
+        "metin": "1857 yılında mahalle asayiş nöbetini tertip et",
+        "etki": {
+          "itibar": 12,
+          "saglik": 5,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahallede güven tesis edip saygı gördün."
+      }
+    ]
+  },
+  {
+    "id": "dagilma_1858_tarihi_olay",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1858,
+    "tarih_yil_max": 1858,
+    "tek_seferlik": true,
+    "donem": "dagilma",
+    "alt_donem": "abdulhamid_han",
+    "metin": "1858 yılında Osmanlı mülkünde kamu asayişi, adalet fermanları ve eyalet imar faaliyetleri yürütüldü.",
+    "secenekler": [
+      {
+        "metin": "1858 yılı adalet nizamnamesini divanda kayda geçir",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 10
+        },
+        "sonuc": "Divan kayıtlarını intizamla tutup takdir topladın."
+      },
+      {
+        "metin": "1858 yılı imar çalışmaları için vakıf aşevi aç",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Halkın duasını alıp cömertliğinle tanındın."
+      },
+      {
+        "metin": "1858 yılı eyalet tüccarlarıyla kervan ticareti yap",
+        "etki": {
+          "para": 30,
+          "itibar": 10
+        },
+        "sonuc": "Kervan ticaretinden helal kazanç sağladın."
+      },
+      {
+        "metin": "1858 yılında mahalle asayiş nöbetini tertip et",
+        "etki": {
+          "itibar": 12,
+          "saglik": 5,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahallede güven tesis edip saygı gördün."
+      }
+    ]
+  },
+  {
+    "id": "dagilma_1860_tarihi_olay",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1860,
+    "tarih_yil_max": 1860,
+    "tek_seferlik": true,
+    "donem": "dagilma",
+    "alt_donem": "abdulhamid_han",
+    "metin": "1860 yılında Osmanlı mülkünde kamu asayişi, adalet fermanları ve eyalet imar faaliyetleri yürütüldü.",
+    "secenekler": [
+      {
+        "metin": "1860 yılı adalet nizamnamesini divanda kayda geçir",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 10
+        },
+        "sonuc": "Divan kayıtlarını intizamla tutup takdir topladın."
+      },
+      {
+        "metin": "1860 yılı imar çalışmaları için vakıf aşevi aç",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Halkın duasını alıp cömertliğinle tanındın."
+      },
+      {
+        "metin": "1860 yılı eyalet tüccarlarıyla kervan ticareti yap",
+        "etki": {
+          "para": 30,
+          "itibar": 10
+        },
+        "sonuc": "Kervan ticaretinden helal kazanç sağladın."
+      },
+      {
+        "metin": "1860 yılında mahalle asayiş nöbetini tertip et",
+        "etki": {
+          "itibar": 12,
+          "saglik": 5,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahallede güven tesis edip saygı gördün."
+      }
+    ]
+  },
+  {
+    "id": "dagilma_1862_tarihi_olay",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1862,
+    "tarih_yil_max": 1862,
+    "tek_seferlik": true,
+    "donem": "dagilma",
+    "alt_donem": "abdulhamid_han",
+    "metin": "1862 yılında Osmanlı mülkünde kamu asayişi, adalet fermanları ve eyalet imar faaliyetleri yürütüldü.",
+    "secenekler": [
+      {
+        "metin": "1862 yılı adalet nizamnamesini divanda kayda geçir",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 10
+        },
+        "sonuc": "Divan kayıtlarını intizamla tutup takdir topladın."
+      },
+      {
+        "metin": "1862 yılı imar çalışmaları için vakıf aşevi aç",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Halkın duasını alıp cömertliğinle tanındın."
+      },
+      {
+        "metin": "1862 yılı eyalet tüccarlarıyla kervan ticareti yap",
+        "etki": {
+          "para": 30,
+          "itibar": 10
+        },
+        "sonuc": "Kervan ticaretinden helal kazanç sağladın."
+      },
+      {
+        "metin": "1862 yılında mahalle asayiş nöbetini tertip et",
+        "etki": {
+          "itibar": 12,
+          "saglik": 5,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahallede güven tesis edip saygı gördün."
+      }
+    ]
+  },
+  {
+    "id": "dagilma_1863_tarihi_olay",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1863,
+    "tarih_yil_max": 1863,
+    "tek_seferlik": true,
+    "donem": "dagilma",
+    "alt_donem": "abdulhamid_han",
+    "metin": "1863 yılında Osmanlı mülkünde kamu asayişi, adalet fermanları ve eyalet imar faaliyetleri yürütüldü.",
+    "secenekler": [
+      {
+        "metin": "1863 yılı adalet nizamnamesini divanda kayda geçir",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 10
+        },
+        "sonuc": "Divan kayıtlarını intizamla tutup takdir topladın."
+      },
+      {
+        "metin": "1863 yılı imar çalışmaları için vakıf aşevi aç",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Halkın duasını alıp cömertliğinle tanındın."
+      },
+      {
+        "metin": "1863 yılı eyalet tüccarlarıyla kervan ticareti yap",
+        "etki": {
+          "para": 30,
+          "itibar": 10
+        },
+        "sonuc": "Kervan ticaretinden helal kazanç sağladın."
+      },
+      {
+        "metin": "1863 yılında mahalle asayiş nöbetini tertip et",
+        "etki": {
+          "itibar": 12,
+          "saglik": 5,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahallede güven tesis edip saygı gördün."
+      }
+    ]
+  },
+  {
+    "id": "dagilma_1864_tarihi_olay",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1864,
+    "tarih_yil_max": 1864,
+    "tek_seferlik": true,
+    "donem": "dagilma",
+    "alt_donem": "abdulhamid_han",
+    "metin": "1864 yılında Osmanlı mülkünde kamu asayişi, adalet fermanları ve eyalet imar faaliyetleri yürütüldü.",
+    "secenekler": [
+      {
+        "metin": "1864 yılı adalet nizamnamesini divanda kayda geçir",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 10
+        },
+        "sonuc": "Divan kayıtlarını intizamla tutup takdir topladın."
+      },
+      {
+        "metin": "1864 yılı imar çalışmaları için vakıf aşevi aç",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Halkın duasını alıp cömertliğinle tanındın."
+      },
+      {
+        "metin": "1864 yılı eyalet tüccarlarıyla kervan ticareti yap",
+        "etki": {
+          "para": 30,
+          "itibar": 10
+        },
+        "sonuc": "Kervan ticaretinden helal kazanç sağladın."
+      },
+      {
+        "metin": "1864 yılında mahalle asayiş nöbetini tertip et",
+        "etki": {
+          "itibar": 12,
+          "saglik": 5,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahallede güven tesis edip saygı gördün."
+      }
+    ]
+  },
+  {
+    "id": "dagilma_1868_tarihi_olay",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1868,
+    "tarih_yil_max": 1868,
+    "tek_seferlik": true,
+    "donem": "dagilma",
+    "alt_donem": "abdulhamid_han",
+    "metin": "1868 yılında Osmanlı mülkünde kamu asayişi, adalet fermanları ve eyalet imar faaliyetleri yürütüldü.",
+    "secenekler": [
+      {
+        "metin": "1868 yılı adalet nizamnamesini divanda kayda geçir",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 10
+        },
+        "sonuc": "Divan kayıtlarını intizamla tutup takdir topladın."
+      },
+      {
+        "metin": "1868 yılı imar çalışmaları için vakıf aşevi aç",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Halkın duasını alıp cömertliğinle tanındın."
+      },
+      {
+        "metin": "1868 yılı eyalet tüccarlarıyla kervan ticareti yap",
+        "etki": {
+          "para": 30,
+          "itibar": 10
+        },
+        "sonuc": "Kervan ticaretinden helal kazanç sağladın."
+      },
+      {
+        "metin": "1868 yılında mahalle asayiş nöbetini tertip et",
+        "etki": {
+          "itibar": 12,
+          "saglik": 5,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahallede güven tesis edip saygı gördün."
+      }
+    ]
+  },
+  {
+    "id": "dagilma_1870_tarihi_olay",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1870,
+    "tarih_yil_max": 1870,
+    "tek_seferlik": true,
+    "donem": "dagilma",
+    "alt_donem": "abdulhamid_han",
+    "metin": "1870 yılında Osmanlı mülkünde kamu asayişi, adalet fermanları ve eyalet imar faaliyetleri yürütüldü.",
+    "secenekler": [
+      {
+        "metin": "1870 yılı adalet nizamnamesini divanda kayda geçir",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 10
+        },
+        "sonuc": "Divan kayıtlarını intizamla tutup takdir topladın."
+      },
+      {
+        "metin": "1870 yılı imar çalışmaları için vakıf aşevi aç",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Halkın duasını alıp cömertliğinle tanındın."
+      },
+      {
+        "metin": "1870 yılı eyalet tüccarlarıyla kervan ticareti yap",
+        "etki": {
+          "para": 30,
+          "itibar": 10
+        },
+        "sonuc": "Kervan ticaretinden helal kazanç sağladın."
+      },
+      {
+        "metin": "1870 yılında mahalle asayiş nöbetini tertip et",
+        "etki": {
+          "itibar": 12,
+          "saglik": 5,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahallede güven tesis edip saygı gördün."
+      }
+    ]
+  },
+  {
+    "id": "dagilma_1871_tarihi_olay",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1871,
+    "tarih_yil_max": 1871,
+    "tek_seferlik": true,
+    "donem": "dagilma",
+    "alt_donem": "abdulhamid_han",
+    "metin": "1871 yılında Osmanlı mülkünde kamu asayişi, adalet fermanları ve eyalet imar faaliyetleri yürütüldü.",
+    "secenekler": [
+      {
+        "metin": "1871 yılı adalet nizamnamesini divanda kayda geçir",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 10
+        },
+        "sonuc": "Divan kayıtlarını intizamla tutup takdir topladın."
+      },
+      {
+        "metin": "1871 yılı imar çalışmaları için vakıf aşevi aç",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Halkın duasını alıp cömertliğinle tanındın."
+      },
+      {
+        "metin": "1871 yılı eyalet tüccarlarıyla kervan ticareti yap",
+        "etki": {
+          "para": 30,
+          "itibar": 10
+        },
+        "sonuc": "Kervan ticaretinden helal kazanç sağladın."
+      },
+      {
+        "metin": "1871 yılında mahalle asayiş nöbetini tertip et",
+        "etki": {
+          "itibar": 12,
+          "saglik": 5,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahallede güven tesis edip saygı gördün."
+      }
+    ]
+  },
+  {
+    "id": "dagilma_1872_tarihi_olay",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1872,
+    "tarih_yil_max": 1872,
+    "tek_seferlik": true,
+    "donem": "dagilma",
+    "alt_donem": "abdulhamid_han",
+    "metin": "1872 yılında Osmanlı mülkünde kamu asayişi, adalet fermanları ve eyalet imar faaliyetleri yürütüldü.",
+    "secenekler": [
+      {
+        "metin": "1872 yılı adalet nizamnamesini divanda kayda geçir",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 10
+        },
+        "sonuc": "Divan kayıtlarını intizamla tutup takdir topladın."
+      },
+      {
+        "metin": "1872 yılı imar çalışmaları için vakıf aşevi aç",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Halkın duasını alıp cömertliğinle tanındın."
+      },
+      {
+        "metin": "1872 yılı eyalet tüccarlarıyla kervan ticareti yap",
+        "etki": {
+          "para": 30,
+          "itibar": 10
+        },
+        "sonuc": "Kervan ticaretinden helal kazanç sağladın."
+      },
+      {
+        "metin": "1872 yılında mahalle asayiş nöbetini tertip et",
+        "etki": {
+          "itibar": 12,
+          "saglik": 5,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahallede güven tesis edip saygı gördün."
+      }
+    ]
+  },
+  {
+    "id": "dagilma_1873_tarihi_olay",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1873,
+    "tarih_yil_max": 1873,
+    "tek_seferlik": true,
+    "donem": "dagilma",
+    "alt_donem": "abdulhamid_han",
+    "metin": "1873 yılında Osmanlı mülkünde kamu asayişi, adalet fermanları ve eyalet imar faaliyetleri yürütüldü.",
+    "secenekler": [
+      {
+        "metin": "1873 yılı adalet nizamnamesini divanda kayda geçir",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 10
+        },
+        "sonuc": "Divan kayıtlarını intizamla tutup takdir topladın."
+      },
+      {
+        "metin": "1873 yılı imar çalışmaları için vakıf aşevi aç",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Halkın duasını alıp cömertliğinle tanındın."
+      },
+      {
+        "metin": "1873 yılı eyalet tüccarlarıyla kervan ticareti yap",
+        "etki": {
+          "para": 30,
+          "itibar": 10
+        },
+        "sonuc": "Kervan ticaretinden helal kazanç sağladın."
+      },
+      {
+        "metin": "1873 yılında mahalle asayiş nöbetini tertip et",
+        "etki": {
+          "itibar": 12,
+          "saglik": 5,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahallede güven tesis edip saygı gördün."
+      }
+    ]
+  },
+  {
+    "id": "dagilma_1879_tarihi_olay",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1879,
+    "tarih_yil_max": 1879,
+    "tek_seferlik": true,
+    "donem": "dagilma",
+    "alt_donem": "abdulhamid_han",
+    "metin": "1879 yılında Osmanlı mülkünde kamu asayişi, adalet fermanları ve eyalet imar faaliyetleri yürütüldü.",
+    "secenekler": [
+      {
+        "metin": "1879 yılı adalet nizamnamesini divanda kayda geçir",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 10
+        },
+        "sonuc": "Divan kayıtlarını intizamla tutup takdir topladın."
+      },
+      {
+        "metin": "1879 yılı imar çalışmaları için vakıf aşevi aç",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Halkın duasını alıp cömertliğinle tanındın."
+      },
+      {
+        "metin": "1879 yılı eyalet tüccarlarıyla kervan ticareti yap",
+        "etki": {
+          "para": 30,
+          "itibar": 10
+        },
+        "sonuc": "Kervan ticaretinden helal kazanç sağladın."
+      },
+      {
+        "metin": "1879 yılında mahalle asayiş nöbetini tertip et",
+        "etki": {
+          "itibar": 12,
+          "saglik": 5,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahallede güven tesis edip saygı gördün."
+      }
+    ]
+  },
+  {
+    "id": "dagilma_1884_tarihi_olay",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1884,
+    "tarih_yil_max": 1884,
+    "tek_seferlik": true,
+    "donem": "dagilma",
+    "alt_donem": "abdulhamid_han",
+    "metin": "1884 yılında Osmanlı mülkünde kamu asayişi, adalet fermanları ve eyalet imar faaliyetleri yürütüldü.",
+    "secenekler": [
+      {
+        "metin": "1884 yılı adalet nizamnamesini divanda kayda geçir",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 10
+        },
+        "sonuc": "Divan kayıtlarını intizamla tutup takdir topladın."
+      },
+      {
+        "metin": "1884 yılı imar çalışmaları için vakıf aşevi aç",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Halkın duasını alıp cömertliğinle tanındın."
+      },
+      {
+        "metin": "1884 yılı eyalet tüccarlarıyla kervan ticareti yap",
+        "etki": {
+          "para": 30,
+          "itibar": 10
+        },
+        "sonuc": "Kervan ticaretinden helal kazanç sağladın."
+      },
+      {
+        "metin": "1884 yılında mahalle asayiş nöbetini tertip et",
+        "etki": {
+          "itibar": 12,
+          "saglik": 5,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahallede güven tesis edip saygı gördün."
+      }
+    ]
+  },
+  {
+    "id": "dagilma_1885_tarihi_olay",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1885,
+    "tarih_yil_max": 1885,
+    "tek_seferlik": true,
+    "donem": "dagilma",
+    "alt_donem": "abdulhamid_han",
+    "metin": "1885 yılında Osmanlı mülkünde kamu asayişi, adalet fermanları ve eyalet imar faaliyetleri yürütüldü.",
+    "secenekler": [
+      {
+        "metin": "1885 yılı adalet nizamnamesini divanda kayda geçir",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 10
+        },
+        "sonuc": "Divan kayıtlarını intizamla tutup takdir topladın."
+      },
+      {
+        "metin": "1885 yılı imar çalışmaları için vakıf aşevi aç",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Halkın duasını alıp cömertliğinle tanındın."
+      },
+      {
+        "metin": "1885 yılı eyalet tüccarlarıyla kervan ticareti yap",
+        "etki": {
+          "para": 30,
+          "itibar": 10
+        },
+        "sonuc": "Kervan ticaretinden helal kazanç sağladın."
+      },
+      {
+        "metin": "1885 yılında mahalle asayiş nöbetini tertip et",
+        "etki": {
+          "itibar": 12,
+          "saglik": 5,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahallede güven tesis edip saygı gördün."
+      }
+    ]
+  },
+  {
+    "id": "dagilma_1886_tarihi_olay",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1886,
+    "tarih_yil_max": 1886,
+    "tek_seferlik": true,
+    "donem": "dagilma",
+    "alt_donem": "abdulhamid_han",
+    "metin": "1886 yılında Osmanlı mülkünde kamu asayişi, adalet fermanları ve eyalet imar faaliyetleri yürütüldü.",
+    "secenekler": [
+      {
+        "metin": "1886 yılı adalet nizamnamesini divanda kayda geçir",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 10
+        },
+        "sonuc": "Divan kayıtlarını intizamla tutup takdir topladın."
+      },
+      {
+        "metin": "1886 yılı imar çalışmaları için vakıf aşevi aç",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Halkın duasını alıp cömertliğinle tanındın."
+      },
+      {
+        "metin": "1886 yılı eyalet tüccarlarıyla kervan ticareti yap",
+        "etki": {
+          "para": 30,
+          "itibar": 10
+        },
+        "sonuc": "Kervan ticaretinden helal kazanç sağladın."
+      },
+      {
+        "metin": "1886 yılında mahalle asayiş nöbetini tertip et",
+        "etki": {
+          "itibar": 12,
+          "saglik": 5,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahallede güven tesis edip saygı gördün."
+      }
+    ]
+  },
+  {
+    "id": "dagilma_1887_tarihi_olay",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1887,
+    "tarih_yil_max": 1887,
+    "tek_seferlik": true,
+    "donem": "dagilma",
+    "alt_donem": "abdulhamid_han",
+    "metin": "1887 yılında Osmanlı mülkünde kamu asayişi, adalet fermanları ve eyalet imar faaliyetleri yürütüldü.",
+    "secenekler": [
+      {
+        "metin": "1887 yılı adalet nizamnamesini divanda kayda geçir",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 10
+        },
+        "sonuc": "Divan kayıtlarını intizamla tutup takdir topladın."
+      },
+      {
+        "metin": "1887 yılı imar çalışmaları için vakıf aşevi aç",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Halkın duasını alıp cömertliğinle tanındın."
+      },
+      {
+        "metin": "1887 yılı eyalet tüccarlarıyla kervan ticareti yap",
+        "etki": {
+          "para": 30,
+          "itibar": 10
+        },
+        "sonuc": "Kervan ticaretinden helal kazanç sağladın."
+      },
+      {
+        "metin": "1887 yılında mahalle asayiş nöbetini tertip et",
+        "etki": {
+          "itibar": 12,
+          "saglik": 5,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahallede güven tesis edip saygı gördün."
+      }
+    ]
+  },
+  {
+    "id": "dagilma_1910_tarihi_olay",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1910,
+    "tarih_yil_max": 1910,
+    "tek_seferlik": true,
+    "donem": "dagilma",
+    "alt_donem": "abdulhamid_han",
+    "metin": "1910 yılında Osmanlı mülkünde kamu asayişi, adalet fermanları ve eyalet imar faaliyetleri yürütüldü.",
+    "secenekler": [
+      {
+        "metin": "1910 yılı adalet nizamnamesini divanda kayda geçir",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 10
+        },
+        "sonuc": "Divan kayıtlarını intizamla tutup takdir topladın."
+      },
+      {
+        "metin": "1910 yılı imar çalışmaları için vakıf aşevi aç",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Halkın duasını alıp cömertliğinle tanındın."
+      },
+      {
+        "metin": "1910 yılı eyalet tüccarlarıyla kervan ticareti yap",
+        "etki": {
+          "para": 30,
+          "itibar": 10
+        },
+        "sonuc": "Kervan ticaretinden helal kazanç sağladın."
+      },
+      {
+        "metin": "1910 yılında mahalle asayiş nöbetini tertip et",
+        "etki": {
+          "itibar": 12,
+          "saglik": 5,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahallede güven tesis edip saygı gördün."
+      }
+    ]
+  },
+  {
+    "id": "dagilma_1917_tarihi_olay",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1917,
+    "tarih_yil_max": 1917,
+    "tek_seferlik": true,
+    "donem": "dagilma",
+    "alt_donem": "abdulhamid_han",
+    "metin": "1917 yılında Osmanlı mülkünde kamu asayişi, adalet fermanları ve eyalet imar faaliyetleri yürütüldü.",
+    "secenekler": [
+      {
+        "metin": "1917 yılı adalet nizamnamesini divanda kayda geçir",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 10
+        },
+        "sonuc": "Divan kayıtlarını intizamla tutup takdir topladın."
+      },
+      {
+        "metin": "1917 yılı imar çalışmaları için vakıf aşevi aç",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Halkın duasını alıp cömertliğinle tanındın."
+      },
+      {
+        "metin": "1917 yılı eyalet tüccarlarıyla kervan ticareti yap",
+        "etki": {
+          "para": 30,
+          "itibar": 10
+        },
+        "sonuc": "Kervan ticaretinden helal kazanç sağladın."
+      },
+      {
+        "metin": "1917 yılında mahalle asayiş nöbetini tertip et",
+        "etki": {
+          "itibar": 12,
+          "saglik": 5,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahallede güven tesis edip saygı gördün."
+      }
+    ]
   }
 ]

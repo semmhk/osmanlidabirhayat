@@ -29,12 +29,12 @@ void main() {
       tumOlaylar = [...o1, ...o2, ...o3, ...o4, ...o5, ...o6];
     });
 
-    test('1. kurulus (138) + yukselme (101) + duraklama (118) + gerileme (68) + dagilma (107) + gundelik (100) = 632 olay eksiksiz, benzersiz ID ve alt_donem alanlarıyla yüklenmeli', () {
-      expect(tumOlaylar.length, equals(632));
+    test('1. kurulus (138) + yukselme (149) + duraklama (147) + gerileme (122) + dagilma (165) + gundelik (100) = 821 olay eksiksiz, benzersiz ID ve alt_donem alanlarıyla yüklenmeli', () {
+      expect(tumOlaylar.length, equals(821));
       
       // Benzersiz ID kontrolü
       final idSet = tumOlaylar.map((o) => o.id).toSet();
-      expect(idSet.length, equals(632));
+      expect(idSet.length, equals(821));
 
       final ahilikOlayi = tumOlaylar.firstWhere((o) => o.id == 'kurulus_001');
       expect(ahilikOlayi.tarihYilMin, equals(1299));

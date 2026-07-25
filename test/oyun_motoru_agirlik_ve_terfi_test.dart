@@ -84,9 +84,9 @@ void main() {
         if (secilen?.id == 'kurulus_001') tarihiSayisi++;
       }
 
-      // oncelikliGundelik (8x) ve tarihiOlay (8x) gündelik sohbetten (1x) çok daha sık seçilmeli
-      expect(oncelikliSayisi, greaterThan(gundelikSayisi * 2));
-      expect(tarihiSayisi, greaterThan(gundelikSayisi * 2));
+      // tarihiOlay (500x) > oncelikliGundelik (50x) > gundelik sohbet (1x)
+      expect(tarihiSayisi, greaterThan(oncelikliSayisi));
+      expect(oncelikliSayisi, greaterThan(gundelikSayisi));
     });
 
     test('3. 15-Yıllık Cooldown Mantığı (Tekrarlanabilir olaylar 15 yıl geçmeden aday olamaz)', () {

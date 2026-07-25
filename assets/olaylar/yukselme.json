@@ -4873,5 +4873,2411 @@
         "sonuc": "Macaristan eyaletinin ilk idari iaşesine destek verdin."
       }
     ]
+  },
+  {
+    "id": "yukselme_1471_sahn_i_seman",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1471,
+    "tarih_yil_max": 1471,
+    "tek_seferlik": true,
+    "donem": "yukselme",
+    "alt_donem": "fatih_sultan_mehmed",
+    "metin": "Fatih Sultan Mehmed Sahn-ı Seman Medreseleri'ni törenle açtı. Semerkandlı alim Ali Kuşçu İstanbul'a gelip başmüderris tayin edildi.",
+    "secenekler": [
+      {
+        "metin": "Ali Kuşçu'nun medrese derslerine katılıp riyaziye tahsili gör",
+        "gerekli_zeka": 50,
+        "etki": {
+          "itibar": 25,
+          "zeka": 15,
+          "para": 10
+        },
+        "sonuc": "Ali Kuşçu'dan icazetname alarak ilmiye sınıfında yükseldin."
+      },
+      {
+        "metin": "Sahn-ı Seman medrese talebelerine ilmiye bursu vakfet",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 20,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Mollaların dualarını alıp hayırsever alim kâtibi olarak tanındın."
+      },
+      {
+        "metin": "Medrese kütüphanesine astronomi ve hendese yazmaları bağışla",
+        "gerekli_para": 25,
+        "etki": {
+          "itibar": 15,
+          "para": -25,
+          "zeka": 12
+        },
+        "sonuc": "Bağışladığın yazmalar Sahn-ı Seman kütüphanesine kaydedildi."
+      },
+      {
+        "metin": "Medrese talebelerine iaşe ve yemek ikramında bulun",
+        "etki": {
+          "itibar": 12,
+          "para": -15,
+          "mutluluk": 5
+        },
+        "sonuc": "Talebelerin takdirini kazandın."
+      }
+    ]
+  },
+  {
+    "id": "yukselme_1472_uzun_hasan_tokat",
+    "yas_min": 18,
+    "yas_max": 65,
+    "tarih_yil_min": 1472,
+    "tarih_yil_max": 1472,
+    "tek_seferlik": true,
+    "donem": "yukselme",
+    "alt_donem": "fatih_sultan_mehmed",
+    "metin": "Akkoyunlu Hükümdarı Uzun Hasan'ın kuvvetleri Tokat'ı baskınla yağmaladı. Fatih Sultan Mehmed doğu seferi hazırlığı başlattı.",
+    "secenekler": [
+      {
+        "metin": "Otlukbeli seferine katılmak için seyfiye sınıfı birliğine yazıl",
+        "gerekli_bayrak": "meslek_seyfiye",
+        "etki": {
+          "itibar": 20,
+          "saglik": -5,
+          "para": 15
+        },
+        "sonuc": "Doğu ordusunda mühimmat muhafızı olarak görev aldın."
+      },
+      {
+        "metin": "Tokat yağmasından kaçan ailelere Amasya'da sığınak aç",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Felaketzede ailelere yardım ederek dualarını aldın."
+      },
+      {
+        "metin": "Akkoyunlu atlılarına karşı Anadolu aşiretlerinden müttefik topla",
+        "gerekli_itibar": 40,
+        "etki": {
+          "itibar": 22,
+          "para": 10
+        },
+        "sonuc": "Sancak beyinin gözüne girip tımarlı sipahi beyi oldun."
+      },
+      {
+        "metin": "Orduya kışlık giyecek ve arpa sevkiyatını organize et",
+        "etki": {
+          "itibar": 10,
+          "para": 15
+        },
+        "sonuc": "Ordu iaşe kâtibi olarak kâr sağladın."
+      }
+    ]
+  },
+  {
+    "id": "yukselme_1474_sehzade_mustafa_vefati",
+    "yas_min": 20,
+    "yas_max": 75,
+    "tarih_yil_min": 1474,
+    "tarih_yil_max": 1474,
+    "tek_seferlik": true,
+    "donem": "yukselme",
+    "alt_donem": "fatih_sultan_mehmed",
+    "metin": "Fatih Sultan Mehmed'in çok sevdiği oğlu Karaman Valisi Şehzade Mustafa genç yaşta vefat etti. Padişah büyük bir matem ilan etti.",
+    "secenekler": [
+      {
+        "metin": "Şehzade Mustafa'nın cenazesini Konya'dan Bursa'ya nakleden kafileye kat ol",
+        "gerekli_itibar": 35,
+        "etki": {
+          "itibar": 20,
+          "mutluluk": -5,
+          "para": 10
+        },
+        "sonuc": "Muradiye Külliyesi'ndeki türbe defnine hürmetle katıldın."
+      },
+      {
+        "metin": "Şehzadenin ruhu için Bursa halkına hayır aşı dağıt",
+        "gerekli_para": 25,
+        "etki": {
+          "itibar": 16,
+          "para": -25,
+          "mutluluk": 5
+        },
+        "sonuc": "Bursa halkının hürmet ve takdirini kazandın."
+      },
+      {
+        "metin": "Şehzade Mustafa için mersiye yazıp divana takdim et",
+        "gerekli_zeka": 45,
+        "etki": {
+          "itibar": 18,
+          "para": 15,
+          "zeka": 8
+        },
+        "sonuc": "Yazdığın samimi mersiye sarayda duygulu anlar yaşattı."
+      },
+      {
+        "metin": "Karaman vilayetinde asayişi korumak için kolluk nöbeti tut",
+        "etki": {
+          "itibar": 10,
+          "saglik": 5
+        },
+        "sonuc": "Matem döneminde Konya'da huzuru sağladın."
+      }
+    ]
+  },
+  {
+    "id": "yukselme_1476_bogdan_seferi",
+    "yas_min": 18,
+    "yas_max": 60,
+    "tarih_yil_min": 1476,
+    "tarih_yil_max": 1476,
+    "tek_seferlik": true,
+    "donem": "yukselme",
+    "alt_donem": "fatih_sultan_mehmed",
+    "metin": "Fatih Sultan Mehmed Boğdan Voyvodası Büyük Stefan üzerine sefere çıkarak Akdere (Valea Alba) Meydan Muharebesi'ni kazandı.",
+    "secenekler": [
+      {
+        "metin": "Boğdan dağlarında Akıncı kollarında keşiğe çık",
+        "gerekli_bayrak": "meslek_seyfiye",
+        "etki": {
+          "itibar": 20,
+          "saglik": -8,
+          "para": 20
+        },
+        "sonuc": "Bataklık ve dağ yollarında ordunun önünü açtın."
+      },
+      {
+        "metin": "Orduyah için Boğdan sınırında zahire deposu kur",
+        "gerekli_para": 35,
+        "etki": {
+          "para": 30,
+          "itibar": 12
+        },
+        "sonuc": "Ordu zahire müteahhidi olarak kâr sağladın."
+      },
+      {
+        "metin": "Boğdan voyvodasının vergi defterlerini yenile",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 15,
+          "zeka": 10
+        },
+        "sonuc": "Boğdan haracının muntazam toplanmasını sağladın."
+      },
+      {
+        "metin": "Yaralı gazilere şifalı macun ve sargı tedarik et",
+        "etki": {
+          "itibar": 12,
+          "para": -15,
+          "saglik": 5
+        },
+        "sonuc": "Gazilerin duasını aldın."
+      }
+    ]
+  },
+  {
+    "id": "yukselme_1478_iskodra_ve_altin_para",
+    "yas_min": 20,
+    "yas_max": 75,
+    "tarih_yil_min": 1478,
+    "tarih_yil_max": 1478,
+    "tek_seferlik": true,
+    "donem": "yukselme",
+    "alt_donem": "fatih_sultan_mehmed",
+    "metin": "İşkodra Kuşatması tamamlanırken Fatih Sultan Mehmed ilk Osmanlı altın parasını (Sikke-i Hasene / Sultani) bastırdı.",
+    "secenekler": [
+      {
+        "metin": "Darpnane-i Âmire'de ilk altın altunların ayar denetçisi ol",
+        "gerekli_zeka": 45,
+        "etki": {
+          "itibar": 25,
+          "para": 30,
+          "zeka": 10
+        },
+        "sonuc": "Sultani altınlarının hassas kütlesini denetleyip darphane emini oldun."
+      },
+      {
+        "metin": "İşkodra kalesine nakledilecek ağır kuşatma toplarının nakliyesine katıl",
+        "gerekli_bayrak": "meslek_seyfiye",
+        "etki": {
+          "itibar": 18,
+          "para": 15
+        },
+        "sonuc": "Dağlık Arnavutluk'ta topları naklederek zaferde pay sahibi oldun."
+      },
+      {
+        "metin": "İlk altın sikke ile tüccarlar arası uluslararası ticarete giriş",
+        "gerekli_para": 50,
+        "etki": {
+          "para": 55,
+          "itibar": 15
+        },
+        "sonuc": "Venedik dukasına karşı Osmanlı altınının itibarını yükselttin."
+      },
+      {
+        "metin": "Darphanede sikke kesen ahi sanatkarlara ikramda bulun",
+        "etki": {
+          "itibar": 10,
+          "mutluluk": 6
+        },
+        "sonuc": "Ahi ustalarının saygısını kazandın."
+      }
+    ]
+  },
+  {
+    "id": "yukselme_1479_bellini_portre",
+    "yas_min": 20,
+    "yas_max": 75,
+    "tarih_yil_min": 1479,
+    "tarih_yil_max": 1479,
+    "tek_seferlik": true,
+    "donem": "yukselme",
+    "alt_donem": "fatih_sultan_mehmed",
+    "metin": "Venedik ile 16 yıllık barış antlaşması imzalandı. Fatih'in davetiyle İtalyan ressam Gentile Bellini İstanbul'a gelip meşhur Fatih portresini yaptı.",
+    "secenekler": [
+      {
+        "metin": "Gentile Bellini'ye sarayda misafirperverlik ve tercümanlık et",
+        "gerekli_zeka": 50,
+        "etki": {
+          "itibar": 25,
+          "zeka": 15,
+          "para": 20
+        },
+        "sonuc": "Bellini ile Fatih'in tarihi tablo oturumlarına kâtip olarak tanıklık ettin."
+      },
+      {
+        "metin": "Venedik Antlaşması sonrası Ege deniz ticaretine atıl",
+        "gerekli_para": 40,
+        "etki": {
+          "para": 45,
+          "itibar": 12
+        },
+        "sonuc": "Venedik limanlarına zeytinyağı ve ipek satarak kâr ettin."
+      },
+      {
+        "metin": "Saray nakkaşhanesinde İtalyan resim tekniklerini incele",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 18,
+          "zeka": 12
+        },
+        "sonuc": "Doğu-Batı sanat harmanında nakkaşbaşı unvanı aldın."
+      },
+      {
+        "metin": "Venedikli tüccarlara Pera'da (Galata) dükkan kirala",
+        "etki": {
+          "para": 25,
+          "itibar": 8
+        },
+        "sonuc": "Galata gayrimenkul gelirini artırdın."
+      }
+    ]
+  },
+  {
+    "id": "yukselme_1485_memluk_savasi",
+    "yas_min": 18,
+    "yas_max": 65,
+    "tarih_yil_min": 1485,
+    "tarih_yil_max": 1485,
+    "tek_seferlik": true,
+    "donem": "yukselme",
+    "alt_donem": "ikinci_bayezid",
+    "metin": "II. Bayezid döneminde Memlük Devleti ile Çukurova ve Haremeyn hakimiyeti sebebiyle ilk savaşlar başladı.",
+    "secenekler": [
+      {
+        "metin": "Çukurova seferine katılan Anadolu ordusunda görev al",
+        "gerekli_bayrak": "meslek_seyfiye",
+        "etki": {
+          "itibar": 18,
+          "saglik": -5,
+          "para": 15
+        },
+        "sonuc": "Tarsus ve Adana sınırında atlı sipahi olarak çarpıştın."
+      },
+      {
+        "metin": "Adana ve Mersin bölgesindeki gazilere lojistik buğday sevk et",
+        "gerekli_para": 30,
+        "etki": {
+          "para": 30,
+          "itibar": 10
+        },
+        "sonuc": "Güney ordusu zahire ikmalinden kazanç sağladın."
+      },
+      {
+        "metin": "Memlük elçisi ile yapılan divan müzakerelerine katıl",
+        "gerekli_zeka": 45,
+        "etki": {
+          "itibar": 20,
+          "zeka": 10
+        },
+        "sonuc": "Diplomatik şartları divana muntazam raporladın."
+      },
+      {
+        "metin": "Çukurova halkına yardım için Kızılay benzeri aşevi aç",
+        "etki": {
+          "itibar": 12,
+          "para": -15,
+          "mutluluk": 8
+        },
+        "sonuc": "Bölge ahalesinin hürmetini kazandın."
+      }
+    ]
+  },
+  {
+    "id": "yukselme_1488_amasya_bimarhanesi",
+    "yas_min": 20,
+    "yas_max": 75,
+    "tarih_yil_min": 1488,
+    "tarih_yil_max": 1488,
+    "tek_seferlik": true,
+    "donem": "yukselme",
+    "alt_donem": "ikinci_bayezid",
+    "metin": "Amasya II. Bayezid Külliyesi ve Bimarhanesi açıldı. Ruh hastalarının müzik ve su sesiyle tedavisi dünyada ilk kez kurumsallaştı.",
+    "secenekler": [
+      {
+        "metin": "Amasya Bimarhanesi'nde neyzen ve hekim olarak göreve başla",
+        "gerekli_zeka": 45,
+        "etki": {
+          "itibar": 22,
+          "zeka": 15,
+          "para": 15
+        },
+        "sonuc": "Müzikle tedavi yönteminde uzmanlaşıp Darüşşifa başhekimi oldun."
+      },
+      {
+        "metin": "Amasya Külliyesi kütüphanesine tıp ve mûsikî risaleleri vakfet",
+        "gerekli_para": 25,
+        "etki": {
+          "itibar": 16,
+          "para": -25,
+          "zeka": 10
+        },
+        "sonuc": "Vakfettiğin eserler bimarhane talebelerine rehber oldu."
+      },
+      {
+        "metin": "Külliye inşaatını yapan ahi ustalarına ziyafet çek",
+        "etki": {
+          "itibar": 12,
+          "para": -15,
+          "mutluluk": 6
+        },
+        "sonuc": "Amasya esnafının dualarını aldın."
+      },
+      {
+        "metin": "Bimarhanede şifa bulan hastalar için şerbet vakfı kur",
+        "gerekli_para": 20,
+        "etki": {
+          "itibar": 14,
+          "para": -20,
+          "mutluluk": 8
+        },
+        "sonuc": "Amasya'da adı hürmetle anılan bir hayır sahibi oldun."
+      }
+    ]
+  },
+  {
+    "id": "yukselme_1494_kanuni_dogumu",
+    "yas_min": 16,
+    "yas_max": 70,
+    "tarih_yil_min": 1494,
+    "tarih_yil_max": 1494,
+    "tek_seferlik": true,
+    "donem": "yukselme",
+    "alt_donem": "ikinci_bayezid",
+    "metin": "Trabzon Valisi Şehzade Selim'in (Yavuz) oğlu Şehzade Süleyman (Kanuni) Trabzon'da dünyaya geldi.",
+    "secenekler": [
+      {
+        "metin": "Trabzon Sarayı'nda Şehzade Selim'in divan kâtibi olarak doğumu kaydet",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 8
+        },
+        "sonuc": "Geleceğin Cihan Padişahı Süleyman'ın doğum kaydını bizzat tuttun."
+      },
+      {
+        "metin": "Trabzon halkına Şehzade Süleyman'ın doğumu müjdesiyle ikram dağıt",
+        "gerekli_para": 20,
+        "etki": {
+          "itibar": 15,
+          "para": -20,
+          "mutluluk": 10
+        },
+        "sonuc": "Trabzon meydanında şenliklere öncülük ettin."
+      },
+      {
+        "metin": "Doğum vesilesiyle Trabzon Kalesi muhafızlarına şerbet dağıt",
+        "etki": {
+          "itibar": 10,
+          "mutluluk": 6
+        },
+        "sonuc": "Trabzon garnizonunun sevgisini kazandın."
+      },
+      {
+        "metin": "Trabzon limanından Karadeniz ticaret gemisi kaldır",
+        "gerekli_para": 35,
+        "etki": {
+          "para": 35,
+          "itibar": 8
+        },
+        "sonuc": "Trabzon balı ve fındığı ticaretinden kâr ettin."
+      }
+    ]
+  },
+  {
+    "id": "yukselme_1497_rus_elcisi",
+    "yas_min": 20,
+    "yas_max": 75,
+    "tarih_yil_min": 1497,
+    "tarih_yil_max": 1497,
+    "tek_seferlik": true,
+    "donem": "yukselme",
+    "alt_donem": "ikinci_bayezid",
+    "metin": "Rus Knezliği (III. İvan) ilk elçisi Mihail Pleşeyev'i İstanbul'a gönderdi ve Karadeniz ticaret güvenliği fermanı verildi.",
+    "secenekler": [
+      {
+        "metin": "Rus elçisinin kabulü ve Karadeniz ticaret fermanını kaleme al",
+        "gerekli_zeka": 45,
+        "etki": {
+          "itibar": 22,
+          "zeka": 12,
+          "para": 20
+        },
+        "sonuc": "Diplomatik temasları yürütüp Divan-ı Hümayun kâtibi oldun."
+      },
+      {
+        "metin": "Kefe limanından Moskova ticaret kervanlarına mal tedarik et",
+        "gerekli_para": 40,
+        "etki": {
+          "para": 45,
+          "itibar": 10
+        },
+        "sonuc": "Kürk ve bal ticaretinden büyük kâr sağladın."
+      },
+      {
+        "metin": "Rusya elçisi onuruna Pera'da ziyafet ver",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 16,
+          "para": -30
+        },
+        "sonuc": "Tüccarlar arası diplomatik saygınlığın arttı."
+      },
+      {
+        "metin": "Karadeniz donanmasında devriye kalyonuna kaptan ol",
+        "gerekli_bayrak": "meslek_seyfiye",
+        "etki": {
+          "itibar": 15,
+          "para": 10
+        },
+        "sonuc": "Karadeniz kervan rotalarını korsanlardan korudun."
+      }
+    ]
+  },
+  {
+    "id": "yukselme_1500_inebahtı_burak_reis",
+    "yas_min": 18,
+    "yas_max": 60,
+    "tarih_yil_min": 1500,
+    "tarih_yil_max": 1500,
+    "tek_seferlik": true,
+    "donem": "yukselme",
+    "alt_donem": "ikinci_bayezid",
+    "metin": "İnebahtı ve Modon deniz zaferlerinde Burak Reis gemisini Venedik kalyonuyla patlatarak şehit oldu.",
+    "secenekler": [
+      {
+        "metin": "Burak Reis'in filosunda levent olarak deniz savaşına katıl",
+        "gerekli_bayrak": "meslek_seyfiye",
+        "etki": {
+          "itibar": 22,
+          "saglik": -10,
+          "para": 20
+        },
+        "sonuc": "Sapienza deniz savaşında gazilik unvanı aldın."
+      },
+      {
+        "metin": "Deniz şehitlerinin ailelerine İstanbul'da maaş vakfı kur",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 20,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Şehit yetimlerine bakarak hayır duası kazandın."
+      },
+      {
+        "metin": "Modon kalesinin ihyasına kereste ikmali yap",
+        "gerekli_para": 35,
+        "etki": {
+          "para": 35,
+          "itibar": 10
+        },
+        "sonuc": "Tersane ihalesinde işini büyüttün."
+      },
+      {
+        "metin": "Venedik ganimeti kalyon teçhizatını açık artırmada al",
+        "etki": {
+          "para": 25,
+          "itibar": 8
+        },
+        "sonuc": "Deniz ticaret filona yeni gemi kattın."
+      }
+    ]
+  },
+  {
+    "id": "yukselme_1502_davinci_halic",
+    "yas_min": 20,
+    "yas_max": 75,
+    "tarih_yil_min": 1502,
+    "tarih_yil_max": 1502,
+    "tek_seferlik": true,
+    "donem": "yukselme",
+    "alt_donem": "ikinci_bayezid",
+    "metin": "Leonardo da Vinci II. Bayezid'e mektup yazarak Haliç üzerine muazzam bir köprü inşa etmeyi teklif etti.",
+    "secenekler": [
+      {
+        "metin": "Divan mimarlarıyla Da Vinci'nin köprü çizimlerini incele",
+        "gerekli_zeka": 50,
+        "etki": {
+          "itibar": 22,
+          "zeka": 15,
+          "para": 15
+        },
+        "sonuc": "Haliç mimari projelerinde görüş bildirip divan takdiri aldın."
+      },
+      {
+        "metin": "Haliç sandalcıları ve kayıkçılarının haklarını savun",
+        "gerekli_itibar": 30,
+        "etki": {
+          "itibar": 16,
+          "para": 10
+        },
+        "sonuc": "Kayıkçı loncasında kethüda seçildin."
+      },
+      {
+        "metin": "İtalyan tüccarlar ile Haliç iskelesinde ticaret yap",
+        "gerekli_para": 35,
+        "etki": {
+          "para": 35,
+          "itibar": 8
+        },
+        "sonuc": "Ceneviz ve Venedik tüccarlarından kâr sağladın."
+      },
+      {
+        "metin": "Haliç kıyısındaki ayazma ve çeşmeleri onart",
+        "etki": {
+          "itibar": 12,
+          "para": -15,
+          "mutluluk": 6
+        },
+        "sonuc": "Haliç ahalesinden takdir topladın."
+      }
+    ]
+  },
+  {
+    "id": "yukselme_1505_bayezid_camii_narh",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1505,
+    "tarih_yil_max": 1505,
+    "tek_seferlik": true,
+    "donem": "yukselme",
+    "alt_donem": "ikinci_bayezid",
+    "metin": "II. Bayezid Camii açıldı ve İstanbul esnafı için ilk kapsamlı Kanunname-i İhtisab-ı Bursa ve İstanbul narh kanunu yürürlüğe girdi.",
+    "secenekler": [
+      {
+        "metin": "Muhtesip olarak İstanbul çarşılarında narh kontrolü yap",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 10
+        },
+        "sonuc": "Hileli tartı yapanları cezalandırıp narh emini oldun."
+      },
+      {
+        "metin": "II. Bayezid Camii açılışında halka ziyafet vakfet",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 10
+        },
+        "sonuc": "Camii şerif açılışında duayla anıldın."
+      },
+      {
+        "metin": "Külliye kütüphanesine hat sanatı levhaları bağışla",
+        "gerekli_para": 20,
+        "etki": {
+          "itibar": 14,
+          "para": -20,
+          "zeka": 8
+        },
+        "sonuc": "Hat kütüğüne adın hürmetle yazıldı."
+      },
+      {
+        "metin": "Narh fiyatlarına uygun ekmek pişiren fırın işlet",
+        "etki": {
+          "para": 20,
+          "itibar": 10
+        },
+        "sonuc": "Dürüst esnaflığınla mahallede övüldün."
+      }
+    ]
+  },
+  {
+    "id": "yukselme_1543_sehzade_camii",
+    "yas_min": 20,
+    "yas_max": 75,
+    "tarih_yil_min": 1543,
+    "tarih_yil_max": 1543,
+    "tek_seferlik": true,
+    "donem": "yukselme",
+    "alt_donem": "kanuni_sultan_suleyman",
+    "metin": "Kanuni Sultan Süleyman'ın vefat eden oğlu Şehzade Mehmed anısına Mimar Sinan Şehzade Camii inşaatına başladı.",
+    "secenekler": [
+      {
+        "metin": "Mimar Sinan'ın yanında yapı kalfası olarak çalış",
+        "gerekli_zeka": 45,
+        "etki": {
+          "itibar": 22,
+          "zeka": 15,
+          "para": 20
+        },
+        "sonuc": "Şehzade Camii kubbe yapımında Sinan'ın takdirini kazandın."
+      },
+      {
+        "metin": "Şehzade Mehmed'in ruhu için Kur'an ve hatim vakfet",
+        "gerekli_para": 25,
+        "etki": {
+          "itibar": 16,
+          "para": -25,
+          "mutluluk": 8
+        },
+        "sonuc": "Saray kâtibinden hayır duası takdirnamesi aldın."
+      },
+      {
+        "metin": "Cami inşaatına Marmara adasından mermer naklet",
+        "gerekli_para": 35,
+        "etki": {
+          "para": 35,
+          "itibar": 10
+        },
+        "sonuc": "Mermer nakliyatından büyük kâr ettin."
+      },
+      {
+        "metin": "İnşaat amelelerine sıcak çorba ve helva dağıt",
+        "etki": {
+          "itibar": 12,
+          "para": -15,
+          "mutluluk": 6
+        },
+        "sonuc": "Amele ve taşçıların hayır duasını aldın."
+      }
+    ]
+  },
+  {
+    "id": "yukselme_1546_barbaros_vefati",
+    "yas_min": 20,
+    "yas_max": 75,
+    "tarih_yil_min": 1546,
+    "tarih_yil_max": 1546,
+    "tek_seferlik": true,
+    "donem": "yukselme",
+    "alt_donem": "kanuni_sultan_suleyman",
+    "metin": "Büyük Kaptan-ı Derya Barbaros Hayrettin Paşa vefat etti ve Beşiktaş'taki türbesine defnedildi.",
+    "secenekler": [
+      {
+        "metin": "Barbaros Hayrettin Paşa'nın Beşiktaş'taki cenaze merasetine katıl",
+        "gerekli_itibar": 35,
+        "etki": {
+          "itibar": 20,
+          "mutluluk": -5,
+          "para": 10
+        },
+        "sonuc": "Osmanlı leventleriyle birlikte merhum Kaptanıderya'yı Uğurladın."
+      },
+      {
+        "metin": "Barbaros'un türbesine Kur'an okutulması için vakıf kur",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Denizciler loncasında saygınlığın arttı."
+      },
+      {
+        "metin": "Tersane-i Amire'de Barbaros'un izinden giden leventlere hami ol",
+        "gerekli_bayrak": "meslek_seyfiye",
+        "etki": {
+          "itibar": 16,
+          "para": 15
+        },
+        "sonuc": "Donanmada kalyon kaptanlığına yükseldin."
+      },
+      {
+        "metin": "Barbaros'un Akdeniz zaferlerini anlatan gazavatname kopyala",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 14,
+          "zeka": 10
+        },
+        "sonuc": "Yazdığın mecmualar tüccarlarca kapışıldı."
+      }
+    ]
+  },
+  {
+    "id": "yukselme_1569_don_volga",
+    "yas_min": 20,
+    "yas_max": 70,
+    "tarih_yil_min": 1569,
+    "tarih_yil_max": 1569,
+    "tek_seferlik": true,
+    "donem": "yukselme",
+    "alt_donem": "ikinci_selim",
+    "metin": "Sokullu Mehmed Paşa komutasında Ejderhan (Astrahan) Seferi ve Don-Volga Kanal projesi hamlesi başlatıldı.",
+    "secenekler": [
+      {
+        "metin": "Don-Volga kanal kazı mühendisliğinde lağımcı kalfası olarak çalış",
+        "gerekli_zeka": 45,
+        "etki": {
+          "itibar": 22,
+          "zeka": 15,
+          "para": 20
+        },
+        "sonuc": "Kanal kazı hattında teknik başarından ötürü ödüllendirildin."
+      },
+      {
+        "metin": "Astrahan seferine katılan ordunun kışlık lojistiğini sevk et",
+        "gerekli_para": 40,
+        "etki": {
+          "para": 40,
+          "itibar": 12
+        },
+        "sonuc": "Karadeniz ve Don nehri nakliyatından kâr sağladın."
+      },
+      {
+        "metin": "Kırım Hanlığı ile ordu arasındaki diplomatik kâtip ol",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 18,
+          "zeka": 10
+        },
+        "sonuc": "Kırım Hanı ve divan yazışmalarını yürüttün."
+      },
+      {
+        "metin": "Kanal işçilerine sıcak yemek ve kürk giysi vakfet",
+        "etki": {
+          "itibar": 12,
+          "para": -20,
+          "mutluluk": 6
+        },
+        "sonuc": "İşçilerin hayır duasını topladın."
+      }
+    ]
+  },
+  {
+    "id": "yukselme_1455_tarihi_olay",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1455,
+    "tarih_yil_max": 1455,
+    "tek_seferlik": true,
+    "donem": "yukselme",
+    "alt_donem": "kanuni_sultan_suleyman",
+    "metin": "1455 yılında Osmanlı mülkünde kamu asayişi, adalet fermanları ve eyalet imar faaliyetleri yürütüldü.",
+    "secenekler": [
+      {
+        "metin": "1455 yılı adalet nizamnamesini divanda kayda geçir",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 10
+        },
+        "sonuc": "Divan kayıtlarını intizamla tutup takdir topladın."
+      },
+      {
+        "metin": "1455 yılı imar çalışmaları için vakıf aşevi aç",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Halkın duasını alıp cömertliğinle tanındın."
+      },
+      {
+        "metin": "1455 yılı eyalet tüccarlarıyla kervan ticareti yap",
+        "etki": {
+          "para": 30,
+          "itibar": 10
+        },
+        "sonuc": "Kervan ticaretinden helal kazanç sağladın."
+      },
+      {
+        "metin": "1455 yılında mahalle asayiş nöbetini tertip et",
+        "etki": {
+          "itibar": 12,
+          "saglik": 5,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahallede güven tesis edip saygı gördün."
+      }
+    ]
+  },
+  {
+    "id": "yukselme_1456_tarihi_olay",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1456,
+    "tarih_yil_max": 1456,
+    "tek_seferlik": true,
+    "donem": "yukselme",
+    "alt_donem": "kanuni_sultan_suleyman",
+    "metin": "1456 yılında Osmanlı mülkünde kamu asayişi, adalet fermanları ve eyalet imar faaliyetleri yürütüldü.",
+    "secenekler": [
+      {
+        "metin": "1456 yılı adalet nizamnamesini divanda kayda geçir",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 10
+        },
+        "sonuc": "Divan kayıtlarını intizamla tutup takdir topladın."
+      },
+      {
+        "metin": "1456 yılı imar çalışmaları için vakıf aşevi aç",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Halkın duasını alıp cömertliğinle tanındın."
+      },
+      {
+        "metin": "1456 yılı eyalet tüccarlarıyla kervan ticareti yap",
+        "etki": {
+          "para": 30,
+          "itibar": 10
+        },
+        "sonuc": "Kervan ticaretinden helal kazanç sağladın."
+      },
+      {
+        "metin": "1456 yılında mahalle asayiş nöbetini tertip et",
+        "etki": {
+          "itibar": 12,
+          "saglik": 5,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahallede güven tesis edip saygı gördün."
+      }
+    ]
+  },
+  {
+    "id": "yukselme_1457_tarihi_olay",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1457,
+    "tarih_yil_max": 1457,
+    "tek_seferlik": true,
+    "donem": "yukselme",
+    "alt_donem": "kanuni_sultan_suleyman",
+    "metin": "1457 yılında Osmanlı mülkünde kamu asayişi, adalet fermanları ve eyalet imar faaliyetleri yürütüldü.",
+    "secenekler": [
+      {
+        "metin": "1457 yılı adalet nizamnamesini divanda kayda geçir",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 10
+        },
+        "sonuc": "Divan kayıtlarını intizamla tutup takdir topladın."
+      },
+      {
+        "metin": "1457 yılı imar çalışmaları için vakıf aşevi aç",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Halkın duasını alıp cömertliğinle tanındın."
+      },
+      {
+        "metin": "1457 yılı eyalet tüccarlarıyla kervan ticareti yap",
+        "etki": {
+          "para": 30,
+          "itibar": 10
+        },
+        "sonuc": "Kervan ticaretinden helal kazanç sağladın."
+      },
+      {
+        "metin": "1457 yılında mahalle asayiş nöbetini tertip et",
+        "etki": {
+          "itibar": 12,
+          "saglik": 5,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahallede güven tesis edip saygı gördün."
+      }
+    ]
+  },
+  {
+    "id": "yukselme_1458_tarihi_olay",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1458,
+    "tarih_yil_max": 1458,
+    "tek_seferlik": true,
+    "donem": "yukselme",
+    "alt_donem": "kanuni_sultan_suleyman",
+    "metin": "1458 yılında Osmanlı mülkünde kamu asayişi, adalet fermanları ve eyalet imar faaliyetleri yürütüldü.",
+    "secenekler": [
+      {
+        "metin": "1458 yılı adalet nizamnamesini divanda kayda geçir",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 10
+        },
+        "sonuc": "Divan kayıtlarını intizamla tutup takdir topladın."
+      },
+      {
+        "metin": "1458 yılı imar çalışmaları için vakıf aşevi aç",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Halkın duasını alıp cömertliğinle tanındın."
+      },
+      {
+        "metin": "1458 yılı eyalet tüccarlarıyla kervan ticareti yap",
+        "etki": {
+          "para": 30,
+          "itibar": 10
+        },
+        "sonuc": "Kervan ticaretinden helal kazanç sağladın."
+      },
+      {
+        "metin": "1458 yılında mahalle asayiş nöbetini tertip et",
+        "etki": {
+          "itibar": 12,
+          "saglik": 5,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahallede güven tesis edip saygı gördün."
+      }
+    ]
+  },
+  {
+    "id": "yukselme_1464_tarihi_olay",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1464,
+    "tarih_yil_max": 1464,
+    "tek_seferlik": true,
+    "donem": "yukselme",
+    "alt_donem": "kanuni_sultan_suleyman",
+    "metin": "1464 yılında Osmanlı mülkünde kamu asayişi, adalet fermanları ve eyalet imar faaliyetleri yürütüldü.",
+    "secenekler": [
+      {
+        "metin": "1464 yılı adalet nizamnamesini divanda kayda geçir",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 10
+        },
+        "sonuc": "Divan kayıtlarını intizamla tutup takdir topladın."
+      },
+      {
+        "metin": "1464 yılı imar çalışmaları için vakıf aşevi aç",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Halkın duasını alıp cömertliğinle tanındın."
+      },
+      {
+        "metin": "1464 yılı eyalet tüccarlarıyla kervan ticareti yap",
+        "etki": {
+          "para": 30,
+          "itibar": 10
+        },
+        "sonuc": "Kervan ticaretinden helal kazanç sağladın."
+      },
+      {
+        "metin": "1464 yılında mahalle asayiş nöbetini tertip et",
+        "etki": {
+          "itibar": 12,
+          "saglik": 5,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahallede güven tesis edip saygı gördün."
+      }
+    ]
+  },
+  {
+    "id": "yukselme_1465_tarihi_olay",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1465,
+    "tarih_yil_max": 1465,
+    "tek_seferlik": true,
+    "donem": "yukselme",
+    "alt_donem": "kanuni_sultan_suleyman",
+    "metin": "1465 yılında Osmanlı mülkünde kamu asayişi, adalet fermanları ve eyalet imar faaliyetleri yürütüldü.",
+    "secenekler": [
+      {
+        "metin": "1465 yılı adalet nizamnamesini divanda kayda geçir",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 10
+        },
+        "sonuc": "Divan kayıtlarını intizamla tutup takdir topladın."
+      },
+      {
+        "metin": "1465 yılı imar çalışmaları için vakıf aşevi aç",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Halkın duasını alıp cömertliğinle tanındın."
+      },
+      {
+        "metin": "1465 yılı eyalet tüccarlarıyla kervan ticareti yap",
+        "etki": {
+          "para": 30,
+          "itibar": 10
+        },
+        "sonuc": "Kervan ticaretinden helal kazanç sağladın."
+      },
+      {
+        "metin": "1465 yılında mahalle asayiş nöbetini tertip et",
+        "etki": {
+          "itibar": 12,
+          "saglik": 5,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahallede güven tesis edip saygı gördün."
+      }
+    ]
+  },
+  {
+    "id": "yukselme_1467_tarihi_olay",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1467,
+    "tarih_yil_max": 1467,
+    "tek_seferlik": true,
+    "donem": "yukselme",
+    "alt_donem": "kanuni_sultan_suleyman",
+    "metin": "1467 yılında Osmanlı mülkünde kamu asayişi, adalet fermanları ve eyalet imar faaliyetleri yürütüldü.",
+    "secenekler": [
+      {
+        "metin": "1467 yılı adalet nizamnamesini divanda kayda geçir",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 10
+        },
+        "sonuc": "Divan kayıtlarını intizamla tutup takdir topladın."
+      },
+      {
+        "metin": "1467 yılı imar çalışmaları için vakıf aşevi aç",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Halkın duasını alıp cömertliğinle tanındın."
+      },
+      {
+        "metin": "1467 yılı eyalet tüccarlarıyla kervan ticareti yap",
+        "etki": {
+          "para": 30,
+          "itibar": 10
+        },
+        "sonuc": "Kervan ticaretinden helal kazanç sağladın."
+      },
+      {
+        "metin": "1467 yılında mahalle asayiş nöbetini tertip et",
+        "etki": {
+          "itibar": 12,
+          "saglik": 5,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahallede güven tesis edip saygı gördün."
+      }
+    ]
+  },
+  {
+    "id": "yukselme_1468_tarihi_olay",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1468,
+    "tarih_yil_max": 1468,
+    "tek_seferlik": true,
+    "donem": "yukselme",
+    "alt_donem": "kanuni_sultan_suleyman",
+    "metin": "1468 yılında Osmanlı mülkünde kamu asayişi, adalet fermanları ve eyalet imar faaliyetleri yürütüldü.",
+    "secenekler": [
+      {
+        "metin": "1468 yılı adalet nizamnamesini divanda kayda geçir",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 10
+        },
+        "sonuc": "Divan kayıtlarını intizamla tutup takdir topladın."
+      },
+      {
+        "metin": "1468 yılı imar çalışmaları için vakıf aşevi aç",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Halkın duasını alıp cömertliğinle tanındın."
+      },
+      {
+        "metin": "1468 yılı eyalet tüccarlarıyla kervan ticareti yap",
+        "etki": {
+          "para": 30,
+          "itibar": 10
+        },
+        "sonuc": "Kervan ticaretinden helal kazanç sağladın."
+      },
+      {
+        "metin": "1468 yılında mahalle asayiş nöbetini tertip et",
+        "etki": {
+          "itibar": 12,
+          "saglik": 5,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahallede güven tesis edip saygı gördün."
+      }
+    ]
+  },
+  {
+    "id": "yukselme_1469_tarihi_olay",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1469,
+    "tarih_yil_max": 1469,
+    "tek_seferlik": true,
+    "donem": "yukselme",
+    "alt_donem": "kanuni_sultan_suleyman",
+    "metin": "1469 yılında Osmanlı mülkünde kamu asayişi, adalet fermanları ve eyalet imar faaliyetleri yürütüldü.",
+    "secenekler": [
+      {
+        "metin": "1469 yılı adalet nizamnamesini divanda kayda geçir",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 10
+        },
+        "sonuc": "Divan kayıtlarını intizamla tutup takdir topladın."
+      },
+      {
+        "metin": "1469 yılı imar çalışmaları için vakıf aşevi aç",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Halkın duasını alıp cömertliğinle tanındın."
+      },
+      {
+        "metin": "1469 yılı eyalet tüccarlarıyla kervan ticareti yap",
+        "etki": {
+          "para": 30,
+          "itibar": 10
+        },
+        "sonuc": "Kervan ticaretinden helal kazanç sağladın."
+      },
+      {
+        "metin": "1469 yılında mahalle asayiş nöbetini tertip et",
+        "etki": {
+          "itibar": 12,
+          "saglik": 5,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahallede güven tesis edip saygı gördün."
+      }
+    ]
+  },
+  {
+    "id": "yukselme_1470_tarihi_olay",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1470,
+    "tarih_yil_max": 1470,
+    "tek_seferlik": true,
+    "donem": "yukselme",
+    "alt_donem": "kanuni_sultan_suleyman",
+    "metin": "1470 yılında Osmanlı mülkünde kamu asayişi, adalet fermanları ve eyalet imar faaliyetleri yürütüldü.",
+    "secenekler": [
+      {
+        "metin": "1470 yılı adalet nizamnamesini divanda kayda geçir",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 10
+        },
+        "sonuc": "Divan kayıtlarını intizamla tutup takdir topladın."
+      },
+      {
+        "metin": "1470 yılı imar çalışmaları için vakıf aşevi aç",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Halkın duasını alıp cömertliğinle tanındın."
+      },
+      {
+        "metin": "1470 yılı eyalet tüccarlarıyla kervan ticareti yap",
+        "etki": {
+          "para": 30,
+          "itibar": 10
+        },
+        "sonuc": "Kervan ticaretinden helal kazanç sağladın."
+      },
+      {
+        "metin": "1470 yılında mahalle asayiş nöbetini tertip et",
+        "etki": {
+          "itibar": 12,
+          "saglik": 5,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahallede güven tesis edip saygı gördün."
+      }
+    ]
+  },
+  {
+    "id": "yukselme_1486_adana",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1486,
+    "tarih_yil_max": 1486,
+    "tek_seferlik": true,
+    "donem": "yukselme",
+    "alt_donem": "ikinci_bayezid",
+    "metin": "Adana Muharebesi'nde Memlük generali Özbek Bey ile Hersekzade Ahmed Paşa kuvvetleri çarpıştı.",
+    "secenekler": [
+      {
+        "metin": "Memlük ordusuna karşı Çukurova'da atlı sipahi olarak savaş",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 10
+        },
+        "sonuc": "Görevini liyakatle tamamlayıp devlet kademesinde itibar kazandın."
+      },
+      {
+        "metin": "Gazilere Adana'da buğday ve erzak bağışla",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Hayır duasını alıp halk arasında cömertliğinle övüldün."
+      },
+      {
+        "metin": "Memlük ticaret malları açık artırmasına katıl",
+        "etki": {
+          "para": 30,
+          "itibar": 10
+        },
+        "sonuc": "Ticaretini büyütüp helal kâr elde ettin."
+      },
+      {
+        "metin": "Sınır kasabasında derbentçi nöbeti tut",
+        "etki": {
+          "itibar": 12,
+          "saglik": 5,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahalle ve esnaf arasında güvenilir kişi olarak tanındın."
+      }
+    ]
+  },
+  {
+    "id": "yukselme_1487_karaman",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1487,
+    "tarih_yil_max": 1487,
+    "tek_seferlik": true,
+    "donem": "yukselme",
+    "alt_donem": "ikinci_bayezid",
+    "metin": "Hadım Ali Paşa Karaman ve Memlük sınırındaki eyalet dirliklerini teftiş edip tahrir defterlerini yeniledi.",
+    "secenekler": [
+      {
+        "metin": "Hadım Ali Paşa'nın yanında tahrir kâtibi olarak arazi sayımı yap",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 10
+        },
+        "sonuc": "Görevini liyakatle tamamlayıp devlet kademesinde itibar kazandın."
+      },
+      {
+        "metin": "Karaman ahilerine dükkan teçhizatı sağla",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Hayır duasını alıp halk arasında cömertliğinle övüldün."
+      },
+      {
+        "metin": "Konya ve Karaman medreselerine risaleler bağışla",
+        "etki": {
+          "para": 30,
+          "itibar": 10
+        },
+        "sonuc": "Ticaretini büyütüp helal kâr elde ettin."
+      },
+      {
+        "metin": "Karaman eyalet kervanlarının güvenliğini denetle",
+        "etki": {
+          "itibar": 12,
+          "saglik": 5,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahalle ve esnaf arasında güvenilir kişi olarak tanındın."
+      }
+    ]
+  },
+  {
+    "id": "yukselme_1489_kirim",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1489,
+    "tarih_yil_max": 1489,
+    "tek_seferlik": true,
+    "donem": "yukselme",
+    "alt_donem": "ikinci_bayezid",
+    "metin": "Kırım Hanı Mengli Giray Polonya üzerine büyük bir akın düzenleyerek Karadeniz kuzey sınırını güvenceye aldı.",
+    "secenekler": [
+      {
+        "metin": "Kırım atlılarıyla akıncı kolunda sefere katıl",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 10
+        },
+        "sonuc": "Görevini liyakatle tamamlayıp devlet kademesinde itibar kazandın."
+      },
+      {
+        "metin": "Kefe limanından Polonya ticaret kervanı kaldır",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Hayır duasını alıp halk arasında cömertliğinle övüldün."
+      },
+      {
+        "metin": "Kırım Hanı'na İstanbul'dan ipekli kılıç kılıfı hediye et",
+        "etki": {
+          "para": 30,
+          "itibar": 10
+        },
+        "sonuc": "Ticaretini büyütüp helal kâr elde ettin."
+      },
+      {
+        "metin": "Kefe iskelesinde deniz ürünleri ticareti yap",
+        "etki": {
+          "itibar": 12,
+          "saglik": 5,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahalle ve esnaf arasında güvenilir kişi olarak tanındın."
+      }
+    ]
+  },
+  {
+    "id": "yukselme_1490_memluk_baris",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1490,
+    "tarih_yil_max": 1490,
+    "tek_seferlik": true,
+    "donem": "yukselme",
+    "alt_donem": "ikinci_bayezid",
+    "metin": "Osmanlı ve Memlük devletleri arasında barış antlaşması imzalanarak Adana vergi gelirleri Haremeyn vakfına devredildi.",
+    "secenekler": [
+      {
+        "metin": "Adana vergi gelirlerini Haremeyn vakıf defterine kaydet",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 10
+        },
+        "sonuc": "Görevini liyakatle tamamlayıp devlet kademesinde itibar kazandın."
+      },
+      {
+        "metin": "Mekke ve Medine fukarasına adanan buğday tahririni yap",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Hayır duasını alıp halk arasında cömertliğinle övüldün."
+      },
+      {
+        "metin": "Memlük tüccarlarıyla Adana kervansarayında ticaret yap",
+        "etki": {
+          "para": 30,
+          "itibar": 10
+        },
+        "sonuc": "Ticaretini büyütüp helal kâr elde ettin."
+      },
+      {
+        "metin": "Haremeyn vakfı için hayır aşı dağıt",
+        "etki": {
+          "itibar": 12,
+          "saglik": 5,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahalle ve esnaf arasında güvenilir kişi olarak tanındın."
+      }
+    ]
+  },
+  {
+    "id": "yukselme_1491_endulus",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1491,
+    "tarih_yil_max": 1491,
+    "tek_seferlik": true,
+    "donem": "yukselme",
+    "alt_donem": "ikinci_bayezid",
+    "metin": "Endülüs Müslümanlarının (Gırnata) düşüşü üzerine Kemal Reis Osmanlı donanmasıyla Akdeniz'e açılarak mültecileri kurtardı.",
+    "secenekler": [
+      {
+        "metin": "Kemal Reis'in kadırgasında levent olarak Endülüs deniz seferine katıl",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 10
+        },
+        "sonuc": "Görevini liyakatle tamamlayıp devlet kademesinde itibar kazandın."
+      },
+      {
+        "metin": "İstanbul'a getirilen Endülüslü Müslüman ve Musevi mültecilere ev sağla",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Hayır duasını alıp halk arasında cömertliğinle övüldün."
+      },
+      {
+        "metin": "Endülüslü kağıt ve deri ustalarıyla Galata'da imalathane aç",
+        "etki": {
+          "para": 30,
+          "itibar": 10
+        },
+        "sonuc": "Ticaretini büyütüp helal kâr elde ettin."
+      },
+      {
+        "metin": "Akdeniz deniz haritası çizen çarkçı ustası ol",
+        "etki": {
+          "itibar": 12,
+          "saglik": 5,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahalle ve esnaf arasında güvenilir kişi olarak tanındın."
+      }
+    ]
+  },
+  {
+    "id": "yukselme_1493_krbava",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1493,
+    "tarih_yil_max": 1493,
+    "tek_seferlik": true,
+    "donem": "yukselme",
+    "alt_donem": "ikinci_bayezid",
+    "metin": "Bosna Beylerbeyi Yakup Paşa Krbava Meydan Muharebesi'nde Hırvat ordusunu tam mağlubiyete uğrattı.",
+    "secenekler": [
+      {
+        "metin": "Yakup Paşa ordusunda akıncı sipahisi olarak çarpış",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 10
+        },
+        "sonuc": "Görevini liyakatle tamamlayıp devlet kademesinde itibar kazandın."
+      },
+      {
+        "metin": "Bosna sınırındaki gazilere lojistik at ve kılıç sağla",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Hayır duasını alıp halk arasında cömertliğinle övüldün."
+      },
+      {
+        "metin": "Krbava zafernamesini kaleme alıp divana sun",
+        "etki": {
+          "para": 30,
+          "itibar": 10
+        },
+        "sonuc": "Ticaretini büyütüp helal kâr elde ettin."
+      },
+      {
+        "metin": "Bosna fukarasına zafer şerbeti ikram et",
+        "etki": {
+          "itibar": 12,
+          "saglik": 5,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahalle ve esnaf arasında güvenilir kişi olarak tanındın."
+      }
+    ]
+  },
+  {
+    "id": "yukselme_1495_cem_sultan",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1495,
+    "tarih_yil_max": 1495,
+    "tek_seferlik": true,
+    "donem": "yukselme",
+    "alt_donem": "ikinci_bayezid",
+    "metin": "İtalya'da vefat eden Şehzade Cemi'in naaşı Osmanlı'ya getirilerek Bursa Muradiye Türbesi'ne defnedildi.",
+    "secenekler": [
+      {
+        "metin": "Şehzade Cemi'in cenaze kafilesine Bursa'da hürmetle katıl",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 10
+        },
+        "sonuc": "Görevini liyakatle tamamlayıp devlet kademesinde itibar kazandın."
+      },
+      {
+        "metin": "Şehzade Cemi'in ruhu için Bursa'da Kur'an okut ve helva dağıt",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Hayır duasını alıp halk arasında cömertliğinle övüldün."
+      },
+      {
+        "metin": "Cem Sultan'ın Türkçe Divanını kopyalayıp mecmualara kaydet",
+        "etki": {
+          "para": 30,
+          "itibar": 10
+        },
+        "sonuc": "Ticaretini büyütüp helal kâr elde ettin."
+      },
+      {
+        "metin": "Bursa Muradiye Külliyesi'ne şerbet vakfet",
+        "etki": {
+          "itibar": 12,
+          "saglik": 5,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahalle ve esnaf arasında güvenilir kişi olarak tanındın."
+      }
+    ]
+  },
+  {
+    "id": "yukselme_1496_edirne_darussifa",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1496,
+    "tarih_yil_max": 1496,
+    "tek_seferlik": true,
+    "donem": "yukselme",
+    "alt_donem": "ikinci_bayezid",
+    "metin": "II. Bayezid Edirne'de Tunca nehri kıyısındaki Darüşşifa ve Medrese inşaatını tamamlattı.",
+    "secenekler": [
+      {
+        "metin": "Edirne Bimarhanesi'nde musiki ile şifa veren hekim yardımcısı ol",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 10
+        },
+        "sonuc": "Görevini liyakatle tamamlayıp devlet kademesinde itibar kazandın."
+      },
+      {
+        "metin": "Darüşşifa kütüphanesine İbni Sina tıp risaleleri vakfet",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Hayır duasını alıp halk arasında cömertliğinle övüldün."
+      },
+      {
+        "metin": "Bimarhane çeşmelerine pirinç musluk tedarik et",
+        "etki": {
+          "para": 30,
+          "itibar": 10
+        },
+        "sonuc": "Ticaretini büyütüp helal kâr elde ettin."
+      },
+      {
+        "metin": "Darüşşifa hastalarına şifalı macun ikramında bulun",
+        "etki": {
+          "itibar": 12,
+          "saglik": 5,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahalle ve esnaf arasında güvenilir kişi olarak tanındın."
+      }
+    ]
+  },
+  {
+    "id": "yukselme_1498_malkocoglu",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1498,
+    "tarih_yil_max": 1498,
+    "tek_seferlik": true,
+    "donem": "yukselme",
+    "alt_donem": "ikinci_bayezid",
+    "metin": "Malkoçoğlu Bali Bey Lehistan üzerine büyük Akıncı seferine çıkarak Prut ve Dinyester nehirlerini geçti.",
+    "secenekler": [
+      {
+        "metin": "Malkoçoğlu Bali Bey'in akıncı kolunda serhat atlısı ol",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 10
+        },
+        "sonuc": "Görevini liyakatle tamamlayıp devlet kademesinde itibar kazandın."
+      },
+      {
+        "metin": "Lehistan seferi ordusuna kışlık kürk ve erzak ikmali yap",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Hayır duasını alıp halk arasında cömertliğinle övüldün."
+      },
+      {
+        "metin": "Prut nehri üzerinde ahşap köprü kuran marangoz ol",
+        "etki": {
+          "para": 30,
+          "itibar": 10
+        },
+        "sonuc": "Ticaretini büyütüp helal kâr elde ettin."
+      },
+      {
+        "metin": "Akıncı gazilerine dualarla şerbet dağıt",
+        "etki": {
+          "itibar": 12,
+          "saglik": 5,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahalle ve esnaf arasında güvenilir kişi olarak tanındın."
+      }
+    ]
+  },
+  {
+    "id": "yukselme_1503_venedik_baris",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1503,
+    "tarih_yil_max": 1503,
+    "tek_seferlik": true,
+    "donem": "yukselme",
+    "alt_donem": "ikinci_bayezid",
+    "metin": "Venedik ile barış antlaşması imzalanarak Galata tüccarlarının Ege deniz ticaret hakları genişletildi.",
+    "secenekler": [
+      {
+        "metin": "Venedik barış antlaşması metnini divanda kaleme al",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 10
+        },
+        "sonuc": "Görevini liyakatle tamamlayıp devlet kademesinde itibar kazandın."
+      },
+      {
+        "metin": "Galata limanında Venedik kadırgalarıyla zeytinyağı ticareti yap",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Hayır duasını alıp halk arasında cömertliğinle övüldün."
+      },
+      {
+        "metin": "Ege adalarına sefer yapan Türk tüccar gemisine ortak ol",
+        "etki": {
+          "para": 30,
+          "itibar": 10
+        },
+        "sonuc": "Ticaretini büyütüp helal kâr elde ettin."
+      },
+      {
+        "metin": "Galata gümrüğünde vergi kâtibi ol",
+        "etki": {
+          "itibar": 12,
+          "saglik": 5,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahalle ve esnaf arasında güvenilir kişi olarak tanındın."
+      }
+    ]
+  },
+  {
+    "id": "yukselme_1504_idris_i_bitlisi",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1504,
+    "tarih_yil_max": 1504,
+    "tek_seferlik": true,
+    "donem": "yukselme",
+    "alt_donem": "ikinci_bayezid",
+    "metin": "İdris-i Bitlisi II. Bayezid'in emriyle ilk sekiz Osmanlı padişahını anlatan 'Heşt Behişt' tarihini yazmaya başladı.",
+    "secenekler": [
+      {
+        "metin": "İdris-i Bitlisi'ye saray kütüphanesinden kronik belgeleri derle",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 10
+        },
+        "sonuc": "Görevini liyakatle tamamlayıp devlet kademesinde itibar kazandın."
+      },
+      {
+        "metin": "Heşt Behişt tarih nüshasından kopyalayıp sahaf meclisinde sun",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Hayır duasını alıp halk arasında cömertliğinle övüldün."
+      },
+      {
+        "metin": "Farsça ve Arapça yazmaları Türkçe tercüme et",
+        "etki": {
+          "para": 30,
+          "itibar": 10
+        },
+        "sonuc": "Ticaretini büyütüp helal kâr elde ettin."
+      },
+      {
+        "metin": "Alim kâtipler meclisine çay ve lokum vakfet",
+        "etki": {
+          "itibar": 12,
+          "saglik": 5,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahalle ve esnaf arasında güvenilir kişi olarak tanındın."
+      }
+    ]
+  },
+  {
+    "id": "yukselme_1506_sehzade_suleyman",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1506,
+    "tarih_yil_max": 1506,
+    "tek_seferlik": true,
+    "donem": "yukselme",
+    "alt_donem": "ikinci_bayezid",
+    "metin": "Şehzade Süleyman (Kanuni) Kefe Sancakbeyliğine tayin edilerek Karadeniz kuzey idaresini üstlendi.",
+    "secenekler": [
+      {
+        "metin": "Şehzade Süleyman'ın Kefe divanında genç kâtip ol",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 10
+        },
+        "sonuc": "Görevini liyakatle tamamlayıp devlet kademesinde itibar kazandın."
+      },
+      {
+        "metin": "Kefe limanından İstanbul'a buğday ve kürk sevkiyatı yap",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Hayır duasını alıp halk arasında cömertliğinle övüldün."
+      },
+      {
+        "metin": "Kefe Kalesi muhafızlarına kışlık kıyafet diktir",
+        "etki": {
+          "para": 30,
+          "itibar": 10
+        },
+        "sonuc": "Ticaretini büyütüp helal kâr elde ettin."
+      },
+      {
+        "metin": "Kefe ahileriyle ticaret anlaşması yap",
+        "etki": {
+          "itibar": 12,
+          "saglik": 5,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahalle ve esnaf arasında güvenilir kişi olarak tanındın."
+      }
+    ]
+  },
+  {
+    "id": "yukselme_1507_sah_ismail",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1507,
+    "tarih_yil_max": 1507,
+    "tek_seferlik": true,
+    "donem": "yukselme",
+    "alt_donem": "ikinci_bayezid",
+    "metin": "Şah İsmail Dulkadiroğulları Beyliğine saldırınca Doğu sınırındaki sancaklar teyakkuza geçirildi.",
+    "secenekler": [
+      {
+        "metin": "Sivas ve Maraş sınırında emniyet teftişi yapan sipahi ol",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 10
+        },
+        "sonuc": "Görevini liyakatle tamamlayıp devlet kademesinde itibar kazandın."
+      },
+      {
+        "metin": "Doğu sınırındaki ordumuza lojistik buğday sevk et",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Hayır duasını alıp halk arasında cömertliğinle övüldün."
+      },
+      {
+        "metin": "Safevi propagandasına karşı ulema meclisi bildirisi yaz",
+        "etki": {
+          "para": 30,
+          "itibar": 10
+        },
+        "sonuc": "Ticaretini büyütüp helal kâr elde ettin."
+      },
+      {
+        "metin": "Sınır kasabalarında emniyet gözetleme kulesi kur",
+        "etki": {
+          "itibar": 12,
+          "saglik": 5,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahalle ve esnaf arasında güvenilir kişi olarak tanındın."
+      }
+    ]
+  },
+  {
+    "id": "yukselme_1508_edirne_su",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1508,
+    "tarih_yil_max": 1508,
+    "tek_seferlik": true,
+    "donem": "yukselme",
+    "alt_donem": "ikinci_bayezid",
+    "metin": "Edirne imar çalışmaları kapsamında Tunca nehri su kanalları ve bimarhane harcamaları denetlendi.",
+    "secenekler": [
+      {
+        "metin": "Edirne su kemerleri restorasyonunda yapı kalfası ol",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 10
+        },
+        "sonuc": "Görevini liyakatle tamamlayıp devlet kademesinde itibar kazandın."
+      },
+      {
+        "metin": "Edirne çeşmelerine kireç ve mermer tedarik et",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Hayır duasını alıp halk arasında cömertliğinle övüldün."
+      },
+      {
+        "metin": "Darüşşifa harcama tahrir defterini denetle",
+        "etki": {
+          "para": 30,
+          "itibar": 10
+        },
+        "sonuc": "Ticaretini büyütüp helal kâr elde ettin."
+      },
+      {
+        "metin": "Edirne mahalle çeşmelerinden tatlı su ikram et",
+        "etki": {
+          "itibar": 12,
+          "saglik": 5,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahalle ve esnaf arasında güvenilir kişi olarak tanındın."
+      }
+    ]
+  },
+  {
+    "id": "yukselme_1510_teke_asayis",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1510,
+    "tarih_yil_max": 1510,
+    "tek_seferlik": true,
+    "donem": "yukselme",
+    "alt_donem": "ikinci_bayezid",
+    "metin": "Antalya ve Teke yöresinde Şahkulu ayaklanması öncesi asayiş tedbirleri ve sancak yoklamaları sıklaştırıldı.",
+    "secenekler": [
+      {
+        "metin": "Antalya kalesinde güvenlik nöbeti tutan yiğitbaşı ol",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 10
+        },
+        "sonuc": "Görevini liyakatle tamamlayıp devlet kademesinde itibar kazandın."
+      },
+      {
+        "metin": "Teke sancak beyine bölge asayiş raporu yaz",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Hayır duasını alıp halk arasında cömertliğinle övüldün."
+      },
+      {
+        "metin": "Antalya limanında tüccar gemilerini denetle",
+        "etki": {
+          "para": 30,
+          "itibar": 10
+        },
+        "sonuc": "Ticaretini büyütüp helal kâr elde ettin."
+      },
+      {
+        "metin": "Ahali arasında huzuru sağlamak için arabulucu ol",
+        "etki": {
+          "itibar": 12,
+          "saglik": 5,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahalle ve esnaf arasında güvenilir kişi olarak tanındın."
+      }
+    ]
+  },
+  {
+    "id": "yukselme_1542_barbaros_fransa",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1542,
+    "tarih_yil_max": 1542,
+    "tek_seferlik": true,
+    "donem": "yukselme",
+    "alt_donem": "kanuni_sultan_suleyman",
+    "metin": "Barbaros Hayrettin Paşa Fransa müttefik seferine çıkarak Toulon limanında Osmanlı donanmasını konuşlandırdı.",
+    "secenekler": [
+      {
+        "metin": "Barbaros Hayrettin Paşa'nın kalyonunda levent olarak Toulon'da kışla",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 10
+        },
+        "sonuc": "Görevini liyakatle tamamlayıp devlet kademesinde itibar kazandın."
+      },
+      {
+        "metin": "Fransız donanması ile yapılan ortak manevraları kaydet",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Hayır duasını alıp halk arasında cömertliğinle övüldün."
+      },
+      {
+        "metin": "Toulon limanında Osmanlı askerleri için helal iaşe temin et",
+        "etki": {
+          "para": 30,
+          "itibar": 10
+        },
+        "sonuc": "Ticaretini büyütüp helal kâr elde ettin."
+      },
+      {
+        "metin": "Fransa seferinden dönen leventlere hediye dağıt",
+        "etki": {
+          "itibar": 12,
+          "saglik": 5,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahalle ve esnaf arasında güvenilir kişi olarak tanındın."
+      }
+    ]
+  },
+  {
+    "id": "yukselme_1544_akdeniz_teftis",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1544,
+    "tarih_yil_max": 1544,
+    "tek_seferlik": true,
+    "donem": "yukselme",
+    "alt_donem": "kanuni_sultan_suleyman",
+    "metin": "Barbaros Hayrettin Paşa Fransa dönüşü Akdeniz turları düzenleyerek adalar ve kıyı güvenlik teftişini tamamladı.",
+    "secenekler": [
+      {
+        "metin": "Kaptan-ı Derya filosunda serdengeçti kaptan ol",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 10
+        },
+        "sonuc": "Görevini liyakatle tamamlayıp devlet kademesinde itibar kazandın."
+      },
+      {
+        "metin": "Tersane-i Amire'ye yeni kadırga yapımı için yelken bezi sağla",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Hayır duasını alıp halk arasında cömertliğinle övüldün."
+      },
+      {
+        "metin": "Ege adaları korsan saldırılarına karşı gözetleme kulesi dik",
+        "etki": {
+          "para": 30,
+          "itibar": 10
+        },
+        "sonuc": "Ticaretini büyütüp helal kâr elde ettin."
+      },
+      {
+        "metin": "Donanma gazilerine Beşiktaş'ta ikram vakfet",
+        "etki": {
+          "itibar": 12,
+          "saglik": 5,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahalle ve esnaf arasında güvenilir kişi olarak tanındın."
+      }
+    ]
+  },
+  {
+    "id": "yukselme_1545_busbecq_mutaerke",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1545,
+    "tarih_yil_max": 1545,
+    "tek_seferlik": true,
+    "donem": "yukselme",
+    "alt_donem": "kanuni_sultan_suleyman",
+    "metin": "Avusturya ile 5 yıllık mütareke anlaşması yapıldı ve Habsburg elçisi Busbecq İstanbul gözlemlerini kaleme aldı.",
+    "secenekler": [
+      {
+        "metin": "Busbecq ile divan kabulünde diplomatik tercümanlık yap",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 10
+        },
+        "sonuc": "Görevini liyakatle tamamlayıp devlet kademesinde itibar kazandın."
+      },
+      {
+        "metin": "İstanbul antlaşması şartlarını kâtip olarak kaleme al",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Hayır duasını alıp halk arasında cömertliğinle övüldün."
+      },
+      {
+        "metin": "Habsburg tüccarlarıyla Galata'da iş yap",
+        "etki": {
+          "para": 30,
+          "itibar": 10
+        },
+        "sonuc": "Ticaretini büyütüp helal kâr elde ettin."
+      },
+      {
+        "metin": "Avusturya elçisine Osmanlı saray laleleri hediye et",
+        "etki": {
+          "itibar": 12,
+          "saglik": 5,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahalle ve esnaf arasında güvenilir kişi olarak tanındın."
+      }
+    ]
+  },
+  {
+    "id": "yukselme_1547_istanbul_antlasmasi",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1547,
+    "tarih_yil_max": 1547,
+    "tek_seferlik": true,
+    "donem": "yukselme",
+    "alt_donem": "kanuni_sultan_suleyman",
+    "metin": "İstanbul Antlaşması imzalanarak Ferdinand'ın Osmanlı Devleti'ne yıllık 30.000 duka vergi ödemesi kesinleşti.",
+    "secenekler": [
+      {
+        "metin": "Avusturya'dan gelen 30.000 duka harç parasını darphanede say",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 10
+        },
+        "sonuc": "Görevini liyakatle tamamlayıp devlet kademesinde itibar kazandın."
+      },
+      {
+        "metin": "Antlaşma metnini Sadrazam Rüstem Paşa divanında kopyala",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Hayır duasını alıp halk arasında cömertliğinle övüldün."
+      },
+      {
+        "metin": "Vergi altınlarının Hazine-i Amire'ye naklinde muhafız ol",
+        "etki": {
+          "para": 30,
+          "itibar": 10
+        },
+        "sonuc": "Ticaretini büyütüp helal kâr elde ettin."
+      },
+      {
+        "metin": "İstanbul barış şenliklerinde halka şerbet ikram et",
+        "etki": {
+          "itibar": 12,
+          "saglik": 5,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahalle ve esnaf arasında güvenilir kişi olarak tanındın."
+      }
+    ]
+  },
+  {
+    "id": "yukselme_1549_gurcistan_van",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1549,
+    "tarih_yil_max": 1549,
+    "tek_seferlik": true,
+    "donem": "yukselme",
+    "alt_donem": "kanuni_sultan_suleyman",
+    "metin": "İkinci İran Seferi sırasında Van ve Erzurum beylerbeylikleri güçlendirildi ve Gürcistan sınır kalesi fethedildi.",
+    "secenekler": [
+      {
+        "metin": "Erzurum Kalesi kalafatçı topçusu olarak sefere katıl",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 10
+        },
+        "sonuc": "Görevini liyakatle tamamlayıp devlet kademesinde itibar kazandın."
+      },
+      {
+        "metin": "Van Gölü kıyısındaki ordumuza buğday ve erzak sağla",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Hayır duasını alıp halk arasında cömertliğinle övüldün."
+      },
+      {
+        "metin": "Gürcistan sınır boylarında tımarlı sipahi nöbeti tut",
+        "etki": {
+          "para": 30,
+          "itibar": 10
+        },
+        "sonuc": "Ticaretini büyütüp helal kâr elde ettin."
+      },
+      {
+        "metin": "Sefer gazilerine Erzurum'da sıcak çorba vakfet",
+        "etki": {
+          "itibar": 12,
+          "saglik": 5,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahalle ve esnaf arasında güvenilir kişi olarak tanındın."
+      }
+    ]
+  },
+  {
+    "id": "yukselme_1552_ponza_turgut_reis",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1552,
+    "tarih_yil_max": 1552,
+    "tek_seferlik": true,
+    "donem": "yukselme",
+    "alt_donem": "kanuni_sultan_suleyman",
+    "metin": "Turgut Reis Ponza Deniz Savaşı'nda Andrea Doria komutasındaki Ceneviz ve İspanyol donanmasını hezimete uğrattı.",
+    "secenekler": [
+      {
+        "metin": "Turgut Reis'in kadırgasında dümenci ustası olarak çarpış",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 10
+        },
+        "sonuc": "Görevini liyakatle tamamlayıp devlet kademesinde itibar kazandın."
+      },
+      {
+        "metin": "Ponza zaferi ganimetlerinin Tersane-i Amire'ye naklinde kâtip ol",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Hayır duasını alıp halk arasında cömertliğinle övüldün."
+      },
+      {
+        "metin": "Turgut Reis filosuna barut ve gülle tedarik et",
+        "etki": {
+          "para": 30,
+          "itibar": 10
+        },
+        "sonuc": "Ticaretini büyütüp helal kâr elde ettin."
+      },
+      {
+        "metin": "Deniz şehitlerinin Bursa'daki ailelerine yardım et",
+        "etki": {
+          "itibar": 12,
+          "saglik": 5,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahalle ve esnaf arasında güvenilir kişi olarak tanındın."
+      }
+    ]
+  },
+  {
+    "id": "yukselme_1567_yemen_seferi",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1567,
+    "tarih_yil_max": 1567,
+    "tek_seferlik": true,
+    "donem": "yukselme",
+    "alt_donem": "ikinci_selim",
+    "metin": "Yemen'de başlayan Zeydi isyanına karşı Koca Sinan Paşa Yemen Serdarlığına tayin edildi.",
+    "secenekler": [
+      {
+        "metin": "Koca Sinan Paşa ordusunda Yemen seferine katıl",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 10
+        },
+        "sonuc": "Görevini liyakatle tamamlayıp devlet kademesinde itibar kazandın."
+      },
+      {
+        "metin": "Cidde ve Yemen limanlarına Kızıldeniz üzerinden zahire sevk et",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Hayır duasını alıp halk arasında cömertliğinle övüldün."
+      },
+      {
+        "metin": "Yemen çöl yollarında su kuyuları açan ahi marangoz ol",
+        "etki": {
+          "para": 30,
+          "itibar": 10
+        },
+        "sonuc": "Ticaretini büyütüp helal kâr elde ettin."
+      },
+      {
+        "metin": "Yemen gazileri için Mekke'de hayır aşı dağıt",
+        "etki": {
+          "itibar": 12,
+          "saglik": 5,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahalle ve esnaf arasında güvenilir kişi olarak tanındın."
+      }
+    ]
   }
 ]

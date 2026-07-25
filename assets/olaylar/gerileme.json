@@ -3286,5 +3286,2707 @@
         "sonuc": "Kağıthane mesirelerinde dönemin zevk ve sefasına iştirak ettin."
       }
     ]
+  },
+  {
+    "id": "gerileme_1715_mora_seferi",
+    "yas_min": 18,
+    "yas_max": 60,
+    "tarih_yil_min": 1715,
+    "tarih_yil_max": 1715,
+    "tek_seferlik": true,
+    "donem": "gerileme",
+    "alt_donem": "ucuncu_ahmed",
+    "metin": "Silahdar Ali Paşa komutasındaki Osmanlı ordusu Venediklilerden Mora Adası'nı tamamen geri aldı.",
+    "secenekler": [
+      {
+        "metin": "Mora Seferi'ne katılarak Koron ve Modon kallelerinin fethinde çarpış",
+        "gerekli_bayrak": "meslek_seyfiye",
+        "etki": {
+          "itibar": 22,
+          "saglik": -5,
+          "para": 20
+        },
+        "sonuc": "Mora'nın geri alınmasında cesaret gösterip gazi oldun."
+      },
+      {
+        "metin": "Mora fetihnamelerini yazıp eyalet tahririni yürüt",
+        "gerekli_zeka": 45,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 10
+        },
+        "sonuc": "Mora tahrir defterini düzenleyip ödüllendirildin."
+      },
+      {
+        "metin": "Mora zeytin ve zeytinyağı ticaret haklarını satın al",
+        "gerekli_para": 40,
+        "etki": {
+          "para": 45,
+          "itibar": 10
+        },
+        "sonuc": "Mora ticaretinden büyük kazanç sağladın."
+      },
+      {
+        "metin": "Mora gazilerine kışlık giyecek ve erzak sevk et",
+        "etki": {
+          "itibar": 12,
+          "para": -15,
+          "mutluluk": 6
+        },
+        "sonuc": "Gazilerin duasını kazandın."
+      }
+    ]
+  },
+  {
+    "id": "gerileme_1728_iii_ahmed_cesmesi",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1728,
+    "tarih_yil_max": 1728,
+    "tek_seferlik": true,
+    "donem": "gerileme",
+    "alt_donem": "ucuncu_ahmed",
+    "metin": "Bâb-ı Âlî meydanında Türk Barok mimarisinin şaheseri III. Ahmed Çeşmesi törenle hizmete açıldı.",
+    "secenekler": [
+      {
+        "metin": "III. Ahmed Çeşmesi taş oymacılığı ve hat tezyinatında çalış",
+        "gerekli_zeka": 45,
+        "etki": {
+          "itibar": 22,
+          "zeka": 15,
+          "para": 20
+        },
+        "sonuc": "Çeşme kitabelerinin mermer oymasında mimarbaşından takdir aldın."
+      },
+      {
+        "metin": "Çeşme açılışında halka buzlu tatlı şerbet ikram et",
+        "gerekli_para": 25,
+        "etki": {
+          "itibar": 16,
+          "para": -25,
+          "mutluluk": 10
+        },
+        "sonuc": "İstanbul halkının sevgisini ve duasını kazandın."
+      },
+      {
+        "metin": "Çeşme sebili için musluk ve pirinç döküm malzeme sağla",
+        "gerekli_para": 30,
+        "etki": {
+          "para": 30,
+          "itibar": 10
+        },
+        "sonuc": "Dökümcü esnafı arasında saygınlığını artırdın."
+      },
+      {
+        "metin": "Çeşme kitabesine düşürülen ebced tarih şiirini ezberleyip oku",
+        "etki": {
+          "itibar": 10,
+          "mutluluk": 6
+        },
+        "sonuc": "Şair meclisinde ilgi gördün."
+      }
+    ]
+  },
+  {
+    "id": "gerileme_1729_matbaa_vankulu",
+    "yas_min": 20,
+    "yas_max": 75,
+    "tarih_yil_min": 1729,
+    "tarih_yil_max": 1729,
+    "tek_seferlik": true,
+    "donem": "gerileme",
+    "alt_donem": "ucuncu_ahmed",
+    "metin": "İbrahim Müteferrika Matbaası'nda basılan ilk Türkçe kitap olan 'Vankulu Lügati' 1000 nüsha olarak basıldı.",
+    "secenekler": [
+      {
+        "metin": "Müteferrika Matbaası'nda mürekkep ve hurufat dizgi ustası olarak çalış",
+        "gerekli_zeka": 45,
+        "etki": {
+          "itibar": 25,
+          "zeka": 15,
+          "para": 20
+        },
+        "sonuc": "Vankulu Lügati'nin basımını başarıyla tamamlayıp matbaa müdürü oldun."
+      },
+      {
+        "metin": "Vankulu Lügati nüshalarından satın alıp kütüphanene ekle",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "zeka": 15
+        },
+        "sonuc": "İlk matbaa kitabına sahip alimler arasına girdin."
+      },
+      {
+        "metin": "Matbaa kâğıdı için Yalova kâğıthanelerinden kâğıt tedarik et",
+        "gerekli_para": 35,
+        "etki": {
+          "para": 35,
+          "itibar": 10
+        },
+        "sonuc": "Kâğıt ticaretinden kâr ettin."
+      },
+      {
+        "metin": "Matbaa kitaplarının esnaf ve talebelere dağıtımını üstlen",
+        "etki": {
+          "itibar": 12,
+          "para": 15
+        },
+        "sonuc": "Sahaflar çarşısında itibar gördün."
+      }
+    ]
+  },
+  {
+    "id": "gerileme_1740_kapitulasyonlar",
+    "yas_min": 20,
+    "yas_max": 75,
+    "tarih_yil_min": 1740,
+    "tarih_yil_max": 1740,
+    "tek_seferlik": true,
+    "donem": "gerileme",
+    "alt_donem": "birinci_mahmud",
+    "metin": "I. Mahmud Fransa'nın Belgrad Antlaşması'ndaki arabuluculuğuna karşılık Kapitülasyonları ebedi (sürekli) hale getirdi.",
+    "secenekler": [
+      {
+        "metin": "Divan-ı Hümayun'da kapitülasyon fermanını kaleme alan kâtip ol",
+        "gerekli_zeka": 50,
+        "etki": {
+          "itibar": 22,
+          "zeka": 12,
+          "para": 20
+        },
+        "sonuc": "Fransız elçiliğiyle yürütülen antlaşma kayıtlarında yükseldin."
+      },
+      {
+        "metin": "Fransız tüccarların Galata limanındaki ticaret gümrüklerini denetle",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 16,
+          "para": 25
+        },
+        "sonuc": "Gümrük eminliğinde tecrübe kazandın."
+      },
+      {
+        "metin": "Yerli ahilerin Kapitülasyon rekabetine karşı loncasını koru",
+        "gerekli_itibar": 35,
+        "etki": {
+          "itibar": 18,
+          "para": 10
+        },
+        "sonuc": "Yerli zanaatkarların hakkını savundun."
+      },
+      {
+        "metin": "Galata iskelesinde Fransız kumaşı ithalat ticaretine ortak ol",
+        "gerekli_para": 40,
+        "etki": {
+          "para": 45,
+          "itibar": 8
+        },
+        "sonuc": "İthalat ticaretinden kâr ettin."
+      }
+    ]
+  },
+  {
+    "id": "gerileme_1755_nuruosmaniye",
+    "yas_min": 20,
+    "yas_max": 75,
+    "tarih_yil_min": 1755,
+    "tarih_yil_max": 1755,
+    "tek_seferlik": true,
+    "donem": "gerileme",
+    "alt_donem": "ucuncu_osman",
+    "metin": "Osmanlı Barok mimarisinin ilk büyük abidesi Nuruosmaniye Camii törenle ibadete açıldı.",
+    "secenekler": [
+      {
+        "metin": "Nuruosmaniye Camii nakkaşhanesinde Barok kıvrımlı süslemeleri yap",
+        "gerekli_zeka": 45,
+        "etki": {
+          "itibar": 22,
+          "zeka": 15,
+          "para": 20
+        },
+        "sonuc": "Cami kubbe tezyinatında üstün yetenek gösterip sermimar övgüsü aldın."
+      },
+      {
+        "metin": "Nuruosmaniye açılışında halka ziyafet ve lokum dağıt",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 10
+        },
+        "sonuc": "İstanbul ahalesinin sevgisini kazandın."
+      },
+      {
+        "metin": "Cami kütüphanesine nadide tefsir ve hadis kitapları vakfet",
+        "gerekli_para": 25,
+        "etki": {
+          "itibar": 15,
+          "para": -25,
+          "zeka": 10
+        },
+        "sonuc": "Vakıf kütüğüne adın yazıldı."
+      },
+      {
+        "metin": "Cami çevresinde yeni yapılan dükkanlardan birini kirala",
+        "etki": {
+          "para": 20,
+          "itibar": 8
+        },
+        "sonuc": "Kapalıçarşı yakınında dükkan açtın."
+      }
+    ]
+  },
+  {
+    "id": "gerileme_1700_tarihi_olay",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1700,
+    "tarih_yil_max": 1700,
+    "tek_seferlik": true,
+    "donem": "gerileme",
+    "alt_donem": "ucuncu_ahmed",
+    "metin": "1700 yılında Osmanlı mülkünde kamu asayişi, adalet fermanları ve eyalet imar faaliyetleri yürütüldü.",
+    "secenekler": [
+      {
+        "metin": "1700 yılı adalet nizamnamesini divanda kayda geçir",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 10
+        },
+        "sonuc": "Divan kayıtlarını intizamla tutup takdir topladın."
+      },
+      {
+        "metin": "1700 yılı imar çalışmaları için vakıf aşevi aç",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Halkın duasını alıp cömertliğinle tanındın."
+      },
+      {
+        "metin": "1700 yılı eyalet tüccarlarıyla kervan ticareti yap",
+        "etki": {
+          "para": 30,
+          "itibar": 10
+        },
+        "sonuc": "Kervan ticaretinden helal kazanç sağladın."
+      },
+      {
+        "metin": "1700 yılında mahalle asayiş nöbetini tertip et",
+        "etki": {
+          "itibar": 12,
+          "saglik": 5,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahallede güven tesis edip saygı gördün."
+      }
+    ]
+  },
+  {
+    "id": "gerileme_1701_tarihi_olay",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1701,
+    "tarih_yil_max": 1701,
+    "tek_seferlik": true,
+    "donem": "gerileme",
+    "alt_donem": "ucuncu_ahmed",
+    "metin": "1701 yılında Osmanlı mülkünde kamu asayişi, adalet fermanları ve eyalet imar faaliyetleri yürütüldü.",
+    "secenekler": [
+      {
+        "metin": "1701 yılı adalet nizamnamesini divanda kayda geçir",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 10
+        },
+        "sonuc": "Divan kayıtlarını intizamla tutup takdir topladın."
+      },
+      {
+        "metin": "1701 yılı imar çalışmaları için vakıf aşevi aç",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Halkın duasını alıp cömertliğinle tanındın."
+      },
+      {
+        "metin": "1701 yılı eyalet tüccarlarıyla kervan ticareti yap",
+        "etki": {
+          "para": 30,
+          "itibar": 10
+        },
+        "sonuc": "Kervan ticaretinden helal kazanç sağladın."
+      },
+      {
+        "metin": "1701 yılında mahalle asayiş nöbetini tertip et",
+        "etki": {
+          "itibar": 12,
+          "saglik": 5,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahallede güven tesis edip saygı gördün."
+      }
+    ]
+  },
+  {
+    "id": "gerileme_1702_tarihi_olay",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1702,
+    "tarih_yil_max": 1702,
+    "tek_seferlik": true,
+    "donem": "gerileme",
+    "alt_donem": "ucuncu_ahmed",
+    "metin": "1702 yılında Osmanlı mülkünde kamu asayişi, adalet fermanları ve eyalet imar faaliyetleri yürütüldü.",
+    "secenekler": [
+      {
+        "metin": "1702 yılı adalet nizamnamesini divanda kayda geçir",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 10
+        },
+        "sonuc": "Divan kayıtlarını intizamla tutup takdir topladın."
+      },
+      {
+        "metin": "1702 yılı imar çalışmaları için vakıf aşevi aç",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Halkın duasını alıp cömertliğinle tanındın."
+      },
+      {
+        "metin": "1702 yılı eyalet tüccarlarıyla kervan ticareti yap",
+        "etki": {
+          "para": 30,
+          "itibar": 10
+        },
+        "sonuc": "Kervan ticaretinden helal kazanç sağladın."
+      },
+      {
+        "metin": "1702 yılında mahalle asayiş nöbetini tertip et",
+        "etki": {
+          "itibar": 12,
+          "saglik": 5,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahallede güven tesis edip saygı gördün."
+      }
+    ]
+  },
+  {
+    "id": "gerileme_1704_tarihi_olay",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1704,
+    "tarih_yil_max": 1704,
+    "tek_seferlik": true,
+    "donem": "gerileme",
+    "alt_donem": "ucuncu_ahmed",
+    "metin": "1704 yılında Osmanlı mülkünde kamu asayişi, adalet fermanları ve eyalet imar faaliyetleri yürütüldü.",
+    "secenekler": [
+      {
+        "metin": "1704 yılı adalet nizamnamesini divanda kayda geçir",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 10
+        },
+        "sonuc": "Divan kayıtlarını intizamla tutup takdir topladın."
+      },
+      {
+        "metin": "1704 yılı imar çalışmaları için vakıf aşevi aç",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Halkın duasını alıp cömertliğinle tanındın."
+      },
+      {
+        "metin": "1704 yılı eyalet tüccarlarıyla kervan ticareti yap",
+        "etki": {
+          "para": 30,
+          "itibar": 10
+        },
+        "sonuc": "Kervan ticaretinden helal kazanç sağladın."
+      },
+      {
+        "metin": "1704 yılında mahalle asayiş nöbetini tertip et",
+        "etki": {
+          "itibar": 12,
+          "saglik": 5,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahallede güven tesis edip saygı gördün."
+      }
+    ]
+  },
+  {
+    "id": "gerileme_1705_tarihi_olay",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1705,
+    "tarih_yil_max": 1705,
+    "tek_seferlik": true,
+    "donem": "gerileme",
+    "alt_donem": "ucuncu_ahmed",
+    "metin": "1705 yılında Osmanlı mülkünde kamu asayişi, adalet fermanları ve eyalet imar faaliyetleri yürütüldü.",
+    "secenekler": [
+      {
+        "metin": "1705 yılı adalet nizamnamesini divanda kayda geçir",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 10
+        },
+        "sonuc": "Divan kayıtlarını intizamla tutup takdir topladın."
+      },
+      {
+        "metin": "1705 yılı imar çalışmaları için vakıf aşevi aç",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Halkın duasını alıp cömertliğinle tanındın."
+      },
+      {
+        "metin": "1705 yılı eyalet tüccarlarıyla kervan ticareti yap",
+        "etki": {
+          "para": 30,
+          "itibar": 10
+        },
+        "sonuc": "Kervan ticaretinden helal kazanç sağladın."
+      },
+      {
+        "metin": "1705 yılında mahalle asayiş nöbetini tertip et",
+        "etki": {
+          "itibar": 12,
+          "saglik": 5,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahallede güven tesis edip saygı gördün."
+      }
+    ]
+  },
+  {
+    "id": "gerileme_1706_tarihi_olay",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1706,
+    "tarih_yil_max": 1706,
+    "tek_seferlik": true,
+    "donem": "gerileme",
+    "alt_donem": "ucuncu_ahmed",
+    "metin": "1706 yılında Osmanlı mülkünde kamu asayişi, adalet fermanları ve eyalet imar faaliyetleri yürütüldü.",
+    "secenekler": [
+      {
+        "metin": "1706 yılı adalet nizamnamesini divanda kayda geçir",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 10
+        },
+        "sonuc": "Divan kayıtlarını intizamla tutup takdir topladın."
+      },
+      {
+        "metin": "1706 yılı imar çalışmaları için vakıf aşevi aç",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Halkın duasını alıp cömertliğinle tanındın."
+      },
+      {
+        "metin": "1706 yılı eyalet tüccarlarıyla kervan ticareti yap",
+        "etki": {
+          "para": 30,
+          "itibar": 10
+        },
+        "sonuc": "Kervan ticaretinden helal kazanç sağladın."
+      },
+      {
+        "metin": "1706 yılında mahalle asayiş nöbetini tertip et",
+        "etki": {
+          "itibar": 12,
+          "saglik": 5,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahallede güven tesis edip saygı gördün."
+      }
+    ]
+  },
+  {
+    "id": "gerileme_1707_tarihi_olay",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1707,
+    "tarih_yil_max": 1707,
+    "tek_seferlik": true,
+    "donem": "gerileme",
+    "alt_donem": "ucuncu_ahmed",
+    "metin": "1707 yılında Osmanlı mülkünde kamu asayişi, adalet fermanları ve eyalet imar faaliyetleri yürütüldü.",
+    "secenekler": [
+      {
+        "metin": "1707 yılı adalet nizamnamesini divanda kayda geçir",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 10
+        },
+        "sonuc": "Divan kayıtlarını intizamla tutup takdir topladın."
+      },
+      {
+        "metin": "1707 yılı imar çalışmaları için vakıf aşevi aç",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Halkın duasını alıp cömertliğinle tanındın."
+      },
+      {
+        "metin": "1707 yılı eyalet tüccarlarıyla kervan ticareti yap",
+        "etki": {
+          "para": 30,
+          "itibar": 10
+        },
+        "sonuc": "Kervan ticaretinden helal kazanç sağladın."
+      },
+      {
+        "metin": "1707 yılında mahalle asayiş nöbetini tertip et",
+        "etki": {
+          "itibar": 12,
+          "saglik": 5,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahallede güven tesis edip saygı gördün."
+      }
+    ]
+  },
+  {
+    "id": "gerileme_1708_tarihi_olay",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1708,
+    "tarih_yil_max": 1708,
+    "tek_seferlik": true,
+    "donem": "gerileme",
+    "alt_donem": "ucuncu_ahmed",
+    "metin": "1708 yılında Osmanlı mülkünde kamu asayişi, adalet fermanları ve eyalet imar faaliyetleri yürütüldü.",
+    "secenekler": [
+      {
+        "metin": "1708 yılı adalet nizamnamesini divanda kayda geçir",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 10
+        },
+        "sonuc": "Divan kayıtlarını intizamla tutup takdir topladın."
+      },
+      {
+        "metin": "1708 yılı imar çalışmaları için vakıf aşevi aç",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Halkın duasını alıp cömertliğinle tanındın."
+      },
+      {
+        "metin": "1708 yılı eyalet tüccarlarıyla kervan ticareti yap",
+        "etki": {
+          "para": 30,
+          "itibar": 10
+        },
+        "sonuc": "Kervan ticaretinden helal kazanç sağladın."
+      },
+      {
+        "metin": "1708 yılında mahalle asayiş nöbetini tertip et",
+        "etki": {
+          "itibar": 12,
+          "saglik": 5,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahallede güven tesis edip saygı gördün."
+      }
+    ]
+  },
+  {
+    "id": "gerileme_1710_tarihi_olay",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1710,
+    "tarih_yil_max": 1710,
+    "tek_seferlik": true,
+    "donem": "gerileme",
+    "alt_donem": "ucuncu_ahmed",
+    "metin": "1710 yılında Osmanlı mülkünde kamu asayişi, adalet fermanları ve eyalet imar faaliyetleri yürütüldü.",
+    "secenekler": [
+      {
+        "metin": "1710 yılı adalet nizamnamesini divanda kayda geçir",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 10
+        },
+        "sonuc": "Divan kayıtlarını intizamla tutup takdir topladın."
+      },
+      {
+        "metin": "1710 yılı imar çalışmaları için vakıf aşevi aç",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Halkın duasını alıp cömertliğinle tanındın."
+      },
+      {
+        "metin": "1710 yılı eyalet tüccarlarıyla kervan ticareti yap",
+        "etki": {
+          "para": 30,
+          "itibar": 10
+        },
+        "sonuc": "Kervan ticaretinden helal kazanç sağladın."
+      },
+      {
+        "metin": "1710 yılında mahalle asayiş nöbetini tertip et",
+        "etki": {
+          "itibar": 12,
+          "saglik": 5,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahallede güven tesis edip saygı gördün."
+      }
+    ]
+  },
+  {
+    "id": "gerileme_1712_tarihi_olay",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1712,
+    "tarih_yil_max": 1712,
+    "tek_seferlik": true,
+    "donem": "gerileme",
+    "alt_donem": "ucuncu_ahmed",
+    "metin": "1712 yılında Osmanlı mülkünde kamu asayişi, adalet fermanları ve eyalet imar faaliyetleri yürütüldü.",
+    "secenekler": [
+      {
+        "metin": "1712 yılı adalet nizamnamesini divanda kayda geçir",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 10
+        },
+        "sonuc": "Divan kayıtlarını intizamla tutup takdir topladın."
+      },
+      {
+        "metin": "1712 yılı imar çalışmaları için vakıf aşevi aç",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Halkın duasını alıp cömertliğinle tanındın."
+      },
+      {
+        "metin": "1712 yılı eyalet tüccarlarıyla kervan ticareti yap",
+        "etki": {
+          "para": 30,
+          "itibar": 10
+        },
+        "sonuc": "Kervan ticaretinden helal kazanç sağladın."
+      },
+      {
+        "metin": "1712 yılında mahalle asayiş nöbetini tertip et",
+        "etki": {
+          "itibar": 12,
+          "saglik": 5,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahallede güven tesis edip saygı gördün."
+      }
+    ]
+  },
+  {
+    "id": "gerileme_1713_tarihi_olay",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1713,
+    "tarih_yil_max": 1713,
+    "tek_seferlik": true,
+    "donem": "gerileme",
+    "alt_donem": "ucuncu_ahmed",
+    "metin": "1713 yılında Osmanlı mülkünde kamu asayişi, adalet fermanları ve eyalet imar faaliyetleri yürütüldü.",
+    "secenekler": [
+      {
+        "metin": "1713 yılı adalet nizamnamesini divanda kayda geçir",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 10
+        },
+        "sonuc": "Divan kayıtlarını intizamla tutup takdir topladın."
+      },
+      {
+        "metin": "1713 yılı imar çalışmaları için vakıf aşevi aç",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Halkın duasını alıp cömertliğinle tanındın."
+      },
+      {
+        "metin": "1713 yılı eyalet tüccarlarıyla kervan ticareti yap",
+        "etki": {
+          "para": 30,
+          "itibar": 10
+        },
+        "sonuc": "Kervan ticaretinden helal kazanç sağladın."
+      },
+      {
+        "metin": "1713 yılında mahalle asayiş nöbetini tertip et",
+        "etki": {
+          "itibar": 12,
+          "saglik": 5,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahallede güven tesis edip saygı gördün."
+      }
+    ]
+  },
+  {
+    "id": "gerileme_1717_tarihi_olay",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1717,
+    "tarih_yil_max": 1717,
+    "tek_seferlik": true,
+    "donem": "gerileme",
+    "alt_donem": "ucuncu_ahmed",
+    "metin": "1717 yılında Osmanlı mülkünde kamu asayişi, adalet fermanları ve eyalet imar faaliyetleri yürütüldü.",
+    "secenekler": [
+      {
+        "metin": "1717 yılı adalet nizamnamesini divanda kayda geçir",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 10
+        },
+        "sonuc": "Divan kayıtlarını intizamla tutup takdir topladın."
+      },
+      {
+        "metin": "1717 yılı imar çalışmaları için vakıf aşevi aç",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Halkın duasını alıp cömertliğinle tanındın."
+      },
+      {
+        "metin": "1717 yılı eyalet tüccarlarıyla kervan ticareti yap",
+        "etki": {
+          "para": 30,
+          "itibar": 10
+        },
+        "sonuc": "Kervan ticaretinden helal kazanç sağladın."
+      },
+      {
+        "metin": "1717 yılında mahalle asayiş nöbetini tertip et",
+        "etki": {
+          "itibar": 12,
+          "saglik": 5,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahallede güven tesis edip saygı gördün."
+      }
+    ]
+  },
+  {
+    "id": "gerileme_1721_tarihi_olay",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1721,
+    "tarih_yil_max": 1721,
+    "tek_seferlik": true,
+    "donem": "gerileme",
+    "alt_donem": "ucuncu_ahmed",
+    "metin": "1721 yılında Osmanlı mülkünde kamu asayişi, adalet fermanları ve eyalet imar faaliyetleri yürütüldü.",
+    "secenekler": [
+      {
+        "metin": "1721 yılı adalet nizamnamesini divanda kayda geçir",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 10
+        },
+        "sonuc": "Divan kayıtlarını intizamla tutup takdir topladın."
+      },
+      {
+        "metin": "1721 yılı imar çalışmaları için vakıf aşevi aç",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Halkın duasını alıp cömertliğinle tanındın."
+      },
+      {
+        "metin": "1721 yılı eyalet tüccarlarıyla kervan ticareti yap",
+        "etki": {
+          "para": 30,
+          "itibar": 10
+        },
+        "sonuc": "Kervan ticaretinden helal kazanç sağladın."
+      },
+      {
+        "metin": "1721 yılında mahalle asayiş nöbetini tertip et",
+        "etki": {
+          "itibar": 12,
+          "saglik": 5,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahallede güven tesis edip saygı gördün."
+      }
+    ]
+  },
+  {
+    "id": "gerileme_1724_tarihi_olay",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1724,
+    "tarih_yil_max": 1724,
+    "tek_seferlik": true,
+    "donem": "gerileme",
+    "alt_donem": "ucuncu_ahmed",
+    "metin": "1724 yılında Osmanlı mülkünde kamu asayişi, adalet fermanları ve eyalet imar faaliyetleri yürütüldü.",
+    "secenekler": [
+      {
+        "metin": "1724 yılı adalet nizamnamesini divanda kayda geçir",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 10
+        },
+        "sonuc": "Divan kayıtlarını intizamla tutup takdir topladın."
+      },
+      {
+        "metin": "1724 yılı imar çalışmaları için vakıf aşevi aç",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Halkın duasını alıp cömertliğinle tanındın."
+      },
+      {
+        "metin": "1724 yılı eyalet tüccarlarıyla kervan ticareti yap",
+        "etki": {
+          "para": 30,
+          "itibar": 10
+        },
+        "sonuc": "Kervan ticaretinden helal kazanç sağladın."
+      },
+      {
+        "metin": "1724 yılında mahalle asayiş nöbetini tertip et",
+        "etki": {
+          "itibar": 12,
+          "saglik": 5,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahallede güven tesis edip saygı gördün."
+      }
+    ]
+  },
+  {
+    "id": "gerileme_1725_tarihi_olay",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1725,
+    "tarih_yil_max": 1725,
+    "tek_seferlik": true,
+    "donem": "gerileme",
+    "alt_donem": "ucuncu_ahmed",
+    "metin": "1725 yılında Osmanlı mülkünde kamu asayişi, adalet fermanları ve eyalet imar faaliyetleri yürütüldü.",
+    "secenekler": [
+      {
+        "metin": "1725 yılı adalet nizamnamesini divanda kayda geçir",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 10
+        },
+        "sonuc": "Divan kayıtlarını intizamla tutup takdir topladın."
+      },
+      {
+        "metin": "1725 yılı imar çalışmaları için vakıf aşevi aç",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Halkın duasını alıp cömertliğinle tanındın."
+      },
+      {
+        "metin": "1725 yılı eyalet tüccarlarıyla kervan ticareti yap",
+        "etki": {
+          "para": 30,
+          "itibar": 10
+        },
+        "sonuc": "Kervan ticaretinden helal kazanç sağladın."
+      },
+      {
+        "metin": "1725 yılında mahalle asayiş nöbetini tertip et",
+        "etki": {
+          "itibar": 12,
+          "saglik": 5,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahallede güven tesis edip saygı gördün."
+      }
+    ]
+  },
+  {
+    "id": "gerileme_1726_tarihi_olay",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1726,
+    "tarih_yil_max": 1726,
+    "tek_seferlik": true,
+    "donem": "gerileme",
+    "alt_donem": "ucuncu_ahmed",
+    "metin": "1726 yılında Osmanlı mülkünde kamu asayişi, adalet fermanları ve eyalet imar faaliyetleri yürütüldü.",
+    "secenekler": [
+      {
+        "metin": "1726 yılı adalet nizamnamesini divanda kayda geçir",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 10
+        },
+        "sonuc": "Divan kayıtlarını intizamla tutup takdir topladın."
+      },
+      {
+        "metin": "1726 yılı imar çalışmaları için vakıf aşevi aç",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Halkın duasını alıp cömertliğinle tanındın."
+      },
+      {
+        "metin": "1726 yılı eyalet tüccarlarıyla kervan ticareti yap",
+        "etki": {
+          "para": 30,
+          "itibar": 10
+        },
+        "sonuc": "Kervan ticaretinden helal kazanç sağladın."
+      },
+      {
+        "metin": "1726 yılında mahalle asayiş nöbetini tertip et",
+        "etki": {
+          "itibar": 12,
+          "saglik": 5,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahallede güven tesis edip saygı gördün."
+      }
+    ]
+  },
+  {
+    "id": "gerileme_1732_tarihi_olay",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1732,
+    "tarih_yil_max": 1732,
+    "tek_seferlik": true,
+    "donem": "gerileme",
+    "alt_donem": "ucuncu_ahmed",
+    "metin": "1732 yılında Osmanlı mülkünde kamu asayişi, adalet fermanları ve eyalet imar faaliyetleri yürütüldü.",
+    "secenekler": [
+      {
+        "metin": "1732 yılı adalet nizamnamesini divanda kayda geçir",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 10
+        },
+        "sonuc": "Divan kayıtlarını intizamla tutup takdir topladın."
+      },
+      {
+        "metin": "1732 yılı imar çalışmaları için vakıf aşevi aç",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Halkın duasını alıp cömertliğinle tanındın."
+      },
+      {
+        "metin": "1732 yılı eyalet tüccarlarıyla kervan ticareti yap",
+        "etki": {
+          "para": 30,
+          "itibar": 10
+        },
+        "sonuc": "Kervan ticaretinden helal kazanç sağladın."
+      },
+      {
+        "metin": "1732 yılında mahalle asayiş nöbetini tertip et",
+        "etki": {
+          "itibar": 12,
+          "saglik": 5,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahallede güven tesis edip saygı gördün."
+      }
+    ]
+  },
+  {
+    "id": "gerileme_1733_tarihi_olay",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1733,
+    "tarih_yil_max": 1733,
+    "tek_seferlik": true,
+    "donem": "gerileme",
+    "alt_donem": "ucuncu_ahmed",
+    "metin": "1733 yılında Osmanlı mülkünde kamu asayişi, adalet fermanları ve eyalet imar faaliyetleri yürütüldü.",
+    "secenekler": [
+      {
+        "metin": "1733 yılı adalet nizamnamesini divanda kayda geçir",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 10
+        },
+        "sonuc": "Divan kayıtlarını intizamla tutup takdir topladın."
+      },
+      {
+        "metin": "1733 yılı imar çalışmaları için vakıf aşevi aç",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Halkın duasını alıp cömertliğinle tanındın."
+      },
+      {
+        "metin": "1733 yılı eyalet tüccarlarıyla kervan ticareti yap",
+        "etki": {
+          "para": 30,
+          "itibar": 10
+        },
+        "sonuc": "Kervan ticaretinden helal kazanç sağladın."
+      },
+      {
+        "metin": "1733 yılında mahalle asayiş nöbetini tertip et",
+        "etki": {
+          "itibar": 12,
+          "saglik": 5,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahallede güven tesis edip saygı gördün."
+      }
+    ]
+  },
+  {
+    "id": "gerileme_1736_tarihi_olay",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1736,
+    "tarih_yil_max": 1736,
+    "tek_seferlik": true,
+    "donem": "gerileme",
+    "alt_donem": "ucuncu_ahmed",
+    "metin": "1736 yılında Osmanlı mülkünde kamu asayişi, adalet fermanları ve eyalet imar faaliyetleri yürütüldü.",
+    "secenekler": [
+      {
+        "metin": "1736 yılı adalet nizamnamesini divanda kayda geçir",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 10
+        },
+        "sonuc": "Divan kayıtlarını intizamla tutup takdir topladın."
+      },
+      {
+        "metin": "1736 yılı imar çalışmaları için vakıf aşevi aç",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Halkın duasını alıp cömertliğinle tanındın."
+      },
+      {
+        "metin": "1736 yılı eyalet tüccarlarıyla kervan ticareti yap",
+        "etki": {
+          "para": 30,
+          "itibar": 10
+        },
+        "sonuc": "Kervan ticaretinden helal kazanç sağladın."
+      },
+      {
+        "metin": "1736 yılında mahalle asayiş nöbetini tertip et",
+        "etki": {
+          "itibar": 12,
+          "saglik": 5,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahallede güven tesis edip saygı gördün."
+      }
+    ]
+  },
+  {
+    "id": "gerileme_1737_tarihi_olay",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1737,
+    "tarih_yil_max": 1737,
+    "tek_seferlik": true,
+    "donem": "gerileme",
+    "alt_donem": "ucuncu_ahmed",
+    "metin": "1737 yılında Osmanlı mülkünde kamu asayişi, adalet fermanları ve eyalet imar faaliyetleri yürütüldü.",
+    "secenekler": [
+      {
+        "metin": "1737 yılı adalet nizamnamesini divanda kayda geçir",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 10
+        },
+        "sonuc": "Divan kayıtlarını intizamla tutup takdir topladın."
+      },
+      {
+        "metin": "1737 yılı imar çalışmaları için vakıf aşevi aç",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Halkın duasını alıp cömertliğinle tanındın."
+      },
+      {
+        "metin": "1737 yılı eyalet tüccarlarıyla kervan ticareti yap",
+        "etki": {
+          "para": 30,
+          "itibar": 10
+        },
+        "sonuc": "Kervan ticaretinden helal kazanç sağladın."
+      },
+      {
+        "metin": "1737 yılında mahalle asayiş nöbetini tertip et",
+        "etki": {
+          "itibar": 12,
+          "saglik": 5,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahallede güven tesis edip saygı gördün."
+      }
+    ]
+  },
+  {
+    "id": "gerileme_1738_tarihi_olay",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1738,
+    "tarih_yil_max": 1738,
+    "tek_seferlik": true,
+    "donem": "gerileme",
+    "alt_donem": "ucuncu_ahmed",
+    "metin": "1738 yılında Osmanlı mülkünde kamu asayişi, adalet fermanları ve eyalet imar faaliyetleri yürütüldü.",
+    "secenekler": [
+      {
+        "metin": "1738 yılı adalet nizamnamesini divanda kayda geçir",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 10
+        },
+        "sonuc": "Divan kayıtlarını intizamla tutup takdir topladın."
+      },
+      {
+        "metin": "1738 yılı imar çalışmaları için vakıf aşevi aç",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Halkın duasını alıp cömertliğinle tanındın."
+      },
+      {
+        "metin": "1738 yılı eyalet tüccarlarıyla kervan ticareti yap",
+        "etki": {
+          "para": 30,
+          "itibar": 10
+        },
+        "sonuc": "Kervan ticaretinden helal kazanç sağladın."
+      },
+      {
+        "metin": "1738 yılında mahalle asayiş nöbetini tertip et",
+        "etki": {
+          "itibar": 12,
+          "saglik": 5,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahallede güven tesis edip saygı gördün."
+      }
+    ]
+  },
+  {
+    "id": "gerileme_1741_tarihi_olay",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1741,
+    "tarih_yil_max": 1741,
+    "tek_seferlik": true,
+    "donem": "gerileme",
+    "alt_donem": "ucuncu_ahmed",
+    "metin": "1741 yılında Osmanlı mülkünde kamu asayişi, adalet fermanları ve eyalet imar faaliyetleri yürütüldü.",
+    "secenekler": [
+      {
+        "metin": "1741 yılı adalet nizamnamesini divanda kayda geçir",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 10
+        },
+        "sonuc": "Divan kayıtlarını intizamla tutup takdir topladın."
+      },
+      {
+        "metin": "1741 yılı imar çalışmaları için vakıf aşevi aç",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Halkın duasını alıp cömertliğinle tanındın."
+      },
+      {
+        "metin": "1741 yılı eyalet tüccarlarıyla kervan ticareti yap",
+        "etki": {
+          "para": 30,
+          "itibar": 10
+        },
+        "sonuc": "Kervan ticaretinden helal kazanç sağladın."
+      },
+      {
+        "metin": "1741 yılında mahalle asayiş nöbetini tertip et",
+        "etki": {
+          "itibar": 12,
+          "saglik": 5,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahallede güven tesis edip saygı gördün."
+      }
+    ]
+  },
+  {
+    "id": "gerileme_1742_tarihi_olay",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1742,
+    "tarih_yil_max": 1742,
+    "tek_seferlik": true,
+    "donem": "gerileme",
+    "alt_donem": "ucuncu_ahmed",
+    "metin": "1742 yılında Osmanlı mülkünde kamu asayişi, adalet fermanları ve eyalet imar faaliyetleri yürütüldü.",
+    "secenekler": [
+      {
+        "metin": "1742 yılı adalet nizamnamesini divanda kayda geçir",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 10
+        },
+        "sonuc": "Divan kayıtlarını intizamla tutup takdir topladın."
+      },
+      {
+        "metin": "1742 yılı imar çalışmaları için vakıf aşevi aç",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Halkın duasını alıp cömertliğinle tanındın."
+      },
+      {
+        "metin": "1742 yılı eyalet tüccarlarıyla kervan ticareti yap",
+        "etki": {
+          "para": 30,
+          "itibar": 10
+        },
+        "sonuc": "Kervan ticaretinden helal kazanç sağladın."
+      },
+      {
+        "metin": "1742 yılında mahalle asayiş nöbetini tertip et",
+        "etki": {
+          "itibar": 12,
+          "saglik": 5,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahallede güven tesis edip saygı gördün."
+      }
+    ]
+  },
+  {
+    "id": "gerileme_1744_tarihi_olay",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1744,
+    "tarih_yil_max": 1744,
+    "tek_seferlik": true,
+    "donem": "gerileme",
+    "alt_donem": "ucuncu_ahmed",
+    "metin": "1744 yılında Osmanlı mülkünde kamu asayişi, adalet fermanları ve eyalet imar faaliyetleri yürütüldü.",
+    "secenekler": [
+      {
+        "metin": "1744 yılı adalet nizamnamesini divanda kayda geçir",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 10
+        },
+        "sonuc": "Divan kayıtlarını intizamla tutup takdir topladın."
+      },
+      {
+        "metin": "1744 yılı imar çalışmaları için vakıf aşevi aç",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Halkın duasını alıp cömertliğinle tanındın."
+      },
+      {
+        "metin": "1744 yılı eyalet tüccarlarıyla kervan ticareti yap",
+        "etki": {
+          "para": 30,
+          "itibar": 10
+        },
+        "sonuc": "Kervan ticaretinden helal kazanç sağladın."
+      },
+      {
+        "metin": "1744 yılında mahalle asayiş nöbetini tertip et",
+        "etki": {
+          "itibar": 12,
+          "saglik": 5,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahallede güven tesis edip saygı gördün."
+      }
+    ]
+  },
+  {
+    "id": "gerileme_1745_tarihi_olay",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1745,
+    "tarih_yil_max": 1745,
+    "tek_seferlik": true,
+    "donem": "gerileme",
+    "alt_donem": "ucuncu_ahmed",
+    "metin": "1745 yılında Osmanlı mülkünde kamu asayişi, adalet fermanları ve eyalet imar faaliyetleri yürütüldü.",
+    "secenekler": [
+      {
+        "metin": "1745 yılı adalet nizamnamesini divanda kayda geçir",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 10
+        },
+        "sonuc": "Divan kayıtlarını intizamla tutup takdir topladın."
+      },
+      {
+        "metin": "1745 yılı imar çalışmaları için vakıf aşevi aç",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Halkın duasını alıp cömertliğinle tanındın."
+      },
+      {
+        "metin": "1745 yılı eyalet tüccarlarıyla kervan ticareti yap",
+        "etki": {
+          "para": 30,
+          "itibar": 10
+        },
+        "sonuc": "Kervan ticaretinden helal kazanç sağladın."
+      },
+      {
+        "metin": "1745 yılında mahalle asayiş nöbetini tertip et",
+        "etki": {
+          "itibar": 12,
+          "saglik": 5,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahallede güven tesis edip saygı gördün."
+      }
+    ]
+  },
+  {
+    "id": "gerileme_1747_tarihi_olay",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1747,
+    "tarih_yil_max": 1747,
+    "tek_seferlik": true,
+    "donem": "gerileme",
+    "alt_donem": "ucuncu_ahmed",
+    "metin": "1747 yılında Osmanlı mülkünde kamu asayişi, adalet fermanları ve eyalet imar faaliyetleri yürütüldü.",
+    "secenekler": [
+      {
+        "metin": "1747 yılı adalet nizamnamesini divanda kayda geçir",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 10
+        },
+        "sonuc": "Divan kayıtlarını intizamla tutup takdir topladın."
+      },
+      {
+        "metin": "1747 yılı imar çalışmaları için vakıf aşevi aç",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Halkın duasını alıp cömertliğinle tanındın."
+      },
+      {
+        "metin": "1747 yılı eyalet tüccarlarıyla kervan ticareti yap",
+        "etki": {
+          "para": 30,
+          "itibar": 10
+        },
+        "sonuc": "Kervan ticaretinden helal kazanç sağladın."
+      },
+      {
+        "metin": "1747 yılında mahalle asayiş nöbetini tertip et",
+        "etki": {
+          "itibar": 12,
+          "saglik": 5,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahallede güven tesis edip saygı gördün."
+      }
+    ]
+  },
+  {
+    "id": "gerileme_1748_tarihi_olay",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1748,
+    "tarih_yil_max": 1748,
+    "tek_seferlik": true,
+    "donem": "gerileme",
+    "alt_donem": "ucuncu_ahmed",
+    "metin": "1748 yılında Osmanlı mülkünde kamu asayişi, adalet fermanları ve eyalet imar faaliyetleri yürütüldü.",
+    "secenekler": [
+      {
+        "metin": "1748 yılı adalet nizamnamesini divanda kayda geçir",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 10
+        },
+        "sonuc": "Divan kayıtlarını intizamla tutup takdir topladın."
+      },
+      {
+        "metin": "1748 yılı imar çalışmaları için vakıf aşevi aç",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Halkın duasını alıp cömertliğinle tanındın."
+      },
+      {
+        "metin": "1748 yılı eyalet tüccarlarıyla kervan ticareti yap",
+        "etki": {
+          "para": 30,
+          "itibar": 10
+        },
+        "sonuc": "Kervan ticaretinden helal kazanç sağladın."
+      },
+      {
+        "metin": "1748 yılında mahalle asayiş nöbetini tertip et",
+        "etki": {
+          "itibar": 12,
+          "saglik": 5,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahallede güven tesis edip saygı gördün."
+      }
+    ]
+  },
+  {
+    "id": "gerileme_1749_tarihi_olay",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1749,
+    "tarih_yil_max": 1749,
+    "tek_seferlik": true,
+    "donem": "gerileme",
+    "alt_donem": "ucuncu_ahmed",
+    "metin": "1749 yılında Osmanlı mülkünde kamu asayişi, adalet fermanları ve eyalet imar faaliyetleri yürütüldü.",
+    "secenekler": [
+      {
+        "metin": "1749 yılı adalet nizamnamesini divanda kayda geçir",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 10
+        },
+        "sonuc": "Divan kayıtlarını intizamla tutup takdir topladın."
+      },
+      {
+        "metin": "1749 yılı imar çalışmaları için vakıf aşevi aç",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Halkın duasını alıp cömertliğinle tanındın."
+      },
+      {
+        "metin": "1749 yılı eyalet tüccarlarıyla kervan ticareti yap",
+        "etki": {
+          "para": 30,
+          "itibar": 10
+        },
+        "sonuc": "Kervan ticaretinden helal kazanç sağladın."
+      },
+      {
+        "metin": "1749 yılında mahalle asayiş nöbetini tertip et",
+        "etki": {
+          "itibar": 12,
+          "saglik": 5,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahallede güven tesis edip saygı gördün."
+      }
+    ]
+  },
+  {
+    "id": "gerileme_1750_tarihi_olay",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1750,
+    "tarih_yil_max": 1750,
+    "tek_seferlik": true,
+    "donem": "gerileme",
+    "alt_donem": "ucuncu_ahmed",
+    "metin": "1750 yılında Osmanlı mülkünde kamu asayişi, adalet fermanları ve eyalet imar faaliyetleri yürütüldü.",
+    "secenekler": [
+      {
+        "metin": "1750 yılı adalet nizamnamesini divanda kayda geçir",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 10
+        },
+        "sonuc": "Divan kayıtlarını intizamla tutup takdir topladın."
+      },
+      {
+        "metin": "1750 yılı imar çalışmaları için vakıf aşevi aç",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Halkın duasını alıp cömertliğinle tanındın."
+      },
+      {
+        "metin": "1750 yılı eyalet tüccarlarıyla kervan ticareti yap",
+        "etki": {
+          "para": 30,
+          "itibar": 10
+        },
+        "sonuc": "Kervan ticaretinden helal kazanç sağladın."
+      },
+      {
+        "metin": "1750 yılında mahalle asayiş nöbetini tertip et",
+        "etki": {
+          "itibar": 12,
+          "saglik": 5,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahallede güven tesis edip saygı gördün."
+      }
+    ]
+  },
+  {
+    "id": "gerileme_1751_tarihi_olay",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1751,
+    "tarih_yil_max": 1751,
+    "tek_seferlik": true,
+    "donem": "gerileme",
+    "alt_donem": "ucuncu_ahmed",
+    "metin": "1751 yılında Osmanlı mülkünde kamu asayişi, adalet fermanları ve eyalet imar faaliyetleri yürütüldü.",
+    "secenekler": [
+      {
+        "metin": "1751 yılı adalet nizamnamesini divanda kayda geçir",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 10
+        },
+        "sonuc": "Divan kayıtlarını intizamla tutup takdir topladın."
+      },
+      {
+        "metin": "1751 yılı imar çalışmaları için vakıf aşevi aç",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Halkın duasını alıp cömertliğinle tanındın."
+      },
+      {
+        "metin": "1751 yılı eyalet tüccarlarıyla kervan ticareti yap",
+        "etki": {
+          "para": 30,
+          "itibar": 10
+        },
+        "sonuc": "Kervan ticaretinden helal kazanç sağladın."
+      },
+      {
+        "metin": "1751 yılında mahalle asayiş nöbetini tertip et",
+        "etki": {
+          "itibar": 12,
+          "saglik": 5,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahallede güven tesis edip saygı gördün."
+      }
+    ]
+  },
+  {
+    "id": "gerileme_1752_tarihi_olay",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1752,
+    "tarih_yil_max": 1752,
+    "tek_seferlik": true,
+    "donem": "gerileme",
+    "alt_donem": "ucuncu_ahmed",
+    "metin": "1752 yılında Osmanlı mülkünde kamu asayişi, adalet fermanları ve eyalet imar faaliyetleri yürütüldü.",
+    "secenekler": [
+      {
+        "metin": "1752 yılı adalet nizamnamesini divanda kayda geçir",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 10
+        },
+        "sonuc": "Divan kayıtlarını intizamla tutup takdir topladın."
+      },
+      {
+        "metin": "1752 yılı imar çalışmaları için vakıf aşevi aç",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Halkın duasını alıp cömertliğinle tanındın."
+      },
+      {
+        "metin": "1752 yılı eyalet tüccarlarıyla kervan ticareti yap",
+        "etki": {
+          "para": 30,
+          "itibar": 10
+        },
+        "sonuc": "Kervan ticaretinden helal kazanç sağladın."
+      },
+      {
+        "metin": "1752 yılında mahalle asayiş nöbetini tertip et",
+        "etki": {
+          "itibar": 12,
+          "saglik": 5,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahallede güven tesis edip saygı gördün."
+      }
+    ]
+  },
+  {
+    "id": "gerileme_1753_tarihi_olay",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1753,
+    "tarih_yil_max": 1753,
+    "tek_seferlik": true,
+    "donem": "gerileme",
+    "alt_donem": "ucuncu_ahmed",
+    "metin": "1753 yılında Osmanlı mülkünde kamu asayişi, adalet fermanları ve eyalet imar faaliyetleri yürütüldü.",
+    "secenekler": [
+      {
+        "metin": "1753 yılı adalet nizamnamesini divanda kayda geçir",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 10
+        },
+        "sonuc": "Divan kayıtlarını intizamla tutup takdir topladın."
+      },
+      {
+        "metin": "1753 yılı imar çalışmaları için vakıf aşevi aç",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Halkın duasını alıp cömertliğinle tanındın."
+      },
+      {
+        "metin": "1753 yılı eyalet tüccarlarıyla kervan ticareti yap",
+        "etki": {
+          "para": 30,
+          "itibar": 10
+        },
+        "sonuc": "Kervan ticaretinden helal kazanç sağladın."
+      },
+      {
+        "metin": "1753 yılında mahalle asayiş nöbetini tertip et",
+        "etki": {
+          "itibar": 12,
+          "saglik": 5,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahallede güven tesis edip saygı gördün."
+      }
+    ]
+  },
+  {
+    "id": "gerileme_1756_tarihi_olay",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1756,
+    "tarih_yil_max": 1756,
+    "tek_seferlik": true,
+    "donem": "gerileme",
+    "alt_donem": "ucuncu_ahmed",
+    "metin": "1756 yılında Osmanlı mülkünde kamu asayişi, adalet fermanları ve eyalet imar faaliyetleri yürütüldü.",
+    "secenekler": [
+      {
+        "metin": "1756 yılı adalet nizamnamesini divanda kayda geçir",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 10
+        },
+        "sonuc": "Divan kayıtlarını intizamla tutup takdir topladın."
+      },
+      {
+        "metin": "1756 yılı imar çalışmaları için vakıf aşevi aç",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Halkın duasını alıp cömertliğinle tanındın."
+      },
+      {
+        "metin": "1756 yılı eyalet tüccarlarıyla kervan ticareti yap",
+        "etki": {
+          "para": 30,
+          "itibar": 10
+        },
+        "sonuc": "Kervan ticaretinden helal kazanç sağladın."
+      },
+      {
+        "metin": "1756 yılında mahalle asayiş nöbetini tertip et",
+        "etki": {
+          "itibar": 12,
+          "saglik": 5,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahallede güven tesis edip saygı gördün."
+      }
+    ]
+  },
+  {
+    "id": "gerileme_1758_tarihi_olay",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1758,
+    "tarih_yil_max": 1758,
+    "tek_seferlik": true,
+    "donem": "gerileme",
+    "alt_donem": "ucuncu_ahmed",
+    "metin": "1758 yılında Osmanlı mülkünde kamu asayişi, adalet fermanları ve eyalet imar faaliyetleri yürütüldü.",
+    "secenekler": [
+      {
+        "metin": "1758 yılı adalet nizamnamesini divanda kayda geçir",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 10
+        },
+        "sonuc": "Divan kayıtlarını intizamla tutup takdir topladın."
+      },
+      {
+        "metin": "1758 yılı imar çalışmaları için vakıf aşevi aç",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Halkın duasını alıp cömertliğinle tanındın."
+      },
+      {
+        "metin": "1758 yılı eyalet tüccarlarıyla kervan ticareti yap",
+        "etki": {
+          "para": 30,
+          "itibar": 10
+        },
+        "sonuc": "Kervan ticaretinden helal kazanç sağladın."
+      },
+      {
+        "metin": "1758 yılında mahalle asayiş nöbetini tertip et",
+        "etki": {
+          "itibar": 12,
+          "saglik": 5,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahallede güven tesis edip saygı gördün."
+      }
+    ]
+  },
+  {
+    "id": "gerileme_1759_tarihi_olay",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1759,
+    "tarih_yil_max": 1759,
+    "tek_seferlik": true,
+    "donem": "gerileme",
+    "alt_donem": "ucuncu_ahmed",
+    "metin": "1759 yılında Osmanlı mülkünde kamu asayişi, adalet fermanları ve eyalet imar faaliyetleri yürütüldü.",
+    "secenekler": [
+      {
+        "metin": "1759 yılı adalet nizamnamesini divanda kayda geçir",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 10
+        },
+        "sonuc": "Divan kayıtlarını intizamla tutup takdir topladın."
+      },
+      {
+        "metin": "1759 yılı imar çalışmaları için vakıf aşevi aç",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Halkın duasını alıp cömertliğinle tanındın."
+      },
+      {
+        "metin": "1759 yılı eyalet tüccarlarıyla kervan ticareti yap",
+        "etki": {
+          "para": 30,
+          "itibar": 10
+        },
+        "sonuc": "Kervan ticaretinden helal kazanç sağladın."
+      },
+      {
+        "metin": "1759 yılında mahalle asayiş nöbetini tertip et",
+        "etki": {
+          "itibar": 12,
+          "saglik": 5,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahallede güven tesis edip saygı gördün."
+      }
+    ]
+  },
+  {
+    "id": "gerileme_1760_tarihi_olay",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1760,
+    "tarih_yil_max": 1760,
+    "tek_seferlik": true,
+    "donem": "gerileme",
+    "alt_donem": "ucuncu_ahmed",
+    "metin": "1760 yılında Osmanlı mülkünde kamu asayişi, adalet fermanları ve eyalet imar faaliyetleri yürütüldü.",
+    "secenekler": [
+      {
+        "metin": "1760 yılı adalet nizamnamesini divanda kayda geçir",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 10
+        },
+        "sonuc": "Divan kayıtlarını intizamla tutup takdir topladın."
+      },
+      {
+        "metin": "1760 yılı imar çalışmaları için vakıf aşevi aç",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Halkın duasını alıp cömertliğinle tanındın."
+      },
+      {
+        "metin": "1760 yılı eyalet tüccarlarıyla kervan ticareti yap",
+        "etki": {
+          "para": 30,
+          "itibar": 10
+        },
+        "sonuc": "Kervan ticaretinden helal kazanç sağladın."
+      },
+      {
+        "metin": "1760 yılında mahalle asayiş nöbetini tertip et",
+        "etki": {
+          "itibar": 12,
+          "saglik": 5,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahallede güven tesis edip saygı gördün."
+      }
+    ]
+  },
+  {
+    "id": "gerileme_1761_tarihi_olay",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1761,
+    "tarih_yil_max": 1761,
+    "tek_seferlik": true,
+    "donem": "gerileme",
+    "alt_donem": "ucuncu_ahmed",
+    "metin": "1761 yılında Osmanlı mülkünde kamu asayişi, adalet fermanları ve eyalet imar faaliyetleri yürütüldü.",
+    "secenekler": [
+      {
+        "metin": "1761 yılı adalet nizamnamesini divanda kayda geçir",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 10
+        },
+        "sonuc": "Divan kayıtlarını intizamla tutup takdir topladın."
+      },
+      {
+        "metin": "1761 yılı imar çalışmaları için vakıf aşevi aç",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Halkın duasını alıp cömertliğinle tanındın."
+      },
+      {
+        "metin": "1761 yılı eyalet tüccarlarıyla kervan ticareti yap",
+        "etki": {
+          "para": 30,
+          "itibar": 10
+        },
+        "sonuc": "Kervan ticaretinden helal kazanç sağladın."
+      },
+      {
+        "metin": "1761 yılında mahalle asayiş nöbetini tertip et",
+        "etki": {
+          "itibar": 12,
+          "saglik": 5,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahallede güven tesis edip saygı gördün."
+      }
+    ]
+  },
+  {
+    "id": "gerileme_1762_tarihi_olay",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1762,
+    "tarih_yil_max": 1762,
+    "tek_seferlik": true,
+    "donem": "gerileme",
+    "alt_donem": "ucuncu_ahmed",
+    "metin": "1762 yılında Osmanlı mülkünde kamu asayişi, adalet fermanları ve eyalet imar faaliyetleri yürütüldü.",
+    "secenekler": [
+      {
+        "metin": "1762 yılı adalet nizamnamesini divanda kayda geçir",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 10
+        },
+        "sonuc": "Divan kayıtlarını intizamla tutup takdir topladın."
+      },
+      {
+        "metin": "1762 yılı imar çalışmaları için vakıf aşevi aç",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Halkın duasını alıp cömertliğinle tanındın."
+      },
+      {
+        "metin": "1762 yılı eyalet tüccarlarıyla kervan ticareti yap",
+        "etki": {
+          "para": 30,
+          "itibar": 10
+        },
+        "sonuc": "Kervan ticaretinden helal kazanç sağladın."
+      },
+      {
+        "metin": "1762 yılında mahalle asayiş nöbetini tertip et",
+        "etki": {
+          "itibar": 12,
+          "saglik": 5,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahallede güven tesis edip saygı gördün."
+      }
+    ]
+  },
+  {
+    "id": "gerileme_1763_tarihi_olay",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1763,
+    "tarih_yil_max": 1763,
+    "tek_seferlik": true,
+    "donem": "gerileme",
+    "alt_donem": "ucuncu_ahmed",
+    "metin": "1763 yılında Osmanlı mülkünde kamu asayişi, adalet fermanları ve eyalet imar faaliyetleri yürütüldü.",
+    "secenekler": [
+      {
+        "metin": "1763 yılı adalet nizamnamesini divanda kayda geçir",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 10
+        },
+        "sonuc": "Divan kayıtlarını intizamla tutup takdir topladın."
+      },
+      {
+        "metin": "1763 yılı imar çalışmaları için vakıf aşevi aç",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Halkın duasını alıp cömertliğinle tanındın."
+      },
+      {
+        "metin": "1763 yılı eyalet tüccarlarıyla kervan ticareti yap",
+        "etki": {
+          "para": 30,
+          "itibar": 10
+        },
+        "sonuc": "Kervan ticaretinden helal kazanç sağladın."
+      },
+      {
+        "metin": "1763 yılında mahalle asayiş nöbetini tertip et",
+        "etki": {
+          "itibar": 12,
+          "saglik": 5,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahallede güven tesis edip saygı gördün."
+      }
+    ]
+  },
+  {
+    "id": "gerileme_1764_tarihi_olay",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1764,
+    "tarih_yil_max": 1764,
+    "tek_seferlik": true,
+    "donem": "gerileme",
+    "alt_donem": "ucuncu_ahmed",
+    "metin": "1764 yılında Osmanlı mülkünde kamu asayişi, adalet fermanları ve eyalet imar faaliyetleri yürütüldü.",
+    "secenekler": [
+      {
+        "metin": "1764 yılı adalet nizamnamesini divanda kayda geçir",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 10
+        },
+        "sonuc": "Divan kayıtlarını intizamla tutup takdir topladın."
+      },
+      {
+        "metin": "1764 yılı imar çalışmaları için vakıf aşevi aç",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Halkın duasını alıp cömertliğinle tanındın."
+      },
+      {
+        "metin": "1764 yılı eyalet tüccarlarıyla kervan ticareti yap",
+        "etki": {
+          "para": 30,
+          "itibar": 10
+        },
+        "sonuc": "Kervan ticaretinden helal kazanç sağladın."
+      },
+      {
+        "metin": "1764 yılında mahalle asayiş nöbetini tertip et",
+        "etki": {
+          "itibar": 12,
+          "saglik": 5,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahallede güven tesis edip saygı gördün."
+      }
+    ]
+  },
+  {
+    "id": "gerileme_1765_tarihi_olay",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1765,
+    "tarih_yil_max": 1765,
+    "tek_seferlik": true,
+    "donem": "gerileme",
+    "alt_donem": "ucuncu_ahmed",
+    "metin": "1765 yılında Osmanlı mülkünde kamu asayişi, adalet fermanları ve eyalet imar faaliyetleri yürütüldü.",
+    "secenekler": [
+      {
+        "metin": "1765 yılı adalet nizamnamesini divanda kayda geçir",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 10
+        },
+        "sonuc": "Divan kayıtlarını intizamla tutup takdir topladın."
+      },
+      {
+        "metin": "1765 yılı imar çalışmaları için vakıf aşevi aç",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Halkın duasını alıp cömertliğinle tanındın."
+      },
+      {
+        "metin": "1765 yılı eyalet tüccarlarıyla kervan ticareti yap",
+        "etki": {
+          "para": 30,
+          "itibar": 10
+        },
+        "sonuc": "Kervan ticaretinden helal kazanç sağladın."
+      },
+      {
+        "metin": "1765 yılında mahalle asayiş nöbetini tertip et",
+        "etki": {
+          "itibar": 12,
+          "saglik": 5,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahallede güven tesis edip saygı gördün."
+      }
+    ]
+  },
+  {
+    "id": "gerileme_1766_tarihi_olay",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1766,
+    "tarih_yil_max": 1766,
+    "tek_seferlik": true,
+    "donem": "gerileme",
+    "alt_donem": "ucuncu_ahmed",
+    "metin": "1766 yılında Osmanlı mülkünde kamu asayişi, adalet fermanları ve eyalet imar faaliyetleri yürütüldü.",
+    "secenekler": [
+      {
+        "metin": "1766 yılı adalet nizamnamesini divanda kayda geçir",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 10
+        },
+        "sonuc": "Divan kayıtlarını intizamla tutup takdir topladın."
+      },
+      {
+        "metin": "1766 yılı imar çalışmaları için vakıf aşevi aç",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Halkın duasını alıp cömertliğinle tanındın."
+      },
+      {
+        "metin": "1766 yılı eyalet tüccarlarıyla kervan ticareti yap",
+        "etki": {
+          "para": 30,
+          "itibar": 10
+        },
+        "sonuc": "Kervan ticaretinden helal kazanç sağladın."
+      },
+      {
+        "metin": "1766 yılında mahalle asayiş nöbetini tertip et",
+        "etki": {
+          "itibar": 12,
+          "saglik": 5,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahallede güven tesis edip saygı gördün."
+      }
+    ]
+  },
+  {
+    "id": "gerileme_1767_tarihi_olay",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1767,
+    "tarih_yil_max": 1767,
+    "tek_seferlik": true,
+    "donem": "gerileme",
+    "alt_donem": "ucuncu_ahmed",
+    "metin": "1767 yılında Osmanlı mülkünde kamu asayişi, adalet fermanları ve eyalet imar faaliyetleri yürütüldü.",
+    "secenekler": [
+      {
+        "metin": "1767 yılı adalet nizamnamesini divanda kayda geçir",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 10
+        },
+        "sonuc": "Divan kayıtlarını intizamla tutup takdir topladın."
+      },
+      {
+        "metin": "1767 yılı imar çalışmaları için vakıf aşevi aç",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Halkın duasını alıp cömertliğinle tanındın."
+      },
+      {
+        "metin": "1767 yılı eyalet tüccarlarıyla kervan ticareti yap",
+        "etki": {
+          "para": 30,
+          "itibar": 10
+        },
+        "sonuc": "Kervan ticaretinden helal kazanç sağladın."
+      },
+      {
+        "metin": "1767 yılında mahalle asayiş nöbetini tertip et",
+        "etki": {
+          "itibar": 12,
+          "saglik": 5,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahallede güven tesis edip saygı gördün."
+      }
+    ]
+  },
+  {
+    "id": "gerileme_1777_tarihi_olay",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1777,
+    "tarih_yil_max": 1777,
+    "tek_seferlik": true,
+    "donem": "gerileme",
+    "alt_donem": "ucuncu_ahmed",
+    "metin": "1777 yılında Osmanlı mülkünde kamu asayişi, adalet fermanları ve eyalet imar faaliyetleri yürütüldü.",
+    "secenekler": [
+      {
+        "metin": "1777 yılı adalet nizamnamesini divanda kayda geçir",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 10
+        },
+        "sonuc": "Divan kayıtlarını intizamla tutup takdir topladın."
+      },
+      {
+        "metin": "1777 yılı imar çalışmaları için vakıf aşevi aç",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Halkın duasını alıp cömertliğinle tanındın."
+      },
+      {
+        "metin": "1777 yılı eyalet tüccarlarıyla kervan ticareti yap",
+        "etki": {
+          "para": 30,
+          "itibar": 10
+        },
+        "sonuc": "Kervan ticaretinden helal kazanç sağladın."
+      },
+      {
+        "metin": "1777 yılında mahalle asayiş nöbetini tertip et",
+        "etki": {
+          "itibar": 12,
+          "saglik": 5,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahallede güven tesis edip saygı gördün."
+      }
+    ]
+  },
+  {
+    "id": "gerileme_1778_tarihi_olay",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1778,
+    "tarih_yil_max": 1778,
+    "tek_seferlik": true,
+    "donem": "gerileme",
+    "alt_donem": "ucuncu_ahmed",
+    "metin": "1778 yılında Osmanlı mülkünde kamu asayişi, adalet fermanları ve eyalet imar faaliyetleri yürütüldü.",
+    "secenekler": [
+      {
+        "metin": "1778 yılı adalet nizamnamesini divanda kayda geçir",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 10
+        },
+        "sonuc": "Divan kayıtlarını intizamla tutup takdir topladın."
+      },
+      {
+        "metin": "1778 yılı imar çalışmaları için vakıf aşevi aç",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Halkın duasını alıp cömertliğinle tanındın."
+      },
+      {
+        "metin": "1778 yılı eyalet tüccarlarıyla kervan ticareti yap",
+        "etki": {
+          "para": 30,
+          "itibar": 10
+        },
+        "sonuc": "Kervan ticaretinden helal kazanç sağladın."
+      },
+      {
+        "metin": "1778 yılında mahalle asayiş nöbetini tertip et",
+        "etki": {
+          "itibar": 12,
+          "saglik": 5,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahallede güven tesis edip saygı gördün."
+      }
+    ]
+  },
+  {
+    "id": "gerileme_1779_tarihi_olay",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1779,
+    "tarih_yil_max": 1779,
+    "tek_seferlik": true,
+    "donem": "gerileme",
+    "alt_donem": "ucuncu_ahmed",
+    "metin": "1779 yılında Osmanlı mülkünde kamu asayişi, adalet fermanları ve eyalet imar faaliyetleri yürütüldü.",
+    "secenekler": [
+      {
+        "metin": "1779 yılı adalet nizamnamesini divanda kayda geçir",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 10
+        },
+        "sonuc": "Divan kayıtlarını intizamla tutup takdir topladın."
+      },
+      {
+        "metin": "1779 yılı imar çalışmaları için vakıf aşevi aç",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Halkın duasını alıp cömertliğinle tanındın."
+      },
+      {
+        "metin": "1779 yılı eyalet tüccarlarıyla kervan ticareti yap",
+        "etki": {
+          "para": 30,
+          "itibar": 10
+        },
+        "sonuc": "Kervan ticaretinden helal kazanç sağladın."
+      },
+      {
+        "metin": "1779 yılında mahalle asayiş nöbetini tertip et",
+        "etki": {
+          "itibar": 12,
+          "saglik": 5,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahallede güven tesis edip saygı gördün."
+      }
+    ]
+  },
+  {
+    "id": "gerileme_1781_tarihi_olay",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1781,
+    "tarih_yil_max": 1781,
+    "tek_seferlik": true,
+    "donem": "gerileme",
+    "alt_donem": "ucuncu_ahmed",
+    "metin": "1781 yılında Osmanlı mülkünde kamu asayişi, adalet fermanları ve eyalet imar faaliyetleri yürütüldü.",
+    "secenekler": [
+      {
+        "metin": "1781 yılı adalet nizamnamesini divanda kayda geçir",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 10
+        },
+        "sonuc": "Divan kayıtlarını intizamla tutup takdir topladın."
+      },
+      {
+        "metin": "1781 yılı imar çalışmaları için vakıf aşevi aç",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Halkın duasını alıp cömertliğinle tanındın."
+      },
+      {
+        "metin": "1781 yılı eyalet tüccarlarıyla kervan ticareti yap",
+        "etki": {
+          "para": 30,
+          "itibar": 10
+        },
+        "sonuc": "Kervan ticaretinden helal kazanç sağladın."
+      },
+      {
+        "metin": "1781 yılında mahalle asayiş nöbetini tertip et",
+        "etki": {
+          "itibar": 12,
+          "saglik": 5,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahallede güven tesis edip saygı gördün."
+      }
+    ]
+  },
+  {
+    "id": "gerileme_1786_tarihi_olay",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1786,
+    "tarih_yil_max": 1786,
+    "tek_seferlik": true,
+    "donem": "gerileme",
+    "alt_donem": "ucuncu_ahmed",
+    "metin": "1786 yılında Osmanlı mülkünde kamu asayişi, adalet fermanları ve eyalet imar faaliyetleri yürütüldü.",
+    "secenekler": [
+      {
+        "metin": "1786 yılı adalet nizamnamesini divanda kayda geçir",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 10
+        },
+        "sonuc": "Divan kayıtlarını intizamla tutup takdir topladın."
+      },
+      {
+        "metin": "1786 yılı imar çalışmaları için vakıf aşevi aç",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Halkın duasını alıp cömertliğinle tanındın."
+      },
+      {
+        "metin": "1786 yılı eyalet tüccarlarıyla kervan ticareti yap",
+        "etki": {
+          "para": 30,
+          "itibar": 10
+        },
+        "sonuc": "Kervan ticaretinden helal kazanç sağladın."
+      },
+      {
+        "metin": "1786 yılında mahalle asayiş nöbetini tertip et",
+        "etki": {
+          "itibar": 12,
+          "saglik": 5,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahallede güven tesis edip saygı gördün."
+      }
+    ]
+  },
+  {
+    "id": "gerileme_1790_tarihi_olay",
+    "yas_min": 18,
+    "yas_max": 75,
+    "tarih_yil_min": 1790,
+    "tarih_yil_max": 1790,
+    "tek_seferlik": true,
+    "donem": "gerileme",
+    "alt_donem": "ucuncu_ahmed",
+    "metin": "1790 yılında Osmanlı mülkünde kamu asayişi, adalet fermanları ve eyalet imar faaliyetleri yürütüldü.",
+    "secenekler": [
+      {
+        "metin": "1790 yılı adalet nizamnamesini divanda kayda geçir",
+        "gerekli_zeka": 40,
+        "etki": {
+          "itibar": 20,
+          "para": 20,
+          "zeka": 10
+        },
+        "sonuc": "Divan kayıtlarını intizamla tutup takdir topladın."
+      },
+      {
+        "metin": "1790 yılı imar çalışmaları için vakıf aşevi aç",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 18,
+          "para": -30,
+          "mutluluk": 8
+        },
+        "sonuc": "Halkın duasını alıp cömertliğinle tanındın."
+      },
+      {
+        "metin": "1790 yılı eyalet tüccarlarıyla kervan ticareti yap",
+        "etki": {
+          "para": 30,
+          "itibar": 10
+        },
+        "sonuc": "Kervan ticaretinden helal kazanç sağladın."
+      },
+      {
+        "metin": "1790 yılında mahalle asayiş nöbetini tertip et",
+        "etki": {
+          "itibar": 12,
+          "saglik": 5,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahallede güven tesis edip saygı gördün."
+      }
+    ]
   }
 ]

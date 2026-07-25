@@ -39,8 +39,8 @@ void main() {
       final o4 = yukleyici.jsonMetnindenYukle(fileGerileme.readAsStringSync(), 'gerileme.json', idSet);
       final o5 = yukleyici.jsonMetnindenYukle(fileDagilma.readAsStringSync(), 'dagilma.json', idSet);
       final o6 = yukleyici.jsonMetnindenYukle(fileGundelik.readAsStringSync(), 'gundelik_hayat.json', idSet);
-      expect(o1.length + o2.length + o3.length + o4.length + o5.length + o6.length, equals(632));
-      expect(idSet.length, equals(632));
+      expect(o1.length + o2.length + o3.length + o4.length + o5.length + o6.length, equals(821));
+      expect(idSet.length, equals(821));
     });
 
     test('2. Kalemiye meslek atama olayı (kurulus_073) doğru çalışmalı', () {
