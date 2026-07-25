@@ -89,13 +89,13 @@ void main() {
       expect(tarihiSayisi, greaterThan(gundelikSayisi * 2));
     });
 
-    test('3. 8-Yıllık Cooldown Mantığı (Tekrarlanabilir olaylar 8 yıl geçmeden aday olamaz)', () {
+    test('3. 15-Yıllık Cooldown Mantığı (Tekrarlanabilir olaylar 15 yıl geçmeden aday olamaz)', () {
       final karakter = Karakter(yas: 20, dogumYili: 1300);
 
       final tekrarOlay = Olay(
         id: 'gundelik_pazar_01',
         yasMin: 18,
-        yasMax: 30,
+        yasMax: 40,
         tekSeferlik: false,
         metin: 'Pazar Gezintisi',
         secenekler: [Secenek(metin: 'Tamam', etki: Etki(), sonuc: 'Sonuç')],
@@ -111,17 +111,17 @@ void main() {
       expect(ilkSecim?.id, equals('gundelik_pazar_01'));
       expect(karakter.olaySonGorulmeYili['gundelik_pazar_01'], equals(1320));
 
-      // 2. Takip eden 7 yıl içinde (1321-1327) olay cooldown'dadır ve uygunOlaylariGetir() listesinden ELENİR!
-      for (int i = 1; i <= 7; i++) {
-        karakter.yas = 20 + i; // 1321 ... 1327
+      // 2. Takip eden 14 yıl içinde (1321-1334) olay cooldown'dadır ve uygunOlaylariGetir() listesinden ELENİR!
+      for (int i = 1; i <= 14; i++) {
+        karakter.yas = 20 + i; // 1321 ... 1334
         final adaylar = motor.uygunOlaylariGetir();
         expect(adaylar.contains(tekrarOlay), isFalse, reason: '$i. yılda cooldown ihlal edildi');
       }
 
-      // 3. 8. yılda (1328) cooldown biter ve olay tekrar aday havuzuna girer!
-      karakter.yas = 28; // 1328
-      final adaylar8 = motor.uygunOlaylariGetir();
-      expect(adaylar8.contains(tekrarOlay), isTrue);
+      // 3. 15. yılda (1335) cooldown biter ve olay tekrar aday havuzuna girer!
+      karakter.yas = 35; // 1335
+      final adaylar15 = motor.uygunOlaylariGetir();
+      expect(adaylar15.contains(tekrarOlay), isTrue);
     });
   });
 }

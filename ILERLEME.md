@@ -4,7 +4,7 @@
 
 ## MEVCUT DURUM
 
-**Aktif Faz:** 🎉 **BÜYÜK OYNANIŞ REVİZYONU & DENGELENMİŞ ÜÇ SİSTEM TAMAMLANDI!** 🎉 (Aktiviteler Menüsü + Stat Kilitli Seçenekler + Gerçek İlişki ve Nesil Mirası Sistemi + 35/35 Yeşillenen Testler + 0 Hata/0 Uyarı `flutter analyze`) ✅  
+**Aktif Faz:** 🏛️ **YAŞAYARAK TARİH ÖĞRETME DÖNÜŞÜMÜ — PAKET 1 (KURULUŞ DÖNEMİ 138 OLAY 3-4 ŞIK) TAMAMLANDI!** 📜 (%60+ Tarihi Olay Oranı [40x Ağırlık] + 15 Yıl Cooldown + 20 Olay Hafızası + Kuruluş Dönemi 138 Olayın Tamamı 3-4 Şıklı ve Ödünleşimli Yapıldı + 35/35 Yeşillenen Testler) ✅  
 **Son güncelleme:** 25 Temmuz 2026
 
 ---
@@ -18,22 +18,16 @@
 - [x] Tarihsel ölüm riski formülü ve öncelikli/kilometre taşı olay seçimi kuralları netleştirildi (2 yıl bekleme sonrası garantili terfi kuralı).
 - [x] Soyut "Akçe" ekonomi birimi modeli uygulandı.
 
-### Büyük Oynanış Revizyonu — 3 Sistem (25 Temmuz 2026 - TAMAMLANDI 🎉)
-- [x] **1) Aktiviteler Menüsü & Akçe Harcama Motoru (`FaaliyetEkrani`)**:
-  - Oyuncuya her yıl için **2 faaliyet hakkı** verilir (yıl ilerletildiğinde yenilenir).
-  - 15 otantik Osmanlı faaliyeti (Darüşşifa, Mesir Macunu, Medrese, İstinsah, Âlim Meclisi, İmaret Bağışı, Lonca, Tekke/Cami, Dükkan Satın Alma [Max 2 Mülk], Kervan Ticareti, Kahvehane, Hamam Sefası, Aile Sofrası, Eşle Mesire, Çocuk Eğitimi) eklendi.
-  - **Stat Azalan Getiri Formülü (Diminishing Returns)**: Stat < 50 iken taban kazanç, 50-74 iken +3, 75-89 iken +1, 90+ iken +0 (Faaliyetler karakteri 90 üzerine çıkaramaz).
-- [x] **2) Stat Kilitleri & Seçenek Koşulları (`Secenek`)**:
-  - `Secenek` modeline `gerekli_zeka`, `gerekli_itibar`, `gerekli_saglik`, `gerekli_mutluluk`, `gerekli_para` alanları eklendi.
-  - Ferman kartındaki seçenekler stat şartı karşılanmıyorsa **soluk gri ve kilitli (`🔒 Kilitli: 50 Zeka gerekli`)** çizilir.
-- [x] **3) Gerçek İlişki Sistemi & Tavanlı Nesil Mirası (`Iliski` & `IliskilerEkrani`)**:
-  - Eş ve çocuklar `Iliski` nesnelerine dönüştürüldü (`yakinlikPuani: 0-100`, `egitimPuani: 0-100`).
-  - İlgilenilmeyen ilişkiler her yıl `-1` yakınlık kaybeder.
-  - **Aile Sofrası Dengelemesi**: 60 Akçe maliyet ile tüm hane yakınlığı `+2` artırılır.
-  - **Nesil Değişimi**: Yakınlık %80+ olan evlatla devam edildiğinde %60 Miras Akçe devri (Sert Tavan: Max 1.000 Akçe), Stat Miras Bonusu (Eğitim ve Yakınlık bazlı) ve max 1 mülk devri sağlandı.
-- [x] **4) Geriye Dönük Uyumluluk (Backward Compatibility)**:
-  - `Karakter.fromJson` eski save JSON'larını varsayılan `aktiviteHakki: 2`, `mulkler: []`, `iliskiler: []` ile çökmeksizin yükler.
-- [x] **5) Test & Analiz**: **35/35 test YEŞİL PAS GEÇTİ ✅**, `flutter analyze` **0 HATA / 0 UYARI ✅**.
+### Yaşayarak Tarih Öğretme Dönüşümü (25 Temmuz 2026 - AKTİF 🏛️)
+- [x] **1) Faz 1 — Kuruluş Dönemi Seçenek Derinliği (Paket 1: 138 Olay)**:
+  - `kurulus.json` içerisindeki 138 olayın tamamı istisnasız **3 veya 4 seçenekli** duruma getirildi.
+  - Seçeneklere farklı stat ödünleşimleri (maddi harcama, itibar feda etme, sağlık riski alma), ulema/ahi/seyfiye dönemsel duruşları ve stat kilitleri (`gerekli_zeka`, `gerekli_itibar`, `gerekli_para`) entegre edildi.
+- [x] **2) Faz 4 — Tarihi Olay Oranı Yükseltme (%60+ Hedefi)**:
+  - `agirlikliOlaySec` ağırlıkları güncellendi: Tarihi Olaylar **40x**, Gündelik Olaylar **1x**, Öncelikli Kilometre Taşları **45x** (Telafide **50x**).
+- [x] **3) Faz 5 — Tekrar Önleme (15 Yıl Cooldown + 20 Olay Hafızası)**:
+  - Tekrarlanabilir olay bekleme süresi (cooldown) 8 yıldan **15 yıla** çıkarıldı.
+  - `sonGosterilenOlaylar` havuz hafızası 10 olaydan **20 olaya** yükseltildi.
+- [x] **4) Test & Analiz**: **35/35 test YEŞİL PAS GEÇTİ ✅**, `flutter analyze` **0 HATA / 0 UYARI ✅**.
 
 ---
 

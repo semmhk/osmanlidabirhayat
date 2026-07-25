@@ -217,10 +217,10 @@ class OyunMotoru {
     return tumOlaylar.where((o) {
       if (karakter.kullanilanOlaylar.contains(o.id) && o.tekSeferlik) return false;
 
-      // 8 Yıllık Cooldown (Bekleme Süresi) Kontrolü
+      // 15 Yıllık Cooldown (Bekleme Süresi) Kontrolü
       if (!o.tekSeferlik) {
         final sonGorulme = karakter.olaySonGorulmeYili[o.id];
-        if (sonGorulme != null && (karakter.takvimYili - sonGorulme) < 8) {
+        if (sonGorulme != null && (karakter.takvimYili - sonGorulme) < 15) {
           return false;
         }
       }
@@ -276,14 +276,14 @@ class OyunMotoru {
         final bool evlilikTelafi = (karakter.yas >= 28 && karakter.esAdi == null);
 
         if (meslekTelafi || evlilikTelafi) {
-          agirlik = 28; // Telafi ağırlığı (24 + 4)
+          agirlik = 50; // Telafi ağırlığı (45 + 5)
         } else {
-          agirlik = 24; // Kilometre taşı ağırlığı (oncelikli events)
+          agirlik = 45; // Kilometre taşı ağırlığı
         }
       } else if (o.id.startsWith('gundelik_')) {
         agirlik = 1; // Atmosferik gündelik olaylar (düşük ağırlık)
       } else {
-        agirlik = 18; // Tarihi dönem olayları (yüksek ağırlık)
+        agirlik = 40; // Tarihi dönem olayları (%60+ Tarih Oranı için yüksek ağırlık)
       }
 
       // Terfi dönemi olayları
@@ -292,7 +292,7 @@ class OyunMotoru {
         if (zincir != null && karakter.meslekKademesi < zincir.kademeler.length - 1) {
           final mevcukKademe = zincir.kademeler[karakter.meslekKademesi];
           if (karakter.kademedekiYil >= mevcukKademe.minYil) {
-            agirlik = max(agirlik, 8);
+            agirlik = max(agirlik, 15);
           }
         }
       }
@@ -313,7 +313,7 @@ class OyunMotoru {
 
     karakter.olaySonGorulmeYili[secilen.id] = karakter.takvimYili;
     sonGosterilenOlaylar.add(secilen.id);
-    if (sonGosterilenOlaylar.length > 10) {
+    if (sonGosterilenOlaylar.length > 20) {
       sonGosterilenOlaylar.removeAt(0);
     }
 
