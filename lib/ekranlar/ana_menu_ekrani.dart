@@ -17,6 +17,12 @@ class AnaMenuEkrani extends StatefulWidget {
 class _AnaMenuEkraniState extends State<AnaMenuEkrani> {
   bool _yukleniyor = false;
 
+  @override
+  void initState() {
+    super.initState();
+    SesServisi().anaMenuMuzigiCal();
+  }
+
   Future<void> _yeniHayatBaslat() async {
     setState(() {
       _yukleniyor = true;
@@ -44,178 +50,178 @@ class _AnaMenuEkraniState extends State<AnaMenuEkrani> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Renkler.kagitKoyu,
-      body: SafeArea(
-        child: Center(
-          child: SingleChildScrollView(
-            child: Container(
-              constraints: const BoxConstraints(maxWidth: 480),
-              margin: const EdgeInsets.all(16),
-              padding: const EdgeInsets.symmetric(vertical: 24, horizontal: 20),
-              decoration: BoxDecoration(
-                color: Renkler.kagit,
-                border: Border.all(color: Renkler.altin, width: 3),
-                borderRadius: BorderRadius.circular(12),
-                boxShadow: [
-                  BoxShadow(
-                    color: Colors.black.withAlpha(100),
-                    blurRadius: 10,
-                    offset: const Offset(0, 4),
-                  ),
-                ],
-              ),
-              child: Column(
-                mainAxisSize: MainAxisSize.min,
-                children: [
-                  // Logo & Tuğra Görseli
-                  Image.asset(
-                    'assets/logo.png',
-                    height: 110,
-                    errorBuilder: (context, error, stackTrace) => const Text(
-                      '👑',
-                      style: TextStyle(fontSize: 64),
-                    ),
-                  ),
-                  const SizedBox(height: 12),
-
-                  // Başlık ve Alt Başlık
-                  const Text(
-                    "OSMANLI'DA BİR HAYAT",
-                    textAlign: TextAlign.center,
-                    style: TextStyle(
-                      fontSize: 22,
-                      fontWeight: FontWeight.w900,
-                      letterSpacing: 1.8,
-                      color: Renkler.murekkep,
-                    ),
-                  ),
-                  const SizedBox(height: 4),
-                  const Text(
-                    '1299 - 1922 • Tarihi Yaşam Simülasyonu',
-                    style: TextStyle(
-                      fontSize: 12,
-                      fontWeight: FontWeight.w600,
-                      color: Renkler.damga,
-                      letterSpacing: 0.8,
-                    ),
-                  ),
-                  const SizedBox(height: 24),
-
-                  // Menü Butonları
-                  if (_yukleniyor)
-                    const Padding(
-                      padding: EdgeInsets.all(20),
-                      child: CircularProgressIndicator(color: Renkler.damga),
-                    )
-                  else ...[
-                    _menuButonu(
-                      etiket: '📜 YENİ HAYAT BAŞLAT',
-                      renk: Renkler.damga,
-                      yaziRengi: Colors.white,
-                      onTap: _yeniHayatBaslat,
-                    ),
-                    const SizedBox(height: 12),
-                    _menuButonu(
-                      etiket: '🏛️ GEÇMİŞ HAYATLAR (ŞECERE)',
-                      renk: Renkler.murekkep,
-                      yaziRengi: Renkler.kagit,
-                      onTap: () {
-                        Navigator.push(
-                          context,
-                          MaterialPageRoute(
-                            builder: (context) => const GecmisHayatlarEkrani(),
-                          ),
-                        );
-                      },
-                    ),
-                    const SizedBox(height: 12),
-                    _menuButonu(
-                      etiket: '🏆 NİŞAN VE BAŞARIMLAR',
-                      renk: Renkler.altin,
-                      yaziRengi: Renkler.murekkep,
-                      onTap: () {
-                        Navigator.push(
-                          context,
-                          MaterialPageRoute(
-                            builder: (context) => const BasarimlarEkrani(),
-                          ),
-                        );
-                      },
-                    ),
-                  ],
-
-                  const SizedBox(height: 24),
-                  const Divider(color: Renkler.cizgi),
-                  const SizedBox(height: 8),
-
-                  // Alt Bilgi & Ses Butonu
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: [
-                      const Text(
-                        'v1.0.0 • Devlet-i Aliyye',
-                        style: TextStyle(fontSize: 11, color: Renkler.murekkepSoluk),
+      body: Stack(
+        children: [
+          // İnce Parşömen Dokusu Arka Plan Bindirmesi
+          Positioned.fill(
+            child: Image.asset(
+              'assets/arkaplan/parsomen_doku.png',
+              fit: BoxFit.cover,
+              opacity: const AlwaysStoppedAnimation(0.12),
+              errorBuilder: (context, error, stackTrace) => const SizedBox.shrink(),
+            ),
+          ),
+          SafeArea(
+            child: Center(
+              child: SingleChildScrollView(
+                child: Container(
+                  constraints: const BoxConstraints(maxWidth: 480),
+                  margin: const EdgeInsets.all(16),
+                  padding: const EdgeInsets.symmetric(vertical: 24, horizontal: 20),
+                  decoration: BoxDecoration(
+                    color: Renkler.kagit,
+                    border: Border.all(color: Renkler.altin, width: 3),
+                    borderRadius: BorderRadius.circular(12),
+                    boxShadow: [
+                      BoxShadow(
+                        color: Colors.black.withAlpha(100),
+                        blurRadius: 10,
+                        offset: const Offset(0, 4),
                       ),
-                      GestureDetector(
-                        onTap: () {
-                          setState(() {
-                            SesServisi().sesDurumunuDegistir();
-                          });
-                        },
-                        child: Row(
-                          mainAxisSize: MainAxisSize.min,
-                          children: [
-                            Icon(
-                              SesServisi().sesAcik ? Icons.volume_up : Icons.volume_off,
-                              size: 16,
-                              color: Renkler.murekkep,
+                    ],
+                  ),
+                  child: Column(
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      // Logo & Tuğra Görseli
+                      Image.asset(
+                        'assets/logo.png',
+                        height: 110,
+                        errorBuilder: (context, error, stackTrace) => const Text(
+                          '👑',
+                          style: TextStyle(fontSize: 64),
+                        ),
+                      ),
+                      const SizedBox(height: 12),
+
+                      // Başlık ve Alt Başlık
+                      const Text(
+                        "OSMANLI'DA BİR HAYAT",
+                        textAlign: TextAlign.center,
+                        style: TextStyle(
+                          fontSize: 22,
+                          fontWeight: FontWeight.w900,
+                          letterSpacing: 1.8,
+                          color: Renkler.murekkep,
+                        ),
+                      ),
+                      const SizedBox(height: 4),
+                      const Text(
+                        "Tarihi Hayat Simülasyonu",
+                        style: TextStyle(
+                          fontSize: 13,
+                          fontStyle: FontStyle.italic,
+                          color: Renkler.murekkepSoluk,
+                        ),
+                      ),
+                      const SizedBox(height: 24),
+
+                      // Yeni Hayat Başlat Butonu
+                      SizedBox(
+                        width: double.infinity,
+                        height: 52,
+                        child: ElevatedButton(
+                          style: ElevatedButton.styleFrom(
+                            backgroundColor: Renkler.damga,
+                            foregroundColor: Colors.white,
+                            shape: RoundedRectangleBorder(
+                              borderRadius: BorderRadius.circular(8),
+                              side: const BorderSide(color: Renkler.altin, width: 1.5),
                             ),
-                            const SizedBox(width: 4),
-                            Text(
-                              SesServisi().sesAcik ? 'Müzik Açık' : 'Müzik Kapalı',
-                              style: const TextStyle(fontSize: 11, color: Renkler.murekkep),
+                            elevation: 4,
+                          ),
+                          onPressed: _yukleniyor ? null : _yeniHayatBaslat,
+                          child: _yukleniyor
+                              ? const CircularProgressIndicator(color: Colors.white)
+                              : const Text(
+                                  '📜 YENİ HAYAT BAŞLAT',
+                                  style: TextStyle(
+                                    fontSize: 15,
+                                    fontWeight: FontWeight.bold,
+                                    letterSpacing: 1.1,
+                                  ),
+                                ),
+                        ),
+                      ),
+                      const SizedBox(height: 14),
+
+                      // Geçmiş Hayatlar (Şecere) Butonu
+                      SizedBox(
+                        width: double.infinity,
+                        height: 48,
+                        child: OutlinedButton(
+                          style: OutlinedButton.styleFrom(
+                            foregroundColor: Renkler.murekkep,
+                            side: const BorderSide(color: Renkler.damga, width: 1.5),
+                            shape: RoundedRectangleBorder(
+                              borderRadius: BorderRadius.circular(8),
                             ),
-                          ],
+                          ),
+                          onPressed: () {
+                            Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                builder: (context) => const GecmisHayatlarEkrani(),
+                              ),
+                            );
+                          },
+                          child: const Text(
+                            '🏛️ GEÇMİŞ HAYATLAR (ŞECERE)',
+                            style: TextStyle(
+                              fontSize: 13,
+                              fontWeight: FontWeight.bold,
+                            ),
+                          ),
+                        ),
+                      ),
+                      const SizedBox(height: 12),
+
+                      // Nişanlar ve Başarımlar Butonu
+                      SizedBox(
+                        width: double.infinity,
+                        height: 48,
+                        child: OutlinedButton(
+                          style: OutlinedButton.styleFrom(
+                            foregroundColor: Renkler.murekkep,
+                            side: const BorderSide(color: Renkler.altin, width: 1.5),
+                            shape: RoundedRectangleBorder(
+                              borderRadius: BorderRadius.circular(8),
+                            ),
+                          ),
+                          onPressed: () {
+                            Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                builder: (context) => const BasarimlarEkrani(),
+                              ),
+                            );
+                          },
+                          child: const Text(
+                            '🏆 NİŞAN VE BAŞARIMLAR',
+                            style: TextStyle(
+                              fontSize: 13,
+                              fontWeight: FontWeight.bold,
+                            ),
+                          ),
+                        ),
+                      ),
+                      const SizedBox(height: 20),
+
+                      // Alt Bilgi
+                      const Text(
+                        "© 1299 - 1922 Osmanlı İmparatorluğu Dönemi",
+                        style: TextStyle(
+                          fontSize: 11,
+                          color: Renkler.murekkepSoluk,
                         ),
                       ),
                     ],
                   ),
-                ],
+                ),
               ),
             ),
           ),
-        ),
-      ),
-    );
-  }
-
-  Widget _menuButonu({
-    required String etiket,
-    required Color renk,
-    required Color yaziRengi,
-    required VoidCallback onTap,
-  }) {
-    return SizedBox(
-      width: double.infinity,
-      height: 48,
-      child: ElevatedButton(
-        style: ElevatedButton.styleFrom(
-          backgroundColor: renk,
-          foregroundColor: yaziRengi,
-          elevation: 2,
-          shape: RoundedRectangleBorder(
-            borderRadius: BorderRadius.circular(6),
-            side: const BorderSide(color: Renkler.altin, width: 1),
-          ),
-        ),
-        onPressed: onTap,
-        child: Text(
-          etiket,
-          style: const TextStyle(
-            fontSize: 14,
-            fontWeight: FontWeight.bold,
-            letterSpacing: 1.0,
-          ),
-        ),
+        ],
       ),
     );
   }

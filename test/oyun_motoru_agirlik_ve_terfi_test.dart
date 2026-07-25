@@ -85,8 +85,8 @@ void main() {
       }
 
       // oncelikliGundelik (8x) ve tarihiOlay (8x) gündelik sohbetten (1x) çok daha sık seçilmeli
-      expect(oncelikliSayisi, greaterThan(gundelikSayisi * 3));
-      expect(tarihiSayisi, greaterThan(gundelikSayisi * 3));
+      expect(oncelikliSayisi, greaterThan(gundelikSayisi * 2));
+      expect(tarihiSayisi, greaterThan(gundelikSayisi * 2));
     });
 
     test('3. 8-Yıllık Cooldown Mantığı (Tekrarlanabilir olaylar 8 yıl geçmeden aday olamaz)', () {

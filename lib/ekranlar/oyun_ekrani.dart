@@ -203,11 +203,22 @@ class _OyunEkraniState extends State<OyunEkrani> {
 
     return Scaffold(
       backgroundColor: Renkler.kagitKoyu,
-      body: SafeArea(
-        child: Padding(
-          padding: const EdgeInsets.all(12),
-          child: Column(
-            children: [
+      body: Stack(
+        children: [
+          // İnce Parşömen Dokusu Arka Plan Bindirmesi
+          Positioned.fill(
+            child: Image.asset(
+              'assets/arkaplan/parsomen_doku.png',
+              fit: BoxFit.cover,
+              opacity: const AlwaysStoppedAnimation(0.12),
+              errorBuilder: (context, error, stackTrace) => const SizedBox.shrink(),
+            ),
+          ),
+          SafeArea(
+            child: Padding(
+              padding: const EdgeInsets.all(12),
+              child: Column(
+                children: [
               // Üst Ferman Alanı (Padişah & Takvim & Karakter & Bakiye)
               Container(
                 padding: const EdgeInsets.all(10),
@@ -506,8 +517,10 @@ class _OyunEkraniState extends State<OyunEkrani> {
           ),
         ),
       ),
-    );
-  }
+    ],
+  ),
+);
+}
 
   Widget _statBar(String etiket, int deger, Color renk) {
     return Padding(

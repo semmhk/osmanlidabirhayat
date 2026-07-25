@@ -1,13 +1,20 @@
+import 'dart:async';
 import 'package:audioplayers/audioplayers.dart';
-import 'package:flutter/foundation.dart';
+import 'package:flutter/widgets.dart';
 
-class SesServisi {
+class SesServisi with WidgetsBindingObserver {
   static final SesServisi _instance = SesServisi._internal();
   factory SesServisi() => _instance;
-  SesServisi._internal();
+
+  SesServisi._internal() {
+    WidgetsBinding.instance.addObserver(this);
+  }
 
   AudioPlayer? _bgmPlayer;
   AudioPlayer? _sfxPlayer;
+
+  double bgmSesSeviyesi = 0.35; // Arka plan müziği %35
+  double sfxSesSeviyesi = 0.75; // Ses efektleri %75
 
   AudioPlayer? get bgmPlayer {
     try {
@@ -33,7 +40,6 @@ class SesServisi {
     try {
       if (_sfxPlayer == null) {
         _sfxPlayer = AudioPlayer();
-        // SFX'in BGM müziğini kesmesini engellemek için audioFocus: none ayarlanır
         _sfxPlayer!.setAudioContext(AudioContext(
           android: AudioContextAndroid(
             stayAwake: false,
@@ -54,6 +60,15 @@ class SesServisi {
   String? _mevcutDonemId;
   bool _isTransitioning = false;
 
+  @override
+  void didChangeAppLifecycleState(AppLifecycleState state) {
+    if (state == AppLifecycleState.paused || state == AppLifecycleState.inactive) {
+      _bgmPlayer?.pause();
+    } else if (state == AppLifecycleState.resumed && sesAcik) {
+      _bgmPlayer?.resume();
+    }
+  }
+
   /// Döneme karşılık gelen müzik dosya yolları
   static const Map<String, String> donemMuzikleri = {
     'kurulus': 'muzikler/kurulus.wav',
@@ -62,6 +77,37 @@ class SesServisi {
     'gerileme': 'muzikler/gerileme.wav',
     'dagilma': 'muzikler/dagilma.ogg',
   };
+
+  /// Ana menüde çalacak hafif tema müziği (%25 seviye)
+  Future<void> anaMenuMuzigiCal() async {
+    if (!sesAcik || _isTransitioning) return;
+    if (_mevcutDonemId == 'anamenu' && bgmPlayer?.state == PlayerState.playing) return;
+
+    _isTransitioning = true;
+    _mevcutDonemId = 'anamenu';
+    final player = bgmPlayer;
+    if (player == null) {
+      _isTransitioning = false;
+      return;
+    }
+
+    try {
+      if (player.state == PlayerState.playing) {
+        for (double v = bgmSesSeviyesi; v >= 0.0; v -= 0.1) {
+          await player.setVolume(v.clamp(0.0, 1.0));
+          await Future.delayed(const Duration(milliseconds: 20));
+        }
+        await player.stop();
+      }
+
+      await player.setReleaseMode(ReleaseMode.loop);
+      await player.setVolume(0.25); // Ana menüde %25 tatlı ses
+      await player.play(AssetSource('muzikler/kurulus.wav'));
+    } catch (_) {
+    } finally {
+      _isTransitioning = false;
+    }
+  }
 
   /// Dönemsel müziği başlatır veya dönem değiştiğinde yumuşak geçiş (soft cross-fade) yapar
   Future<void> donemMuzigiCal(String donemId) async {
@@ -83,16 +129,16 @@ class SesServisi {
     try {
       // 1. Mevcut parça çalıyorsa sesini kısarak kapat (fade-out)
       if (player.state == PlayerState.playing) {
-        for (double v = 1.0; v >= 0.0; v -= 0.2) {
+        for (double v = bgmSesSeviyesi; v >= 0.0; v -= 0.1) {
           await player.setVolume(v.clamp(0.0, 1.0));
-          await Future.delayed(const Duration(milliseconds: 30));
+          await Future.delayed(const Duration(milliseconds: 20));
         }
         await player.stop();
       }
 
-      // 2. Yeni dönem parçasına geç
+      // 2. Yeni dönem parçasına geç (%35 varsayılan seviye)
       await player.setReleaseMode(ReleaseMode.loop);
-      await player.setVolume(1.0);
+      await player.setVolume(bgmSesSeviyesi);
       await player.play(AssetSource(dosyaYolu));
     } catch (_) {
       // Platform channel hatasında sessizce devam et
@@ -101,37 +147,45 @@ class SesServisi {
     }
   }
 
+  /// Audio Ducking ile ses efekti çalma (efekt anında BGM sesini %15'e kısar, sonra %35'e döndürür)
+  Future<void> _efektVeDuckingCal(String sfxPath) async {
+    if (!sesAcik) return;
+    final sPlayer = sfxPlayer;
+    final bPlayer = bgmPlayer;
+    if (sPlayer == null) return;
+
+    try {
+      // Ducking: Müziği geçici olarak %15 seviyesine kıs
+      if (bPlayer != null && bPlayer.state == PlayerState.playing) {
+        await bPlayer.setVolume(0.15);
+      }
+
+      await sPlayer.stop();
+      await sPlayer.setVolume(sfxSesSeviyesi);
+      await sPlayer.play(AssetSource(sfxPath));
+
+      // Efekt başladıktan 400ms sonra müziği eski seviyesine (%35) yumuşakça döndür
+      Timer(const Duration(milliseconds: 400), () async {
+        if (bPlayer != null && bPlayer.state == PlayerState.playing) {
+          await bPlayer.setVolume(bgmSesSeviyesi);
+        }
+      });
+    } catch (_) {}
+  }
+
   /// Karar verildiğinde tok mühür basma sesi
   Future<void> muhurSesiCal() async {
-    if (!sesAcik) return;
-    final player = sfxPlayer;
-    if (player == null) return;
-    try {
-      await player.stop();
-      await player.play(AssetSource('sesler/muhur_damga.wav'));
-    } catch (_) {}
+    await _efektVeDuckingCal('sesler/muhur_damga.wav');
   }
 
   /// Takvim yaprağı / yıl atlandığında parşömen kağıdı sesi
   Future<void> kagitHisirtisiCal() async {
-    if (!sesAcik) return;
-    final player = sfxPlayer;
-    if (player == null) return;
-    try {
-      await player.stop();
-      await player.play(AssetSource('sesler/kagit_hisirtisi.wav'));
-    } catch (_) {}
+    await _efektVeDuckingCal('sesler/kagit_hisirtisi.wav');
   }
 
   /// Karakter öldüğünde ağır kös / vefat davulu vuruşu
   Future<void> vefatSesiCal() async {
-    if (!sesAcik) return;
-    final player = sfxPlayer;
-    if (player == null) return;
-    try {
-      await player.stop();
-      await player.play(AssetSource('sesler/vefat_davul.wav'));
-    } catch (_) {}
+    await _efektVeDuckingCal('sesler/vefat_davul.wav');
   }
 
   /// Sesleri açma/kapatma (Mute toggle)
