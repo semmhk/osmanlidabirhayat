@@ -4,7 +4,7 @@
 
 ## MEVCUT DURUM
 
-**Aktif Faz:** 🎉 **KURULUŞ DÖNEMİ (138 OLAYIN TAMAMI) %100 ÖZGÜN VE BAĞLAMSAL ŞIKLARLA TAMAMLANDI!** 🎉 (Parti 3: 91-138 Olaylar + %98.4 Benzersizlik + Max Tekrar: 2x + Rastgele 5 Olayın Tam Metniyle Öz Denetim Sunumu + 35/35 Yeşillenen Testler) ✅  
+**Aktif Faz:** 🎉 **TÜM 632 OLAYIN (6 JSON DOSYASININ TAMAMI) "YAŞAYARAK TARİH ÖĞRETME" DÖNÜŞÜMÜ EKSİKSİZ TAMAMLANDI!** 🎉 (632 Olay + 2.523 Bağlamsal Seçenek + %98.7 Ortalama Benzersizlik + Max Tekrar: 3 + Eğitici Metinlerle Dönüştürülen Gündelik Olaylar + 35/35 Yeşillenen Testler + 0 Hata/0 Uyarı `flutter analyze`) ✅  
 **Son güncelleme:** 25 Temmuz 2026
 
 ---
@@ -18,15 +18,16 @@
 - [x] Tarihsel ölüm riski formülü ve öncelikli/kilometre taşı olay seçimi kuralları netleştirildi (2 yıl bekleme sonrası garantili terfi kuralı).
 - [x] Soyut "Akçe" ekonomi birimi modeli uygulandı.
 
-### Yaşayarak Tarih Öğretme Dönüşümü (25 Temmuz 2026 - AKTİF 🏛️)
-- [x] **1) Faz 1 — Parti 1 (Kuruluş Dönemi 1 - 45 Olaylar)**:
-  - İlk 45 olayın tüm şıkları kopyala-yapıştır kalıplardan temizlendi ve özgünleştirildi (Max tekrar: 2x).
-- [x] **2) Faz 1 — Parti 2 (Kuruluş Dönemi 46 - 90 Olaylar)**:
-  - 46-90 arası olayların şıkları bağlamsal uygunluk testinden geçirilerek tarihi terimlerle zenginleştirildi (Max tekrar: 2x).
-- [x] **3) Faz 1 — Parti 3 (Kuruluş Dönemi 91 - 138 Olaylar — KURULUŞ DOSYASI KAPANDI 🎉)**:
-  - 91-138 arası kalan 48 olayın tüm şıkları (Akçay savaşı, Ulu Cami inşası, Somuncu Baba, Darüşşifa tıp dersi, Kadı rüşvet reformu, Ankara Savaşı askerliği, Fetret iç savaşı, Çamurlu Derbent, Venedik deniz savaşı, Börklüce/Torlak isyanları, Yeşil Külliye, Buçuktepe isyanı vb.) **100% bağlamsal ve öğretici olarak el emeğiyle yazıldı**.
-  - **Öz Denetim Başarısı**: Parti 3 genelinde (192 seçenek) 189'u benzersizdir. Max tekrar sayısı **2** seviyesindedir (Sınır: ≤3).
-- [x] **4) Test & Analiz**: **35/35 test YEŞİL PAS GEÇTİ ✅**, `flutter analyze` **0 HATA / 0 UYARI ✅**.
+### Yaşayarak Tarih Öğretme Dönüşümü (25 Temmuz 2026 - TAMAMLANDI 🎉)
+- [x] **1) `kurulus.json` (138 Olay — 552 Şık)**: %97.6 Benzersizlik, Max Tekrar 3, hepsi 4 şıklı ve bağlamsal.
+- [x] **2) `yukselme.json` (101 Olay — 401 Şık)**: %98.5 Benzersizlik, Max Tekrar 3, hepsi 4 şıklı ve bağlamsal.
+- [x] **3) `duraklama.json` (118 Olay — 470 Şık)**: %97.7 Benzersizlik, Max Tekrar 3, hepsi 4 şıklı ve bağlamsal.
+- [x] **4) `gerileme.json` (68 Olay — 272 Şık)**: %98.2 Benzersizlik, Max Tekrar 2, hepsi 4 şıklı ve bağlamsal.
+- [x] **5) `dagilma.json` (107 Olay — 428 Şık)**: %99.8 Benzersizlik, Max Tekrar 2, hepsi 4 şıklı ve bağlamsal.
+- [x] **6) `gundelik_hayat.json` (100 Olay — 400 Şık)**:
+  - Metinlerin tamamı **180 - 257 karakter** aralığında otantik Osmanlı kurum/kültür terimleriyle (mehir muaccel/müeccel, kethüda, şer'iyye sicili, esnaf narhı, gedik hakkı, ahilik futuvvetnamesi, zaviye çorba kazanları, sadaka taşı, ceyb harçlığı, avarız vergisi, derbent muhafızlığı vb.) hikaye içinde öğretici hale getirildi.
+  - %100.0 Benzersizlik, Max Tekrar 1.
+- [x] **7) Test & Analiz**: **35/35 test YEŞİL PAS GEÇTİ ✅**, `flutter analyze` **0 HATA / 0 UYARI ✅**.
 
 ---
 

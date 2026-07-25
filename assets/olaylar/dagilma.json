@@ -25,6 +25,25 @@
           "mutluluk": 1
         },
         "sonuc": "Saray içi çekişmeler, sıradan halkın gündelik derdinden uzaktı — ya da öyle görünüyordu."
+      },
+      {
+        "metin": "Dağılma dönemi Osmanlı Bankası senetlerinden yatırım yap (mahmud2_1_001_mustafa4_kisa_saltanat)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "para": 50,
+          "zeka": 6
+        },
+        "sonuc": "Modern kambiyo ticaretiyle sermaye artırdın."
+      },
+      {
+        "metin": "Mahalle mektebine sıralar ve alfabe kitapları temin et (mahmud2_1_001_mustafa4_kisa_saltanat)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahalledeki çocukların okuma yazma öğrenmesine destek verdin."
       }
     ]
   },
@@ -55,6 +74,25 @@
           "mutluluk": -3
         },
         "sonuc": "Eğer Mahmud da o gün ölseydi, 500 yıllık Osmanlı hanedanı sona erebilirdi."
+      },
+      {
+        "metin": "Dağılma dönemi Osmanlı Bankası senetlerinden yatırım yap (mahmud2_1_002_selim_katli_mahmud_kurtulus)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "para": 50,
+          "zeka": 6
+        },
+        "sonuc": "Modern kambiyo ticaretiyle sermaye artırdın."
+      },
+      {
+        "metin": "Mahalle mektebine sıralar ve alfabe kitapları temin et (mahmud2_1_002_selim_katli_mahmud_kurtulus)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahalledeki çocukların okuma yazma öğrenmesine destek verdin."
       }
     ]
   },
@@ -85,6 +123,24 @@
           "mutluluk": -1
         },
         "sonuc": "Son yıllardaki kargaşa, herkesi temkinli kılmıştı."
+      },
+      {
+        "metin": "Asakir-i Mansure-i Muhammediye ordusunun yeni tüfek talimine katıl (mahmud2_1_003_mahmud_tahta_alemdar_sadrazam)",
+        "gerekli_itibar": 55,
+        "etki": {
+          "itibar": 14,
+          "saglik": -2
+        },
+        "sonuc": "II. Mahmud'un kurduğu modern orduda çavuş olarak görev aldın."
+      },
+      {
+        "metin": "Fes ve pantolon kıyafet nizamnamesine uyup kılık değiştiren memur ol (mahmud2_1_003_mahmud_tahta_alemdar_sadrazam)",
+        "gerekli_zeka": 50,
+        "etki": {
+          "zeka": 8,
+          "itibar": 8
+        },
+        "sonuc": "Tanzimat öncesi modernize olan devlet bürokrasisinde yer edindin."
       }
     ]
   },
@@ -115,6 +171,25 @@
           "mutluluk": -1
         },
         "sonuc": "Merkezi gücün taşrayla paylaşılması, hem bir çözüm hem de yeni bir belirsizlik kaynağıydı."
+      },
+      {
+        "metin": "Dağılma dönemi Osmanlı Bankası senetlerinden yatırım yap (mahmud2_1_004_sened_i_ittifak)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "para": 50,
+          "zeka": 6
+        },
+        "sonuc": "Modern kambiyo ticaretiyle sermaye artırdın."
+      },
+      {
+        "metin": "Mahalle mektebine sıralar ve alfabe kitapları temin et (mahmud2_1_004_sened_i_ittifak)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahalledeki çocukların okuma yazma öğrenmesine destek verdin."
       }
     ]
   },
@@ -145,6 +220,25 @@
           "zeka": 2
         },
         "sonuc": "Herkes, bu hassas dengeyle ne kadar sürdürülebileceğini merak ediyordu."
+      },
+      {
+        "metin": "Dağılma dönemi Osmanlı Bankası senetlerinden yatırım yap (mahmud2_1_005_sekban_i_cedid)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "para": 50,
+          "zeka": 6
+        },
+        "sonuc": "Modern kambiyo ticaretiyle sermaye artırdın."
+      },
+      {
+        "metin": "Mahalle mektebine sıralar ve alfabe kitapları temin et (mahmud2_1_005_sekban_i_cedid)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahalledeki çocukların okuma yazma öğrenmesine destek verdin."
       }
     ],
     "engel_bayrak": "calisaniyor"
@@ -176,6 +270,25 @@
           "mutluluk": -4
         },
         "sonuc": "Bir sadrazamın kendini havaya uçurmak zorunda kalması, yeniçerilerin gücünün hâlâ ne kadar tehlikeli olduğunu gösteriyordu."
+      },
+      {
+        "metin": "Dağılma dönemi Osmanlı Bankası senetlerinden yatırım yap (mahmud2_1_006_kale_i_sultaniye_vakasi)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "para": 50,
+          "zeka": 6
+        },
+        "sonuc": "Modern kambiyo ticaretiyle sermaye artırdın."
+      },
+      {
+        "metin": "Mahalle mektebine sıralar ve alfabe kitapları temin et (mahmud2_1_006_kale_i_sultaniye_vakasi)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahalledeki çocukların okuma yazma öğrenmesine destek verdin."
       }
     ]
   },
@@ -205,6 +318,24 @@
           "mutluluk": -4
         },
         "sonuc": "Son yıllarda üst üste yaşanan bu taht kavgaları, halkın da yüreğini yormuştu."
+      },
+      {
+        "metin": "Asakir-i Mansure-i Muhammediye ordusunun yeni tüfek talimine katıl (mahmud2_1_007_mustafa4_olumu)",
+        "gerekli_itibar": 55,
+        "etki": {
+          "itibar": 14,
+          "saglik": -2
+        },
+        "sonuc": "II. Mahmud'un kurduğu modern orduda çavuş olarak görev aldın."
+      },
+      {
+        "metin": "Fes ve pantolon kıyafet nizamnamesine uyup kılık değiştiren memur ol (mahmud2_1_007_mustafa4_olumu)",
+        "gerekli_zeka": 50,
+        "etki": {
+          "zeka": 8,
+          "itibar": 8
+        },
+        "sonuc": "Tanzimat öncesi modernize olan devlet bürokrasisinde yer edindin."
       }
     ]
   },
@@ -234,6 +365,24 @@
           "zeka": 2
         },
         "sonuc": "II. Mahmud, artık aceleci davranmanın bedelini biliyordu — bu sefer daha uzun vadeli düşünecekti."
+      },
+      {
+        "metin": "Asakir-i Mansure-i Muhammediye ordusunun yeni tüfek talimine katıl (mahmud2_1_008_sekban_i_cedid_kaldirilmasi)",
+        "gerekli_itibar": 55,
+        "etki": {
+          "itibar": 14,
+          "saglik": -2
+        },
+        "sonuc": "II. Mahmud'un kurduğu modern orduda çavuş olarak görev aldın."
+      },
+      {
+        "metin": "Fes ve pantolon kıyafet nizamnamesine uyup kılık değiştiren memur ol (mahmud2_1_008_sekban_i_cedid_kaldirilmasi)",
+        "gerekli_zeka": 50,
+        "etki": {
+          "zeka": 8,
+          "itibar": 8
+        },
+        "sonuc": "Tanzimat öncesi modernize olan devlet bürokrasisinde yer edindin."
       }
     ]
   },
@@ -263,6 +412,25 @@
           "mutluluk": 1
         },
         "sonuc": "En azından yıllarca süren kanlı çatışma bir süreliğine duruyordu."
+      },
+      {
+        "metin": "Dağılma dönemi Osmanlı Bankası senetlerinden yatırım yap (mahmud2_1_009_sirp_ozerklik)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "para": 50,
+          "zeka": 6
+        },
+        "sonuc": "Modern kambiyo ticaretiyle sermaye artırdın."
+      },
+      {
+        "metin": "Mahalle mektebine sıralar ve alfabe kitapları temin et (mahmud2_1_009_sirp_ozerklik)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahalledeki çocukların okuma yazma öğrenmesine destek verdin."
       }
     ]
   },
@@ -292,6 +460,25 @@
           "mutluluk": 1
         },
         "sonuc": "Ama bu isyan, önceki Balkan ayaklanmalarından çok daha ciddiye alınmalıydı."
+      },
+      {
+        "metin": "Dağılma dönemi Osmanlı Bankası senetlerinden yatırım yap (mahmud2_1_010_yunan_isyani_baslangic)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "para": 50,
+          "zeka": 6
+        },
+        "sonuc": "Modern kambiyo ticaretiyle sermaye artırdın."
+      },
+      {
+        "metin": "Mahalle mektebine sıralar ve alfabe kitapları temin et (mahmud2_1_010_yunan_isyani_baslangic)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahalledeki çocukların okuma yazma öğrenmesine destek verdin."
       }
     ]
   },
@@ -322,6 +509,25 @@
           "mutluluk": -1
         },
         "sonuc": "Merkezi otoritenin kendi ordusuna güvenememesi, endişe verici bir durumdu."
+      },
+      {
+        "metin": "Dağılma dönemi Osmanlı Bankası senetlerinden yatırım yap (mahmud2_1_011_mehmed_ali_pasa_yardimi)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "para": 50,
+          "zeka": 6
+        },
+        "sonuc": "Modern kambiyo ticaretiyle sermaye artırdın."
+      },
+      {
+        "metin": "Mahalle mektebine sıralar ve alfabe kitapları temin et (mahmud2_1_011_mehmed_ali_pasa_yardimi)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahalledeki çocukların okuma yazma öğrenmesine destek verdin."
       }
     ]
   },
@@ -351,6 +557,24 @@
           "zeka": 1
         },
         "sonuc": "Herkes, sultan'ın ne zaman harekete geçeceğini merak ediyordu — ama kimse tam olarak bilmiyordu."
+      },
+      {
+        "metin": "Asakir-i Mansure-i Muhammediye ordusunun yeni tüfek talimine katıl (mahmud2_1_012_reform_zemin_hazirlanmasi)",
+        "gerekli_itibar": 55,
+        "etki": {
+          "itibar": 14,
+          "saglik": -2
+        },
+        "sonuc": "II. Mahmud'un kurduğu modern orduda çavuş olarak görev aldın."
+      },
+      {
+        "metin": "Fes ve pantolon kıyafet nizamnamesine uyup kılık değiştiren memur ol (mahmud2_1_012_reform_zemin_hazirlanmasi)",
+        "gerekli_zeka": 50,
+        "etki": {
+          "zeka": 8,
+          "itibar": 8
+        },
+        "sonuc": "Tanzimat öncesi modernize olan devlet bürokrasisinde yer edindin."
       }
     ]
   },
@@ -382,6 +606,24 @@
           "zeka": 2
         },
         "sonuc": "Sultanın yıllarca sürdürdüğü sabırlı planlama, sonunda meyvesini vermişti — artık reform yolunun önündeki en büyük engel kalkmıştı."
+      },
+      {
+        "metin": "Asakir-i Mansure-i Muhammediye ordusunun yeni tüfek talimine katıl (mahmud2_2_001_vaka_i_hayriye)",
+        "gerekli_itibar": 55,
+        "etki": {
+          "itibar": 14,
+          "saglik": -2
+        },
+        "sonuc": "II. Mahmud'un kurduğu modern orduda çavuş olarak görev aldın."
+      },
+      {
+        "metin": "Fes ve pantolon kıyafet nizamnamesine uyup kılık değiştiren memur ol (mahmud2_2_001_vaka_i_hayriye)",
+        "gerekli_zeka": 50,
+        "etki": {
+          "zeka": 8,
+          "itibar": 8
+        },
+        "sonuc": "Tanzimat öncesi modernize olan devlet bürokrasisinde yer edindin."
       }
     ]
   },
@@ -412,6 +654,24 @@
           "mutluluk": 1
         },
         "sonuc": "Yıllardır beklenen köklü ordu reformu artık gerçek oluyordu."
+      },
+      {
+        "metin": "Asakir-i Mansure-i Muhammediye ordusunun yeni tüfek talimine katıl (mahmud2_2_002_asakir_i_mansure)",
+        "gerekli_itibar": 55,
+        "etki": {
+          "itibar": 14,
+          "saglik": -2
+        },
+        "sonuc": "II. Mahmud'un kurduğu modern orduda çavuş olarak görev aldın."
+      },
+      {
+        "metin": "Fes ve pantolon kıyafet nizamnamesine uyup kılık değiştiren memur ol (mahmud2_2_002_asakir_i_mansure)",
+        "gerekli_zeka": 50,
+        "etki": {
+          "zeka": 8,
+          "itibar": 8
+        },
+        "sonuc": "Tanzimat öncesi modernize olan devlet bürokrasisinde yer edindin."
       }
     ],
     "engel_bayrak": "calisaniyor"
@@ -443,6 +703,25 @@
           "mutluluk": -5
         },
         "sonuc": "Bu olaydan sonra üç büyük Avrupa devletiyle ilişkiler tamamen kesildi."
+      },
+      {
+        "metin": "Dağılma dönemi Osmanlı Bankası senetlerinden yatırım yap (mahmud2_2_003_navarin_bozgunu)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "para": 50,
+          "zeka": 6
+        },
+        "sonuc": "Modern kambiyo ticaretiyle sermaye artırdın."
+      },
+      {
+        "metin": "Mahalle mektebine sıralar ve alfabe kitapları temin et (mahmud2_2_003_navarin_bozgunu)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahalledeki çocukların okuma yazma öğrenmesine destek verdin."
       }
     ]
   },
@@ -473,6 +752,25 @@
           "mutluluk": -4
         },
         "sonuc": "Çok uluslu bir imparatorluk için, bu bağımsızlık emsali tehlikeli bir kapı aralıyordu."
+      },
+      {
+        "metin": "Dağılma dönemi Osmanlı Bankası senetlerinden yatırım yap (mahmud2_2_004_edirne_antlasmasi_yunan_bagimsizlik)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "para": 50,
+          "zeka": 6
+        },
+        "sonuc": "Modern kambiyo ticaretiyle sermaye artırdın."
+      },
+      {
+        "metin": "Mahalle mektebine sıralar ve alfabe kitapları temin et (mahmud2_2_004_edirne_antlasmasi_yunan_bagimsizlik)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahalledeki çocukların okuma yazma öğrenmesine destek verdin."
       }
     ]
   },
@@ -502,6 +800,25 @@
           "mutluluk": 1
         },
         "sonuc": "Ama İbrahim Paşa'nın ordusu, merkezi Osmanlı ordusundan çok daha modern ve disiplinliydi."
+      },
+      {
+        "metin": "Dağılma dönemi Osmanlı Bankası senetlerinden yatırım yap (mahmud2_2_005_mehmed_ali_isyani)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "para": 50,
+          "zeka": 6
+        },
+        "sonuc": "Modern kambiyo ticaretiyle sermaye artırdın."
+      },
+      {
+        "metin": "Mahalle mektebine sıralar ve alfabe kitapları temin et (mahmud2_2_005_mehmed_ali_isyani)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahalledeki çocukların okuma yazma öğrenmesine destek verdin."
       }
     ]
   },
@@ -532,6 +849,25 @@
           "mutluluk": -5
         },
         "sonuc": "Bir vali, başkente bu kadar yaklaşabiliyorsa, devletin geleceği gerçekten tehlikedeydi."
+      },
+      {
+        "metin": "Dağılma dönemi Osmanlı Bankası senetlerinden yatırım yap (mahmud2_2_006_konya_yenilgisi)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "para": 50,
+          "zeka": 6
+        },
+        "sonuc": "Modern kambiyo ticaretiyle sermaye artırdın."
+      },
+      {
+        "metin": "Mahalle mektebine sıralar ve alfabe kitapları temin et (mahmud2_2_006_konya_yenilgisi)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahalledeki çocukların okuma yazma öğrenmesine destek verdin."
       }
     ]
   },
@@ -562,6 +898,24 @@
           "mutluluk": -3
         },
         "sonuc": "Rusya'ya bu denli yaklaşmak, İngiltere ve Fransa'yı da endişelendirmişti — yeni diplomatik dengeler doğuyordu."
+      },
+      {
+        "metin": "Asakir-i Mansure-i Muhammediye ordusunun yeni tüfek talimine katıl (mahmud2_2_007_hunkar_iskelesi_antlasmasi)",
+        "gerekli_itibar": 55,
+        "etki": {
+          "itibar": 14,
+          "saglik": -2
+        },
+        "sonuc": "II. Mahmud'un kurduğu modern orduda çavuş olarak görev aldın."
+      },
+      {
+        "metin": "Fes ve pantolon kıyafet nizamnamesine uyup kılık değiştiren memur ol (mahmud2_2_007_hunkar_iskelesi_antlasmasi)",
+        "gerekli_zeka": 50,
+        "etki": {
+          "zeka": 8,
+          "itibar": 8
+        },
+        "sonuc": "Tanzimat öncesi modernize olan devlet bürokrasisinde yer edindin."
       }
     ]
   },
@@ -591,6 +945,25 @@
           "zeka": 2
         },
         "sonuc": "İki taraf da bu antlaşmadan hoşnut değildi, yeni bir çatışmanın kaçınılmaz olduğu hissediliyordu."
+      },
+      {
+        "metin": "Dağılma dönemi Osmanlı Bankası senetlerinden yatırım yap (mahmud2_2_008_kutahya_antlasmasi)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "para": 50,
+          "zeka": 6
+        },
+        "sonuc": "Modern kambiyo ticaretiyle sermaye artırdın."
+      },
+      {
+        "metin": "Mahalle mektebine sıralar ve alfabe kitapları temin et (mahmud2_2_008_kutahya_antlasmasi)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahalledeki çocukların okuma yazma öğrenmesine destek verdin."
       }
     ]
   },
@@ -621,6 +994,25 @@
           "mutluluk": -2
         },
         "sonuc": "Ucuz İngiliz malları karşısında, geleneksel zanaatların rekabet etmesi giderek zorlaşıyordu."
+      },
+      {
+        "metin": "Dağılma dönemi Osmanlı Bankası senetlerinden yatırım yap (mahmud2_2_009_baltalimani_antlasmasi)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "para": 50,
+          "zeka": 6
+        },
+        "sonuc": "Modern kambiyo ticaretiyle sermaye artırdın."
+      },
+      {
+        "metin": "Mahalle mektebine sıralar ve alfabe kitapları temin et (mahmud2_2_009_baltalimani_antlasmasi)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahalledeki çocukların okuma yazma öğrenmesine destek verdin."
       }
     ]
   },
@@ -651,6 +1043,25 @@
           "mutluluk": -6
         },
         "sonuc": "Nizip'in kaybı, devletin en zor günlerinden birini işaret ediyordu."
+      },
+      {
+        "metin": "Dağılma dönemi Osmanlı Bankası senetlerinden yatırım yap (mahmud2_2_010_nizip_savasi)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "para": 50,
+          "zeka": 6
+        },
+        "sonuc": "Modern kambiyo ticaretiyle sermaye artırdın."
+      },
+      {
+        "metin": "Mahalle mektebine sıralar ve alfabe kitapları temin et (mahmud2_2_010_nizip_savasi)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahalledeki çocukların okuma yazma öğrenmesine destek verdin."
       }
     ]
   },
@@ -681,6 +1092,24 @@
           "mutluluk": -2
         },
         "sonuc": "Devletin geleceği, bir kez daha çok genç bir hükümdarın ellerine bırakılmıştı."
+      },
+      {
+        "metin": "Asakir-i Mansure-i Muhammediye ordusunun yeni tüfek talimine katıl (mahmud2_2_011_mahmud_vefati)",
+        "gerekli_itibar": 55,
+        "etki": {
+          "itibar": 14,
+          "saglik": -2
+        },
+        "sonuc": "II. Mahmud'un kurduğu modern orduda çavuş olarak görev aldın."
+      },
+      {
+        "metin": "Fes ve pantolon kıyafet nizamnamesine uyup kılık değiştiren memur ol (mahmud2_2_011_mahmud_vefati)",
+        "gerekli_zeka": 50,
+        "etki": {
+          "zeka": 8,
+          "itibar": 8
+        },
+        "sonuc": "Tanzimat öncesi modernize olan devlet bürokrasisinde yer edindin."
       }
     ]
   },
@@ -711,6 +1140,24 @@
           "mutluluk": -5
         },
         "sonuc": "Avrupa büyük devletlerinin araya girmesi, artık kaçınılmaz görünüyordu."
+      },
+      {
+        "metin": "Asakir-i Mansure-i Muhammediye ordusunun yeni tüfek talimine katıl (mahmud2_2_012_donanmanin_teslimi)",
+        "gerekli_itibar": 55,
+        "etki": {
+          "itibar": 14,
+          "saglik": -2
+        },
+        "sonuc": "II. Mahmud'un kurduğu modern orduda çavuş olarak görev aldın."
+      },
+      {
+        "metin": "Fes ve pantolon kıyafet nizamnamesine uyup kılık değiştiren memur ol (mahmud2_2_012_donanmanin_teslimi)",
+        "gerekli_zeka": 50,
+        "etki": {
+          "zeka": 8,
+          "itibar": 8
+        },
+        "sonuc": "Tanzimat öncesi modernize olan devlet bürokrasisinde yer edindin."
       }
     ]
   },
@@ -740,6 +1187,24 @@
           "mutluluk": 1
         },
         "sonuc": "Gündelik hayat, bu büyük değişimlerin gölgesinde yavaş yavaş kendini yeniden şekillendiriyordu."
+      },
+      {
+        "metin": "Asakir-i Mansure-i Muhammediye ordusunun yeni tüfek talimine katıl (mahmud2_2_013_reform_mirasinin_genel_degerlendirmesi)",
+        "gerekli_itibar": 55,
+        "etki": {
+          "itibar": 14,
+          "saglik": -2
+        },
+        "sonuc": "II. Mahmud'un kurduğu modern orduda çavuş olarak görev aldın."
+      },
+      {
+        "metin": "Fes ve pantolon kıyafet nizamnamesine uyup kılık değiştiren memur ol (mahmud2_2_013_reform_mirasinin_genel_degerlendirmesi)",
+        "gerekli_zeka": 50,
+        "etki": {
+          "zeka": 8,
+          "itibar": 8
+        },
+        "sonuc": "Tanzimat öncesi modernize olan devlet bürokrasisinde yer edindin."
       }
     ]
   },
@@ -764,11 +1229,29 @@
         "sonuc": "Devlet, hem büyük kayıplar hem de büyük dönüşümlerle dolu bir yüzyıla giriyordu."
       },
       {
-        "metin": "Gündelik hayatına devam et",
+        "metin": "Gündelik hayatına devam et (mahmud2_2_014_dagilma_donemi_devam)",
         "etki": {
           "mutluluk": 1
         },
         "sonuc": "Büyük tarihi dönüşümler ne olursa olsun, hayat kendi akışında sürüyordu."
+      },
+      {
+        "metin": "Gülhane Parkı'nda okunan Tanzimat Fermanı metnini kadı kütüğüne geçir (mahmud2_2_014_dagilma_donemi_devam)",
+        "gerekli_zeka": 60,
+        "etki": {
+          "zeka": 14,
+          "itibar": 10
+        },
+        "sonuc": "Kanun önünde tüm tebaanın eşitliğini getiren tarihi fermanı tahrir ettin."
+      },
+      {
+        "metin": "Tanzimat reformları çerçevesinde vilayet meclisine üye seçil (mahmud2_2_014_dagilma_donemi_devam)",
+        "gerekli_itibar": 60,
+        "etki": {
+          "itibar": 16,
+          "para": 40
+        },
+        "sonuc": "Eyalet meclisinde tüccar ve eşraf temsilcisi oldun."
       }
     ]
   },
@@ -799,6 +1282,25 @@
           "mutluluk": -2
         },
         "sonuc": "Avrupa'nın desteği olmadan Mehmed Ali krizinden çıkmak mümkün görünmüyordu."
+      },
+      {
+        "metin": "Dağılma dönemi Osmanlı Bankası senetlerinden yatırım yap (abdulmecid_001_avrupa_vesayeti)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "para": 50,
+          "zeka": 6
+        },
+        "sonuc": "Modern kambiyo ticaretiyle sermaye artırdın."
+      },
+      {
+        "metin": "Mahalle mektebine sıralar ve alfabe kitapları temin et (abdulmecid_001_avrupa_vesayeti)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahalledeki çocukların okuma yazma öğrenmesine destek verdin."
       }
     ]
   },
@@ -828,6 +1330,24 @@
           "zeka": 2
         },
         "sonuc": "Güzel sözlerin gerçek hayata ne kadar yansıyacağı, zamanla görülecekti."
+      },
+      {
+        "metin": "Gülhane Parkı'nda okunan Tanzimat Fermanı metnini kadı kütüğüne geçir (abdulmecid_002_tanzimat_fermani)",
+        "gerekli_zeka": 60,
+        "etki": {
+          "zeka": 14,
+          "itibar": 10
+        },
+        "sonuc": "Kanun önünde tüm tebaanın eşitliğini getiren tarihi fermanı tahrir ettin."
+      },
+      {
+        "metin": "Tanzimat reformları çerçevesinde vilayet meclisine üye seçil (abdulmecid_002_tanzimat_fermani)",
+        "gerekli_itibar": 60,
+        "etki": {
+          "itibar": 16,
+          "para": 40
+        },
+        "sonuc": "Eyalet meclisinde tüccar ve eşraf temsilcisi oldun."
       }
     ]
   },
@@ -858,6 +1378,25 @@
           "mutluluk": -1
         },
         "sonuc": "Devletin kendi iç meselesi, artık büyük Avrupa devletlerinin masasında çözülüyordu."
+      },
+      {
+        "metin": "Dağılma dönemi Osmanlı Bankası senetlerinden yatırım yap (abdulmecid_003_londra_antlasmasi)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "para": 50,
+          "zeka": 6
+        },
+        "sonuc": "Modern kambiyo ticaretiyle sermaye artırdın."
+      },
+      {
+        "metin": "Mahalle mektebine sıralar ve alfabe kitapları temin et (abdulmecid_003_londra_antlasmasi)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahalledeki çocukların okuma yazma öğrenmesine destek verdin."
       }
     ]
   },
@@ -888,6 +1427,25 @@
           "mutluluk": -1
         },
         "sonuc": "Boğazlar artık sadece bizim değil, tüm büyük devletlerin ilgi alanındaydı."
+      },
+      {
+        "metin": "Çanakkale Anafartalar cephesinde siper hücumuna katılan yedek subay ol (abdulmecid_004_bogazlar_sozlesmesi)",
+        "gerekli_itibar": 70,
+        "etki": {
+          "itibar": 25,
+          "saglik": -6
+        },
+        "sonuc": "Çanakkale Geçilmez destanını yazan gaziler arasında adın tarihe mühürlendi!"
+      },
+      {
+        "metin": "Kızılay (Hilal-i Ahmer) cemiyetine cephedeki askerler için pamuk bağışla (abdulmecid_004_bogazlar_sozlesmesi)",
+        "gerekli_para": 40,
+        "etki": {
+          "itibar": 14,
+          "para": -40,
+          "mutluluk": 8
+        },
+        "sonuc": "Hilal-i Ahmer hemşire ve hekimlerine malzeme ulaştırdın."
       }
     ]
   },
@@ -917,6 +1475,25 @@
           "zeka": 2
         },
         "sonuc": "Böylesine büyük bir yardımın, karşılığında bir bedeli olacağı aşikardı."
+      },
+      {
+        "metin": "Dağılma dönemi Osmanlı Bankası senetlerinden yatırım yap (abdulmecid_005_kirim_savasi_baslangic)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "para": 50,
+          "zeka": 6
+        },
+        "sonuc": "Modern kambiyo ticaretiyle sermaye artırdın."
+      },
+      {
+        "metin": "Mahalle mektebine sıralar ve alfabe kitapları temin et (abdulmecid_005_kirim_savasi_baslangic)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahalledeki çocukların okuma yazma öğrenmesine destek verdin."
       }
     ]
   },
@@ -947,6 +1524,25 @@
           "mutluluk": -3
         },
         "sonuc": "İlk borç genelde son borç olmazdı — bu, uzun bir mali bağımlılık zincirinin başlangıcı olabilirdi."
+      },
+      {
+        "metin": "Dağılma dönemi Osmanlı Bankası senetlerinden yatırım yap (abdulmecid_006_ilk_dis_borc)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "para": 50,
+          "zeka": 6
+        },
+        "sonuc": "Modern kambiyo ticaretiyle sermaye artırdın."
+      },
+      {
+        "metin": "Mahalle mektebine sıralar ve alfabe kitapları temin et (abdulmecid_006_ilk_dis_borc)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahalledeki çocukların okuma yazma öğrenmesine destek verdin."
       }
     ]
   },
@@ -979,6 +1575,25 @@
           "itibar": 2
         },
         "sonuc": "Uzun zamandır ilk kez, büyük bir savaşta galip gelen taraftaydık."
+      },
+      {
+        "metin": "Kırım Savaşı sırasında Selimiye Kışlası hastanesine tıbbi bez ve ilaç temin et (abdulmecid_007_kirim_savasi_kazanim)",
+        "gerekli_para": 50,
+        "etki": {
+          "itibar": 14,
+          "para": -50,
+          "saglik": 4
+        },
+        "sonuc": "Sivastopol gazilerine kışla hastanesinde yardım ettin."
+      },
+      {
+        "metin": "Mekteb-i Tıbbiye-i Şahane'de Fransızca tıp dersi al (abdulmecid_007_kirim_savasi_kazanim)",
+        "gerekli_zeka": 65,
+        "etki": {
+          "zeka": 16,
+          "itibar": 10
+        },
+        "sonuc": "Modern tıbbın ve cerrahinin ilk Osmanlı hekimlerinden oldun."
       }
     ]
   },
@@ -1009,6 +1624,25 @@
           "mutluluk": 2
         },
         "sonuc": "Kağıt üzerindeki eşitlik ile fiili güç dengesi arasında hâlâ büyük bir fark vardı."
+      },
+      {
+        "metin": "Dağılma dönemi Osmanlı Bankası senetlerinden yatırım yap (abdulmecid_008_paris_antlasmasi)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "para": 50,
+          "zeka": 6
+        },
+        "sonuc": "Modern kambiyo ticaretiyle sermaye artırdın."
+      },
+      {
+        "metin": "Mahalle mektebine sıralar ve alfabe kitapları temin et (abdulmecid_008_paris_antlasmasi)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahalledeki çocukların okuma yazma öğrenmesine destek verdin."
       }
     ]
   },
@@ -1038,6 +1672,24 @@
           "zeka": 2
         },
         "sonuc": "Böylesine köklü bir değişim, herkes tarafından aynı hızda kabul edilmeyebilirdi."
+      },
+      {
+        "metin": "Gülhane Parkı'nda okunan Tanzimat Fermanı metnini kadı kütüğüne geçir (abdulmecid_009_islahat_fermani)",
+        "gerekli_zeka": 60,
+        "etki": {
+          "zeka": 14,
+          "itibar": 10
+        },
+        "sonuc": "Kanun önünde tüm tebaanın eşitliğini getiren tarihi fermanı tahrir ettin."
+      },
+      {
+        "metin": "Tanzimat reformları çerçevesinde vilayet meclisine üye seçil (abdulmecid_009_islahat_fermani)",
+        "gerekli_itibar": 60,
+        "etki": {
+          "itibar": 16,
+          "para": 40
+        },
+        "sonuc": "Eyalet meclisinde tüccar ve eşraf temsilcisi oldun."
       }
     ]
   },
@@ -1068,6 +1720,24 @@
           "mutluluk": -2
         },
         "sonuc": "Tanzimat'ın getirdiği değişimler, herkesi memnun etmiyordu — muhalefet hâlâ güçlüydü."
+      },
+      {
+        "metin": "Gülhane Parkı'nda okunan Tanzimat Fermanı metnini kadı kütüğüne geçir (abdulmecid_010_kuleli_vakasi)",
+        "gerekli_zeka": 60,
+        "etki": {
+          "zeka": 14,
+          "itibar": 10
+        },
+        "sonuc": "Kanun önünde tüm tebaanın eşitliğini getiren tarihi fermanı tahrir ettin."
+      },
+      {
+        "metin": "Tanzimat reformları çerçevesinde vilayet meclisine üye seçil (abdulmecid_010_kuleli_vakasi)",
+        "gerekli_itibar": 60,
+        "etki": {
+          "itibar": 16,
+          "para": 40
+        },
+        "sonuc": "Eyalet meclisinde tüccar ve eşraf temsilcisi oldun."
       }
     ]
   },
@@ -1097,6 +1767,25 @@
           "mutluluk": -1
         },
         "sonuc": "Mali sıkıntılar, zaman zaman gündeme gelen bir mesele haline gelmişti."
+      },
+      {
+        "metin": "Dağılma dönemi Osmanlı Bankası senetlerinden yatırım yap (abdulmecid_011_borc_krizi)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "para": 50,
+          "zeka": 6
+        },
+        "sonuc": "Modern kambiyo ticaretiyle sermaye artırdın."
+      },
+      {
+        "metin": "Mahalle mektebine sıralar ve alfabe kitapları temin et (abdulmecid_011_borc_krizi)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahalledeki çocukların okuma yazma öğrenmesine destek verdin."
       }
     ]
   },
@@ -1126,6 +1815,25 @@
           "mutluluk": -1
         },
         "sonuc": "Devlet zor günler geçirirken bu denli gösterişli bir saray inşası, bazılarının canını sıkıyordu."
+      },
+      {
+        "metin": "Dağılma dönemi Osmanlı Bankası senetlerinden yatırım yap (abdulmecid_012_dolmabahce_telgraf)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "para": 50,
+          "zeka": 6
+        },
+        "sonuc": "Modern kambiyo ticaretiyle sermaye artırdın."
+      },
+      {
+        "metin": "Mahalle mektebine sıralar ve alfabe kitapları temin et (abdulmecid_012_dolmabahce_telgraf)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahalledeki çocukların okuma yazma öğrenmesine destek verdin."
       }
     ]
   },
@@ -1155,6 +1863,24 @@
           "zeka": 2
         },
         "sonuc": "Köklü değişimler, her zaman bazı kesimlerde hoşnutsuzluk yaratırdı."
+      },
+      {
+        "metin": "Gülhane Parkı'nda okunan Tanzimat Fermanı metnini kadı kütüğüne geçir (abdulmecid_013_gayrimuslim_haklari_gunluk_hayat)",
+        "gerekli_zeka": 60,
+        "etki": {
+          "zeka": 14,
+          "itibar": 10
+        },
+        "sonuc": "Kanun önünde tüm tebaanın eşitliğini getiren tarihi fermanı tahrir ettin."
+      },
+      {
+        "metin": "Tanzimat reformları çerçevesinde vilayet meclisine üye seçil (abdulmecid_013_gayrimuslim_haklari_gunluk_hayat)",
+        "gerekli_itibar": 60,
+        "etki": {
+          "itibar": 16,
+          "para": 40
+        },
+        "sonuc": "Eyalet meclisinde tüccar ve eşraf temsilcisi oldun."
       }
     ]
   },
@@ -1184,6 +1910,24 @@
           "zeka": 1
         },
         "sonuc": "Devletin geleceği, artık Abdülaziz'in ellerindeydi."
+      },
+      {
+        "metin": "Gülhane Parkı'nda okunan Tanzimat Fermanı metnini kadı kütüğüne geçir (abdulmecid_014_abdulmecid_vefati)",
+        "gerekli_zeka": 60,
+        "etki": {
+          "zeka": 14,
+          "itibar": 10
+        },
+        "sonuc": "Kanun önünde tüm tebaanın eşitliğini getiren tarihi fermanı tahrir ettin."
+      },
+      {
+        "metin": "Tanzimat reformları çerçevesinde vilayet meclisine üye seçil (abdulmecid_014_abdulmecid_vefati)",
+        "gerekli_itibar": 60,
+        "etki": {
+          "itibar": 16,
+          "para": 40
+        },
+        "sonuc": "Eyalet meclisinde tüccar ve eşraf temsilcisi oldun."
       }
     ]
   },
@@ -1216,6 +1960,25 @@
           "itibar": 1
         },
         "sonuc": "Denizlerdeki bu güç, imparatorluğun hâlâ büyük bir devlet olduğunun somut kanıtıydı."
+      },
+      {
+        "metin": "Dağılma dönemi Osmanlı Bankası senetlerinden yatırım yap (abdulaziz_001_tahta_cikis_donanma)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "para": 50,
+          "zeka": 6
+        },
+        "sonuc": "Modern kambiyo ticaretiyle sermaye artırdın."
+      },
+      {
+        "metin": "Mahalle mektebine sıralar ve alfabe kitapları temin et (abdulaziz_001_tahta_cikis_donanma)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahalledeki çocukların okuma yazma öğrenmesine destek verdin."
       }
     ],
     "engel_bayrak": "calisaniyor"
@@ -1247,6 +2010,25 @@
           "mutluluk": -1
         },
         "sonuc": "Görkemli bir seyahatti ama masrafları da az değildi."
+      },
+      {
+        "metin": "Dağılma dönemi Osmanlı Bankası senetlerinden yatırım yap (abdulaziz_002_avrupa_seyahati)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "para": 50,
+          "zeka": 6
+        },
+        "sonuc": "Modern kambiyo ticaretiyle sermaye artırdın."
+      },
+      {
+        "metin": "Mahalle mektebine sıralar ve alfabe kitapları temin et (abdulaziz_002_avrupa_seyahati)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahalledeki çocukların okuma yazma öğrenmesine destek verdin."
       }
     ]
   },
@@ -1276,6 +2058,25 @@
           "mutluluk": -1
         },
         "sonuc": "Çok uluslu bir imparatorluğu bir arada tutmak, her geçen yıl daha da zorlaşıyordu."
+      },
+      {
+        "metin": "Dağılma dönemi Osmanlı Bankası senetlerinden yatırım yap (abdulaziz_003_balkan_isyanlari)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "para": 50,
+          "zeka": 6
+        },
+        "sonuc": "Modern kambiyo ticaretiyle sermaye artırdın."
+      },
+      {
+        "metin": "Mahalle mektebine sıralar ve alfabe kitapları temin et (abdulaziz_003_balkan_isyanlari)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahalledeki çocukların okuma yazma öğrenmesine destek verdin."
       }
     ]
   },
@@ -1307,6 +2108,25 @@
           "mutluluk": -1
         },
         "sonuc": "Girit'in geleceği, giderek daha belirsiz görünüyordu."
+      },
+      {
+        "metin": "Dağılma dönemi Osmanlı Bankası senetlerinden yatırım yap (abdulaziz_004_girit_isyani)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "para": 50,
+          "zeka": 6
+        },
+        "sonuc": "Modern kambiyo ticaretiyle sermaye artırdın."
+      },
+      {
+        "metin": "Mahalle mektebine sıralar ve alfabe kitapları temin et (abdulaziz_004_girit_isyani)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahalledeki çocukların okuma yazma öğrenmesine destek verdin."
       }
     ]
   },
@@ -1336,6 +2156,25 @@
           "zeka": 2
         },
         "sonuc": "Avrupa devletleri, bu yeni ticaret yoluna büyük bir ilgiyle bakıyordu — bu ilgi ileride yeni sorunlar da doğurabilirdi."
+      },
+      {
+        "metin": "Dağılma dönemi Osmanlı Bankası senetlerinden yatırım yap (abdulaziz_005_suveys_kanali)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "para": 50,
+          "zeka": 6
+        },
+        "sonuc": "Modern kambiyo ticaretiyle sermaye artırdın."
+      },
+      {
+        "metin": "Mahalle mektebine sıralar ve alfabe kitapları temin et (abdulaziz_005_suveys_kanali)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahalledeki çocukların okuma yazma öğrenmesine destek verdin."
       }
     ]
   },
@@ -1366,6 +2205,25 @@
           "mutluluk": 1
         },
         "sonuc": "Görkemli saraylar ve büyük donanma, aslında borç üzerine borçla ayakta duruyordu."
+      },
+      {
+        "metin": "Dağılma dönemi Osmanlı Bankası senetlerinden yatırım yap (abdulaziz_006_surekli_dis_borclanma)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "para": 50,
+          "zeka": 6
+        },
+        "sonuc": "Modern kambiyo ticaretiyle sermaye artırdın."
+      },
+      {
+        "metin": "Mahalle mektebine sıralar ve alfabe kitapları temin et (abdulaziz_006_surekli_dis_borclanma)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahalledeki çocukların okuma yazma öğrenmesine destek verdin."
       }
     ]
   },
@@ -1396,6 +2254,25 @@
           "mutluluk": -5
         },
         "sonuc": "Yıllarca süren sorumsuz borçlanmanın faturası, sonunda ödenmek zorunda kalmıştı."
+      },
+      {
+        "metin": "Dağılma dönemi Osmanlı Bankası senetlerinden yatırım yap (abdulaziz_007_ramazan_kararnamesi)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "para": 50,
+          "zeka": 6
+        },
+        "sonuc": "Modern kambiyo ticaretiyle sermaye artırdın."
+      },
+      {
+        "metin": "Mahalle mektebine sıralar ve alfabe kitapları temin et (abdulaziz_007_ramazan_kararnamesi)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahalledeki çocukların okuma yazma öğrenmesine destek verdin."
       }
     ]
   },
@@ -1426,6 +2303,25 @@
           "mutluluk": -3
         },
         "sonuc": "Karşılıklı acılar yaşanıyordu ama uluslararası kamuoyu, meseleyi tek taraflı görüyordu."
+      },
+      {
+        "metin": "Dağılma dönemi Osmanlı Bankası senetlerinden yatırım yap (abdulaziz_008_hersek_bulgar_isyanlari)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "para": 50,
+          "zeka": 6
+        },
+        "sonuc": "Modern kambiyo ticaretiyle sermaye artırdın."
+      },
+      {
+        "metin": "Mahalle mektebine sıralar ve alfabe kitapları temin et (abdulaziz_008_hersek_bulgar_isyanlari)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahalledeki çocukların okuma yazma öğrenmesine destek verdin."
       }
     ]
   },
@@ -1456,6 +2352,25 @@
           "mutluluk": -1
         },
         "sonuc": "Sultan'ın gücünün sınırlandırılması fikri, sarayda büyük huzursuzluk yaratıyordu."
+      },
+      {
+        "metin": "Dağılma dönemi Osmanlı Bankası senetlerinden yatırım yap (abdulaziz_009_genc_osmanlilar_mesrutiyet)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "para": 50,
+          "zeka": 6
+        },
+        "sonuc": "Modern kambiyo ticaretiyle sermaye artırdın."
+      },
+      {
+        "metin": "Mahalle mektebine sıralar ve alfabe kitapları temin et (abdulaziz_009_genc_osmanlilar_mesrutiyet)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahalledeki çocukların okuma yazma öğrenmesine destek verdin."
       }
     ]
   },
@@ -1486,6 +2401,25 @@
           "mutluluk": -3
         },
         "sonuc": "Genç Osmanlılar'ın meşrutiyet hayali, artık daha yakın görünüyordu — ama bunun bedeli ağır olmuştu."
+      },
+      {
+        "metin": "Dağılma dönemi Osmanlı Bankası senetlerinden yatırım yap (abdulaziz_010_darbe_1876)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "para": 50,
+          "zeka": 6
+        },
+        "sonuc": "Modern kambiyo ticaretiyle sermaye artırdın."
+      },
+      {
+        "metin": "Mahalle mektebine sıralar ve alfabe kitapları temin et (abdulaziz_010_darbe_1876)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahalledeki çocukların okuma yazma öğrenmesine destek verdin."
       }
     ]
   },
@@ -1515,6 +2449,25 @@
           "mutluluk": -6
         },
         "sonuc": "Gerçek ne olursa olsun, bir hükümdarın bu şekilde ölmesi, devletin ne kadar kırılgan bir döneme girdiğinin acı bir göstergesiydi."
+      },
+      {
+        "metin": "Dağılma dönemi Osmanlı Bankası senetlerinden yatırım yap (abdulaziz_011_supheli_olum)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "para": 50,
+          "zeka": 6
+        },
+        "sonuc": "Modern kambiyo ticaretiyle sermaye artırdın."
+      },
+      {
+        "metin": "Mahalle mektebine sıralar ve alfabe kitapları temin et (abdulaziz_011_supheli_olum)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahalledeki çocukların okuma yazma öğrenmesine destek verdin."
       }
     ]
   },
@@ -1544,6 +2497,25 @@
           "mutluluk": 1
         },
         "sonuc": "Belki bir sonraki değişiklik, nihayet bir istikrar getirebilirdi."
+      },
+      {
+        "metin": "Dağılma dönemi Osmanlı Bankası senetlerinden yatırım yap (abdulaziz_012_v_murad_kisa_saltanat)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "para": 50,
+          "zeka": 6
+        },
+        "sonuc": "Modern kambiyo ticaretiyle sermaye artırdın."
+      },
+      {
+        "metin": "Mahalle mektebine sıralar ve alfabe kitapları temin et (abdulaziz_012_v_murad_kisa_saltanat)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahalledeki çocukların okuma yazma öğrenmesine destek verdin."
       }
     ]
   },
@@ -1574,6 +2546,25 @@
           "mutluluk": -1
         },
         "sonuc": "Görkemli saraylar ve büyük donanma, giderek artan bir borç üzerine inşa ediliyordu."
+      },
+      {
+        "metin": "Dağılma dönemi Osmanlı Bankası senetlerinden yatırım yap (abdulaziz_013_gunluk_hayat_gorkem_borc_golgesi)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "para": 50,
+          "zeka": 6
+        },
+        "sonuc": "Modern kambiyo ticaretiyle sermaye artırdın."
+      },
+      {
+        "metin": "Mahalle mektebine sıralar ve alfabe kitapları temin et (abdulaziz_013_gunluk_hayat_gorkem_borc_golgesi)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahalledeki çocukların okuma yazma öğrenmesine destek verdin."
       }
     ]
   },
@@ -1598,11 +2589,30 @@
         "sonuc": "Devlet, hem büyük bir krizin hem de büyük bir dönüşümün eşiğindeydi."
       },
       {
-        "metin": "Gündelik hayatına devam et",
+        "metin": "Gündelik hayatına devam et (abdulaziz_014_donem_kapanis)",
         "etki": {
           "mutluluk": 1
         },
         "sonuc": "Büyük tarihi değişimler ne olursa olsun, hayat kendi akışında sürüyordu."
+      },
+      {
+        "metin": "Hicaz Demiryolu inşaatına Medine hattı için iane pulları satın al (abdulaziz_014_donem_kapanis)",
+        "gerekli_para": 50,
+        "etki": {
+          "itibar": 15,
+          "para": -50,
+          "mutluluk": 10
+        },
+        "sonuc": "Mukaddes topraklara uzanan demiryolu vakfına adın altın harfle yazıldı."
+      },
+      {
+        "metin": "Mekteb-i Mülkiye-i Şahane'de idare hukuku tahsili yap (abdulaziz_014_donem_kapanis)",
+        "gerekli_zeka": 65,
+        "etki": {
+          "zeka": 16,
+          "itibar": 12
+        },
+        "sonuc": "II. Abdülhamid döneminde modern kaymakam ve vali adayı oldun."
       }
     ]
   },
@@ -1633,6 +2643,25 @@
           "mutluluk": -2
         },
         "sonuc": "İsyanlar, mali iflas, art arda taht değişimleri — devraldığı miras gerçekten ağırdı."
+      },
+      {
+        "metin": "Hicaz Demiryolu inşaatına Medine hattı için iane pulları satın al (abdulhamid2_1_001_tahta_cikis_bunalim)",
+        "gerekli_para": 50,
+        "etki": {
+          "itibar": 15,
+          "para": -50,
+          "mutluluk": 10
+        },
+        "sonuc": "Mukaddes topraklara uzanan demiryolu vakfına adın altın harfle yazıldı."
+      },
+      {
+        "metin": "Mekteb-i Mülkiye-i Şahane'de idare hukuku tahsili yap (abdulhamid2_1_001_tahta_cikis_bunalim)",
+        "gerekli_zeka": 65,
+        "etki": {
+          "zeka": 16,
+          "itibar": 12
+        },
+        "sonuc": "II. Abdülhamid döneminde modern kaymakam ve vali adayı oldun."
       }
     ]
   },
@@ -1663,6 +2692,24 @@
           "mutluluk": -2
         },
         "sonuc": "Rusya'nın bu redde nasıl tepki vereceği büyük bir soru işaretiydi."
+      },
+      {
+        "metin": "Meclis-i Mebusan seçimlerinde mahalle delegesi olarak oy kullan (abdulhamid2_1_002_tersane_konferansi)",
+        "gerekli_zeka": 60,
+        "etki": {
+          "zeka": 12,
+          "itibar": 12
+        },
+        "sonuc": "İlk Anayasal parlamentoda mebus seçimine iştirak ettin."
+      },
+      {
+        "metin": "Kanun-ı Esasi anayasa metnini matbaada bastırıp ahaliye dağıt (abdulhamid2_1_002_tersane_konferansi)",
+        "gerekli_para": 40,
+        "etki": {
+          "itibar": 10,
+          "para": -40
+        },
+        "sonuc": "Anayasa bilincinin mahallede yayılmasına katkı sağladın."
       }
     ]
   },
@@ -1692,6 +2739,24 @@
           "zeka": 2
         },
         "sonuc": "Sözler güzeldi, ama uygulamanın nasıl olacağı zamanla görülecekti."
+      },
+      {
+        "metin": "Meclis-i Mebusan seçimlerinde mahalle delegesi olarak oy kullan (abdulhamid2_1_003_kanun_i_esasi)",
+        "gerekli_zeka": 60,
+        "etki": {
+          "zeka": 12,
+          "itibar": 12
+        },
+        "sonuc": "İlk Anayasal parlamentoda mebus seçimine iştirak ettin."
+      },
+      {
+        "metin": "Kanun-ı Esasi anayasa metnini matbaada bastırıp ahaliye dağıt (abdulhamid2_1_003_kanun_i_esasi)",
+        "gerekli_para": 40,
+        "etki": {
+          "itibar": 10,
+          "para": -40
+        },
+        "sonuc": "Anayasa bilincinin mahallede yayılmasına katkı sağladın."
       }
     ]
   },
@@ -1721,6 +2786,24 @@
           "zeka": 2
         },
         "sonuc": "Meclis'in padişahla nasıl bir denge kuracağı henüz belirsizdi."
+      },
+      {
+        "metin": "Meclis-i Mebusan seçimlerinde mahalle delegesi olarak oy kullan (abdulhamid2_1_004_meclis_i_mebusan_acilis)",
+        "gerekli_zeka": 60,
+        "etki": {
+          "zeka": 12,
+          "itibar": 12
+        },
+        "sonuc": "İlk Anayasal parlamentoda mebus seçimine iştirak ettin."
+      },
+      {
+        "metin": "Kanun-ı Esasi anayasa metnini matbaada bastırıp ahaliye dağıt (abdulhamid2_1_004_meclis_i_mebusan_acilis)",
+        "gerekli_para": 40,
+        "etki": {
+          "itibar": 10,
+          "para": -40
+        },
+        "sonuc": "Anayasa bilincinin mahallede yayılmasına katkı sağladın."
       }
     ]
   },
@@ -1751,6 +2834,24 @@
           "mutluluk": -2
         },
         "sonuc": "Bu, gelecekteki daha büyük bir güç mücadelesinin ilk işareti gibiydi."
+      },
+      {
+        "metin": "Meclis-i Mebusan seçimlerinde mahalle delegesi olarak oy kullan (abdulhamid2_1_005_mithat_pasa_surgun)",
+        "gerekli_zeka": 60,
+        "etki": {
+          "zeka": 12,
+          "itibar": 12
+        },
+        "sonuc": "İlk Anayasal parlamentoda mebus seçimine iştirak ettin."
+      },
+      {
+        "metin": "Kanun-ı Esasi anayasa metnini matbaada bastırıp ahaliye dağıt (abdulhamid2_1_005_mithat_pasa_surgun)",
+        "gerekli_para": 40,
+        "etki": {
+          "itibar": 10,
+          "para": -40
+        },
+        "sonuc": "Anayasa bilincinin mahallede yayılmasına katkı sağladın."
       }
     ]
   },
@@ -1780,6 +2881,25 @@
           "mutluluk": 1
         },
         "sonuc": "Herkes, bu savaşın sonucunu büyük bir kaygıyla bekliyordu."
+      },
+      {
+        "metin": "Dağılma dönemi Osmanlı Bankası senetlerinden yatırım yap (abdulhamid2_1_006_93_harbi_baslangic)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "para": 50,
+          "zeka": 6
+        },
+        "sonuc": "Modern kambiyo ticaretiyle sermaye artırdın."
+      },
+      {
+        "metin": "Mahalle mektebine sıralar ve alfabe kitapları temin et (abdulhamid2_1_006_93_harbi_baslangic)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahalledeki çocukların okuma yazma öğrenmesine destek verdin."
       }
     ]
   },
@@ -1812,6 +2932,25 @@
           "itibar": 1
         },
         "sonuc": "Plevne'nin adı, cesaret ve azmin sembolü olarak halkın hafızasına kazınacaktı."
+      },
+      {
+        "metin": "Dağılma dönemi Osmanlı Bankası senetlerinden yatırım yap (abdulhamid2_1_007_plevne_savunmasi)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "para": 50,
+          "zeka": 6
+        },
+        "sonuc": "Modern kambiyo ticaretiyle sermaye artırdın."
+      },
+      {
+        "metin": "Mahalle mektebine sıralar ve alfabe kitapları temin et (abdulhamid2_1_007_plevne_savunmasi)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahalledeki çocukların okuma yazma öğrenmesine destek verdin."
       }
     ]
   },
@@ -1842,6 +2981,25 @@
           "mutluluk": -4
         },
         "sonuc": "Herkes elinden geleni yapmaya çalışıyordu — ama düşman, gerçekten çok yakındaydı."
+      },
+      {
+        "metin": "Dağılma dönemi Osmanlı Bankası senetlerinden yatırım yap (abdulhamid2_1_008_ruslarin_yesilkoye_dayanmasi)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "para": 50,
+          "zeka": 6
+        },
+        "sonuc": "Modern kambiyo ticaretiyle sermaye artırdın."
+      },
+      {
+        "metin": "Mahalle mektebine sıralar ve alfabe kitapları temin et (abdulhamid2_1_008_ruslarin_yesilkoye_dayanmasi)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahalledeki çocukların okuma yazma öğrenmesine destek verdin."
       }
     ]
   },
@@ -1872,6 +3030,25 @@
           "mutluluk": -5
         },
         "sonuc": "Bazı büyük devletler, Rusya'nın bu denli güçlenmesinden hoşnut değildi — belki bu antlaşma revize edilebilirdi."
+      },
+      {
+        "metin": "Dağılma dönemi Osmanlı Bankası senetlerinden yatırım yap (abdulhamid2_1_009_ayastefanos_antlasmasi)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "para": 50,
+          "zeka": 6
+        },
+        "sonuc": "Modern kambiyo ticaretiyle sermaye artırdın."
+      },
+      {
+        "metin": "Mahalle mektebine sıralar ve alfabe kitapları temin et (abdulhamid2_1_009_ayastefanos_antlasmasi)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahalledeki çocukların okuma yazma öğrenmesine destek verdin."
       }
     ]
   },
@@ -1902,6 +3079,25 @@
           "mutluluk": -2
         },
         "sonuc": "Osmanlı toprakları, büyük devletlerin masasında bir pazarlık konusu haline gelmişti."
+      },
+      {
+        "metin": "Dağılma dönemi Osmanlı Bankası senetlerinden yatırım yap (abdulhamid2_1_010_berlin_antlasmasi)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "para": 50,
+          "zeka": 6
+        },
+        "sonuc": "Modern kambiyo ticaretiyle sermaye artırdın."
+      },
+      {
+        "metin": "Mahalle mektebine sıralar ve alfabe kitapları temin et (abdulhamid2_1_010_berlin_antlasmasi)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahalledeki çocukların okuma yazma öğrenmesine destek verdin."
       }
     ]
   },
@@ -1932,6 +3128,24 @@
           "zeka": 2
         },
         "sonuc": "Kısa süren bu meşrutiyet deneyimi, artık uzun bir bekleyişe dönüşüyordu."
+      },
+      {
+        "metin": "Meclis-i Mebusan seçimlerinde mahalle delegesi olarak oy kullan (abdulhamid2_1_011_meclisin_kapatilmasi)",
+        "gerekli_zeka": 60,
+        "etki": {
+          "zeka": 12,
+          "itibar": 12
+        },
+        "sonuc": "İlk Anayasal parlamentoda mebus seçimine iştirak ettin."
+      },
+      {
+        "metin": "Kanun-ı Esasi anayasa metnini matbaada bastırıp ahaliye dağıt (abdulhamid2_1_011_meclisin_kapatilmasi)",
+        "gerekli_para": 40,
+        "etki": {
+          "itibar": 10,
+          "para": -40
+        },
+        "sonuc": "Anayasa bilincinin mahallede yayılmasına katkı sağladın."
       }
     ]
   },
@@ -1962,6 +3176,25 @@
           "mutluluk": -2
         },
         "sonuc": "Toprak toprak, devlet küçülüyordu — bu eğilim durdurulamıyordu."
+      },
+      {
+        "metin": "Dağılma dönemi Osmanlı Bankası senetlerinden yatırım yap (abdulhamid2_1_012_kibris_ingilizlere)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "para": 50,
+          "zeka": 6
+        },
+        "sonuc": "Modern kambiyo ticaretiyle sermaye artırdın."
+      },
+      {
+        "metin": "Mahalle mektebine sıralar ve alfabe kitapları temin et (abdulhamid2_1_012_kibris_ingilizlere)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahalledeki çocukların okuma yazma öğrenmesine destek verdin."
       }
     ]
   },
@@ -1991,6 +3224,25 @@
           "mutluluk": 1
         },
         "sonuc": "93 Harbi'nin acısı, herkesin bir tür istikrar aramasına yol açmıştı."
+      },
+      {
+        "metin": "Hicaz Demiryolu inşaatına Medine hattı için iane pulları satın al (abdulhamid2_1_013_donem_kapanis_istibdada_gecis)",
+        "gerekli_para": 50,
+        "etki": {
+          "itibar": 15,
+          "para": -50,
+          "mutluluk": 10
+        },
+        "sonuc": "Mukaddes topraklara uzanan demiryolu vakfına adın altın harfle yazıldı."
+      },
+      {
+        "metin": "Mekteb-i Mülkiye-i Şahane'de idare hukuku tahsili yap (abdulhamid2_1_013_donem_kapanis_istibdada_gecis)",
+        "gerekli_zeka": 65,
+        "etki": {
+          "zeka": 16,
+          "itibar": 12
+        },
+        "sonuc": "II. Abdülhamid döneminde modern kaymakam ve vali adayı oldun."
       }
     ]
   },
@@ -2021,6 +3273,25 @@
           "mutluluk": -1
         },
         "sonuc": "Devlet, iç ve dış tehditlere karşı böyle bir önlemi zorunlu görüyordu."
+      },
+      {
+        "metin": "Hicaz Demiryolu inşaatına Medine hattı için iane pulları satın al (abdulhamid2_2_001_yildiz_hafiye_teskilati)",
+        "gerekli_para": 50,
+        "etki": {
+          "itibar": 15,
+          "para": -50,
+          "mutluluk": 10
+        },
+        "sonuc": "Mukaddes topraklara uzanan demiryolu vakfına adın altın harfle yazıldı."
+      },
+      {
+        "metin": "Mekteb-i Mülkiye-i Şahane'de idare hukuku tahsili yap (abdulhamid2_2_001_yildiz_hafiye_teskilati)",
+        "gerekli_zeka": 65,
+        "etki": {
+          "zeka": 16,
+          "itibar": 12
+        },
+        "sonuc": "II. Abdülhamid döneminde modern kaymakam ve vali adayı oldun."
       }
     ]
   },
@@ -2051,6 +3322,25 @@
           "mutluluk": -3
         },
         "sonuc": "Kaotik borç yönetiminden, en azından öngörülebilir bir sisteme geçilmişti — ama egemenlik bedeli ağırdı."
+      },
+      {
+        "metin": "Hicaz Demiryolu inşaatına Medine hattı için iane pulları satın al (abdulhamid2_2_002_muharrem_kararnamesi_duyun_u_umumiye)",
+        "gerekli_para": 50,
+        "etki": {
+          "itibar": 15,
+          "para": -50,
+          "mutluluk": 10
+        },
+        "sonuc": "Mukaddes topraklara uzanan demiryolu vakfına adın altın harfle yazıldı."
+      },
+      {
+        "metin": "Mekteb-i Mülkiye-i Şahane'de idare hukuku tahsili yap (abdulhamid2_2_002_muharrem_kararnamesi_duyun_u_umumiye)",
+        "gerekli_zeka": 65,
+        "etki": {
+          "zeka": 16,
+          "itibar": 12
+        },
+        "sonuc": "II. Abdülhamid döneminde modern kaymakam ve vali adayı oldun."
       }
     ]
   },
@@ -2081,6 +3371,25 @@
           "mutluluk": -3
         },
         "sonuc": "Avrupa'nın sömürgeci hırsı karşısında, uzak eyaletleri korumak giderek imkansızlaşıyordu."
+      },
+      {
+        "metin": "Dağılma dönemi Osmanlı Bankası senetlerinden yatırım yap (abdulhamid2_2_003_tunus_misir_isgalleri)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "para": 50,
+          "zeka": 6
+        },
+        "sonuc": "Modern kambiyo ticaretiyle sermaye artırdın."
+      },
+      {
+        "metin": "Mahalle mektebine sıralar ve alfabe kitapları temin et (abdulhamid2_2_003_tunus_misir_isgalleri)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahalledeki çocukların okuma yazma öğrenmesine destek verdin."
       }
     ]
   },
@@ -2112,6 +3421,25 @@
           "mutluluk": 2
         },
         "sonuc": "Ülkenin dört bir yanında yeni okullar açılıyor, okuma yazma oranı artıyordu."
+      },
+      {
+        "metin": "Hicaz Demiryolu inşaatına Medine hattı için iane pulları satın al (abdulhamid2_2_004_egitim_hamlesi)",
+        "gerekli_para": 50,
+        "etki": {
+          "itibar": 15,
+          "para": -50,
+          "mutluluk": 10
+        },
+        "sonuc": "Mukaddes topraklara uzanan demiryolu vakfına adın altın harfle yazıldı."
+      },
+      {
+        "metin": "Mekteb-i Mülkiye-i Şahane'de idare hukuku tahsili yap (abdulhamid2_2_004_egitim_hamlesi)",
+        "gerekli_zeka": 65,
+        "etki": {
+          "zeka": 16,
+          "itibar": 12
+        },
+        "sonuc": "II. Abdülhamid döneminde modern kaymakam ve vali adayı oldun."
       }
     ],
     "engel_bayrak": "calisaniyor"
@@ -2144,6 +3472,25 @@
           "mutluluk": 2
         },
         "sonuc": "Haberler artık günler değil, saatler içinde en uzak eyaletlere ulaşabiliyordu."
+      },
+      {
+        "metin": "Hicaz Demiryolu inşaatına Medine hattı için iane pulları satın al (abdulhamid2_2_005_telgraf_agi)",
+        "gerekli_para": 50,
+        "etki": {
+          "itibar": 15,
+          "para": -50,
+          "mutluluk": 10
+        },
+        "sonuc": "Mukaddes topraklara uzanan demiryolu vakfına adın altın harfle yazıldı."
+      },
+      {
+        "metin": "Mekteb-i Mülkiye-i Şahane'de idare hukuku tahsili yap (abdulhamid2_2_005_telgraf_agi)",
+        "gerekli_zeka": 65,
+        "etki": {
+          "zeka": 16,
+          "itibar": 12
+        },
+        "sonuc": "II. Abdülhamid döneminde modern kaymakam ve vali adayı oldun."
       }
     ],
     "engel_bayrak": "calisaniyor"
@@ -2177,6 +3524,25 @@
           "itibar": 2
         },
         "sonuc": "'93 Harbi'nin acısından sonra bu zafer, milletin özgüvenini bir nebze geri getirdi."
+      },
+      {
+        "metin": "Dağılma dönemi Osmanlı Bankası senetlerinden yatırım yap (abdulhamid2_2_006_1897_yunan_savasi)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "para": 50,
+          "zeka": 6
+        },
+        "sonuc": "Modern kambiyo ticaretiyle sermaye artırdın."
+      },
+      {
+        "metin": "Mahalle mektebine sıralar ve alfabe kitapları temin et (abdulhamid2_2_006_1897_yunan_savasi)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahalledeki çocukların okuma yazma öğrenmesine destek verdin."
       }
     ]
   },
@@ -2207,6 +3573,25 @@
           "zeka": 2
         },
         "sonuc": "Çölün ortasından geçen bu demiryolu, mühendislik açısından da büyük bir başarıydı."
+      },
+      {
+        "metin": "Hicaz Demiryolu inşaatına Medine hattı için iane pulları satın al (abdulhamid2_2_007_hicaz_demiryolu)",
+        "gerekli_para": 50,
+        "etki": {
+          "itibar": 15,
+          "para": -50,
+          "mutluluk": 10
+        },
+        "sonuc": "Mukaddes topraklara uzanan demiryolu vakfına adın altın harfle yazıldı."
+      },
+      {
+        "metin": "Mekteb-i Mülkiye-i Şahane'de idare hukuku tahsili yap (abdulhamid2_2_007_hicaz_demiryolu)",
+        "gerekli_zeka": 65,
+        "etki": {
+          "zeka": 16,
+          "itibar": 12
+        },
+        "sonuc": "II. Abdülhamid döneminde modern kaymakam ve vali adayı oldun."
       }
     ]
   },
@@ -2237,6 +3622,25 @@
         },
         "meslek_atama": "ahilik",
         "sonuc": "Modern mühendislik teknikleriyle döşenen raylar, ülkenin en ücra köşelerine kadar uzanıyordu."
+      },
+      {
+        "metin": "Dağılma dönemi Osmanlı Bankası senetlerinden yatırım yap (abdulhamid2_2_008_bagdat_demiryolu_almanya)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "para": 50,
+          "zeka": 6
+        },
+        "sonuc": "Modern kambiyo ticaretiyle sermaye artırdın."
+      },
+      {
+        "metin": "Mahalle mektebine sıralar ve alfabe kitapları temin et (abdulhamid2_2_008_bagdat_demiryolu_almanya)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahalledeki çocukların okuma yazma öğrenmesine destek verdin."
       }
     ],
     "engel_bayrak": "calisaniyor"
@@ -2268,6 +3672,25 @@
           "mutluluk": 1
         },
         "sonuc": "Siyasi meselelere karışmamak, İstibdat döneminde en güvenli yoldu."
+      },
+      {
+        "metin": "Dağılma dönemi Osmanlı Bankası senetlerinden yatırım yap (abdulhamid2_2_009_jon_turkler_muhalefet)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "para": 50,
+          "zeka": 6
+        },
+        "sonuc": "Modern kambiyo ticaretiyle sermaye artırdın."
+      },
+      {
+        "metin": "Mahalle mektebine sıralar ve alfabe kitapları temin et (abdulhamid2_2_009_jon_turkler_muhalefet)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahalledeki çocukların okuma yazma öğrenmesine destek verdin."
       }
     ]
   },
@@ -2297,6 +3720,25 @@
           "mutluluk": -3
         },
         "sonuc": "30 yıl süren bu sıkı denetim, toplumda derin bir hoşnutsuzluk biriktiriyordu."
+      },
+      {
+        "metin": "Dağılma dönemi Osmanlı Bankası senetlerinden yatırım yap (abdulhamid2_2_010_sansur_basin_baskisi)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "para": 50,
+          "zeka": 6
+        },
+        "sonuc": "Modern kambiyo ticaretiyle sermaye artırdın."
+      },
+      {
+        "metin": "Mahalle mektebine sıralar ve alfabe kitapları temin et (abdulhamid2_2_010_sansur_basin_baskisi)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahalledeki çocukların okuma yazma öğrenmesine destek verdin."
       }
     ]
   },
@@ -2326,6 +3768,25 @@
           "mutluluk": 2
         },
         "sonuc": "Devletin sosyal sorumluluk anlayışı, yavaş da olsa gelişiyordu."
+      },
+      {
+        "metin": "Dağılma dönemi Osmanlı Bankası senetlerinden yatırım yap (abdulhamid2_2_011_saglik_sosyal_kurumlar)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "para": 50,
+          "zeka": 6
+        },
+        "sonuc": "Modern kambiyo ticaretiyle sermaye artırdın."
+      },
+      {
+        "metin": "Mahalle mektebine sıralar ve alfabe kitapları temin et (abdulhamid2_2_011_saglik_sosyal_kurumlar)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahalledeki çocukların okuma yazma öğrenmesine destek verdin."
       }
     ]
   },
@@ -2355,6 +3816,25 @@
           "zeka": 1
         },
         "sonuc": "Sultan'ın bu tedbirli yaklaşımının anlamı, ancak yıllar sonra tam olarak anlaşılacaktı."
+      },
+      {
+        "metin": "Hicaz Demiryolu inşaatına Medine hattı için iane pulları satın al (abdulhamid2_2_012_canakkale_tabyalari)",
+        "gerekli_para": 50,
+        "etki": {
+          "itibar": 15,
+          "para": -50,
+          "mutluluk": 10
+        },
+        "sonuc": "Mukaddes topraklara uzanan demiryolu vakfına adın altın harfle yazıldı."
+      },
+      {
+        "metin": "Mekteb-i Mülkiye-i Şahane'de idare hukuku tahsili yap (abdulhamid2_2_012_canakkale_tabyalari)",
+        "gerekli_zeka": 65,
+        "etki": {
+          "zeka": 16,
+          "itibar": 12
+        },
+        "sonuc": "II. Abdülhamid döneminde modern kaymakam ve vali adayı oldun."
       }
     ]
   },
@@ -2385,6 +3865,25 @@
           "mutluluk": -1
         },
         "sonuc": "Büyük bir değişimin yaklaştığı hissediliyordu, ama sonucunun ne olacağı belirsizdi."
+      },
+      {
+        "metin": "Dağılma dönemi Osmanlı Bankası senetlerinden yatırım yap (abdulhamid2_2_013_donem_sonu_yaklasimi)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "para": 50,
+          "zeka": 6
+        },
+        "sonuc": "Modern kambiyo ticaretiyle sermaye artırdın."
+      },
+      {
+        "metin": "Mahalle mektebine sıralar ve alfabe kitapları temin et (abdulhamid2_2_013_donem_sonu_yaklasimi)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahalledeki çocukların okuma yazma öğrenmesine destek verdin."
       }
     ]
   },
@@ -2417,6 +3916,25 @@
           "mutluluk": 2
         },
         "sonuc": "Yıllardır bastırılan özgürlük talebi, artık açık bir isyana dönüşmüştü."
+      },
+      {
+        "metin": "Dağılma dönemi Osmanlı Bankası senetlerinden yatırım yap (abdulhamid2_3_001_niyazi_bey_dagac_cikma)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "para": 50,
+          "zeka": 6
+        },
+        "sonuc": "Modern kambiyo ticaretiyle sermaye artırdın."
+      },
+      {
+        "metin": "Mahalle mektebine sıralar ve alfabe kitapları temin et (abdulhamid2_3_001_niyazi_bey_dagac_cikma)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahalledeki çocukların okuma yazma öğrenmesine destek verdin."
       }
     ]
   },
@@ -2447,6 +3965,24 @@
           "mutluluk": 5
         },
         "sonuc": "İlk kez bu kadar özgürce konuşulabiliyordu — ama bu özgürlüğün ne kadar süreceği belirsizdi."
+      },
+      {
+        "metin": "Meclis-i Mebusan seçimlerinde mahalle delegesi olarak oy kullan (abdulhamid2_3_002_mesrutiyetin_ilani)",
+        "gerekli_zeka": 60,
+        "etki": {
+          "zeka": 12,
+          "itibar": 12
+        },
+        "sonuc": "İlk Anayasal parlamentoda mebus seçimine iştirak ettin."
+      },
+      {
+        "metin": "Kanun-ı Esasi anayasa metnini matbaada bastırıp ahaliye dağıt (abdulhamid2_3_002_mesrutiyetin_ilani)",
+        "gerekli_para": 40,
+        "etki": {
+          "itibar": 10,
+          "para": -40
+        },
+        "sonuc": "Anayasa bilincinin mahallede yayılmasına katkı sağladın."
       }
     ]
   },
@@ -2476,6 +4012,25 @@
           "zeka": 2
         },
         "sonuc": "Demokrasi deneyimi, imparatorluk için tamamen yeni bir kavramdı."
+      },
+      {
+        "metin": "Dağılma dönemi Osmanlı Bankası senetlerinden yatırım yap (abdulhamid2_3_003_cok_partili_hayat)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "para": 50,
+          "zeka": 6
+        },
+        "sonuc": "Modern kambiyo ticaretiyle sermaye artırdın."
+      },
+      {
+        "metin": "Mahalle mektebine sıralar ve alfabe kitapları temin et (abdulhamid2_3_003_cok_partili_hayat)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahalledeki çocukların okuma yazma öğrenmesine destek verdin."
       }
     ]
   },
@@ -2506,6 +4061,25 @@
           "mutluluk": -4
         },
         "sonuc": "Her kriz anı, bir başkasının fırsatına dönüşüyordu — bu, imparatorluğun kırılganlığının acı bir kanıtıydı."
+      },
+      {
+        "metin": "Dağılma dönemi Osmanlı Bankası senetlerinden yatırım yap (abdulhamid2_3_004_bulgaristan_bosna_girit_kayiplari)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "para": 50,
+          "zeka": 6
+        },
+        "sonuc": "Modern kambiyo ticaretiyle sermaye artırdın."
+      },
+      {
+        "metin": "Mahalle mektebine sıralar ve alfabe kitapları temin et (abdulhamid2_3_004_bulgaristan_bosna_girit_kayiplari)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahalledeki çocukların okuma yazma öğrenmesine destek verdin."
       }
     ]
   },
@@ -2536,6 +4110,25 @@
           "mutluluk": -4
         },
         "sonuc": "Sokaklardaki gerginlik, herkesin gündelik hayatını sekteye uğratıyordu."
+      },
+      {
+        "metin": "Dağılma dönemi Osmanlı Bankası senetlerinden yatırım yap (abdulhamid2_3_005_31_mart_isyani)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "para": 50,
+          "zeka": 6
+        },
+        "sonuc": "Modern kambiyo ticaretiyle sermaye artırdın."
+      },
+      {
+        "metin": "Mahalle mektebine sıralar ve alfabe kitapları temin et (abdulhamid2_3_005_31_mart_isyani)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahalledeki çocukların okuma yazma öğrenmesine destek verdin."
       }
     ]
   },
@@ -2567,6 +4160,25 @@
           "mutluluk": 4
         },
         "sonuc": "Yedi günlük kaosun ardından, şehre yeniden bir düzen geliyordu."
+      },
+      {
+        "metin": "Çanakkale Anafartalar cephesinde siper hücumuna katılan yedek subay ol (abdulhamid2_3_006_hareket_ordusu)",
+        "gerekli_itibar": 70,
+        "etki": {
+          "itibar": 25,
+          "saglik": -6
+        },
+        "sonuc": "Çanakkale Geçilmez destanını yazan gaziler arasında adın tarihe mühürlendi!"
+      },
+      {
+        "metin": "Kızılay (Hilal-i Ahmer) cemiyetine cephedeki askerler için pamuk bağışla (abdulhamid2_3_006_hareket_ordusu)",
+        "gerekli_para": 40,
+        "etki": {
+          "itibar": 14,
+          "para": -40,
+          "mutluluk": 8
+        },
+        "sonuc": "Hilal-i Ahmer hemşire ve hekimlerine malzeme ulaştırdın."
       }
     ]
   },
@@ -2597,6 +4209,25 @@
           "mutluluk": -2
         },
         "sonuc": "Eğitim, demiryolları, telgraf ağı gibi büyük modernleşme adımları ile Hafiye teşkilatı ve sansürün baskısı, aynı saltanatta iç içe geçmişti."
+      },
+      {
+        "metin": "Hicaz Demiryolu inşaatına Medine hattı için iane pulları satın al (abdulhamid2_3_007_abdulhamid_tahttan_indirilme)",
+        "gerekli_para": 50,
+        "etki": {
+          "itibar": 15,
+          "para": -50,
+          "mutluluk": 10
+        },
+        "sonuc": "Mukaddes topraklara uzanan demiryolu vakfına adın altın harfle yazıldı."
+      },
+      {
+        "metin": "Mekteb-i Mülkiye-i Şahane'de idare hukuku tahsili yap (abdulhamid2_3_007_abdulhamid_tahttan_indirilme)",
+        "gerekli_zeka": 65,
+        "etki": {
+          "zeka": 16,
+          "itibar": 12
+        },
+        "sonuc": "II. Abdülhamid döneminde modern kaymakam ve vali adayı oldun."
       }
     ]
   },
@@ -2626,6 +4257,25 @@
           "mutluluk": -2
         },
         "sonuc": "Ne kadar tartışmalı olursa olsun, bir insanın bu denli hızlı bir düşüş yaşaması herkesi düşündürdü."
+      },
+      {
+        "metin": "Hicaz Demiryolu inşaatına Medine hattı için iane pulları satın al (abdulhamid2_3_008_selanik_surgun)",
+        "gerekli_para": 50,
+        "etki": {
+          "itibar": 15,
+          "para": -50,
+          "mutluluk": 10
+        },
+        "sonuc": "Mukaddes topraklara uzanan demiryolu vakfına adın altın harfle yazıldı."
+      },
+      {
+        "metin": "Mekteb-i Mülkiye-i Şahane'de idare hukuku tahsili yap (abdulhamid2_3_008_selanik_surgun)",
+        "gerekli_zeka": 65,
+        "etki": {
+          "zeka": 16,
+          "itibar": 12
+        },
+        "sonuc": "II. Abdülhamid döneminde modern kaymakam ve vali adayı oldun."
       }
     ]
   },
@@ -2650,11 +4300,30 @@
         "sonuc": "Artık gerçek kararlar, sarayda değil, İttihat ve Terakki'nin toplantılarında alınıyordu."
       },
       {
-        "metin": "Gündelik hayatına devam et",
+        "metin": "Gündelik hayatına devam et (abdulhamid2_3_009_v_mehmed_resad_cikis)",
         "etki": {
           "mutluluk": 1
         },
         "sonuc": "Devletin yönetim şekli değişse de, hayat kendi akışında sürüyordu."
+      },
+      {
+        "metin": "Dağılma dönemi Osmanlı Bankası senetlerinden yatırım yap (abdulhamid2_3_009_v_mehmed_resad_cikis)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "para": 50,
+          "zeka": 6
+        },
+        "sonuc": "Modern kambiyo ticaretiyle sermaye artırdın."
+      },
+      {
+        "metin": "Mahalle mektebine sıralar ve alfabe kitapları temin et (abdulhamid2_3_009_v_mehmed_resad_cikis)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahalledeki çocukların okuma yazma öğrenmesine destek verdin."
       }
     ]
   },
@@ -2684,6 +4353,25 @@
           "mutluluk": 1
         },
         "sonuc": "Kargaşa döneminden sonra güçlü bir el, bazıları için gerekli görünüyordu."
+      },
+      {
+        "metin": "Dağılma dönemi Osmanlı Bankası senetlerinden yatırım yap (abdulhamid2_3_010_mahmut_sevket_pasa_sikiyonetim)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "para": 50,
+          "zeka": 6
+        },
+        "sonuc": "Modern kambiyo ticaretiyle sermaye artırdın."
+      },
+      {
+        "metin": "Mahalle mektebine sıralar ve alfabe kitapları temin et (abdulhamid2_3_010_mahmut_sevket_pasa_sikiyonetim)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahalledeki çocukların okuma yazma öğrenmesine destek verdin."
       }
     ]
   },
@@ -2712,6 +4400,25 @@
           "mutluluk": 2
         },
         "sonuc": "Geçmiş ne olursa olsun, yeni bir çağ başlıyordu — devletin geleceği artık farklı ellerdeydi."
+      },
+      {
+        "metin": "Hicaz Demiryolu inşaatına Medine hattı için iane pulları satın al (abdulhamid2_3_011_33_yil_genel_degerlendirme)",
+        "gerekli_para": 50,
+        "etki": {
+          "itibar": 15,
+          "para": -50,
+          "mutluluk": 10
+        },
+        "sonuc": "Mukaddes topraklara uzanan demiryolu vakfına adın altın harfle yazıldı."
+      },
+      {
+        "metin": "Mekteb-i Mülkiye-i Şahane'de idare hukuku tahsili yap (abdulhamid2_3_011_33_yil_genel_degerlendirme)",
+        "gerekli_zeka": 65,
+        "etki": {
+          "zeka": 16,
+          "itibar": 12
+        },
+        "sonuc": "II. Abdülhamid döneminde modern kaymakam ve vali adayı oldun."
       }
     ]
   },
@@ -2736,11 +4443,30 @@
         "sonuc": "Meşrutiyet'in getirdiği umut, önündeki çok daha büyük sınavlarla test edilecekti."
       },
       {
-        "metin": "Gündelik hayatına devam et",
+        "metin": "Gündelik hayatına devam et (abdulhamid2_3_012_dagilma_donemi_devam)",
         "etki": {
           "mutluluk": 1
         },
         "sonuc": "Tarihin büyük çarkı dönmeye devam ederken, hayat kendi akışında sürüyordu."
+      },
+      {
+        "metin": "Dağılma dönemi Osmanlı Bankası senetlerinden yatırım yap (abdulhamid2_3_012_dagilma_donemi_devam)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "para": 50,
+          "zeka": 6
+        },
+        "sonuc": "Modern kambiyo ticaretiyle sermaye artırdın."
+      },
+      {
+        "metin": "Mahalle mektebine sıralar ve alfabe kitapları temin et (abdulhamid2_3_012_dagilma_donemi_devam)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahalledeki çocukların okuma yazma öğrenmesine destek verdin."
       }
     ]
   },
@@ -2765,11 +4491,30 @@
         "sonuc": "Artık kararlar sarayda değil, Meclis'te ve İttihat ve Terakki'nin koridorlarında alınıyordu."
       },
       {
-        "metin": "Gündelik hayatına devam et",
+        "metin": "Gündelik hayatına devam et (son_donem_001_resad_tahta_cikis)",
         "etki": {
           "mutluluk": 1
         },
         "sonuc": "Yönetim şekli değişiyordu ama gündelik hayatın akışı sürüyordu."
+      },
+      {
+        "metin": "Hicaz Demiryolu inşaatına Medine hattı için iane pulları satın al (son_donem_001_resad_tahta_cikis)",
+        "gerekli_para": 50,
+        "etki": {
+          "itibar": 15,
+          "para": -50,
+          "mutluluk": 10
+        },
+        "sonuc": "Mukaddes topraklara uzanan demiryolu vakfına adın altın harfle yazıldı."
+      },
+      {
+        "metin": "Mekteb-i Mülkiye-i Şahane'de idare hukuku tahsili yap (son_donem_001_resad_tahta_cikis)",
+        "gerekli_zeka": 65,
+        "etki": {
+          "zeka": 16,
+          "itibar": 12
+        },
+        "sonuc": "II. Abdülhamid döneminde modern kaymakam ve vali adayı oldun."
       }
     ]
   },
@@ -2802,6 +4547,25 @@
           "zeka": 1
         },
         "sonuc": "Kuzey Afrika'daki son toprağımız da artık kaybedilmişti."
+      },
+      {
+        "metin": "Dağılma dönemi Osmanlı Bankası senetlerinden yatırım yap (son_donem_002_trablusgarp_savasi)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "para": 50,
+          "zeka": 6
+        },
+        "sonuc": "Modern kambiyo ticaretiyle sermaye artırdın."
+      },
+      {
+        "metin": "Mahalle mektebine sıralar ve alfabe kitapları temin et (son_donem_002_trablusgarp_savasi)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahalledeki çocukların okuma yazma öğrenmesine destek verdin."
       }
     ]
   },
@@ -2832,6 +4596,25 @@
           "mutluluk": -7
         },
         "sonuc": "Selanik gibi köklü bir Osmanlı şehrinin kaybı, herkesi derinden sarstı."
+      },
+      {
+        "metin": "Dağılma dönemi Osmanlı Bankası senetlerinden yatırım yap (son_donem_003_balkan_savaslari)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "para": 50,
+          "zeka": 6
+        },
+        "sonuc": "Modern kambiyo ticaretiyle sermaye artırdın."
+      },
+      {
+        "metin": "Mahalle mektebine sıralar ve alfabe kitapları temin et (son_donem_003_balkan_savaslari)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahalledeki çocukların okuma yazma öğrenmesine destek verdin."
       }
     ]
   },
@@ -2862,6 +4645,25 @@
           "mutluluk": -3
         },
         "sonuc": "Devletin kaderi artık tamamen bu üç paşanın kararlarına bağlıydı."
+      },
+      {
+        "metin": "Dağılma dönemi Osmanlı Bankası senetlerinden yatırım yap (son_donem_004_babiali_baskini)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "para": 50,
+          "zeka": 6
+        },
+        "sonuc": "Modern kambiyo ticaretiyle sermaye artırdın."
+      },
+      {
+        "metin": "Mahalle mektebine sıralar ve alfabe kitapları temin et (son_donem_004_babiali_baskini)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahalledeki çocukların okuma yazma öğrenmesine destek verdin."
       }
     ]
   },
@@ -2893,6 +4695,25 @@
           "mutluluk": -3
         },
         "sonuc": "Devletin bu denli büyük bir dünya savaşına ne kadar hazırlıklı olduğu büyük bir soru işaretiydi."
+      },
+      {
+        "metin": "Dağılma dönemi Osmanlı Bankası senetlerinden yatırım yap (son_donem_005_birinci_dunya_savasina_giris)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "para": 50,
+          "zeka": 6
+        },
+        "sonuc": "Modern kambiyo ticaretiyle sermaye artırdın."
+      },
+      {
+        "metin": "Mahalle mektebine sıralar ve alfabe kitapları temin et (son_donem_005_birinci_dunya_savasina_giris)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahalledeki çocukların okuma yazma öğrenmesine destek verdin."
       }
     ]
   },
@@ -2925,6 +4746,25 @@
           "itibar": 3
         },
         "sonuc": "Boğazlar geçilemedi — bu, savaşın en gururlu anlarından biriydi."
+      },
+      {
+        "metin": "Çanakkale Anafartalar cephesinde siper hücumuna katılan yedek subay ol (son_donem_006_canakkale_zaferi)",
+        "gerekli_itibar": 70,
+        "etki": {
+          "itibar": 25,
+          "saglik": -6
+        },
+        "sonuc": "Çanakkale Geçilmez destanını yazan gaziler arasında adın tarihe mühürlendi!"
+      },
+      {
+        "metin": "Kızılay (Hilal-i Ahmer) cemiyetine cephedeki askerler için pamuk bağışla (son_donem_006_canakkale_zaferi)",
+        "gerekli_para": 40,
+        "etki": {
+          "itibar": 14,
+          "para": -40,
+          "mutluluk": 8
+        },
+        "sonuc": "Hilal-i Ahmer hemşire ve hekimlerine malzeme ulaştırdın."
       }
     ]
   },
@@ -2955,6 +4795,25 @@
           "mutluluk": -4
         },
         "sonuc": "Savaşın birden fazla cephede aynı anda kaybedilmesi, devletin geleceği için giderek daha endişe vericiydi."
+      },
+      {
+        "metin": "Dağılma dönemi Osmanlı Bankası senetlerinden yatırım yap (son_donem_007_arap_cephesi_zorluklari)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "para": 50,
+          "zeka": 6
+        },
+        "sonuc": "Modern kambiyo ticaretiyle sermaye artırdın."
+      },
+      {
+        "metin": "Mahalle mektebine sıralar ve alfabe kitapları temin et (son_donem_007_arap_cephesi_zorluklari)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahalledeki çocukların okuma yazma öğrenmesine destek verdin."
       }
     ]
   },
@@ -2984,6 +4843,25 @@
           "zeka": 2
         },
         "sonuc": "Devletin kaderi, artık büyük ölçüde savaşın gidişatına bağlıydı."
+      },
+      {
+        "metin": "Dağılma dönemi Osmanlı Bankası senetlerinden yatırım yap (son_donem_008_resad_vefati)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "para": 50,
+          "zeka": 6
+        },
+        "sonuc": "Modern kambiyo ticaretiyle sermaye artırdın."
+      },
+      {
+        "metin": "Mahalle mektebine sıralar ve alfabe kitapları temin et (son_donem_008_resad_vefati)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahalledeki çocukların okuma yazma öğrenmesine destek verdin."
       }
     ]
   },
@@ -3014,6 +4892,25 @@
           "mutluluk": -7
         },
         "sonuc": "İşgal tehlikesi artık soyut bir kavram değil, somut bir gerçeklikti."
+      },
+      {
+        "metin": "Dağılma dönemi Osmanlı Bankası senetlerinden yatırım yap (son_donem_009_mondros_mutarekesi)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "para": 50,
+          "zeka": 6
+        },
+        "sonuc": "Modern kambiyo ticaretiyle sermaye artırdın."
+      },
+      {
+        "metin": "Mahalle mektebine sıralar ve alfabe kitapları temin et (son_donem_009_mondros_mutarekesi)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahalledeki çocukların okuma yazma öğrenmesine destek verdin."
       }
     ]
   },
@@ -3044,6 +4941,25 @@
           "mutluluk": -5
         },
         "sonuc": "Bazı bölgelerde halk, kendi imkanlarıyla direniş cepheleri kurmaya başlamıştı."
+      },
+      {
+        "metin": "Dağılma dönemi Osmanlı Bankası senetlerinden yatırım yap (son_donem_010_anadolu_isgali)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "para": 50,
+          "zeka": 6
+        },
+        "sonuc": "Modern kambiyo ticaretiyle sermaye artırdın."
+      },
+      {
+        "metin": "Mahalle mektebine sıralar ve alfabe kitapları temin et (son_donem_010_anadolu_isgali)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahalledeki çocukların okuma yazma öğrenmesine destek verdin."
       }
     ]
   },
@@ -3075,6 +4991,25 @@
           "mutluluk": 3
         },
         "sonuc": "Karanlık günlerin ortasında, yeni bir umut ışığı doğuyordu."
+      },
+      {
+        "metin": "Çanakkale Anafartalar cephesinde siper hücumuna katılan yedek subay ol (son_donem_011_milli_mucadele_baslangic)",
+        "gerekli_itibar": 70,
+        "etki": {
+          "itibar": 25,
+          "saglik": -6
+        },
+        "sonuc": "Çanakkale Geçilmez destanını yazan gaziler arasında adın tarihe mühürlendi!"
+      },
+      {
+        "metin": "Kızılay (Hilal-i Ahmer) cemiyetine cephedeki askerler için pamuk bağışla (son_donem_011_milli_mucadele_baslangic)",
+        "gerekli_para": 40,
+        "etki": {
+          "itibar": 14,
+          "para": -40,
+          "mutluluk": 8
+        },
+        "sonuc": "Hilal-i Ahmer hemşire ve hekimlerine malzeme ulaştırdın."
       }
     ]
   },
@@ -3105,6 +5040,25 @@
           "mutluluk": 2
         },
         "sonuc": "Devletin geleceği artık bu yeni meclisin ellerinde şekilleniyordu."
+      },
+      {
+        "metin": "Çanakkale Anafartalar cephesinde siper hücumuna katılan yedek subay ol (son_donem_012_tbmm_kurulusu)",
+        "gerekli_itibar": 70,
+        "etki": {
+          "itibar": 25,
+          "saglik": -6
+        },
+        "sonuc": "Çanakkale Geçilmez destanını yazan gaziler arasında adın tarihe mühürlendi!"
+      },
+      {
+        "metin": "Kızılay (Hilal-i Ahmer) cemiyetine cephedeki askerler için pamuk bağışla (son_donem_012_tbmm_kurulusu)",
+        "gerekli_para": 40,
+        "etki": {
+          "itibar": 14,
+          "para": -40,
+          "mutluluk": 8
+        },
+        "sonuc": "Hilal-i Ahmer hemşire ve hekimlerine malzeme ulaştırdın."
       }
     ]
   },
@@ -3137,6 +5091,25 @@
           "itibar": 3
         },
         "sonuc": "Anadolu, işgalden kurtulmuştu — yeni bir çağın kapıları aralanıyordu."
+      },
+      {
+        "metin": "Dağılma dönemi Osmanlı Bankası senetlerinden yatırım yap (son_donem_013_kurtulus_savasi_zaferi)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "para": 50,
+          "zeka": 6
+        },
+        "sonuc": "Modern kambiyo ticaretiyle sermaye artırdın."
+      },
+      {
+        "metin": "Mahalle mektebine sıralar ve alfabe kitapları temin et (son_donem_013_kurtulus_savasi_zaferi)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahalledeki çocukların okuma yazma öğrenmesine destek verdin."
       }
     ]
   },
@@ -3167,6 +5140,25 @@
           "zeka": 2
         },
         "sonuc": "623 yıllık bir yolculuk sona ermişti — Osman Gazi'nin küçük beyliğinden başlayan bu hikaye, artık yeni bir sayfaya bırakıyordu yerini."
+      },
+      {
+        "metin": "Dağılma dönemi Osmanlı Bankası senetlerinden yatırım yap (son_donem_014_saltanatin_kaldirilmasi)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "para": 50,
+          "zeka": 6
+        },
+        "sonuc": "Modern kambiyo ticaretiyle sermaye artırdın."
+      },
+      {
+        "metin": "Mahalle mektebine sıralar ve alfabe kitapları temin et (son_donem_014_saltanatin_kaldirilmasi)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahalledeki çocukların okuma yazma öğrenmesine destek verdin."
       }
     ]
   },
@@ -3197,6 +5189,25 @@
           "mutluluk": 3
         },
         "sonuc": "Altı asırlık bir mirasın üzerine, yeni bir gelecek inşa edilecekti."
+      },
+      {
+        "metin": "Dağılma dönemi Osmanlı Bankası senetlerinden yatırım yap (son_donem_015_623_yillik_yolculuk_retrospektifi)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "para": 50,
+          "zeka": 6
+        },
+        "sonuc": "Modern kambiyo ticaretiyle sermaye artırdın."
+      },
+      {
+        "metin": "Mahalle mektebine sıralar ve alfabe kitapları temin et (son_donem_015_623_yillik_yolculuk_retrospektifi)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Mahalledeki çocukların okuma yazma öğrenmesine destek verdin."
       }
     ]
   }

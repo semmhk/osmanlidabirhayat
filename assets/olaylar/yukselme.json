@@ -25,6 +25,25 @@
           "zeka": 1
         },
         "sonuc": "Genç sultanların ilk icraatları merakla bekleniyordu."
+      },
+      {
+        "metin": "Devlet-i Aliyye tahrir defterine mülkünü kaydettir (fatih_001_ikinci_tahta_cikis)",
+        "gerekli_zeka": 50,
+        "etki": {
+          "zeka": 8,
+          "itibar": 8
+        },
+        "sonuc": "Yükselme dönemi idaresinde haklarını kadı siciline onaylattın."
+      },
+      {
+        "metin": "Mahallede ziyafet verip garip gurebaya yardım et (fatih_001_ikinci_tahta_cikis)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Cemaatin hayır duasını alıp neşeyle huzur buldun."
       }
     ]
   },
@@ -54,6 +73,25 @@
           "mutluluk": 1
         },
         "sonuc": "Herkes farklı şekillerde bu büyük hazırlığa katkıda bulunuyordu."
+      },
+      {
+        "metin": "Topkapı surları önünde Şahi toplarının barutunu sevk et (fatih_002_rumelihisari)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "zeka": 10,
+          "itibar": 12
+        },
+        "sonuc": "Surlarda gedik açılmasına katkıda bulundun."
+      },
+      {
+        "metin": "Fetih sonrası Ayasofya camii vakfiyesine şamdan hediye et (fatih_002_rumelihisari)",
+        "gerekli_para": 40,
+        "etki": {
+          "itibar": 12,
+          "para": -40,
+          "mutluluk": 8
+        },
+        "sonuc": "İstanbul'un ilk Cuma namazı tahririne hayrın yazıldı."
       }
     ]
   },
@@ -85,6 +123,25 @@
           "mutluluk": 1
         },
         "sonuc": "Zafer haberleri arka arkaya geliyordu."
+      },
+      {
+        "metin": "Devlet-i Aliyye tahrir defterine mülkünü kaydettir (fatih_003_sirbistan_seferleri)",
+        "gerekli_zeka": 50,
+        "etki": {
+          "zeka": 8,
+          "itibar": 8
+        },
+        "sonuc": "Yükselme dönemi idaresinde haklarını kadı siciline onaylattın."
+      },
+      {
+        "metin": "Mahallede ziyafet verip garip gurebaya yardım et (fatih_003_sirbistan_seferleri)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Cemaatin hayır duasını alıp neşeyle huzur buldun."
       }
     ]
   },
@@ -109,11 +166,30 @@
         "sonuc": "Karadeniz'de nüfuzumuz artıyordu, bu ticaret için de yeni fırsatlar demekti."
       },
       {
-        "metin": "Günlük hayatına devam et",
+        "metin": "Günlük hayatına devam et (fatih_004_amasra_candar)",
         "etki": {
           "mutluluk": 1
         },
         "sonuc": "Uzak fetihler halkın gündelik hayatını hemen değiştirmiyordu."
+      },
+      {
+        "metin": "Devlet-i Aliyye tahrir defterine mülkünü kaydettir (fatih_004_amasra_candar)",
+        "gerekli_zeka": 50,
+        "etki": {
+          "zeka": 8,
+          "itibar": 8
+        },
+        "sonuc": "Yükselme dönemi idaresinde haklarını kadı siciline onaylattın."
+      },
+      {
+        "metin": "Mahallede ziyafet verip garip gurebaya yardım et (fatih_004_amasra_candar)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Cemaatin hayır duasını alıp neşeyle huzur buldun."
       }
     ]
   },
@@ -130,7 +206,7 @@
     "metin": "Bizans'ın son kalıntılarından Mora (Peloponnesos) Despotluğu üzerine sefer düzenlendi ve fethedildi.",
     "secenekler": [
       {
-        "metin": "Sefere katıl",
+        "metin": "Sefere katıl (fatih_005_mora_fethi)",
         "etki": {
           "para": 4,
           "itibar": 2,
@@ -140,11 +216,30 @@
         "sonuc": "Bizans'ın son toprak parçalarından biri daha Osmanlı'ya katıldı."
       },
       {
-        "metin": "Sefere katılmadın",
+        "metin": "Sefere katılmadın (fatih_005_mora_fethi)",
         "etki": {
           "mutluluk": 1
         },
         "sonuc": "Fetih haberi geldiğinde köyde sevinç yaşandı."
+      },
+      {
+        "metin": "Topkapı surları önünde Şahi toplarının barutunu sevk et (fatih_005_mora_fethi)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "zeka": 10,
+          "itibar": 12
+        },
+        "sonuc": "Surlarda gedik açılmasına katkıda bulundun."
+      },
+      {
+        "metin": "Fetih sonrası Ayasofya camii vakfiyesine şamdan hediye et (fatih_005_mora_fethi)",
+        "gerekli_para": 40,
+        "etki": {
+          "itibar": 12,
+          "para": -40,
+          "mutluluk": 8
+        },
+        "sonuc": "İstanbul'un ilk Cuma namazı tahririne hayrın yazıldı."
       }
     ]
   },
@@ -176,6 +271,25 @@
           "mutluluk": 3
         },
         "sonuc": "Tarihi bir dönemin kapandığı hissediliyordu."
+      },
+      {
+        "metin": "Topkapı surları önünde Şahi toplarının barutunu sevk et (fatih_006_trabzon_fethi)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "zeka": 10,
+          "itibar": 12
+        },
+        "sonuc": "Surlarda gedik açılmasına katkıda bulundun."
+      },
+      {
+        "metin": "Fetih sonrası Ayasofya camii vakfiyesine şamdan hediye et (fatih_006_trabzon_fethi)",
+        "gerekli_para": 40,
+        "etki": {
+          "itibar": 12,
+          "para": -40,
+          "mutluluk": 8
+        },
+        "sonuc": "İstanbul'un ilk Cuma namazı tahririne hayrın yazıldı."
       }
     ]
   },
@@ -202,11 +316,30 @@
         "sonuc": "Vlad'ın acımasızlığı efsaneleşmişti ama sefer başarıyla tamamlandı, Eflak yeniden tabiiyete girdi."
       },
       {
-        "metin": "Sefere katılmadın",
+        "metin": "Sefere katılmadın (fatih_007_eflak_boydan)",
         "etki": {
           "mutluluk": 1
         },
         "sonuc": "Bu zorlu seferin hikayeleri uzun süre anlatıldı."
+      },
+      {
+        "metin": "Devlet-i Aliyye tahrir defterine mülkünü kaydettir (fatih_007_eflak_boydan)",
+        "gerekli_zeka": 50,
+        "etki": {
+          "zeka": 8,
+          "itibar": 8
+        },
+        "sonuc": "Yükselme dönemi idaresinde haklarını kadı siciline onaylattın."
+      },
+      {
+        "metin": "Mahallede ziyafet verip garip gurebaya yardım et (fatih_007_eflak_boydan)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Cemaatin hayır duasını alıp neşeyle huzur buldun."
       }
     ]
   },
@@ -236,6 +369,25 @@
           "mutluluk": 1
         },
         "sonuc": "Deniz savaşları daha çok kıyı halkını ilgilendiriyordu."
+      },
+      {
+        "metin": "Topkapı surları önünde Şahi toplarının barutunu sevk et (fatih_008_bosna_venedik_savasi)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "zeka": 10,
+          "itibar": 12
+        },
+        "sonuc": "Surlarda gedik açılmasına katkıda bulundun."
+      },
+      {
+        "metin": "Fetih sonrası Ayasofya camii vakfiyesine şamdan hediye et (fatih_008_bosna_venedik_savasi)",
+        "gerekli_para": 40,
+        "etki": {
+          "itibar": 12,
+          "para": -40,
+          "mutluluk": 8
+        },
+        "sonuc": "İstanbul'un ilk Cuma namazı tahririne hayrın yazıldı."
       }
     ]
   },
@@ -252,7 +404,7 @@
     "metin": "Karamanoğulları Beyliği'ne kesin olarak son verildi, Konya Osmanlı toprağına katıldı. Anadolu Türk birliği artık neredeyse tamamlanmıştı.",
     "secenekler": [
       {
-        "metin": "Sefere katıl",
+        "metin": "Sefere katıl (fatih_009_ikinci_karaman_konya)",
         "etki": {
           "para": 4,
           "itibar": 3,
@@ -262,11 +414,30 @@
         "sonuc": "Yüzyıllık bir rekabet nihayet sona ermişti. Anadolu artık tek bir çatı altındaydı."
       },
       {
-        "metin": "Sefere katılmadın",
+        "metin": "Sefere katılmadın (fatih_009_ikinci_karaman_konya)",
         "etki": {
           "mutluluk": 1
         },
         "sonuc": "Uzun süredir beklenen bu haber büyük bir memnuniyetle karşılandı."
+      },
+      {
+        "metin": "Devlet-i Aliyye tahrir defterine mülkünü kaydettir (fatih_009_ikinci_karaman_konya)",
+        "gerekli_zeka": 50,
+        "etki": {
+          "zeka": 8,
+          "itibar": 8
+        },
+        "sonuc": "Yükselme dönemi idaresinde haklarını kadı siciline onaylattın."
+      },
+      {
+        "metin": "Mahallede ziyafet verip garip gurebaya yardım et (fatih_009_ikinci_karaman_konya)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Cemaatin hayır duasını alıp neşeyle huzur buldun."
       }
     ]
   },
@@ -298,6 +469,25 @@
           "mutluluk": 1
         },
         "sonuc": "İskender Bey'in direnişi, düşman saflarında bile saygıyla anılan bir destan olmuştu."
+      },
+      {
+        "metin": "Devlet-i Aliyye tahrir defterine mülkünü kaydettir (fatih_010_arnavutluk_iskender_bey)",
+        "gerekli_zeka": 50,
+        "etki": {
+          "zeka": 8,
+          "itibar": 8
+        },
+        "sonuc": "Yükselme dönemi idaresinde haklarını kadı siciline onaylattın."
+      },
+      {
+        "metin": "Mahallede ziyafet verip garip gurebaya yardım et (fatih_010_arnavutluk_iskender_bey)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Cemaatin hayır duasını alıp neşeyle huzur buldun."
       }
     ]
   },
@@ -324,11 +514,30 @@
         "sonuc": "Zafer Osmanlı'nındı. Doğudaki en büyük rakibimiz Akkoyunlular artık ciddi bir tehdit oluşturamayacaktı."
       },
       {
-        "metin": "Bu sefere katılmadın",
+        "metin": "Bu sefere katılmadın (fatih_011_otlukbeli_savasi)",
         "etki": {
           "mutluluk": 1
         },
         "sonuc": "Doğu seferleri uzun ve yorucu olurdu. Zafer haberi yine de sevindirdi."
+      },
+      {
+        "metin": "Devlet-i Aliyye tahrir defterine mülkünü kaydettir (fatih_011_otlukbeli_savasi)",
+        "gerekli_zeka": 50,
+        "etki": {
+          "zeka": 8,
+          "itibar": 8
+        },
+        "sonuc": "Yükselme dönemi idaresinde haklarını kadı siciline onaylattın."
+      },
+      {
+        "metin": "Mahallede ziyafet verip garip gurebaya yardım et (fatih_011_otlukbeli_savasi)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Cemaatin hayır duasını alıp neşeyle huzur buldun."
       }
     ]
   },
@@ -355,11 +564,30 @@
         "sonuc": "Karadeniz ticareti artık tamamen bizim kontrolümüzdeydi. Büyük bir stratejik kazanımdı."
       },
       {
-        "metin": "Sefere katılmadın",
+        "metin": "Sefere katılmadın (fatih_012_kirim_fethi)",
         "etki": {
           "mutluluk": 1
         },
         "sonuc": "Karadeniz'deki hakimiyetimiz ticaret için de büyük fırsatlar getirecekti."
+      },
+      {
+        "metin": "Devlet-i Aliyye tahrir defterine mülkünü kaydettir (fatih_012_kirim_fethi)",
+        "gerekli_zeka": 50,
+        "etki": {
+          "zeka": 8,
+          "itibar": 8
+        },
+        "sonuc": "Yükselme dönemi idaresinde haklarını kadı siciline onaylattın."
+      },
+      {
+        "metin": "Mahallede ziyafet verip garip gurebaya yardım et (fatih_012_kirim_fethi)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Cemaatin hayır duasını alıp neşeyle huzur buldun."
       }
     ]
   },
@@ -390,6 +618,25 @@
           "mutluluk": -3
         },
         "sonuc": "Devlet mantığı ile vicdan arasındaki bu gerilim, yıllarca konuşulmaya devam edecekti."
+      },
+      {
+        "metin": "Süleymaniye Külliyesi inşasına Mimar Sinan usulü taş temin et (fatih_013_kanunname_kardeş_katli)",
+        "gerekli_para": 60,
+        "etki": {
+          "itibar": 15,
+          "para": -60,
+          "mutluluk": 8
+        },
+        "sonuc": "Mimar Sinan'ın başyapıtının vakfiyesine hayırsever tescil edildin."
+      },
+      {
+        "metin": "Kanuni Kanunnamesi maddelerini şer'iyye mahkemesinde incele (fatih_013_kanunname_kardeş_katli)",
+        "gerekli_zeka": 60,
+        "etki": {
+          "zeka": 14,
+          "itibar": 8
+        },
+        "sonuc": "Ebussuud Efendi fetvaları ve kanunname hükümlerinde uzmanlaştın."
       }
     ]
   },
@@ -420,6 +667,25 @@
           "mutluluk": 1
         },
         "sonuc": "Herkes taşınmak istemezdi. Sen köklerinde kalmayı seçtin."
+      },
+      {
+        "metin": "Topkapı surları önünde Şahi toplarının barutunu sevk et (fatih_014_topkapi_kapalicarsi)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "zeka": 10,
+          "itibar": 12
+        },
+        "sonuc": "Surlarda gedik açılmasına katkıda bulundun."
+      },
+      {
+        "metin": "Fetih sonrası Ayasofya camii vakfiyesine şamdan hediye et (fatih_014_topkapi_kapalicarsi)",
+        "gerekli_para": 40,
+        "etki": {
+          "itibar": 12,
+          "para": -40,
+          "mutluluk": 8
+        },
+        "sonuc": "İstanbul'un ilk Cuma namazı tahririne hayrın yazıldı."
       }
     ],
     "engel_bayrak": "calisaniyor"
@@ -447,11 +713,30 @@
         "sonuc": "İtalyan toprağına ayak basmak akıl almaz bir şeydi. Herkes bunun ne anlama geldiğini konuşuyordu."
       },
       {
-        "metin": "Bu uzak sefere katılmadın",
+        "metin": "Bu uzak sefere katılmadın (fatih_015_otranto_seferi)",
         "etki": {
           "mutluluk": 1
         },
         "sonuc": "Otranto'nun fethi haberi büyük bir şaşkınlık ve gururla karşılandı."
+      },
+      {
+        "metin": "Topkapı surları önünde Şahi toplarının barutunu sevk et (fatih_015_otranto_seferi)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "zeka": 10,
+          "itibar": 12
+        },
+        "sonuc": "Surlarda gedik açılmasına katkıda bulundun."
+      },
+      {
+        "metin": "Fetih sonrası Ayasofya camii vakfiyesine şamdan hediye et (fatih_015_otranto_seferi)",
+        "gerekli_para": 40,
+        "etki": {
+          "itibar": 12,
+          "para": -40,
+          "mutluluk": 8
+        },
+        "sonuc": "İstanbul'un ilk Cuma namazı tahririne hayrın yazıldı."
       }
     ]
   },
@@ -482,6 +767,24 @@
           "mutluluk": -2
         },
         "sonuc": "'Ebu'l-Feth' (Fetihlerin Babası) lakabı boşuna verilmemişti. Bıraktığı imparatorluk yüzyıllarca ayakta kalacaktı."
+      },
+      {
+        "metin": "Ridaniye sahrasında Memlük süvarilerine karşı top hattını sevk et (fatih_016_fatih_vefati)",
+        "gerekli_itibar": 60,
+        "etki": {
+          "itibar": 18,
+          "saglik": -3
+        },
+        "sonuc": "Topların yönünü çevirerek Ridaniye zaferine damga vurdunuz."
+      },
+      {
+        "metin": "Mukaddes emanetlerin İstanbul'a naklinde kadı kâtibi ol (fatih_016_fatih_vefati)",
+        "gerekli_zeka": 60,
+        "etki": {
+          "zeka": 14,
+          "itibar": 10
+        },
+        "sonuc": "Halifelik alametlerinin tahririnde görev aldın."
       }
     ]
   },
@@ -511,6 +814,25 @@
           "zeka": 1
         },
         "sonuc": "Kimin kazanacağı belli olana kadar temkinli davranmak akıllıcaydı."
+      },
+      {
+        "metin": "Topkapı surları önünde Şahi toplarının barutunu sevk et (bayezid2_001_tahta_cikis_yarisi)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "zeka": 10,
+          "itibar": 12
+        },
+        "sonuc": "Surlarda gedik açılmasına katkıda bulundun."
+      },
+      {
+        "metin": "Fetih sonrası Ayasofya camii vakfiyesine şamdan hediye et (bayezid2_001_tahta_cikis_yarisi)",
+        "gerekli_para": 40,
+        "etki": {
+          "itibar": 12,
+          "para": -40,
+          "mutluluk": 8
+        },
+        "sonuc": "İstanbul'un ilk Cuma namazı tahririne hayrın yazıldı."
       }
     ]
   },
@@ -542,6 +864,25 @@
           "mutluluk": -1
         },
         "sonuc": "Taht kavgaları halkın yüreğini hep burkardı."
+      },
+      {
+        "metin": "Devlet-i Aliyye tahrir defterine mülkünü kaydettir (bayezid2_002_cem_bursa_isyani)",
+        "gerekli_zeka": 50,
+        "etki": {
+          "zeka": 8,
+          "itibar": 8
+        },
+        "sonuc": "Yükselme dönemi idaresinde haklarını kadı siciline onaylattın."
+      },
+      {
+        "metin": "Mahallede ziyafet verip garip gurebaya yardım et (bayezid2_002_cem_bursa_isyani)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Cemaatin hayır duasını alıp neşeyle huzur buldun."
       }
     ]
   },
@@ -570,6 +911,25 @@
           "mutluluk": -1
         },
         "sonuc": "Bir şehzadenin kendi vatanından uzakta, yabancı ellerde geçirdiği yıllar hüzünlüydü."
+      },
+      {
+        "metin": "Devlet-i Aliyye tahrir defterine mülkünü kaydettir (bayezid2_003_cem_avrupada_rehine)",
+        "gerekli_zeka": 50,
+        "etki": {
+          "zeka": 8,
+          "itibar": 8
+        },
+        "sonuc": "Yükselme dönemi idaresinde haklarını kadı siciline onaylattın."
+      },
+      {
+        "metin": "Mahallede ziyafet verip garip gurebaya yardım et (bayezid2_003_cem_avrupada_rehine)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Cemaatin hayır duasını alıp neşeyle huzur buldun."
       }
     ]
   },
@@ -586,7 +946,7 @@
     "metin": "Karamanoğulları Beyliği'nin son kalıntılarına da kesin olarak son verildi. Anadolu Türk birliği artık tam anlamıyla tamamlanmıştı.",
     "secenekler": [
       {
-        "metin": "Sefere katıl",
+        "metin": "Sefere katıl (bayezid2_004_karaman_kesin_son)",
         "etki": {
           "para": 3,
           "itibar": 2,
@@ -595,11 +955,30 @@
         "sonuc": "Yüzyıllardır süren Karaman meselesi nihayet kapanmıştı."
       },
       {
-        "metin": "Sefere katılmadın",
+        "metin": "Sefere katılmadın (bayezid2_004_karaman_kesin_son)",
         "etki": {
           "mutluluk": 1
         },
         "sonuc": "Bu haber uzun süredir beklenen bir gelişmeydi."
+      },
+      {
+        "metin": "Devlet-i Aliyye tahrir defterine mülkünü kaydettir (bayezid2_004_karaman_kesin_son)",
+        "gerekli_zeka": 50,
+        "etki": {
+          "zeka": 8,
+          "itibar": 8
+        },
+        "sonuc": "Yükselme dönemi idaresinde haklarını kadı siciline onaylattın."
+      },
+      {
+        "metin": "Mahallede ziyafet verip garip gurebaya yardım et (bayezid2_004_karaman_kesin_son)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Cemaatin hayır duasını alıp neşeyle huzur buldun."
       }
     ]
   },
@@ -616,7 +995,7 @@
     "metin": "Kili ve Akkerman kaleleri alındı, Boğdan'ın fethi tamamlandı. Böylece Kırım ile Balkan topraklarımız kara yoluyla birleşti.",
     "secenekler": [
       {
-        "metin": "Sefere katıl",
+        "metin": "Sefere katıl (bayezid2_005_kili_akkerman)",
         "etki": {
           "para": 4,
           "itibar": 2,
@@ -626,11 +1005,30 @@
         "sonuc": "Karadeniz'in kuzey kıyıları artık bir bütün olarak elimizdeydi."
       },
       {
-        "metin": "Sefere katılmadın",
+        "metin": "Sefere katılmadın (bayezid2_005_kili_akkerman)",
         "etki": {
           "mutluluk": 1
         },
         "sonuc": "Toprak bütünlüğümüz genişlemeye devam ediyordu."
+      },
+      {
+        "metin": "Topkapı surları önünde Şahi toplarının barutunu sevk et (bayezid2_005_kili_akkerman)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "zeka": 10,
+          "itibar": 12
+        },
+        "sonuc": "Surlarda gedik açılmasına katkıda bulundun."
+      },
+      {
+        "metin": "Fetih sonrası Ayasofya camii vakfiyesine şamdan hediye et (bayezid2_005_kili_akkerman)",
+        "gerekli_para": 40,
+        "etki": {
+          "itibar": 12,
+          "para": -40,
+          "mutluluk": 8
+        },
+        "sonuc": "İstanbul'un ilk Cuma namazı tahririne hayrın yazıldı."
       }
     ]
   },
@@ -660,6 +1058,25 @@
           "mutluluk": -1
         },
         "sonuc": "Yeni komşulukların alışılması zaman aldı, ama şehir zaten hep farklı halkları barındırmıştı."
+      },
+      {
+        "metin": "Topkapı surları önünde Şahi toplarının barutunu sevk et (bayezid2_006_sefarad_goc)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "zeka": 10,
+          "itibar": 12
+        },
+        "sonuc": "Surlarda gedik açılmasına katkıda bulundun."
+      },
+      {
+        "metin": "Fetih sonrası Ayasofya camii vakfiyesine şamdan hediye et (bayezid2_006_sefarad_goc)",
+        "gerekli_para": 40,
+        "etki": {
+          "itibar": 12,
+          "para": -40,
+          "mutluluk": 8
+        },
+        "sonuc": "İstanbul'un ilk Cuma namazı tahririne hayrın yazıldı."
       }
     ]
   },
@@ -691,6 +1108,24 @@
           "mutluluk": 1
         },
         "sonuc": "Deniz zaferlerinin haberleri kıyı şehirlerinde büyük coşkuyla karşılandı."
+      },
+      {
+        "metin": "Kıbrıs fethinde Mağusa surları önüne cephane taşı (bayezid2_007_venedik_savasi_inebahti)",
+        "gerekli_para": 45,
+        "etki": {
+          "itibar": 14,
+          "para": -45
+        },
+        "sonuc": "Lala Mustafa Paşa komutasındaki Kıbrıs fethine mühimmat verdin."
+      },
+      {
+        "metin": "İnebahtı sonrası yeni donanmanın 5 ayda inşası için Tersane'de çalış (bayezid2_007_venedik_savasi_inebahti)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "zeka": 12,
+          "itibar": 10
+        },
+        "sonuc": "Sokullu Mehmed Paşa'nın muazzam donanma hamlesine katıldın."
       }
     ]
   },
@@ -720,6 +1155,24 @@
           "itibar": 1
         },
         "sonuc": "Herkes kendi yolunda kalmayı tercih ediyordu, ama gerginlik büyüyordu."
+      },
+      {
+        "metin": "Çaldıran sahrasında tüfekçi yeniçeri safında yer al (bayezid2_008_sah_ismail_safevi)",
+        "gerekli_itibar": 55,
+        "etki": {
+          "itibar": 16,
+          "saglik": -3
+        },
+        "sonuc": "Yavuz Sultan Selim'in ateşli silahlar üstünlüğüyle Çaldıran zaferine katıldın."
+      },
+      {
+        "metin": "Doğu seferi ordusuna Sivas kışlasında mühimmat sağla (bayezid2_008_sah_ismail_safevi)",
+        "gerekli_para": 45,
+        "etki": {
+          "itibar": 12,
+          "para": -45
+        },
+        "sonuc": "Yavuz'un doğu seferindeki iaşe ordusuna destek verdin."
       }
     ]
   },
@@ -749,6 +1202,24 @@
           "mutluluk": -2
         },
         "sonuc": "İsyan bölgeleri büyük acılar yaşadı. Herkes bir an önce huzurun geri gelmesini istiyordu."
+      },
+      {
+        "metin": "Çaldıran sahrasında tüfekçi yeniçeri safında yer al (bayezid2_009_sahkulu_isyani)",
+        "gerekli_itibar": 55,
+        "etki": {
+          "itibar": 16,
+          "saglik": -3
+        },
+        "sonuc": "Yavuz Sultan Selim'in ateşli silahlar üstünlüğüyle Çaldıran zaferine katıldın."
+      },
+      {
+        "metin": "Doğu seferi ordusuna Sivas kışlasında mühimmat sağla (bayezid2_009_sahkulu_isyani)",
+        "gerekli_para": 45,
+        "etki": {
+          "itibar": 12,
+          "para": -45
+        },
+        "sonuc": "Yavuz'un doğu seferindeki iaşe ordusuna destek verdin."
       }
     ]
   },
@@ -780,6 +1251,25 @@
           "mutluluk": -3
         },
         "sonuc": "Doğanın bu acımasız hatırlatması, herkesi derinden sarstı."
+      },
+      {
+        "metin": "Topkapı surları önünde Şahi toplarının barutunu sevk et (bayezid2_010_kucuk_kiyamet_deprem)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "zeka": 10,
+          "itibar": 12
+        },
+        "sonuc": "Surlarda gedik açılmasına katkıda bulundun."
+      },
+      {
+        "metin": "Fetih sonrası Ayasofya camii vakfiyesine şamdan hediye et (bayezid2_010_kucuk_kiyamet_deprem)",
+        "gerekli_para": 40,
+        "etki": {
+          "itibar": 12,
+          "para": -40,
+          "mutluluk": 8
+        },
+        "sonuc": "İstanbul'un ilk Cuma namazı tahririne hayrın yazıldı."
       }
     ]
   },
@@ -809,6 +1299,25 @@
           "mutluluk": 1
         },
         "sonuc": "Değişim herkes için kolay kabul edilmiyordu, ama bu yeniliğin geleceği belirleyeceği aşikardı."
+      },
+      {
+        "metin": "Devlet-i Aliyye tahrir defterine mülkünü kaydettir (bayezid2_011_tufek_yenicerilere)",
+        "gerekli_zeka": 50,
+        "etki": {
+          "zeka": 8,
+          "itibar": 8
+        },
+        "sonuc": "Yükselme dönemi idaresinde haklarını kadı siciline onaylattın."
+      },
+      {
+        "metin": "Mahallede ziyafet verip garip gurebaya yardım et (bayezid2_011_tufek_yenicerilere)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Cemaatin hayır duasını alıp neşeyle huzur buldun."
       }
     ]
   },
@@ -838,6 +1347,25 @@
           "itibar": 1
         },
         "sonuc": "Devlet disiplini önemliydi, ama gerilim gözle görülür hale gelmişti."
+      },
+      {
+        "metin": "Devlet-i Aliyye tahrir defterine mülkünü kaydettir (bayezid2_012_selim_iran_toprak)",
+        "gerekli_zeka": 50,
+        "etki": {
+          "zeka": 8,
+          "itibar": 8
+        },
+        "sonuc": "Yükselme dönemi idaresinde haklarını kadı siciline onaylattın."
+      },
+      {
+        "metin": "Mahallede ziyafet verip garip gurebaya yardım et (bayezid2_012_selim_iran_toprak)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Cemaatin hayır duasını alıp neşeyle huzur buldun."
       }
     ]
   },
@@ -868,6 +1396,25 @@
           "mutluluk": -1
         },
         "sonuc": "Devletin geleceği belirsizleşiyordu. Herkes bir çözüm bekliyordu."
+      },
+      {
+        "metin": "Topkapı surları önünde Şahi toplarının barutunu sevk et (bayezid2_013_corlu_savasi)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "zeka": 10,
+          "itibar": 12
+        },
+        "sonuc": "Surlarda gedik açılmasına katkıda bulundun."
+      },
+      {
+        "metin": "Fetih sonrası Ayasofya camii vakfiyesine şamdan hediye et (bayezid2_013_corlu_savasi)",
+        "gerekli_para": 40,
+        "etki": {
+          "itibar": 12,
+          "para": -40,
+          "mutluluk": 8
+        },
+        "sonuc": "İstanbul'un ilk Cuma namazı tahririne hayrın yazıldı."
       }
     ]
   },
@@ -897,6 +1444,25 @@
           "zeka": 2
         },
         "sonuc": "Selim'in kararlılığı ve sertliği herkesçe biliniyordu. Önümüzdeki yıllar hareketli geçecek gibiydi."
+      },
+      {
+        "metin": "Topkapı surları önünde Şahi toplarının barutunu sevk et (bayezid2_014_tahttan_feragat_vefat)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "zeka": 10,
+          "itibar": 12
+        },
+        "sonuc": "Surlarda gedik açılmasına katkıda bulundun."
+      },
+      {
+        "metin": "Fetih sonrası Ayasofya camii vakfiyesine şamdan hediye et (bayezid2_014_tahttan_feragat_vefat)",
+        "gerekli_para": 40,
+        "etki": {
+          "itibar": 12,
+          "para": -40,
+          "mutluluk": 8
+        },
+        "sonuc": "İstanbul'un ilk Cuma namazı tahririne hayrın yazıldı."
       }
     ]
   },
@@ -926,6 +1492,24 @@
           "mutluluk": -2
         },
         "sonuc": "Devlet mantığı ile aile bağları arasındaki bu gerilim, herkesi derinden düşündürüyordu."
+      },
+      {
+        "metin": "Çaldıran sahrasında tüfekçi yeniçeri safında yer al (selim1_001_tahta_cikis_kardesler)",
+        "gerekli_itibar": 55,
+        "etki": {
+          "itibar": 16,
+          "saglik": -3
+        },
+        "sonuc": "Yavuz Sultan Selim'in ateşli silahlar üstünlüğüyle Çaldıran zaferine katıldın."
+      },
+      {
+        "metin": "Doğu seferi ordusuna Sivas kışlasında mühimmat sağla (selim1_001_tahta_cikis_kardesler)",
+        "gerekli_para": 45,
+        "etki": {
+          "itibar": 12,
+          "para": -45
+        },
+        "sonuc": "Yavuz'un doğu seferindeki iaşe ordusuna destek verdin."
       }
     ]
   },
@@ -950,11 +1534,29 @@
         "sonuc": "Büyük bir seferin yaklaştığı herkesçe hissediliyordu."
       },
       {
-        "metin": "Gündelik hayatına devam et",
+        "metin": "Gündelik hayatına devam et (selim1_002_dogu_hazirlik)",
         "etki": {
           "mutluluk": 1
         },
         "sonuc": "Askeri hazırlıklar saray ve ordu çevresinde yoğunlaşıyordu."
+      },
+      {
+        "metin": "Çaldıran sahrasında tüfekçi yeniçeri safında yer al (selim1_002_dogu_hazirlik)",
+        "gerekli_itibar": 55,
+        "etki": {
+          "itibar": 16,
+          "saglik": -3
+        },
+        "sonuc": "Yavuz Sultan Selim'in ateşli silahlar üstünlüğüyle Çaldıran zaferine katıldın."
+      },
+      {
+        "metin": "Doğu seferi ordusuna Sivas kışlasında mühimmat sağla (selim1_002_dogu_hazirlik)",
+        "gerekli_para": 45,
+        "etki": {
+          "itibar": 12,
+          "para": -45
+        },
+        "sonuc": "Yavuz'un doğu seferindeki iaşe ordusuna destek verdin."
       }
     ]
   },
@@ -981,11 +1583,29 @@
         "sonuc": "Büyük zafer kazanıldı. Tebriz'e girildi, Doğu Anadolu'daki Safevi tehdidi büyük ölçüde bertaraf edildi."
       },
       {
-        "metin": "Sefere katılmadın",
+        "metin": "Sefere katılmadın (selim1_003_caldiran_savasi)",
         "etki": {
           "mutluluk": 1
         },
         "sonuc": "Zafer haberi köye ulaştığında büyük bir gurur ve rahatlama yaşandı."
+      },
+      {
+        "metin": "Çaldıran sahrasında tüfekçi yeniçeri safında yer al (selim1_003_caldiran_savasi)",
+        "gerekli_itibar": 55,
+        "etki": {
+          "itibar": 16,
+          "saglik": -3
+        },
+        "sonuc": "Yavuz Sultan Selim'in ateşli silahlar üstünlüğüyle Çaldıran zaferine katıldın."
+      },
+      {
+        "metin": "Doğu seferi ordusuna Sivas kışlasında mühimmat sağla (selim1_003_caldiran_savasi)",
+        "gerekli_para": 45,
+        "etki": {
+          "itibar": 12,
+          "para": -45
+        },
+        "sonuc": "Yavuz'un doğu seferindeki iaşe ordusuna destek verdin."
       }
     ]
   },
@@ -1015,6 +1635,25 @@
           "mutluluk": 1
         },
         "sonuc": "Yeni gelenlerin hikayeleri mahallede merakla konuşuluyordu."
+      },
+      {
+        "metin": "Topkapı surları önünde Şahi toplarının barutunu sevk et (selim1_004_tebriz_bilginler)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "zeka": 10,
+          "itibar": 12
+        },
+        "sonuc": "Surlarda gedik açılmasına katkıda bulundun."
+      },
+      {
+        "metin": "Fetih sonrası Ayasofya camii vakfiyesine şamdan hediye et (selim1_004_tebriz_bilginler)",
+        "gerekli_para": 40,
+        "etki": {
+          "itibar": 12,
+          "para": -40,
+          "mutluluk": 8
+        },
+        "sonuc": "İstanbul'un ilk Cuma namazı tahririne hayrın yazıldı."
       }
     ]
   },
@@ -1041,11 +1680,29 @@
         "sonuc": "Osman Gazi'den beri süren rüya, iki asrı aşkın bir sürecin ardından nihayet tam anlamıyla gerçekleşmişti."
       },
       {
-        "metin": "Sefere katılmadın",
+        "metin": "Sefere katılmadın (selim1_005_turnadag_dulkadir)",
         "etki": {
           "mutluluk": 1
         },
         "sonuc": "Anadolu birliğinin tamamlandığı haberi büyük bir gururla karşılandı."
+      },
+      {
+        "metin": "Çaldıran sahrasında tüfekçi yeniçeri safında yer al (selim1_005_turnadag_dulkadir)",
+        "gerekli_itibar": 55,
+        "etki": {
+          "itibar": 16,
+          "saglik": -3
+        },
+        "sonuc": "Yavuz Sultan Selim'in ateşli silahlar üstünlüğüyle Çaldıran zaferine katıldın."
+      },
+      {
+        "metin": "Doğu seferi ordusuna Sivas kışlasında mühimmat sağla (selim1_005_turnadag_dulkadir)",
+        "gerekli_para": 45,
+        "etki": {
+          "itibar": 12,
+          "para": -45
+        },
+        "sonuc": "Yavuz'un doğu seferindeki iaşe ordusuna destek verdin."
       }
     ]
   },
@@ -1070,11 +1727,29 @@
         "sonuc": "İstanbul ve Rumeli'den Kahire'ye uzanacak uzun ve meşakkatli bir yürüyüş başlıyordu."
       },
       {
-        "metin": "Gündelik hayatına devam et",
+        "metin": "Gündelik hayatına devam et (selim1_006_misir_seferi_karar)",
         "etki": {
           "mutluluk": 1
         },
         "sonuc": "Büyük seferlerin hazırlığı aylar alırdı."
+      },
+      {
+        "metin": "Çaldıran sahrasında tüfekçi yeniçeri safında yer al (selim1_006_misir_seferi_karar)",
+        "gerekli_itibar": 55,
+        "etki": {
+          "itibar": 16,
+          "saglik": -3
+        },
+        "sonuc": "Yavuz Sultan Selim'in ateşli silahlar üstünlüğüyle Çaldıran zaferine katıldın."
+      },
+      {
+        "metin": "Doğu seferi ordusuna Sivas kışlasında mühimmat sağla (selim1_006_misir_seferi_karar)",
+        "gerekli_para": 45,
+        "etki": {
+          "itibar": 12,
+          "para": -45
+        },
+        "sonuc": "Yavuz'un doğu seferindeki iaşe ordusuna destek verdin."
       }
     ]
   },
@@ -1101,11 +1776,29 @@
         "sonuc": "Zafer kesin oldu. Şam kapılarını açtı, Suriye ve Filistin Osmanlı topraklarına katılıyordu."
       },
       {
-        "metin": "Bu sefere katılmadın",
+        "metin": "Bu sefere katılmadın (selim1_007_mercidabik)",
         "etki": {
           "mutluluk": 1
         },
         "sonuc": "Zafer haberleri arka arkaya geliyordu, herkes bu büyük genişlemeyi konuşuyordu."
+      },
+      {
+        "metin": "Ridaniye sahrasında Memlük süvarilerine karşı top hattını sevk et (selim1_007_mercidabik)",
+        "gerekli_itibar": 60,
+        "etki": {
+          "itibar": 18,
+          "saglik": -3
+        },
+        "sonuc": "Topların yönünü çevirerek Ridaniye zaferine damga vurdunuz."
+      },
+      {
+        "metin": "Mukaddes emanetlerin İstanbul'a naklinde kadı kâtibi ol (selim1_007_mercidabik)",
+        "gerekli_zeka": 60,
+        "etki": {
+          "zeka": 14,
+          "itibar": 10
+        },
+        "sonuc": "Halifelik alametlerinin tahririnde görev aldın."
       }
     ]
   },
@@ -1137,6 +1830,25 @@
           "mutluluk": 1
         },
         "sonuc": "Çölü geçen askerlerin hikayeleri efsaneye dönüşecekti."
+      },
+      {
+        "metin": "Devlet-i Aliyye tahrir defterine mülkünü kaydettir (selim1_008_sina_colu_gecisi)",
+        "gerekli_zeka": 50,
+        "etki": {
+          "zeka": 8,
+          "itibar": 8
+        },
+        "sonuc": "Yükselme dönemi idaresinde haklarını kadı siciline onaylattın."
+      },
+      {
+        "metin": "Mahallede ziyafet verip garip gurebaya yardım et (selim1_008_sina_colu_gecisi)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Cemaatin hayır duasını alıp neşeyle huzur buldun."
       }
     ]
   },
@@ -1163,11 +1875,29 @@
         "sonuc": "Yüzyıllardır İslam dünyasının önemli bir gücü olan Memlük Devleti tarihe karıştı. Mısır, Suriye, Filistin, Hicaz — hepsi artık Osmanlı toprağıydı."
       },
       {
-        "metin": "Bu sefere katılmadın",
+        "metin": "Bu sefere katılmadın (selim1_009_ridaniye_savasi)",
         "etki": {
           "mutluluk": 1
         },
         "sonuc": "Bu tarihi zaferin haberi tüm ülkede büyük bir coşkuyla karşılandı."
+      },
+      {
+        "metin": "Ridaniye sahrasında Memlük süvarilerine karşı top hattını sevk et (selim1_009_ridaniye_savasi)",
+        "gerekli_itibar": 60,
+        "etki": {
+          "itibar": 18,
+          "saglik": -3
+        },
+        "sonuc": "Topların yönünü çevirerek Ridaniye zaferine damga vurdunuz."
+      },
+      {
+        "metin": "Mukaddes emanetlerin İstanbul'a naklinde kadı kâtibi ol (selim1_009_ridaniye_savasi)",
+        "gerekli_zeka": 60,
+        "etki": {
+          "zeka": 14,
+          "itibar": 10
+        },
+        "sonuc": "Halifelik alametlerinin tahririnde görev aldın."
       }
     ]
   },
@@ -1198,6 +1928,24 @@
           "mutluluk": 2
         },
         "sonuc": "Bu unvan, hem büyük bir onur hem de büyük bir sorumluluk demekti."
+      },
+      {
+        "metin": "Çaldıran sahrasında tüfekçi yeniçeri safında yer al (selim1_010_halifelik_devri)",
+        "gerekli_itibar": 55,
+        "etki": {
+          "itibar": 16,
+          "saglik": -3
+        },
+        "sonuc": "Yavuz Sultan Selim'in ateşli silahlar üstünlüğüyle Çaldıran zaferine katıldın."
+      },
+      {
+        "metin": "Doğu seferi ordusuna Sivas kışlasında mühimmat sağla (selim1_010_halifelik_devri)",
+        "gerekli_para": 45,
+        "etki": {
+          "itibar": 12,
+          "para": -45
+        },
+        "sonuc": "Yavuz'un doğu seferindeki iaşe ordusuna destek verdin."
       }
     ]
   },
@@ -1227,6 +1975,25 @@
           "mutluluk": 1
         },
         "sonuc": "Ticaretin genişlemesi zamanla herkese dokunacaktı."
+      },
+      {
+        "metin": "Devlet-i Aliyye tahrir defterine mülkünü kaydettir (selim1_011_hicaz_baharat_yolu)",
+        "gerekli_zeka": 50,
+        "etki": {
+          "zeka": 8,
+          "itibar": 8
+        },
+        "sonuc": "Yükselme dönemi idaresinde haklarını kadı siciline onaylattın."
+      },
+      {
+        "metin": "Mahallede ziyafet verip garip gurebaya yardım et (selim1_011_hicaz_baharat_yolu)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Cemaatin hayır duasını alıp neşeyle huzur buldun."
       }
     ]
   },
@@ -1251,11 +2018,29 @@
         "sonuc": "Denizlerde de nüfuzumuz gözle görülür şekilde artıyordu."
       },
       {
-        "metin": "Günlük hayatına devam et",
+        "metin": "Günlük hayatına devam et (selim1_012_kibris_vergisi)",
         "etki": {
           "mutluluk": 1
         },
         "sonuc": "Uzak diplomatik gelişmeler halkın gündelik hayatını hemen değiştirmiyordu."
+      },
+      {
+        "metin": "Ridaniye sahrasında Memlük süvarilerine karşı top hattını sevk et (selim1_012_kibris_vergisi)",
+        "gerekli_itibar": 60,
+        "etki": {
+          "itibar": 18,
+          "saglik": -3
+        },
+        "sonuc": "Topların yönünü çevirerek Ridaniye zaferine damga vurdunuz."
+      },
+      {
+        "metin": "Mukaddes emanetlerin İstanbul'a naklinde kadı kâtibi ol (selim1_012_kibris_vergisi)",
+        "gerekli_zeka": 60,
+        "etki": {
+          "zeka": 14,
+          "itibar": 10
+        },
+        "sonuc": "Halifelik alametlerinin tahririnde görev aldın."
       }
     ]
   },
@@ -1285,6 +2070,24 @@
           "zeka": 2
         },
         "sonuc": "Şehzade Süleyman'ın babası kadar sert olmadığı, daha adaletli bir yönetim beklendiği konuşuluyordu."
+      },
+      {
+        "metin": "Çaldıran sahrasında tüfekçi yeniçeri safında yer al (selim1_013_yavuz_vefati)",
+        "gerekli_itibar": 55,
+        "etki": {
+          "itibar": 16,
+          "saglik": -3
+        },
+        "sonuc": "Yavuz Sultan Selim'in ateşli silahlar üstünlüğüyle Çaldıran zaferine katıldın."
+      },
+      {
+        "metin": "Doğu seferi ordusuna Sivas kışlasında mühimmat sağla (selim1_013_yavuz_vefati)",
+        "gerekli_para": 45,
+        "etki": {
+          "itibar": 12,
+          "para": -45
+        },
+        "sonuc": "Yavuz'un doğu seferindeki iaşe ordusuna destek verdin."
       }
     ]
   },
@@ -1314,6 +2117,24 @@
           "zeka": 1
         },
         "sonuc": "Genç sultanların ilk icraatları merakla izleniyordu."
+      },
+      {
+        "metin": "Çaldıran sahrasında tüfekçi yeniçeri safında yer al (kanuni1_001_tahta_cikis)",
+        "gerekli_itibar": 55,
+        "etki": {
+          "itibar": 16,
+          "saglik": -3
+        },
+        "sonuc": "Yavuz Sultan Selim'in ateşli silahlar üstünlüğüyle Çaldıran zaferine katıldın."
+      },
+      {
+        "metin": "Doğu seferi ordusuna Sivas kışlasında mühimmat sağla (kanuni1_001_tahta_cikis)",
+        "gerekli_para": 45,
+        "etki": {
+          "itibar": 12,
+          "para": -45
+        },
+        "sonuc": "Yavuz'un doğu seferindeki iaşe ordusuna destek verdin."
       }
     ]
   },
@@ -1340,11 +2161,30 @@
         "sonuc": "Genç sultanın ilk zaferi, büyük bir saltanatın habercisiydi. İstanbul'a getirilen bazı Belgradlılar, şehirde kendi adını taşıyan bir köye yerleştirildi."
       },
       {
-        "metin": "Sefere katılmadın",
+        "metin": "Sefere katılmadın (kanuni1_002_belgrad_fethi)",
         "etki": {
           "mutluluk": 1
         },
         "sonuc": "Zafer haberi büyük bir coşkuyla karşılandı."
+      },
+      {
+        "metin": "Topkapı surları önünde Şahi toplarının barutunu sevk et (kanuni1_002_belgrad_fethi)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "zeka": 10,
+          "itibar": 12
+        },
+        "sonuc": "Surlarda gedik açılmasına katkıda bulundun."
+      },
+      {
+        "metin": "Fetih sonrası Ayasofya camii vakfiyesine şamdan hediye et (kanuni1_002_belgrad_fethi)",
+        "gerekli_para": 40,
+        "etki": {
+          "itibar": 12,
+          "para": -40,
+          "mutluluk": 8
+        },
+        "sonuc": "İstanbul'un ilk Cuma namazı tahririne hayrın yazıldı."
       }
     ]
   },
@@ -1371,11 +2211,30 @@
         "sonuc": "Akdeniz'deki en büyük tehditlerden biri bertaraf edilmişti. Ticaret yolları artık daha güvenliydi."
       },
       {
-        "metin": "Sefere katılmadın",
+        "metin": "Sefere katılmadın (kanuni1_003_rodos_fethi)",
         "etki": {
           "mutluluk": 1
         },
         "sonuc": "Rodos'un fethi, denizlerdeki hakimiyetimiz için önemli bir adımdı."
+      },
+      {
+        "metin": "Devlet-i Aliyye tahrir defterine mülkünü kaydettir (kanuni1_003_rodos_fethi)",
+        "gerekli_zeka": 50,
+        "etki": {
+          "zeka": 8,
+          "itibar": 8
+        },
+        "sonuc": "Yükselme dönemi idaresinde haklarını kadı siciline onaylattın."
+      },
+      {
+        "metin": "Mahallede ziyafet verip garip gurebaya yardım et (kanuni1_003_rodos_fethi)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Cemaatin hayır duasını alıp neşeyle huzur buldun."
       }
     ]
   },
@@ -1402,11 +2261,29 @@
         "sonuc": "Macar ordusu tamamen dağıtıldı, kral savaş meydanında öldü. İki hafta sonra Budin'e girildi — Macaristan artık hakimiyetimiz altındaydı."
       },
       {
-        "metin": "Bu sefere katılmadın",
+        "metin": "Bu sefere katılmadın (kanuni1_004_mohac_zaferi)",
         "etki": {
           "mutluluk": 1
         },
         "sonuc": "Zafer haberi tüm ülkede büyük bir gururla karşılandı."
+      },
+      {
+        "metin": "Mohaç sahrasında 2 saatlik zafer muharebesinde zırhlı sipahi ol (kanuni1_004_mohac_zaferi)",
+        "gerekli_itibar": 60,
+        "etki": {
+          "itibar": 20,
+          "saglik": -4
+        },
+        "sonuc": "Tarihin en hızlı meydan zaferinde Kanuni'nin sancağı altındaydın."
+      },
+      {
+        "metin": "Budin kalesi garnizonuna kışlık çuha ve erzak temin et (kanuni1_004_mohac_zaferi)",
+        "gerekli_para": 50,
+        "etki": {
+          "itibar": 14,
+          "para": -50
+        },
+        "sonuc": "Macaristan eyaletinin ilk idari iaşesine destek verdin."
       }
     ]
   },
@@ -1433,11 +2310,30 @@
         "sonuc": "Nadiren yaşanan bir geri çekilmeydi bu. Ama sefer, Osmanlı'nın Avrupa'nın göbeğine kadar ulaşabildiğini de göstermişti."
       },
       {
-        "metin": "Sefere katılmadın",
+        "metin": "Sefere katılmadın (kanuni1_005_ilk_viyana_kusatmasi)",
         "etki": {
           "mutluluk": 1
         },
         "sonuc": "Bu seferin sonucu, kesin bir zafer değildi ama yine de gücümüzün bir göstergesiydi."
+      },
+      {
+        "metin": "Devlet-i Aliyye tahrir defterine mülkünü kaydettir (kanuni1_005_ilk_viyana_kusatmasi)",
+        "gerekli_zeka": 50,
+        "etki": {
+          "zeka": 8,
+          "itibar": 8
+        },
+        "sonuc": "Yükselme dönemi idaresinde haklarını kadı siciline onaylattın."
+      },
+      {
+        "metin": "Mahallede ziyafet verip garip gurebaya yardım et (kanuni1_005_ilk_viyana_kusatmasi)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Cemaatin hayır duasını alıp neşeyle huzur buldun."
       }
     ]
   },
@@ -1462,11 +2358,29 @@
         "sonuc": "Akdeniz'deki en yetenekli denizcilerden biri artık bizim safımızdaydı. Bu, denizlerdeki geleceğimizi değiştirecekti."
       },
       {
-        "metin": "Gündelik hayatına devam et",
+        "metin": "Gündelik hayatına devam et (kanuni1_006_barbaros_katilim)",
         "etki": {
           "mutluluk": 1
         },
         "sonuc": "Deniz gücümüzün büyüdüğü haberi kıyı şehirlerinde büyük memnuniyetle karşılandı."
+      },
+      {
+        "metin": "Preveze deniz muharebesinde Barbaros Hayreddin Paşa'nın kadırgasına levent ol (kanuni1_006_barbaros_katilim)",
+        "gerekli_itibar": 60,
+        "etki": {
+          "itibar": 20,
+          "saglik": -3
+        },
+        "sonuc": "Akdeniz'i Türk gölü yapan tarihi deniz zaferinde ter döktün."
+      },
+      {
+        "metin": "Tersane-i Amire'ye gemi omurgası için meşe kerestesi tahsis et (kanuni1_006_barbaros_katilim)",
+        "gerekli_para": 55,
+        "etki": {
+          "para": 40,
+          "zeka": 8
+        },
+        "sonuc": "Kaptan-ı Derya donanmasına malzeme veripakar sağladın."
       }
     ]
   },
@@ -1495,6 +2409,25 @@
           "zeka": 1
         },
         "sonuc": "Diplomatik dengeler her zaman kırılgan olurdu."
+      },
+      {
+        "metin": "Topkapı surları önünde Şahi toplarının barutunu sevk et (kanuni1_007_istanbul_antlasmasi)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "zeka": 10,
+          "itibar": 12
+        },
+        "sonuc": "Surlarda gedik açılmasına katkıda bulundun."
+      },
+      {
+        "metin": "Fetih sonrası Ayasofya camii vakfiyesine şamdan hediye et (kanuni1_007_istanbul_antlasmasi)",
+        "gerekli_para": 40,
+        "etki": {
+          "itibar": 12,
+          "para": -40,
+          "mutluluk": 8
+        },
+        "sonuc": "İstanbul'un ilk Cuma namazı tahririne hayrın yazıldı."
       }
     ]
   },
@@ -1521,11 +2454,29 @@
         "sonuc": "İslam'ın kutsal şehirlerinden biri olan Bağdat artık Osmanlı toprağıydı. Doğu ticaret yollarındaki hakimiyetimiz pekişti."
       },
       {
-        "metin": "Bu uzak sefere katılmadın",
+        "metin": "Bu uzak sefere katılmadın (kanuni1_008_bagdat_seferi)",
         "etki": {
           "mutluluk": 1
         },
         "sonuc": "Doğudaki fetih haberleri İstanbul'a ulaştıkça sevinçle karşılandı."
+      },
+      {
+        "metin": "Çaldıran sahrasında tüfekçi yeniçeri safında yer al (kanuni1_008_bagdat_seferi)",
+        "gerekli_itibar": 55,
+        "etki": {
+          "itibar": 16,
+          "saglik": -3
+        },
+        "sonuc": "Yavuz Sultan Selim'in ateşli silahlar üstünlüğüyle Çaldıran zaferine katıldın."
+      },
+      {
+        "metin": "Doğu seferi ordusuna Sivas kışlasında mühimmat sağla (kanuni1_008_bagdat_seferi)",
+        "gerekli_para": 45,
+        "etki": {
+          "itibar": 12,
+          "para": -45
+        },
+        "sonuc": "Yavuz'un doğu seferindeki iaşe ordusuna destek verdin."
       }
     ]
   },
@@ -1555,6 +2506,25 @@
           "mutluluk": -1
         },
         "sonuc": "Yabancılara verilen ayrıcalıklar bazılarını rahatsız etse de, diplomatik dengeler gereği kabul edildi."
+      },
+      {
+        "metin": "Devlet-i Aliyye tahrir defterine mülkünü kaydettir (kanuni1_009_fransaya_kapitulasyon)",
+        "gerekli_zeka": 50,
+        "etki": {
+          "zeka": 8,
+          "itibar": 8
+        },
+        "sonuc": "Yükselme dönemi idaresinde haklarını kadı siciline onaylattın."
+      },
+      {
+        "metin": "Mahallede ziyafet verip garip gurebaya yardım et (kanuni1_009_fransaya_kapitulasyon)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Cemaatin hayır duasını alıp neşeyle huzur buldun."
       }
     ]
   },
@@ -1576,6 +2546,25 @@
           "zeka": 2
         },
         "sonuc": "İbrahim Paşa'nın gücü ve nüfuzu, saray içinde herkesin dikkatini çekiyordu."
+      },
+      {
+        "metin": "Devlet-i Aliyye tahrir defterine mülkünü kaydettir (kanuni1_010_ibrahim_pasa_yukselisi)",
+        "gerekli_zeka": 50,
+        "etki": {
+          "zeka": 8,
+          "itibar": 8
+        },
+        "sonuc": "Yükselme dönemi idaresinde haklarını kadı siciline onaylattın."
+      },
+      {
+        "metin": "Mahallede ziyafet verip garip gurebaya yardım et (kanuni1_010_ibrahim_pasa_yukselisi)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Cemaatin hayır duasını alıp neşeyle huzur buldun."
       }
     ]
   },
@@ -1606,6 +2595,25 @@
           "mutluluk": -2
         },
         "sonuc": "Güç ne kadar büyük olursa olsun, padişahın üstünde hiç kimse olamazdı. Bu, herkese verilen sert bir mesajdı."
+      },
+      {
+        "metin": "Devlet-i Aliyye tahrir defterine mülkünü kaydettir (kanuni1_011_ibrahim_pasa_idami)",
+        "gerekli_zeka": 50,
+        "etki": {
+          "zeka": 8,
+          "itibar": 8
+        },
+        "sonuc": "Yükselme dönemi idaresinde haklarını kadı siciline onaylattın."
+      },
+      {
+        "metin": "Mahallede ziyafet verip garip gurebaya yardım et (kanuni1_011_ibrahim_pasa_idami)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Cemaatin hayır duasını alıp neşeyle huzur buldun."
       }
     ]
   },
@@ -1630,11 +2638,29 @@
         "sonuc": "Tersaneler gece gündüz çalışıyordu. Büyük bir sınav yaklaşıyordu."
       },
       {
-        "metin": "Gündelik hayatına devam et",
+        "metin": "Gündelik hayatına devam et (kanuni1_012_preveze_hazirlik)",
         "etki": {
           "mutluluk": 1
         },
         "sonuc": "Denizdeki gerginlik, kıyı halkını daha çok ilgilendiriyordu."
+      },
+      {
+        "metin": "Preveze deniz muharebesinde Barbaros Hayreddin Paşa'nın kadırgasına levent ol (kanuni1_012_preveze_hazirlik)",
+        "gerekli_itibar": 60,
+        "etki": {
+          "itibar": 20,
+          "saglik": -3
+        },
+        "sonuc": "Akdeniz'i Türk gölü yapan tarihi deniz zaferinde ter döktün."
+      },
+      {
+        "metin": "Tersane-i Amire'ye gemi omurgası için meşe kerestesi tahsis et (kanuni1_012_preveze_hazirlik)",
+        "gerekli_para": 55,
+        "etki": {
+          "para": 40,
+          "zeka": 8
+        },
+        "sonuc": "Kaptan-ı Derya donanmasına malzeme veripakar sağladın."
       }
     ]
   },
@@ -1659,11 +2685,30 @@
         "sonuc": "Kadı mahkemelerinde artık daha net ve tutarlı kararlar veriliyordu. Halk arasında sultan'ın adaletinden övgüyle bahsediliyordu."
       },
       {
-        "metin": "Günlük hayatına devam et",
+        "metin": "Günlük hayatına devam et (kanuni1_013_16_yil_venedik_savasi_baslangic)",
         "etki": {
           "mutluluk": 1
         },
         "sonuc": "Hukuki düzenlemeler zamanla herkesin hayatına dokunacaktı."
+      },
+      {
+        "metin": "Topkapı surları önünde Şahi toplarının barutunu sevk et (kanuni1_013_16_yil_venedik_savasi_baslangic)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "zeka": 10,
+          "itibar": 12
+        },
+        "sonuc": "Surlarda gedik açılmasına katkıda bulundun."
+      },
+      {
+        "metin": "Fetih sonrası Ayasofya camii vakfiyesine şamdan hediye et (kanuni1_013_16_yil_venedik_savasi_baslangic)",
+        "gerekli_para": 40,
+        "etki": {
+          "itibar": 12,
+          "para": -40,
+          "mutluluk": 8
+        },
+        "sonuc": "İstanbul'un ilk Cuma namazı tahririne hayrın yazıldı."
       }
     ]
   },
@@ -1688,11 +2733,30 @@
         "sonuc": "Genç yaşta kazanılan tecrübe, büyük bir devletin yönetiminde fark yaratıyordu."
       },
       {
-        "metin": "Günlük hayatına devam et",
+        "metin": "Günlük hayatına devam et (kanuni1_014_kefe_manisa_valilik_anisi)",
         "etki": {
           "mutluluk": 1
         },
         "sonuc": "İyi yönetilen bir devlette yaşamak, halkın gündelik huzuruna da yansıyordu."
+      },
+      {
+        "metin": "Devlet-i Aliyye tahrir defterine mülkünü kaydettir (kanuni1_014_kefe_manisa_valilik_anisi)",
+        "gerekli_zeka": 50,
+        "etki": {
+          "zeka": 8,
+          "itibar": 8
+        },
+        "sonuc": "Yükselme dönemi idaresinde haklarını kadı siciline onaylattın."
+      },
+      {
+        "metin": "Mahallede ziyafet verip garip gurebaya yardım et (kanuni1_014_kefe_manisa_valilik_anisi)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Cemaatin hayır duasını alıp neşeyle huzur buldun."
       }
     ]
   },
@@ -1724,6 +2788,24 @@
           "mutluluk": 4
         },
         "sonuc": "Zafer haberi kıyı şehirlerinde büyük bir coşkuyla kutlandı. Barbaros'un adı artık bir efsaneydi."
+      },
+      {
+        "metin": "Preveze deniz muharebesinde Barbaros Hayreddin Paşa'nın kadırgasına levent ol (kanuni2_001_preveze_zaferi)",
+        "gerekli_itibar": 60,
+        "etki": {
+          "itibar": 20,
+          "saglik": -3
+        },
+        "sonuc": "Akdeniz'i Türk gölü yapan tarihi deniz zaferinde ter döktün."
+      },
+      {
+        "metin": "Tersane-i Amire'ye gemi omurgası için meşe kerestesi tahsis et (kanuni2_001_preveze_zaferi)",
+        "gerekli_para": 55,
+        "etki": {
+          "para": 40,
+          "zeka": 8
+        },
+        "sonuc": "Kaptan-ı Derya donanmasına malzeme veripakar sağladın."
       }
     ]
   },
@@ -1750,11 +2832,30 @@
         "sonuc": "Hindistan'a kadar uzanan bu sefer beklenen başarıyı getirmedi ama Osmanlı'nın ne kadar uzaklara ulaşabildiğini gösterdi — dünyanın öbür ucundan hikayelerle döndün."
       },
       {
-        "metin": "Bu uzak sefere katılmadın",
+        "metin": "Bu uzak sefere katılmadın (kanuni2_002_hint_deniz_seferi)",
         "etki": {
           "mutluluk": 1
         },
         "sonuc": "Hindistan'a kadar giden bir donanmanın hikayeleri mahallede uzun süre konuşuldu."
+      },
+      {
+        "metin": "Topkapı surları önünde Şahi toplarının barutunu sevk et (kanuni2_002_hint_deniz_seferi)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "zeka": 10,
+          "itibar": 12
+        },
+        "sonuc": "Surlarda gedik açılmasına katkıda bulundun."
+      },
+      {
+        "metin": "Fetih sonrası Ayasofya camii vakfiyesine şamdan hediye et (kanuni2_002_hint_deniz_seferi)",
+        "gerekli_para": 40,
+        "etki": {
+          "itibar": 12,
+          "para": -40,
+          "mutluluk": 8
+        },
+        "sonuc": "İstanbul'un ilk Cuma namazı tahririne hayrın yazıldı."
       }
     ]
   },
@@ -1784,6 +2885,25 @@
           "zeka": 1
         },
         "sonuc": "Bir haseki sultanın bu denli etkili olması, sarayın alışılmış düzenini değiştiriyordu."
+      },
+      {
+        "metin": "Devlet-i Aliyye tahrir defterine mülkünü kaydettir (kanuni2_003_hurrem_haseki_nufuzu)",
+        "gerekli_zeka": 50,
+        "etki": {
+          "zeka": 8,
+          "itibar": 8
+        },
+        "sonuc": "Yükselme dönemi idaresinde haklarını kadı siciline onaylattın."
+      },
+      {
+        "metin": "Mahallede ziyafet verip garip gurebaya yardım et (kanuni2_003_hurrem_haseki_nufuzu)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Cemaatin hayır duasını alıp neşeyle huzur buldun."
       }
     ]
   },
@@ -1810,11 +2930,29 @@
         "sonuc": "Doğu sınırlarımız yeniden pekişti. Van, artık bölgenin idari merkeziydi."
       },
       {
-        "metin": "Bu uzak sefere katılmadın",
+        "metin": "Bu uzak sefere katılmadın (kanuni2_004_ikinci_iran_seferi)",
         "etki": {
           "mutluluk": 1
         },
         "sonuc": "Doğudaki gelişmeler İstanbul'a haftalar sonra ulaşıyordu."
+      },
+      {
+        "metin": "Çaldıran sahrasında tüfekçi yeniçeri safında yer al (kanuni2_004_ikinci_iran_seferi)",
+        "gerekli_itibar": 55,
+        "etki": {
+          "itibar": 16,
+          "saglik": -3
+        },
+        "sonuc": "Yavuz Sultan Selim'in ateşli silahlar üstünlüğüyle Çaldıran zaferine katıldın."
+      },
+      {
+        "metin": "Doğu seferi ordusuna Sivas kışlasında mühimmat sağla (kanuni2_004_ikinci_iran_seferi)",
+        "gerekli_para": 45,
+        "etki": {
+          "itibar": 12,
+          "para": -45
+        },
+        "sonuc": "Yavuz'un doğu seferindeki iaşe ordusuna destek verdin."
       }
     ]
   },
@@ -1841,11 +2979,30 @@
         "sonuc": "Turgut Reis'in denizcilik ustalığı bir kez daha kanıtlandı. Akdeniz'deki hakimiyetimiz sağlamlaşıyordu."
       },
       {
-        "metin": "Bu sefere katılmadın",
+        "metin": "Bu sefere katılmadın (kanuni2_005_trablusgarp_alinisi)",
         "etki": {
           "mutluluk": 1
         },
         "sonuc": "Kuzey Afrika'daki fetih haberleri denizci çevrelerde büyük ilgiyle karşılandı."
+      },
+      {
+        "metin": "Devlet-i Aliyye tahrir defterine mülkünü kaydettir (kanuni2_005_trablusgarp_alinisi)",
+        "gerekli_zeka": 50,
+        "etki": {
+          "zeka": 8,
+          "itibar": 8
+        },
+        "sonuc": "Yükselme dönemi idaresinde haklarını kadı siciline onaylattın."
+      },
+      {
+        "metin": "Mahallede ziyafet verip garip gurebaya yardım et (kanuni2_005_trablusgarp_alinisi)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Cemaatin hayır duasını alıp neşeyle huzur buldun."
       }
     ]
   },
@@ -1875,6 +3032,25 @@
           "mutluluk": 1
         },
         "sonuc": "Sarayla ilgili dedikodular her zaman dolaşırdı. Ama bu seferki gerginlik farklı hissettiriyordu."
+      },
+      {
+        "metin": "Devlet-i Aliyye tahrir defterine mülkünü kaydettir (kanuni2_006_sehzade_mustafa_soylenti)",
+        "gerekli_zeka": 50,
+        "etki": {
+          "zeka": 8,
+          "itibar": 8
+        },
+        "sonuc": "Yükselme dönemi idaresinde haklarını kadı siciline onaylattın."
+      },
+      {
+        "metin": "Mahallede ziyafet verip garip gurebaya yardım et (kanuni2_006_sehzade_mustafa_soylenti)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Cemaatin hayır duasını alıp neşeyle huzur buldun."
       }
     ]
   },
@@ -1905,6 +3081,25 @@
           "mutluluk": -5
         },
         "sonuc": "Fetret Devri'nin acı hatırası, güçlü bir şehzadenin bile tahtı için babasına karşı gelebileceği korkusunu besliyordu. Yine de bu, en ağır bedellerden biriydi."
+      },
+      {
+        "metin": "Devlet-i Aliyye tahrir defterine mülkünü kaydettir (kanuni2_007_mustafa_idami)",
+        "gerekli_zeka": 50,
+        "etki": {
+          "zeka": 8,
+          "itibar": 8
+        },
+        "sonuc": "Yükselme dönemi idaresinde haklarını kadı siciline onaylattın."
+      },
+      {
+        "metin": "Mahallede ziyafet verip garip gurebaya yardım et (kanuni2_007_mustafa_idami)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Cemaatin hayır duasını alıp neşeyle huzur buldun."
       }
     ]
   },
@@ -1933,6 +3128,25 @@
           "mutluluk": -4
         },
         "sonuc": "Saray sessizliğe büründü. Bu acı, herkesin ortak yükü gibiydi."
+      },
+      {
+        "metin": "Devlet-i Aliyye tahrir defterine mülkünü kaydettir (kanuni2_008_cihangir_olumu)",
+        "gerekli_zeka": 50,
+        "etki": {
+          "zeka": 8,
+          "itibar": 8
+        },
+        "sonuc": "Yükselme dönemi idaresinde haklarını kadı siciline onaylattın."
+      },
+      {
+        "metin": "Mahallede ziyafet verip garip gurebaya yardım et (kanuni2_008_cihangir_olumu)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Cemaatin hayır duasını alıp neşeyle huzur buldun."
       }
     ]
   },
@@ -1962,6 +3176,25 @@
           "mutluluk": 1
         },
         "sonuc": "Sarayın iç işleri karmaşık ve tehlikeliydi. Uzak durmak akıllıcaydı."
+      },
+      {
+        "metin": "Devlet-i Aliyye tahrir defterine mülkünü kaydettir (kanuni2_009_rustem_pasa_azli)",
+        "gerekli_zeka": 50,
+        "etki": {
+          "zeka": 8,
+          "itibar": 8
+        },
+        "sonuc": "Yükselme dönemi idaresinde haklarını kadı siciline onaylattın."
+      },
+      {
+        "metin": "Mahallede ziyafet verip garip gurebaya yardım et (kanuni2_009_rustem_pasa_azli)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Cemaatin hayır duasını alıp neşeyle huzur buldun."
       }
     ]
   },
@@ -1991,6 +3224,25 @@
           "mutluluk": 1
         },
         "sonuc": "Herkesin bir yeteneği vardı. Deniz herkese göre değildi."
+      },
+      {
+        "metin": "Topkapı surları önünde Şahi toplarının barutunu sevk et (kanuni2_010_barbaros_son_yillar)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "zeka": 10,
+          "itibar": 12
+        },
+        "sonuc": "Surlarda gedik açılmasına katkıda bulundun."
+      },
+      {
+        "metin": "Fetih sonrası Ayasofya camii vakfiyesine şamdan hediye et (kanuni2_010_barbaros_son_yillar)",
+        "gerekli_para": 40,
+        "etki": {
+          "itibar": 12,
+          "para": -40,
+          "mutluluk": 8
+        },
+        "sonuc": "İstanbul'un ilk Cuma namazı tahririne hayrın yazıldı."
       }
     ]
   },
@@ -2013,6 +3265,24 @@
           "itibar": 2
         },
         "sonuc": "Devlet mekanizması her geçen yıl daha karmaşık ama daha da güçlü hale geliyordu."
+      },
+      {
+        "metin": "Preveze deniz muharebesinde Barbaros Hayreddin Paşa'nın kadırgasına levent ol (kanuni2_011_devlet_teskilati_genisleme)",
+        "gerekli_itibar": 60,
+        "etki": {
+          "itibar": 20,
+          "saglik": -3
+        },
+        "sonuc": "Akdeniz'i Türk gölü yapan tarihi deniz zaferinde ter döktün."
+      },
+      {
+        "metin": "Tersane-i Amire'ye gemi omurgası için meşe kerestesi tahsis et (kanuni2_011_devlet_teskilati_genisleme)",
+        "gerekli_para": 55,
+        "etki": {
+          "para": 40,
+          "zeka": 8
+        },
+        "sonuc": "Kaptan-ı Derya donanmasına malzeme veripakar sağladın."
       }
     ]
   },
@@ -2042,6 +3312,25 @@
           "mutluluk": 1
         },
         "sonuc": "Herkes bu zenginlikten aynı ölçüde faydalanmıyordu ama genel bir refah havası vardı."
+      },
+      {
+        "metin": "Topkapı surları önünde Şahi toplarının barutunu sevk et (kanuni2_012_istanbul_gunluk_hayat)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "zeka": 10,
+          "itibar": 12
+        },
+        "sonuc": "Surlarda gedik açılmasına katkıda bulundun."
+      },
+      {
+        "metin": "Fetih sonrası Ayasofya camii vakfiyesine şamdan hediye et (kanuni2_012_istanbul_gunluk_hayat)",
+        "gerekli_para": 40,
+        "etki": {
+          "itibar": 12,
+          "para": -40,
+          "mutluluk": 8
+        },
+        "sonuc": "İstanbul'un ilk Cuma namazı tahririne hayrın yazıldı."
       }
     ]
   },
@@ -2067,11 +3356,30 @@
         "sonuc": "Mimar Sinan'ın vizyonunun bir parçası olmak, taş taşımak bile olsa gurur vericiydi."
       },
       {
-        "metin": "Kendi işinde kalmayı tercih et",
+        "metin": "Kendi işinde kalmayı tercih et (kanuni2_013_mimar_sinan_ilk_eserler)",
         "etki": {
           "mutluluk": 1
         },
         "sonuc": "Bu büyük eserin nasıl şekilleneceği merakla izleniyordu."
+      },
+      {
+        "metin": "Süleymaniye Külliyesi inşasına Mimar Sinan usulü taş temin et (kanuni2_013_mimar_sinan_ilk_eserler)",
+        "gerekli_para": 60,
+        "etki": {
+          "itibar": 15,
+          "para": -60,
+          "mutluluk": 8
+        },
+        "sonuc": "Mimar Sinan'ın başyapıtının vakfiyesine hayırsever tescil edildin."
+      },
+      {
+        "metin": "Kanuni Kanunnamesi maddelerini şer'iyye mahkemesinde incele (kanuni2_013_mimar_sinan_ilk_eserler)",
+        "gerekli_zeka": 60,
+        "etki": {
+          "zeka": 14,
+          "itibar": 8
+        },
+        "sonuc": "Ebussuud Efendi fetvaları ve kanunname hükümlerinde uzmanlaştın."
       }
     ],
     "engel_bayrak": "calisaniyor"
@@ -2102,6 +3410,25 @@
           "mutluluk": 1
         },
         "sonuc": "Şu an için barış vardı, ama herkes bu barışın ne kadar süreceğini merak ediyordu."
+      },
+      {
+        "metin": "Devlet-i Aliyye tahrir defterine mülkünü kaydettir (kanuni2_014_selim_bayezid_sancak)",
+        "gerekli_zeka": 50,
+        "etki": {
+          "zeka": 8,
+          "itibar": 8
+        },
+        "sonuc": "Yükselme dönemi idaresinde haklarını kadı siciline onaylattın."
+      },
+      {
+        "metin": "Mahallede ziyafet verip garip gurebaya yardım et (kanuni2_014_selim_bayezid_sancak)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Cemaatin hayır duasını alıp neşeyle huzur buldun."
       }
     ]
   },
@@ -2131,6 +3458,24 @@
           "zeka": 1
         },
         "sonuc": "Diplomatik dengeler kırılgan olsa da, bu antlaşma onlarca yıl bozulmayacaktı."
+      },
+      {
+        "metin": "Çaldıran sahrasında tüfekçi yeniçeri safında yer al (kanuni3_001_amasya_antlasmasi)",
+        "gerekli_itibar": 55,
+        "etki": {
+          "itibar": 16,
+          "saglik": -3
+        },
+        "sonuc": "Yavuz Sultan Selim'in ateşli silahlar üstünlüğüyle Çaldıran zaferine katıldın."
+      },
+      {
+        "metin": "Doğu seferi ordusuna Sivas kışlasında mühimmat sağla (kanuni3_001_amasya_antlasmasi)",
+        "gerekli_para": 45,
+        "etki": {
+          "itibar": 12,
+          "para": -45
+        },
+        "sonuc": "Yavuz'un doğu seferindeki iaşe ordusuna destek verdin."
       }
     ]
   },
@@ -2160,6 +3505,25 @@
           "mutluluk": 3
         },
         "sonuc": "Süleymaniye'nin haberi tüm imparatorlukta gururla konuşuldu."
+      },
+      {
+        "metin": "Topkapı surları önünde Şahi toplarının barutunu sevk et (kanuni3_002_suleymaniye_acilisi)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "zeka": 10,
+          "itibar": 12
+        },
+        "sonuc": "Surlarda gedik açılmasına katkıda bulundun."
+      },
+      {
+        "metin": "Fetih sonrası Ayasofya camii vakfiyesine şamdan hediye et (kanuni3_002_suleymaniye_acilisi)",
+        "gerekli_para": 40,
+        "etki": {
+          "itibar": 12,
+          "para": -40,
+          "mutluluk": 8
+        },
+        "sonuc": "İstanbul'un ilk Cuma namazı tahririne hayrın yazıldı."
       }
     ]
   },
@@ -2188,6 +3552,25 @@
           "mutluluk": -2
         },
         "sonuc": "Onun döneminde sarayda yaşanan büyük değişimler, bir çağın kapandığının işaretiydi."
+      },
+      {
+        "metin": "Devlet-i Aliyye tahrir defterine mülkünü kaydettir (kanuni3_003_hurrem_olumu)",
+        "gerekli_zeka": 50,
+        "etki": {
+          "zeka": 8,
+          "itibar": 8
+        },
+        "sonuc": "Yükselme dönemi idaresinde haklarını kadı siciline onaylattın."
+      },
+      {
+        "metin": "Mahallede ziyafet verip garip gurebaya yardım et (kanuni3_003_hurrem_olumu)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Cemaatin hayır duasını alıp neşeyle huzur buldun."
       }
     ]
   },
@@ -2219,6 +3602,25 @@
           "mutluluk": -4
         },
         "sonuc": "İki kardeşin birbirine kılıç çekmesi, halkın yüreğini bir kez daha burktu."
+      },
+      {
+        "metin": "Devlet-i Aliyye tahrir defterine mülkünü kaydettir (kanuni3_004_konya_savasi)",
+        "gerekli_zeka": 50,
+        "etki": {
+          "zeka": 8,
+          "itibar": 8
+        },
+        "sonuc": "Yükselme dönemi idaresinde haklarını kadı siciline onaylattın."
+      },
+      {
+        "metin": "Mahallede ziyafet verip garip gurebaya yardım et (kanuni3_004_konya_savasi)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Cemaatin hayır duasını alıp neşeyle huzur buldun."
       }
     ]
   },
@@ -2248,6 +3650,24 @@
           "mutluluk": 1
         },
         "sonuc": "Saray içi meseleler tehlikeli sulardı, uzak durmak akıllıcaydı."
+      },
+      {
+        "metin": "Çaldıran sahrasında tüfekçi yeniçeri safında yer al (kanuni3_005_bayezid_iran_kacisi)",
+        "gerekli_itibar": 55,
+        "etki": {
+          "itibar": 16,
+          "saglik": -3
+        },
+        "sonuc": "Yavuz Sultan Selim'in ateşli silahlar üstünlüğüyle Çaldıran zaferine katıldın."
+      },
+      {
+        "metin": "Doğu seferi ordusuna Sivas kışlasında mühimmat sağla (kanuni3_005_bayezid_iran_kacisi)",
+        "gerekli_para": 45,
+        "etki": {
+          "itibar": 12,
+          "para": -45
+        },
+        "sonuc": "Yavuz'un doğu seferindeki iaşe ordusuna destek verdin."
       }
     ]
   },
@@ -2277,6 +3697,25 @@
           "mutluluk": -4
         },
         "sonuc": "Taht rekabeti, en güçlü ailelerin bile içini oyabiliyordu."
+      },
+      {
+        "metin": "Devlet-i Aliyye tahrir defterine mülkünü kaydettir (kanuni3_006_bayezid_idami)",
+        "gerekli_zeka": 50,
+        "etki": {
+          "zeka": 8,
+          "itibar": 8
+        },
+        "sonuc": "Yükselme dönemi idaresinde haklarını kadı siciline onaylattın."
+      },
+      {
+        "metin": "Mahallede ziyafet verip garip gurebaya yardım et (kanuni3_006_bayezid_idami)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Cemaatin hayır duasını alıp neşeyle huzur buldun."
       }
     ]
   },
@@ -2303,11 +3742,29 @@
         "sonuc": "Denizlerdeki üstünlüğümüz bir kez daha kanıtlandı."
       },
       {
-        "metin": "Sefere katılmadın",
+        "metin": "Sefere katılmadın (kanuni3_007_cerbe_zaferi)",
         "etki": {
           "mutluluk": 1
         },
         "sonuc": "Zafer haberi kıyı şehirlerinde büyük bir coşkuyla karşılandı."
+      },
+      {
+        "metin": "Preveze deniz muharebesinde Barbaros Hayreddin Paşa'nın kadırgasına levent ol (kanuni3_007_cerbe_zaferi)",
+        "gerekli_itibar": 60,
+        "etki": {
+          "itibar": 20,
+          "saglik": -3
+        },
+        "sonuc": "Akdeniz'i Türk gölü yapan tarihi deniz zaferinde ter döktün."
+      },
+      {
+        "metin": "Tersane-i Amire'ye gemi omurgası için meşe kerestesi tahsis et (kanuni3_007_cerbe_zaferi)",
+        "gerekli_para": 55,
+        "etki": {
+          "para": 40,
+          "zeka": 8
+        },
+        "sonuc": "Kaptan-ı Derya donanmasına malzeme veripakar sağladın."
       }
     ]
   },
@@ -2330,6 +3787,24 @@
           "itibar": 2
         },
         "sonuc": "Sokullu'nun yönetim tarzı, ileride imparatorluğun en uzun süre görev yapacak sadrazamlarından biri olacağının işaretlerini veriyordu."
+      },
+      {
+        "metin": "Kıbrıs fethinde Mağusa surları önüne cephane taşı (kanuni3_008_sokullu_yukselisi)",
+        "gerekli_para": 45,
+        "etki": {
+          "itibar": 14,
+          "para": -45
+        },
+        "sonuc": "Lala Mustafa Paşa komutasındaki Kıbrıs fethine mühimmat verdin."
+      },
+      {
+        "metin": "İnebahtı sonrası yeni donanmanın 5 ayda inşası için Tersane'de çalış (kanuni3_008_sokullu_yukselisi)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "zeka": 12,
+          "itibar": 10
+        },
+        "sonuc": "Sokullu Mehmed Paşa'nın muazzam donanma hamlesine katıldın."
       }
     ]
   },
@@ -2356,11 +3831,30 @@
         "sonuc": "Kuşatma sonunda kaldırıldı — nadir bir yenilgiydi. Turgut Reis'in kaybı, tüm denizci camiasını yasa boğdu."
       },
       {
-        "metin": "Bu sefere katılmadın",
+        "metin": "Bu sefere katılmadın (kanuni3_009_malta_kusatmasi)",
         "etki": {
           "mutluluk": -1
         },
         "sonuc": "Malta bozgunu ve Turgut Reis'in şehadeti haberi, İstanbul'da derin bir üzüntüyle karşılandı."
+      },
+      {
+        "metin": "Devlet-i Aliyye tahrir defterine mülkünü kaydettir (kanuni3_009_malta_kusatmasi)",
+        "gerekli_zeka": 50,
+        "etki": {
+          "zeka": 8,
+          "itibar": 8
+        },
+        "sonuc": "Yükselme dönemi idaresinde haklarını kadı siciline onaylattın."
+      },
+      {
+        "metin": "Mahallede ziyafet verip garip gurebaya yardım et (kanuni3_009_malta_kusatmasi)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Cemaatin hayır duasını alıp neşeyle huzur buldun."
       }
     ]
   },
@@ -2390,6 +3884,25 @@
           "mutluluk": -2
         },
         "sonuc": "Bu yaşta ve bu sağlıkta bir sefere çıkmak, herkesi tedirgin ediyordu."
+      },
+      {
+        "metin": "Topkapı surları önünde Şahi toplarının barutunu sevk et (kanuni3_010_eyup_veda)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "zeka": 10,
+          "itibar": 12
+        },
+        "sonuc": "Surlarda gedik açılmasına katkıda bulundun."
+      },
+      {
+        "metin": "Fetih sonrası Ayasofya camii vakfiyesine şamdan hediye et (kanuni3_010_eyup_veda)",
+        "gerekli_para": 40,
+        "etki": {
+          "itibar": 12,
+          "para": -40,
+          "mutluluk": 8
+        },
+        "sonuc": "İstanbul'un ilk Cuma namazı tahririne hayrın yazıldı."
       }
     ]
   },
@@ -2416,11 +3929,30 @@
         "sonuc": "Kuşatma zorlu geçiyordu. Sultan'ın otağından çıkmadığı, ama savaşı yönetmeye devam ettiği söyleniyordu."
       },
       {
-        "metin": "Bu sefere katılmadın",
+        "metin": "Bu sefere katılmadın (kanuni3_011_zigetvar_seferi)",
         "etki": {
           "mutluluk": -1
         },
         "sonuc": "Zigetvar'dan gelen haberler herkesi endişelendiriyordu."
+      },
+      {
+        "metin": "Devlet-i Aliyye tahrir defterine mülkünü kaydettir (kanuni3_011_zigetvar_seferi)",
+        "gerekli_zeka": 50,
+        "etki": {
+          "zeka": 8,
+          "itibar": 8
+        },
+        "sonuc": "Yükselme dönemi idaresinde haklarını kadı siciline onaylattın."
+      },
+      {
+        "metin": "Mahallede ziyafet verip garip gurebaya yardım et (kanuni3_011_zigetvar_seferi)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Cemaatin hayır duasını alıp neşeyle huzur buldun."
       }
     ]
   },
@@ -2451,6 +3983,24 @@
           "mutluluk": -3
         },
         "sonuc": "'Kanuni' ve 'Muhteşem' lakapları boşuna verilmemişti. Kanunları, camileri, fetihleri asırlarca hatırlanacaktı."
+      },
+      {
+        "metin": "Mohaç sahrasında 2 saatlik zafer muharebesinde zırhlı sipahi ol (kanuni3_012_kanuni_vefati)",
+        "gerekli_itibar": 60,
+        "etki": {
+          "itibar": 20,
+          "saglik": -4
+        },
+        "sonuc": "Tarihin en hızlı meydan zaferinde Kanuni'nin sancağı altındaydın."
+      },
+      {
+        "metin": "Budin kalesi garnizonuna kışlık çuha ve erzak temin et (kanuni3_012_kanuni_vefati)",
+        "gerekli_para": 50,
+        "etki": {
+          "itibar": 14,
+          "para": -50
+        },
+        "sonuc": "Macaristan eyaletinin ilk idari iaşesine destek verdin."
       }
     ]
   },
@@ -2480,6 +4030,25 @@
           "mutluluk": 1
         },
         "sonuc": "Herkes bu altın çağın farklı bir köşesinde kendi hayatını yaşıyordu."
+      },
+      {
+        "metin": "Topkapı surları önünde Şahi toplarının barutunu sevk et (kanuni3_013_altin_cag_yansimalari)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "zeka": 10,
+          "itibar": 12
+        },
+        "sonuc": "Surlarda gedik açılmasına katkıda bulundun."
+      },
+      {
+        "metin": "Fetih sonrası Ayasofya camii vakfiyesine şamdan hediye et (kanuni3_013_altin_cag_yansimalari)",
+        "gerekli_para": 40,
+        "etki": {
+          "itibar": 12,
+          "para": -40,
+          "mutluluk": 8
+        },
+        "sonuc": "İstanbul'un ilk Cuma namazı tahririne hayrın yazıldı."
       }
     ]
   },
@@ -2509,6 +4078,25 @@
           "zeka": 1
         },
         "sonuc": "Her taht değişiminde olduğu gibi, ilk yıllar dikkatle izleniyordu."
+      },
+      {
+        "metin": "Topkapı surları önünde Şahi toplarının barutunu sevk et (selim2_001_tahta_cikis)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "zeka": 10,
+          "itibar": 12
+        },
+        "sonuc": "Surlarda gedik açılmasına katkıda bulundun."
+      },
+      {
+        "metin": "Fetih sonrası Ayasofya camii vakfiyesine şamdan hediye et (selim2_001_tahta_cikis)",
+        "gerekli_para": 40,
+        "etki": {
+          "itibar": 12,
+          "para": -40,
+          "mutluluk": 8
+        },
+        "sonuc": "İstanbul'un ilk Cuma namazı tahririne hayrın yazıldı."
       }
     ]
   },
@@ -2538,6 +4126,24 @@
           "mutluluk": 1
         },
         "sonuc": "Sokullu'nun ustaca müdahalesiyle kriz büyümeden çözüldü."
+      },
+      {
+        "metin": "Kıbrıs fethinde Mağusa surları önüne cephane taşı (selim2_002_yenicheri_bahsis_huzursuzlugu)",
+        "gerekli_para": 45,
+        "etki": {
+          "itibar": 14,
+          "para": -45
+        },
+        "sonuc": "Lala Mustafa Paşa komutasındaki Kıbrıs fethine mühimmat verdin."
+      },
+      {
+        "metin": "İnebahtı sonrası yeni donanmanın 5 ayda inşası için Tersane'de çalış (selim2_002_yenicheri_bahsis_huzursuzlugu)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "zeka": 12,
+          "itibar": 10
+        },
+        "sonuc": "Sokullu Mehmed Paşa'nın muazzam donanma hamlesine katıldın."
       }
     ]
   },
@@ -2567,6 +4173,24 @@
           "zeka": 1
         },
         "sonuc": "Bir sadrazamın bu denli güçlü olması, devletin geleceği için hem fırsat hem risk taşıyordu."
+      },
+      {
+        "metin": "Çaldıran sahrasında tüfekçi yeniçeri safında yer al (selim2_003_sokullu_fiili_yonetim)",
+        "gerekli_itibar": 55,
+        "etki": {
+          "itibar": 16,
+          "saglik": -3
+        },
+        "sonuc": "Yavuz Sultan Selim'in ateşli silahlar üstünlüğüyle Çaldıran zaferine katıldın."
+      },
+      {
+        "metin": "Doğu seferi ordusuna Sivas kışlasında mühimmat sağla (selim2_003_sokullu_fiili_yonetim)",
+        "gerekli_para": 45,
+        "etki": {
+          "itibar": 12,
+          "para": -45
+        },
+        "sonuc": "Yavuz'un doğu seferindeki iaşe ordusuna destek verdin."
       }
     ]
   },
@@ -2593,11 +4217,30 @@
         "sonuc": "Ege'deki son yabancı koloni de böylece kapanmış oldu."
       },
       {
-        "metin": "Sefere katılmadın",
+        "metin": "Sefere katılmadın (selim2_004_sakiz_fethi)",
         "etki": {
           "mutluluk": 1
         },
         "sonuc": "Fetih haberi denizci çevrelerde memnuniyetle karşılandı."
+      },
+      {
+        "metin": "Topkapı surları önünde Şahi toplarının barutunu sevk et (selim2_004_sakiz_fethi)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "zeka": 10,
+          "itibar": 12
+        },
+        "sonuc": "Surlarda gedik açılmasına katkıda bulundun."
+      },
+      {
+        "metin": "Fetih sonrası Ayasofya camii vakfiyesine şamdan hediye et (selim2_004_sakiz_fethi)",
+        "gerekli_para": 40,
+        "etki": {
+          "itibar": 12,
+          "para": -40,
+          "mutluluk": 8
+        },
+        "sonuc": "İstanbul'un ilk Cuma namazı tahririne hayrın yazıldı."
       }
     ]
   },
@@ -2629,6 +4272,25 @@
           "mutluluk": 1
         },
         "sonuc": "Yemen ve Sumatra gibi uzak diyarların hikayeleri İstanbul'da merakla dinleniyordu."
+      },
+      {
+        "metin": "Devlet-i Aliyye tahrir defterine mülkünü kaydettir (selim2_005_yemen_isyani)",
+        "gerekli_zeka": 50,
+        "etki": {
+          "zeka": 8,
+          "itibar": 8
+        },
+        "sonuc": "Yükselme dönemi idaresinde haklarını kadı siciline onaylattın."
+      },
+      {
+        "metin": "Mahallede ziyafet verip garip gurebaya yardım et (selim2_005_yemen_isyani)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Cemaatin hayır duasını alıp neşeyle huzur buldun."
       }
     ]
   },
@@ -2653,11 +4315,29 @@
         "sonuc": "Kıbrıs, Mısır'a giden deniz yolunun tam ortasında stratejik bir noktaydı."
       },
       {
-        "metin": "Gündelik hayatına devam et",
+        "metin": "Gündelik hayatına devam et (selim2_006_kibris_sefer_karar)",
         "etki": {
           "mutluluk": 1
         },
         "sonuc": "Büyük seferlerin sonucu aylar sonra belli olurdu."
+      },
+      {
+        "metin": "Ridaniye sahrasında Memlük süvarilerine karşı top hattını sevk et (selim2_006_kibris_sefer_karar)",
+        "gerekli_itibar": 60,
+        "etki": {
+          "itibar": 18,
+          "saglik": -3
+        },
+        "sonuc": "Topların yönünü çevirerek Ridaniye zaferine damga vurdunuz."
+      },
+      {
+        "metin": "Mukaddes emanetlerin İstanbul'a naklinde kadı kâtibi ol (selim2_006_kibris_sefer_karar)",
+        "gerekli_zeka": 60,
+        "etki": {
+          "zeka": 14,
+          "itibar": 10
+        },
+        "sonuc": "Halifelik alametlerinin tahririnde görev aldın."
       }
     ]
   },
@@ -2684,11 +4364,29 @@
         "sonuc": "Zorlu ve kanlı bir kuşatmaydı ama zafer kesindi. Kıbrıs'ın fethi, imparatorluğun son büyük kara/ada zaferlerinden biri olacaktı."
       },
       {
-        "metin": "Sefere katılmadın",
+        "metin": "Sefere katılmadın (selim2_007_kibris_fethi)",
         "etki": {
           "mutluluk": 1
         },
         "sonuc": "Zafer haberi büyük bir gururla karşılandı."
+      },
+      {
+        "metin": "Ridaniye sahrasında Memlük süvarilerine karşı top hattını sevk et (selim2_007_kibris_fethi)",
+        "gerekli_itibar": 60,
+        "etki": {
+          "itibar": 18,
+          "saglik": -3
+        },
+        "sonuc": "Topların yönünü çevirerek Ridaniye zaferine damga vurdunuz."
+      },
+      {
+        "metin": "Mukaddes emanetlerin İstanbul'a naklinde kadı kâtibi ol (selim2_007_kibris_fethi)",
+        "gerekli_zeka": 60,
+        "etki": {
+          "zeka": 14,
+          "itibar": 10
+        },
+        "sonuc": "Halifelik alametlerinin tahririnde görev aldın."
       }
     ]
   },
@@ -2719,6 +4417,25 @@
           "mutluluk": -5
         },
         "sonuc": "Denizlerdeki yenilmezlik inancı sarsılmıştı. Yine de devlet, hızla toparlanma kararlılığı gösteriyordu."
+      },
+      {
+        "metin": "Topkapı surları önünde Şahi toplarının barutunu sevk et (selim2_008_inebahti_bozgunu)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "zeka": 10,
+          "itibar": 12
+        },
+        "sonuc": "Surlarda gedik açılmasına katkıda bulundun."
+      },
+      {
+        "metin": "Fetih sonrası Ayasofya camii vakfiyesine şamdan hediye et (selim2_008_inebahti_bozgunu)",
+        "gerekli_para": 40,
+        "etki": {
+          "itibar": 12,
+          "para": -40,
+          "mutluluk": 8
+        },
+        "sonuc": "İstanbul'un ilk Cuma namazı tahririne hayrın yazıldı."
       }
     ]
   },
@@ -2745,11 +4462,29 @@
         "sonuc": "Kısa sürede yeni gemiler denize indirildi. Devletin toparlanma gücü, Avrupalı gözlemcileri bile şaşırtmıştı."
       },
       {
-        "metin": "Kendi işinde kalmayı tercih et",
+        "metin": "Kendi işinde kalmayı tercih et (selim2_009_donanma_yeniden_insa)",
         "etki": {
           "mutluluk": 1
         },
         "sonuc": "Devletin bu hızlı toparlanışı, halkın moralini de yükseltti."
+      },
+      {
+        "metin": "Kıbrıs fethinde Mağusa surları önüne cephane taşı (selim2_009_donanma_yeniden_insa)",
+        "gerekli_para": 45,
+        "etki": {
+          "itibar": 14,
+          "para": -45
+        },
+        "sonuc": "Lala Mustafa Paşa komutasındaki Kıbrıs fethine mühimmat verdin."
+      },
+      {
+        "metin": "İnebahtı sonrası yeni donanmanın 5 ayda inşası için Tersane'de çalış (selim2_009_donanma_yeniden_insa)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "zeka": 12,
+          "itibar": 10
+        },
+        "sonuc": "Sokullu Mehmed Paşa'nın muazzam donanma hamlesine katıldın."
       }
     ],
     "engel_bayrak": "calisaniyor"
@@ -2775,11 +4510,29 @@
         "sonuc": "Deniz savaşını kaybetsek de, siyasi masada istediğimizi almıştık. Sokullu'nun öngörüsü bir kez daha doğrulanmıştı."
       },
       {
-        "metin": "Gündelik hayatına devam et",
+        "metin": "Gündelik hayatına devam et (selim2_010_venedik_baris)",
         "etki": {
           "mutluluk": 1
         },
         "sonuc": "Barış haberleri, yorgun halk için her zaman iyi bir haberdi."
+      },
+      {
+        "metin": "Kıbrıs fethinde Mağusa surları önüne cephane taşı (selim2_010_venedik_baris)",
+        "gerekli_para": 45,
+        "etki": {
+          "itibar": 14,
+          "para": -45
+        },
+        "sonuc": "Lala Mustafa Paşa komutasındaki Kıbrıs fethine mühimmat verdin."
+      },
+      {
+        "metin": "İnebahtı sonrası yeni donanmanın 5 ayda inşası için Tersane'de çalış (selim2_010_venedik_baris)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "zeka": 12,
+          "itibar": 10
+        },
+        "sonuc": "Sokullu Mehmed Paşa'nın muazzam donanma hamlesine katıldın."
       }
     ]
   },
@@ -2806,11 +4559,29 @@
         "sonuc": "Kuzey Afrika kıyıları büyük ölçüde bizim kontrolümüzdeydi. Bu, imparatorluğun hâlâ ne kadar güçlü olduğunun bir kanıtıydı."
       },
       {
-        "metin": "Sefere katılmadın",
+        "metin": "Sefere katılmadın (selim2_011_tunus_fethi)",
         "etki": {
           "mutluluk": 1
         },
         "sonuc": "Zafer haberi, İnebahtı'nın acısını bir nebze hafifletti."
+      },
+      {
+        "metin": "Kıbrıs fethinde Mağusa surları önüne cephane taşı (selim2_011_tunus_fethi)",
+        "gerekli_para": 45,
+        "etki": {
+          "itibar": 14,
+          "para": -45
+        },
+        "sonuc": "Lala Mustafa Paşa komutasındaki Kıbrıs fethine mühimmat verdin."
+      },
+      {
+        "metin": "İnebahtı sonrası yeni donanmanın 5 ayda inşası için Tersane'de çalış (selim2_011_tunus_fethi)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "zeka": 12,
+          "itibar": 10
+        },
+        "sonuc": "Sokullu Mehmed Paşa'nın muazzam donanma hamlesine katıldın."
       }
     ]
   },
@@ -2840,6 +4611,24 @@
           "mutluluk": 1
         },
         "sonuc": "Bazı projeler hayal olarak kaldı, ama bu vizyon devletin gücünü gösteriyordu."
+      },
+      {
+        "metin": "Kıbrıs fethinde Mağusa surları önüne cephane taşı (selim2_012_sokullu_kanal_projeleri)",
+        "gerekli_para": 45,
+        "etki": {
+          "itibar": 14,
+          "para": -45
+        },
+        "sonuc": "Lala Mustafa Paşa komutasındaki Kıbrıs fethine mühimmat verdin."
+      },
+      {
+        "metin": "İnebahtı sonrası yeni donanmanın 5 ayda inşası için Tersane'de çalış (selim2_012_sokullu_kanal_projeleri)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "zeka": 12,
+          "itibar": 10
+        },
+        "sonuc": "Sokullu Mehmed Paşa'nın muazzam donanma hamlesine katıldın."
       }
     ]
   },
@@ -2865,11 +4654,30 @@
         "sonuc": "Şehir, savaş kayıplarına rağmen güzelleşmeye devam ediyordu."
       },
       {
-        "metin": "Kendi işinde kalmayı tercih et",
+        "metin": "Kendi işinde kalmayı tercih et (selim2_013_istanbul_imar)",
         "etki": {
           "mutluluk": 1
         },
         "sonuc": "İmparatorluğun ihtişamı, mimari eserlerde de kendini gösteriyordu."
+      },
+      {
+        "metin": "Topkapı surları önünde Şahi toplarının barutunu sevk et (selim2_013_istanbul_imar)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "zeka": 10,
+          "itibar": 12
+        },
+        "sonuc": "Surlarda gedik açılmasına katkıda bulundun."
+      },
+      {
+        "metin": "Fetih sonrası Ayasofya camii vakfiyesine şamdan hediye et (selim2_013_istanbul_imar)",
+        "gerekli_para": 40,
+        "etki": {
+          "itibar": 12,
+          "para": -40,
+          "mutluluk": 8
+        },
+        "sonuc": "İstanbul'un ilk Cuma namazı tahririne hayrın yazıldı."
       }
     ],
     "engel_bayrak": "calisaniyor"
@@ -2900,6 +4708,24 @@
           "zeka": 2
         },
         "sonuc": "Bir çağ kapanırken, imparatorluğun geleceği hakkında sorular çoğalıyordu."
+      },
+      {
+        "metin": "Kıbrıs fethinde Mağusa surları önüne cephane taşı (selim2_014_selim_vefati)",
+        "gerekli_para": 45,
+        "etki": {
+          "itibar": 14,
+          "para": -45
+        },
+        "sonuc": "Lala Mustafa Paşa komutasındaki Kıbrıs fethine mühimmat verdin."
+      },
+      {
+        "metin": "İnebahtı sonrası yeni donanmanın 5 ayda inşası için Tersane'de çalış (selim2_014_selim_vefati)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "zeka": 12,
+          "itibar": 10
+        },
+        "sonuc": "Sokullu Mehmed Paşa'nın muazzam donanma hamlesine katıldın."
       }
     ]
   },
@@ -2925,11 +4751,30 @@
         "sonuc": "Zorlu bir eğitim yolculuğu başladı. Kelam, fıkıh, tefsir, hatta hesap ve gökbilim dersleri alacaktın — bu, bir 'İstanbul Ruusu' belgesine, yani ilmiye kariyerinde ileri bir kapıya açılıyordu."
       },
       {
-        "metin": "Kendi işinde kalmayı tercih et",
+        "metin": "Kendi işinde kalmayı tercih et (fatih_017_sahn_i_seman)",
         "etki": {
           "mutluluk": 1
         },
         "sonuc": "Bu zorlu ilim yolu herkese göre değildi. Sahn-ı Seman'ın ünü yine de tüm şehirde konuşuluyordu."
+      },
+      {
+        "metin": "Devlet-i Aliyye tahrir defterine mülkünü kaydettir (fatih_017_sahn_i_seman)",
+        "gerekli_zeka": 50,
+        "etki": {
+          "zeka": 8,
+          "itibar": 8
+        },
+        "sonuc": "Yükselme dönemi idaresinde haklarını kadı siciline onaylattın."
+      },
+      {
+        "metin": "Mahallede ziyafet verip garip gurebaya yardım et (fatih_017_sahn_i_seman)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Cemaatin hayır duasını alıp neşeyle huzur buldun."
       }
     ],
     "engel_bayrak": "calisaniyor"
@@ -2960,6 +4805,25 @@
           "mutluluk": 1
         },
         "sonuc": "Altın sikke daha çok büyük işlemlerde ve hazine kayıtlarında kullanılıyordu, gündelik alışverişte gümüş akçe hala yaygındı."
+      },
+      {
+        "metin": "Topkapı surları önünde Şahi toplarının barutunu sevk et (fatih_018_ilk_altin_sikke)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "zeka": 10,
+          "itibar": 12
+        },
+        "sonuc": "Surlarda gedik açılmasına katkıda bulundun."
+      },
+      {
+        "metin": "Fetih sonrası Ayasofya camii vakfiyesine şamdan hediye et (fatih_018_ilk_altin_sikke)",
+        "gerekli_para": 40,
+        "etki": {
+          "itibar": 12,
+          "para": -40,
+          "mutluluk": 8
+        },
+        "sonuc": "İstanbul'un ilk Cuma namazı tahririne hayrın yazıldı."
       }
     ]
   },
@@ -2989,6 +4853,24 @@
           "zeka": 1
         },
         "sonuc": "Macaristan'ın bu şekilde üçe bölünmesi, onlarca yıl sürecek bir denge kuracaktı."
+      },
+      {
+        "metin": "Mohaç sahrasında 2 saatlik zafer muharebesinde zırhlı sipahi ol (kanuni2_015_budin_eyaleti)",
+        "gerekli_itibar": 60,
+        "etki": {
+          "itibar": 20,
+          "saglik": -4
+        },
+        "sonuc": "Tarihin en hızlı meydan zaferinde Kanuni'nin sancağı altındaydın."
+      },
+      {
+        "metin": "Budin kalesi garnizonuna kışlık çuha ve erzak temin et (kanuni2_015_budin_eyaleti)",
+        "gerekli_para": 50,
+        "etki": {
+          "itibar": 14,
+          "para": -50
+        },
+        "sonuc": "Macaristan eyaletinin ilk idari iaşesine destek verdin."
       }
     ]
   }

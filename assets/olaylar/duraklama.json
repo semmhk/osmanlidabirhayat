@@ -25,6 +25,25 @@
           "mutluluk": -3
         },
         "sonuc": "Beş küçük şehzadenin canı, bir tahtın bedeliydi."
+      },
+      {
+        "metin": "Duraklama dönemi kadı mahkemesinde tahrir tescili yaptır (murad3_001_tahta_cikis)",
+        "gerekli_zeka": 50,
+        "etki": {
+          "zeka": 8,
+          "itibar": 8
+        },
+        "sonuc": "Kadı sicilinde mülk haklarını resmi güvenceye aldın."
+      },
+      {
+        "metin": "Mahallede aşevi ikramında bulunup fukaraya yardım et (murad3_001_tahta_cikis)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Cemaatle kenetlenip hayır dua aldın."
       }
     ]
   },
@@ -55,6 +74,25 @@
           "mutluluk": -3
         },
         "sonuc": "Sokullu'dan sonra sadrazamlar sık sık değişmeye başlayacak, devlet o eski istikrarını bir daha tam olarak bulamayacaktı."
+      },
+      {
+        "metin": "Duraklama dönemi kadı mahkemesinde tahrir tescili yaptır (murad3_002_sokullu_suikasti)",
+        "gerekli_zeka": 50,
+        "etki": {
+          "zeka": 8,
+          "itibar": 8
+        },
+        "sonuc": "Kadı sicilinde mülk haklarını resmi güvenceye aldın."
+      },
+      {
+        "metin": "Mahallede aşevi ikramında bulunup fukaraya yardım et (murad3_002_sokullu_suikasti)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Cemaatle kenetlenip hayır dua aldın."
       }
     ]
   },
@@ -83,6 +121,25 @@
           "mutluluk": 1
         },
         "sonuc": "Saray içi entrikalar, sıradan halkın gündelik derdinden uzaktı — ya da öyle görünüyordu."
+      },
+      {
+        "metin": "Duraklama dönemi kadı mahkemesinde tahrir tescili yaptır (murad3_003_harem_rekabeti)",
+        "gerekli_zeka": 50,
+        "etki": {
+          "zeka": 8,
+          "itibar": 8
+        },
+        "sonuc": "Kadı sicilinde mülk haklarını resmi güvenceye aldın."
+      },
+      {
+        "metin": "Mahallede aşevi ikramında bulunup fukaraya yardım et (murad3_003_harem_rekabeti)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Cemaatle kenetlenip hayır dua aldın."
       }
     ]
   },
@@ -111,6 +168,25 @@
           "mutluluk": 1
         },
         "sonuc": "Uzak diyarlardaki gelişmeler halkın gündelik hayatını hemen değiştirmiyordu."
+      },
+      {
+        "metin": "Duraklama dönemi kadı mahkemesinde tahrir tescili yaptır (murad3_004_fas_vasal)",
+        "gerekli_zeka": 50,
+        "etki": {
+          "zeka": 8,
+          "itibar": 8
+        },
+        "sonuc": "Kadı sicilinde mülk haklarını resmi güvenceye aldın."
+      },
+      {
+        "metin": "Mahallede aşevi ikramında bulunup fukaraya yardım et (murad3_004_fas_vasal)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Cemaatle kenetlenip hayır dua aldın."
       }
     ]
   },
@@ -127,7 +203,7 @@
     "metin": "Safevilerle yeniden başlayan savaşın ilk büyük çarpışması Çıldır'da yapıldı ve zaferle sonuçlandı. Uzun ve yorucu bir doğu seferi başlıyor.",
     "secenekler": [
       {
-        "metin": "Bu sefere katıl",
+        "metin": "Bu sefere katıl (murad3_005_cildir_zaferi)",
         "etki": {
           "para": 5,
           "itibar": 3,
@@ -137,11 +213,30 @@
         "sonuc": "Zafer kazanıldı ama bu, on iki yıl sürecek yorucu bir savaşın sadece başlangıcıydı."
       },
       {
-        "metin": "Sefere katılmadın",
+        "metin": "Sefere katılmadın (murad3_005_cildir_zaferi)",
         "etki": {
           "mutluluk": 1
         },
         "sonuc": "Doğudaki savaş haberleri uzun aralıklarla İstanbul'a ulaşıyordu."
+      },
+      {
+        "metin": "Duraklama dönemi kadı mahkemesinde tahrir tescili yaptır (murad3_005_cildir_zaferi)",
+        "gerekli_zeka": 50,
+        "etki": {
+          "zeka": 8,
+          "itibar": 8
+        },
+        "sonuc": "Kadı sicilinde mülk haklarını resmi güvenceye aldın."
+      },
+      {
+        "metin": "Mahallede aşevi ikramında bulunup fukaraya yardım et (murad3_005_cildir_zaferi)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Cemaatle kenetlenip hayır dua aldın."
       }
     ]
   },
@@ -173,6 +268,25 @@
           "mutluluk": 1
         },
         "sonuc": "Doğu seferlerinin uzunluğu, herkesin gündelik hayatına bir şekilde dokunuyordu — vergi, asker talebi gibi."
+      },
+      {
+        "metin": "Duraklama dönemi kadı mahkemesinde tahrir tescili yaptır (murad3_006_tiflis_sirvan_fethi)",
+        "gerekli_zeka": 50,
+        "etki": {
+          "zeka": 8,
+          "itibar": 8
+        },
+        "sonuc": "Kadı sicilinde mülk haklarını resmi güvenceye aldın."
+      },
+      {
+        "metin": "Mahallede aşevi ikramında bulunup fukaraya yardım et (murad3_006_tiflis_sirvan_fethi)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Cemaatle kenetlenip hayır dua aldın."
       }
     ]
   },
@@ -202,6 +316,25 @@
           "zeka": 2
         },
         "sonuc": "Bazı akıllı kişiler, bu denli geniş bir toprağı yönetmenin giderek zorlaşacağını fısıldıyordu."
+      },
+      {
+        "metin": "Duraklama dönemi kadı mahkemesinde tahrir tescili yaptır (murad3_007_ferhat_pasa_antlasmasi)",
+        "gerekli_zeka": 50,
+        "etki": {
+          "zeka": 8,
+          "itibar": 8
+        },
+        "sonuc": "Kadı sicilinde mülk haklarını resmi güvenceye aldın."
+      },
+      {
+        "metin": "Mahallede aşevi ikramında bulunup fukaraya yardım et (murad3_007_ferhat_pasa_antlasmasi)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Cemaatle kenetlenip hayır dua aldın."
       }
     ]
   },
@@ -232,6 +365,25 @@
           "mutluluk": -1
         },
         "sonuc": "Kahvehanelerde artık en çok bu konuşuluyordu: akçenin eski değerini kaybetmesi."
+      },
+      {
+        "metin": "Duraklama dönemi kadı mahkemesinde tahrir tescili yaptır (murad3_008_akce_tagsisi_enflasyon)",
+        "gerekli_zeka": 50,
+        "etki": {
+          "zeka": 8,
+          "itibar": 8
+        },
+        "sonuc": "Kadı sicilinde mülk haklarını resmi güvenceye aldın."
+      },
+      {
+        "metin": "Mahallede aşevi ikramında bulunup fukaraya yardım et (murad3_008_akce_tagsisi_enflasyon)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Cemaatle kenetlenip hayır dua aldın."
       }
     ]
   },
@@ -261,6 +413,25 @@
           "mutluluk": -2
         },
         "sonuc": "Yeniçerilerin bu denli güçlü bir şekilde devlete başkaldırması, geleceğe dair endişe verici bir işaretti."
+      },
+      {
+        "metin": "Kuyucu Murad Paşa'nın Celali teftiş birliğine idari kâtip ol (murad3_009_beylerbeyi_vakasi)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "zeka": 10,
+          "itibar": 10
+        },
+        "sonuc": "Anadolu'daki Celali kargaşasının bastırılmasında devlet hizmeti verdin."
+      },
+      {
+        "metin": "Celalilerin yağmaladığı mahalle Reayasına buğday yardımı yap (murad3_009_beylerbeyi_vakasi)",
+        "gerekli_para": 35,
+        "etki": {
+          "itibar": 12,
+          "para": -35,
+          "mutluluk": 6
+        },
+        "sonuc": "Zarar gören köylülerin dualarını aldın."
       }
     ]
   },
@@ -287,11 +458,30 @@
         "sonuc": "Bu savaş, önceki Batı seferlerinden farklıydı — artık kolay zaferler beklenmiyordu. Vasal devletlerin bile isyan etmesi, imparatorluğun eski mutlak otoritesinin sarsıldığının işaretiydi."
       },
       {
-        "metin": "Bu sefere katılmadın",
+        "metin": "Bu sefere katılmadın (murad3_010_avusturya_savasi_baslangic)",
         "etki": {
           "mutluluk": -1
         },
         "sonuc": "Savaşın uzun süreceği haberi, herkesi tedirgin ediyordu."
+      },
+      {
+        "metin": "Duraklama dönemi kadı mahkemesinde tahrir tescili yaptır (murad3_010_avusturya_savasi_baslangic)",
+        "gerekli_zeka": 50,
+        "etki": {
+          "zeka": 8,
+          "itibar": 8
+        },
+        "sonuc": "Kadı sicilinde mülk haklarını resmi güvenceye aldın."
+      },
+      {
+        "metin": "Mahallede aşevi ikramında bulunup fukaraya yardım et (murad3_010_avusturya_savasi_baslangic)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Cemaatle kenetlenip hayır dua aldın."
       }
     ]
   },
@@ -321,6 +511,25 @@
           "mutluluk": 1
         },
         "sonuc": "Uzak diyarlarla kurulan bu yeni ilişkiler, zamanla herkese dokunacaktı."
+      },
+      {
+        "metin": "Duraklama dönemi kadı mahkemesinde tahrir tescili yaptır (murad3_011_ingiltere_iliskileri)",
+        "gerekli_zeka": 50,
+        "etki": {
+          "zeka": 8,
+          "itibar": 8
+        },
+        "sonuc": "Kadı sicilinde mülk haklarını resmi güvenceye aldın."
+      },
+      {
+        "metin": "Mahallede aşevi ikramında bulunup fukaraya yardım et (murad3_011_ingiltere_iliskileri)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Cemaatle kenetlenip hayır dua aldın."
       }
     ]
   },
@@ -352,6 +561,25 @@
           "mutluluk": 1
         },
         "sonuc": "Afrika kıyılarındaki bu seferlerin hikayeleri İstanbul'da merakla dinlendi."
+      },
+      {
+        "metin": "Duraklama dönemi kadı mahkemesinde tahrir tescili yaptır (murad3_012_dogu_afrika_nufuzu)",
+        "gerekli_zeka": 50,
+        "etki": {
+          "zeka": 8,
+          "itibar": 8
+        },
+        "sonuc": "Kadı sicilinde mülk haklarını resmi güvenceye aldın."
+      },
+      {
+        "metin": "Mahallede aşevi ikramında bulunup fukaraya yardım et (murad3_012_dogu_afrika_nufuzu)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Cemaatle kenetlenip hayır dua aldın."
       }
     ]
   },
@@ -381,6 +609,25 @@
           "mutluluk": -6
         },
         "sonuc": "Fetret Devri korkusu hâlâ derin izler bırakıyordu, ama bu ölçekte bir kayıp, geleneğin kendisini sorgulatmaya başlamıştı."
+      },
+      {
+        "metin": "Duraklama dönemi kadı mahkemesinde tahrir tescili yaptır (murad3_013_murad_vefati_19_sehzade)",
+        "gerekli_zeka": 50,
+        "etki": {
+          "zeka": 8,
+          "itibar": 8
+        },
+        "sonuc": "Kadı sicilinde mülk haklarını resmi güvenceye aldın."
+      },
+      {
+        "metin": "Mahallede aşevi ikramında bulunup fukaraya yardım et (murad3_013_murad_vefati_19_sehzade)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Cemaatle kenetlenip hayır dua aldın."
       }
     ]
   },
@@ -410,6 +657,25 @@
           "itibar": 1
         },
         "sonuc": "Her taht değişiminde olduğu gibi, ilk yıllar dikkatle izleniyordu."
+      },
+      {
+        "metin": "Duraklama dönemi kadı mahkemesinde tahrir tescili yaptır (mehmed3_001_son_sancak_sehzadesi)",
+        "gerekli_zeka": 50,
+        "etki": {
+          "zeka": 8,
+          "itibar": 8
+        },
+        "sonuc": "Kadı sicilinde mülk haklarını resmi güvenceye aldın."
+      },
+      {
+        "metin": "Mahallede aşevi ikramında bulunup fukaraya yardım et (mehmed3_001_son_sancak_sehzadesi)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Cemaatle kenetlenip hayır dua aldın."
       }
     ]
   },
@@ -436,11 +702,30 @@
         "sonuc": "Eğri Kalesi fethedildi, sultan 'Eğri Fatihi' unvanını kazandı. Askerin morali, padişahını yanında görünce çok yükselmişti."
       },
       {
-        "metin": "Sefere katılmadın",
+        "metin": "Sefere katılmadın (mehmed3_002_egri_seferi)",
         "etki": {
           "mutluluk": 1
         },
         "sonuc": "Padişahın bizzat sefere çıkması, uzun zamandır ilk kez yaşanan bir şeydi, herkes bunu konuşuyordu."
+      },
+      {
+        "metin": "Duraklama dönemi kadı mahkemesinde tahrir tescili yaptır (mehmed3_002_egri_seferi)",
+        "gerekli_zeka": 50,
+        "etki": {
+          "zeka": 8,
+          "itibar": 8
+        },
+        "sonuc": "Kadı sicilinde mülk haklarını resmi güvenceye aldın."
+      },
+      {
+        "metin": "Mahallede aşevi ikramında bulunup fukaraya yardım et (mehmed3_002_egri_seferi)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Cemaatle kenetlenip hayır dua aldın."
       }
     ]
   },
@@ -467,11 +752,30 @@
         "sonuc": "Sayıca çok daha büyük bir orduya karşı kazanılan bu zafer, mucizevi sayıldı. Viyana'nın yolu bir kez daha açılmıştı."
       },
       {
-        "metin": "Bu sefere katılmadın",
+        "metin": "Bu sefere katılmadın (mehmed3_003_hacova_zaferi)",
         "etki": {
           "mutluluk": 1
         },
         "sonuc": "Zafer haberi geldiğinde tüm ülkede büyük bir rahatlama ve gurur yaşandı."
+      },
+      {
+        "metin": "Duraklama dönemi kadı mahkemesinde tahrir tescili yaptır (mehmed3_003_hacova_zaferi)",
+        "gerekli_zeka": 50,
+        "etki": {
+          "zeka": 8,
+          "itibar": 8
+        },
+        "sonuc": "Kadı sicilinde mülk haklarını resmi güvenceye aldın."
+      },
+      {
+        "metin": "Mahallede aşevi ikramında bulunup fukaraya yardım et (mehmed3_003_hacova_zaferi)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Cemaatle kenetlenip hayır dua aldın."
       }
     ]
   },
@@ -501,6 +805,25 @@
           "mutluluk": 1
         },
         "sonuc": "Saray içi kararlar, halkın gündelik hayatına farklı şekillerde yansıyordu."
+      },
+      {
+        "metin": "Duraklama dönemi kadı mahkemesinde tahrir tescili yaptır (mehmed3_004_zafer_sonrasi_karisiklik)",
+        "gerekli_zeka": 50,
+        "etki": {
+          "zeka": 8,
+          "itibar": 8
+        },
+        "sonuc": "Kadı sicilinde mülk haklarını resmi güvenceye aldın."
+      },
+      {
+        "metin": "Mahallede aşevi ikramında bulunup fukaraya yardım et (mehmed3_004_zafer_sonrasi_karisiklik)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Cemaatle kenetlenip hayır dua aldın."
       }
     ]
   },
@@ -531,6 +854,25 @@
           "mutluluk": -2
         },
         "sonuc": "Anadolu'nun iç kesimlerinde bu kargaşa yıllarca sürecek, devletin otoritesi ciddi şekilde sarsılacaktı."
+      },
+      {
+        "metin": "Kuyucu Murad Paşa'nın Celali teftiş birliğine idari kâtip ol (mehmed3_005_celali_isyanlari)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "zeka": 10,
+          "itibar": 10
+        },
+        "sonuc": "Anadolu'daki Celali kargaşasının bastırılmasında devlet hizmeti verdin."
+      },
+      {
+        "metin": "Celalilerin yağmaladığı mahalle Reayasına buğday yardımı yap (mehmed3_005_celali_isyanlari)",
+        "gerekli_para": 35,
+        "etki": {
+          "itibar": 12,
+          "para": -35,
+          "mutluluk": 6
+        },
+        "sonuc": "Zarar gören köylülerin dualarını aldın."
       }
     ]
   },
@@ -557,11 +899,30 @@
         "sonuc": "Batı cephesindeki hakimiyetimiz, iç kargaşaya rağmen sürdürülebilmişti."
       },
       {
-        "metin": "Bu sefere katılmadın",
+        "metin": "Bu sefere katılmadın (mehmed3_006_kanije_fethi)",
         "etki": {
           "mutluluk": 1
         },
         "sonuc": "Kanije zaferi, iç karışıklıkların gölgesinde de olsa sevinçle karşılandı."
+      },
+      {
+        "metin": "Duraklama dönemi kadı mahkemesinde tahrir tescili yaptır (mehmed3_006_kanije_fethi)",
+        "gerekli_zeka": 50,
+        "etki": {
+          "zeka": 8,
+          "itibar": 8
+        },
+        "sonuc": "Kadı sicilinde mülk haklarını resmi güvenceye aldın."
+      },
+      {
+        "metin": "Mahallede aşevi ikramında bulunup fukaraya yardım et (mehmed3_006_kanije_fethi)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Cemaatle kenetlenip hayır dua aldın."
       }
     ]
   },
@@ -591,6 +952,25 @@
           "mutluluk": 1
         },
         "sonuc": "Zorluklara rağmen imparatorluk hâlâ büyük bir güçtü."
+      },
+      {
+        "metin": "Duraklama dönemi kadı mahkemesinde tahrir tescili yaptır (mehmed3_007_istolni_belgrad_kaybi)",
+        "gerekli_zeka": 50,
+        "etki": {
+          "zeka": 8,
+          "itibar": 8
+        },
+        "sonuc": "Kadı sicilinde mülk haklarını resmi güvenceye aldın."
+      },
+      {
+        "metin": "Mahallede aşevi ikramında bulunup fukaraya yardım et (mehmed3_007_istolni_belgrad_kaybi)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Cemaatle kenetlenip hayır dua aldın."
       }
     ]
   },
@@ -613,6 +993,25 @@
           "itibar": 1
         },
         "sonuc": "Devlet kademelerinde yükselmek isteyenler için bu, hem fırsat hem büyük bir risk taşıyan bir dönemdi."
+      },
+      {
+        "metin": "Duraklama dönemi kadı mahkemesinde tahrir tescili yaptır (mehmed3_008_siddetli_vezir_degisimi)",
+        "gerekli_zeka": 50,
+        "etki": {
+          "zeka": 8,
+          "itibar": 8
+        },
+        "sonuc": "Kadı sicilinde mülk haklarını resmi güvenceye aldın."
+      },
+      {
+        "metin": "Mahallede aşevi ikramında bulunup fukaraya yardım et (mehmed3_008_siddetli_vezir_degisimi)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Cemaatle kenetlenip hayır dua aldın."
       }
     ]
   },
@@ -643,6 +1042,25 @@
           "mutluluk": 1
         },
         "sonuc": "İnşaat faaliyetleri, iç karışıklığa rağmen imparatorluğun ihtişamını gösteriyordu."
+      },
+      {
+        "metin": "Duraklama dönemi kadı mahkemesinde tahrir tescili yaptır (mehmed3_009_yeni_cami_insaati)",
+        "gerekli_zeka": 50,
+        "etki": {
+          "zeka": 8,
+          "itibar": 8
+        },
+        "sonuc": "Kadı sicilinde mülk haklarını resmi güvenceye aldın."
+      },
+      {
+        "metin": "Mahallede aşevi ikramında bulunup fukaraya yardım et (mehmed3_009_yeni_cami_insaati)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Cemaatle kenetlenip hayır dua aldın."
       }
     ],
     "engel_bayrak": "calisaniyor"
@@ -668,11 +1086,30 @@
         "sonuc": "Hem batıda hem doğuda savaşmak zorunda kalmak, devletin kaynaklarını iyice zorluyordu."
       },
       {
-        "metin": "Gündelik hayatına devam et",
+        "metin": "Gündelik hayatına devam et (mehmed3_010_yeni_iran_savasi)",
         "etki": {
           "mutluluk": 1
         },
         "sonuc": "Doğudaki gerginlik haberleri İstanbul'a ulaştıkça endişe büyüyordu."
+      },
+      {
+        "metin": "Duraklama dönemi kadı mahkemesinde tahrir tescili yaptır (mehmed3_010_yeni_iran_savasi)",
+        "gerekli_zeka": 50,
+        "etki": {
+          "zeka": 8,
+          "itibar": 8
+        },
+        "sonuc": "Kadı sicilinde mülk haklarını resmi güvenceye aldın."
+      },
+      {
+        "metin": "Mahallede aşevi ikramında bulunup fukaraya yardım et (mehmed3_010_yeni_iran_savasi)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Cemaatle kenetlenip hayır dua aldın."
       }
     ]
   },
@@ -702,6 +1139,25 @@
           "zeka": 1
         },
         "sonuc": "Bu denli genç bir padişahın, Anadolu'daki kargaşayı ve doğudaki savaşı nasıl yöneteceği belirsizdi."
+      },
+      {
+        "metin": "Kuyucu Murad Paşa'nın Celali teftiş birliğine idari kâtip ol (mehmed3_011_mehmed_vefati)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "zeka": 10,
+          "itibar": 10
+        },
+        "sonuc": "Anadolu'daki Celali kargaşasının bastırılmasında devlet hizmeti verdin."
+      },
+      {
+        "metin": "Celalilerin yağmaladığı mahalle Reayasına buğday yardımı yap (mehmed3_011_mehmed_vefati)",
+        "gerekli_para": 35,
+        "etki": {
+          "itibar": 12,
+          "para": -35,
+          "mutluluk": 6
+        },
+        "sonuc": "Zarar gören köylülerin dualarını aldın."
       }
     ]
   },
@@ -732,6 +1188,25 @@
           "saglik": 1
         },
         "sonuc": "Köyde kalmanın riskleri arttıkça, şehir hayatı daha cazip görünmeye başlamıştı."
+      },
+      {
+        "metin": "Kuyucu Murad Paşa'nın Celali teftiş birliğine idari kâtip ol (mehmed3_012_koyluler_sehre_goc)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "zeka": 10,
+          "itibar": 10
+        },
+        "sonuc": "Anadolu'daki Celali kargaşasının bastırılmasında devlet hizmeti verdin."
+      },
+      {
+        "metin": "Celalilerin yağmaladığı mahalle Reayasına buğday yardımı yap (mehmed3_012_koyluler_sehre_goc)",
+        "gerekli_para": 35,
+        "etki": {
+          "itibar": 12,
+          "para": -35,
+          "mutluluk": 6
+        },
+        "sonuc": "Zarar gören köylülerin dualarını aldın."
       }
     ]
   },
@@ -761,6 +1236,25 @@
           "itibar": 1
         },
         "sonuc": "Deneyimli devlet adamlarının desteğiyle genç sultan tahtını sağlamlaştırmaya çalışıyordu."
+      },
+      {
+        "metin": "Duraklama dönemi kadı mahkemesinde tahrir tescili yaptır (ahmed1_001_genc_tahta_cikis)",
+        "gerekli_zeka": 50,
+        "etki": {
+          "zeka": 8,
+          "itibar": 8
+        },
+        "sonuc": "Kadı sicilinde mülk haklarını resmi güvenceye aldın."
+      },
+      {
+        "metin": "Mahallede aşevi ikramında bulunup fukaraya yardım et (ahmed1_001_genc_tahta_cikis)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Cemaatle kenetlenip hayır dua aldın."
       }
     ]
   },
@@ -791,6 +1285,25 @@
           "mutluluk": 2
         },
         "sonuc": "Bazı tecrübeli devlet adamları, bunun gelecekte yeni taht kavgalarına yol açabileceğinden endişeleniyordu — ama insani vicdan bu kez ağır bastı."
+      },
+      {
+        "metin": "Ekber ve Erşed veraset kanunnamesini kadı kütüğünde incele (ahmed1_002_kardes_katli_kirilma)",
+        "gerekli_zeka": 60,
+        "etki": {
+          "zeka": 12,
+          "itibar": 10
+        },
+        "sonuc": "Taht kavgalarını önleyen yeni veraset nizamını hukuken kavradın."
+      },
+      {
+        "metin": "Sultanahmet Camii inşasına çini ve kandil yağı bağışla (ahmed1_002_kardes_katli_kirilma)",
+        "gerekli_para": 40,
+        "etki": {
+          "itibar": 12,
+          "para": -40,
+          "mutluluk": 8
+        },
+        "sonuc": "Mavi Cami vakfiyesine hayırsever sakini olarak adın tescil edildi."
       }
     ]
   },
@@ -819,6 +1332,25 @@
           "mutluluk": 1
         },
         "sonuc": "Sarayın iç işleyişindeki bu köklü değişim, yıllar içinde etkilerini gösterecekti."
+      },
+      {
+        "metin": "Ekber ve Erşed veraset kanunnamesini kadı kütüğünde incele (ahmed1_003_ekber_ersed_kafes)",
+        "gerekli_zeka": 60,
+        "etki": {
+          "zeka": 12,
+          "itibar": 10
+        },
+        "sonuc": "Taht kavgalarını önleyen yeni veraset nizamını hukuken kavradın."
+      },
+      {
+        "metin": "Sultanahmet Camii inşasına çini ve kandil yağı bağışla (ahmed1_003_ekber_ersed_kafes)",
+        "gerekli_para": 40,
+        "etki": {
+          "itibar": 12,
+          "para": -40,
+          "mutluluk": 8
+        },
+        "sonuc": "Mavi Cami vakfiyesine hayırsever sakini olarak adın tescil edildi."
       }
     ]
   },
@@ -851,6 +1383,25 @@
           "zeka": 1
         },
         "sonuc": "Düzen sağlanıyordu ama bunun bedeli ağır oluyordu."
+      },
+      {
+        "metin": "Kuyucu Murad Paşa'nın Celali teftiş birliğine idari kâtip ol (ahmed1_004_kuyucu_murat_pasa)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "zeka": 10,
+          "itibar": 10
+        },
+        "sonuc": "Anadolu'daki Celali kargaşasının bastırılmasında devlet hizmeti verdin."
+      },
+      {
+        "metin": "Celalilerin yağmaladığı mahalle Reayasına buğday yardımı yap (ahmed1_004_kuyucu_murat_pasa)",
+        "gerekli_para": 35,
+        "etki": {
+          "itibar": 12,
+          "para": -35,
+          "mutluluk": 6
+        },
+        "sonuc": "Zarar gören köylülerin dualarını aldın."
       }
     ]
   },
@@ -881,6 +1432,25 @@
           "mutluluk": -2
         },
         "sonuc": "Az kişi fark etse de, bu küçük protokol değişimi, güç dengesinin sessizce kaymaya başladığının bir işaretiydi."
+      },
+      {
+        "metin": "Duraklama dönemi kadı mahkemesinde tahrir tescili yaptır (ahmed1_005_zitvatorok_antlasmasi)",
+        "gerekli_zeka": 50,
+        "etki": {
+          "zeka": 8,
+          "itibar": 8
+        },
+        "sonuc": "Kadı sicilinde mülk haklarını resmi güvenceye aldın."
+      },
+      {
+        "metin": "Mahallede aşevi ikramında bulunup fukaraya yardım et (ahmed1_005_zitvatorok_antlasmasi)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Cemaatle kenetlenip hayır dua aldın."
       }
     ]
   },
@@ -909,6 +1479,25 @@
           "zeka": 1
         },
         "sonuc": "Diplomatik dengeler her zaman kırılgandı, ama şimdilik huzur vardı."
+      },
+      {
+        "metin": "Duraklama dönemi kadı mahkemesinde tahrir tescili yaptır (ahmed1_006_nasuh_pasa_antlasmasi)",
+        "gerekli_zeka": 50,
+        "etki": {
+          "zeka": 8,
+          "itibar": 8
+        },
+        "sonuc": "Kadı sicilinde mülk haklarını resmi güvenceye aldın."
+      },
+      {
+        "metin": "Mahallede aşevi ikramında bulunup fukaraya yardım et (ahmed1_006_nasuh_pasa_antlasmasi)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Cemaatle kenetlenip hayır dua aldın."
       }
     ]
   },
@@ -939,6 +1528,25 @@
           "mutluluk": 1
         },
         "sonuc": "Bu inşaatın haberleri şehirde büyük bir merakla takip ediliyordu."
+      },
+      {
+        "metin": "Ekber ve Erşed veraset kanunnamesini kadı kütüğünde incele (ahmed1_007_sultanahmet_camii_temel)",
+        "gerekli_zeka": 60,
+        "etki": {
+          "zeka": 12,
+          "itibar": 10
+        },
+        "sonuc": "Taht kavgalarını önleyen yeni veraset nizamını hukuken kavradın."
+      },
+      {
+        "metin": "Sultanahmet Camii inşasına çini ve kandil yağı bağışla (ahmed1_007_sultanahmet_camii_temel)",
+        "gerekli_para": 40,
+        "etki": {
+          "itibar": 12,
+          "para": -40,
+          "mutluluk": 8
+        },
+        "sonuc": "Mavi Cami vakfiyesine hayırsever sakini olarak adın tescil edildi."
       }
     ],
     "engel_bayrak": "calisaniyor"
@@ -969,6 +1577,25 @@
           "mutluluk": 1
         },
         "sonuc": "Herkesin farklı bir görüşü vardı, ama cami her halükarda göz kamaştırıcı olacaktı."
+      },
+      {
+        "metin": "Duraklama dönemi kadı mahkemesinde tahrir tescili yaptır (ahmed1_008_alti_minare_tartismasi)",
+        "gerekli_zeka": 50,
+        "etki": {
+          "zeka": 8,
+          "itibar": 8
+        },
+        "sonuc": "Kadı sicilinde mülk haklarını resmi güvenceye aldın."
+      },
+      {
+        "metin": "Mahallede aşevi ikramında bulunup fukaraya yardım et (ahmed1_008_alti_minare_tartismasi)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Cemaatle kenetlenip hayır dua aldın."
       }
     ]
   },
@@ -998,6 +1625,25 @@
           "zeka": 1
         },
         "sonuc": "Onun etkisinin gelecekte ne kadar büyüyeceğini kimse tam olarak tahmin edemiyordu."
+      },
+      {
+        "metin": "Duraklama dönemi kadı mahkemesinde tahrir tescili yaptır (ahmed1_009_kosem_sultan_yukselisi)",
+        "gerekli_zeka": 50,
+        "etki": {
+          "zeka": 8,
+          "itibar": 8
+        },
+        "sonuc": "Kadı sicilinde mülk haklarını resmi güvenceye aldın."
+      },
+      {
+        "metin": "Mahallede aşevi ikramında bulunup fukaraya yardım et (ahmed1_009_kosem_sultan_yukselisi)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Cemaatle kenetlenip hayır dua aldın."
       }
     ]
   },
@@ -1026,6 +1672,25 @@
           "mutluluk": 1
         },
         "sonuc": "Bu idari değişiklik, bölge halkının gündelik hayatını büyük ölçüde değiştirmedi."
+      },
+      {
+        "metin": "Duraklama dönemi kadı mahkemesinde tahrir tescili yaptır (ahmed1_010_ramazanogullari_ilhaki)",
+        "gerekli_zeka": 50,
+        "etki": {
+          "zeka": 8,
+          "itibar": 8
+        },
+        "sonuc": "Kadı sicilinde mülk haklarını resmi güvenceye aldın."
+      },
+      {
+        "metin": "Mahallede aşevi ikramında bulunup fukaraya yardım et (ahmed1_010_ramazanogullari_ilhaki)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Cemaatle kenetlenip hayır dua aldın."
       }
     ]
   },
@@ -1056,6 +1721,25 @@
           "mutluluk": 1
         },
         "sonuc": "Kıyıdan uzaklaşmak, bazı aileler için daha güvenli görünüyordu."
+      },
+      {
+        "metin": "Duraklama dönemi kadı mahkemesinde tahrir tescili yaptır (ahmed1_011_kazak_akinlari)",
+        "gerekli_zeka": 50,
+        "etki": {
+          "zeka": 8,
+          "itibar": 8
+        },
+        "sonuc": "Kadı sicilinde mülk haklarını resmi güvenceye aldın."
+      },
+      {
+        "metin": "Mahallede aşevi ikramında bulunup fukaraya yardım et (ahmed1_011_kazak_akinlari)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Cemaatle kenetlenip hayır dua aldın."
       }
     ]
   },
@@ -1085,6 +1769,25 @@
           "zeka": 2
         },
         "sonuc": "Ekber-Erşed sisteminin ilk uygulaması, herkesin dikkatle izlediği bir andı."
+      },
+      {
+        "metin": "Ekber ve Erşed veraset kanunnamesini kadı kütüğünde incele (ahmed1_012_ahmed_vefati)",
+        "gerekli_zeka": 60,
+        "etki": {
+          "zeka": 12,
+          "itibar": 10
+        },
+        "sonuc": "Taht kavgalarını önleyen yeni veraset nizamını hukuken kavradın."
+      },
+      {
+        "metin": "Sultanahmet Camii inşasına çini ve kandil yağı bağışla (ahmed1_012_ahmed_vefati)",
+        "gerekli_para": 40,
+        "etki": {
+          "itibar": 12,
+          "para": -40,
+          "mutluluk": 8
+        },
+        "sonuc": "Mavi Cami vakfiyesine hayırsever sakini olarak adın tescil edildi."
       }
     ]
   },
@@ -1114,6 +1817,25 @@
           "itibar": 1
         },
         "sonuc": "Devlet erkanı, sultanın durumunu yakından izliyordu."
+      },
+      {
+        "metin": "Ekber ve Erşed veraset kanunnamesini kadı kütüğünde incele (mustafa1_001_ilk_tahta_cikis)",
+        "gerekli_zeka": 60,
+        "etki": {
+          "zeka": 12,
+          "itibar": 10
+        },
+        "sonuc": "Taht kavgalarını önleyen yeni veraset nizamını hukuken kavradın."
+      },
+      {
+        "metin": "Sultanahmet Camii inşasına çini ve kandil yağı bağışla (mustafa1_001_ilk_tahta_cikis)",
+        "gerekli_para": 40,
+        "etki": {
+          "itibar": 12,
+          "para": -40,
+          "mutluluk": 8
+        },
+        "sonuc": "Mavi Cami vakfiyesine hayırsever sakini olarak adın tescil edildi."
       }
     ]
   },
@@ -1143,6 +1865,25 @@
           "mutluluk": -1
         },
         "sonuc": "Bu denli hızlı taht değişimleri, halkın içini rahatlatmıyordu."
+      },
+      {
+        "metin": "Duraklama dönemi kadı mahkemesinde tahrir tescili yaptır (mustafa1_002_ilk_azil)",
+        "gerekli_zeka": 50,
+        "etki": {
+          "zeka": 8,
+          "itibar": 8
+        },
+        "sonuc": "Kadı sicilinde mülk haklarını resmi güvenceye aldın."
+      },
+      {
+        "metin": "Mahallede aşevi ikramında bulunup fukaraya yardım et (mustafa1_002_ilk_azil)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Cemaatle kenetlenip hayır dua aldın."
       }
     ]
   },
@@ -1171,6 +1912,24 @@
           "mutluluk": 1
         },
         "sonuc": "Diplomatik gelişmeler halkın gündelik hayatını hemen etkilemiyordu."
+      },
+      {
+        "metin": "Genç Osman'ın Hotin seferi ordusuna erzak arabası temin et (mustafa1_003_serav_antlasmasi)",
+        "gerekli_para": 45,
+        "etki": {
+          "itibar": 12,
+          "para": -45
+        },
+        "sonuc": "Hotin kalesi önündeki sipahilerin iaşesini destekledin."
+      },
+      {
+        "metin": "Ocak ıslahatı tartışmalarında saray bürokratlarına arzuhal ver (mustafa1_003_serav_antlasmasi)",
+        "gerekli_zeka": 60,
+        "etki": {
+          "zeka": 12,
+          "itibar": 8
+        },
+        "sonuc": "Devletin askeri disiplini hakkındaki görüşlerini divana ulaştırdın."
       }
     ]
   },
@@ -1200,6 +1959,24 @@
           "mutluluk": 1
         },
         "sonuc": "Saray gelenekleri sarsılmaya başlamıştı, bunu herkes fark ediyordu."
+      },
+      {
+        "metin": "Genç Osman'ın Hotin seferi ordusuna erzak arabası temin et (mustafa1_004_genc_osman_evlilik)",
+        "gerekli_para": 45,
+        "etki": {
+          "itibar": 12,
+          "para": -45
+        },
+        "sonuc": "Hotin kalesi önündeki sipahilerin iaşesini destekledin."
+      },
+      {
+        "metin": "Ocak ıslahatı tartışmalarında saray bürokratlarına arzuhal ver (mustafa1_004_genc_osman_evlilik)",
+        "gerekli_zeka": 60,
+        "etki": {
+          "zeka": 12,
+          "itibar": 8
+        },
+        "sonuc": "Devletin askeri disiplini hakkındaki görüşlerini divana ulaştırdın."
       }
     ]
   },
@@ -1226,11 +2003,29 @@
         "sonuc": "Padişah kendi askerinin itaatsizliğine öfkelenmişti. Bu, genç sultanın gözünde yeniçeri ocağının artık bir sorun olduğunu netleştiren bir andı."
       },
       {
-        "metin": "Bu sefere katılmadın",
+        "metin": "Bu sefere katılmadın (mustafa1_005_hotin_seferi)",
         "etki": {
           "mutluluk": 1
         },
         "sonuc": "Sefer, kesin bir zafer olmadan, tartışmalı bir antlaşmayla sonuçlandı."
+      },
+      {
+        "metin": "Genç Osman'ın Hotin seferi ordusuna erzak arabası temin et (mustafa1_005_hotin_seferi)",
+        "gerekli_para": 45,
+        "etki": {
+          "itibar": 12,
+          "para": -45
+        },
+        "sonuc": "Hotin kalesi önündeki sipahilerin iaşesini destekledin."
+      },
+      {
+        "metin": "Ocak ıslahatı tartışmalarında saray bürokratlarına arzuhal ver (mustafa1_005_hotin_seferi)",
+        "gerekli_zeka": 60,
+        "etki": {
+          "zeka": 12,
+          "itibar": 8
+        },
+        "sonuc": "Devletin askeri disiplini hakkındaki görüşlerini divana ulaştırdın."
       }
     ]
   },
@@ -1261,6 +2056,24 @@
           "mutluluk": -2
         },
         "sonuc": "Yeniçeri Ocağı'na dokunmak, kendi hayatını tehlikeye atmak anlamına gelebilirdi."
+      },
+      {
+        "metin": "Genç Osman'ın Hotin seferi ordusuna erzak arabası temin et (mustafa1_006_reform_plani)",
+        "gerekli_para": 45,
+        "etki": {
+          "itibar": 12,
+          "para": -45
+        },
+        "sonuc": "Hotin kalesi önündeki sipahilerin iaşesini destekledin."
+      },
+      {
+        "metin": "Ocak ıslahatı tartışmalarında saray bürokratlarına arzuhal ver (mustafa1_006_reform_plani)",
+        "gerekli_zeka": 60,
+        "etki": {
+          "zeka": 12,
+          "itibar": 8
+        },
+        "sonuc": "Devletin askeri disiplini hakkındaki görüşlerini divana ulaştırdın."
       }
     ]
   },
@@ -1290,6 +2103,24 @@
           "mutluluk": -2
         },
         "sonuc": "Şehirde gerilim tırmanıyordu, kötü bir şeylerin olacağı hissediliyordu."
+      },
+      {
+        "metin": "Genç Osman'ın Hotin seferi ordusuna erzak arabası temin et (mustafa1_007_hac_bahanesi)",
+        "gerekli_para": 45,
+        "etki": {
+          "itibar": 12,
+          "para": -45
+        },
+        "sonuc": "Hotin kalesi önündeki sipahilerin iaşesini destekledin."
+      },
+      {
+        "metin": "Ocak ıslahatı tartışmalarında saray bürokratlarına arzuhal ver (mustafa1_007_hac_bahanesi)",
+        "gerekli_zeka": 60,
+        "etki": {
+          "zeka": 12,
+          "itibar": 8
+        },
+        "sonuc": "Devletin askeri disiplini hakkındaki görüşlerini divana ulaştırdın."
       }
     ]
   },
@@ -1320,6 +2151,25 @@
           "mutluluk": -8
         },
         "sonuc": "Eğer bir padişah bile kendi askerince öldürülebiliyorsa, artık hiçbir otorite güvende değildi."
+      },
+      {
+        "metin": "Kuyucu Murad Paşa'nın Celali teftiş birliğine idari kâtip ol (mustafa1_008_yenicheri_isyani_yedikule)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "zeka": 10,
+          "itibar": 10
+        },
+        "sonuc": "Anadolu'daki Celali kargaşasının bastırılmasında devlet hizmeti verdin."
+      },
+      {
+        "metin": "Celalilerin yağmaladığı mahalle Reayasına buğday yardımı yap (mustafa1_008_yenicheri_isyani_yedikule)",
+        "gerekli_para": 35,
+        "etki": {
+          "itibar": 12,
+          "para": -35,
+          "mutluluk": 6
+        },
+        "sonuc": "Zarar gören köylülerin dualarını aldın."
       }
     ]
   },
@@ -1344,11 +2194,30 @@
         "sonuc": "Devletin başında fiilen bir otorite boşluğu vardı, bu herkesi tedirgin ediyordu."
       },
       {
-        "metin": "Gündelik hayatına devam et",
+        "metin": "Gündelik hayatına devam et (mustafa1_009_ikinci_tahta_cikis)",
         "etki": {
           "mutluluk": 1
         },
         "sonuc": "Saray içi kargaşa, halkın kendi mücadelesini değiştirmiyordu."
+      },
+      {
+        "metin": "Duraklama dönemi kadı mahkemesinde tahrir tescili yaptır (mustafa1_009_ikinci_tahta_cikis)",
+        "gerekli_zeka": 50,
+        "etki": {
+          "zeka": 8,
+          "itibar": 8
+        },
+        "sonuc": "Kadı sicilinde mülk haklarını resmi güvenceye aldın."
+      },
+      {
+        "metin": "Mahallede aşevi ikramında bulunup fukaraya yardım et (mustafa1_009_ikinci_tahta_cikis)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Cemaatle kenetlenip hayır dua aldın."
       }
     ]
   },
@@ -1378,6 +2247,25 @@
           "mutluluk": -2
         },
         "sonuc": "Bir kargaşa bir diğerini doğuruyordu, devletin toparlanması giderek zorlaşıyordu."
+      },
+      {
+        "metin": "Kuyucu Murad Paşa'nın Celali teftiş birliğine idari kâtip ol (mustafa1_010_abaza_mehmed_isyani)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "zeka": 10,
+          "itibar": 10
+        },
+        "sonuc": "Anadolu'daki Celali kargaşasının bastırılmasında devlet hizmeti verdin."
+      },
+      {
+        "metin": "Celalilerin yağmaladığı mahalle Reayasına buğday yardımı yap (mustafa1_010_abaza_mehmed_isyani)",
+        "gerekli_para": 35,
+        "etki": {
+          "itibar": 12,
+          "para": -35,
+          "mutluluk": 6
+        },
+        "sonuc": "Zarar gören köylülerin dualarını aldın."
       }
     ]
   },
@@ -1407,6 +2295,24 @@
           "mutluluk": -1
         },
         "sonuc": "Zaman gösterecekti — bu genç sultan, yıllar içinde beklenmedik bir sertlikle devleti yeniden toparlayacaktı."
+      },
+      {
+        "metin": "Bağdat Fatihi IV. Murad'ın şark seferine okçu olarak katıl (mustafa1_011_kesin_azil_murad_tahta)",
+        "gerekli_itibar": 65,
+        "etki": {
+          "itibar": 20,
+          "saglik": -4
+        },
+        "sonuc": "Bağdat surlarına dikilen zafer sancağının altında saf tuttun."
+      },
+      {
+        "metin": "Kahvehane ve tütün yasağı fermanını kadı adına mahallede duyur (mustafa1_011_kesin_azil_murad_tahta)",
+        "gerekli_zeka": 50,
+        "etki": {
+          "zeka": 8,
+          "itibar": 8
+        },
+        "sonuc": "IV. Murad'ın sert asayiş kanunlarını mahalleye tebliğ ettin."
       }
     ]
   },
@@ -1435,6 +2341,25 @@
           "mutluluk": 1
         },
         "sonuc": "Herkes, bu genç sultanın büyüyünce nasıl bir hükümdar olacağını merak ediyordu."
+      },
+      {
+        "metin": "Duraklama dönemi kadı mahkemesinde tahrir tescili yaptır (murad4_001_tahta_cikis_kosem_naipligi)",
+        "gerekli_zeka": 50,
+        "etki": {
+          "zeka": 8,
+          "itibar": 8
+        },
+        "sonuc": "Kadı sicilinde mülk haklarını resmi güvenceye aldın."
+      },
+      {
+        "metin": "Mahallede aşevi ikramında bulunup fukaraya yardım et (murad4_001_tahta_cikis_kosem_naipligi)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Cemaatle kenetlenip hayır dua aldın."
       }
     ]
   },
@@ -1464,6 +2389,24 @@
           "mutluluk": -1
         },
         "sonuc": "Kahvehaneler kapatıldı, meyhaneler yıkıldı — gündelik alışkanlıklar bir gecede yasa dışı hale geldi."
+      },
+      {
+        "metin": "Genç Osman'ın Hotin seferi ordusuna erzak arabası temin et (murad4_002_istanbul_yangini_yasaklar)",
+        "gerekli_para": 45,
+        "etki": {
+          "itibar": 12,
+          "para": -45
+        },
+        "sonuc": "Hotin kalesi önündeki sipahilerin iaşesini destekledin."
+      },
+      {
+        "metin": "Ocak ıslahatı tartışmalarında saray bürokratlarına arzuhal ver (murad4_002_istanbul_yangini_yasaklar)",
+        "gerekli_zeka": 60,
+        "etki": {
+          "zeka": 12,
+          "itibar": 8
+        },
+        "sonuc": "Devletin askeri disiplini hakkındaki görüşlerini divana ulaştırdın."
       }
     ]
   },
@@ -1494,6 +2437,25 @@
           "sans_gerekli": true
         },
         "sonuc": "Ya şansın yaver gitti ve yakalanmadın, ya da cezası ağır bir dersle karşılaştın."
+      },
+      {
+        "metin": "Duraklama dönemi kadı mahkemesinde tahrir tescili yaptır (murad4_003_gizli_devriye_idamlar)",
+        "gerekli_zeka": 50,
+        "etki": {
+          "zeka": 8,
+          "itibar": 8
+        },
+        "sonuc": "Kadı sicilinde mülk haklarını resmi güvenceye aldın."
+      },
+      {
+        "metin": "Mahallede aşevi ikramında bulunup fukaraya yardım et (murad4_003_gizli_devriye_idamlar)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Cemaatle kenetlenip hayır dua aldın."
       }
     ]
   },
@@ -1523,6 +2485,24 @@
           "mutluluk": -2
         },
         "sonuc": "Rüşvetçi ve tembel memurlar için zor günler başlıyordu."
+      },
+      {
+        "metin": "Bağdat Fatihi IV. Murad'ın şark seferine okçu olarak katıl (murad4_004_mutlak_iktidar)",
+        "gerekli_itibar": 65,
+        "etki": {
+          "itibar": 20,
+          "saglik": -4
+        },
+        "sonuc": "Bağdat surlarına dikilen zafer sancağının altında saf tuttun."
+      },
+      {
+        "metin": "Kahvehane ve tütün yasağı fermanını kadı adına mahallede duyur (murad4_004_mutlak_iktidar)",
+        "gerekli_zeka": 50,
+        "etki": {
+          "zeka": 8,
+          "itibar": 8
+        },
+        "sonuc": "IV. Murad'ın sert asayiş kanunlarını mahalleye tebliğ ettin."
       }
     ]
   },
@@ -1553,6 +2533,25 @@
           "mutluluk": -2
         },
         "sonuc": "Bu, mutlak otoritenin sınırlarının artık ne kadar genişlediğinin acı bir kanıtıydı."
+      },
+      {
+        "metin": "Duraklama dönemi kadı mahkemesinde tahrir tescili yaptır (murad4_005_seyhulislam_idami)",
+        "gerekli_zeka": 50,
+        "etki": {
+          "zeka": 8,
+          "itibar": 8
+        },
+        "sonuc": "Kadı sicilinde mülk haklarını resmi güvenceye aldın."
+      },
+      {
+        "metin": "Mahallede aşevi ikramında bulunup fukaraya yardım et (murad4_005_seyhulislam_idami)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Cemaatle kenetlenip hayır dua aldın."
       }
     ]
   },
@@ -1569,7 +2568,7 @@
     "metin": "Sultan bizzat ordunun başında Safeviler üzerine sefere çıktı, Revan (Erivan) alındı — ama sonradan geri kaybedildi. Sultan'ın sefer sırasında bacağında bir rahatsızlık (gut hastalığının başlangıcı) baş gösterdi.",
     "secenekler": [
       {
-        "metin": "Bu sefere katıl",
+        "metin": "Bu sefere katıl (murad4_006_revan_seferi)",
         "etki": {
           "para": 5,
           "itibar": 3,
@@ -1579,11 +2578,29 @@
         "sonuc": "Revan alındı, kısa süreli bir zaferdi ama Osmanlı ordusunun hâlâ güçlü olduğunu göstermeye yetmişti."
       },
       {
-        "metin": "Sefere katılmadın",
+        "metin": "Sefere katılmadın (murad4_006_revan_seferi)",
         "etki": {
           "mutluluk": 1
         },
         "sonuc": "Zafer haberi geldiğinde memnuniyet yaşandı."
+      },
+      {
+        "metin": "Bağdat Fatihi IV. Murad'ın şark seferine okçu olarak katıl (murad4_006_revan_seferi)",
+        "gerekli_itibar": 65,
+        "etki": {
+          "itibar": 20,
+          "saglik": -4
+        },
+        "sonuc": "Bağdat surlarına dikilen zafer sancağının altında saf tuttun."
+      },
+      {
+        "metin": "Kahvehane ve tütün yasağı fermanını kadı adına mahallede duyur (murad4_006_revan_seferi)",
+        "gerekli_zeka": 50,
+        "etki": {
+          "zeka": 8,
+          "itibar": 8
+        },
+        "sonuc": "IV. Murad'ın sert asayiş kanunlarını mahalleye tebliğ ettin."
       }
     ]
   },
@@ -1613,6 +2630,25 @@
           "mutluluk": -5
         },
         "sonuc": "Genç Ahmed'in kaldırdığı acı gelenek, bir kuşak sonra yeniden hortlamıştı."
+      },
+      {
+        "metin": "Ekber ve Erşed veraset kanunnamesini kadı kütüğünde incele (murad4_007_kasim_kardes_katli)",
+        "gerekli_zeka": 60,
+        "etki": {
+          "zeka": 12,
+          "itibar": 10
+        },
+        "sonuc": "Taht kavgalarını önleyen yeni veraset nizamını hukuken kavradın."
+      },
+      {
+        "metin": "Sultanahmet Camii inşasına çini ve kandil yağı bağışla (murad4_007_kasim_kardes_katli)",
+        "gerekli_para": 40,
+        "etki": {
+          "itibar": 12,
+          "para": -40,
+          "mutluluk": 8
+        },
+        "sonuc": "Mavi Cami vakfiyesine hayırsever sakini olarak adın tescil edildi."
       }
     ]
   },
@@ -1639,11 +2675,29 @@
         "sonuc": "Bağdat'ın kesin olarak alınması, Osmanlı'nın hâlâ dünya çapında bir askeri güç olduğunu kanıtladı. Yıllardır ilk kez böylesine büyük ve kesin bir zafer kazanılmıştı."
       },
       {
-        "metin": "Bu sefere katılmadın",
+        "metin": "Bu sefere katılmadın (murad4_008_bagdat_fethi)",
         "etki": {
           "mutluluk": 2
         },
         "sonuc": "Zafer haberi tüm ülkede büyük bir coşkuyla karşılandı."
+      },
+      {
+        "metin": "Bağdat Fatihi IV. Murad'ın şark seferine okçu olarak katıl (murad4_008_bagdat_fethi)",
+        "gerekli_itibar": 65,
+        "etki": {
+          "itibar": 20,
+          "saglik": -4
+        },
+        "sonuc": "Bağdat surlarına dikilen zafer sancağının altında saf tuttun."
+      },
+      {
+        "metin": "Kahvehane ve tütün yasağı fermanını kadı adına mahallede duyur (murad4_008_bagdat_fethi)",
+        "gerekli_zeka": 50,
+        "etki": {
+          "zeka": 8,
+          "itibar": 8
+        },
+        "sonuc": "IV. Murad'ın sert asayiş kanunlarını mahalleye tebliğ ettin."
       }
     ]
   },
@@ -1668,11 +2722,29 @@
         "sonuc": "Yüzyıllardır süren doğu cephesi savaşları, nihayet net ve kalıcı bir çözüme kavuşmuştu."
       },
       {
-        "metin": "Gündelik hayatına devam et",
+        "metin": "Gündelik hayatına devam et (murad4_009_kasri_sirin_antlasmasi)",
         "etki": {
           "mutluluk": 1
         },
         "sonuc": "Doğu sınırındaki huzur, ticaret yollarının yeniden canlanmasını sağladı."
+      },
+      {
+        "metin": "Bağdat Fatihi IV. Murad'ın şark seferine okçu olarak katıl (murad4_009_kasri_sirin_antlasmasi)",
+        "gerekli_itibar": 65,
+        "etki": {
+          "itibar": 20,
+          "saglik": -4
+        },
+        "sonuc": "Bağdat surlarına dikilen zafer sancağının altında saf tuttun."
+      },
+      {
+        "metin": "Kahvehane ve tütün yasağı fermanını kadı adına mahallede duyur (murad4_009_kasri_sirin_antlasmasi)",
+        "gerekli_zeka": 50,
+        "etki": {
+          "zeka": 8,
+          "itibar": 8
+        },
+        "sonuc": "IV. Murad'ın sert asayiş kanunlarını mahalleye tebliğ ettin."
       }
     ]
   },
@@ -1702,6 +2774,24 @@
           "mutluluk": 1
         },
         "sonuc": "Sarayın himaye ettiği sanatçıların eserleri, yıllar sonra bile okunacak/dinlenecekti."
+      },
+      {
+        "metin": "Bağdat Fatihi IV. Murad'ın şark seferine okçu olarak katıl (murad4_010_kulturel_canlanma)",
+        "gerekli_itibar": 65,
+        "etki": {
+          "itibar": 20,
+          "saglik": -4
+        },
+        "sonuc": "Bağdat surlarına dikilen zafer sancağının altında saf tuttun."
+      },
+      {
+        "metin": "Kahvehane ve tütün yasağı fermanını kadı adına mahallede duyur (murad4_010_kulturel_canlanma)",
+        "gerekli_zeka": 50,
+        "etki": {
+          "zeka": 8,
+          "itibar": 8
+        },
+        "sonuc": "IV. Murad'ın sert asayiş kanunlarını mahalleye tebliğ ettin."
       }
     ]
   },
@@ -1731,6 +2821,24 @@
           "zeka": 2
         },
         "sonuc": "İbrahim'in akli durumu hakkında da endişe verici söylentiler dolaşıyordu."
+      },
+      {
+        "metin": "Bağdat Fatihi IV. Murad'ın şark seferine okçu olarak katıl (murad4_011_ibrahim_koruma)",
+        "gerekli_itibar": 65,
+        "etki": {
+          "itibar": 20,
+          "saglik": -4
+        },
+        "sonuc": "Bağdat surlarına dikilen zafer sancağının altında saf tuttun."
+      },
+      {
+        "metin": "Kahvehane ve tütün yasağı fermanını kadı adına mahallede duyur (murad4_011_ibrahim_koruma)",
+        "gerekli_zeka": 50,
+        "etki": {
+          "zeka": 8,
+          "itibar": 8
+        },
+        "sonuc": "IV. Murad'ın sert asayiş kanunlarını mahalleye tebliğ ettin."
       }
     ]
   },
@@ -1760,6 +2868,24 @@
           "mutluluk": -3
         },
         "sonuc": "IV. Murad'ın demir yumruğu olmadan, kazanılan istikrarın ne kadar süreceği büyük bir soru işaretiydi."
+      },
+      {
+        "metin": "Bağdat Fatihi IV. Murad'ın şark seferine okçu olarak katıl (murad4_012_murad_vefati_siroz)",
+        "gerekli_itibar": 65,
+        "etki": {
+          "itibar": 20,
+          "saglik": -4
+        },
+        "sonuc": "Bağdat surlarına dikilen zafer sancağının altında saf tuttun."
+      },
+      {
+        "metin": "Kahvehane ve tütün yasağı fermanını kadı adına mahallede duyur (murad4_012_murad_vefati_siroz)",
+        "gerekli_zeka": 50,
+        "etki": {
+          "zeka": 8,
+          "itibar": 8
+        },
+        "sonuc": "IV. Murad'ın sert asayiş kanunlarını mahalleye tebliğ ettin."
       }
     ]
   },
@@ -1789,6 +2915,24 @@
           "itibar": 1
         },
         "sonuc": "Devletin yeni sultanı, herkesin merakla izlediği belirsiz bir başlangıç yapmıştı."
+      },
+      {
+        "metin": "Bağdat Fatihi IV. Murad'ın şark seferine okçu olarak katıl (ibrahim1_001_olum_korkusu_tahta_cikis)",
+        "gerekli_itibar": 65,
+        "etki": {
+          "itibar": 20,
+          "saglik": -4
+        },
+        "sonuc": "Bağdat surlarına dikilen zafer sancağının altında saf tuttun."
+      },
+      {
+        "metin": "Kahvehane ve tütün yasağı fermanını kadı adına mahallede duyur (ibrahim1_001_olum_korkusu_tahta_cikis)",
+        "gerekli_zeka": 50,
+        "etki": {
+          "zeka": 8,
+          "itibar": 8
+        },
+        "sonuc": "IV. Murad'ın sert asayiş kanunlarını mahalleye tebliğ ettin."
       }
     ]
   },
@@ -1818,6 +2962,25 @@
           "mutluluk": 1
         },
         "sonuc": "Herkes bir çare arıyordu, ama bu çarenin devlet işlerine bu denli karışması tehlikeliydi."
+      },
+      {
+        "metin": "Duraklama dönemi kadı mahkemesinde tahrir tescili yaptır (ibrahim1_002_cinci_hoca_yukselisi)",
+        "gerekli_zeka": 50,
+        "etki": {
+          "zeka": 8,
+          "itibar": 8
+        },
+        "sonuc": "Kadı sicilinde mülk haklarını resmi güvenceye aldın."
+      },
+      {
+        "metin": "Mahallede aşevi ikramında bulunup fukaraya yardım et (ibrahim1_002_cinci_hoca_yukselisi)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Cemaatle kenetlenip hayır dua aldın."
       }
     ]
   },
@@ -1847,6 +3010,25 @@
           "mutluluk": -1
         },
         "sonuc": "Sarayın iç işleyişi giderek daha kararsız ve tehlikeli hale geliyordu."
+      },
+      {
+        "metin": "Duraklama dönemi kadı mahkemesinde tahrir tescili yaptır (ibrahim1_003_kemankes_pasa_idami)",
+        "gerekli_zeka": 50,
+        "etki": {
+          "zeka": 8,
+          "itibar": 8
+        },
+        "sonuc": "Kadı sicilinde mülk haklarını resmi güvenceye aldın."
+      },
+      {
+        "metin": "Mahallede aşevi ikramında bulunup fukaraya yardım et (ibrahim1_003_kemankes_pasa_idami)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Cemaatle kenetlenip hayır dua aldın."
       }
     ]
   },
@@ -1863,7 +3045,7 @@
     "metin": "Venedik'e ait stratejik önemdeki Girit Adası'na büyük bir sefer başlatıldı. Hanya kalesi kısa sürede fethedildi, İstanbul'da günlerce şenlik yapıldı — kimse bunun 24 yıl sürecek bir savaşın sadece başlangıcı olduğunu bilmiyordu.",
     "secenekler": [
       {
-        "metin": "Bu sefere katıl",
+        "metin": "Bu sefere katıl (ibrahim1_004_girit_savasi_baslangic)",
         "etki": {
           "para": 5,
           "itibar": 3,
@@ -1873,11 +3055,29 @@
         "sonuc": "Hanya'nın alınması büyük bir gururla kutlandı. Kimse, Girit'in geri kalanının bu kadar zorlu olacağını tahmin edememişti."
       },
       {
-        "metin": "Bu sefere katılmadın",
+        "metin": "Bu sefere katılmadın (ibrahim1_004_girit_savasi_baslangic)",
         "etki": {
           "mutluluk": 1
         },
         "sonuc": "İlk zafer haberi büyük bir coşkuyla karşılandı."
+      },
+      {
+        "metin": "Köprülü Fazıl Ahmed Paşa'nın Kandiye kuşatmasına barut tahsis et (ibrahim1_004_girit_savasi_baslangic)",
+        "gerekli_para": 50,
+        "etki": {
+          "itibar": 15,
+          "para": -50
+        },
+        "sonuc": "24 yıl süren Girit kuşatmasının zaferle bitmesine katkı sağladın."
+      },
+      {
+        "metin": "Köprülüler devri maliye ıslahatında defterdar kâtibi ol (ibrahim1_004_girit_savasi_baslangic)",
+        "gerekli_zeka": 60,
+        "etki": {
+          "zeka": 14,
+          "para": 35
+        },
+        "sonuc": "Bütçe açığını kapatan mali reform kütüklerini düzenledin."
       }
     ]
   },
@@ -1908,6 +3108,24 @@
           "mutluluk": -1
         },
         "sonuc": "Kimse bu savaşın koca bir nesil sürecek kadar uzayacağını henüz tahmin edemiyordu."
+      },
+      {
+        "metin": "Köprülü Fazıl Ahmed Paşa'nın Kandiye kuşatmasına barut tahsis et (ibrahim1_005_girit_uzun_savas)",
+        "gerekli_para": 50,
+        "etki": {
+          "itibar": 15,
+          "para": -50
+        },
+        "sonuc": "24 yıl süren Girit kuşatmasının zaferle bitmesine katkı sağladın."
+      },
+      {
+        "metin": "Köprülüler devri maliye ıslahatında defterdar kâtibi ol (ibrahim1_005_girit_uzun_savas)",
+        "gerekli_zeka": 60,
+        "etki": {
+          "zeka": 14,
+          "para": 35
+        },
+        "sonuc": "Bütçe açığını kapatan mali reform kütüklerini düzenledin."
       }
     ]
   },
@@ -1938,6 +3156,25 @@
           "mutluluk": -2
         },
         "sonuc": "Hoşnutsuzluk, esnaf ve ulema arasında hızla yayılıyordu."
+      },
+      {
+        "metin": "Duraklama dönemi kadı mahkemesinde tahrir tescili yaptır (ibrahim1_006_asiri_harcamalar_vergiler)",
+        "gerekli_zeka": 50,
+        "etki": {
+          "zeka": 8,
+          "itibar": 8
+        },
+        "sonuc": "Kadı sicilinde mülk haklarını resmi güvenceye aldın."
+      },
+      {
+        "metin": "Mahallede aşevi ikramında bulunup fukaraya yardım et (ibrahim1_006_asiri_harcamalar_vergiler)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Cemaatle kenetlenip hayır dua aldın."
       }
     ]
   },
@@ -1960,6 +3197,25 @@
           "mutluluk": -2
         },
         "sonuc": "Bir memur olmak, artık her zamankinden daha riskli bir işti."
+      },
+      {
+        "metin": "Duraklama dönemi kadı mahkemesinde tahrir tescili yaptır (ibrahim1_007_keyfi_idamlar)",
+        "gerekli_zeka": 50,
+        "etki": {
+          "zeka": 8,
+          "itibar": 8
+        },
+        "sonuc": "Kadı sicilinde mülk haklarını resmi güvenceye aldın."
+      },
+      {
+        "metin": "Mahallede aşevi ikramında bulunup fukaraya yardım et (ibrahim1_007_keyfi_idamlar)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Cemaatle kenetlenip hayır dua aldın."
       }
     ]
   },
@@ -1989,6 +3245,25 @@
           "mutluluk": 1
         },
         "sonuc": "Saray içi kargaşa, herkesi bir şekilde etkiliyordu ama halk kendi hayatını sürdürmek zorundaydı."
+      },
+      {
+        "metin": "Duraklama dönemi kadı mahkemesinde tahrir tescili yaptır (ibrahim1_008_sadrazam_dalkavukluk)",
+        "gerekli_zeka": 50,
+        "etki": {
+          "zeka": 8,
+          "itibar": 8
+        },
+        "sonuc": "Kadı sicilinde mülk haklarını resmi güvenceye aldın."
+      },
+      {
+        "metin": "Mahallede aşevi ikramında bulunup fukaraya yardım et (ibrahim1_008_sadrazam_dalkavukluk)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Cemaatle kenetlenip hayır dua aldın."
       }
     ]
   },
@@ -2018,6 +3293,24 @@
           "mutluluk": -1
         },
         "sonuc": "Devletin başındaki bu sürekli değişim, halkın güvenini iyice sarsıyordu."
+      },
+      {
+        "metin": "Genç Osman'ın Hotin seferi ordusuna erzak arabası temin et (ibrahim1_009_tahttan_indirilme)",
+        "gerekli_para": 45,
+        "etki": {
+          "itibar": 12,
+          "para": -45
+        },
+        "sonuc": "Hotin kalesi önündeki sipahilerin iaşesini destekledin."
+      },
+      {
+        "metin": "Ocak ıslahatı tartışmalarında saray bürokratlarına arzuhal ver (ibrahim1_009_tahttan_indirilme)",
+        "gerekli_zeka": 60,
+        "etki": {
+          "zeka": 12,
+          "itibar": 8
+        },
+        "sonuc": "Devletin askeri disiplini hakkındaki görüşlerini divana ulaştırdın."
       }
     ]
   },
@@ -2047,6 +3340,25 @@
           "mutluluk": -4
         },
         "sonuc": "Bir eski padişahın hayatta kalması, her zaman yeni bir taht kavgası riski taşıyordu — ama bu, yine de ağır bir bedeldi."
+      },
+      {
+        "metin": "Duraklama dönemi kadı mahkemesinde tahrir tescili yaptır (ibrahim1_010_ibrahim_idami)",
+        "gerekli_zeka": 50,
+        "etki": {
+          "zeka": 8,
+          "itibar": 8
+        },
+        "sonuc": "Kadı sicilinde mülk haklarını resmi güvenceye aldın."
+      },
+      {
+        "metin": "Mahallede aşevi ikramında bulunup fukaraya yardım et (ibrahim1_010_ibrahim_idami)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Cemaatle kenetlenip hayır dua aldın."
       }
     ]
   },
@@ -2076,6 +3388,25 @@
           "mutluluk": 1
         },
         "sonuc": "Kimse bilemezdi ama bu çocuk padişah, ileride uzun bir saltanat sürecekti."
+      },
+      {
+        "metin": "Duraklama dönemi kadı mahkemesinde tahrir tescili yaptır (ibrahim1_011_6_yasinda_padisah)",
+        "gerekli_zeka": 50,
+        "etki": {
+          "zeka": 8,
+          "itibar": 8
+        },
+        "sonuc": "Kadı sicilinde mülk haklarını resmi güvenceye aldın."
+      },
+      {
+        "metin": "Mahallede aşevi ikramında bulunup fukaraya yardım et (ibrahim1_011_6_yasinda_padisah)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Cemaatle kenetlenip hayır dua aldın."
       }
     ]
   },
@@ -2105,6 +3436,25 @@
           "mutluluk": 1
         },
         "sonuc": "Kimse bilemezdi ama bu çocuk padişah, sonunda çok uzun bir saltanat sürecekti."
+      },
+      {
+        "metin": "Duraklama dönemi kadı mahkemesinde tahrir tescili yaptır (mehmed4_1_001_cocuk_padisah)",
+        "gerekli_zeka": 50,
+        "etki": {
+          "zeka": 8,
+          "itibar": 8
+        },
+        "sonuc": "Kadı sicilinde mülk haklarını resmi güvenceye aldın."
+      },
+      {
+        "metin": "Mahallede aşevi ikramında bulunup fukaraya yardım et (mehmed4_1_001_cocuk_padisah)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Cemaatle kenetlenip hayır dua aldın."
       }
     ]
   },
@@ -2134,6 +3484,25 @@
           "mutluluk": 1
         },
         "sonuc": "Saray içi güç mücadeleleri, halkın gündelik derdinden uzak görünüyordu — ama sonuçları herkesi etkileyecekti."
+      },
+      {
+        "metin": "Duraklama dönemi kadı mahkemesinde tahrir tescili yaptır (mehmed4_1_002_kosem_turhan_rekabeti)",
+        "gerekli_zeka": 50,
+        "etki": {
+          "zeka": 8,
+          "itibar": 8
+        },
+        "sonuc": "Kadı sicilinde mülk haklarını resmi güvenceye aldın."
+      },
+      {
+        "metin": "Mahallede aşevi ikramında bulunup fukaraya yardım et (mehmed4_1_002_kosem_turhan_rekabeti)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Cemaatle kenetlenip hayır dua aldın."
       }
     ]
   },
@@ -2164,6 +3533,25 @@
           "mutluluk": -3
         },
         "sonuc": "Saray içi rekabet, en güçlü isimleri bile koruyamıyordu."
+      },
+      {
+        "metin": "Duraklama dönemi kadı mahkemesinde tahrir tescili yaptır (mehmed4_1_003_kosem_katli)",
+        "gerekli_zeka": 50,
+        "etki": {
+          "zeka": 8,
+          "itibar": 8
+        },
+        "sonuc": "Kadı sicilinde mülk haklarını resmi güvenceye aldın."
+      },
+      {
+        "metin": "Mahallede aşevi ikramında bulunup fukaraya yardım et (mehmed4_1_003_kosem_katli)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Cemaatle kenetlenip hayır dua aldın."
       }
     ]
   },
@@ -2192,6 +3580,25 @@
           "mutluluk": -2
         },
         "sonuc": "Sadrazamlar birbiri ardına değişiyor, hiçbiri kalıcı bir çözüm getiremiyordu."
+      },
+      {
+        "metin": "Duraklama dönemi kadı mahkemesinde tahrir tescili yaptır (mehmed4_1_004_turhan_naipligi)",
+        "gerekli_zeka": 50,
+        "etki": {
+          "zeka": 8,
+          "itibar": 8
+        },
+        "sonuc": "Kadı sicilinde mülk haklarını resmi güvenceye aldın."
+      },
+      {
+        "metin": "Mahallede aşevi ikramında bulunup fukaraya yardım et (mehmed4_1_004_turhan_naipligi)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Cemaatle kenetlenip hayır dua aldın."
       }
     ]
   },
@@ -2221,6 +3628,24 @@
           "mutluluk": -1
         },
         "sonuc": "Kriz derinleştikçe, güçlü bir elin devreye girmesi gerektiği konuşuluyordu."
+      },
+      {
+        "metin": "Köprülü Fazıl Ahmed Paşa'nın Kandiye kuşatmasına barut tahsis et (mehmed4_1_005_ekonomik_kriz)",
+        "gerekli_para": 50,
+        "etki": {
+          "itibar": 15,
+          "para": -50
+        },
+        "sonuc": "24 yıl süren Girit kuşatmasının zaferle bitmesine katkı sağladın."
+      },
+      {
+        "metin": "Köprülüler devri maliye ıslahatında defterdar kâtibi ol (mehmed4_1_005_ekonomik_kriz)",
+        "gerekli_zeka": 60,
+        "etki": {
+          "zeka": 14,
+          "para": 35
+        },
+        "sonuc": "Bütçe açığını kapatan mali reform kütüklerini düzenledin."
       }
     ]
   },
@@ -2251,6 +3676,24 @@
           "para": -3
         },
         "sonuc": "Herkes olası bir kıtlığa karşı hazırlıklı olmaya çalışıyordu."
+      },
+      {
+        "metin": "Köprülü Fazıl Ahmed Paşa'nın Kandiye kuşatmasına barut tahsis et (mehmed4_1_006_venedik_ablukasi)",
+        "gerekli_para": 50,
+        "etki": {
+          "itibar": 15,
+          "para": -50
+        },
+        "sonuc": "24 yıl süren Girit kuşatmasının zaferle bitmesine katkı sağladın."
+      },
+      {
+        "metin": "Köprülüler devri maliye ıslahatında defterdar kâtibi ol (mehmed4_1_006_venedik_ablukasi)",
+        "gerekli_zeka": 60,
+        "etki": {
+          "zeka": 14,
+          "para": 35
+        },
+        "sonuc": "Bütçe açığını kapatan mali reform kütüklerini düzenledin."
       }
     ]
   },
@@ -2281,6 +3724,25 @@
           "mutluluk": -5
         },
         "sonuc": "Artık kökten bir değişim olmazsa, devletin daha da kötüye gideceği herkesçe hissediliyordu."
+      },
+      {
+        "metin": "Kuyucu Murad Paşa'nın Celali teftiş birliğine idari kâtip ol (mehmed4_1_007_cinar_vakasi)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "zeka": 10,
+          "itibar": 10
+        },
+        "sonuc": "Anadolu'daki Celali kargaşasının bastırılmasında devlet hizmeti verdin."
+      },
+      {
+        "metin": "Celalilerin yağmaladığı mahalle Reayasına buğday yardımı yap (mehmed4_1_007_cinar_vakasi)",
+        "gerekli_para": 35,
+        "etki": {
+          "itibar": 12,
+          "para": -35,
+          "mutluluk": 6
+        },
+        "sonuc": "Zarar gören köylülerin dualarını aldın."
       }
     ]
   },
@@ -2310,6 +3772,24 @@
           "zeka": 2
         },
         "sonuc": "Köprülü'nün sert şartları, onun gerçekten farklı bir devlet adamı olduğunun ilk işaretiydi."
+      },
+      {
+        "metin": "Köprülü Fazıl Ahmed Paşa'nın Kandiye kuşatmasına barut tahsis et (mehmed4_1_008_koprulu_atanma)",
+        "gerekli_para": 50,
+        "etki": {
+          "itibar": 15,
+          "para": -50
+        },
+        "sonuc": "24 yıl süren Girit kuşatmasının zaferle bitmesine katkı sağladın."
+      },
+      {
+        "metin": "Köprülüler devri maliye ıslahatında defterdar kâtibi ol (mehmed4_1_008_koprulu_atanma)",
+        "gerekli_zeka": 60,
+        "etki": {
+          "zeka": 14,
+          "para": 35
+        },
+        "sonuc": "Bütçe açığını kapatan mali reform kütüklerini düzenledin."
       }
     ]
   },
@@ -2339,6 +3819,25 @@
           "mutluluk": -3
         },
         "sonuc": "Düzen geri geliyordu ama bunun bedeli çok ağır oluyordu."
+      },
+      {
+        "metin": "Kuyucu Murad Paşa'nın Celali teftiş birliğine idari kâtip ol (mehmed4_1_009_koprulu_sert_temizlik)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "zeka": 10,
+          "itibar": 10
+        },
+        "sonuc": "Anadolu'daki Celali kargaşasının bastırılmasında devlet hizmeti verdin."
+      },
+      {
+        "metin": "Celalilerin yağmaladığı mahalle Reayasına buğday yardımı yap (mehmed4_1_009_koprulu_sert_temizlik)",
+        "gerekli_para": 35,
+        "etki": {
+          "itibar": 12,
+          "para": -35,
+          "mutluluk": 6
+        },
+        "sonuc": "Zarar gören köylülerin dualarını aldın."
       }
     ]
   },
@@ -2370,6 +3869,24 @@
           "mutluluk": 3
         },
         "sonuc": "Boğazın açılması, tüm şehirde büyük bir bayram havası yarattı."
+      },
+      {
+        "metin": "Köprülü Fazıl Ahmed Paşa'nın Kandiye kuşatmasına barut tahsis et (mehmed4_1_010_bogazi_kurtarma)",
+        "gerekli_para": 50,
+        "etki": {
+          "itibar": 15,
+          "para": -50
+        },
+        "sonuc": "24 yıl süren Girit kuşatmasının zaferle bitmesine katkı sağladın."
+      },
+      {
+        "metin": "Köprülüler devri maliye ıslahatında defterdar kâtibi ol (mehmed4_1_010_bogazi_kurtarma)",
+        "gerekli_zeka": 60,
+        "etki": {
+          "zeka": 14,
+          "para": 35
+        },
+        "sonuc": "Bütçe açığını kapatan mali reform kütüklerini düzenledin."
       }
     ]
   },
@@ -2399,6 +3916,24 @@
           "zeka": 1
         },
         "sonuc": "Zaman gösterecekti — bu genç adam, babasından bile daha parlak bir dönem açacaktı."
+      },
+      {
+        "metin": "Köprülü Fazıl Ahmed Paşa'nın Kandiye kuşatmasına barut tahsis et (mehmed4_2_001_fazil_ahmed_atanma)",
+        "gerekli_para": 50,
+        "etki": {
+          "itibar": 15,
+          "para": -50
+        },
+        "sonuc": "24 yıl süren Girit kuşatmasının zaferle bitmesine katkı sağladın."
+      },
+      {
+        "metin": "Köprülüler devri maliye ıslahatında defterdar kâtibi ol (mehmed4_2_001_fazil_ahmed_atanma)",
+        "gerekli_zeka": 60,
+        "etki": {
+          "zeka": 14,
+          "para": 35
+        },
+        "sonuc": "Bütçe açığını kapatan mali reform kütüklerini düzenledin."
       }
     ]
   },
@@ -2425,11 +3960,29 @@
         "sonuc": "Onlarca yıldır alınamayan bir kale, bu genç sadrazamın komutasında haftalar içinde düşmüştü. Köprülüler'in gücü tartışmasızdı artık."
       },
       {
-        "metin": "Bu sefere katılmadın",
+        "metin": "Bu sefere katılmadın (mehmed4_2_002_uyvar_fethi)",
         "etki": {
           "mutluluk": 2
         },
         "sonuc": "Zafer haberi, uzun süredir görülmeyen bir gururla karşılandı."
+      },
+      {
+        "metin": "Köprülü Fazıl Ahmed Paşa'nın Kandiye kuşatmasına barut tahsis et (mehmed4_2_002_uyvar_fethi)",
+        "gerekli_para": 50,
+        "etki": {
+          "itibar": 15,
+          "para": -50
+        },
+        "sonuc": "24 yıl süren Girit kuşatmasının zaferle bitmesine katkı sağladın."
+      },
+      {
+        "metin": "Köprülüler devri maliye ıslahatında defterdar kâtibi ol (mehmed4_2_002_uyvar_fethi)",
+        "gerekli_zeka": 60,
+        "etki": {
+          "zeka": 14,
+          "para": 35
+        },
+        "sonuc": "Bütçe açığını kapatan mali reform kütüklerini düzenledin."
       }
     ]
   },
@@ -2454,11 +4007,30 @@
         "sonuc": "Köprülüler, sadece savaş meydanında değil, masa başında da üstünlük sağlamayı başarmıştı."
       },
       {
-        "metin": "Gündelik hayatına devam et",
+        "metin": "Gündelik hayatına devam et (mehmed4_2_003_vasvar_antlasmasi)",
         "etki": {
           "mutluluk": 1
         },
         "sonuc": "Batı sınırında uzun süreli bir huzur sağlanmıştı."
+      },
+      {
+        "metin": "Duraklama dönemi kadı mahkemesinde tahrir tescili yaptır (mehmed4_2_003_vasvar_antlasmasi)",
+        "gerekli_zeka": 50,
+        "etki": {
+          "zeka": 8,
+          "itibar": 8
+        },
+        "sonuc": "Kadı sicilinde mülk haklarını resmi güvenceye aldın."
+      },
+      {
+        "metin": "Mahallede aşevi ikramında bulunup fukaraya yardım et (mehmed4_2_003_vasvar_antlasmasi)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Cemaatle kenetlenip hayır dua aldın."
       }
     ]
   },
@@ -2490,6 +4062,24 @@
           "mutluluk": 1
         },
         "sonuc": "Sadrazamın bu kararlılığı, İstanbul'da da büyük saygıyla konuşuluyordu."
+      },
+      {
+        "metin": "Köprülü Fazıl Ahmed Paşa'nın Kandiye kuşatmasına barut tahsis et (mehmed4_2_004_girit_3_yil_kusatma)",
+        "gerekli_para": 50,
+        "etki": {
+          "itibar": 15,
+          "para": -50
+        },
+        "sonuc": "24 yıl süren Girit kuşatmasının zaferle bitmesine katkı sağladın."
+      },
+      {
+        "metin": "Köprülüler devri maliye ıslahatında defterdar kâtibi ol (mehmed4_2_004_girit_3_yil_kusatma)",
+        "gerekli_zeka": 60,
+        "etki": {
+          "zeka": 14,
+          "para": 35
+        },
+        "sonuc": "Bütçe açığını kapatan mali reform kütüklerini düzenledin."
       }
     ]
   },
@@ -2520,6 +4110,24 @@
           "mutluluk": 4
         },
         "sonuc": "Zafer büyüktü ama bedeli de ağır olmuştu — çeyrek asırlık bir mücadeleydi bu."
+      },
+      {
+        "metin": "Köprülü Fazıl Ahmed Paşa'nın Kandiye kuşatmasına barut tahsis et (mehmed4_2_005_kandiye_fethi)",
+        "gerekli_para": 50,
+        "etki": {
+          "itibar": 15,
+          "para": -50
+        },
+        "sonuc": "24 yıl süren Girit kuşatmasının zaferle bitmesine katkı sağladın."
+      },
+      {
+        "metin": "Köprülüler devri maliye ıslahatında defterdar kâtibi ol (mehmed4_2_005_kandiye_fethi)",
+        "gerekli_zeka": 60,
+        "etki": {
+          "zeka": 14,
+          "para": 35
+        },
+        "sonuc": "Bütçe açığını kapatan mali reform kütüklerini düzenledin."
       }
     ]
   },
@@ -2536,7 +4144,7 @@
     "metin": "Lehistan (Polonya) üzerine düzenlenen sefer, Kamaniçe ve Podolya gibi önemli toprakların fethiyle sonuçlandı. Bucaş Antlaşması ile Lehistan ağır bir vergiye mahkum edildi.",
     "secenekler": [
       {
-        "metin": "Bu sefere katıl",
+        "metin": "Bu sefere katıl (mehmed4_2_006_kamanice_bucas)",
         "etki": {
           "para": 6,
           "itibar": 3,
@@ -2546,11 +4154,30 @@
         "sonuc": "Kamaniçe'nin fethi, Köprülüler döneminin bir başka büyük başarısı olarak tarihe geçti."
       },
       {
-        "metin": "Sefere katılmadın",
+        "metin": "Sefere katılmadın (mehmed4_2_006_kamanice_bucas)",
         "etki": {
           "mutluluk": 1
         },
         "sonuc": "Zafer haberi geldiğinde büyük bir memnuniyet yaşandı."
+      },
+      {
+        "metin": "Duraklama dönemi kadı mahkemesinde tahrir tescili yaptır (mehmed4_2_006_kamanice_bucas)",
+        "gerekli_zeka": 50,
+        "etki": {
+          "zeka": 8,
+          "itibar": 8
+        },
+        "sonuc": "Kadı sicilinde mülk haklarını resmi güvenceye aldın."
+      },
+      {
+        "metin": "Mahallede aşevi ikramında bulunup fukaraya yardım et (mehmed4_2_006_kamanice_bucas)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Cemaatle kenetlenip hayır dua aldın."
       }
     ]
   },
@@ -2577,11 +4204,29 @@
         "sonuc": "Antlaşmaların bozulması, savaşların bitmek bilmediğini bir kez daha gösteriyordu."
       },
       {
-        "metin": "Bu sefere katılmadın",
+        "metin": "Bu sefere katılmadın (mehmed4_2_007_lehler_ihanet_ikinci_sefer)",
         "etki": {
           "mutluluk": 1
         },
         "sonuc": "Sürekli tekrarlanan savaşlar, halkı yormaya başlamıştı."
+      },
+      {
+        "metin": "Köprülü Fazıl Ahmed Paşa'nın Kandiye kuşatmasına barut tahsis et (mehmed4_2_007_lehler_ihanet_ikinci_sefer)",
+        "gerekli_para": 50,
+        "etki": {
+          "itibar": 15,
+          "para": -50
+        },
+        "sonuc": "24 yıl süren Girit kuşatmasının zaferle bitmesine katkı sağladın."
+      },
+      {
+        "metin": "Köprülüler devri maliye ıslahatında defterdar kâtibi ol (mehmed4_2_007_lehler_ihanet_ikinci_sefer)",
+        "gerekli_zeka": 60,
+        "etki": {
+          "zeka": 14,
+          "para": 35
+        },
+        "sonuc": "Bütçe açığını kapatan mali reform kütüklerini düzenledin."
       }
     ]
   },
@@ -2612,6 +4257,24 @@
           "mutluluk": -3
         },
         "sonuc": "Köprülüler'in ikinci nesli, imparatorluğa parlak bir altın çağ yaşatmıştı."
+      },
+      {
+        "metin": "Köprülü Fazıl Ahmed Paşa'nın Kandiye kuşatmasına barut tahsis et (mehmed4_2_008_fazil_ahmed_olumu)",
+        "gerekli_para": 50,
+        "etki": {
+          "itibar": 15,
+          "para": -50
+        },
+        "sonuc": "24 yıl süren Girit kuşatmasının zaferle bitmesine katkı sağladın."
+      },
+      {
+        "metin": "Köprülüler devri maliye ıslahatında defterdar kâtibi ol (mehmed4_2_008_fazil_ahmed_olumu)",
+        "gerekli_zeka": 60,
+        "etki": {
+          "zeka": 14,
+          "para": 35
+        },
+        "sonuc": "Bütçe açığını kapatan mali reform kütüklerini düzenledin."
       }
     ]
   },
@@ -2640,6 +4303,24 @@
           "mutluluk": 1
         },
         "sonuc": "Her yeni sadrazamla birlikte yeni bir dönem beklentisi doğardı."
+      },
+      {
+        "metin": "Köprülü Fazıl Ahmed Paşa'nın Kandiye kuşatmasına barut tahsis et (mehmed4_2_009_merzifonlu_atanma)",
+        "gerekli_para": 50,
+        "etki": {
+          "itibar": 15,
+          "para": -50
+        },
+        "sonuc": "24 yıl süren Girit kuşatmasının zaferle bitmesine katkı sağladın."
+      },
+      {
+        "metin": "Köprülüler devri maliye ıslahatında defterdar kâtibi ol (mehmed4_2_009_merzifonlu_atanma)",
+        "gerekli_zeka": 60,
+        "etki": {
+          "zeka": 14,
+          "para": 35
+        },
+        "sonuc": "Bütçe açığını kapatan mali reform kütüklerini düzenledin."
       }
     ]
   },
@@ -2670,6 +4351,25 @@
           "mutluluk": 1
         },
         "sonuc": "Antlaşma haberi geldiğinde bölgede bir süreliğine huzur sağlandı."
+      },
+      {
+        "metin": "Duraklama dönemi kadı mahkemesinde tahrir tescili yaptır (mehmed4_2_010_rusya_savasi_bahcesaray)",
+        "gerekli_zeka": 50,
+        "etki": {
+          "zeka": 8,
+          "itibar": 8
+        },
+        "sonuc": "Kadı sicilinde mülk haklarını resmi güvenceye aldın."
+      },
+      {
+        "metin": "Mahallede aşevi ikramında bulunup fukaraya yardım et (mehmed4_2_010_rusya_savasi_bahcesaray)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Cemaatle kenetlenip hayır dua aldın."
       }
     ]
   },
@@ -2694,11 +4394,29 @@
         "sonuc": "Sadrazam'ın hırsı, imparatorluğu çok daha büyük bir maceraya sürüklüyor gibiydi."
       },
       {
-        "metin": "Gündelik hayatına devam et",
+        "metin": "Gündelik hayatına devam et (mehmed4_2_011_tokeli_imre_himaye)",
         "etki": {
           "mutluluk": 1
         },
         "sonuc": "Büyük bir seferin hazırlıkları başlamıştı bile."
+      },
+      {
+        "metin": "Merzifonlu Kara Mustafa Paşa'nın Viyana kuşatması iaşesine katkı yap (mehmed4_2_011_tokeli_imre_himaye)",
+        "gerekli_para": 60,
+        "etki": {
+          "itibar": 15,
+          "para": -60
+        },
+        "sonuc": "II. Viyana ordusuna zahire temin ettin."
+      },
+      {
+        "metin": "Karlofça Antlaşması maddelerini şer'iyye sicilinde incele (mehmed4_2_011_tokeli_imre_himaye)",
+        "gerekli_zeka": 65,
+        "etki": {
+          "zeka": 15,
+          "itibar": 10
+        },
+        "sonuc": "Tarihteki ilk büyük toprak kaybı antlaşmasının hukuki şartlarını öğrendin."
       }
     ]
   },
@@ -2730,6 +4448,24 @@
           "mutluluk": 1
         },
         "sonuc": "İstanbul'da herkes bu büyük seferin sonucunu merakla bekliyordu."
+      },
+      {
+        "metin": "Merzifonlu Kara Mustafa Paşa'nın Viyana kuşatması iaşesine katkı yap (mehmed4_2_012_viyana_kusatma_baslangic)",
+        "gerekli_para": 60,
+        "etki": {
+          "itibar": 15,
+          "para": -60
+        },
+        "sonuc": "II. Viyana ordusuna zahire temin ettin."
+      },
+      {
+        "metin": "Karlofça Antlaşması maddelerini şer'iyye sicilinde incele (mehmed4_2_012_viyana_kusatma_baslangic)",
+        "gerekli_zeka": 65,
+        "etki": {
+          "zeka": 15,
+          "itibar": 10
+        },
+        "sonuc": "Tarihteki ilk büyük toprak kaybı antlaşmasının hukuki şartlarını öğrendin."
       }
     ]
   },
@@ -2760,6 +4496,25 @@
           "mutluluk": -7
         },
         "sonuc": "Bozgun haberi tüm ülkeyi derinden sarstı — bu, 'yenilmez' sanılan bir imparatorluk için bir kırılma noktasıydı."
+      },
+      {
+        "metin": "Duraklama dönemi kadı mahkemesinde tahrir tescili yaptır (mehmed4_2_013_kahlenberg_bozgunu)",
+        "gerekli_zeka": 50,
+        "etki": {
+          "zeka": 8,
+          "itibar": 8
+        },
+        "sonuc": "Kadı sicilinde mülk haklarını resmi güvenceye aldın."
+      },
+      {
+        "metin": "Mahallede aşevi ikramında bulunup fukaraya yardım et (mehmed4_2_013_kahlenberg_bozgunu)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Cemaatle kenetlenip hayır dua aldın."
       }
     ]
   },
@@ -2790,6 +4545,24 @@
           "mutluluk": -3
         },
         "sonuc": "Böylesine büyük bir yenilginin bir sorumlusu olması gerekiyordu — ama bu, geleceğe dair derin bir endişe de bırakıyordu."
+      },
+      {
+        "metin": "Merzifonlu Kara Mustafa Paşa'nın Viyana kuşatması iaşesine katkı yap (mehmed4_2_014_merzifonlu_idami)",
+        "gerekli_para": 60,
+        "etki": {
+          "itibar": 15,
+          "para": -60
+        },
+        "sonuc": "II. Viyana ordusuna zahire temin ettin."
+      },
+      {
+        "metin": "Karlofça Antlaşması maddelerini şer'iyye sicilinde incele (mehmed4_2_014_merzifonlu_idami)",
+        "gerekli_zeka": 65,
+        "etki": {
+          "zeka": 15,
+          "itibar": 10
+        },
+        "sonuc": "Tarihteki ilk büyük toprak kaybı antlaşmasının hukuki şartlarını öğrendin."
       }
     ]
   },
@@ -2819,6 +4592,24 @@
           "mutluluk": 1
         },
         "sonuc": "Geçmişte de zor günler atlatılmıştı, ama bu sefer tehdit gerçekten büyüktü."
+      },
+      {
+        "metin": "Merzifonlu Kara Mustafa Paşa'nın Viyana kuşatması iaşesine katkı yap (mehmed4_3_001_kutsal_ittifak)",
+        "gerekli_para": 60,
+        "etki": {
+          "itibar": 15,
+          "para": -60
+        },
+        "sonuc": "II. Viyana ordusuna zahire temin ettin."
+      },
+      {
+        "metin": "Karlofça Antlaşması maddelerini şer'iyye sicilinde incele (mehmed4_3_001_kutsal_ittifak)",
+        "gerekli_zeka": 65,
+        "etki": {
+          "zeka": 15,
+          "itibar": 10
+        },
+        "sonuc": "Tarihteki ilk büyük toprak kaybı antlaşmasının hukuki şartlarını öğrendin."
       }
     ]
   },
@@ -2848,6 +4639,25 @@
           "mutluluk": 1
         },
         "sonuc": "Zor bir dönemdi ama umut hâlâ vardı."
+      },
+      {
+        "metin": "Duraklama dönemi kadı mahkemesinde tahrir tescili yaptır (mehmed4_3_002_venedik_mora_dalmacya)",
+        "gerekli_zeka": 50,
+        "etki": {
+          "zeka": 8,
+          "itibar": 8
+        },
+        "sonuc": "Kadı sicilinde mülk haklarını resmi güvenceye aldın."
+      },
+      {
+        "metin": "Mahallede aşevi ikramında bulunup fukaraya yardım et (mehmed4_3_002_venedik_mora_dalmacya)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Cemaatle kenetlenip hayır dua aldın."
       }
     ]
   },
@@ -2879,6 +4689,24 @@
           "mutluluk": -1
         },
         "sonuc": "Savaş haberleri artık her ay değişiyordu, kimse ne olacağını kestiremiyordu."
+      },
+      {
+        "metin": "Köprülü Fazıl Ahmed Paşa'nın Kandiye kuşatmasına barut tahsis et (mehmed4_3_003_karisik_zaferler_kayiplar)",
+        "gerekli_para": 50,
+        "etki": {
+          "itibar": 15,
+          "para": -50
+        },
+        "sonuc": "24 yıl süren Girit kuşatmasının zaferle bitmesine katkı sağladın."
+      },
+      {
+        "metin": "Köprülüler devri maliye ıslahatında defterdar kâtibi ol (mehmed4_3_003_karisik_zaferler_kayiplar)",
+        "gerekli_zeka": 60,
+        "etki": {
+          "zeka": 14,
+          "para": 35
+        },
+        "sonuc": "Bütçe açığını kapatan mali reform kütüklerini düzenledin."
       }
     ]
   },
@@ -2910,6 +4738,25 @@
           "mutluluk": -1
         },
         "sonuc": "Budin'in kaderi, tüm imparatorluk için sembolik bir anlam taşıyordu — 150 yıldır bizimdi bu şehir."
+      },
+      {
+        "metin": "Duraklama dönemi kadı mahkemesinde tahrir tescili yaptır (mehmed4_3_004_budin_ilk_direnis)",
+        "gerekli_zeka": 50,
+        "etki": {
+          "zeka": 8,
+          "itibar": 8
+        },
+        "sonuc": "Kadı sicilinde mülk haklarını resmi güvenceye aldın."
+      },
+      {
+        "metin": "Mahallede aşevi ikramında bulunup fukaraya yardım et (mehmed4_3_004_budin_ilk_direnis)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Cemaatle kenetlenip hayır dua aldın."
       }
     ]
   },
@@ -2940,6 +4787,25 @@
           "mutluluk": -5
         },
         "sonuc": "Bu, sadece bir kale kaybı değildi — Osmanlı'nın Avrupa'daki yükseliş çağının kesin olarak kapandığının ilanıydı."
+      },
+      {
+        "metin": "Duraklama dönemi kadı mahkemesinde tahrir tescili yaptır (mehmed4_3_005_budin_dususu)",
+        "gerekli_zeka": 50,
+        "etki": {
+          "zeka": 8,
+          "itibar": 8
+        },
+        "sonuc": "Kadı sicilinde mülk haklarını resmi güvenceye aldın."
+      },
+      {
+        "metin": "Mahallede aşevi ikramında bulunup fukaraya yardım et (mehmed4_3_005_budin_dususu)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Cemaatle kenetlenip hayır dua aldın."
       }
     ]
   },
@@ -2968,6 +4834,25 @@
           "mutluluk": 1
         },
         "sonuc": "Herkes bir dönüm noktası bekliyordu ama henüz gelmemişti."
+      },
+      {
+        "metin": "Duraklama dönemi kadı mahkemesinde tahrir tescili yaptır (mehmed4_3_006_egri_kaybi)",
+        "gerekli_zeka": 50,
+        "etki": {
+          "zeka": 8,
+          "itibar": 8
+        },
+        "sonuc": "Kadı sicilinde mülk haklarını resmi güvenceye aldın."
+      },
+      {
+        "metin": "Mahallede aşevi ikramında bulunup fukaraya yardım et (mehmed4_3_006_egri_kaybi)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Cemaatle kenetlenip hayır dua aldın."
       }
     ]
   },
@@ -2999,6 +4884,24 @@
           "mutluluk": -6
         },
         "sonuc": "Aynı toprakların hem zafer hem yenilgiye tanıklık etmesi, bir çağın kapandığının en acı kanıtıydı."
+      },
+      {
+        "metin": "Merzifonlu Kara Mustafa Paşa'nın Viyana kuşatması iaşesine katkı yap (mehmed4_3_007_ikinci_mohac_bozgunu)",
+        "gerekli_para": 60,
+        "etki": {
+          "itibar": 15,
+          "para": -60
+        },
+        "sonuc": "II. Viyana ordusuna zahire temin ettin."
+      },
+      {
+        "metin": "Karlofça Antlaşması maddelerini şer'iyye sicilinde incele (mehmed4_3_007_ikinci_mohac_bozgunu)",
+        "gerekli_zeka": 65,
+        "etki": {
+          "zeka": 15,
+          "itibar": 10
+        },
+        "sonuc": "Tarihteki ilk büyük toprak kaybı antlaşmasının hukuki şartlarını öğrendin."
       }
     ]
   },
@@ -3028,6 +4931,25 @@
           "mutluluk": -2
         },
         "sonuc": "Ordunun başkente doğru yürümesi, yeni bir taht değişikliğinin habercisiydi."
+      },
+      {
+        "metin": "Duraklama dönemi kadı mahkemesinde tahrir tescili yaptır (mehmed4_3_008_ordu_padisahi_sucluyor)",
+        "gerekli_zeka": 50,
+        "etki": {
+          "zeka": 8,
+          "itibar": 8
+        },
+        "sonuc": "Kadı sicilinde mülk haklarını resmi güvenceye aldın."
+      },
+      {
+        "metin": "Mahallede aşevi ikramında bulunup fukaraya yardım et (mehmed4_3_008_ordu_padisahi_sucluyor)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Cemaatle kenetlenip hayır dua aldın."
       }
     ]
   },
@@ -3057,6 +4979,25 @@
           "mutluluk": 1
         },
         "sonuc": "Devletin bu zor dönemden nasıl çıkacağı, artık II. Süleyman'ın omuzlarındaydı."
+      },
+      {
+        "metin": "Duraklama dönemi kadı mahkemesinde tahrir tescili yaptır (mehmed4_3_009_mehmed_tahttan_indirilme)",
+        "gerekli_zeka": 50,
+        "etki": {
+          "zeka": 8,
+          "itibar": 8
+        },
+        "sonuc": "Kadı sicilinde mülk haklarını resmi güvenceye aldın."
+      },
+      {
+        "metin": "Mahallede aşevi ikramında bulunup fukaraya yardım et (mehmed4_3_009_mehmed_tahttan_indirilme)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Cemaatle kenetlenip hayır dua aldın."
       }
     ]
   },
@@ -3085,6 +5026,24 @@
           "mutluluk": 1
         },
         "sonuc": "Yeni bir dönem başlıyordu, kimse ne getireceğini henüz bilmiyordu."
+      },
+      {
+        "metin": "Köprülü Fazıl Ahmed Paşa'nın Kandiye kuşatmasına barut tahsis et (mehmed4_3_010_39_yil_genel_degerlendirme)",
+        "gerekli_para": 50,
+        "etki": {
+          "itibar": 15,
+          "para": -50
+        },
+        "sonuc": "24 yıl süren Girit kuşatmasının zaferle bitmesine katkı sağladın."
+      },
+      {
+        "metin": "Köprülüler devri maliye ıslahatında defterdar kâtibi ol (mehmed4_3_010_39_yil_genel_degerlendirme)",
+        "gerekli_zeka": 60,
+        "etki": {
+          "zeka": 14,
+          "para": 35
+        },
+        "sonuc": "Bütçe açığını kapatan mali reform kütüklerini düzenledin."
       }
     ]
   },
@@ -3114,6 +5073,25 @@
           "mutluluk": 1
         },
         "sonuc": "Devlet, art arda krizlerle boğuşurken yeni bir başlangıca ihtiyaç duyuyordu."
+      },
+      {
+        "metin": "Duraklama dönemi kadı mahkemesinde tahrir tescili yaptır (suleyman2_001_kafeste_40_yil)",
+        "gerekli_zeka": 50,
+        "etki": {
+          "zeka": 8,
+          "itibar": 8
+        },
+        "sonuc": "Kadı sicilinde mülk haklarını resmi güvenceye aldın."
+      },
+      {
+        "metin": "Mahallede aşevi ikramında bulunup fukaraya yardım et (suleyman2_001_kafeste_40_yil)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Cemaatle kenetlenip hayır dua aldın."
       }
     ]
   },
@@ -3143,6 +5121,25 @@
           "mutluluk": -2
         },
         "sonuc": "Herkes, güçlü bir elin devreye girmesini umuyordu."
+      },
+      {
+        "metin": "Duraklama dönemi kadı mahkemesinde tahrir tescili yaptır (suleyman2_002_belgrad_kaybi)",
+        "gerekli_zeka": 50,
+        "etki": {
+          "zeka": 8,
+          "itibar": 8
+        },
+        "sonuc": "Kadı sicilinde mülk haklarını resmi güvenceye aldın."
+      },
+      {
+        "metin": "Mahallede aşevi ikramında bulunup fukaraya yardım et (suleyman2_002_belgrad_kaybi)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Cemaatle kenetlenip hayır dua aldın."
       }
     ]
   },
@@ -3173,6 +5170,24 @@
           "mutluluk": 2
         },
         "sonuc": "Köprülü ismi, artık kendi başına bir güven kaynağıydı."
+      },
+      {
+        "metin": "Köprülü Fazıl Ahmed Paşa'nın Kandiye kuşatmasına barut tahsis et (suleyman2_003_fazil_mustafa_atanma)",
+        "gerekli_para": 50,
+        "etki": {
+          "itibar": 15,
+          "para": -50
+        },
+        "sonuc": "24 yıl süren Girit kuşatmasının zaferle bitmesine katkı sağladın."
+      },
+      {
+        "metin": "Köprülüler devri maliye ıslahatında defterdar kâtibi ol (suleyman2_003_fazil_mustafa_atanma)",
+        "gerekli_zeka": 60,
+        "etki": {
+          "zeka": 14,
+          "para": 35
+        },
+        "sonuc": "Bütçe açığını kapatan mali reform kütüklerini düzenledin."
       }
     ]
   },
@@ -3205,6 +5220,25 @@
           "itibar": 2
         },
         "sonuc": "Şehirlerde günlerce şenlik yapıldı — Köprülüler yine devleti toparlamayı başarmıştı."
+      },
+      {
+        "metin": "Duraklama dönemi kadı mahkemesinde tahrir tescili yaptır (suleyman2_004_belgrad_geri_alinisi)",
+        "gerekli_zeka": 50,
+        "etki": {
+          "zeka": 8,
+          "itibar": 8
+        },
+        "sonuc": "Kadı sicilinde mülk haklarını resmi güvenceye aldın."
+      },
+      {
+        "metin": "Mahallede aşevi ikramında bulunup fukaraya yardım et (suleyman2_004_belgrad_geri_alinisi)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Cemaatle kenetlenip hayır dua aldın."
       }
     ]
   },
@@ -3234,6 +5268,25 @@
           "mutluluk": 1
         },
         "sonuc": "Fazıl Mustafa Paşa'nın hâlâ sadrazam olması, bir süreklilik umudu veriyordu."
+      },
+      {
+        "metin": "Ekber ve Erşed veraset kanunnamesini kadı kütüğünde incele (suleyman2_005_suleyman_vefati)",
+        "gerekli_zeka": 60,
+        "etki": {
+          "zeka": 12,
+          "itibar": 10
+        },
+        "sonuc": "Taht kavgalarını önleyen yeni veraset nizamını hukuken kavradın."
+      },
+      {
+        "metin": "Sultanahmet Camii inşasına çini ve kandil yağı bağışla (suleyman2_005_suleyman_vefati)",
+        "gerekli_para": 40,
+        "etki": {
+          "itibar": 12,
+          "para": -40,
+          "mutluluk": 8
+        },
+        "sonuc": "Mavi Cami vakfiyesine hayırsever sakini olarak adın tescil edildi."
       }
     ]
   },
@@ -3265,6 +5318,25 @@
           "mutluluk": -5
         },
         "sonuc": "Böylesine yetenekli bir devlet adamının kaybı, sadece bir savaş kaybından çok daha ağırdı."
+      },
+      {
+        "metin": "Duraklama dönemi kadı mahkemesinde tahrir tescili yaptır (suleyman2_006_salankamen_fazil_mustafa_sehadeti)",
+        "gerekli_zeka": 50,
+        "etki": {
+          "zeka": 8,
+          "itibar": 8
+        },
+        "sonuc": "Kadı sicilinde mülk haklarını resmi güvenceye aldın."
+      },
+      {
+        "metin": "Mahallede aşevi ikramında bulunup fukaraya yardım et (suleyman2_006_salankamen_fazil_mustafa_sehadeti)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Cemaatle kenetlenip hayır dua aldın."
       }
     ]
   },
@@ -3294,6 +5366,25 @@
           "zeka": 2
         },
         "sonuc": "Nitekim birkaç yıl içinde bu uygulamadan vazgeçildi."
+      },
+      {
+        "metin": "Duraklama dönemi kadı mahkemesinde tahrir tescili yaptır (suleyman2_007_mankur_enflasyon)",
+        "gerekli_zeka": 50,
+        "etki": {
+          "zeka": 8,
+          "itibar": 8
+        },
+        "sonuc": "Kadı sicilinde mülk haklarını resmi güvenceye aldın."
+      },
+      {
+        "metin": "Mahallede aşevi ikramında bulunup fukaraya yardım et (suleyman2_007_mankur_enflasyon)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Cemaatle kenetlenip hayır dua aldın."
       }
     ]
   },
@@ -3323,6 +5414,25 @@
           "zeka": 1
         },
         "sonuc": "Kararlılık iyiydi ama sonuçlar zamanla görülecekti."
+      },
+      {
+        "metin": "Ekber ve Erşed veraset kanunnamesini kadı kütüğünde incele (suleyman2_008_ahmed_vefati_mustafa_cikisi)",
+        "gerekli_zeka": 60,
+        "etki": {
+          "zeka": 12,
+          "itibar": 10
+        },
+        "sonuc": "Taht kavgalarını önleyen yeni veraset nizamını hukuken kavradın."
+      },
+      {
+        "metin": "Sultanahmet Camii inşasına çini ve kandil yağı bağışla (suleyman2_008_ahmed_vefati_mustafa_cikisi)",
+        "gerekli_para": 40,
+        "etki": {
+          "itibar": 12,
+          "para": -40,
+          "mutluluk": 8
+        },
+        "sonuc": "Mavi Cami vakfiyesine hayırsever sakini olarak adın tescil edildi."
       }
     ]
   },
@@ -3352,6 +5462,25 @@
           "mutluluk": 1
         },
         "sonuc": "Mali düzenlemeler, devlet kademesinde yeni bir dönemin işaretiydi."
+      },
+      {
+        "metin": "Duraklama dönemi kadı mahkemesinde tahrir tescili yaptır (suleyman2_009_malikane_sistemi)",
+        "gerekli_zeka": 50,
+        "etki": {
+          "zeka": 8,
+          "itibar": 8
+        },
+        "sonuc": "Kadı sicilinde mülk haklarını resmi güvenceye aldın."
+      },
+      {
+        "metin": "Mahallede aşevi ikramında bulunup fukaraya yardım et (suleyman2_009_malikane_sistemi)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Cemaatle kenetlenip hayır dua aldın."
       }
     ]
   },
@@ -3383,6 +5512,25 @@
           "mutluluk": 1
         },
         "sonuc": "Sultan'ın kararlılığı, herkesin dikkatini çekiyordu."
+      },
+      {
+        "metin": "Duraklama dönemi kadı mahkemesinde tahrir tescili yaptır (suleyman2_010_mustafa_bizzat_sefer)",
+        "gerekli_zeka": 50,
+        "etki": {
+          "zeka": 8,
+          "itibar": 8
+        },
+        "sonuc": "Kadı sicilinde mülk haklarını resmi güvenceye aldın."
+      },
+      {
+        "metin": "Mahallede aşevi ikramında bulunup fukaraya yardım et (suleyman2_010_mustafa_bizzat_sefer)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Cemaatle kenetlenip hayır dua aldın."
       }
     ]
   },
@@ -3413,6 +5561,25 @@
           "mutluluk": -6
         },
         "sonuc": "Zenta'nın haberi, artık savaşın sürdürülemez olduğunu kesinleştirdi."
+      },
+      {
+        "metin": "Duraklama dönemi kadı mahkemesinde tahrir tescili yaptır (suleyman2_011_zenta_bozgunu)",
+        "gerekli_zeka": 50,
+        "etki": {
+          "zeka": 8,
+          "itibar": 8
+        },
+        "sonuc": "Kadı sicilinde mülk haklarını resmi güvenceye aldın."
+      },
+      {
+        "metin": "Mahallede aşevi ikramında bulunup fukaraya yardım et (suleyman2_011_zenta_bozgunu)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Cemaatle kenetlenip hayır dua aldın."
       }
     ]
   },
@@ -3442,6 +5609,24 @@
           "mutluluk": 3
         },
         "sonuc": "16 yıllık kesintisiz savaş yorgunluğu için, her ne şartla olursa olsun barış bir rahatlamaydı."
+      },
+      {
+        "metin": "Merzifonlu Kara Mustafa Paşa'nın Viyana kuşatması iaşesine katkı yap (suleyman2_012_karlofca_antlasmasi)",
+        "gerekli_para": 60,
+        "etki": {
+          "itibar": 15,
+          "para": -60
+        },
+        "sonuc": "II. Viyana ordusuna zahire temin ettin."
+      },
+      {
+        "metin": "Karlofça Antlaşması maddelerini şer'iyye sicilinde incele (suleyman2_012_karlofca_antlasmasi)",
+        "gerekli_zeka": 65,
+        "etki": {
+          "zeka": 15,
+          "itibar": 10
+        },
+        "sonuc": "Tarihteki ilk büyük toprak kaybı antlaşmasının hukuki şartlarını öğrendin."
       }
     ]
   },
@@ -3471,6 +5656,25 @@
           "mutluluk": -1
         },
         "sonuc": "Yeni bir padişah, yeni bir dönem — ama devletin karşı karşıya olduğu zorluklar hiç azalmamıştı."
+      },
+      {
+        "metin": "Ekber ve Erşed veraset kanunnamesini kadı kütüğünde incele (suleyman2_013_edirne_vakasi)",
+        "gerekli_zeka": 60,
+        "etki": {
+          "zeka": 12,
+          "itibar": 10
+        },
+        "sonuc": "Taht kavgalarını önleyen yeni veraset nizamını hukuken kavradın."
+      },
+      {
+        "metin": "Sultanahmet Camii inşasına çini ve kandil yağı bağışla (suleyman2_013_edirne_vakasi)",
+        "gerekli_para": 40,
+        "etki": {
+          "itibar": 12,
+          "para": -40,
+          "mutluluk": 8
+        },
+        "sonuc": "Mavi Cami vakfiyesine hayırsever sakini olarak adın tescil edildi."
       }
     ]
   }

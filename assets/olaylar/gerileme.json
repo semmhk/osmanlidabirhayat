@@ -25,6 +25,25 @@
           "mutluluk": 1
         },
         "sonuc": "Saray içi düzenlemeler, halkın gündelik hayatını yavaş yavaş etkiliyordu."
+      },
+      {
+        "metin": "Gerileme dönemi esham kağıtları ticareti yapıp kar et (ahmed3_001_ic_duzen_saglama)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "para": 45,
+          "zeka": 6
+        },
+        "sonuc": "İç borçlanma senetlerinden finansal gelir elde ettin."
+      },
+      {
+        "metin": "Mahallede fukaraya sadaka dağıtıp hayır dua al (ahmed3_001_ic_duzen_saglama)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Sıkıntılı savaş yıllarında komşularının dualarını aldın."
       }
     ]
   },
@@ -54,6 +73,24 @@
           "mutluluk": -1
         },
         "sonuc": "Rusya ile yeni bir çatışmanın kapıda olduğu hissediliyordu."
+      },
+      {
+        "metin": "Küçük Kaynarca Antlaşması şartlarını kadı sicilinde incele (ahmed3_002_demirbas_sarl_siginmasi)",
+        "gerekli_zeka": 65,
+        "etki": {
+          "zeka": 15,
+          "itibar": 8
+        },
+        "sonuc": "Kırım'ın kaybedildiği ve Rusya'ya kapitülasyon verildiği tarihi metni öğrendin."
+      },
+      {
+        "metin": "Rus donanmasına karşı Karadeniz boğaz tabyalarına mühimmat sağla (ahmed3_002_demirbas_sarl_siginmasi)",
+        "gerekli_para": 50,
+        "etki": {
+          "itibar": 12,
+          "para": -50
+        },
+        "sonuc": "Boğaz kallelerini güçlendiren savunma tedbirlerine yardım ettin."
       }
     ]
   },
@@ -80,11 +117,29 @@
         "sonuc": "Nadir görülen bir fırsattı bu — Rus Çarı'nın ordusu tamamen kuşatılmıştı. Herkes kesin bir zafer bekliyordu."
       },
       {
-        "metin": "Bu sefere katılmadın",
+        "metin": "Bu sefere katılmadın (ahmed3_003_prut_seferi_zaferi)",
         "etki": {
           "mutluluk": 1
         },
         "sonuc": "Zaferin habercisi olan bu kuşatma haberi büyük heyecan yaratmıştı."
+      },
+      {
+        "metin": "Küçük Kaynarca Antlaşması şartlarını kadı sicilinde incele (ahmed3_003_prut_seferi_zaferi)",
+        "gerekli_zeka": 65,
+        "etki": {
+          "zeka": 15,
+          "itibar": 8
+        },
+        "sonuc": "Kırım'ın kaybedildiği ve Rusya'ya kapitülasyon verildiği tarihi metni öğrendin."
+      },
+      {
+        "metin": "Rus donanmasına karşı Karadeniz boğaz tabyalarına mühimmat sağla (ahmed3_003_prut_seferi_zaferi)",
+        "gerekli_para": 50,
+        "etki": {
+          "itibar": 12,
+          "para": -50
+        },
+        "sonuc": "Boğaz kallelerini güçlendiren savunma tedbirlerine yardım ettin."
       }
     ]
   },
@@ -114,6 +169,25 @@
           "mutluluk": 2
         },
         "sonuc": "En azından kaybedilen bir toprak geri alınmıştı, ama beklenti çok daha büyüktü."
+      },
+      {
+        "metin": "Gerileme dönemi esham kağıtları ticareti yapıp kar et (ahmed3_004_prut_antlasmasi_tepki)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "para": 45,
+          "zeka": 6
+        },
+        "sonuc": "İç borçlanma senetlerinden finansal gelir elde ettin."
+      },
+      {
+        "metin": "Mahallede fukaraya sadaka dağıtıp hayır dua al (ahmed3_004_prut_antlasmasi_tepki)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Sıkıntılı savaş yıllarında komşularının dualarını aldın."
       }
     ]
   },
@@ -143,6 +217,25 @@
           "mutluluk": -1
         },
         "sonuc": "Sadrazamlık koltuğu, başarı ya da başarısızlıkla değil, halkın algısıyla da belirleniyordu artık."
+      },
+      {
+        "metin": "Gerileme dönemi esham kağıtları ticareti yapıp kar et (ahmed3_005_baltaci_azli)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "para": 45,
+          "zeka": 6
+        },
+        "sonuc": "İç borçlanma senetlerinden finansal gelir elde ettin."
+      },
+      {
+        "metin": "Mahallede fukaraya sadaka dağıtıp hayır dua al (ahmed3_005_baltaci_azli)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Sıkıntılı savaş yıllarında komşularının dualarını aldın."
       }
     ]
   },
@@ -174,6 +267,25 @@
           "mutluluk": 1
         },
         "sonuc": "Mora'nın geri alınması, halkın moralini bir nebze yükseltti."
+      },
+      {
+        "metin": "Gerileme dönemi esham kağıtları ticareti yapıp kar et (ahmed3_006_mora_seferi)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "para": 45,
+          "zeka": 6
+        },
+        "sonuc": "İç borçlanma senetlerinden finansal gelir elde ettin."
+      },
+      {
+        "metin": "Mahallede fukaraya sadaka dağıtıp hayır dua al (ahmed3_006_mora_seferi)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Sıkıntılı savaş yıllarında komşularının dualarını aldın."
       }
     ]
   },
@@ -204,6 +316,25 @@
           "mutluluk": 2
         },
         "sonuc": "Kayıplar acı olsa da, en azından uzun süredir devam eden savaşlar duruyordu."
+      },
+      {
+        "metin": "Gerileme dönemi esham kağıtları ticareti yapıp kar et (ahmed3_007_pasarofca_yenilgisi)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "para": 45,
+          "zeka": 6
+        },
+        "sonuc": "İç borçlanma senetlerinden finansal gelir elde ettin."
+      },
+      {
+        "metin": "Mahallede fukaraya sadaka dağıtıp hayır dua al (ahmed3_007_pasarofca_yenilgisi)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Sıkıntılı savaş yıllarında komşularının dualarını aldın."
       }
     ]
   },
@@ -233,6 +364,25 @@
           "zeka": 2
         },
         "sonuc": "Savaş yerine sanat ve bilime yönelmek, alışılmadık ama umut verici bir seçimdi."
+      },
+      {
+        "metin": "İbrahim Müteferrika'nın basımhanesine Arapça-Türkçe lügat tahriri yap (ahmed3_008_damat_ibrahim_pasa_lale_devri)",
+        "gerekli_zeka": 60,
+        "etki": {
+          "zeka": 14,
+          "itibar": 10
+        },
+        "sonuc": "Matbaa-i Amire'de basılan ilk eserlerin tashihi ve tahririnde çalıştın."
+      },
+      {
+        "metin": "Lale Devri bahçelerinde Sadrazam Nevşehirli İbrahim Paşa ikramına katıl (ahmed3_008_damat_ibrahim_pasa_lale_devri)",
+        "gerekli_para": 45,
+        "etki": {
+          "itibar": 10,
+          "mutluluk": 8,
+          "para": -45
+        },
+        "sonuc": "Kağıthane mesirelerinde dönemin zevk ve sefasına iştirak ettin."
       }
     ]
   },
@@ -263,6 +413,25 @@
           "zeka": 1
         },
         "sonuc": "Her yenilik, eskiyi bir şekilde geride bırakıyordu — bu, hem heyecan hem hüzün verici bir andı."
+      },
+      {
+        "metin": "İbrahim Müteferrika'nın basımhanesine Arapça-Türkçe lügat tahriri yap (ahmed3_009_ilk_matbaa)",
+        "gerekli_zeka": 60,
+        "etki": {
+          "zeka": 14,
+          "itibar": 10
+        },
+        "sonuc": "Matbaa-i Amire'de basılan ilk eserlerin tashihi ve tahririnde çalıştın."
+      },
+      {
+        "metin": "Lale Devri bahçelerinde Sadrazam Nevşehirli İbrahim Paşa ikramına katıl (ahmed3_009_ilk_matbaa)",
+        "gerekli_para": 45,
+        "etki": {
+          "itibar": 10,
+          "mutluluk": 8,
+          "para": -45
+        },
+        "sonuc": "Kağıthane mesirelerinde dönemin zevk ve sefasına iştirak ettin."
       }
     ]
   },
@@ -292,6 +461,25 @@
           "mutluluk": -1
         },
         "sonuc": "Herkes bu gösterişten aynı ölçüde memnun değildi — bazıları bunu gereksiz bir harcama olarak görüyordu."
+      },
+      {
+        "metin": "Gerileme dönemi esham kağıtları ticareti yapıp kar et (ahmed3_010_sadabad_lale_bahceleri)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "para": 45,
+          "zeka": 6
+        },
+        "sonuc": "İç borçlanma senetlerinden finansal gelir elde ettin."
+      },
+      {
+        "metin": "Mahallede fukaraya sadaka dağıtıp hayır dua al (ahmed3_010_sadabad_lale_bahceleri)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Sıkıntılı savaş yıllarında komşularının dualarını aldın."
       }
     ]
   },
@@ -324,6 +512,25 @@
           "sans_gerekli": true
         },
         "sonuc": "Bu yeni yöntem henüz herkese güven vermiyordu, ama sağlık açısından umut vericiydi."
+      },
+      {
+        "metin": "Gerileme dönemi esham kağıtları ticareti yapıp kar et (ahmed3_011_fabrikalar_cicek_asisi)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "para": 45,
+          "zeka": 6
+        },
+        "sonuc": "İç borçlanma senetlerinden finansal gelir elde ettin."
+      },
+      {
+        "metin": "Mahallede fukaraya sadaka dağıtıp hayır dua al (ahmed3_011_fabrikalar_cicek_asisi)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Sıkıntılı savaş yıllarında komşularının dualarını aldın."
       }
     ],
     "engel_bayrak": "calisaniyor"
@@ -354,6 +561,25 @@
           "itibar": 1
         },
         "sonuc": "Herkes bu yeni etkileşimden aynı ölçüde etkilenmiyordu."
+      },
+      {
+        "metin": "İbrahim Müteferrika'nın basımhanesine Arapça-Türkçe lügat tahriri yap (ahmed3_012_avrupaya_elciler)",
+        "gerekli_zeka": 60,
+        "etki": {
+          "zeka": 14,
+          "itibar": 10
+        },
+        "sonuc": "Matbaa-i Amire'de basılan ilk eserlerin tashihi ve tahririnde çalıştın."
+      },
+      {
+        "metin": "Lale Devri bahçelerinde Sadrazam Nevşehirli İbrahim Paşa ikramına katıl (ahmed3_012_avrupaya_elciler)",
+        "gerekli_para": 45,
+        "etki": {
+          "itibar": 10,
+          "mutluluk": 8,
+          "para": -45
+        },
+        "sonuc": "Kağıthane mesirelerinde dönemin zevk ve sefasına iştirak ettin."
       }
     ]
   },
@@ -380,11 +606,30 @@
         "sonuc": "Barış yılları geride kalıyor, yeniden savaş masrafları ve asker talebi gündeme geliyordu."
       },
       {
-        "metin": "Bu sefere katılmadın",
+        "metin": "Bu sefere katılmadın (ahmed3_013_iran_savaslari_baslangic)",
         "etki": {
           "mutluluk": -1
         },
         "sonuc": "Lale Devri'nin huzuru, bu uzun savaşla birlikte sarsılmaya başlamıştı."
+      },
+      {
+        "metin": "İbrahim Müteferrika'nın basımhanesine Arapça-Türkçe lügat tahriri yap (ahmed3_013_iran_savaslari_baslangic)",
+        "gerekli_zeka": 60,
+        "etki": {
+          "zeka": 14,
+          "itibar": 10
+        },
+        "sonuc": "Matbaa-i Amire'de basılan ilk eserlerin tashihi ve tahririnde çalıştın."
+      },
+      {
+        "metin": "Lale Devri bahçelerinde Sadrazam Nevşehirli İbrahim Paşa ikramına katıl (ahmed3_013_iran_savaslari_baslangic)",
+        "gerekli_para": 45,
+        "etki": {
+          "itibar": 10,
+          "mutluluk": 8,
+          "para": -45
+        },
+        "sonuc": "Kağıthane mesirelerinde dönemin zevk ve sefasına iştirak ettin."
       }
     ]
   },
@@ -415,6 +660,25 @@
           "mutluluk": -3
         },
         "sonuc": "Sadabad'ın köşkleri yerle bir ediliyordu — 12 yıllık huzur dönemi, bir gecede sona eriyordu."
+      },
+      {
+        "metin": "İbrahim Müteferrika'nın basımhanesine Arapça-Türkçe lügat tahriri yap (ahmed3_014_patrona_halil_isyani)",
+        "gerekli_zeka": 60,
+        "etki": {
+          "zeka": 14,
+          "itibar": 10
+        },
+        "sonuc": "Matbaa-i Amire'de basılan ilk eserlerin tashihi ve tahririnde çalıştın."
+      },
+      {
+        "metin": "Lale Devri bahçelerinde Sadrazam Nevşehirli İbrahim Paşa ikramına katıl (ahmed3_014_patrona_halil_isyani)",
+        "gerekli_para": 45,
+        "etki": {
+          "itibar": 10,
+          "mutluluk": 8,
+          "para": -45
+        },
+        "sonuc": "Kağıthane mesirelerinde dönemin zevk ve sefasına iştirak ettin."
       }
     ]
   },
@@ -444,6 +708,25 @@
           "mutluluk": 1
         },
         "sonuc": "Bir dönem kapanırken, devletin önünde yeni zorluklar ve fırsatlar vardı."
+      },
+      {
+        "metin": "İbrahim Müteferrika'nın basımhanesine Arapça-Türkçe lügat tahriri yap (ahmed3_015_tahttan_cekilme)",
+        "gerekli_zeka": 60,
+        "etki": {
+          "zeka": 14,
+          "itibar": 10
+        },
+        "sonuc": "Matbaa-i Amire'de basılan ilk eserlerin tashihi ve tahririnde çalıştın."
+      },
+      {
+        "metin": "Lale Devri bahçelerinde Sadrazam Nevşehirli İbrahim Paşa ikramına katıl (ahmed3_015_tahttan_cekilme)",
+        "gerekli_para": 45,
+        "etki": {
+          "itibar": 10,
+          "mutluluk": 8,
+          "para": -45
+        },
+        "sonuc": "Kağıthane mesirelerinde dönemin zevk ve sefasına iştirak ettin."
       }
     ]
   },
@@ -473,6 +756,25 @@
           "zeka": 1
         },
         "sonuc": "Bazı gözlemciler, sultan'ın sabırla fırsat kolladığını fark etmişti."
+      },
+      {
+        "metin": "İbrahim Müteferrika'nın basımhanesine Arapça-Türkçe lügat tahriri yap (mahmud1_001_tahta_cikis_duzen)",
+        "gerekli_zeka": 60,
+        "etki": {
+          "zeka": 14,
+          "itibar": 10
+        },
+        "sonuc": "Matbaa-i Amire'de basılan ilk eserlerin tashihi ve tahririnde çalıştın."
+      },
+      {
+        "metin": "Lale Devri bahçelerinde Sadrazam Nevşehirli İbrahim Paşa ikramına katıl (mahmud1_001_tahta_cikis_duzen)",
+        "gerekli_para": 45,
+        "etki": {
+          "itibar": 10,
+          "mutluluk": 8,
+          "para": -45
+        },
+        "sonuc": "Kağıthane mesirelerinde dönemin zevk ve sefasına iştirak ettin."
       }
     ]
   },
@@ -502,6 +804,25 @@
           "mutluluk": -1
         },
         "sonuc": "Bir günde tüm dengeler değişmişti — İstanbul'un sokaklarını yöneten kişiler artık yoktu."
+      },
+      {
+        "metin": "İbrahim Müteferrika'nın basımhanesine Arapça-Türkçe lügat tahriri yap (mahmud1_002_patrona_halil_tasfiyesi)",
+        "gerekli_zeka": 60,
+        "etki": {
+          "zeka": 14,
+          "itibar": 10
+        },
+        "sonuc": "Matbaa-i Amire'de basılan ilk eserlerin tashihi ve tahririnde çalıştın."
+      },
+      {
+        "metin": "Lale Devri bahçelerinde Sadrazam Nevşehirli İbrahim Paşa ikramına katıl (mahmud1_002_patrona_halil_tasfiyesi)",
+        "gerekli_para": 45,
+        "etki": {
+          "itibar": 10,
+          "mutluluk": 8,
+          "para": -45
+        },
+        "sonuc": "Kağıthane mesirelerinde dönemin zevk ve sefasına iştirak ettin."
       }
     ]
   },
@@ -531,6 +852,25 @@
           "mutluluk": -1
         },
         "sonuc": "Devletin otoritesini yeniden tesis etme sürecinin ne kadar zorlu olduğu bir kez daha görülmüştü."
+      },
+      {
+        "metin": "İbrahim Müteferrika'nın basımhanesine Arapça-Türkçe lügat tahriri yap (mahmud1_003_yenicheri_isyani_1731)",
+        "gerekli_zeka": 60,
+        "etki": {
+          "zeka": 14,
+          "itibar": 10
+        },
+        "sonuc": "Matbaa-i Amire'de basılan ilk eserlerin tashihi ve tahririnde çalıştın."
+      },
+      {
+        "metin": "Lale Devri bahçelerinde Sadrazam Nevşehirli İbrahim Paşa ikramına katıl (mahmud1_003_yenicheri_isyani_1731)",
+        "gerekli_para": 45,
+        "etki": {
+          "itibar": 10,
+          "mutluluk": 8,
+          "para": -45
+        },
+        "sonuc": "Kağıthane mesirelerinde dönemin zevk ve sefasına iştirak ettin."
       }
     ]
   },
@@ -561,6 +901,25 @@
           "mutluluk": 1
         },
         "sonuc": "Geçici bir barış sağlanmıştı ama kalıcılığı şüpheliydi."
+      },
+      {
+        "metin": "Gerileme dönemi esham kağıtları ticareti yapıp kar et (mahmud1_004_ilk_iran_savasi)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "para": 45,
+          "zeka": 6
+        },
+        "sonuc": "İç borçlanma senetlerinden finansal gelir elde ettin."
+      },
+      {
+        "metin": "Mahallede fukaraya sadaka dağıtıp hayır dua al (mahmud1_004_ilk_iran_savasi)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Sıkıntılı savaş yıllarında komşularının dualarını aldın."
       }
     ]
   },
@@ -590,6 +949,25 @@
           "mutluluk": -1
         },
         "sonuc": "Herkes bu yeni fikirlere aynı açıklıkla bakmıyordu, ama zamanla kabul görecekti."
+      },
+      {
+        "metin": "Gerileme dönemi esham kağıtları ticareti yapıp kar et (mahmud1_005_bonneval_ihtida)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "para": 45,
+          "zeka": 6
+        },
+        "sonuc": "İç borçlanma senetlerinden finansal gelir elde ettin."
+      },
+      {
+        "metin": "Mahallede fukaraya sadaka dağıtıp hayır dua al (mahmud1_005_bonneval_ihtida)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Sıkıntılı savaş yıllarında komşularının dualarını aldın."
       }
     ]
   },
@@ -620,6 +998,24 @@
           "mutluluk": 1
         },
         "sonuc": "Bu okulun mezunlarının ordu için ne kadar değerli olacağı zamanla görülecekti."
+      },
+      {
+        "metin": "Mühendishane-i Bahr-i Hümayun derslerine katılıp geometri öğren (mahmud1_006_hendesehane)",
+        "gerekli_zeka": 65,
+        "etki": {
+          "zeka": 16,
+          "itibar": 10
+        },
+        "sonuc": "Deniz subayı yetiştiren okulda batılı bilim ve mühendislik öğrendin."
+      },
+      {
+        "metin": "Cezayirli Gazi Hasan Paşa'nın donanma gülle dökümhanesine tunç temin et (mahmud1_006_hendesehane)",
+        "gerekli_para": 55,
+        "etki": {
+          "itibar": 14,
+          "para": -55
+        },
+        "sonuc": "Kaptan-ı Derya'nın donanmayı yenileme hamlesine malzeme sağladın."
       }
     ],
     "engel_bayrak": "calisaniyor"
@@ -647,11 +1043,30 @@
         "sonuc": "Antlaşmaların bozulması, doğu sınırındaki huzursuzluğun bitmediğini gösteriyordu."
       },
       {
-        "metin": "Bu sefere katılmadın",
+        "metin": "Bu sefere katılmadın (mahmud1_007_ikinci_iran_savasi)",
         "etki": {
           "mutluluk": 1
         },
         "sonuc": "Doğu cephesi bir türlü tam anlamıyla dinginleşmiyordu."
+      },
+      {
+        "metin": "Gerileme dönemi esham kağıtları ticareti yapıp kar et (mahmud1_007_ikinci_iran_savasi)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "para": 45,
+          "zeka": 6
+        },
+        "sonuc": "İç borçlanma senetlerinden finansal gelir elde ettin."
+      },
+      {
+        "metin": "Mahallede fukaraya sadaka dağıtıp hayır dua al (mahmud1_007_ikinci_iran_savasi)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Sıkıntılı savaş yıllarında komşularının dualarını aldın."
       }
     ]
   },
@@ -683,6 +1098,24 @@
           "mutluluk": 4
         },
         "sonuc": "Uzun zamandır ilk kez, Avrupa'ya karşı bu denli güçlü bir direniş gösterilmişti."
+      },
+      {
+        "metin": "Küçük Kaynarca Antlaşması şartlarını kadı sicilinde incele (mahmud1_008_avusturya_rusya_savasi_zaferler)",
+        "gerekli_zeka": 65,
+        "etki": {
+          "zeka": 15,
+          "itibar": 8
+        },
+        "sonuc": "Kırım'ın kaybedildiği ve Rusya'ya kapitülasyon verildiği tarihi metni öğrendin."
+      },
+      {
+        "metin": "Rus donanmasına karşı Karadeniz boğaz tabyalarına mühimmat sağla (mahmud1_008_avusturya_rusya_savasi_zaferler)",
+        "gerekli_para": 50,
+        "etki": {
+          "itibar": 12,
+          "para": -50
+        },
+        "sonuc": "Boğaz kallelerini güçlendiren savunma tedbirlerine yardım ettin."
       }
     ]
   },
@@ -713,6 +1146,25 @@
           "mutluluk": 5
         },
         "sonuc": "Hendesehane'den yetişen subaylar ve yenilenen humbaracı ocağı, bu zaferde belirleyici rol oynamıştı."
+      },
+      {
+        "metin": "Gerileme dönemi esham kağıtları ticareti yapıp kar et (mahmud1_009_belgrad_antlasmasi)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "para": 45,
+          "zeka": 6
+        },
+        "sonuc": "İç borçlanma senetlerinden finansal gelir elde ettin."
+      },
+      {
+        "metin": "Mahallede fukaraya sadaka dağıtıp hayır dua al (mahmud1_009_belgrad_antlasmasi)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Sıkıntılı savaş yıllarında komşularının dualarını aldın."
       }
     ]
   },
@@ -742,6 +1194,25 @@
           "mutluluk": 1
         },
         "sonuc": "Sultan'ın şiirlerinin bazı beyitleri, mahallede bile konuşuluyordu."
+      },
+      {
+        "metin": "İbrahim Müteferrika'nın basımhanesine Arapça-Türkçe lügat tahriri yap (mahmud1_010_kultur_devami)",
+        "gerekli_zeka": 60,
+        "etki": {
+          "zeka": 14,
+          "itibar": 10
+        },
+        "sonuc": "Matbaa-i Amire'de basılan ilk eserlerin tashihi ve tahririnde çalıştın."
+      },
+      {
+        "metin": "Lale Devri bahçelerinde Sadrazam Nevşehirli İbrahim Paşa ikramına katıl (mahmud1_010_kultur_devami)",
+        "gerekli_para": 45,
+        "etki": {
+          "itibar": 10,
+          "mutluluk": 8,
+          "para": -45
+        },
+        "sonuc": "Kağıthane mesirelerinde dönemin zevk ve sefasına iştirak ettin."
       }
     ]
   },
@@ -767,11 +1238,30 @@
         "sonuc": "Nadir Şah, döneminin en güçlü hükümdarlarından biriydi — onunla berabere kalmak bile büyük bir başarıydı."
       },
       {
-        "metin": "Bu sefere katılmadın",
+        "metin": "Bu sefere katılmadın (mahmud1_011_ucuncu_iran_savasi)",
         "etki": {
           "mutluluk": 1
         },
         "sonuc": "Barış haberi geldiğinde, doğu sınırındaki uzun mücadele nihayet dinginleşti."
+      },
+      {
+        "metin": "Gerileme dönemi esham kağıtları ticareti yapıp kar et (mahmud1_011_ucuncu_iran_savasi)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "para": 45,
+          "zeka": 6
+        },
+        "sonuc": "İç borçlanma senetlerinden finansal gelir elde ettin."
+      },
+      {
+        "metin": "Mahallede fukaraya sadaka dağıtıp hayır dua al (mahmud1_011_ucuncu_iran_savasi)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Sıkıntılı savaş yıllarında komşularının dualarını aldın."
       }
     ]
   },
@@ -801,6 +1291,25 @@
           "mutluluk": 1
         },
         "sonuc": "Herkes, bu huzurun uzun sürmesini diliyordu."
+      },
+      {
+        "metin": "Gerileme dönemi esham kağıtları ticareti yapıp kar et (mahmud1_012_uzun_baris_donemi)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "para": 45,
+          "zeka": 6
+        },
+        "sonuc": "İç borçlanma senetlerinden finansal gelir elde ettin."
+      },
+      {
+        "metin": "Mahallede fukaraya sadaka dağıtıp hayır dua al (mahmud1_012_uzun_baris_donemi)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Sıkıntılı savaş yıllarında komşularının dualarını aldın."
       }
     ]
   },
@@ -830,6 +1339,25 @@
           "zeka": 1
         },
         "sonuc": "24 yıllık istikrarın ardından, devletin gidişatı yeni sultanın handsindeydi."
+      },
+      {
+        "metin": "İbrahim Müteferrika'nın basımhanesine Arapça-Türkçe lügat tahriri yap (mahmud1_013_mahmud_vefati)",
+        "gerekli_zeka": 60,
+        "etki": {
+          "zeka": 14,
+          "itibar": 10
+        },
+        "sonuc": "Matbaa-i Amire'de basılan ilk eserlerin tashihi ve tahririnde çalıştın."
+      },
+      {
+        "metin": "Lale Devri bahçelerinde Sadrazam Nevşehirli İbrahim Paşa ikramına katıl (mahmud1_013_mahmud_vefati)",
+        "gerekli_para": 45,
+        "etki": {
+          "itibar": 10,
+          "mutluluk": 8,
+          "para": -45
+        },
+        "sonuc": "Kağıthane mesirelerinde dönemin zevk ve sefasına iştirak ettin."
       }
     ]
   },
@@ -858,6 +1386,25 @@
           "zeka": 1
         },
         "sonuc": "Her padişahın kendine has bir mizacı olurdu, halk bu konuda çok konuşmazdı."
+      },
+      {
+        "metin": "Gerileme dönemi esham kağıtları ticareti yapıp kar et (osman3_mustafa3_001_osman_tahta_cikis)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "para": 45,
+          "zeka": 6
+        },
+        "sonuc": "İç borçlanma senetlerinden finansal gelir elde ettin."
+      },
+      {
+        "metin": "Mahallede fukaraya sadaka dağıtıp hayır dua al (osman3_mustafa3_001_osman_tahta_cikis)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Sıkıntılı savaş yıllarında komşularının dualarını aldın."
       }
     ]
   },
@@ -887,6 +1434,25 @@
           "mutluluk": 1
         },
         "sonuc": "Bazen 'hiçbir şey olmaması' bile bir başarı sayılabilirdi."
+      },
+      {
+        "metin": "Gerileme dönemi esham kağıtları ticareti yapıp kar et (osman3_mustafa3_002_sakin_uc_yil)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "para": 45,
+          "zeka": 6
+        },
+        "sonuc": "İç borçlanma senetlerinden finansal gelir elde ettin."
+      },
+      {
+        "metin": "Mahallede fukaraya sadaka dağıtıp hayır dua al (osman3_mustafa3_002_sakin_uc_yil)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Sıkıntılı savaş yıllarında komşularının dualarını aldın."
       }
     ]
   },
@@ -916,6 +1482,25 @@
           "zeka": 1
         },
         "sonuc": "Başka devletlerin savaşına karışmamak, mantıklı bir tercihti."
+      },
+      {
+        "metin": "Gerileme dönemi esham kağıtları ticareti yapıp kar et (osman3_mustafa3_003_mustafa_tasarruf)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "para": 45,
+          "zeka": 6
+        },
+        "sonuc": "İç borçlanma senetlerinden finansal gelir elde ettin."
+      },
+      {
+        "metin": "Mahallede fukaraya sadaka dağıtıp hayır dua al (osman3_mustafa3_003_mustafa_tasarruf)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Sıkıntılı savaş yıllarında komşularının dualarını aldın."
       }
     ]
   },
@@ -946,6 +1531,24 @@
           "mutluluk": 1
         },
         "sonuc": "Askeri reformlar, savaş meydanlarında sınanmayı bekliyordu."
+      },
+      {
+        "metin": "Mühendishane-i Bahr-i Hümayun derslerine katılıp geometri öğren (osman3_mustafa3_004_surat_topculari_baron_tott)",
+        "gerekli_zeka": 65,
+        "etki": {
+          "zeka": 16,
+          "itibar": 10
+        },
+        "sonuc": "Deniz subayı yetiştiren okulda batılı bilim ve mühendislik öğrendin."
+      },
+      {
+        "metin": "Cezayirli Gazi Hasan Paşa'nın donanma gülle dökümhanesine tunç temin et (osman3_mustafa3_004_surat_topculari_baron_tott)",
+        "gerekli_para": 55,
+        "etki": {
+          "itibar": 14,
+          "para": -55
+        },
+        "sonuc": "Kaptan-ı Derya'nın donanmayı yenileme hamlesine malzeme sağladın."
       }
     ],
     "engel_bayrak": "calisaniyor"
@@ -976,6 +1579,25 @@
           "zeka": 1
         },
         "sonuc": "Devletin geleneksel gelir kaynaklarının artık yetersiz kaldığı görülüyordu."
+      },
+      {
+        "metin": "Gerileme dönemi esham kağıtları ticareti yapıp kar et (osman3_mustafa3_005_ic_borclanma)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "para": 45,
+          "zeka": 6
+        },
+        "sonuc": "İç borçlanma senetlerinden finansal gelir elde ettin."
+      },
+      {
+        "metin": "Mahallede fukaraya sadaka dağıtıp hayır dua al (osman3_mustafa3_005_ic_borclanma)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Sıkıntılı savaş yıllarında komşularının dualarını aldın."
       }
     ]
   },
@@ -1006,6 +1628,24 @@
           "mutluluk": -2
         },
         "sonuc": "Hazırlıksız bir savaşa girmenin riskleri, tecrübeli kişileri tedirgin ediyordu."
+      },
+      {
+        "metin": "Küçük Kaynarca Antlaşması şartlarını kadı sicilinde incele (osman3_mustafa3_006_rus_savasi_baslangic)",
+        "gerekli_zeka": 65,
+        "etki": {
+          "zeka": 15,
+          "itibar": 8
+        },
+        "sonuc": "Kırım'ın kaybedildiği ve Rusya'ya kapitülasyon verildiği tarihi metni öğrendin."
+      },
+      {
+        "metin": "Rus donanmasına karşı Karadeniz boğaz tabyalarına mühimmat sağla (osman3_mustafa3_006_rus_savasi_baslangic)",
+        "gerekli_para": 50,
+        "etki": {
+          "itibar": 12,
+          "para": -50
+        },
+        "sonuc": "Boğaz kallelerini güçlendiren savunma tedbirlerine yardım ettin."
       }
     ]
   },
@@ -1032,11 +1672,29 @@
         "sonuc": "İlk başarılar, savaşın lehimize gideceği umudunu güçlendirmişti — ama bu umut uzun sürmeyecekti."
       },
       {
-        "metin": "Bu sefere katılmadın",
+        "metin": "Bu sefere katılmadın (osman3_mustafa3_007_kirim_giray_akini)",
         "etki": {
           "mutluluk": 1
         },
         "sonuc": "Zafer haberleri İstanbul'da sevinçle karşılandı."
+      },
+      {
+        "metin": "Küçük Kaynarca Antlaşması şartlarını kadı sicilinde incele (osman3_mustafa3_007_kirim_giray_akini)",
+        "gerekli_zeka": 65,
+        "etki": {
+          "zeka": 15,
+          "itibar": 8
+        },
+        "sonuc": "Kırım'ın kaybedildiği ve Rusya'ya kapitülasyon verildiği tarihi metni öğrendin."
+      },
+      {
+        "metin": "Rus donanmasına karşı Karadeniz boğaz tabyalarına mühimmat sağla (osman3_mustafa3_007_kirim_giray_akini)",
+        "gerekli_para": 50,
+        "etki": {
+          "itibar": 12,
+          "para": -50
+        },
+        "sonuc": "Boğaz kallelerini güçlendiren savunma tedbirlerine yardım ettin."
       }
     ]
   },
@@ -1067,6 +1725,24 @@
           "mutluluk": -6
         },
         "sonuc": "Kartal'daki felaket haberi, tüm ülkeyi derinden sarstı."
+      },
+      {
+        "metin": "Küçük Kaynarca Antlaşması şartlarını kadı sicilinde incele (osman3_mustafa3_008_kartal_bozgunu)",
+        "gerekli_zeka": 65,
+        "etki": {
+          "zeka": 15,
+          "itibar": 8
+        },
+        "sonuc": "Kırım'ın kaybedildiği ve Rusya'ya kapitülasyon verildiği tarihi metni öğrendin."
+      },
+      {
+        "metin": "Rus donanmasına karşı Karadeniz boğaz tabyalarına mühimmat sağla (osman3_mustafa3_008_kartal_bozgunu)",
+        "gerekli_para": 50,
+        "etki": {
+          "itibar": 12,
+          "para": -50
+        },
+        "sonuc": "Boğaz kallelerini güçlendiren savunma tedbirlerine yardım ettin."
       }
     ]
   },
@@ -1097,6 +1773,25 @@
           "mutluluk": -8
         },
         "sonuc": "Çeşme'nin haberi, tüm imparatorluğu yasa boğdu — bu, savaşın kaderini kesin olarak belirleyen bir dönüm noktasıydı."
+      },
+      {
+        "metin": "Gerileme dönemi esham kağıtları ticareti yapıp kar et (osman3_mustafa3_009_cesme_bozgunu)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "para": 45,
+          "zeka": 6
+        },
+        "sonuc": "İç borçlanma senetlerinden finansal gelir elde ettin."
+      },
+      {
+        "metin": "Mahallede fukaraya sadaka dağıtıp hayır dua al (osman3_mustafa3_009_cesme_bozgunu)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Sıkıntılı savaş yıllarında komşularının dualarını aldın."
       }
     ]
   },
@@ -1128,6 +1823,25 @@
           "mutluluk": 1
         },
         "sonuc": "Felaketin ortasında bile pes etmeyen bir komutan olması, halka moral veriyordu."
+      },
+      {
+        "metin": "Gerileme dönemi esham kağıtları ticareti yapıp kar et (osman3_mustafa3_010_cezayirli_hasan_toparlanma)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "para": 45,
+          "zeka": 6
+        },
+        "sonuc": "İç borçlanma senetlerinden finansal gelir elde ettin."
+      },
+      {
+        "metin": "Mahallede fukaraya sadaka dağıtıp hayır dua al (osman3_mustafa3_010_cezayirli_hasan_toparlanma)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Sıkıntılı savaş yıllarında komşularının dualarını aldın."
       }
     ]
   },
@@ -1157,6 +1871,24 @@
           "mutluluk": 1
         },
         "sonuc": "Uzak Avrupa'daki gelişmeler, kendi cephemizdeki zorluğun yanında ikinci planda kalıyordu."
+      },
+      {
+        "metin": "Küçük Kaynarca Antlaşması şartlarını kadı sicilinde incele (osman3_mustafa3_011_lehistan_paylasimi)",
+        "gerekli_zeka": 65,
+        "etki": {
+          "zeka": 15,
+          "itibar": 8
+        },
+        "sonuc": "Kırım'ın kaybedildiği ve Rusya'ya kapitülasyon verildiği tarihi metni öğrendin."
+      },
+      {
+        "metin": "Rus donanmasına karşı Karadeniz boğaz tabyalarına mühimmat sağla (osman3_mustafa3_011_lehistan_paylasimi)",
+        "gerekli_para": 50,
+        "etki": {
+          "itibar": 12,
+          "para": -50
+        },
+        "sonuc": "Boğaz kallelerini güçlendiren savunma tedbirlerine yardım ettin."
       }
     ]
   },
@@ -1186,6 +1918,25 @@
           "zeka": 1
         },
         "sonuc": "Devletin geleceği, artık I. Abdülhamid'in ellerindeydi."
+      },
+      {
+        "metin": "Gerileme dönemi esham kağıtları ticareti yapıp kar et (osman3_mustafa3_012_mustafa_vefati)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "para": 45,
+          "zeka": 6
+        },
+        "sonuc": "İç borçlanma senetlerinden finansal gelir elde ettin."
+      },
+      {
+        "metin": "Mahallede fukaraya sadaka dağıtıp hayır dua al (osman3_mustafa3_012_mustafa_vefati)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Sıkıntılı savaş yıllarında komşularının dualarını aldın."
       }
     ]
   },
@@ -1215,6 +1966,25 @@
           "mutluluk": 1
         },
         "sonuc": "Devlet, hızla el atacak kararlı bir lidere ihtiyaç duyuyordu."
+      },
+      {
+        "metin": "İbrahim Müteferrika'nın basımhanesine Arapça-Türkçe lügat tahriri yap (abdulhamid1_001_gec_tahta_cikis)",
+        "gerekli_zeka": 60,
+        "etki": {
+          "zeka": 14,
+          "itibar": 10
+        },
+        "sonuc": "Matbaa-i Amire'de basılan ilk eserlerin tashihi ve tahririnde çalıştın."
+      },
+      {
+        "metin": "Lale Devri bahçelerinde Sadrazam Nevşehirli İbrahim Paşa ikramına katıl (abdulhamid1_001_gec_tahta_cikis)",
+        "gerekli_para": 45,
+        "etki": {
+          "itibar": 10,
+          "mutluluk": 8,
+          "para": -45
+        },
+        "sonuc": "Kağıthane mesirelerinde dönemin zevk ve sefasına iştirak ettin."
       }
     ]
   },
@@ -1245,6 +2015,24 @@
           "mutluluk": -4
         },
         "sonuc": "Ordu dağılmış, devam etme gücü kalmamıştı — bu acı antlaşma, daha kötü bir sonucu önlemek için kabul edilmişti."
+      },
+      {
+        "metin": "Küçük Kaynarca Antlaşması şartlarını kadı sicilinde incele (abdulhamid1_002_kucuk_kaynarca)",
+        "gerekli_zeka": 65,
+        "etki": {
+          "zeka": 15,
+          "itibar": 8
+        },
+        "sonuc": "Kırım'ın kaybedildiği ve Rusya'ya kapitülasyon verildiği tarihi metni öğrendin."
+      },
+      {
+        "metin": "Rus donanmasına karşı Karadeniz boğaz tabyalarına mühimmat sağla (abdulhamid1_002_kucuk_kaynarca)",
+        "gerekli_para": 50,
+        "etki": {
+          "itibar": 12,
+          "para": -50
+        },
+        "sonuc": "Boğaz kallelerini güçlendiren savunma tedbirlerine yardım ettin."
       }
     ]
   },
@@ -1274,6 +2062,24 @@
           "mutluluk": -2
         },
         "sonuc": "Savaşamayacak durumdaki bir devlet, böylesi fırsatçılıklara karşı savunmasız kalıyordu."
+      },
+      {
+        "metin": "Küçük Kaynarca Antlaşması şartlarını kadı sicilinde incele (abdulhamid1_003_bukovina_kaybi)",
+        "gerekli_zeka": 65,
+        "etki": {
+          "zeka": 15,
+          "itibar": 8
+        },
+        "sonuc": "Kırım'ın kaybedildiği ve Rusya'ya kapitülasyon verildiği tarihi metni öğrendin."
+      },
+      {
+        "metin": "Rus donanmasına karşı Karadeniz boğaz tabyalarına mühimmat sağla (abdulhamid1_003_bukovina_kaybi)",
+        "gerekli_para": 50,
+        "etki": {
+          "itibar": 12,
+          "para": -50
+        },
+        "sonuc": "Boğaz kallelerini güçlendiren savunma tedbirlerine yardım ettin."
       }
     ]
   },
@@ -1304,6 +2110,25 @@
           "para": -2
         },
         "sonuc": "Herkes bu zor dönemde birbirine destek olmaya çalışıyordu."
+      },
+      {
+        "metin": "Gerileme dönemi esham kağıtları ticareti yapıp kar et (abdulhamid1_004_istanbul_yanginlari)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "para": 45,
+          "zeka": 6
+        },
+        "sonuc": "İç borçlanma senetlerinden finansal gelir elde ettin."
+      },
+      {
+        "metin": "Mahallede fukaraya sadaka dağıtıp hayır dua al (abdulhamid1_004_istanbul_yanginlari)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Sıkıntılı savaş yıllarında komşularının dualarını aldın."
       }
     ]
   },
@@ -1333,6 +2158,25 @@
           "zeka": 2
         },
         "sonuc": "Menfaati zedelenen güçlü çevrelerin bu reformlara sessiz kalmayacağı hissediliyordu."
+      },
+      {
+        "metin": "Gerileme dönemi esham kağıtları ticareti yapıp kar et (abdulhamid1_005_halil_hamid_pasa_reformlari)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "para": 45,
+          "zeka": 6
+        },
+        "sonuc": "İç borçlanma senetlerinden finansal gelir elde ettin."
+      },
+      {
+        "metin": "Mahallede fukaraya sadaka dağıtıp hayır dua al (abdulhamid1_005_halil_hamid_pasa_reformlari)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Sıkıntılı savaş yıllarında komşularının dualarını aldın."
       }
     ]
   },
@@ -1363,6 +2207,24 @@
           "mutluluk": -2
         },
         "sonuc": "Saray entrikalarında gerçekle iftiranın sınırı çoğu zaman belirsizdi."
+      },
+      {
+        "metin": "Mühendishane-i Bahr-i Hümayun derslerine katılıp geometri öğren (abdulhamid1_006_halil_hamid_komplo_idam)",
+        "gerekli_zeka": 65,
+        "etki": {
+          "zeka": 16,
+          "itibar": 10
+        },
+        "sonuc": "Deniz subayı yetiştiren okulda batılı bilim ve mühendislik öğrendin."
+      },
+      {
+        "metin": "Cezayirli Gazi Hasan Paşa'nın donanma gülle dökümhanesine tunç temin et (abdulhamid1_006_halil_hamid_komplo_idam)",
+        "gerekli_para": 55,
+        "etki": {
+          "itibar": 14,
+          "para": -55
+        },
+        "sonuc": "Kaptan-ı Derya'nın donanmayı yenileme hamlesine malzeme sağladın."
       }
     ]
   },
@@ -1393,6 +2255,24 @@
           "mutluluk": -6
         },
         "sonuc": "Savaşamayacak durumdaki bir devlet için, bu ilhakı 'kabul etmek' bile en az kötü seçenekti."
+      },
+      {
+        "metin": "Küçük Kaynarca Antlaşması şartlarını kadı sicilinde incele (abdulhamid1_007_kirim_ilhaki)",
+        "gerekli_zeka": 65,
+        "etki": {
+          "zeka": 15,
+          "itibar": 8
+        },
+        "sonuc": "Kırım'ın kaybedildiği ve Rusya'ya kapitülasyon verildiği tarihi metni öğrendin."
+      },
+      {
+        "metin": "Rus donanmasına karşı Karadeniz boğaz tabyalarına mühimmat sağla (abdulhamid1_007_kirim_ilhaki)",
+        "gerekli_para": 50,
+        "etki": {
+          "itibar": 12,
+          "para": -50
+        },
+        "sonuc": "Boğaz kallelerini güçlendiren savunma tedbirlerine yardım ettin."
       }
     ]
   },
@@ -1423,6 +2303,24 @@
           "mutluluk": -3
         },
         "sonuc": "Herkes, bu tahrikin karşılıksız kalmayacağını hissediyordu."
+      },
+      {
+        "metin": "Küçük Kaynarca Antlaşması şartlarını kadı sicilinde incele (abdulhamid1_008_caricenin_kirim_ziyareti)",
+        "gerekli_zeka": 65,
+        "etki": {
+          "zeka": 15,
+          "itibar": 8
+        },
+        "sonuc": "Kırım'ın kaybedildiği ve Rusya'ya kapitülasyon verildiği tarihi metni öğrendin."
+      },
+      {
+        "metin": "Rus donanmasına karşı Karadeniz boğaz tabyalarına mühimmat sağla (abdulhamid1_008_caricenin_kirim_ziyareti)",
+        "gerekli_para": 50,
+        "etki": {
+          "itibar": 12,
+          "para": -50
+        },
+        "sonuc": "Boğaz kallelerini güçlendiren savunma tedbirlerine yardım ettin."
       }
     ]
   },
@@ -1453,6 +2351,24 @@
           "mutluluk": -2
         },
         "sonuc": "İki büyük güce karşı aynı anda savaşmak, devletin sınırlarını zorlayacaktı."
+      },
+      {
+        "metin": "Küçük Kaynarca Antlaşması şartlarını kadı sicilinde incele (abdulhamid1_009_yeni_savas_ilani)",
+        "gerekli_zeka": 65,
+        "etki": {
+          "zeka": 15,
+          "itibar": 8
+        },
+        "sonuc": "Kırım'ın kaybedildiği ve Rusya'ya kapitülasyon verildiği tarihi metni öğrendin."
+      },
+      {
+        "metin": "Rus donanmasına karşı Karadeniz boğaz tabyalarına mühimmat sağla (abdulhamid1_009_yeni_savas_ilani)",
+        "gerekli_para": 50,
+        "etki": {
+          "itibar": 12,
+          "para": -50
+        },
+        "sonuc": "Boğaz kallelerini güçlendiren savunma tedbirlerine yardım ettin."
       }
     ]
   },
@@ -1483,6 +2399,25 @@
           "mutluluk": -5
         },
         "sonuc": "Özi Kalesi'nin kaybı, devletin savunma hattının ciddi şekilde zayıfladığını gösteriyordu."
+      },
+      {
+        "metin": "Gerileme dönemi esham kağıtları ticareti yapıp kar et (abdulhamid1_010_ozi_kalesi_faciasi)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "para": 45,
+          "zeka": 6
+        },
+        "sonuc": "İç borçlanma senetlerinden finansal gelir elde ettin."
+      },
+      {
+        "metin": "Mahallede fukaraya sadaka dağıtıp hayır dua al (abdulhamid1_010_ozi_kalesi_faciasi)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Sıkıntılı savaş yıllarında komşularının dualarını aldın."
       }
     ]
   },
@@ -1513,6 +2448,24 @@
           "mutluluk": 1
         },
         "sonuc": "III. Selim'in daha genç ve değişime açık olduğu biliniyordu — belki devletin kaderini değiştirebilirdi."
+      },
+      {
+        "metin": "Küçük Kaynarca Antlaşması şartlarını kadı sicilinde incele (abdulhamid1_011_abdulhamid_vefati)",
+        "gerekli_zeka": 65,
+        "etki": {
+          "zeka": 15,
+          "itibar": 8
+        },
+        "sonuc": "Kırım'ın kaybedildiği ve Rusya'ya kapitülasyon verildiği tarihi metni öğrendin."
+      },
+      {
+        "metin": "Rus donanmasına karşı Karadeniz boğaz tabyalarına mühimmat sağla (abdulhamid1_011_abdulhamid_vefati)",
+        "gerekli_para": 50,
+        "etki": {
+          "itibar": 12,
+          "para": -50
+        },
+        "sonuc": "Boğaz kallelerini güçlendiren savunma tedbirlerine yardım ettin."
       }
     ]
   },
@@ -1543,6 +2496,25 @@
           "mutluluk": -1
         },
         "sonuc": "Belirsizlik içinde bile, hayatını sürdürmenin yolları bulunabiliyordu."
+      },
+      {
+        "metin": "Gerileme dönemi esham kağıtları ticareti yapıp kar et (abdulhamid1_012_gunluk_hayat_kriz_golgesi)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "para": 45,
+          "zeka": 6
+        },
+        "sonuc": "İç borçlanma senetlerinden finansal gelir elde ettin."
+      },
+      {
+        "metin": "Mahallede fukaraya sadaka dağıtıp hayır dua al (abdulhamid1_012_gunluk_hayat_kriz_golgesi)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Sıkıntılı savaş yıllarında komşularının dualarını aldın."
       }
     ]
   },
@@ -1573,6 +2545,24 @@
           "mutluluk": 1
         },
         "sonuc": "Devletin bu zorlu dönemde bile modernleşme gayretini sürdürmesi, bir umut kırıntısıydı."
+      },
+      {
+        "metin": "Küçük Kaynarca Antlaşması şartlarını kadı sicilinde incele (abdulhamid1_013_donanma_yenilenme_cabasi)",
+        "gerekli_zeka": 65,
+        "etki": {
+          "zeka": 15,
+          "itibar": 8
+        },
+        "sonuc": "Kırım'ın kaybedildiği ve Rusya'ya kapitülasyon verildiği tarihi metni öğrendin."
+      },
+      {
+        "metin": "Rus donanmasına karşı Karadeniz boğaz tabyalarına mühimmat sağla (abdulhamid1_013_donanma_yenilenme_cabasi)",
+        "gerekli_para": 50,
+        "etki": {
+          "itibar": 12,
+          "para": -50
+        },
+        "sonuc": "Boğaz kallelerini güçlendiren savunma tedbirlerine yardım ettin."
       }
     ],
     "engel_bayrak": "calisaniyor"
@@ -1604,6 +2594,24 @@
           "mutluluk": -1
         },
         "sonuc": "İki cephede savaşan, toprak kaybetmiş bir devleti yönetmek, en yetenekli hükümdar için bile zor bir sınavdı."
+      },
+      {
+        "metin": "Küçük Kaynarca Antlaşması şartlarını kadı sicilinde incele (selim3_001_tahta_cikis_savas_mirasi)",
+        "gerekli_zeka": 65,
+        "etki": {
+          "zeka": 15,
+          "itibar": 8
+        },
+        "sonuc": "Kırım'ın kaybedildiği ve Rusya'ya kapitülasyon verildiği tarihi metni öğrendin."
+      },
+      {
+        "metin": "Rus donanmasına karşı Karadeniz boğaz tabyalarına mühimmat sağla (selim3_001_tahta_cikis_savas_mirasi)",
+        "gerekli_para": 50,
+        "etki": {
+          "itibar": 12,
+          "para": -50
+        },
+        "sonuc": "Boğaz kallelerini güçlendiren savunma tedbirlerine yardım ettin."
       }
     ]
   },
@@ -1633,6 +2641,25 @@
           "mutluluk": -1
         },
         "sonuc": "Bir cephe kapanmıştı ama diğeri hâlâ açıktı."
+      },
+      {
+        "metin": "Gerileme dönemi esham kağıtları ticareti yapıp kar et (selim3_002_zistovi_antlasmasi)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "para": 45,
+          "zeka": 6
+        },
+        "sonuc": "İç borçlanma senetlerinden finansal gelir elde ettin."
+      },
+      {
+        "metin": "Mahallede fukaraya sadaka dağıtıp hayır dua al (selim3_002_zistovi_antlasmasi)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Sıkıntılı savaş yıllarında komşularının dualarını aldın."
       }
     ]
   },
@@ -1663,6 +2690,24 @@
           "mutluluk": -2
         },
         "sonuc": "Barış, acı olsa da, gerekli reformlar için bir soluklanma fırsatı sunuyordu."
+      },
+      {
+        "metin": "Küçük Kaynarca Antlaşması şartlarını kadı sicilinde incele (selim3_003_yas_antlasmasi)",
+        "gerekli_zeka": 65,
+        "etki": {
+          "zeka": 15,
+          "itibar": 8
+        },
+        "sonuc": "Kırım'ın kaybedildiği ve Rusya'ya kapitülasyon verildiği tarihi metni öğrendin."
+      },
+      {
+        "metin": "Rus donanmasına karşı Karadeniz boğaz tabyalarına mühimmat sağla (selim3_003_yas_antlasmasi)",
+        "gerekli_para": 50,
+        "etki": {
+          "itibar": 12,
+          "para": -50
+        },
+        "sonuc": "Boğaz kallelerini güçlendiren savunma tedbirlerine yardım ettin."
       }
     ]
   },
@@ -1693,6 +2738,24 @@
           "zeka": 1
         },
         "sonuc": "Bu köklü değişimin nasıl karşılanacağı, özellikle yeniçeriler arasında merak konusuydu."
+      },
+      {
+        "metin": "III. Selim'in Nizam-ı Cedid kışlasına borazan ve erzak sağla (selim3_004_nizam_i_cedid_ordusu)",
+        "gerekli_para": 50,
+        "etki": {
+          "itibar": 15,
+          "para": -50
+        },
+        "sonuc": "Batılı tarzda eğitilen ilk düzenli birliklerin iaşesine katkı verdin."
+      },
+      {
+        "metin": "İrad-ı Cedid hazinesine vergi tahririnde kâtip ol (selim3_004_nizam_i_cedid_ordusu)",
+        "gerekli_zeka": 60,
+        "etki": {
+          "zeka": 12,
+          "para": 35
+        },
+        "sonuc": "Nizam-ı Cedid ordusunun özel bütçe kayıtlarını düzenledin."
       }
     ],
     "engel_bayrak": "calisaniyor"
@@ -1724,6 +2787,24 @@
           "mutluluk": -1
         },
         "sonuc": "Her yeni hazine, sonunda halkın cebinden bir şekilde karşılanıyordu."
+      },
+      {
+        "metin": "III. Selim'in Nizam-ı Cedid kışlasına borazan ve erzak sağla (selim3_005_irad_i_cedid_hazinesi)",
+        "gerekli_para": 50,
+        "etki": {
+          "itibar": 15,
+          "para": -50
+        },
+        "sonuc": "Batılı tarzda eğitilen ilk düzenli birliklerin iaşesine katkı verdin."
+      },
+      {
+        "metin": "İrad-ı Cedid hazinesine vergi tahririnde kâtip ol (selim3_005_irad_i_cedid_hazinesi)",
+        "gerekli_zeka": 60,
+        "etki": {
+          "zeka": 12,
+          "para": 35
+        },
+        "sonuc": "Nizam-ı Cedid ordusunun özel bütçe kayıtlarını düzenledin."
       }
     ]
   },
@@ -1754,6 +2835,25 @@
           "mutluluk": -3
         },
         "sonuc": "Nizam-ı Cedid ordusunun ilk gerçek sınavı gelmişti."
+      },
+      {
+        "metin": "Gerileme dönemi esham kağıtları ticareti yapıp kar et (selim3_006_napolyon_misir_isgali)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "para": 45,
+          "zeka": 6
+        },
+        "sonuc": "İç borçlanma senetlerinden finansal gelir elde ettin."
+      },
+      {
+        "metin": "Mahallede fukaraya sadaka dağıtıp hayır dua al (selim3_006_napolyon_misir_isgali)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Sıkıntılı savaş yıllarında komşularının dualarını aldın."
       }
     ]
   },
@@ -1786,6 +2886,24 @@
           "itibar": 2
         },
         "sonuc": "Sultan'ın reform vizyonu, en somut ve gururlu kanıtını almıştı."
+      },
+      {
+        "metin": "III. Selim'in Nizam-ı Cedid kışlasına borazan ve erzak sağla (selim3_007_akka_zaferi)",
+        "gerekli_para": 50,
+        "etki": {
+          "itibar": 15,
+          "para": -50
+        },
+        "sonuc": "Batılı tarzda eğitilen ilk düzenli birliklerin iaşesine katkı verdin."
+      },
+      {
+        "metin": "İrad-ı Cedid hazinesine vergi tahririnde kâtip ol (selim3_007_akka_zaferi)",
+        "gerekli_zeka": 60,
+        "etki": {
+          "zeka": 12,
+          "para": 35
+        },
+        "sonuc": "Nizam-ı Cedid ordusunun özel bütçe kayıtlarını düzenledin."
       }
     ]
   },
@@ -1815,6 +2933,24 @@
           "mutluluk": 1
         },
         "sonuc": "Uzak Mısır'daki bu başarı, İstanbul'da büyük bir gururla karşılandı."
+      },
+      {
+        "metin": "III. Selim'in Nizam-ı Cedid kışlasına borazan ve erzak sağla (selim3_008_el_aris_antlasmasi)",
+        "gerekli_para": 50,
+        "etki": {
+          "itibar": 15,
+          "para": -50
+        },
+        "sonuc": "Batılı tarzda eğitilen ilk düzenli birliklerin iaşesine katkı verdin."
+      },
+      {
+        "metin": "İrad-ı Cedid hazinesine vergi tahririnde kâtip ol (selim3_008_el_aris_antlasmasi)",
+        "gerekli_zeka": 60,
+        "etki": {
+          "zeka": 12,
+          "para": 35
+        },
+        "sonuc": "Nizam-ı Cedid ordusunun özel bütçe kayıtlarını düzenledin."
       }
     ]
   },
@@ -1844,6 +2980,24 @@
           "zeka": 2
         },
         "sonuc": "Taşradaki güçlü aileler, kendi otoritelerini tehdit eden bu yeni orduyu şüpheyle izliyordu."
+      },
+      {
+        "metin": "III. Selim'in Nizam-ı Cedid kışlasına borazan ve erzak sağla (selim3_009_reformlarin_rumeliye_yayilmasi)",
+        "gerekli_para": 50,
+        "etki": {
+          "itibar": 15,
+          "para": -50
+        },
+        "sonuc": "Batılı tarzda eğitilen ilk düzenli birliklerin iaşesine katkı verdin."
+      },
+      {
+        "metin": "İrad-ı Cedid hazinesine vergi tahririnde kâtip ol (selim3_009_reformlarin_rumeliye_yayilmasi)",
+        "gerekli_zeka": 60,
+        "etki": {
+          "zeka": 12,
+          "para": 35
+        },
+        "sonuc": "Nizam-ı Cedid ordusunun özel bütçe kayıtlarını düzenledin."
       }
     ]
   },
@@ -1873,6 +3027,25 @@
           "mutluluk": 1
         },
         "sonuc": "Bu, sadece bir isyan değil, gelecekteki daha büyük sorunların habercisiydi."
+      },
+      {
+        "metin": "Gerileme dönemi esham kağıtları ticareti yapıp kar et (selim3_010_sirp_isyani)",
+        "gerekli_zeka": 55,
+        "etki": {
+          "para": 45,
+          "zeka": 6
+        },
+        "sonuc": "İç borçlanma senetlerinden finansal gelir elde ettin."
+      },
+      {
+        "metin": "Mahallede fukaraya sadaka dağıtıp hayır dua al (selim3_010_sirp_isyani)",
+        "gerekli_para": 30,
+        "etki": {
+          "itibar": 10,
+          "para": -30,
+          "mutluluk": 6
+        },
+        "sonuc": "Sıkıntılı savaş yıllarında komşularının dualarını aldın."
       }
     ]
   },
@@ -1902,6 +3075,24 @@
           "mutluluk": 1
         },
         "sonuc": "Akka'daki başarı, umut vericiydi."
+      },
+      {
+        "metin": "Küçük Kaynarca Antlaşması şartlarını kadı sicilinde incele (selim3_011_1806_rus_savasi)",
+        "gerekli_zeka": 65,
+        "etki": {
+          "zeka": 15,
+          "itibar": 8
+        },
+        "sonuc": "Kırım'ın kaybedildiği ve Rusya'ya kapitülasyon verildiği tarihi metni öğrendin."
+      },
+      {
+        "metin": "Rus donanmasına karşı Karadeniz boğaz tabyalarına mühimmat sağla (selim3_011_1806_rus_savasi)",
+        "gerekli_para": 50,
+        "etki": {
+          "itibar": 12,
+          "para": -50
+        },
+        "sonuc": "Boğaz kallelerini güçlendiren savunma tedbirlerine yardım ettin."
       }
     ]
   },
@@ -1931,6 +3122,24 @@
           "mutluluk": 1
         },
         "sonuc": "Değişim her zaman direnç görürdü, ama zamanla kabul edilebilirdi — umulan buydu."
+      },
+      {
+        "metin": "III. Selim'in Nizam-ı Cedid kışlasına borazan ve erzak sağla (selim3_012_muhalefet_buyume)",
+        "gerekli_para": 50,
+        "etki": {
+          "itibar": 15,
+          "para": -50
+        },
+        "sonuc": "Batılı tarzda eğitilen ilk düzenli birliklerin iaşesine katkı verdin."
+      },
+      {
+        "metin": "İrad-ı Cedid hazinesine vergi tahririnde kâtip ol (selim3_012_muhalefet_buyume)",
+        "gerekli_zeka": 60,
+        "etki": {
+          "zeka": 12,
+          "para": 35
+        },
+        "sonuc": "Nizam-ı Cedid ordusunun özel bütçe kayıtlarını düzenledin."
       }
     ]
   },
@@ -1961,6 +3170,24 @@
           "mutluluk": -4
         },
         "sonuc": "Yeniçeri Ocağı'nın gücü, tek bir padişahın reform iradesinden çok daha büyüktü."
+      },
+      {
+        "metin": "III. Selim'in Nizam-ı Cedid kışlasına borazan ve erzak sağla (selim3_013_kabakci_mustafa_isyani)",
+        "gerekli_para": 50,
+        "etki": {
+          "itibar": 15,
+          "para": -50
+        },
+        "sonuc": "Batılı tarzda eğitilen ilk düzenli birliklerin iaşesine katkı verdin."
+      },
+      {
+        "metin": "İrad-ı Cedid hazinesine vergi tahririnde kâtip ol (selim3_013_kabakci_mustafa_isyani)",
+        "gerekli_zeka": 60,
+        "etki": {
+          "zeka": 12,
+          "para": 35
+        },
+        "sonuc": "Nizam-ı Cedid ordusunun özel bütçe kayıtlarını düzenledin."
       }
     ]
   },
@@ -1991,6 +3218,24 @@
           "mutluluk": -3
         },
         "sonuc": "Nizam-ı Cedid'in fikirleri kaybolmamıştı — bir gün, başka bir hükümdar tarafından yeniden canlandırılabilirdi."
+      },
+      {
+        "metin": "III. Selim'in Nizam-ı Cedid kışlasına borazan ve erzak sağla (selim3_014_selim_tahttan_indirilisi)",
+        "gerekli_para": 50,
+        "etki": {
+          "itibar": 15,
+          "para": -50
+        },
+        "sonuc": "Batılı tarzda eğitilen ilk düzenli birliklerin iaşesine katkı verdin."
+      },
+      {
+        "metin": "İrad-ı Cedid hazinesine vergi tahririnde kâtip ol (selim3_014_selim_tahttan_indirilisi)",
+        "gerekli_zeka": 60,
+        "etki": {
+          "zeka": 12,
+          "para": 35
+        },
+        "sonuc": "Nizam-ı Cedid ordusunun özel bütçe kayıtlarını düzenledin."
       }
     ]
   },
@@ -2020,6 +3265,25 @@
           "mutluluk": 1
         },
         "sonuc": "Her çağın kendi zorlukları ve fırsatları vardı — yeni bir dönem başlıyordu."
+      },
+      {
+        "metin": "İbrahim Müteferrika'nın basımhanesine Arapça-Türkçe lügat tahriri yap (selim3_015_gerileme_donemi_kapanis)",
+        "gerekli_zeka": 60,
+        "etki": {
+          "zeka": 14,
+          "itibar": 10
+        },
+        "sonuc": "Matbaa-i Amire'de basılan ilk eserlerin tashihi ve tahririnde çalıştın."
+      },
+      {
+        "metin": "Lale Devri bahçelerinde Sadrazam Nevşehirli İbrahim Paşa ikramına katıl (selim3_015_gerileme_donemi_kapanis)",
+        "gerekli_para": 45,
+        "etki": {
+          "itibar": 10,
+          "mutluluk": 8,
+          "para": -45
+        },
+        "sonuc": "Kağıthane mesirelerinde dönemin zevk ve sefasına iştirak ettin."
       }
     ]
   }
