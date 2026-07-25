@@ -71,9 +71,13 @@ class GunlukEkrani extends StatelessWidget {
                           children: [
                             const Icon(Icons.work, color: Stiller.koyuParsomen, size: 14),
                             const SizedBox(width: 4),
-                            Text(
-                              karakter.meslekUnvaniGetir(),
-                              style: Stiller.altMetinStili(fontSize: 12),
+                            Expanded(
+                              child: Text(
+                                karakter.meslekUnvaniGetir(),
+                                overflow: TextOverflow.ellipsis,
+                                maxLines: 1,
+                                style: Stiller.altMetinStili(fontSize: 12),
+                              ),
                             ),
                           ],
                         ),
@@ -82,9 +86,13 @@ class GunlukEkrani extends StatelessWidget {
                           children: [
                             const Icon(Icons.calendar_today, color: Stiller.koyuParsomen, size: 12),
                             const SizedBox(width: 4),
-                            Text(
-                              'Doğum: ${karakter.dogumYili} | Nesil: #${karakter.nesil}',
-                              style: Stiller.govdeStili(fontSize: 11),
+                            Expanded(
+                              child: Text(
+                                'Doğum: ${karakter.dogumYili} | Nesil: #${karakter.nesil}',
+                                overflow: TextOverflow.ellipsis,
+                                maxLines: 1,
+                                style: Stiller.govdeStili(fontSize: 11),
+                              ),
                             ),
                           ],
                         ),
@@ -92,9 +100,13 @@ class GunlukEkrani extends StatelessWidget {
                           children: [
                             const Icon(Icons.monetization_on, color: Stiller.parlakAltin, size: 12),
                             const SizedBox(width: 4),
-                            Text(
-                              'Servet: ${karakter.para.toInt()} Akçe',
-                              style: Stiller.baslikStili(fontSize: 11, color: Stiller.parlakAltin),
+                            Expanded(
+                              child: Text(
+                                'Servet: ${karakter.para.toInt()} Akçe',
+                                overflow: TextOverflow.ellipsis,
+                                maxLines: 1,
+                                style: Stiller.baslikStili(fontSize: 11, color: Stiller.parlakAltin),
+                              ),
                             ),
                           ],
                         ),

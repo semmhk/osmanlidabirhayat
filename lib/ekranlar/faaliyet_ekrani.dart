@@ -162,20 +162,27 @@ class _FaaliyetEkraniState extends State<FaaliyetEkrani> {
                         Row(
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
-                            Row(
-                              children: [
-                                const Icon(Icons.stars, color: Colors.greenAccent, size: 14),
-                                const SizedBox(width: 4),
-                                Text(
-                                  f.kazanimOzeti,
-                                  style: Stiller.govdeStili(
-                                    fontSize: 11,
-                                    color: Colors.greenAccent,
-                                    fontWeight: FontWeight.w600,
+                            Expanded(
+                              child: Row(
+                                children: [
+                                  const Icon(Icons.stars, color: Colors.greenAccent, size: 14),
+                                  const SizedBox(width: 4),
+                                  Expanded(
+                                    child: Text(
+                                      f.kazanimOzeti,
+                                      overflow: TextOverflow.ellipsis,
+                                      maxLines: 1,
+                                      style: Stiller.govdeStili(
+                                        fontSize: 11,
+                                        color: Colors.greenAccent,
+                                        fontWeight: FontWeight.w600,
+                                      ),
+                                    ),
                                   ),
-                                ),
-                              ],
+                                ],
+                              ),
                             ),
+                            const SizedBox(width: 8),
                             ElevatedButton(
                               style: ElevatedButton.styleFrom(
                                 backgroundColor: yapilabilir ? Stiller.bordo : Colors.grey.shade800,

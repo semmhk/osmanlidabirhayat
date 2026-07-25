@@ -103,6 +103,8 @@ class _IliskilerEkraniState extends State<IliskilerEkrani> {
                                   Expanded(
                                     child: Text(
                                       '${i.isim} (${isEs ? "Eş" : "Evlat"})',
+                                      overflow: TextOverflow.ellipsis,
+                                      maxLines: 1,
                                       style: Stiller.baslikStili(fontSize: 15),
                                     ),
                                   ),

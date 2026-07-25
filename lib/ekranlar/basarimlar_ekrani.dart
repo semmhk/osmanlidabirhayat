@@ -148,6 +148,8 @@ class _BasarimlarEkraniState extends State<BasarimlarEkrani> {
                     Expanded(
                       child: Text(
                         b.baslik,
+                        overflow: TextOverflow.ellipsis,
+                        maxLines: 2,
                         style: Stiller.baslikStili(
                           fontSize: 14,
                           color: kazanildi ? Stiller.parlakAltin : Stiller.koyuParsomen,
@@ -164,6 +166,8 @@ class _BasarimlarEkraniState extends State<BasarimlarEkrani> {
                 const SizedBox(height: 4),
                 Text(
                   b.aciklama,
+                  overflow: TextOverflow.ellipsis,
+                  maxLines: 3,
                   style: Stiller.govdeStili(
                     fontSize: 12,
                     color: kazanildi ? Stiller.parsomen : Stiller.koyuParsomen.withAlpha(180),

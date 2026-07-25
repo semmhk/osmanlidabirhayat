@@ -234,9 +234,13 @@ class _OyunEkraniState extends State<OyunEkrani> {
                   children: [
                     const Icon(Icons.stars, color: Stiller.parlakAltin, size: 16),
                     const SizedBox(width: 4),
-                    Text(
-                      padisah.isim,
-                      style: Stiller.padisahIsimStili(fontSize: 15),
+                    Expanded(
+                      child: Text(
+                        padisah.isim,
+                        overflow: TextOverflow.ellipsis,
+                        maxLines: 1,
+                        style: Stiller.padisahIsimStili(fontSize: 15),
+                      ),
                     ),
                   ],
                 ),
@@ -277,9 +281,14 @@ class _OyunEkraniState extends State<OyunEkrani> {
           children: [
             Icon(icon, color: color, size: 14),
             const SizedBox(width: 2),
-            Text(
-              '$value',
-              style: Stiller.baslikStili(fontSize: 12, color: color),
+            Flexible(
+              child: FittedBox(
+                fit: BoxFit.scaleDown,
+                child: Text(
+                  '$value',
+                  style: Stiller.baslikStili(fontSize: 12, color: color),
+                ),
+              ),
             ),
           ],
         ),

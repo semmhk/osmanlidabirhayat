@@ -87,26 +87,35 @@ class OlumEkrani extends StatelessWidget {
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
-                        Row(
-                          children: [
-                            Icon(cinsiyetIcon, color: Stiller.parlakAltin, size: 20),
-                            const SizedBox(width: 8),
-                            Column(
-                              crossAxisAlignment: CrossAxisAlignment.start,
-                              children: [
-                                Text(
-                                  '${c.ad} ${karakter.soyad}',
-                                  style: Stiller.baslikStili(fontSize: 14),
+                        Expanded(
+                          child: Row(
+                            children: [
+                              Icon(cinsiyetIcon, color: Stiller.parlakAltin, size: 20),
+                              const SizedBox(width: 8),
+                              Expanded(
+                                child: Column(
+                                  crossAxisAlignment: CrossAxisAlignment.start,
+                                  children: [
+                                    Text(
+                                      '${c.ad} ${karakter.soyad}',
+                                      overflow: TextOverflow.ellipsis,
+                                      maxLines: 1,
+                                      style: Stiller.baslikStili(fontSize: 14),
+                                    ),
+                                    const SizedBox(height: 2),
+                                    Text(
+                                      '$cocukYasi Yaşında · ${c.erkekMi ? "Oğul" : "Kız"}',
+                                      overflow: TextOverflow.ellipsis,
+                                      maxLines: 1,
+                                      style: Stiller.altMetinStili(fontSize: 11),
+                                    ),
+                                  ],
                                 ),
-                                const SizedBox(height: 2),
-                                Text(
-                                  '$cocukYasi Yaşında · ${c.erkekMi ? "Oğul" : "Kız"}',
-                                  style: Stiller.altMetinStili(fontSize: 11),
-                                ),
-                              ],
-                            ),
-                          ],
+                              ),
+                            ],
+                          ),
                         ),
+                        const SizedBox(width: 8),
                         Text(
                           'Miras: ${kisiBasiMiras.toInt()} Akçe',
                           style: Stiller.govdeStili(fontSize: 12, color: Stiller.parlakAltin, fontWeight: FontWeight.bold),

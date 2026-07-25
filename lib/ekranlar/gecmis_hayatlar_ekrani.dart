@@ -102,20 +102,27 @@ class _GecmisHayatlarEkraniState extends State<GecmisHayatlarEkrani> {
                           Row(
                             mainAxisAlignment: MainAxisAlignment.spaceBetween,
                             children: [
-                              Row(
-                                children: [
-                                  Icon(
-                                    k.cinsiyet == Cinsiyet.erkek ? Icons.face : Icons.face_3,
-                                    color: Stiller.parlakAltin,
-                                    size: 20,
-                                  ),
-                                  const SizedBox(width: 8),
-                                  Text(
-                                    k.isim,
-                                    style: Stiller.baslikStili(fontSize: 16),
-                                  ),
-                                ],
+                              Expanded(
+                                child: Row(
+                                  children: [
+                                    Icon(
+                                      k.cinsiyet == Cinsiyet.erkek ? Icons.face : Icons.face_3,
+                                      color: Stiller.parlakAltin,
+                                      size: 20,
+                                    ),
+                                    const SizedBox(width: 8),
+                                    Expanded(
+                                      child: Text(
+                                        k.isim,
+                                        overflow: TextOverflow.ellipsis,
+                                        maxLines: 1,
+                                        style: Stiller.baslikStili(fontSize: 16),
+                                      ),
+                                    ),
+                                  ],
+                                ),
                               ),
+                              const SizedBox(width: 8),
                               Container(
                                 padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 2),
                                 decoration: BoxDecoration(
@@ -140,6 +147,8 @@ class _GecmisHayatlarEkraniState extends State<GecmisHayatlarEkrani> {
                                   k.hikayesiTamamlandi
                                       ? '${k.dogumYili} - ${k.olumYili} (${k.yas} Yaşında • Osmanlı Dönemi Sonu)'
                                       : '${k.dogumYili} - ${k.olumYili} (${k.yas} Yaşında Vefat)',
+                                  overflow: TextOverflow.ellipsis,
+                                  maxLines: 1,
                                   style: Stiller.govdeStili(fontSize: 12, color: Stiller.parsomen),
                                 ),
                               ),
@@ -150,11 +159,15 @@ class _GecmisHayatlarEkraniState extends State<GecmisHayatlarEkrani> {
                             children: [
                               const Icon(Icons.work, color: Stiller.koyuParsomen, size: 14),
                               const SizedBox(width: 6),
-                              Text(
-                                k.unvan,
-                                style: Stiller.altMetinStili(fontSize: 12),
+                              Expanded(
+                                child: Text(
+                                  k.unvan,
+                                  overflow: TextOverflow.ellipsis,
+                                  maxLines: 1,
+                                  style: Stiller.altMetinStili(fontSize: 12),
+                                ),
                               ),
-                              const Spacer(),
+                              const SizedBox(width: 8),
                               const Icon(Icons.monetization_on, color: Stiller.parlakAltin, size: 14),
                               const SizedBox(width: 4),
                               Text(

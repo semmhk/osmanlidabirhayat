@@ -288,7 +288,7 @@ class OyunMotoru {
       } else if (o.id.startsWith('gundelik_')) {
         agirlik = 1; // Atmosferik gündelik olaylar
       } else {
-        agirlik = (karakter.yas >= 40) ? 200 : 80; // 40+ yaşta 200x tarih ağırlığı
+        agirlik = (karakter.yas >= 40) ? 1000 : 500; // Tarihi olaylara baskın öncelik
       }
 
       // Terfi dönemi olayları
