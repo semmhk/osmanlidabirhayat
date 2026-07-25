@@ -8,6 +8,7 @@ import '../motor/oyun_motoru.dart';
 import '../sabitler/renkler.dart';
 import '../servisler/hayat_kaydi_servisi.dart';
 import '../servisler/ses_servisi.dart';
+import 'gunluk_ekrani.dart';
 import 'olum_ekrani.dart';
 
 class OyunEkrani extends StatefulWidget {
@@ -276,6 +277,25 @@ class _OyunEkraniState extends State<OyunEkrani> {
                               const SizedBox(width: 8),
                               GestureDetector(
                                 onTap: () {
+                                  Navigator.push(
+                                    context,
+                                    MaterialPageRoute(
+                                      builder: (context) => GunlukEkrani(karakter: k),
+                                    ),
+                                  );
+                                },
+                                child: const Padding(
+                                  padding: EdgeInsets.symmetric(horizontal: 2),
+                                  child: Icon(
+                                    Icons.menu_book,
+                                    size: 18,
+                                    color: Renkler.damga,
+                                  ),
+                                ),
+                              ),
+                              const SizedBox(width: 6),
+                              GestureDetector(
+                                onTap: () {
                                   setState(() {
                                     SesServisi().sesDurumunuDegistir();
                                   });
@@ -474,16 +494,45 @@ class _OyunEkraniState extends State<OyunEkrani> {
                               }),
                             ],
                           )
-                        : Container(
-                            padding: const EdgeInsets.all(16),
-                            decoration: BoxDecoration(
-                              color: Colors.white.withAlpha(100),
-                              border: Border.all(color: Renkler.cizgi),
-                              borderRadius: BorderRadius.circular(6),
-                            ),
-                            child: Text(
-                              k.gunluk.isNotEmpty ? k.gunluk.first : 'Sakin bir yıl geride kaldı.',
-                              style: const TextStyle(fontSize: 13, color: Renkler.murekkep),
+                        : GestureDetector(
+                            onTap: () {
+                              Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (context) => GunlukEkrani(karakter: k),
+                                ),
+                              );
+                            },
+                            child: Container(
+                              padding: const EdgeInsets.all(16),
+                              decoration: BoxDecoration(
+                                color: Colors.white.withAlpha(100),
+                                border: Border.all(color: Renkler.cizgi),
+                                borderRadius: BorderRadius.circular(6),
+                              ),
+                              child: Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
+                                children: [
+                                  Text(
+                                    k.gunluk.isNotEmpty ? k.gunluk.first : 'Sakin bir yıl geride kaldı.',
+                                    style: const TextStyle(fontSize: 13, color: Renkler.murekkep),
+                                  ),
+                                  const SizedBox(height: 12),
+                                  Row(
+                                    mainAxisAlignment: MainAxisAlignment.end,
+                                    children: [
+                                      Text(
+                                        '📖 Tüm Günlüğü Gör (${k.gunluk.length} Kayıt) ➔',
+                                        style: const TextStyle(
+                                          fontSize: 11,
+                                          fontWeight: FontWeight.bold,
+                                          color: Renkler.damga,
+                                        ),
+                                      ),
+                                    ],
+                                  ),
+                                ],
+                              ),
                             ),
                           ),
                   ),
