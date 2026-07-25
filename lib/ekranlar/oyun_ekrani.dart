@@ -330,27 +330,25 @@ class _OyunEkraniState extends State<OyunEkrani> {
                             children: [
                               if (padisah.portreGorsel != null) ...[
                                 Container(
-                                  width: 26,
-                                  height: 26,
+                                  width: 30,
+                                  height: 30,
                                   decoration: BoxDecoration(
                                     shape: BoxShape.circle,
                                     border: Border.all(color: Renkler.altin, width: 1.5),
+                                    boxShadow: const [
+                                      BoxShadow(
+                                        color: Colors.black26,
+                                        blurRadius: 2,
+                                        offset: Offset(1, 1),
+                                      ),
+                                    ],
                                     image: DecorationImage(
                                       image: AssetImage(padisah.portreGorsel!),
                                       fit: BoxFit.cover,
                                     ),
                                   ),
                                 ),
-                                const SizedBox(width: 6),
-                              ],
-                              if (padisah.tugraGorsel != null) ...[
-                                Image.asset(
-                                  padisah.tugraGorsel!,
-                                  height: 24,
-                                  fit: BoxFit.contain,
-                                  errorBuilder: (context, error, stackTrace) => const SizedBox.shrink(),
-                                ),
-                                const SizedBox(width: 6),
+                                const SizedBox(width: 8),
                               ],
                               Text(
                                 '👑 ${padisah.isim}',

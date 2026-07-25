@@ -39,7 +39,6 @@ flutter:
 
   assets:
     - assets/olaylar/
-    - assets/tugralar/
     - assets/padisahlar/
     - assets/muzikler/
     - assets/sesler/
