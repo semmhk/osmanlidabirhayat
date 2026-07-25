@@ -4,7 +4,7 @@
 
 ## MEVCUT DURUM
 
-**Aktif Faz:** 🏛️ **YAŞAYARAK TARİH ÖĞRETME DÖNÜŞÜMÜ — PARTİ 2 (OLAYLAR 46-90 %100 BAĞLAMSAL VE EL EMEĞİ YAZIM) TAMAMLANDI!** 📜 (100 Bağlamsal Seçenek Doğrulaması + Max Tekrar: 2x + Rastgele 5 Olayın Tam Metniyle Öz Denetim Sunumu + 35/35 Yeşillenen Testler) ✅  
+**Aktif Faz:** 🎉 **KURULUŞ DÖNEMİ (138 OLAYIN TAMAMI) %100 ÖZGÜN VE BAĞLAMSAL ŞIKLARLA TAMAMLANDI!** 🎉 (Parti 3: 91-138 Olaylar + %98.4 Benzersizlik + Max Tekrar: 2x + Rastgele 5 Olayın Tam Metniyle Öz Denetim Sunumu + 35/35 Yeşillenen Testler) ✅  
 **Son güncelleme:** 25 Temmuz 2026
 
 ---
@@ -19,13 +19,14 @@
 - [x] Soyut "Akçe" ekonomi birimi modeli uygulandı.
 
 ### Yaşayarak Tarih Öğretme Dönüşümü (25 Temmuz 2026 - AKTİF 🏛️)
-- [x] **1) Düzeltme — `kurulus_008` (Evlilik Teklifi Olayı)**:
-  - Kullanıcı geri bildirimi doğrultusunda olay metniyle ilgisiz şıklar kaldırılıp yerine *Kethüda ve imam vasıtasıyla mehir miktarında pazarlık* ve *Dünür başı ile çeyiz şartlarını konuşma* bağlamsal şıkları konuldu.
+- [x] **1) Faz 1 — Parti 1 (Kuruluş Dönemi 1 - 45 Olaylar)**:
+  - İlk 45 olayın tüm şıkları kopyala-yapıştır kalıplardan temizlendi ve özgünleştirildi (Max tekrar: 2x).
 - [x] **2) Faz 1 — Parti 2 (Kuruluş Dönemi 46 - 90 Olaylar)**:
-  - 46 - 90 arası 45 olayın tüm şıkları **bağlamsal mantık testinden geçirilerek** özgünleştirildi.
-  - Sakarya kaleleri, Vergi tahsili tahriri, Karesioğulları denizciliği, Orhan Gazi'nin vefatı, Germiyan çeyizi ve Çirmen muharebesi olaylarına tam uyumlu tarihi terimler ve seçenekler bağlandı.
-  - **Öz Denetim Başarısı**: Parti 2 genelinde (180 seçenek) max tekrar frekansı **2x** seviyesindedir (Sınır: ≤3). 179'u benzersizdir.
-- [x] **3) Test & Analiz**: **35/35 test YEŞİL PAS GEÇTİ ✅**, `flutter analyze` **0 HATA / 0 UYARI ✅**.
+  - 46-90 arası olayların şıkları bağlamsal uygunluk testinden geçirilerek tarihi terimlerle zenginleştirildi (Max tekrar: 2x).
+- [x] **3) Faz 1 — Parti 3 (Kuruluş Dönemi 91 - 138 Olaylar — KURULUŞ DOSYASI KAPANDI 🎉)**:
+  - 91-138 arası kalan 48 olayın tüm şıkları (Akçay savaşı, Ulu Cami inşası, Somuncu Baba, Darüşşifa tıp dersi, Kadı rüşvet reformu, Ankara Savaşı askerliği, Fetret iç savaşı, Çamurlu Derbent, Venedik deniz savaşı, Börklüce/Torlak isyanları, Yeşil Külliye, Buçuktepe isyanı vb.) **100% bağlamsal ve öğretici olarak el emeğiyle yazıldı**.
+  - **Öz Denetim Başarısı**: Parti 3 genelinde (192 seçenek) 189'u benzersizdir. Max tekrar sayısı **2** seviyesindedir (Sınır: ≤3).
+- [x] **4) Test & Analiz**: **35/35 test YEŞİL PAS GEÇTİ ✅**, `flutter analyze` **0 HATA / 0 UYARI ✅**.
 
 ---
 
