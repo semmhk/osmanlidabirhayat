@@ -110,10 +110,8 @@ class OyunMotoru {
     if (karakter.saglik <= 0) return 1.0;
 
     double yasRiski = 0.0;
-    if (karakter.yas <= 2) {
-      yasRiski = 0.06;
-    } else if (karakter.yas <= 5) {
-      yasRiski = 0.03;
+    if (karakter.yas <= 5) {
+      yasRiski = 0.01; // Düşük bebek ölüm riski (oyuncu başlatır başlatmaz ölmesin)
     } else if (karakter.yas >= 80) {
       yasRiski = 0.40;
     } else if (karakter.yas >= 70) {
@@ -276,19 +274,20 @@ class OyunMotoru {
       int agirlik;
 
       if (o.oncelikli) {
-        // Telafi durumu kontrolü
+        // Telafi durumu kontrolü (Bekar, Mesleksiz veya Çocuksuz)
         final bool meslekTelafi = (karakter.yas >= 18 && karakter.meslekZincirId == null);
-        final bool evlilikTelafi = (karakter.yas >= 28 && karakter.esAdi == null);
+        final bool evlilikTelafi = (karakter.yas >= 22 && karakter.esAdi == null);
+        final bool cocukTelafi = (karakter.esAdi != null && karakter.yas >= 25 && karakter.cocuklar.isEmpty);
 
-        if (meslekTelafi || evlilikTelafi) {
-          agirlik = 50; // Telafi ağırlığı (45 + 5)
+        if (meslekTelafi || evlilikTelafi || cocukTelafi) {
+          agirlik = 10000; // Telafi / Garanti ağırlığı (Tarihi olayları geçer)
         } else {
-          agirlik = 45; // Kilometre taşı ağırlığı
+          agirlik = 3500; // Standart kilometre taşı ağırlığı
         }
       } else if (o.id.startsWith('gundelik_')) {
         agirlik = 1; // Atmosferik gündelik olaylar
       } else {
-        agirlik = (karakter.yas >= 40) ? 1000 : 500; // Tarihi olaylara baskın öncelik
+        agirlik = (karakter.yas >= 40) ? 6000 : 3000; // Tarihi olaylar
       }
 
       // Terfi dönemi olayları
