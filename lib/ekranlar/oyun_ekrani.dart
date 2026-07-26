@@ -332,52 +332,81 @@ class _OyunEkraniState extends State<OyunEkrani> {
   }
 
   Widget _seceneklerListesiWidget(Olay olay) {
-    return Column(
-      children: olay.secenekler.map((secenek) {
-        final bool kilitli = !OyunMotoru.secenekUygunMu(widget.motor.karakter, secenek);
-        final bool secildi = _secilenSecenek == secenek;
+    final gorunurSecenekler = OyunMotoru.gorunurSecenekleriGetir(widget.motor.karakter, olay);
 
-        return Padding(
-          padding: const EdgeInsets.only(bottom: 8),
-          child: SizedBox(
-            width: double.infinity,
-            child: ElevatedButton(
-              style: ElevatedButton.styleFrom(
-                backgroundColor: secildi ? Stiller.bordo : (kilitli ? Stiller.koyuKahve : Stiller.ortaKahve),
-                padding: const EdgeInsets.symmetric(vertical: 12, horizontal: 14),
-                shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(8),
-                  side: BorderSide(
-                    color: kilitli ? Colors.grey.shade700 : Stiller.altinSarisi,
-                    width: 1.2,
-                  ),
-                ),
-                elevation: 4,
-              ),
-              onPressed: (_secilenSecenek != null || kilitli) ? null : () => _secenekSec(secenek),
-              child: Row(
-                children: [
-                  if (kilitli)
-                    const Padding(
-                      padding: EdgeInsets.only(right: 8),
-                      child: Icon(Icons.lock, color: Colors.grey, size: 16),
+    return Column(
+      children: [
+        ...gorunurSecenekler.map((secenek) {
+          final bool secildi = _secilenSecenek == secenek;
+
+          return Padding(
+            padding: const EdgeInsets.only(bottom: 8),
+            child: SizedBox(
+              width: double.infinity,
+              child: ElevatedButton(
+                style: ElevatedButton.styleFrom(
+                  backgroundColor: secildi ? Stiller.bordo : Stiller.ortaKahve,
+                  padding: const EdgeInsets.symmetric(vertical: 12, horizontal: 14),
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(8),
+                    side: BorderSide(
+                      color: secildi ? Stiller.parlakAltin : Stiller.altinSarisi,
+                      width: secildi ? 2.0 : 1.2,
                     ),
-                  Expanded(
-                    child: Text(
-                      secenek.metin,
-                      style: Stiller.govdeStili(
-                        fontSize: 13,
-                        color: kilitli ? Colors.grey : Stiller.parsomen,
-                        fontWeight: secildi ? FontWeight.bold : FontWeight.normal,
+                  ),
+                  elevation: secildi ? 6 : 4,
+                ),
+                onPressed: _secilenSecenek != null ? null : () => _secenekSec(secenek),
+                child: Row(
+                  children: [
+                    if (secildi)
+                      const Padding(
+                        padding: EdgeInsets.only(right: 8),
+                        child: Icon(Icons.check_circle, color: Stiller.parlakAltin, size: 18),
+                      ),
+                    Expanded(
+                      child: Text(
+                        secenek.metin,
+                        style: Stiller.govdeStili(
+                          fontSize: 13,
+                          color: Stiller.parsomen,
+                          fontWeight: secildi ? FontWeight.bold : FontWeight.normal,
+                        ),
                       ),
                     ),
-                  ),
-                ],
+                  ],
+                ),
               ),
             ),
+          );
+        }),
+        if (_secilenSecenek != null)
+          Container(
+            margin: const EdgeInsets.only(top: 4, bottom: 8),
+            padding: const EdgeInsets.symmetric(vertical: 10, horizontal: 12),
+            decoration: BoxDecoration(
+              color: Stiller.koyuKahve,
+              borderRadius: BorderRadius.circular(8),
+              border: Border.all(color: Stiller.parlakAltin, width: 1.5),
+            ),
+            child: Row(
+              children: [
+                const Icon(Icons.check_circle, color: Colors.greenAccent, size: 20),
+                const SizedBox(width: 10),
+                Expanded(
+                  child: Text(
+                    'Kararın kaydedildi — devam etmek için BİR YIL İLERLE\'ye bas',
+                    style: Stiller.govdeStili(
+                      fontSize: 12,
+                      color: Stiller.parsomen,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
+                ),
+              ],
+            ),
           ),
-        );
-      }).toList(),
+      ],
     );
   }
 
@@ -428,6 +457,8 @@ class _OyunEkraniState extends State<OyunEkrani> {
   }
 
   Widget _altEylemBariWidget() {
+    final bool ilerleVurgula = (_secilenSecenek != null || widget.motor.bekleyenOlay == null);
+
     return Container(
       padding: const EdgeInsets.symmetric(vertical: 8, horizontal: 12),
       decoration: BoxDecoration(
@@ -479,17 +510,31 @@ class _OyunEkraniState extends State<OyunEkrani> {
           Expanded(
             child: ElevatedButton.icon(
               style: ElevatedButton.styleFrom(
-                backgroundColor: Stiller.bordo,
-                foregroundColor: Stiller.parsomen,
+                backgroundColor: ilerleVurgula ? Stiller.parlakAltin : Stiller.bordo,
+                foregroundColor: ilerleVurgula ? Stiller.koyuKahve : Stiller.parsomen,
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(8),
-                  side: const BorderSide(color: Stiller.parlakAltin),
+                  side: BorderSide(
+                    color: ilerleVurgula ? Colors.white : Stiller.parlakAltin,
+                    width: ilerleVurgula ? 2.0 : 1.0,
+                  ),
                 ),
-                elevation: 4,
+                elevation: ilerleVurgula ? 8 : 4,
               ),
               onPressed: _sonrakiYilaGec,
-              icon: const Icon(Icons.calendar_month, color: Stiller.parlakAltin, size: 18),
-              label: Text('Yıl Atla', style: Stiller.baslikStili(fontSize: 12, color: Stiller.parsomen)),
+              icon: Icon(
+                ilerleVurgula ? Icons.play_arrow : Icons.calendar_month,
+                color: ilerleVurgula ? Stiller.koyuKahve : Stiller.parlakAltin,
+                size: 18,
+              ),
+              label: Text(
+                'BİR YIL İLERLE',
+                style: Stiller.baslikStili(
+                  fontSize: 11,
+                  color: ilerleVurgula ? Stiller.koyuKahve : Stiller.parsomen,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
             ),
           ),
         ],

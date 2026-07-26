@@ -424,6 +424,52 @@ class OyunMotoru {
     return true;
   }
 
+  /// Kilitli bir seçenek için kaç stat puanının eksik olduğunu hesaplar
+  static int secenekEksikStatPuani(Karakter k, Secenek s) {
+    int eksik = 0;
+    if (s.gerekliZeka != null && k.zeka < s.gerekliZeka!) {
+      eksik += (s.gerekliZeka! - k.zeka);
+    }
+    if (s.gerekliItibar != null && k.itibar < s.gerekliItibar!) {
+      eksik += (s.gerekliItibar! - k.itibar);
+    }
+    if (s.gerekliSaglik != null && k.saglik < s.gerekliSaglik!) {
+      eksik += (s.gerekliSaglik! - k.saglik);
+    }
+    if (s.gerekliMutluluk != null && k.mutluluk < s.gerekliMutluluk!) {
+      eksik += (s.gerekliMutluluk! - k.mutluluk);
+    }
+    if (s.gerekliPara != null && k.bakiye < s.gerekliPara!) {
+      eksik += (s.gerekliPara! - k.bakiye).ceil();
+    }
+    return eksik;
+  }
+
+  /// Oyuncuya gösterilecek şıkları getirir.
+  /// Kilitli şıklar gizlenir. Ancak en az 2 şık HER ZAMAN görünür olmalıdır (Çıkmaz Koruması).
+  static List<Secenek> gorunurSecenekleriGetir(Karakter k, Olay olay) {
+    if (olay.secenekler.isEmpty) return [];
+
+    final uygunlar = olay.secenekler.where((s) => secenekUygunMu(k, s)).toList();
+
+    if (uygunlar.length >= 2) {
+      return uygunlar;
+    }
+
+    // 2'den az uygun şık varsa en az eksiği olan kilitli şıklardan takviye yap
+    final kilitliler = olay.secenekler.where((s) => !secenekUygunMu(k, s)).toList();
+    kilitliler.sort((a, b) => secenekEksikStatPuani(k, a).compareTo(secenekEksikStatPuani(k, b)));
+
+    final sonuc = List<Secenek>.from(uygunlar);
+    for (final s in kilitliler) {
+      if (sonuc.length >= 2) break;
+      if (!sonuc.contains(s)) {
+        sonuc.add(s);
+      }
+    }
+    return sonuc;
+  }
+
   void secenekSec(Secenek secenek) {
     if (bekleyenOlay == null || karakter.olu) return;
 

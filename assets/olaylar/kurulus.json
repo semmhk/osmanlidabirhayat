@@ -165,7 +165,7 @@
         "sonuc": "Bursa'nın fethi münasebetiyle yapılan pilav ve şerbet ikramına katıldın."
       },
       {
-        "metin": "Mahallede kurulus_004 vesilesiyle yoksul Reayaya erzak ikram et",
+        "metin": "Mahallede bu vesileyle yoksul Reayaya erzak ikram et",
         "gerekli_para": 25,
         "etki": {
           "itibar": 8,
@@ -548,7 +548,7 @@
         "sonuc": "Dualarla şed kuşandın, kalfalıktan ustalığa terfi ettin."
       },
       {
-        "metin": "Mahallede kurulus_012 vesilesiyle yoksul Reayaya erzak ikram et",
+        "metin": "Mahallede bu vesileyle yoksul Reayaya erzak ikram et",
         "gerekli_para": 25,
         "etki": {
           "itibar": 8,
@@ -650,7 +650,7 @@
         "sonuc": "İmtihanı başarıyla geçip müderris yardımcısı (Danişmend) oldun."
       },
       {
-        "metin": "Mahallede kurulus_014 vesilesiyle yoksul Reayaya erzak ikram et",
+        "metin": "Mahallede bu vesileyle yoksul Reayaya erzak ikram et",
         "gerekli_para": 25,
         "etki": {
           "itibar": 8,
@@ -4285,7 +4285,7 @@
         "sonuc": "Kılıçla olduğu kadar akılla da toprak/nüfuz kazanılabiliyordu."
       },
       {
-        "metin": "Kendi dükkan ve aile işlerinle ilgilenmeyi sürdür (kurulus_091)",
+        "metin": "Kendi dükkan ve aile işlerinle ilgilenmeyi sürdür",
         "etki": {
           "mutluluk": 1
         },
@@ -4751,7 +4751,7 @@
         "sonuc": "Sınırlarımız her geçen yıl biraz daha genişliyordu."
       },
       {
-        "metin": "Kendi dükkan ve aile işlerinle ilgilenmeyi sürdür (kurulus_101)",
+        "metin": "Kendi dükkan ve aile işlerinle ilgilenmeyi sürdür",
         "etki": {
           "mutluluk": 1
         },
@@ -5555,7 +5555,7 @@
         "sonuc": "Bazıları sertlik isterken, hükümdar diplomasiyi tercih etti."
       },
       {
-        "metin": "Mahallede kurulus_118 vesilesiyle aşevinde çorba dağıt",
+        "metin": "Mahallede bu vesileyle aşevinde çorba dağıt",
         "gerekli_para": 25,
         "etki": {
           "itibar": 8,
@@ -5565,7 +5565,7 @@
         "sonuc": "Mahalledeki yoksul ailelere fırından sıcak ekmek dağıtıp dualarını aldın."
       },
       {
-        "metin": "Vakvakını bekleyip kurulus_118 gelişmesini temkinle takip et",
+        "metin": "Vaktini bekleyip gelişmeleri temkinle takip et",
         "etki": {
           "mutluluk": 2,
           "zeka": 3
@@ -5601,7 +5601,7 @@
         "sonuc": "Uzak adaların hikayeleri, gündelik hayatın akışını değiştirmiyordu."
       },
       {
-        "metin": "Mahallede kurulus_119 vesilesiyle aşevinde çorba dağıt",
+        "metin": "Mahallede bu vesileyle aşevinde çorba dağıt",
         "gerekli_para": 25,
         "etki": {
           "itibar": 8,
@@ -5611,7 +5611,7 @@
         "sonuc": "Mahalledeki yoksul ailelere fırından sıcak ekmek dağıtıp dualarını aldın."
       },
       {
-        "metin": "Vakvakını bekleyip kurulus_119 gelişmesini temkinle takip et",
+        "metin": "Vaktini bekleyip gelişmeleri temkinle takip et",
         "etki": {
           "mutluluk": 2,
           "zeka": 3
@@ -6107,7 +6107,7 @@
         "sonuc": "Osman Gazi'den beri süren rüya, adım adım gerçeğe dönüşüyordu."
       },
       {
-        "metin": "Kendi dükkan ve aile işlerinle ilgilenmeyi sürdür (kurulus_130)",
+        "metin": "Kendi dükkan ve aile işlerinle ilgilenmeyi sürdür",
         "etki": {
           "mutluluk": 1
         },
